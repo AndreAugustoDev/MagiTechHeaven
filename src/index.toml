@@ -7146,7 +7146,7 @@ hash = "55d83fb19ed6fb293d86eb42ae0d4e55007d27f3a14116923af779b41a8ecbe0"
 
 [[files]]
 file = "config/mods_optimizer/config.toml"
-hash = "c56030fccf4c0af5077c09e323b260d2bf84449295c8f7e968759cfd1c326093"
+hash = "feba0e8cf1d218cab164874d825b08c549650879e98dc6ebad0d1a777e9e5aff"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
