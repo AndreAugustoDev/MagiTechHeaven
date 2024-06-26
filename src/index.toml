@@ -8187,7 +8187,7 @@ metafile = true
 
 [[files]]
 file = "mods/ding.pw.toml"
-hash = "9a47ae3e125db2d8222de6b8e145678687201e500f9b788b9fd014619db091c3"
+hash = "d3a96f1019fcf89e138d3039329a2836257b030610028313d1574b5a0cd2930f"
 metafile = true
 
 [[files]]
@@ -8602,7 +8602,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "2bc2974c8a78fbb020c5ed1d568e2539d090803cedc1fe9ac3a64b9ba8e06cef"
+hash = "3bd9645ec1d096ce228a05b655bb0664e6ca13054493264bb4490305f4ea81bc"
 metafile = true
 
 [[files]]
