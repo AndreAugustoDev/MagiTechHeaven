@@ -7145,6 +7145,10 @@ file = "config/heracles/tutorial.html"
 hash = "55d83fb19ed6fb293d86eb42ae0d4e55007d27f3a14116923af779b41a8ecbe0"
 
 [[files]]
+file = "config/mods_optimizer/config.toml"
+hash = "c56030fccf4c0af5077c09e323b260d2bf84449295c8f7e968759cfd1c326093"
+
+[[files]]
 file = "config/openloader/advanced_options.json"
 hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
@@ -7303,10 +7307,6 @@ hash = "5cefb1744a3a24c1811a5bd55cedb9ee3e5aac91f1e13336add93836e02b65f0"
 [[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
 hash = "26ecd24f2ac5cb48faf939fcb658d7d2a05acdf7a8df7c207b9a0928e43a5cc1"
-
-[[files]]
-file = "configureddefaults/config/mods_optimizer/config.toml"
-hash = "c56030fccf4c0af5077c09e323b260d2bf84449295c8f7e968759cfd1c326093"
 
 [[files]]
 file = "configureddefaults/config/oculus.properties"
