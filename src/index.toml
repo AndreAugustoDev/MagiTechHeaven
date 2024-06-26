@@ -7278,19 +7278,19 @@ hash = "1460d8ad8608bc544649912bd0615623c6f5ebd82925646273e635bfcd7acafe"
 
 [[files]]
 file = "configureddefaults/config/integratedcrafting-common.toml"
-hash = "a90d49285344454e6a88f6f6e55976b6ce0023b9bf0ed5c8d350964c82c659ee"
+hash = "43ccdf5a5f3986a44c6a3bbc34bb089d0041281ce6f9a3cf0c663f960556385e"
 
 [[files]]
 file = "configureddefaults/config/integrateddynamics-common.toml"
-hash = "39a4684be1cbab9fc54320924179ec4f0ef94c81e362caa6a9b21510b9234406"
+hash = "e283c6c07cdec8c3e9c0995e7c72a550ba863995e599ec4953f11584395d2890"
 
 [[files]]
 file = "configureddefaults/config/integratedterminals-common.toml"
-hash = "3feee7485f36c524e48e26d747847a4aca86f923cc9dfa71945a9655f2a28aa1"
+hash = "8628e855eb4e99347fe66dcd5d8b0378933ff7e65bc58e1842935a08866a75e4"
 
 [[files]]
 file = "configureddefaults/config/integratedtunnels-common.toml"
-hash = "5539708c9a6b2744a18cc94eb9414626fbe018b0771afe99707c967d98dc4f4b"
+hash = "34129fd2070bd47709f1fbf5238aacc7b78f706b2ff82b5b94752c5c3b3ba1d2"
 
 [[files]]
 file = "configureddefaults/config/ironfurnaces-client.toml"
