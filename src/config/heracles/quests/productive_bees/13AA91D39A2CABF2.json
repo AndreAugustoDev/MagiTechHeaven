@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "tasks": {
+    "54CAFE539297E507": {
+      "type": "heracles:item",
+      "item": "minecraft:honeycomb"
+    },
+    "3440EB31A4FA230D": {
+      "type": "heracles:item",
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "rewards": {
+    "1FE7DFBA702FBE64": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:dandelion"
+      }
+    },
+    "4D695A49C4060AFD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "0E5E0909FA99CEA5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "718C0C8ABA0F5052": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honey_bottle"
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"54CAFE539297E507\" quest=\"13AA91D39A2CABF2\"/>",
+      "<task task=\"3440EB31A4FA230D\" quest=\"13AA91D39A2CABF2\"/>",
+      "<hr/>",
+      "Welcome to &&9Productive Bees&&r!",
+      "<br/>",
+      "To get started with the mod, you'll first need to find some Honeycombs and Honey Bottles! Find yourself a Beehive, and let the bees do their work for a little. Shearing it when it is full will give you honeycombs, and glass bottles will give you Honey Bottles!",
+      "<br/>",
+      "&&9Important Note&&r: With the bee quests requiring combs, the recipes will not be shown. Make sure to look them up in JEI if you need them!",
+      "<hr/>",
+      "<reward reward=\"1FE7DFBA702FBE64\" quest=\"13AA91D39A2CABF2\"/>",
+      "<reward reward=\"4D695A49C4060AFD\" quest=\"13AA91D39A2CABF2\"/>",
+      "<reward reward=\"0E5E0909FA99CEA5\" quest=\"13AA91D39A2CABF2\"/>",
+      "<reward reward=\"718C0C8ABA0F5052\" quest=\"13AA91D39A2CABF2\"/>"
+    ],
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          -192
+        ]
+      }
+    }
+  }
+}

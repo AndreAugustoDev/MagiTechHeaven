@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "3652E21F6AD6D33F": {
+      "type": "heracles:item",
+      "item": "create:white_sail"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:white_sail",
+    "description": [
+      "<task task=\"3652E21F6AD6D33F\" quest=\"76CBFA38D021AC95\"/>",
+      "<hr/>",
+      "Combine with &&n&&5Radial Chassis&&r to create a very powerful windmill that has high stress capacity."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:white_sail"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          -144
+        ]
+      }
+    }
+  }
+}

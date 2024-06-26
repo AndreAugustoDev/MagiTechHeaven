@@ -1,0 +1,13 @@
+name = "Diagonal Walls"
+filename = "DiagonalWalls-v8.0.3-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FQgc8dib/versions/BOsg18ZA/DiagonalWalls-v8.0.3-1.20.1-Forge.jar"
+hash-format = "sha1"
+hash = "9181dcfeb0508786d32436b7270a0293e146884e"
+
+[update]
+[update.modrinth]
+mod-id = "FQgc8dib"
+version = "BOsg18ZA"

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "212BB84583FE4B8B": {
+      "title": "Farmer Bees",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "09794E3BE0974561": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Farmer Bee",
+    "description": [
+      "<h2>Lumber + Rancher</h2>",
+      "<hr/>",
+      "<task task=\"212BB84583FE4B8B\" quest=\"4897C7BB3139C6C6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"09794E3BE0974561\" quest=\"4897C7BB3139C6C6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_hoe"
+    },
+    "subtitle": {
+      "text": "Lumber + Rancher"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          64,
+          512
+        ]
+      }
+    }
+  }
+}

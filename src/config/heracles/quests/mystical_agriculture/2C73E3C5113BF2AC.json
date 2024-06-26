@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "745EDBA102BB6C91": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:sheep_seeds"
+    }
+  },
+  "rewards": {
+    "1F4D5FA9F3AE591D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Beep Beep I'm a Sheep",
+    "description": [
+      "<task task=\"745EDBA102BB6C91\" quest=\"2C73E3C5113BF2AC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1F4D5FA9F3AE591D\" quest=\"2C73E3C5113BF2AC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:sheep_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -448,
+          48
+        ]
+      }
+    }
+  }
+}

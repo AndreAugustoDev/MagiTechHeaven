@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DDF87A1E5F5D009"
+  ],
+  "tasks": {
+    "1976C5DCCE8E84BD": {
+      "type": "heracles:item",
+      "item": "powah:crystal_blazing"
+    }
+  },
+  "rewards": {
+    "32888D2D1DEDA263": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Tier: §cBlazing§r",
+    "description": [
+      "<task task=\"1976C5DCCE8E84BD\" quest=\"562BD37539EE318E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"32888D2D1DEDA263\" quest=\"562BD37539EE318E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:crystal_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          464
+        ]
+      }
+    }
+  }
+}

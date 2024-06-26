@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "473DA14538E1B94C": {
+      "type": "heracles:item",
+      "item": "create:piston_extension_pole"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:piston_extension_pole",
+    "description": [
+      "<task task=\"473DA14538E1B94C\" quest=\"47897D827C50629D\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:piston_extension_pole"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          -32
+        ]
+      }
+    }
+  }
+}

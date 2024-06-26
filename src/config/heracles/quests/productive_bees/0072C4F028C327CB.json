@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "6B7DB7E426D328BC": {
+      "title": "Blazing Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:blazing"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "05136B66D31720B1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Blazing Bee",
+    "description": [
+      "<h2>Magmatic + Nomad</h2>",
+      "<hr/>",
+      "<task task=\"6B7DB7E426D328BC\" quest=\"0072C4F028C327CB\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"05136B66D31720B1\" quest=\"0072C4F028C327CB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blaze_rod"
+    },
+    "subtitle": {
+      "text": "Magmatic + Nomad"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -32,
+          336
+        ]
+      }
+    }
+  }
+}

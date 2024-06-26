@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4B51189C36B8D291"
+  ],
+  "tasks": {
+    "4CEA3279AF0BEE01": {
+      "type": "heracles:item",
+      "item": "bloodmagic:reinforcedslate"
+    }
+  },
+  "rewards": {
+    "448B572D6386F058": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:reinforcedslate",
+    "description": [
+      "<task task=\"4CEA3279AF0BEE01\" quest=\"2C3CA7B9D1A7DC47\"/>",
+      "<hr/>",
+      "With our Altar now at Tier 2, we can make even better Runes. We'll need some Reinforced slate to continue our journey in Blood Magic, including doing some Rituals. ",
+      "<hr/>",
+      "<reward reward=\"448B572D6386F058\" quest=\"2C3CA7B9D1A7DC47\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:reinforcedslate"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -704,
+          -32
+        ]
+      }
+    }
+  }
+}

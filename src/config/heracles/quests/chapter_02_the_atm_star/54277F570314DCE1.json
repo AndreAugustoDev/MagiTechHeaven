@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "04C33E2E80CD12DB": {
+      "type": "heracles:item",
+      "item": "bigreactors:insanite_block",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"04C33E2E80CD12DB\" quest=\"54277F570314DCE1\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.reactors",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"3C78926E5D301BA0\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          192,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:insanite_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.reactors"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "464D0C17601E8A2B"
+  ],
+  "tasks": {
+    "775BD503F830BB6C": {
+      "type": "heracles:item",
+      "item": "botania:creative_pool",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"775BD503F830BB6C\" quest=\"5C7B81756CA58056\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3B5F42272CCB9F9D\" quest=\"5C7B81756CA58056\"/>"
+    ],
+    "groups": {
+      "§aChapter 3§r: §dCreative": {
+        "position": [
+          -64,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:creative_pool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter3.mana"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

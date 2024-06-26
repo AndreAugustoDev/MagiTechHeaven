@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "0378C9FD1C97FC8E": {
+      "type": "heracles:item",
+      "item": "silentgear:excavator_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "165EDC4330665C22": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.excavator"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.excavator</translate></h2>",
+      "<hr/>",
+      "<task task=\"0378C9FD1C97FC8E\" quest=\"3F39BEB788175CEF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"165EDC4330665C22\" quest=\"3F39BEB788175CEF\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -160,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:excavator_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.excavator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

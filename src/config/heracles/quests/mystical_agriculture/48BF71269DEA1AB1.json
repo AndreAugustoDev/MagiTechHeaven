@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "7F969AA823C4157B": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_farmland"
+    }
+  },
+  "rewards": {
+    "44E76AB6B7AC8D9F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:supremium_farmland",
+    "description": [
+      "<task task=\"7F969AA823C4157B\" quest=\"48BF71269DEA1AB1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"44E76AB6B7AC8D9F\" quest=\"48BF71269DEA1AB1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_farmland"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          16,
+          -96
+        ]
+      }
+    }
+  }
+}

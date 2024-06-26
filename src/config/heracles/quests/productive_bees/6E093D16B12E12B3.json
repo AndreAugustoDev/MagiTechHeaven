@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "471F062B01D0DDA1": {
+      "title": "Quarry Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5865B75ED379363E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Quarry Bee",
+    "description": [
+      "<h2>Chocolate Mining + Digger</h2>",
+      "<hr/>",
+      "<task task=\"471F062B01D0DDA1\" quest=\"6E093D16B12E12B3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5865B75ED379363E\" quest=\"6E093D16B12E12B3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stone"
+    },
+    "subtitle": {
+      "text": "Chocolate Mining + Digger"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          512
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "1674E46511507301": {
+      "type": "heracles:item",
+      "item": "create:encased_chain_drive"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:encased_chain_drive",
+    "description": [
+      "<task task=\"1674E46511507301\" quest=\"7F8E50FA436DB4E6\"/>",
+      "<hr/>",
+      "The &&n&&5Chain Drive&&r can be linked with others in any direction as long as they are touching. They will relay the rotation sideways."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:encased_chain_drive"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          160
+        ]
+      }
+    }
+  }
+}

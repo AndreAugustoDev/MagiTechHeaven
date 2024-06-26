@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57282D7E31EE61EE",
+    "145C8235BCCB9BA8"
+  ],
+  "tasks": {
+    "5E80B6869FE42D9F": {
+      "type": "heracles:item",
+      "item": "occultism:iesnium_block"
+    },
+    "73801C9489E0E797": {
+      "type": "heracles:item",
+      "item": "occultism:book_of_binding_bound_marid",
+      "nbt": {
+        "spiritName": "Holmurkyr"
+      }
+    },
+    "5C0CF601CE8BDD2C": {
+      "title": "Observe a &dMarid&r Demon",
+      "icon": {
+        "type": "heracles:item",
+        "item": "ftbquests:custom_icon"
+      },
+      "type": "heracles:entity_interaction",
+      "entity": "occultism:marid"
+    }
+  },
+  "rewards": {
+    "0B9447953960187F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The §5Marid Crusher§r",
+    "description": [
+      "<h2>The Fastest Crushing On This Side of the Mississippi</h2>",
+      "<hr/>",
+      "<task task=\"5E80B6869FE42D9F\" quest=\"676BC41C19BEF1FC\"/>",
+      "<task task=\"73801C9489E0E797\" quest=\"676BC41C19BEF1FC\"/>",
+      "<task task=\"5C0CF601CE8BDD2C\" quest=\"676BC41C19BEF1FC\"/>",
+      "<hr/>",
+      "That first Foliot Demon was cool, but what if I told you that you could summon a demon that gives you 6 dusts per raw ore it crushes?",
+      "<br/>",
+      "The &&5Marid Crusher&&r does exactly that. To summon them, you'll need to use the &&cFatma's Incentivized Attraction&&r pentacle. This is an advanced ritual, requiring Red, White, and Gold Chalk as well as a lot of space.",
+      "<hr/>",
+      "<reward reward=\"0B9447953960187F\" quest=\"676BC41C19BEF1FC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:iesnium_block"
+    },
+    "subtitle": {
+      "text": "The Fastest Crushing On This Side of the Mississippi"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          496,
+          304
+        ]
+      }
+    }
+  }
+}

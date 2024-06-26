@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0B68E3C046C82860"
+  ],
+  "tasks": {
+    "3CCC73D361A4A5D6": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mystical_dagger"
+    }
+  },
+  "rewards": {
+    "26033F1665B5FFD2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:mystical_dagger",
+    "description": [
+      "<task task=\"3CCC73D361A4A5D6\" quest=\"09CCC797BF15ADFC\"/>",
+      "<hr/>",
+      "The Mystical Dagger is used to break Dragon Heads down to Dragon Scales.",
+      "<br/>",
+      "When used to kill mobs, it will fill &&aTest Tubes&&r with &&cBlood&&r.",
+      "<hr/>",
+      "<reward reward=\"26033F1665B5FFD2\" quest=\"09CCC797BF15ADFC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mystical_dagger"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          16,
+          192
+        ]
+      }
+    }
+  }
+}

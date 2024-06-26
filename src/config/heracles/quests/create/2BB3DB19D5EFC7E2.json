@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "54F14BE619292D1D": {
+      "type": "heracles:item",
+      "item": "create:clutch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:clutch",
+    "description": [
+      "<task task=\"54F14BE619292D1D\" quest=\"2BB3DB19D5EFC7E2\"/>",
+      "<hr/>",
+      "The &&n&&5Clutch&&r will stop any rotation if a redstone signal is applied."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:clutch"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          112
+        ]
+      }
+    }
+  }
+}

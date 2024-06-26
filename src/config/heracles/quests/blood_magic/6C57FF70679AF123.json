@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CA3AE708F46CEBF"
+  ],
+  "tasks": {
+    "73F90730D99D6384": {
+      "type": "heracles:item",
+      "item": "bloodmagic:chargingrune"
+    }
+  },
+  "rewards": {
+    "5E890AEA3E9B9188": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:chargingrune",
+    "description": [
+      "<task task=\"73F90730D99D6384\" quest=\"6C57FF70679AF123\"/>",
+      "<hr/>",
+      "This rune creates a 1000LP internal buffer whenever the Altar is not being used for crafting or filling blood orbs.",
+      "<br/>",
+      "Whenever an item is placed inside of the altar, it will instantly consume the stored charge and apply it to the item.",
+      "<br/>",
+      "No more waiting once placed!",
+      "<hr/>",
+      "<reward reward=\"5E890AEA3E9B9188\" quest=\"6C57FF70679AF123\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:chargingrune"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -448,
+          -128
+        ]
+      }
+    }
+  }
+}

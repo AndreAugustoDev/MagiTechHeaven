@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "72CE838EFDDE6479": {
+      "type": "heracles:item",
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "rewards": {
+    "553CF82B4CDE5085": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone"
+      }
+    },
+    "7A2076948F93E6D6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:alloy_infused",
+    "description": [
+      "<h2>The Basic Alloy for Crafting Items</h2>",
+      "<hr/>",
+      "<task task=\"72CE838EFDDE6479\" quest=\"166971866A9234C7\"/>",
+      "<hr/>",
+      "Infusing Iron with Redstone in a Metallurgic Infuser will get you one of these.",
+      "<hr/>",
+      "<reward reward=\"553CF82B4CDE5085\" quest=\"166971866A9234C7\"/>",
+      "<reward reward=\"7A2076948F93E6D6\" quest=\"166971866A9234C7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:alloy_infused"
+    },
+    "subtitle": {
+      "text": "The Basic Alloy for Crafting Items"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -240,
+          -112
+        ]
+      }
+    }
+  }
+}

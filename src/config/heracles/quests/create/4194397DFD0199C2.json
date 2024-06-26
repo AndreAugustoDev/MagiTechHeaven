@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DA6B8B2DCC97809"
+  ],
+  "tasks": {
+    "65C6E83AF17405E0": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:mechanical_crafter",
+    "description": [
+      "<task task=\"65C6E83AF17405E0\" quest=\"4194397DFD0199C2\"/>",
+      "<hr/>",
+      "The &&n&&5Crafters&&r can be connected to each other to form a huge in-world crafting table.",
+      "<br/>",
+      "The arrows on the Crafters must eventually converge on the same Crafter to finish the recipe. You can turn the arrows by R-Clicking it with the Wrench."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          384,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "7D38BC3DB3406F51"
+  ],
+  "tasks": {},
+  "rewards": {
+    "19BC35D05B4369D3": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"73F491DD08E2D06C\" quest=\"18F88DE24EFBA7A7\"/>",
+      "<task task=\"01BFB9EB89580A42\" quest=\"18F88DE24EFBA7A7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.furnace",
+      "<br/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"19BC35D05B4369D3\" quest=\"18F88DE24EFBA7A7\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          96,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.furnace"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

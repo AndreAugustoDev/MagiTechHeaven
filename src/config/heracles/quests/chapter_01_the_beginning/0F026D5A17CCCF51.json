@@ -1,0 +1,104 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2EC9668ED4EA47CB",
+    "1E1EB7DC19DDCFB7",
+    "5E799B92358A8732"
+  ],
+  "tasks": {
+    "0AFA64F1025569A2": {
+      "title": "&dNetherite&r &aItems&r",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_sword",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_pickaxe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_shovel",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_axe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_helmet",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_chestplate",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_leggings",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_boots",
+            "tag": {
+              "Damage": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "58E67AE81201E3EA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§dNetherite§r §aTools and Armor§r",
+    "description": [
+      "<task task=\"0AFA64F1025569A2\" quest=\"0F026D5A17CCCF51\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.netherite_tools</translate></p>",
+      "<hr/>",
+      "<reward reward=\"58E67AE81201E3EA\" quest=\"0F026D5A17CCCF51\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          336,
+          240
+        ]
+      }
+    }
+  }
+}

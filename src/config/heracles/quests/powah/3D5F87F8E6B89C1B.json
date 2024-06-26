@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"7071C57ACD94C9F5\" quest=\"3D5F87F8E6B89C1B\"/>",
+      "<hr/>",
+      "The &&7Furnator&&r will burn items like coal and wood to produce FE.",
+      "<hr/>",
+      "<reward reward=\"1CEDF4B842E6FFAD\" quest=\"3D5F87F8E6B89C1B\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          144,
+          368
+        ]
+      }
+    },
+    "icon": {
+      "item": "powah:furnator_starter",
+      "type": "heracles:item"
+    },
+    "title": "Acquire: powah:furnator_starter"
+  },
+  "rewards": {
+    "1CEDF4B842E6FFAD": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "7071C57ACD94C9F5": {
+      "item": "powah:furnator_starter",
+      "type": "heracles:item"
+    }
+  }
+}

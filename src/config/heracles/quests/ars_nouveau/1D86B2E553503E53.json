@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "259C1D84AD3996AF": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:dominion_wand"
+    }
+  },
+  "rewards": {
+    "0B37B52A6282A975": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Summoning Help!",
+    "description": [
+      "<task task=\"259C1D84AD3996AF\" quest=\"1D86B2E553503E53\"/>",
+      "<hr/>",
+      "The Dominion Wand is used for controlling the creatures you might encounter in the world! Each being responds differently to the wand, so make sure to read up in the Worn Notebook!",
+      "<hr/>",
+      "<reward reward=\"0B37B52A6282A975\" quest=\"1D86B2E553503E53\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:dominion_wand"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          336,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "20D72B07EE11DDCB": {
+      "type": "heracles:item",
+      "item": "minecraft:quartz",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0D2D3CC89ECD4C53": {
+      "item": {
+        "id": "minecraft:quartz",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"20D72B07EE11DDCB\" quest=\"167E1474644C9908\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.quartz</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0D2D3CC89ECD4C53\" quest=\"167E1474644C9908\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          96,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:quartz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.quartz"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

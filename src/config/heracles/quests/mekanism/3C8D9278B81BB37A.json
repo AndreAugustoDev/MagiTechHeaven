@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "166971866A9234C7"
+  ],
+  "tasks": {
+    "46C5C0922839BDCA": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_speed"
+    }
+  },
+  "rewards": {
+    "05078555F0B50C46": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:upgrade_speed",
+    "description": [
+      "<task task=\"46C5C0922839BDCA\" quest=\"3C8D9278B81BB37A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"05078555F0B50C46\" quest=\"3C8D9278B81BB37A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_speed"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          16,
+          304
+        ]
+      }
+    }
+  }
+}

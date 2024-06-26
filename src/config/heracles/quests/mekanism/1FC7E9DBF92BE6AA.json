@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "79EF9001D76FD91D": {
+      "type": "heracles:item",
+      "item": "mekanism:energy_tablet"
+    }
+  },
+  "rewards": {
+    "118BA15EE6BE785F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:energy_tablet",
+    "description": [
+      "<h2>Portable Battery Pack</h2>",
+      "<hr/>",
+      "<task task=\"79EF9001D76FD91D\" quest=\"1FC7E9DBF92BE6AA\"/>",
+      "<hr/>",
+      "This item is used to store power, and functions like a portable battery pack.",
+      "<br/>",
+      "It is also an important crafting item in Mekanism.",
+      "<hr/>",
+      "<reward reward=\"118BA15EE6BE785F\" quest=\"1FC7E9DBF92BE6AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:energy_tablet"
+    },
+    "subtitle": {
+      "text": "Portable Battery Pack"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -288,
+          80
+        ]
+      }
+    }
+  }
+}

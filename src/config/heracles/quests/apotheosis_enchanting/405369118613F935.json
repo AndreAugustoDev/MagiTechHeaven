@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "62B2C1A24AE245EA"
+  ],
+  "tasks": {},
+  "rewards": {
+    "73B27D65679D4399": {
+      "item": {
+        "id": "minecraft:sculk",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"47499C2393356F89\" quest=\"405369118613F935\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.echo_deep</translate></p>",
+      "<hr/>",
+      "<reward reward=\"73B27D65679D4399\" quest=\"405369118613F935\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          224,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.echo_deep"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

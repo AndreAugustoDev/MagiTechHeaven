@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "03A3CD871B01984F": {
+      "type": "heracles:item",
+      "item": "productivebees:stone_nest"
+    }
+  },
+  "rewards": {
+    "2FAF74F05A3FB855": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:stone_nest",
+    "description": [
+      "<h2>Lures Bees in any Overworld Biome</h2>",
+      "<hr/>",
+      "<task task=\"03A3CD871B01984F\" quest=\"369D3AF332181DA8\"/>",
+      "<hr/>",
+      "The Stone Nest can be placed in any overworld biome to lure in a Mason Bee or Digger Bee.",
+      "<hr/>",
+      "<reward reward=\"2FAF74F05A3FB855\" quest=\"369D3AF332181DA8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:stone_nest"
+    },
+    "subtitle": {
+      "text": "Lures Bees in any Overworld Biome"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          176
+        ]
+      }
+    }
+  }
+}

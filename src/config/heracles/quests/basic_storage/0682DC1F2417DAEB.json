@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "tasks": {
+    "4B299AC7F0233132": {
+      "title": "Storage Drawers",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "6E8586BE04F26897": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 5
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.functional",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.functional</translate></h2>",
+      "<hr/>",
+      "<task task=\"4B299AC7F0233132\" quest=\"0682DC1F2417DAEB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.functional</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6E8586BE04F26897\" quest=\"0682DC1F2417DAEB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:storage_controller"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.functional"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -360,
+          -160
+        ]
+      }
+    }
+  }
+}

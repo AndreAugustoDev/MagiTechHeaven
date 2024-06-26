@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09DECE4E7977D852",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "4FF7B35FC042EDA3": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_blazing"
+    }
+  },
+  "rewards": {
+    "5C502AD7902DECF1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energizing_rod_blazing",
+    "description": [
+      "<task task=\"4FF7B35FC042EDA3\" quest=\"172B0296F87D6725\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C502AD7902DECF1\" quest=\"172B0296F87D6725\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -144,
+          464
+        ]
+      }
+    }
+  }
+}

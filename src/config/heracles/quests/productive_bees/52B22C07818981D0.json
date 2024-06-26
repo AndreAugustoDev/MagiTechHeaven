@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "4FCEB24FC83D22A9": {
+      "title": "Constantan Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:constantan"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "3EECD8A6FAE44C39": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Constantan Bee",
+    "description": [
+      "<h2>Copper + Nickel</h2>",
+      "<hr/>",
+      "<task task=\"4FCEB24FC83D22A9\" quest=\"52B22C07818981D0\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"3EECD8A6FAE44C39\" quest=\"52B22C07818981D0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:constantan_ingot"
+    },
+    "subtitle": {
+      "text": "Copper + Nickel"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          64,
+          448
+        ]
+      }
+    }
+  }
+}

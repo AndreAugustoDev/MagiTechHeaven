@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "139DDE68B8C4A5C6": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_fertility"
+    }
+  },
+  "rewards": {
+    "07C8F015CE9BD807": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_fertility",
+    "description": [
+      "<task task=\"139DDE68B8C4A5C6\" quest=\"08803844E52178AA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"07C8F015CE9BD807\" quest=\"08803844E52178AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_fertility"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          208,
+          160
+        ]
+      }
+    }
+  }
+}

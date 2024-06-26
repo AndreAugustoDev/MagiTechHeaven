@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DDF87A1E5F5D009",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "08187D03C13CC05A": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_basic"
+    }
+  },
+  "rewards": {
+    "13014E6A147F6EBC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_cell_basic",
+    "description": [
+      "<task task=\"08187D03C13CC05A\" quest=\"0C481BA4C1CC0237\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"13014E6A147F6EBC\" quest=\"0C481BA4C1CC0237\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          400
+        ]
+      }
+    }
+  }
+}

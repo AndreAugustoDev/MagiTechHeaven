@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "632F557D97247215": {
+      "title": "Collector Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1218C1901D969C1D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Collector Bee",
+    "description": [
+      "<h2>Feed a Vanilla Bee a Hopper!</h2>",
+      "<hr/>",
+      "<task task=\"632F557D97247215\" quest=\"094D28B7A0170039\"/>",
+      "<hr/>",
+      "Will pick up items and bring them back to its hive.",
+      "<br/>",
+      "Not as good as a Hoarder Bee.",
+      "<hr/>",
+      "<reward reward=\"1218C1901D969C1D\" quest=\"094D28B7A0170039\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:hopper"
+    },
+    "subtitle": {
+      "text": "Feed a Vanilla Bee a Hopper!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          192,
+          544
+        ]
+      }
+    }
+  }
+}

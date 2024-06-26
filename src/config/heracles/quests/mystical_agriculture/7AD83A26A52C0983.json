@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "202B1F54D3F06DAB"
+  ],
+  "tasks": {
+    "2B334E5C8E52BAF5": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:creative_essence"
+    }
+  },
+  "rewards": {
+    "0353EB8E142438F7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:creative_essence",
+    "description": [
+      "<task task=\"2B334E5C8E52BAF5\" quest=\"7AD83A26A52C0983\"/>",
+      "<hr/>",
+      "This special essence is used for making the &&6ATM Star&&r.",
+      "<hr/>",
+      "<reward reward=\"0353EB8E142438F7\" quest=\"7AD83A26A52C0983\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          224,
+          -48
+        ]
+      }
+    }
+  }
+}

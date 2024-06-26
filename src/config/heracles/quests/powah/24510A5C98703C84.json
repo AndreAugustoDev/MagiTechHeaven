@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "5526935A94E25966": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_nitro"
+    }
+  },
+  "rewards": {
+    "57B8413287334672": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_discharger_nitro",
+    "description": [
+      "<task task=\"5526935A94E25966\" quest=\"24510A5C98703C84\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"57B8413287334672\" quest=\"24510A5C98703C84\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -272,
+          560
+        ]
+      }
+    }
+  }
+}

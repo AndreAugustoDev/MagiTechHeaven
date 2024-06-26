@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26",
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "3B9B92618158074B": {
+      "type": "heracles:item",
+      "item": "botania:lens_tripwire"
+    }
+  },
+  "rewards": {
+    "34B66471DE4B62D4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_tripwire",
+    "description": [
+      "<task task=\"3B9B92618158074B\" quest=\"0E7E559F2750F7D3\"/>",
+      "<hr/>",
+      "Using this on a Spreader will cause it to fire a Mana Burst only if it can hit a mob or player.",
+      "<hr/>",
+      "<reward reward=\"34B66471DE4B62D4\" quest=\"0E7E559F2750F7D3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_tripwire"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          432
+        ]
+      }
+    }
+  }
+}

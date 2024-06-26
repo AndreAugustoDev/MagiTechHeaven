@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "6A393C7A24899E3E"
+  ],
+  "tasks": {
+    "53E64C8F26258C07": {
+      "type": "heracles:item",
+      "item": "silentgear:glowing_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "64AC530B334F9AD3": {
+      "item": {
+        "id": "silentgear:glowing_dust",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "5A302D12635EF77B": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"53E64C8F26258C07\" quest=\"6B78378BC8036227\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"64AC530B334F9AD3\" quest=\"6B78378BC8036227\"/>",
+      "<reward reward=\"5A302D12635EF77B\" quest=\"6B78378BC8036227\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          240,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:glowing_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.tier1GC"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

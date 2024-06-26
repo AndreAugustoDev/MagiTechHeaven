@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "0A1C2A7A8617D3E4"
+  ],
+  "tasks": {
+    "03C7F9CB0DDB2D9B": {
+      "type": "heracles:item",
+      "item": "minecraft:bread",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "382B2B8DF207F44F": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "1C449D2589FD1836": {
+      "item": {
+        "id": "croptopia:toast",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.bread"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.bread</translate></h2>",
+      "<hr/>",
+      "<task task=\"03C7F9CB0DDB2D9B\" quest=\"659A903F97F93BE2\"/>",
+      "<hr/>",
+      "<reward reward=\"1C449D2589FD1836\" quest=\"659A903F97F93BE2\"/>",
+      "<reward reward=\"382B2B8DF207F44F\" quest=\"659A903F97F93BE2\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -208,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bread",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.bread"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

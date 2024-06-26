@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2214B7DCE4075A02"
+  ],
+  "tasks": {
+    "600A5AEE6C546B4C": {
+      "type": "heracles:item",
+      "item": "bloodmagic:etherealslate"
+    }
+  },
+  "rewards": {
+    "493159D4211DD8E5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 500
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:etherealslate",
+    "description": [
+      "<task task=\"600A5AEE6C546B4C\" quest=\"396AA75774059D0B\"/>",
+      "<hr/>",
+      "You are too powerful.",
+      "<hr/>",
+      "<reward reward=\"493159D4211DD8E5\" quest=\"396AA75774059D0B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:etherealslate"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -304,
+          -32
+        ]
+      }
+    }
+  }
+}

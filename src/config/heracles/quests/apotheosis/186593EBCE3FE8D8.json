@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "5E1D4330184C7E38": {
+      "type": "heracles:item",
+      "item": "minecraft:blaze_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0CFDDB194610C1FE": {
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E1D4330184C7E38\" quest=\"186593EBCE3FE8D8\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.rods</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0CFDDB194610C1FE\" quest=\"186593EBCE3FE8D8\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          144,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.rods"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

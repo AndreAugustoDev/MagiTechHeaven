@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "2FDD86AE03028860": {
+      "type": "heracles:item",
+      "item": "botania:rafflowsia"
+    }
+  },
+  "rewards": {
+    "2D82D35167A0B822": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:rafflowsia",
+    "description": [
+      "<task task=\"2FDD86AE03028860\" quest=\"2E70AA1EAFA36A82\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D82D35167A0B822\" quest=\"2E70AA1EAFA36A82\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:rafflowsia"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -96,
+          208
+        ]
+      }
+    }
+  }
+}

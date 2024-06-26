@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "71F08CAC734CFABA": {
+      "type": "heracles:item",
+      "item": "silentgear:shears_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "430D04B092F804E9": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"71F08CAC734CFABA\" quest=\"67216EC5274F08B9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"430D04B092F804E9\" quest=\"67216EC5274F08B9\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -96,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:shears_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.shears"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3514E9C1A8C7400C"
+  ],
+  "tasks": {
+    "720D4B73408CD1F0": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_detector"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:mob_detector",
+    "description": [
+      "<task task=\"720D4B73408CD1F0\" quest=\"1684D52FDAAC894B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_detector"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          112,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "64D0E66CB4FBEC82"
+  ],
+  "tasks": {
+    "0BCFC6422BBF539C": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:apprentice_spell_book"
+    }
+  },
+  "rewards": {
+    "0BC389F7E63D4F9F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:apprentice_spell_book",
+    "description": [
+      "<task task=\"0BCFC6422BBF539C\" quest=\"0D330FAD6C993DBC\"/>",
+      "<hr/>",
+      "This is the next upgrade to your Spellbook!",
+      "<br/>",
+      "This will increase your overall mana and mana regen, as well as allowing you to create and use Tier 2 Glyphs.",
+      "<hr/>",
+      "<reward reward=\"0BC389F7E63D4F9F\" quest=\"0D330FAD6C993DBC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:apprentice_spell_book"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          48
+        ]
+      }
+    }
+  }
+}

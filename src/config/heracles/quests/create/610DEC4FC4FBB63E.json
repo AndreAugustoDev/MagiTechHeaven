@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "57A7A5C79389A96A"
+  ],
+  "tasks": {
+    "3BC40DF423178031": {
+      "type": "heracles:item",
+      "item": "create:polished_rose_quartz",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "43C2760F8FDD84CA": {
+      "item": {
+        "id": "create:sand_paper",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3BC40DF423178031\" quest=\"610DEC4FC4FBB63E\"/>",
+      "<hr/>",
+      "You can create this by making Rose Crystals and Sand Paper.",
+      "<br/>",
+      "You can either hold the crystals in your off-hand, or throw them on the ground and then R-Click while holding Sand Paper.",
+      "<hr/>",
+      "<reward reward=\"43C2760F8FDD84CA\" quest=\"610DEC4FC4FBB63E\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -80,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:polished_rose_quartz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:polished_rose_quartz"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

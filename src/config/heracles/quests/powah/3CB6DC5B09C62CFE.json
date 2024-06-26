@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7D52DD751DDADA1B",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "185C323B23AA0983": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_starter"
+    }
+  },
+  "rewards": {
+    "112DC3F34CCB36B2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_gate_starter",
+    "description": [
+      "<task task=\"185C323B23AA0983\" quest=\"3CB6DC5B09C62CFE\"/>",
+      "<hr/>",
+      "&&5Ender Gates&&r are used to transfer power wirelessly to and from an adjacent block into the &&7Ender Network&&r.",
+      "<br/>",
+      "Think of these like wireless access points to your wireless network of power.",
+      "<br/>",
+      "Note: You can only add &&apower storage capacity&&r using an Ender Cell.",
+      "<hr/>",
+      "<reward reward=\"112DC3F34CCB36B2\" quest=\"3CB6DC5B09C62CFE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          64,
+          368
+        ]
+      }
+    }
+  }
+}

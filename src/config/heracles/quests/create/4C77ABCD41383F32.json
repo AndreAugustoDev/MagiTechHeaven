@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C2309DB4B890E71"
+  ],
+  "tasks": {
+    "2E9A4E9BFFC10819": {
+      "type": "heracles:item",
+      "item": "create:blaze_cake"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:blaze_cake",
+    "description": [
+      "<task task=\"2E9A4E9BFFC10819\" quest=\"4C77ABCD41383F32\"/>",
+      "<hr/>",
+      "The &&n&&5Blaze Cake&&r is used to Super-Heat the Blaze Burner for crafting the Chromatic Compound."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:blaze_cake"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          448,
+          0
+        ]
+      }
+    }
+  }
+}

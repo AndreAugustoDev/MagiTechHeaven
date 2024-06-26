@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0631F054A9B97A40"
+  ],
+  "tasks": {
+    "04EDE2305855A16B": {
+      "type": "heracles:item",
+      "item": "botania:aura_ring"
+    }
+  },
+  "rewards": {
+    "4B467BD98812A91F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:aura_ring",
+    "description": [
+      "<task task=\"04EDE2305855A16B\" quest=\"6A56574BC562B227\"/>",
+      "<hr/>",
+      "When equipped, the &&9Band of Aura&&r will slowly generate a trickle of Mana over time, and stores it into Mana-containing items within your inventory.",
+      "<hr/>",
+      "<reward reward=\"4B467BD98812A91F\" quest=\"6A56574BC562B227\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:aura_ring"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          432,
+          176
+        ]
+      }
+    }
+  }
+}

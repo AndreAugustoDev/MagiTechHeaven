@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "tasks": {
+    "159251A23C881D83": {
+      "type": "heracles:item",
+      "item": "alltheores:uranium_ingot",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "55FBD6A7422569AB": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"159251A23C881D83\" quest=\"14E5349DD740D026\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.fueling_passive_reactor</translate></p>",
+      "<br/>",
+      "{image:atm:textures/questpics/extremereactors/importexample.png width:150 height:150 align:1}",
+      "<hr/>",
+      "<reward reward=\"55FBD6A7422569AB\" quest=\"14E5349DD740D026\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -240,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "alltheores:uranium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.fueling_passive_reactor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

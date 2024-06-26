@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C04B3BA507D5673"
+  ],
+  "tasks": {
+    "5639418C0364E5A1": {
+      "type": "heracles:item",
+      "item": "ae2:molecular_assembler"
+    }
+  },
+  "rewards": {
+    "59D9A5E482B1D2A6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.assembler",
+    "description": [
+      "<task task=\"5639418C0364E5A1\" quest=\"4597D3B3BDC2BED5\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.assembler</translate></p>",
+      "<hr/>",
+      "<reward reward=\"59D9A5E482B1D2A6\" quest=\"4597D3B3BDC2BED5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:molecular_assembler"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          512,
+          -112
+        ]
+      }
+    }
+  }
+}

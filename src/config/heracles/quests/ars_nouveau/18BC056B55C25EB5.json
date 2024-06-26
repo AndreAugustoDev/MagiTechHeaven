@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "21E1D29B5CD3372A": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_smelt"
+    }
+  },
+  "rewards": {
+    "66715F05B72746A8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_smelt",
+    "description": [
+      "<task task=\"21E1D29B5CD3372A\" quest=\"18BC056B55C25EB5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"66715F05B72746A8\" quest=\"18BC056B55C25EB5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_smelt"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -304
+        ]
+      }
+    }
+  }
+}

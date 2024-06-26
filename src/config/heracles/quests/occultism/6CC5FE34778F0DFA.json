@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DE0F289821F55D1"
+  ],
+  "tasks": {
+    "1BBB313192F51FA8": {
+      "type": "heracles:item",
+      "item": "occultism:storage_controller_base"
+    },
+    "13AB4282F7A3F28C": {
+      "type": "heracles:item",
+      "item": "occultism:dimensional_matrix",
+      "nbt": {
+        "spiritName": "Geirmaracthorn"
+      }
+    },
+    "4EDB733716D494CE": {
+      "type": "heracles:item",
+      "item": "occultism:storage_controller"
+    }
+  },
+  "rewards": {
+    "3FFC1652AA52C6AE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§c§mDemonic§r §dMagical Storage§r!",
+    "description": [
+      "<task task=\"1BBB313192F51FA8\" quest=\"6CC5FE34778F0DFA\"/>",
+      "<task task=\"13AB4282F7A3F28C\" quest=\"6CC5FE34778F0DFA\"/>",
+      "<task task=\"4EDB733716D494CE\" quest=\"6CC5FE34778F0DFA\"/>",
+      "<hr/>",
+      "You're bound to have too many items playing this modpack. It's just it works, and if you haven't figured out your storage situation yet, &&dDimensional Storage&&r might just be right for you!",
+      "<br/>",
+      "To get started with this magical storage solution, you'll need to craft the &&dDimensional Storage Actuator&&r and place it down into the world. This acts just like a Shulker Box, meaning if you break it, it won't lose any of the items stored inside. ",
+      "<br/>",
+      "By default, this has 128 storage slots with each slot holding up to 16 stacks of an item, except for items with &&5NBT&&r data. These will not stack and will take up an entire slot, so make sure to leave those items out!",
+      "<br/>",
+      "If you aren't sure what items have NBT data on them, you can always check out the quest \"NBT and You\" in the Storage questline for more info on NBT!",
+      "<hr/>",
+      "<reward reward=\"3FFC1652AA52C6AE\" quest=\"6CC5FE34778F0DFA\"/>"
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          496,
+          176
+        ]
+      }
+    }
+  }
+}

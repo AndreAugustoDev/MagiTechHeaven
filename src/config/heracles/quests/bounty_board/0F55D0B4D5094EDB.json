@@ -1,0 +1,87 @@
+{
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.subt.trader</translate></h2>",
+      "<hr/>",
+      "<task task=\"596ABB45C0612AAF\" quest=\"0F55D0B4D5094EDB\"/>",
+      "<task task=\"1D136D138EF82DA9\" quest=\"0F55D0B4D5094EDB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bounty.desc.trader1</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.bounty.desc.trader2</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.bounty.desc.trader3</translate></p>",
+      "<hr/>",
+      "<reward reward=\"26EF416511A49817\" quest=\"0F55D0B4D5094EDB\"/>",
+      "<reward reward=\"2A9810116395C984\" quest=\"0F55D0B4D5094EDB\"/>",
+      "<reward reward=\"739F0D5CD8C7BA5E\" quest=\"0F55D0B4D5094EDB\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          98,
+          192
+        ]
+      }
+    },
+    "subtitle": {
+      "text": "i18n.quest.bounty.subt.trader"
+    },
+    "title": "i18n.quest.bounty.trader"
+  },
+  "rewards": {
+    "26EF416511A49817": {
+      "item": {
+        "count": 1,
+        "id": "minecraft:iron_sword",
+        "nbt": {
+          "display": {
+            "Lore": [
+              "[{\"text\":\"For those brave enough to slaughter the Mighty and Annoying Trader\",\"italic\":false}]"
+            ],
+            "Name": "[{\"text\":\"Sword of AlfredGG\",\"italic\":false}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "2A9810116395C984": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "739F0D5CD8C7BA5E": {
+      "item": {
+        "id": "supplementaries:pedestal"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "1D136D138EF82DA9": {
+      "amount": 2,
+      "entity": {
+        "type": "minecraft:trader_llama"
+      },
+      "icon": {
+        "item": "minecraft:trader_llama_spawn_egg",
+        "type": "heracles:item"
+      },
+      "title": "Kill the Trader Llamas",
+      "type": "heracles:kill_entity"
+    },
+    "596ABB45C0612AAF": {
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:wandering_trader"
+      },
+      "icon": {
+        "item": "minecraft:trader_llama_spawn_egg",
+        "type": "heracles:item"
+      },
+      "title": "Kill the Trader Villager",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

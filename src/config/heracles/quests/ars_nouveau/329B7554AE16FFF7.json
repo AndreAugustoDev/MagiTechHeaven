@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "405BF1E9FE690938": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_phantom_block"
+    }
+  },
+  "rewards": {
+    "53A07675437152F5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_phantom_block",
+    "description": [
+      "<task task=\"405BF1E9FE690938\" quest=\"329B7554AE16FFF7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"53A07675437152F5\" quest=\"329B7554AE16FFF7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_phantom_block"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -368
+        ]
+      }
+    }
+  }
+}

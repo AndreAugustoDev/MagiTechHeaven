@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2CB69634F6A6E53E"
+  ],
+  "tasks": {
+    "73E9DB8434DF6236": {
+      "type": "heracles:item",
+      "item": "evilcraft:necromancer_staff",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 10000
+      }
+    }
+  },
+  "rewards": {
+    "7800D8E4E13B6AA0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:necromancer_staff",
+    "description": [
+      "<h2>Summons Zombies</h2>",
+      "<hr/>",
+      "<task task=\"73E9DB8434DF6236\" quest=\"0EAF01037BB20BCB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7800D8E4E13B6AA0\" quest=\"0EAF01037BB20BCB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:necromancer_staff"
+    },
+    "subtitle": {
+      "text": "Summons Zombies"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          384,
+          16
+        ]
+      }
+    }
+  }
+}

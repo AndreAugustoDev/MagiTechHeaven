@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "651B06E6873F34CF": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_cut"
+    }
+  },
+  "rewards": {
+    "6E6F7FDB76B6718C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_cut",
+    "description": [
+      "<task task=\"651B06E6873F34CF\" quest=\"515001313775DCFC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6E6F7FDB76B6718C\" quest=\"515001313775DCFC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_cut"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -432
+        ]
+      }
+    }
+  }
+}

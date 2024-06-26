@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "7B0A4890B1EA4866": {
+      "type": "heracles:item",
+      "item": "botania:medumone"
+    }
+  },
+  "rewards": {
+    "0902C8F0AAD4BB00": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:medumone",
+    "description": [
+      "<task task=\"7B0A4890B1EA4866\" quest=\"334A0673FD07BF87\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0902C8F0AAD4BB00\" quest=\"334A0673FD07BF87\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:medumone"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -96,
+          80
+        ]
+      }
+    }
+  }
+}

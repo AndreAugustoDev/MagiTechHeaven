@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DE0F289821F55D1"
+  ],
+  "tasks": {
+    "6881D81F0E3CF9DC": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "minecraft:soul_sand"
+    },
+    "20DA82068CC27F71": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond"
+    },
+    "4D1D4DF4AE382EF5": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot"
+    },
+    "68B346594C63FC5E": {
+      "type": "heracles:item",
+      "item": "alltheores:silver_ingot"
+    },
+    "594F7571F053C9EB": {
+      "type": "heracles:item",
+      "item": "occultism:book_of_binding_bound_djinni",
+      "nbt": {
+        "spiritName": "Karnvires"
+      }
+    }
+  },
+  "rewards": {
+    "31005015E3D07048": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§bCapturing§r §dDemons§r",
+    "description": [
+      "<task task=\"6881D81F0E3CF9DC\" quest=\"08B1A64B01A8A604\"/>",
+      "<task task=\"20DA82068CC27F71\" quest=\"08B1A64B01A8A604\"/>",
+      "<task task=\"4D1D4DF4AE382EF5\" quest=\"08B1A64B01A8A604\"/>",
+      "<task task=\"68B346594C63FC5E\" quest=\"08B1A64B01A8A604\"/>",
+      "<task task=\"594F7571F053C9EB\" quest=\"08B1A64B01A8A604\"/>",
+      "<hr/>",
+      "While there are other methods to move Demons around, you can create an &&dEmpty Soul Gem&&r to capture a Demon and place it somewhere else. This is also needed for §aChapter 2§r: §6The ATM Star.",
+      "<br/>",
+      "To make this, we'll need to do a more advanced Ritual called &&aStrigeor's Higher Binding&&r. For this, you'll need &&a8 Sacrificial Bowls&&r as well as the items required for this quest.",
+      "<br/>",
+      "Remember, you can always use the multi-block preview by finding the Pentacle in the &&bDictionary of Spirits&&r to help you build the structure.",
+      "<hr/>",
+      "<reward reward=\"31005015E3D07048\" quest=\"08B1A64B01A8A604\"/>"
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          304,
+          176
+        ]
+      }
+    }
+  }
+}

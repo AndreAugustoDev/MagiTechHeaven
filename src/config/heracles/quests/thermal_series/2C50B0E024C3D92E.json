@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "tasks": {
+    "37547F63C72EED17": {
+      "type": "heracles:item",
+      "item": "alltheores:raw_tin"
+    }
+  },
+  "rewards": {
+    "184363B38B8B2CBA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "009C332DA938512C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "thermal:guidebook"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Welcome to the §9Thermal Series§r!",
+    "description": [
+      "<task task=\"37547F63C72EED17\" quest=\"2C50B0E024C3D92E\"/>",
+      "<hr/>",
+      "Thermal Series is a modular series of mods that adds a content-rich blend of magic and technology to your Minecraft experience!",
+      "<hr/>",
+      "<reward reward=\"184363B38B8B2CBA\" quest=\"2C50B0E024C3D92E\"/>",
+      "<reward reward=\"009C332DA938512C\" quest=\"2C50B0E024C3D92E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:upgrade_augment_3"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -144,
+          0
+        ]
+      }
+    }
+  }
+}

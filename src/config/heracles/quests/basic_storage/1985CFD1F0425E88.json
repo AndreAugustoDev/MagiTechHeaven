@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "0E0CAA31480EC0A1"
+  ],
+  "tasks": {
+    "666C188829301BE0": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_pickup_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "648AD42B15591F72": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.Apickup"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.Apickup</translate></h2>",
+      "<hr/>",
+      "<task task=\"666C188829301BE0\" quest=\"1985CFD1F0425E88\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"648AD42B15591F72\" quest=\"1985CFD1F0425E88\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:advanced_pickup_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Apickup"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

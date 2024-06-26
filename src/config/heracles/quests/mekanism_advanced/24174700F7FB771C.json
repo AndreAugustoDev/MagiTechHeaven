@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E4A95B6443F23BC"
+  ],
+  "tasks": {
+    "3153288DCE1C4FEF": {
+      "title": "&aMekanism&r: &dAdvanced&r",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "73F5CE911AC4474C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "&aMekanism&r: &dAdvanced&r",
+    "description": [
+      "<h2>&&cRequires Quest \"Advanced Mekanism\" Completion from the Mekanism Chapter&&r</h2>",
+      "<hr/>",
+      "<task task=\"3153288DCE1C4FEF\" quest=\"24174700F7FB771C\"/>",
+      "<hr/>",
+      "As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more.",
+      "<br/>",
+      "In this chapter, we'll be using more of those to create powerful multiblock &&aReactors&&r, as well as advanced ways to create and store power. This will also lead to making &&dAntimatter Pellets&&r, which are used to make the &&6ATM Star&&r, as well as some of the strongest tools and weapons in the pack.",
+      "<hr/>",
+      "<reward reward=\"73F5CE911AC4474C\" quest=\"24174700F7FB771C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:antiprotonic_nucleosynthesizer"
+    },
+    "subtitle": {
+      "text": "§cRequires Quest \"Advanced Mekanism\" Completion from the Mekanism Chapter§r"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          48,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "3EBC8A668657B7E1": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_ender_inventory"
+    }
+  },
+  "rewards": {
+    "0335AC3EC7F9AFD3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_ender_inventory",
+    "description": [
+      "<task task=\"3EBC8A668657B7E1\" quest=\"3A44DCF5B7D5024C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0335AC3EC7F9AFD3\" quest=\"3A44DCF5B7D5024C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_ender_inventory"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -176
+        ]
+      }
+    }
+  }
+}

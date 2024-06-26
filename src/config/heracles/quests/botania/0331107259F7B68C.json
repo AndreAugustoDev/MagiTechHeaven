@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "04CE14D92603FC7A"
+  ],
+  "tasks": {
+    "3C21A030F242C7A2": {
+      "type": "heracles:item",
+      "item": "botania:life_essence"
+    },
+    "615316948CD5BB35": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "botania:gaia_head"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "botania:doppleganger"
+      }
+    }
+  },
+  "rewards": {
+    "44B68600014CC3BD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "botania:terrasteel_ingot"
+      }
+    },
+    "3914369E0BBE0076": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 1000
+    }
+  },
+  "display": {
+    "title": "§6Gaia Spirits§r",
+    "description": [
+      "<task task=\"3C21A030F242C7A2\" quest=\"0331107259F7B68C\"/>",
+      "<task task=\"615316948CD5BB35\" quest=\"0331107259F7B68C\"/>",
+      "<hr/>",
+      "Upon defeating the &&9Guardian of Gaia&&r, you'll be rewarded with &&6Gaia Spirits&&r.",
+      "<br/>",
+      "Both the game difficulty and the number of people participating in the ritual determine the amount of drops you will receive.",
+      "<hr/>",
+      "<reward reward=\"44B68600014CC3BD\" quest=\"0331107259F7B68C\"/>",
+      "<reward reward=\"3914369E0BBE0076\" quest=\"0331107259F7B68C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:gaia_head"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          784,
+          80
+        ]
+      }
+    }
+  }
+}

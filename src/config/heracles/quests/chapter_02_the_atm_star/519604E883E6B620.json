@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "68F03C08B1AE45FF"
+  ],
+  "tasks": {
+    "154C8B03D23EE2D9": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:stasis_chamber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"154C8B03D23EE2D9\" quest=\"519604E883E6B620\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.stasis}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          256,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialforegoing:stasis_chamber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.stasis"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

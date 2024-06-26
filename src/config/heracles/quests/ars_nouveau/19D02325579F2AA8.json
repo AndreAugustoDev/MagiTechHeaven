@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "227DBA8836021B0B"
+  ],
+  "tasks": {
+    "273385666F3DBB43": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:volcanic_sourcelink"
+    }
+  },
+  "rewards": {
+    "770A6318647CD783": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:volcanic_sourcelink",
+    "description": [
+      "<task task=\"273385666F3DBB43\" quest=\"19D02325579F2AA8\"/>",
+      "<hr/>",
+      "The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source.",
+      "<br/>",
+      "As it burns items, it will convert nearby stone into lava.",
+      "<br/>",
+      "This also generates Lava Lilys.",
+      "<hr/>",
+      "<reward reward=\"770A6318647CD783\" quest=\"19D02325579F2AA8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:volcanic_sourcelink"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          144,
+          80
+        ]
+      }
+    }
+  }
+}

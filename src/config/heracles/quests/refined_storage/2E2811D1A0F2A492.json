@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "6B04FC81351CD1AB"
+  ],
+  "tasks": {
+    "7AB53C2469B768E0": {
+      "type": "heracles:item",
+      "item": "refinedstorage:range_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "56D7CD357A4D790B": {
+      "item": {
+        "id": "refinedstorage:range_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.range"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.range</translate></h2>",
+      "<hr/>",
+      "<task task=\"7AB53C2469B768E0\" quest=\"2E2811D1A0F2A492\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.range</translate></p>",
+      "<hr/>",
+      "<reward reward=\"56D7CD357A4D790B\" quest=\"2E2811D1A0F2A492\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          176,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:range_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.rs.range"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "7B6F79D3A759D5D5": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:laser_lens10"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:laser_lens10",
+    "description": [
+      "<task task=\"7B6F79D3A759D5D5\" quest=\"2E8E292ED596A104\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:laser_lens10"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          320,
+          144
+        ]
+      }
+    }
+  }
+}

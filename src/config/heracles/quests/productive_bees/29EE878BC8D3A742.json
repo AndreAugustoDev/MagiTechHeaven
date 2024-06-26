@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "13AA91D39A2CABF2"
+  ],
+  "tasks": {
+    "2B86DC6F7E579E0B": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "productivebees:bee_cage"
+    }
+  },
+  "rewards": {
+    "495A8E79141F31AC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "3BAFF21709BCF43F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:sturdy_bee_cage"
+      }
+    }
+  },
+  "display": {
+    "title": "Capturing Bees!",
+    "description": [
+      "<task task=\"2B86DC6F7E579E0B\" quest=\"29EE878BC8D3A742\"/>",
+      "<hr/>",
+      "To get our own bee farm going, we'll have to find us some bees... and capture them.",
+      "<br/>",
+      "Right-clicking a bee with this will capture it!",
+      "<br/>",
+      "Adventuring can also net you some &&6Sturdy Bee Cages&&r, so keep an eye out! ",
+      "<hr/>",
+      "<reward reward=\"495A8E79141F31AC\" quest=\"29EE878BC8D3A742\"/>",
+      "<reward reward=\"3BAFF21709BCF43F\" quest=\"29EE878BC8D3A742\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:bee_cage"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          -112
+        ]
+      }
+    }
+  }
+}

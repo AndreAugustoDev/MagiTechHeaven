@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62CE0FFAF6352287"
+  ],
+  "tasks": {
+    "48A4C8390243406C": {
+      "type": "heracles:item",
+      "item": "evilcraft:bowl_of_promises_tier1"
+    },
+    "703639D39EF4884C": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_tier_2"
+    }
+  },
+  "rewards": {
+    "26B65922BE81B24E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§aRank 2§r: More §cBlood§r",
+    "description": [
+      "<task task=\"48A4C8390243406C\" quest=\"4978A9B616362CCE\"/>",
+      "<task task=\"703639D39EF4884C\" quest=\"4978A9B616362CCE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"26B65922BE81B24E\" quest=\"4978A9B616362CCE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_tier_2"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          256,
+          176
+        ]
+      }
+    }
+  }
+}

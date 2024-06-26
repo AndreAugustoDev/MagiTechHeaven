@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "698A959C9E449592"
+  ],
+  "tasks": {
+    "6A1F976746D85288": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:novice_spell_book",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "61A817F82F1C6DFD": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6A1F976746D85288\" quest=\"40D9387C5AC664E0\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.magic</translate></p>",
+      "<hr/>",
+      "<reward reward=\"61A817F82F1C6DFD\" quest=\"40D9387C5AC664E0\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          256,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ars_nouveau:novice_spell_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.magic"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

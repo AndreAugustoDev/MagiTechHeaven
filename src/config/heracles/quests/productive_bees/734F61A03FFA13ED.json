@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "5C358DFF9CD0D1D9": {
+      "title": "Radioactive Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:radioactive"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "0E772C4611E7B761": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Radioactive Bee",
+    "description": [
+      "<h2>CreeBee + Iron</h2>",
+      "<hr/>",
+      "<task task=\"5C358DFF9CD0D1D9\" quest=\"734F61A03FFA13ED\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0E772C4611E7B761\" quest=\"734F61A03FFA13ED\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:uranium_ingot"
+    },
+    "subtitle": {
+      "text": "CreeBee + Iron"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          64,
+          384
+        ]
+      }
+    }
+  }
+}

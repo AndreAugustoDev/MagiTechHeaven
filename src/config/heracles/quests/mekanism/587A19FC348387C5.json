@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08DDE018A804BFE7"
+  ],
+  "tasks": {
+    "1C162E39F2ACA72F": {
+      "type": "heracles:item",
+      "item": "mekanism:pressurized_reaction_chamber"
+    }
+  },
+  "rewards": {
+    "7F4F10CD3B125E3A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_control_circuit",
+        "count": 2
+      }
+    },
+    "6153A09A9D197270": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:pressurized_reaction_chamber",
+    "description": [
+      "<task task=\"1C162E39F2ACA72F\" quest=\"587A19FC348387C5\"/>",
+      "<hr/>",
+      "Combines gases, solid items, and liquids to produce an item and by-product.",
+      "<br/>",
+      "This machine is needed to create end-game materials and armor.",
+      "<hr/>",
+      "<reward reward=\"7F4F10CD3B125E3A\" quest=\"587A19FC348387C5\"/>",
+      "<reward reward=\"6153A09A9D197270\" quest=\"587A19FC348387C5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:pressurized_reaction_chamber"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -128,
+          -112
+        ]
+      }
+    }
+  }
+}

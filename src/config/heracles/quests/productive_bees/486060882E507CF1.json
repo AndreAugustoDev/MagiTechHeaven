@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "4DFDEAD81868CEF4": {
+      "title": "Chocolate Mining Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "6C008390E836F306": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Chocolate Mining Bee",
+    "description": [
+      "<h2>Spawns from a Dirt Nest</h2>",
+      "<hr/>",
+      "<task task=\"4DFDEAD81868CEF4\" quest=\"486060882E507CF1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6C008390E836F306\" quest=\"486060882E507CF1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:chocolate"
+    },
+    "subtitle": {
+      "text": "Spawns from a Dirt Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          400
+        ]
+      }
+    }
+  }
+}

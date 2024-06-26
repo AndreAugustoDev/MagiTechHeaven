@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "43B03D8E251B44DD": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_starter"
+    }
+  },
+  "rewards": {
+    "56697E45AA1BD3B3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_discharger_starter",
+    "description": [
+      "<task task=\"43B03D8E251B44DD\" quest=\"33816AF0E699F19F\"/>",
+      "<hr/>",
+      "This block will drain FE from any charged item.",
+      "<hr/>",
+      "<reward reward=\"56697E45AA1BD3B3\" quest=\"33816AF0E699F19F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -272,
+          368
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "18B20F4F27F37197",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "01ABA3DA3EFD0C2A": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_nitro"
+    }
+  },
+  "rewards": {
+    "423D4566074A0A55": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_hopper_nitro",
+    "description": [
+      "<task task=\"01ABA3DA3EFD0C2A\" quest=\"41DC771674A6C387\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"423D4566074A0A55\" quest=\"41DC771674A6C387\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          560
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5B3FDF651D845DF1"
+  ],
+  "tasks": {
+    "25D5626BBA7615F0": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_mechanical_pipe"
+    }
+  },
+  "rewards": {
+    "45500FB3AC79CFE4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_mechanical_pipe",
+    "description": [
+      "<task task=\"25D5626BBA7615F0\" quest=\"01C3B23461807007\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"45500FB3AC79CFE4\" quest=\"01C3B23461807007\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_mechanical_pipe"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -64,
+          160
+        ]
+      }
+    }
+  }
+}

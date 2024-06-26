@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "2CBEEDDD4B6DDDD9",
+    "1AADF0A1B42AD511"
+  ],
+  "tasks": {
+    "35A595D6801714C6": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:railgun",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "74A6816D4BD7499C": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"35A595D6801714C6\" quest=\"4A3DF999B969C875\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.railgun</translate></p>",
+      "<hr/>",
+      "<reward reward=\"74A6816D4BD7499C\" quest=\"4A3DF999B969C875\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -224,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "immersiveengineering:railgun",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.railgun"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

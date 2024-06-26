@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "146232B8504789C1"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"5056DC37AEF523E5\" quest=\"7D5B36BF3EC0C93F\"/>",
+      "<hr/>",
+      "<reward reward=\"0A77CE5C75957CD7\" quest=\"7D5B36BF3EC0C93F\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          -128,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "count": 1,
+        "id": "minecraft:zombie_head"
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": ""
+    },
+    "title": {
+      "translate": "i18n.quest.bounty.zombie.100"
+    }
+  },
+  "rewards": {
+    "0A77CE5C75957CD7": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "POINTS"
+    }
+  },
+  "settings": {
+    "autoClaimRewards": false,
+    "hidden": "LOCKED",
+    "individual_progress": false,
+    "repeatable": false,
+    "showDependencyArrow": true,
+    "unlockNotification": false
+  },
+  "tasks": {
+    "5056DC37AEF523E5": {
+      "amount": 100,
+      "entity": {
+        "type": "minecraft:zombie"
+      },
+      "icon": {
+        "item": {
+          "count": 1,
+          "id": "minecraft:zombie_head"
+        },
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.zombie.100",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

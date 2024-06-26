@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "5860D1574D18BA1A": {
+      "title": "Expansion Box",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:expansion_box_oak"
+      },
+      "type": "heracles:item",
+      "item": "#productivebees:expansion_boxes"
+    }
+  },
+  "rewards": {
+    "4C6D0AFFA31E7912": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "1824DE857066CD43": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Expansion Box",
+    "description": [
+      "<h2>Increasing our bee storage</h2>",
+      "<hr/>",
+      "<task task=\"5860D1574D18BA1A\" quest=\"47CEFA06392C4211\"/>",
+      "<hr/>",
+      "Expansion boxes are placed on top of your Advanced Beehives to increase the amount of bees that can be in the hive to a total of 5 slots.",
+      "<hr/>",
+      "<reward reward=\"4C6D0AFFA31E7912\" quest=\"47CEFA06392C4211\"/>",
+      "<reward reward=\"1824DE857066CD43\" quest=\"47CEFA06392C4211\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:expansion_box_oak"
+    },
+    "subtitle": {
+      "text": "Increasing our bee storage"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          64,
+          48
+        ]
+      }
+    }
+  }
+}

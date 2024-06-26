@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3514E9C1A8C7400C"
+  ],
+  "tasks": {
+    "345746E883043F2A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_pink"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_pink",
+    "description": [
+      "<task task=\"345746E883043F2A\" quest=\"29C9EBD333E59A35\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_pink"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          128,
+          96
+        ]
+      }
+    }
+  }
+}

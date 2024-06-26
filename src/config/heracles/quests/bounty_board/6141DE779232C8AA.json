@@ -1,0 +1,57 @@
+{
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.blaze.5</translate></h2>",
+      "<hr/>",
+      "<task task=\"1718CA0F8978181C\" quest=\"6141DE779232C8AA\"/>",
+      "<hr/>",
+      "<reward reward=\"651B5C4C1024BC53\" quest=\"6141DE779232C8AA\"/>",
+      "<reward reward=\"4FB5BA9D969A1025\" quest=\"6141DE779232C8AA\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          192,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:blaze_powder",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.bounty.blaze.5"
+    },
+    "title": "i18n.quest.bounty.blaze"
+  },
+  "rewards": {
+    "4FB5BA9D969A1025": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "651B5C4C1024BC53": {
+      "item": {
+        "count": 5,
+        "id": "minecraft:blaze_rod"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "1718CA0F8978181C": {
+      "amount": 5,
+      "entity": {
+        "type": "minecraft:blaze"
+      },
+      "icon": {
+        "item": "minecraft:blaze_powder",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.blaze",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

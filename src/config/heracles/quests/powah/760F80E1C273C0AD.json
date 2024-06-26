@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "39386F88CB38CF36"
+  ],
+  "tasks": {
+    "6A76F943F5E6E2E7": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_spirited"
+    }
+  },
+  "rewards": {
+    "4296AEDE69358AC9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:solar_panel_spirited",
+    "description": [
+      "<task task=\"6A76F943F5E6E2E7\" quest=\"760F80E1C273C0AD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4296AEDE69358AC9\" quest=\"760F80E1C273C0AD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          240,
+          528
+        ]
+      }
+    }
+  }
+}

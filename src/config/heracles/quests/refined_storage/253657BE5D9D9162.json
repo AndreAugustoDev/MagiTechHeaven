@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "6904EC449FBEE387"
+  ],
+  "tasks": {
+    "4D9E7CCF420BDE8C": {
+      "type": "heracles:item",
+      "item": "refinedstorage:external_storage",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4D9E7CCF420BDE8C\" quest=\"253657BE5D9D9162\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.external}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -224,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:external_storage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.external"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

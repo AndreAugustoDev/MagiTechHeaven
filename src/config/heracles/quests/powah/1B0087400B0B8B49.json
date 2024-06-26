@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "576DD3980CD97FBC": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "powah:reactor_starter"
+    }
+  },
+  "rewards": {
+    "09E5711FA8136C96": {
+      "type": "heracles:item",
+      "item": {
+        "id": "powah:dry_ice"
+      }
+    },
+    "784A4CD06F2BCFC3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Reactor (Starter)",
+    "description": [
+      "<task task=\"576DD3980CD97FBC\" quest=\"1B0087400B0B8B49\"/>",
+      "<hr/>",
+      "The &&9Reactor&&r is a 3x4x3 multiblock generator that burns &&aUrananite&&r as fuel to produce FE.",
+      "<br/>",
+      "To build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!",
+      "<br/>",
+      "You'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid &&bcoolant&&r. To use a solid coolant, you'll also need to give it some liquid coolant as well. &&bDry Ice&&r makes for a great solid coolant! (Note: 1 Water Bucket will do)",
+      "<br/>",
+      "You can also increase the FE generation by keeping the fuel buffer full, as well as adding both Coal and Redstone to the Reactor. Using Blocks of either will also work!",
+      "<hr/>",
+      "<reward reward=\"09E5711FA8136C96\" quest=\"1B0087400B0B8B49\"/>",
+      "<reward reward=\"784A4CD06F2BCFC3\" quest=\"1B0087400B0B8B49\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:reactor_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          208,
+          368
+        ]
+      }
+    }
+  }
+}

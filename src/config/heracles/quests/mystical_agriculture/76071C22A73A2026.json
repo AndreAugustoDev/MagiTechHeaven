@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "65F226B04C4E0440": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_farmland"
+    }
+  },
+  "rewards": {
+    "556B8FE0A696BB16": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:tertium_farmland",
+    "description": [
+      "<task task=\"65F226B04C4E0440\" quest=\"76071C22A73A2026\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"556B8FE0A696BB16\" quest=\"76071C22A73A2026\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_farmland"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -304,
+          -96
+        ]
+      }
+    }
+  }
+}

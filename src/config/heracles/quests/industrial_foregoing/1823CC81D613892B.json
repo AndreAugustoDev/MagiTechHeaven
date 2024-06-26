@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "4CEA3179A4BE3336": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_slaughter_factory"
+    }
+  },
+  "rewards": {
+    "222D5521FF5BCB8C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mob_slaughter_factory",
+    "description": [
+      "<task task=\"4CEA3179A4BE3336\" quest=\"1823CC81D613892B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"222D5521FF5BCB8C\" quest=\"1823CC81D613892B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_slaughter_factory"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          288,
+          0
+        ]
+      }
+    }
+  }
+}

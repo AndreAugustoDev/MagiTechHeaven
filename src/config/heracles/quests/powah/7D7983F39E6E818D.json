@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DDF87A1E5F5D009"
+  ],
+  "tasks": {
+    "64F9B19C093FEEF6": {
+      "type": "heracles:item",
+      "item": "powah:crystal_niotic"
+    }
+  },
+  "rewards": {
+    "4CB9B25219AECE2F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Tier: §9Niotic§r",
+    "description": [
+      "<task task=\"64F9B19C093FEEF6\" quest=\"7D7983F39E6E818D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4CB9B25219AECE2F\" quest=\"7D7983F39E6E818D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:crystal_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          496
+        ]
+      }
+    }
+  }
+}

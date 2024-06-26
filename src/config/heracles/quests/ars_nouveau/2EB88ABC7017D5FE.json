@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "6B7078A98D08EC1F": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_interact"
+    }
+  },
+  "rewards": {
+    "234238D75E11C869": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_interact",
+    "description": [
+      "<task task=\"6B7078A98D08EC1F\" quest=\"2EB88ABC7017D5FE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"234238D75E11C869\" quest=\"2EB88ABC7017D5FE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_interact"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -144,
+          -464
+        ]
+      }
+    }
+  }
+}

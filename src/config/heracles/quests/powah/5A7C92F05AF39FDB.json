@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24EE138780C43447"
+  ],
+  "tasks": {
+    "69E6F047C9CE65D5": {
+      "type": "heracles:item",
+      "item": "powah:furnator_spirited"
+    }
+  },
+  "rewards": {
+    "12D1549AD6F0AE28": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:furnator_spirited",
+    "description": [
+      "<task task=\"69E6F047C9CE65D5\" quest=\"5A7C92F05AF39FDB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"12D1549AD6F0AE28\" quest=\"5A7C92F05AF39FDB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:furnator_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          144,
+          528
+        ]
+      }
+    }
+  }
+}

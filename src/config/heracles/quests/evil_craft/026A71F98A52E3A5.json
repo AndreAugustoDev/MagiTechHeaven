@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35FA55BE8DF49EE8"
+  ],
+  "tasks": {
+    "7217F680E0AA4389": {
+      "type": "heracles:item",
+      "item": "evilcraft:flesh_werewolf"
+    }
+  },
+  "rewards": {
+    "128F76AD2008EC5E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:flesh_werewolf",
+    "description": [
+      "<task task=\"7217F680E0AA4389\" quest=\"026A71F98A52E3A5\"/>",
+      "<hr/>",
+      "Within villages, there are &&ointeresting&&r villagers that just so happen to be &&dWerewolves&&r.",
+      "<br/>",
+      "Slaying these beasts will give you &&dWerewolf Flesh&&r.",
+      "<hr/>",
+      "<reward reward=\"128F76AD2008EC5E\" quest=\"026A71F98A52E3A5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:flesh_werewolf"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          416,
+          240
+        ]
+      }
+    }
+  }
+}

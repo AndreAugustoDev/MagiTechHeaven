@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "35CC898E0E49FE58"
+  ],
+  "tasks": {
+    "5E760075B279BA71": {
+      "type": "heracles:item",
+      "item": "fluxnetworks:flux_core",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "01B3CDAA69D1FA2F": {
+      "type": "heracles:item",
+      "item": "fluxnetworks:flux_block",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4FA376B34C2BF04A": {
+      "item": {
+        "id": "fluxnetworks:flux_dust",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "3C2BBFC2A36E722F": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E760075B279BA71\" quest=\"1BE26A00A420DAE3\"/>",
+      "<task task=\"01B3CDAA69D1FA2F\" quest=\"1BE26A00A420DAE3\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.core</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4FA376B34C2BF04A\" quest=\"1BE26A00A420DAE3\"/>",
+      "<reward reward=\"3C2BBFC2A36E722F\" quest=\"1BE26A00A420DAE3\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -288,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.core"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

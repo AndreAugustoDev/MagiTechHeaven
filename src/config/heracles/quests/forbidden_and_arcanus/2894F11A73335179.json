@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "29164630E1BD76B5",
+    "260F19B468957BCD"
+  ],
+  "tasks": {
+    "47D5F726006465DD": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  },
+  "rewards": {
+    "3DE86B79C85EFEBC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:arcane_crystal_dust",
+    "description": [
+      "<task task=\"47D5F726006465DD\" quest=\"2894F11A73335179\"/>",
+      "<hr/>",
+      "Smelting down Arcane Crystals will give you Arcane Crystal Dust.",
+      "<br/>",
+      "This is used for most of the items in the mod.",
+      "<hr/>",
+      "<reward reward=\"3DE86B79C85EFEBC\" quest=\"2894F11A73335179\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -176,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "100405DB15F68EE1": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:supremium_apple"
+    }
+  },
+  "rewards": {
+    "11C424736B860466": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:supremium_apple",
+    "description": [
+      "<task task=\"100405DB15F68EE1\" quest=\"1C4ABF4518638A82\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"11C424736B860466\" quest=\"1C4ABF4518638A82\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:supremium_apple"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          48,
+          -80
+        ]
+      }
+    }
+  }
+}

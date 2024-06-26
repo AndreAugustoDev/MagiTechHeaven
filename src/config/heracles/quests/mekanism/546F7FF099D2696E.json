@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6424D99CBA76895B"
+  ],
+  "tasks": {
+    "1E066CC63A95B288": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_pressurized_tube"
+    }
+  },
+  "rewards": {
+    "189D64FDDDFC6AA3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_pressurized_tube",
+    "description": [
+      "<task task=\"1E066CC63A95B288\" quest=\"546F7FF099D2696E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"189D64FDDDFC6AA3\" quest=\"546F7FF099D2696E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_pressurized_tube"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          0,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "4A4E7C928F5407C0": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_watering_can",
+      "nbt": {
+        "Active": 0,
+        "Water": 0
+      }
+    }
+  },
+  "rewards": {
+    "4FEFFD1453BCBD94": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:supremium_watering_can",
+    "description": [
+      "<task task=\"4A4E7C928F5407C0\" quest=\"475B63AF0E87E318\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4FEFFD1453BCBD94\" quest=\"475B63AF0E87E318\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_watering_can"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -16,
+          -80
+        ]
+      }
+    }
+  }
+}

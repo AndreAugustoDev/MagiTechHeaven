@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "58A4565F18420732": {
+      "type": "heracles:item",
+      "item": "botania:lens_time"
+    }
+  },
+  "rewards": {
+    "7362FD9B9AB62AB8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_time",
+    "description": [
+      "<task task=\"58A4565F18420732\" quest=\"4CED346215DDBAC0\"/>",
+      "<hr/>",
+      "Significantly increases the amount of time a Mana Burst can go without starting to lose Mana, but slows it down as well.",
+      "<hr/>",
+      "<reward reward=\"7362FD9B9AB62AB8\" quest=\"4CED346215DDBAC0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_time"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          464,
+          256
+        ]
+      }
+    }
+  }
+}

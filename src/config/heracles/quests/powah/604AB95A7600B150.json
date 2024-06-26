@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "04F11E192A334E3F",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "4FB89D5C29752C55": {
+      "type": "heracles:item",
+      "item": "powah:battery_hardened"
+    }
+  },
+  "rewards": {
+    "1C2A869A69144585": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:battery_hardened",
+    "description": [
+      "<task task=\"4FB89D5C29752C55\" quest=\"604AB95A7600B150\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1C2A869A69144585\" quest=\"604AB95A7600B150\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:battery_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -176,
+          432
+        ]
+      }
+    }
+  }
+}

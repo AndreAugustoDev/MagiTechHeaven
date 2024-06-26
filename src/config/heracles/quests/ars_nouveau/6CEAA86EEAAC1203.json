@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D86B2E553503E53"
+  ],
+  "tasks": {
+    "751B3A47FE592B2F": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:amethyst_golem_charm"
+    }
+  },
+  "rewards": {
+    "7763E6AF7FF43DB7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:amethyst_golem_charm",
+    "description": [
+      "<task task=\"751B3A47FE592B2F\" quest=\"6CEAA86EEAAC1203\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7763E6AF7FF43DB7\" quest=\"6CEAA86EEAAC1203\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:amethyst_golem_charm"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          304,
+          -96
+        ]
+      }
+    }
+  }
+}

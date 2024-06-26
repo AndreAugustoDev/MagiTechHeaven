@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4597D3B3BDC2BED5"
+  ],
+  "tasks": {
+    "495253F1301A8070": {
+      "type": "heracles:item",
+      "item": "ae2:speed_card"
+    }
+  },
+  "rewards": {
+    "394DBCEAD38760C0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.acceleratiion",
+    "description": [
+      "<task task=\"495253F1301A8070\" quest=\"1F7DFA5AA65F2812\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.acceleration</translate></p>",
+      "<hr/>",
+      "<reward reward=\"394DBCEAD38760C0\" quest=\"1F7DFA5AA65F2812\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:speed_card"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          576,
+          -112
+        ]
+      }
+    }
+  }
+}

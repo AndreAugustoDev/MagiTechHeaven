@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "4A6ADD52B113E3CA": {
+      "title": "Leafcutter Bees",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1C28FA3EA99E8BF1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Leafcutter Bee",
+    "description": [
+      "<h2>Spawns from a Dirt Nest</h2>",
+      "<hr/>",
+      "<task task=\"4A6ADD52B113E3CA\" quest=\"6BEE3578BD2C713C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1C28FA3EA99E8BF1\" quest=\"6BEE3578BD2C713C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "twilightforest:fallen_leaves"
+    },
+    "subtitle": {
+      "text": "Spawns from a Dirt Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -128,
+          448
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "43515B26807F9E01": {
+      "title": "Ender Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:ender"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "565C007060C1F9EC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:ender"
+          }
+        }
+      }
+    },
+    "1EC07E1836DAB17A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Ender Bees",
+    "description": [
+      "<h2>&&9Requires End Stone Nest</h2>",
+      "<hr/>",
+      "<task task=\"43515B26807F9E01\" quest=\"5F1784E562C29B66\"/>",
+      "<hr/>",
+      "Create yourself an &&5End Stone Nest&&r and head to the End to capture one of these bees!",
+      "<hr/>",
+      "<reward reward=\"565C007060C1F9EC\" quest=\"5F1784E562C29B66\"/>",
+      "<reward reward=\"1EC07E1836DAB17A\" quest=\"5F1784E562C29B66\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_pearl"
+    },
+    "subtitle": {
+      "text": "§9Requires End Stone Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          256,
+          112
+        ]
+      }
+    }
+  }
+}

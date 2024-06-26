@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7B4AF35313D7D779"
+  ],
+  "tasks": {
+    "12A0A25980EA485E": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:wither_builder"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:wither_builder",
+    "description": [
+      "<task task=\"12A0A25980EA485E\" quest=\"28B3591BFC0FA08B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:wither_builder"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          368,
+          336
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68"
+  ],
+  "tasks": {
+    "5E9CEEEE330B1DE0": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_turbinefluidport_forge_active",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "18EB6570007F534A": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_turbinepowertapfe_active",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6F76A59F202AD944": {
+      "item": {
+        "id": "bigreactors:basic_turbinecasing",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "7BC028EFCCFAF39A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E9CEEEE330B1DE0\" quest=\"186731580B14F9D2\"/>",
+      "<task task=\"18EB6570007F534A\" quest=\"186731580B14F9D2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.expanding_our_reactors</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6F76A59F202AD944\" quest=\"186731580B14F9D2\"/>",
+      "<reward reward=\"7BC028EFCCFAF39A\" quest=\"186731580B14F9D2\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -48,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.turbine_ports"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

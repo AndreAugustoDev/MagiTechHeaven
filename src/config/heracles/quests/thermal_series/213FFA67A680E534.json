@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "07C7BA8E13F85930": {
+      "type": "heracles:item",
+      "item": "thermal:device_water_gen"
+    }
+  },
+  "rewards": {
+    "46E591F83A20EB99": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:device_water_gen",
+    "description": [
+      "<task task=\"07C7BA8E13F85930\" quest=\"213FFA67A680E534\"/>",
+      "<hr/>",
+      "Creates an infinite water source when placed between two water source blocks.",
+      "<hr/>",
+      "<reward reward=\"46E591F83A20EB99\" quest=\"213FFA67A680E534\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:device_water_gen"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -160,
+          80
+        ]
+      }
+    }
+  }
+}

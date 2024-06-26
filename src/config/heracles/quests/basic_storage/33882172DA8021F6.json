@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5F6536142CDA403C": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:refill_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "773BA104B1822DAF": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.refill"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.refill</translate></h2>",
+      "<hr/>",
+      "<task task=\"5F6536142CDA403C\" quest=\"33882172DA8021F6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"773BA104B1822DAF\" quest=\"33882172DA8021F6\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -96,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:refill_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.refill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

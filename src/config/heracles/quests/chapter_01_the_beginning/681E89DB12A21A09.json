@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "5CF320E9C4C1B1E1"
+  ],
+  "tasks": {
+    "3D4DC59D56174F6D": {
+      "type": "heracles:item",
+      "item": "#forge:crops",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Food",
+      "icon": {
+        "item": {
+          "id": "minecraft:apple",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "688CFEFDE7244290": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3D4DC59D56174F6D\" quest=\"681E89DB12A21A09\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.food_farms</translate></p>",
+      "<hr/>",
+      "<reward reward=\"688CFEFDE7244290\" quest=\"681E89DB12A21A09\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -96,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.food_farms"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

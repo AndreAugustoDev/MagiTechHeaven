@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "375FF0D8ACD2E17F"
+  ],
+  "tasks": {
+    "36BBEFDBCCEC8DE0": {
+      "title": "Tier 3 Sigils",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "bloodmagic:bloodlightsigil"
+          },
+          {
+            "Count": 1,
+            "id": "bloodmagic:sigilofholding",
+            "tag": {
+              "currentSigil": 5
+            }
+          },
+          {
+            "Count": 1,
+            "id": "bloodmagic:sigilofmagnetism",
+            "tag": {}
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3CD9508C03CFE55C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Tier 3 Sigils",
+    "description": [
+      "<task task=\"36BBEFDBCCEC8DE0\" quest=\"1780A9FDD6983435\"/>",
+      "<hr/>",
+      "&&cBlood Lamp&&r - Launches a blood light when used. Costs 10LP",
+      "<br/>",
+      "&&9Holding&&r - Holds up to 5 other Sigils at a time, providing their passive effects and allowing you to activate them on a while. You can keybind buttons to access the inventory and cycle through the Sigils.",
+      "<br/>",
+      "&&6Magnetism&&r - Activate for a magnet up to 7 blocks at the cost of 50LP every 5 seconds.",
+      "<hr/>",
+      "<reward reward=\"3CD9508C03CFE55C\" quest=\"1780A9FDD6983435\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -640,
+          16
+        ]
+      }
+    }
+  }
+}

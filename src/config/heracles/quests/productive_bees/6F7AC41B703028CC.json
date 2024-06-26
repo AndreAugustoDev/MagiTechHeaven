@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "5B5DBA0A7644A551": {
+      "title": "Signalum Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:signalum"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "24B5AA1306FA8DAA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Signalum Bee",
+    "description": [
+      "<h2>Silver + Copper</h2>",
+      "<hr/>",
+      "<task task=\"5B5DBA0A7644A551\" quest=\"6F7AC41B703028CC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"24B5AA1306FA8DAA\" quest=\"6F7AC41B703028CC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:signalum_ingot"
+    },
+    "subtitle": {
+      "text": "Silver + Copper"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          96,
+          432
+        ]
+      }
+    }
+  }
+}

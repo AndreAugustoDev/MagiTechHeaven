@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DA7D0BA045CE7AB"
+  ],
+  "tasks": {
+    "7CBFE84B4FE3DC01": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "bloodmagic:blankslate"
+    }
+  },
+  "rewards": {
+    "01162A1F9A3B0A4D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Making Slates",
+    "description": [
+      "<task task=\"7CBFE84B4FE3DC01\" quest=\"6AAB831CB3FB536A\"/>",
+      "<hr/>",
+      "We'll want to infuse Life Essence (aka LP or Blood) into some stone.",
+      "<br/>",
+      "Placing stone in the Altar with 1000 LP inside will create Blank Slates. You'll need a lot of these.",
+      "<hr/>",
+      "<reward reward=\"01162A1F9A3B0A4D\" quest=\"6AAB831CB3FB536A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:blankslate"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -832,
+          -32
+        ]
+      }
+    }
+  }
+}

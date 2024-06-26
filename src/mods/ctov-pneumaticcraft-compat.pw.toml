@@ -1,0 +1,13 @@
+name = "CTOV - PneumaticCraft: Repressurized compat"
+filename = "ctov-pneumaticcraft-compat-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9OYJnLnl/versions/2wV6ynSb/ctov-pneumaticcraft-compat-1.0.jar"
+hash-format = "sha1"
+hash = "90618c9144fcca92967e59f49831627cf1be1096"
+
+[update]
+[update.modrinth]
+mod-id = "9OYJnLnl"
+version = "2wV6ynSb"

@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5A8F474927CC1E80": {
+      "title": "i18n.quest.power.mid",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5A8F474927CC1E80\" quest=\"5E41363F9AE243F3\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.mid}"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -64,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:dielectric_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.mid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

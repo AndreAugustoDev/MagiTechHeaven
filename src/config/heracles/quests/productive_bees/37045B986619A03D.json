@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "6047113DC2263E46": {
+      "title": "Lumber Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "32F2905E46B0A46F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Lumber Bee",
+    "description": [
+      "<h2>Yellow + Green Carpenter Bee</h2>",
+      "<hr/>",
+      "<task task=\"6047113DC2263E46\" quest=\"37045B986619A03D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"32F2905E46B0A46F\" quest=\"37045B986619A03D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_log"
+    },
+    "subtitle": {
+      "text": "Yellow + Green Carpenter Bee"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          96,
+          496
+        ]
+      }
+    }
+  }
+}

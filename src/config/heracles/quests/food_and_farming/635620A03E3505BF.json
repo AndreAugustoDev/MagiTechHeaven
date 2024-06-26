@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "2E9C035EEE7E5C34"
+  ],
+  "tasks": {
+    "5824C93C84312142": {
+      "type": "heracles:item",
+      "item": "minecraft:leather",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0B497B4A001CFFC0": {
+      "item": {
+        "id": "minecraft:leather",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "7914440DB4E0A801": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5824C93C84312142\" quest=\"635620A03E3505BF\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.cows</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7914440DB4E0A801\" quest=\"635620A03E3505BF\"/>",
+      "<reward reward=\"0B497B4A001CFFC0\" quest=\"635620A03E3505BF\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          144,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:leather",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.cows"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "7CB3FCD789747EF5"
+  ],
+  "tasks": {
+    "3915BEA724A2F7ED": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:heating_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "19945E72467070D2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "5EB6705A66BEB997": {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3915BEA724A2F7ED\" quest=\"1515B32545F51266\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.heat</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5EB6705A66BEB997\" quest=\"1515B32545F51266\"/>",
+      "<reward reward=\"19945E72467070D2\" quest=\"1515B32545F51266\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          32,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:heating_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.heat"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

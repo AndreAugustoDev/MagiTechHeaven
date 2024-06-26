@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "179DC208291D3C90": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:insanium_essence"
+    }
+  },
+  "rewards": {
+    "15CDEF693935DDC7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "§1Insanium Essence",
+    "description": [
+      "<h2>&&bTier 6</h2>",
+      "<hr/>",
+      "<task task=\"179DC208291D3C90\" quest=\"202B1F54D3F06DAB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"15CDEF693935DDC7\" quest=\"202B1F54D3F06DAB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "subtitle": {
+      "text": "§bTier 6"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          160,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "796061CC713A9A91": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:block_breaker"
+    },
+    "294C729B9EBD7A3C": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:block_placer"
+    }
+  },
+  "rewards": {
+    "43BDBF6B274E95D2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Blocks",
+    "description": [
+      "<task task=\"796061CC713A9A91\" quest=\"2CCFEE98FE3B2E97\"/>",
+      "<task task=\"294C729B9EBD7A3C\" quest=\"2CCFEE98FE3B2E97\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43BDBF6B274E95D2\" quest=\"2CCFEE98FE3B2E97\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          272,
+          -112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "47EB67F67390D09C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:chicken_seeds"
+    }
+  },
+  "rewards": {
+    "0DFA365B6C63EDB9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:chicken_seeds",
+    "description": [
+      "<task task=\"47EB67F67390D09C\" quest=\"3384308C78D86059\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0DFA365B6C63EDB9\" quest=\"3384308C78D86059\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:chicken_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -448,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "460A8F17F3ED6CAF"
+  ],
+  "tasks": {},
+  "rewards": {
+    "71734366561CE3E6": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"32340AD4F677375F\" quest=\"25DBA00422301EDC\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.4m</translate></p>",
+      "<hr/>",
+      "<reward reward=\"71734366561CE3E6\" quest=\"25DBA00422301EDC\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          608,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.4m"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

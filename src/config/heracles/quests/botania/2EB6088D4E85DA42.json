@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "23A2865FBE7831AB"
+  ],
+  "tasks": {
+    "1DCCF34086BB0191": {
+      "type": "heracles:item",
+      "item": "botania:terraform_rod"
+    }
+  },
+  "rewards": {
+    "158F5E8E623CFFCA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Flattening the Land",
+    "description": [
+      "<task task=\"1DCCF34086BB0191\" quest=\"2EB6088D4E85DA42\"/>",
+      "<hr/>",
+      "Tired of using a shovel to level out grass? Try using the &&2Rod of Terra Firma&&r!",
+      "<br/>",
+      "At the cost of Mana, this will flatten the surrounding land to your own altitude by charging up the rod by holding right click.",
+      "<br/>",
+      "Note: Blocks removed by the rod are not recoverable.",
+      "<hr/>",
+      "<reward reward=\"158F5E8E623CFFCA\" quest=\"2EB6088D4E85DA42\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terraform_rod"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          528,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "39C1F0936A29423F": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:earth_seeds"
+    }
+  },
+  "rewards": {
+    "14A3162D86090C91": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:earth_seeds",
+    "description": [
+      "<task task=\"39C1F0936A29423F\" quest=\"13124A7E22999850\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"14A3162D86090C91\" quest=\"13124A7E22999850\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:earth_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -640,
+          -192
+        ]
+      }
+    }
+  }
+}

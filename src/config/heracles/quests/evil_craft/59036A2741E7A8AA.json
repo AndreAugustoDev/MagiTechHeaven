@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DA0A87C471A38AC"
+  ],
+  "tasks": {
+    "4D297E4145C19440": {
+      "type": "heracles:item",
+      "item": "evilcraft:spirit_reanimator"
+    }
+  },
+  "rewards": {
+    "1FB5ED3DF7B6AC7B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aCreating§r §9Mob Eggs§r",
+    "description": [
+      "<task task=\"4D297E4145C19440\" quest=\"59036A2741E7A8AA\"/>",
+      "<hr/>",
+      "Want to create a mob egg from the spirit you have trapped in that box?",
+      "<br/>",
+      "The &&9Spirit Reanimator&&r does exactly that. Give it a lot of &&cBlood&&r and an egg, and of course a &&9Box of Eternal Closure&&r with the Spirit you want to create the mob egg from, and it will attempt to create the mob egg!",
+      "<br/>",
+      "Note: Some mobs cannot be used to create eggs.",
+      "<hr/>",
+      "<reward reward=\"1FB5ED3DF7B6AC7B\" quest=\"59036A2741E7A8AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:spirit_reanimator"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          256,
+          -4
+        ]
+      }
+    }
+  }
+}

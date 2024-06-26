@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "6904EC449FBEE387"
+  ],
+  "tasks": {
+    "37BB3E6C1BF5560C": {
+      "type": "heracles:item",
+      "item": "refinedstorage:crafting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "33CE02A9C852D835": {
+      "type": "heracles:item",
+      "item": "refinedstorage:regulator_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "684D20A983D190DB": {
+      "item": {
+        "id": "refinedstorage:crafting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "085EEF00946EFDB6": {
+      "item": {
+        "id": "refinedstorage:regulator_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"33CE02A9C852D835\" quest=\"30700E99091B712A\"/>",
+      "<task task=\"37BB3E6C1BF5560C\" quest=\"30700E99091B712A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.upgrades</translate></p>",
+      "<hr/>",
+      "<reward reward=\"085EEF00946EFDB6\" quest=\"30700E99091B712A\"/>",
+      "<reward reward=\"684D20A983D190DB\" quest=\"30700E99091B712A\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -272,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.upgrades"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

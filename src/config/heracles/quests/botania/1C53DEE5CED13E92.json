@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "48201CEFFBFD0000": {
+      "type": "heracles:item",
+      "item": "botania:elementium_shovel"
+    }
+  },
+  "rewards": {
+    "6E0CD99B45AE52A3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:elementium_shovel",
+    "description": [
+      "<task task=\"48201CEFFBFD0000\" quest=\"1C53DEE5CED13E92\"/>",
+      "<hr/>",
+      "When breaking a block that is affected by gravity, this will auto-break all blocks above or below it.",
+      "<hr/>",
+      "<reward reward=\"6E0CD99B45AE52A3\" quest=\"1C53DEE5CED13E92\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:elementium_shovel"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          624,
+          0
+        ]
+      }
+    }
+  }
+}

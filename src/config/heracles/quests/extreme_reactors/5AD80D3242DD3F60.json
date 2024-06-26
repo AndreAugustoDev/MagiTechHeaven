@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "0B1DF8A040826D87",
+    "6ADDFD55AD0DF7D4"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"53B5B370425018EC\" quest=\"5AD80D3242DD3F60\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.insanite_material</translate></p>",
+      "<hr/>",
+      "<reward reward=\"01A038407420AF20\" quest=\"5AD80D3242DD3F60\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -64,
+          496
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:insanite_block",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bigreactors.insanite_block"
+  },
+  "rewards": {
+    "01A038407420AF20": {
+      "amount": 1000,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "53B5B370425018EC": {
+      "item": "bigreactors:insanite_block",
+      "type": "heracles:item"
+    }
+  }
+}

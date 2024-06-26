@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "4E9229FBA875C0BE"
+  ],
+  "tasks": {
+    "5A21FAE40A7E734E": {
+      "type": "heracles:item",
+      "item": "irons_spellbooks:scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Iron's Spell Scroll"
+    }
+  },
+  "rewards": {
+    "7C07DA5E6B18DF1F": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5A21FAE40A7E734E\" quest=\"58541EEDCB2C7CEE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.spell",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "{image:atm:textures/questpics/gettingstarted/ironspells_example.png width:199 height:125 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7C07DA5E6B18DF1F\" quest=\"58541EEDCB2C7CEE\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          64,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "irons_spellbooks:scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.spell"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0FD62827710F0AC6",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "18DA813AAFFAB349": {
+      "type": "heracles:item",
+      "item": "powah:magmator_basic"
+    }
+  },
+  "rewards": {
+    "20192640360C0972": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:magmator_basic",
+    "description": [
+      "<task task=\"18DA813AAFFAB349\" quest=\"0E3A9D5E1E8AAF89\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20192640360C0972\" quest=\"0E3A9D5E1E8AAF89\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:magmator_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          112,
+          400
+        ]
+      }
+    }
+  }
+}

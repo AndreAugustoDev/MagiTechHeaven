@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "44D1B410550B6C28"
+  ],
+  "tasks": {},
+  "rewards": {
+    "60BFDFEDBA2E930C": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "lvl": 5,
+              "id": "minecraft:impaling"
+            }
+          ]
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2C0F85A4868C5C20\" quest=\"24526FFBA093805A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.trident</translate></p>",
+      "<hr/>",
+      "<reward reward=\"60BFDFEDBA2E930C\" quest=\"24526FFBA093805A\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          64,
+          15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.trident"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

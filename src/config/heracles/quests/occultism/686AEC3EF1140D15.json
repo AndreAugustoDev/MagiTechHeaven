@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2A5004EB99AE4F96"
+  ],
+  "tasks": {
+    "73EA231C66874BB0": {
+      "type": "heracles:item",
+      "item": "occultism:infused_pickaxe",
+      "nbt": {
+        "spiritName": "Raymirivyne"
+      }
+    }
+  },
+  "rewards": {
+    "534ED82AE3739E75": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "New Tools for New Ores",
+    "description": [
+      "<task task=\"73EA231C66874BB0\" quest=\"686AEC3EF1140D15\"/>",
+      "<hr/>",
+      "Most of the items we've needed from the &&3Otherworld&&r so far just needed some Spiritfire. However, we will need to use the help of the &&3Third Eye&&r to find the Ore of the &&3Otherworld&&r.",
+      "<br/>",
+      "We'll also need a special pickaxe to be able to mine it. For this, we'll need to Infuse a Demon into a &&dSpirit Attuned Pickaxe Head&&r to create a pickaxe that can break this new kind of ore.",
+      "<hr/>",
+      "<reward reward=\"534ED82AE3739E75\" quest=\"686AEC3EF1140D15\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:infused_pickaxe"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          304,
+          304
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "7B973B2B2EED7921": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_lapidary"
+    }
+  },
+  "rewards": {
+    "2D68111DA1CB4560": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lapis_lazuli",
+        "count": 2
+      }
+    },
+    "48E74944FEA0ECC1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:dynamo_lapidary",
+    "description": [
+      "<h2>Generates Power using Gems!</h2>",
+      "<hr/>",
+      "<task task=\"7B973B2B2EED7921\" quest=\"72C1C2CE02DCBDFF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D68111DA1CB4560\" quest=\"72C1C2CE02DCBDFF\"/>",
+      "<reward reward=\"48E74944FEA0ECC1\" quest=\"72C1C2CE02DCBDFF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_lapidary"
+    },
+    "subtitle": {
+      "text": "Generates Power using Gems!"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    }
+  }
+}

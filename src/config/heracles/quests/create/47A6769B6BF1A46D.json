@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "5CB1191F8F7BBAA4": {
+      "type": "heracles:item",
+      "item": "create:andesite_funnel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:andesite_funnel",
+    "description": [
+      "<task task=\"5CB1191F8F7BBAA4\" quest=\"47A6769B6BF1A46D\"/>",
+      "<hr/>",
+      "The &&n&&5Funnel&&r can import or export items from connected inventories."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_funnel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          -80
+        ]
+      }
+    }
+  }
+}

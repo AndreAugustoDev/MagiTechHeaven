@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "202B1F54D3F06DAB"
+  ],
+  "tasks": {
+    "5A17FCC895F52C8B": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:insanium_farmland"
+    }
+  },
+  "rewards": {
+    "750518D2515C0D33": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:insanium_farmland",
+    "description": [
+      "<task task=\"5A17FCC895F52C8B\" quest=\"2FA6B8A1C8713DE0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"750518D2515C0D33\" quest=\"2FA6B8A1C8713DE0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:insanium_farmland"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          160,
+          -112
+        ]
+      }
+    }
+  }
+}

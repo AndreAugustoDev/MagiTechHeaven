@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6754612E9AD4B9C0"
+  ],
+  "tasks": {
+    "011563130B58F561": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "powah:reactor_niotic"
+    }
+  },
+  "rewards": {
+    "7DAAF18666B1C847": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Reactor (Niotic)",
+    "description": [
+      "<task task=\"011563130B58F561\" quest=\"0FFF2BEE5D8EBE12\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7DAAF18666B1C847\" quest=\"0FFF2BEE5D8EBE12\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:reactor_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          208,
+          496
+        ]
+      }
+    }
+  }
+}

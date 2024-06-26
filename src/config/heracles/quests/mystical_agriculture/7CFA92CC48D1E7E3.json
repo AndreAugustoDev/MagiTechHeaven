@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "3E93D20A19EEAD09": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:wither_skeleton_seeds"
+    }
+  },
+  "rewards": {
+    "7F53E76E7DE4A6D3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:wither_skeleton_seeds",
+    "description": [
+      "<task task=\"3E93D20A19EEAD09\" quest=\"7CFA92CC48D1E7E3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F53E76E7DE4A6D3\" quest=\"7CFA92CC48D1E7E3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:wither_skeleton_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          16,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "4BEC4730588463FE": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_essence"
+    }
+  },
+  "rewards": {
+    "331775C656F9D2F2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§9Imperium Essence",
+    "description": [
+      "<h2>&&bTier 4</h2>",
+      "<hr/>",
+      "<task task=\"4BEC4730588463FE\" quest=\"66C52B137A4FF869\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"331775C656F9D2F2\" quest=\"66C52B137A4FF869\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    "subtitle": {
+      "text": "§bTier 4"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -48
+        ]
+      }
+    }
+  }
+}

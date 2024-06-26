@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "3D6A9C7EE22C2ADF": {
+      "title": "Multi-Cycle Injectors",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:dynamo_fuel_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_fuel_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_fuel_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_fuel_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_fuel_augment_4"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "6D0FE4CFD7575A75": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Multi-Cycle Injectors",
+    "description": [
+      "<h2>Increases Fuel Efficiency of Dynamos</h2>",
+      "<hr/>",
+      "<task task=\"3D6A9C7EE22C2ADF\" quest=\"467CDD14AE21A850\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6D0FE4CFD7575A75\" quest=\"467CDD14AE21A850\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases Fuel Efficiency of Dynamos"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          256,
+          -64
+        ]
+      }
+    }
+  }
+}

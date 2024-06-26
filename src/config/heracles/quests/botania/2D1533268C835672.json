@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "4447633E574741FD": {
+      "type": "heracles:item",
+      "item": "botania:lens_speed"
+    }
+  },
+  "rewards": {
+    "27C4C4ECBDD8CFB2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_speed",
+    "description": [
+      "<task task=\"4447633E574741FD\" quest=\"2D1533268C835672\"/>",
+      "<hr/>",
+      "Dramatically increases the speed of the Mana Bursts at the expense of initial capacity and faster mana loss.",
+      "<hr/>",
+      "<reward reward=\"27C4C4ECBDD8CFB2\" quest=\"2D1533268C835672\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_speed"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          336,
+          256
+        ]
+      }
+    }
+  }
+}

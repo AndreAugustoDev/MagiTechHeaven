@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D720AC88431BD70",
+    "39A19138C501B16F"
+  ],
+  "tasks": {
+    "7B7C1C5BFEC92058": {
+      "title": "Emerald Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:emerald"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "50B0611117EE75AB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:emerald"
+          }
+        }
+      }
+    },
+    "0FE7E2772FA1C09A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Emerald Bee",
+    "description": [
+      "<h2>Diamond Bee + Slimy Bee</h2>",
+      "<hr/>",
+      "<task task=\"7B7C1C5BFEC92058\" quest=\"5563BD4934297522\"/>",
+      "<hr/>",
+      "Once you have a Diamond Bee, breed it with the Slimy Bee to create an Emerald Bee!",
+      "<hr/>",
+      "<reward reward=\"50B0611117EE75AB\" quest=\"5563BD4934297522\"/>",
+      "<reward reward=\"0FE7E2772FA1C09A\" quest=\"5563BD4934297522\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:emerald"
+    },
+    "subtitle": {
+      "text": "Diamond Bee + Slimy Bee"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          112
+        ]
+      }
+    }
+  }
+}

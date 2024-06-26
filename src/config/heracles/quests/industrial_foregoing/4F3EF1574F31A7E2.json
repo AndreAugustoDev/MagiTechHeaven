@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "0D1F3F6898F4E776": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:stasis_chamber"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:stasis_chamber",
+    "description": [
+      "<task task=\"0D1F3F6898F4E776\" quest=\"4F3EF1574F31A7E2\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:stasis_chamber"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          560,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "4FCB8A72367ADF6E": {
+      "type": "heracles:item",
+      "item": "productivebees:catcher"
+    }
+  },
+  "rewards": {
+    "5A5DC2058B09B6F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "6BB1ACB9F4FF3532": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:catcher",
+    "description": [
+      "<h2>Catches Bees</h2>",
+      "<hr/>",
+      "<task task=\"4FCB8A72367ADF6E\" quest=\"7B5A0BFD47D96BDE\"/>",
+      "<hr/>",
+      "Used to catch bees that are flying around it.",
+      "<br/>",
+      "You can use a Filter Upgrade to filter out which bees you want to catch, as well as a BaBee Upgrade to only catch baby bees.",
+      "<hr/>",
+      "<reward reward=\"5A5DC2058B09B6F5\" quest=\"7B5A0BFD47D96BDE\"/>",
+      "<reward reward=\"6BB1ACB9F4FF3532\" quest=\"7B5A0BFD47D96BDE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:catcher"
+    },
+    "subtitle": {
+      "text": "Catches Bees"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          192,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "47BAD4AA76F9CF82": {
+      "title": "Silver Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:silver"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7DA4E88B8BB15693": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Silver Bee",
+    "description": [
+      "<h2>Iron + Mason</h2>",
+      "<hr/>",
+      "<task task=\"47BAD4AA76F9CF82\" quest=\"09223F02621781BF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7DA4E88B8BB15693\" quest=\"09223F02621781BF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:silver_ingot"
+    },
+    "subtitle": {
+      "text": "Iron + Mason"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          368
+        ]
+      }
+    }
+  }
+}

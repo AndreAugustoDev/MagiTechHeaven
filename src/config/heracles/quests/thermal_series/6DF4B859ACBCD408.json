@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "5DFD1C0334466FF2": {
+      "title": "Expanded Tank Construction",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:fluid_tank_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:fluid_tank_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:fluid_tank_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:fluid_tank_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:fluid_tank_augment_4"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:fluid_tank_augment_5"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:fluid_tank_augment_6"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Expanded Tank Construction",
+    "description": [
+      "<h2>Increases Tank Storage</h2>",
+      "<hr/>",
+      "<task task=\"5DFD1C0334466FF2\" quest=\"6DF4B859ACBCD408\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases Tank Storage"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          64,
+          160
+        ]
+      }
+    }
+  }
+}

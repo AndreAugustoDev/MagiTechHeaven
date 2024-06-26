@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C3CA7B9D1A7DC47"
+  ],
+  "tasks": {
+    "6692D1D1E4E4F758": {
+      "type": "heracles:item",
+      "item": "bloodmagic:selfsacrificerune"
+    }
+  },
+  "rewards": {
+    "5898710F2074585F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:selfsacrificerune",
+    "description": [
+      "<task task=\"6692D1D1E4E4F758\" quest=\"6CE4ED7A2642674F\"/>",
+      "<hr/>",
+      "This rune increases the amount of LP gained from getting blood from Players. :D",
+      "<br/>",
+      "Each rune gives a bonus of 10% additively.",
+      "<hr/>",
+      "<reward reward=\"5898710F2074585F\" quest=\"6CE4ED7A2642674F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:selfsacrificerune"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -688,
+          -64
+        ]
+      }
+    }
+  }
+}

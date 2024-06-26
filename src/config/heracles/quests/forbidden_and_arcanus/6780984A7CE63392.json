@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "480CDA250CAFF8C2": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:zombie_arm"
+    }
+  },
+  "rewards": {
+    "61422C7B7C8414E9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:zombie_arm",
+    "description": [
+      "<h2>Can Infect Villagers and Horses</h2>",
+      "<hr/>",
+      "<task task=\"480CDA250CAFF8C2\" quest=\"6780984A7CE63392\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"61422C7B7C8414E9\" quest=\"6780984A7CE63392\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:zombie_arm"
+    },
+    "subtitle": {
+      "text": "Can Infect Villagers and Horses"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -416,
+          144
+        ]
+      }
+    }
+  }
+}

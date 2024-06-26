@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "69E96EE9A9A2F423",
+    "4F1575600E7CD512"
+  ],
+  "tasks": {},
+  "rewards": {
+    "68A18CE16C45CE2B": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "758235727BB06108": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of The Undead\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"43275F9CD53111B2\" quest=\"32DC639415E45075\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"758235727BB06108\" quest=\"32DC639415E45075\"/>",
+      "<reward reward=\"68A18CE16C45CE2B\" quest=\"32DC639415E45075\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          96,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.undead"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

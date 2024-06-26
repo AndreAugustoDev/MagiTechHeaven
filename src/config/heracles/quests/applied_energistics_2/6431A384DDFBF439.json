@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "22C4318523A43B49"
+  ],
+  "tasks": {
+    "7BDCDEB679A9969C": {
+      "type": "heracles:item",
+      "item": "ae2:network_tool",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7BDCDEB679A9969C\" quest=\"6431A384DDFBF439\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.network}"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          288,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:network_tool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.network"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

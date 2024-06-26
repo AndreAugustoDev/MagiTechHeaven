@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "11D37E7391B49A88"
+  ],
+  "tasks": {
+    "72A92CB3A5DA9044": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulsword"
+    }
+  },
+  "rewards": {
+    "40D83B6E12A16952": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The Sentient Sword",
+    "description": [
+      "<task task=\"72A92CB3A5DA9044\" quest=\"7C8D74692C963000\"/>",
+      "<hr/>",
+      "We can't use Soul Snares forever.",
+      "<br/>",
+      "The Sentient Sword allows you to collect Demon Will a lot easier. Simply kill a hostile mob with the sword, and the mob will drop Demon Will.",
+      "<hr/>",
+      "<reward reward=\"40D83B6E12A16952\" quest=\"7C8D74692C963000\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulsword"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -832,
+          112
+        ]
+      }
+    }
+  }
+}

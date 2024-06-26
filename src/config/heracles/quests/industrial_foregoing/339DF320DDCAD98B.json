@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6E616DB197387C86"
+  ],
+  "tasks": {
+    "5AE0559068C0050A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:item_transporter_type"
+    },
+    "7D17F00002916197": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_transporter_type"
+    }
+  },
+  "rewards": {
+    "4BEE831683A26355": {
+      "type": "heracles:item",
+      "item": {
+        "id": "industrialforegoing:item_transporter_type",
+        "count": 5
+      }
+    },
+    "754E8997E9493E96": {
+      "type": "heracles:item",
+      "item": {
+        "id": "industrialforegoing:fluid_transporter_type",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Item & Fluid Transport",
+    "description": [
+      "<task task=\"5AE0559068C0050A\" quest=\"339DF320DDCAD98B\"/>",
+      "<task task=\"7D17F00002916197\" quest=\"339DF320DDCAD98B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4BEE831683A26355\" quest=\"339DF320DDCAD98B\"/>",
+      "<reward reward=\"754E8997E9493E96\" quest=\"339DF320DDCAD98B\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

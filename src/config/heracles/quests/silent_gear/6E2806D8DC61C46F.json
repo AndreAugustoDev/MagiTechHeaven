@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "359631F5009F3B9F": {
+      "type": "heracles:item",
+      "item": "silentgear:helmet_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1E2C85D526645FBE": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"359631F5009F3B9F\" quest=\"6E2806D8DC61C46F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1E2C85D526645FBE\" quest=\"6E2806D8DC61C46F\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          256,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:helmet_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.helmet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

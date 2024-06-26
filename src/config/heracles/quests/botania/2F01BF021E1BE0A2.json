@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "379AC75F99212089"
+  ],
+  "tasks": {
+    "3678AFFD31942CF3": {
+      "type": "heracles:item",
+      "item": "botania:mana_ring_greater"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: botania:mana_ring_greater",
+    "description": [
+      "<task task=\"3678AFFD31942CF3\" quest=\"2F01BF021E1BE0A2\"/>",
+      "<hr/>",
+      "By upgrading the Band of Mana with an ingot of Terrasteel, it creates the &&dGreater Band of Mana&&r which allows it to hold up to 4x the amount of mana."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:mana_ring_greater"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "43021923E220CF68"
+  ],
+  "tasks": {
+    "73B6ED422F9292D1": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat_seeds",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "37CC4C9D02D00F80": {
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "3EF6CC70CA664541": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.grass"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.grass</translate></h2>",
+      "<hr/>",
+      "<task task=\"73B6ED422F9292D1\" quest=\"72717D1135486D7F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.grass</translate></p>",
+      "<hr/>",
+      "<reward reward=\"37CC4C9D02D00F80\" quest=\"72717D1135486D7F\"/>",
+      "<reward reward=\"3EF6CC70CA664541\" quest=\"72717D1135486D7F\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -112,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.farm.grass"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

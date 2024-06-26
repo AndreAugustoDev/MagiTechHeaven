@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "622AAF6C554CA027": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:zombie_seeds"
+    }
+  },
+  "rewards": {
+    "40EE6A8B6B90CB0C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:zombie_seeds",
+    "description": [
+      "<task task=\"622AAF6C554CA027\" quest=\"155A843A562DB7C4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"40EE6A8B6B90CB0C\" quest=\"155A843A562DB7C4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:zombie_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -320,
+          16
+        ]
+      }
+    }
+  }
+}

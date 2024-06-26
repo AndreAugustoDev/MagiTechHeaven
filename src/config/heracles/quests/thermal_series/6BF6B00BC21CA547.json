@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "504ABB4FCF4AA14E": {
+      "type": "heracles:item",
+      "item": "thermal:flux_saw"
+    }
+  },
+  "rewards": {
+    "539EF1C8332A468C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:flux_saw",
+    "description": [
+      "<h2>RF-Powered Handsaw!</h2>",
+      "<hr/>",
+      "<task task=\"504ABB4FCF4AA14E\" quest=\"6BF6B00BC21CA547\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"539EF1C8332A468C\" quest=\"6BF6B00BC21CA547\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:flux_saw"
+    },
+    "subtitle": {
+      "text": "RF-Powered Handsaw!"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          144,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "437DB2CE10D33A08"
+  ],
+  "tasks": {
+    "345245C32DB7B4D4": {
+      "title": "Redstone Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:redstone"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "0E473480AE6A71DF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:redstone"
+          }
+        }
+      }
+    },
+    "1AA439A6CAB4A90A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Redstone Bees",
+    "description": [
+      "<h2>Glowing + Chocolate Mining</h2>",
+      "<hr/>",
+      "<task task=\"345245C32DB7B4D4\" quest=\"117241986C99E475\"/>",
+      "<hr/>",
+      "With the Glowing Bee, breed it with the Chocolate Mining Bee to get a Redstone Bee!",
+      "<hr/>",
+      "<reward reward=\"0E473480AE6A71DF\" quest=\"117241986C99E475\"/>",
+      "<reward reward=\"1AA439A6CAB4A90A\" quest=\"117241986C99E475\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone"
+    },
+    "subtitle": {
+      "text": "Glowing + Chocolate Mining"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          176
+        ]
+      }
+    }
+  }
+}

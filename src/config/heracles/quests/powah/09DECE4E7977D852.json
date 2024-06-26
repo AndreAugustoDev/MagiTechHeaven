@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4EA69350A20B0B5B",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "11BF64326BEABFF4": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_hardened"
+    }
+  },
+  "rewards": {
+    "4C7355E80870AA3E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energizing_rod_hardened",
+    "description": [
+      "<task task=\"11BF64326BEABFF4\" quest=\"09DECE4E7977D852\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C7355E80870AA3E\" quest=\"09DECE4E7977D852\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -144,
+          432
+        ]
+      }
+    }
+  }
+}

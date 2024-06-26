@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68"
+  ],
+  "tasks": {},
+  "rewards": {
+    "54346236C9443772": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.creating_turbine_shaft</translate></h2>",
+      "<hr/>",
+      "<task task=\"5D6A9AD111A612EE\" quest=\"3FC7FDAF84871963\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.creating_turbine_shaft</translate></p>",
+      "<hr/>",
+      "<reward reward=\"54346236C9443772\" quest=\"3FC7FDAF84871963\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          16,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.turbine_coils"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

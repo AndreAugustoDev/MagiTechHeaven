@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "5E4BC0F59C90433A"
+  ],
+  "tasks": {
+    "77A9435B6739348E": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:iron_chest",
+      "nbt": {
+        "woodType": "oak"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "632C34D1F4CE965A": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "56FA5A7CE451E586": {
+      "item": {
+        "id": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.iron"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.iron</translate></h2>",
+      "<hr/>",
+      "<task task=\"77A9435B6739348E\" quest=\"58514FDE153FD971\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.iron</translate></p>",
+      "<hr/>",
+      "<reward reward=\"56FA5A7CE451E586\" quest=\"58514FDE153FD971\"/>",
+      "<reward reward=\"632C34D1F4CE965A\" quest=\"58514FDE153FD971\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -224,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:iron_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.iron"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "263925A79EBB270F"
+  ],
+  "tasks": {
+    "7877DD9632B05697": {
+      "type": "heracles:item",
+      "item": "bloodmagic:rawdemonite"
+    }
+  },
+  "rewards": {
+    "5A9B7EEF24D6703A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§cThe Demon Realm",
+    "description": [
+      "<task task=\"7877DD9632B05697\" quest=\"42CDD69527871332\"/>",
+      "<hr/>",
+      "Performing the &&cPathway to the Endless Realm&&r ritual will give you access to the proper Demon Realm.",
+      "<br/>",
+      "This is the only place where you can find &&9Demonite Ore&&r. This is used to create the Tier 5 Altar.",
+      "<br/>",
+      "There is also a ton of rare loot, so make sure to keep an eye out for Intricate Hellforged Parts.",
+      "<hr/>",
+      "<reward reward=\"5A9B7EEF24D6703A\" quest=\"42CDD69527871332\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:rawdemonite"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -352,
+          -80
+        ]
+      }
+    }
+  }
+}

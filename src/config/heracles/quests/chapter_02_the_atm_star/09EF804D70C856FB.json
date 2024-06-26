@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "49F657420099FE3B": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:hammer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "13F7319EA0FDAF7A": {
+      "item": {
+        "id": "immersiveengineering:manual",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"49F657420099FE3B\" quest=\"09EF804D70C856FB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.IE</translate></p>",
+      "<hr/>",
+      "<reward reward=\"13F7319EA0FDAF7A\" quest=\"09EF804D70C856FB\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -528,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "immersiveengineering:hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.IE"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

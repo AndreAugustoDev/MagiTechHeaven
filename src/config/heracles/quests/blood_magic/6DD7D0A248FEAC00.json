@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0E8418B42A744030"
+  ],
+  "tasks": {
+    "049052953E05D38F": {
+      "type": "heracles:item",
+      "item": "bloodmagic:simplekey"
+    }
+  },
+  "rewards": {
+    "7A53C4B113A1FC46": {
+      "type": "heracles:item",
+      "item": {
+        "id": "bloodmagic:simplekey"
+      }
+    },
+    "78BC6412E5FF7EF2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Dungeon Keys",
+    "description": [
+      "<task task=\"049052953E05D38F\" quest=\"6DD7D0A248FEAC00\"/>",
+      "<hr/>",
+      "Once you make it to the Hidden Realm, you'll find a chest with some basic loot in it.",
+      "<br/>",
+      "Keep an eye out for &&9Iron Keys&&r. These unlock the extra rooms within the Hidden Realm, giving access to even more loot.",
+      "<hr/>",
+      "<reward reward=\"7A53C4B113A1FC46\" quest=\"6DD7D0A248FEAC00\"/>",
+      "<reward reward=\"78BC6412E5FF7EF2\" quest=\"6DD7D0A248FEAC00\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:simplekey"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -576,
+          112
+        ]
+      }
+    }
+  }
+}

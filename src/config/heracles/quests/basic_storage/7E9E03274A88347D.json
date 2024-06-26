@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7E22C7FB2F953E70": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "442C444707D2AD35": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.stack1"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.stack1</translate></h2>",
+      "<hr/>",
+      "<task task=\"7E22C7FB2F953E70\" quest=\"7E9E03274A88347D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"442C444707D2AD35\" quest=\"7E9E03274A88347D\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -96,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:stack_upgrade_tier_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.stack1"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

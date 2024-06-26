@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6D7CABCFB50D8B0D",
+    "7940E814260C556F"
+  ],
+  "tasks": {
+    "48AC2274973C4509": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_control_circuit"
+    }
+  },
+  "rewards": {
+    "5A285211E7D37512": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:alloy_reinforced"
+      }
+    },
+    "117AA7D11A587024": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_control_circuit",
+    "description": [
+      "<task task=\"48AC2274973C4509\" quest=\"347C16F0F7CFAACF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A285211E7D37512\" quest=\"347C16F0F7CFAACF\"/>",
+      "<reward reward=\"117AA7D11A587024\" quest=\"347C16F0F7CFAACF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_control_circuit"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -208,
+          -176
+        ]
+      }
+    }
+  }
+}

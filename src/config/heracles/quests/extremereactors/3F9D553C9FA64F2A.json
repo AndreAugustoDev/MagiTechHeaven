@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "tasks": {
+    "52294DB4AE793F9C": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorcasing",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2D71A6EF1CA59FA7": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"52294DB4AE793F9C\" quest=\"3F9D553C9FA64F2A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.building_actively_cooled_reactor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2D71A6EF1CA59FA7\" quest=\"3F9D553C9FA64F2A\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -224,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:basic_reactorcasing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.expanding_our_reactors"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "0FF852DE33E41C90"
+  ],
+  "tasks": {
+    "4063C1B5F935A026": {
+      "title": "Induction Cells",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mekanism:basic_induction_cell"
+          },
+          {
+            "Count": 1,
+            "id": "mekanism:advanced_induction_cell"
+          },
+          {
+            "Count": 1,
+            "id": "mekanism:elite_induction_cell"
+          },
+          {
+            "Count": 1,
+            "id": "mekanism:ultimate_induction_cell"
+          }
+        ]
+      }
+    },
+    "2E3FF129C3668DD8": {
+      "title": "Induction Providers",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mekanism:basic_induction_provider"
+          },
+          {
+            "Count": 1,
+            "id": "mekanism:advanced_induction_provider"
+          },
+          {
+            "Count": 1,
+            "id": "mekanism:elite_induction_provider"
+          },
+          {
+            "Count": 1,
+            "id": "mekanism:ultimate_induction_provider"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3CC428CF1A7974C7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§aCustomizing Our§r §9Power Limits§r",
+    "description": [
+      "<task task=\"4063C1B5F935A026\" quest=\"14D772808D1BEAE2\"/>",
+      "<task task=\"2E3FF129C3668DD8\" quest=\"14D772808D1BEAE2\"/>",
+      "<hr/>",
+      "The Induction Matrix allows you to customize how much power you can store and transfer by adding Cells and Providers inside of the multiblock structure.",
+      "<br/>",
+      "Induction Cells increase the total amount of power that can be stored.",
+      "<br/>",
+      "Induction Providers increase the total transfer speed both in and out of the Matrix.",
+      "<br/>",
+      "You can customize how many you want of each inside of the multiblock, but you will need at least one of each. These also have higher tiers to increase your overall storage and transfer capacity.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3CC428CF1A7974C7\" quest=\"14D772808D1BEAE2\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          128,
+          -16
+        ]
+      }
+    }
+  }
+}

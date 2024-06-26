@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "09EF804D70C856FB"
+  ],
+  "tasks": {
+    "7CB91E52B7869C16": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:heavy_engineering",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "27CA82E687C62455": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:light_engineering",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3336C0ED40FC863B": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:rs_engineering",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1C57789C3A972D26": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:fluid_pipe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7E83A19A79A84906": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:steel_fence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "79A1B15D5E9B7EF7": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:steel_scaffolding_standard",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"27CA82E687C62455\" quest=\"27E52482C789280F\"/>",
+      "<task task=\"7CB91E52B7869C16\" quest=\"27E52482C789280F\"/>",
+      "<task task=\"79A1B15D5E9B7EF7\" quest=\"27E52482C789280F\"/>",
+      "<task task=\"7E83A19A79A84906\" quest=\"27E52482C789280F\"/>",
+      "<task task=\"3336C0ED40FC863B\" quest=\"27E52482C789280F\"/>",
+      "<task task=\"1C57789C3A972D26\" quest=\"27E52482C789280F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.multiblocks}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -464,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.multiblocks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

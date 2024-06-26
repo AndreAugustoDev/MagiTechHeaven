@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "2CC38211F4C54ED8": {
+      "title": "Draconic Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:draconic"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "52BFF2CF6ECE1B6B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:draconic"
+          }
+        }
+      }
+    },
+    "7BB5EF8129DEFE69": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Draconic Bee",
+    "description": [
+      "<h2>&&9Requires Obsidian Nest</h2>",
+      "<hr/>",
+      "<task task=\"2CC38211F4C54ED8\" quest=\"00FD36C207845895\"/>",
+      "<hr/>",
+      "Place an Obsidian Nest in the End to lure this bee.",
+      "<hr/>",
+      "<reward reward=\"52BFF2CF6ECE1B6B\" quest=\"00FD36C207845895\"/>",
+      "<reward reward=\"7BB5EF8129DEFE69\" quest=\"00FD36C207845895\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_head"
+    },
+    "subtitle": {
+      "text": "§9Requires Obsidian Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          256,
+          176
+        ]
+      }
+    }
+  }
+}

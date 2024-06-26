@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "166971866A9234C7"
+  ],
+  "tasks": {
+    "126FB3CA8F2CCF11": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_muffling"
+    }
+  },
+  "rewards": {
+    "4D74CDF6AE6E40C3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:upgrade_muffling",
+    "description": [
+      "<h2>shhhhh... too loud....</h2>",
+      "<hr/>",
+      "<task task=\"126FB3CA8F2CCF11\" quest=\"001DE8028CAF0A08\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4D74CDF6AE6E40C3\" quest=\"001DE8028CAF0A08\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_muffling"
+    },
+    "subtitle": {
+      "text": "shhhhh... too loud...."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          0,
+          320
+        ]
+      }
+    }
+  }
+}

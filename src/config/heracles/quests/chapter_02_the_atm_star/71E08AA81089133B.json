@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "088D80D8790DBD90"
+  ],
+  "tasks": {
+    "484B6ACA3FD290CD": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:pressure_tube",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5732E73D2DEF81B5": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:air_compressor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3D6515FCCAEE52FF": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:security_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5732E73D2DEF81B5\" quest=\"71E08AA81089133B\"/>",
+      "<task task=\"484B6ACA3FD290CD\" quest=\"71E08AA81089133B\"/>",
+      "<task task=\"3D6515FCCAEE52FF\" quest=\"71E08AA81089133B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.air}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          304,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.air"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

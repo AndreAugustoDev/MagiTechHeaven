@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "5CF320E9C4C1B1E1"
+  ],
+  "tasks": {
+    "1AFA45D4934626C6": {
+      "type": "heracles:item",
+      "item": "#forge:chests/wooden",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Chest",
+      "icon": {
+        "item": {
+          "id": "minecraft:chest",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "7D6D1B0CB60B90B8": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1AFA45D4934626C6\" quest=\"0752E680F9DE4039\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.storage</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7D6D1B0CB60B90B8\" quest=\"0752E680F9DE4039\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -96,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.storage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

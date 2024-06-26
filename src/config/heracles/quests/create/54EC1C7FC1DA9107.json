@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7F8E50FA436DB4E6"
+  ],
+  "tasks": {
+    "115F81D0A661F71F": {
+      "type": "heracles:item",
+      "item": "create:adjustable_chain_gearshift"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:adjustable_chain_gearshift",
+    "description": [
+      "<task task=\"115F81D0A661F71F\" quest=\"54EC1C7FC1DA9107\"/>",
+      "<hr/>",
+      "The &&n&&5Adjustable Chain Drive&&r works similar to the normal Chain Drive when it has no redstone signal.",
+      "<br/>",
+      "When you apply a redstone signal and it is the block receiving the rotational force, it will double the speed for the connected Chain Drives.",
+      "<br/>",
+      "When you apply a redstone signal and it is not the block receiving the rotational force, it will half the speed for the connected Chain Drives."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:adjustable_chain_gearshift"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          192
+        ]
+      }
+    }
+  }
+}

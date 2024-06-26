@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "18EF4F05A89E6B62": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakening_altar"
+    },
+    "7BFAF64BFE1A537D": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "mysticalagriculture:awakening_pedestal"
+    },
+    "0B83A9AFF8703E87": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "mysticalagriculture:essence_vessel"
+    }
+  },
+  "rewards": {
+    "611CFC9E45F875FA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§dThe Awakening§r",
+    "description": [
+      "<task task=\"18EF4F05A89E6B62\" quest=\"33D23C65E7274A8F\"/>",
+      "<task task=\"7BFAF64BFE1A537D\" quest=\"33D23C65E7274A8F\"/>",
+      "<task task=\"0B83A9AFF8703E87\" quest=\"33D23C65E7274A8F\"/>",
+      "<hr/>",
+      "To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as a new type of pedestal called the &&cEssence Vessel&&r.",
+      "<br/>",
+      "The Essence Vessels will require the starter Element Essences to fill: Fire, Water, Earth, and Air.",
+      "<hr/>",
+      "<reward reward=\"611CFC9E45F875FA\" quest=\"33D23C65E7274A8F\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -16,
+          48
+        ]
+      }
+    }
+  }
+}

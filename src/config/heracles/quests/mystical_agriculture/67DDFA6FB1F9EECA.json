@@ -1,0 +1,129 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "1BE8E3CD2EAA7A64": {
+      "title": "Imperium Tools and Weapons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_sword",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_pickaxe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_shovel",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_axe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_hoe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_bow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_crossbow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_shears",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_fishing_rod",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_sickle",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:imperium_scythe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagradditions:imperium_paxel",
+            "tag": {
+              "Damage": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "02719D739C373FD5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§9Imperium Tools and Weapons",
+    "description": [
+      "<task task=\"1BE8E3CD2EAA7A64\" quest=\"67DDFA6FB1F9EECA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"02719D739C373FD5\" quest=\"67DDFA6FB1F9EECA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -192,
+          -48
+        ]
+      }
+    }
+  }
+}

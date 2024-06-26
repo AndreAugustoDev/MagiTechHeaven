@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "1CD2C6AFD788C35E"
+  ],
+  "tasks": {
+    "7CA41563003856B2": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_compacting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "18BDC6FD268F1347": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.Acompacting"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.Acompacting</translate></h2>",
+      "<hr/>",
+      "<task task=\"7CA41563003856B2\" quest=\"5E4FE420B6D2C97F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"18BDC6FD268F1347\" quest=\"5E4FE420B6D2C97F\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -48,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:advanced_compacting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Acompacting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

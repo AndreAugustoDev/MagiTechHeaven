@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "0E057B7F76401421"
+  ],
+  "tasks": {
+    "7E9C8C24DD11EE7F": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:gold_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3895B4A009120165": {
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "588A8E368C4561A4": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7E9C8C24DD11EE7F\" quest=\"2F9B0C642A6BE30C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"588A8E368C4561A4\" quest=\"2F9B0C642A6BE30C\"/>",
+      "<reward reward=\"3895B4A009120165\" quest=\"2F9B0C642A6BE30C\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -224,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:gold_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.goldBP"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

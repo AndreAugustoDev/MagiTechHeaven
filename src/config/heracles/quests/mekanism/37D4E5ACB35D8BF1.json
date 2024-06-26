@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "71E922FC5BBF154C": {
+      "type": "heracles:item",
+      "item": "mekanism:jetpack"
+    }
+  },
+  "rewards": {
+    "1D7E982934705158": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:jetpack",
+    "description": [
+      "<h2>Requires Hydrogen to Work!</h2>",
+      "<hr/>",
+      "<task task=\"71E922FC5BBF154C\" quest=\"37D4E5ACB35D8BF1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1D7E982934705158\" quest=\"37D4E5ACB35D8BF1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:jetpack"
+    },
+    "subtitle": {
+      "text": "Requires Hydrogen to Work!"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -208,
+          120
+        ]
+      }
+    }
+  }
+}

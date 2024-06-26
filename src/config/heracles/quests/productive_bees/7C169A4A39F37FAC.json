@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "109AD73F016D576B"
+  ],
+  "tasks": {
+    "0EF1CA8DED2FF38C": {
+      "title": "Advanced Beehive",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:advanced_oak_beehive"
+      },
+      "type": "heracles:item",
+      "item": "#productivebees:advanced_beehives"
+    }
+  },
+  "rewards": {
+    "0E4EE8248A540A3A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "379FD843A5076141": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Advanced Beehive",
+    "description": [
+      "<h2>No more shearing.</h2>",
+      "<hr/>",
+      "<task task=\"0EF1CA8DED2FF38C\" quest=\"7C169A4A39F37FAC\"/>",
+      "<hr/>",
+      "With the vanilla Beehive, we'll use this to craft an &&eAdvanced Beehive&&r. It can be Oak or any kind of wood.",
+      "<br/>",
+      "Bees will fly in and out of these, and drop off Honeycombs in the inventory. You can also insert glass bottles to get Honey Bottles.",
+      "<br/>",
+      "We'll need plenty of Honeycombs for treats!",
+      "<hr/>",
+      "<reward reward=\"0E4EE8248A540A3A\" quest=\"7C169A4A39F37FAC\"/>",
+      "<reward reward=\"379FD843A5076141\" quest=\"7C169A4A39F37FAC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:advanced_oak_beehive"
+    },
+    "subtitle": {
+      "text": "No more shearing."
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "36C413F578D44CBF": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mortem_helmet"
+    },
+    "6A341DEA25087489": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mortem_chestplate"
+    },
+    "3F1B3851C4BC39F1": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mortem_leggings"
+    },
+    "34E13EE51BE65AE3": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mortem_boots"
+    }
+  },
+  "rewards": {
+    "4201E7FF060AB5A2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Mortem Armor",
+    "description": [
+      "<h2>Armor of the Dead</h2>",
+      "<hr/>",
+      "<task task=\"36C413F578D44CBF\" quest=\"5EFC63CF97D97AB5\"/>",
+      "<task task=\"6A341DEA25087489\" quest=\"5EFC63CF97D97AB5\"/>",
+      "<task task=\"3F1B3851C4BC39F1\" quest=\"5EFC63CF97D97AB5\"/>",
+      "<task task=\"34E13EE51BE65AE3\" quest=\"5EFC63CF97D97AB5\"/>",
+      "<hr/>",
+      "Crafted with skulls, bones, and cloth, this armor is slightly stronger than Iron.",
+      "<br/>",
+      "It's also really cool looking.",
+      "<hr/>",
+      "<reward reward=\"4201E7FF060AB5A2\" quest=\"5EFC63CF97D97AB5\"/>"
+    ],
+    "subtitle": {
+      "text": "Armor of the Dead"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -352,
+          160
+        ]
+      }
+    }
+  }
+}

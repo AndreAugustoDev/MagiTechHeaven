@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "798970D8B1A023B8": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_blazing"
+    }
+  },
+  "rewards": {
+    "6B9F589C2E8BC325": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_cell_blazing",
+    "description": [
+      "<task task=\"798970D8B1A023B8\" quest=\"564F731F0F3E5AEC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6B9F589C2E8BC325\" quest=\"564F731F0F3E5AEC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          464
+        ]
+      }
+    }
+  }
+}

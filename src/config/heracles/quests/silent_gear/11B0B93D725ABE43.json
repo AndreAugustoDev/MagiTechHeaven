@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "52EB902E76829EBB"
+  ],
+  "tasks": {},
+  "rewards": {
+    "221CA06C59187F0D": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.repairkit"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.repairkit</translate></h2>",
+      "<hr/>",
+      "<task task=\"123B475266C035CC\" quest=\"11B0B93D725ABE43\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.repairkit</translate></p>",
+      "<hr/>",
+      "<reward reward=\"221CA06C59187F0D\" quest=\"11B0B93D725ABE43\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          128,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.repairkit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

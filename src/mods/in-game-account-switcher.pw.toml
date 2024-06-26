@@ -1,0 +1,13 @@
+name = "In-Game Account Switcher"
+filename = "IAS-NeoForge-1.20.1-9.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cudtvDnd/versions/p8TG7yjR/IAS-NeoForge-1.20.1-9.0.0.jar"
+hash-format = "sha1"
+hash = "f75baa2dccf8080c9d8ea457dc238b0a6a7f4dde"
+
+[update]
+[update.modrinth]
+mod-id = "cudtvDnd"
+version = "p8TG7yjR"

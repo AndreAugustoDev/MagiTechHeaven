@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "1C677CD515E8862B": {
+      "type": "heracles:item",
+      "item": "productivebees:honey_treat"
+    }
+  },
+  "rewards": {
+    "4F2B6C905FB137F0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "327E963A18728867": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:honey_treat",
+    "description": [
+      "<task task=\"1C677CD515E8862B\" quest=\"131EC039435B8878\"/>",
+      "<hr/>",
+      "In Productive Bees, you don't spend most of your time flying around trying to find certain bees.",
+      "<br/>",
+      "Instead, you spawn them using Nests with &&6Honey Treats&&r.",
+      "<br/>",
+      "With these, you'll create yourself some Nests and right click them with the treats to lure Bees in. Some Nests require special items instead of Honey Treats, so make sure to check JEI for more info!",
+      "<br/>",
+      "Make sure to check out which biome you need to be in to lure in the right bees!",
+      "<hr/>",
+      "<reward reward=\"4F2B6C905FB137F0\" quest=\"131EC039435B8878\"/>",
+      "<reward reward=\"327E963A18728867\" quest=\"131EC039435B8878\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:honey_treat"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "270B5EA3E710A209",
+    "25EFC21A3C48E0B6"
+  ],
+  "tasks": {
+    "11FD956A8B254218": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_spirited"
+    }
+  },
+  "rewards": {
+    "4D3A6B1A529D586F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energizing_rod_spirited",
+    "description": [
+      "<task task=\"11FD956A8B254218\" quest=\"69E572EA56B3B31D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4D3A6B1A529D586F\" quest=\"69E572EA56B3B31D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -144,
+          528
+        ]
+      }
+    }
+  }
+}

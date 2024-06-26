@@ -1,0 +1,129 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "7D4224D89E799A14": {
+      "title": "Prudentium Tools and Weapons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_sword",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_pickaxe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_shovel",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_axe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_hoe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_bow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_crossbow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_fishing_rod",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_shears",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_sickle",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:prudentium_scythe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagradditions:prudentium_paxel",
+            "tag": {
+              "Damage": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "464777A63727DA2F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§2Prudentium Tools and Weapons",
+    "description": [
+      "<task task=\"7D4224D89E799A14\" quest=\"3339445194568D77\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"464777A63727DA2F\" quest=\"3339445194568D77\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -512,
+          -48
+        ]
+      }
+    }
+  }
+}

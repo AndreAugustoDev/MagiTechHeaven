@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "5C22E3103544B120"
+  ],
+  "tasks": {
+    "7FC3DAA1BD5016A0": {
+      "type": "heracles:item",
+      "item": "#ae2:smart_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Smart Cable"
+    },
+    "38E290AC5E011888": {
+      "type": "heracles:item",
+      "item": "#ae2:smart_dense_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Dense Smart Cable"
+    }
+  },
+  "rewards": {
+    "7F6B396987F63DB7": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "5EBB888A8D38FAC8": {
+      "item": {
+        "id": "ae2:quartz_fiber",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.advanced_cabling"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.advanced_cabling</translate></h2>",
+      "<hr/>",
+      "<task task=\"7FC3DAA1BD5016A0\" quest=\"5233A447BAA4593C\"/>",
+      "<task task=\"38E290AC5E011888\" quest=\"5233A447BAA4593C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.advanced_cabling</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7F6B396987F63DB7\" quest=\"5233A447BAA4593C\"/>",
+      "<reward reward=\"5EBB888A8D38FAC8\" quest=\"5233A447BAA4593C\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          160,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.advanced_cabling"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

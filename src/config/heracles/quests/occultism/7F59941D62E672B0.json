@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08B1A64B01A8A604"
+  ],
+  "tasks": {
+    "6C3887D42B6B2122": {
+      "title": "Familiars",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1FEDC70622D3F66B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§dFamiliars§r",
+    "description": [
+      "<task task=\"6C3887D42B6B2122\" quest=\"7F59941D62E672B0\"/>",
+      "<hr/>",
+      "Occultism provides more than just Demons to crush your ores!",
+      "<br/>",
+      "There are Demons that can move stuff for you, chop down wood, and more!!",
+      "<br/>",
+      "There are also ways to summon cool friends known as &&dFamiliars&&r that give special buffs and even fight for you! Make sure to check out the &&dFamiliar Rituals&&r in your guide book!",
+      "<hr/>",
+      "<reward reward=\"1FEDC70622D3F66B\" quest=\"7F59941D62E672B0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ftbquests:custom_icon"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          272,
+          224
+        ]
+      }
+    }
+  }
+}

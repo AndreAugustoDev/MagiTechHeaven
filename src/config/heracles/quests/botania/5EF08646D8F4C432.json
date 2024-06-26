@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "7EF55A6F1C4D84A7": {
+      "type": "heracles:item",
+      "item": "botania:lens_phantom"
+    }
+  },
+  "rewards": {
+    "435A71444B76B6C4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_phantom",
+    "description": [
+      "<task task=\"7EF55A6F1C4D84A7\" quest=\"5EF08646D8F4C432\"/>",
+      "<hr/>",
+      "This lens allows a Mana Burst to pass through blocks, while decreasing the amount of time it can survive without losing mana.",
+      "<hr/>",
+      "<reward reward=\"435A71444B76B6C4\" quest=\"5EF08646D8F4C432\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_phantom"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          320,
+          336
+        ]
+      }
+    }
+  }
+}

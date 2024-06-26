@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "737E14DCCDDAC4D9": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:amulet_of_mana_boost"
+    },
+    "06AFF105FACF7961": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:amulet_of_mana_regen"
+    }
+  },
+  "rewards": {
+    "79DE6BDAB6F800F6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The Amulets",
+    "description": [
+      "<task task=\"737E14DCCDDAC4D9\" quest=\"6A1C0B17B22CE50F\"/>",
+      "<task task=\"06AFF105FACF7961\" quest=\"6A1C0B17B22CE50F\"/>",
+      "<hr/>",
+      "The &&9Amulet of Mana Boost&&r gives a boost to max mana.",
+      "<br/>",
+      "The &&6Amulet of Mana Regen&&r gives a boost to your mana regen.",
+      "<hr/>",
+      "<reward reward=\"79DE6BDAB6F800F6\" quest=\"6A1C0B17B22CE50F\"/>"
+    ],
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          320,
+          144
+        ]
+      }
+    }
+  }
+}

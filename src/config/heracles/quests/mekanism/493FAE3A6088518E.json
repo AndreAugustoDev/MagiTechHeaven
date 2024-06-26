@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "07AD45DCF9EE3C2E"
+  ],
+  "tasks": {
+    "646785A06E01D173": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_tier_installer"
+    }
+  },
+  "rewards": {
+    "49D731775D72A88D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_tier_installer",
+    "description": [
+      "<task task=\"646785A06E01D173\" quest=\"493FAE3A6088518E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49D731775D72A88D\" quest=\"493FAE3A6088518E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_tier_installer"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          0,
+          248
+        ]
+      }
+    }
+  }
+}

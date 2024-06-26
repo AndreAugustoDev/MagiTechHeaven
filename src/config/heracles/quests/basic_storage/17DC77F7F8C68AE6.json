@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "tasks": {
+    "7F4087A08A6F82AC": {
+      "type": "heracles:item",
+      "item": "trashcans:item_trash_can"
+    },
+    "6E37055D317DBBA9": {
+      "type": "heracles:item",
+      "item": "trashcans:liquid_trash_can"
+    },
+    "736FE7C0E7C491E7": {
+      "type": "heracles:item",
+      "item": "trashcans:energy_trash_can"
+    }
+  },
+  "rewards": {
+    "69AE6A259BD33878": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trashcans:ultimate_trash_can"
+      }
+    },
+    "5828D3729B49DFEC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.trash",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.trash</translate></h2>",
+      "<hr/>",
+      "<task task=\"7F4087A08A6F82AC\" quest=\"17DC77F7F8C68AE6\"/>",
+      "<task task=\"6E37055D317DBBA9\" quest=\"17DC77F7F8C68AE6\"/>",
+      "<task task=\"736FE7C0E7C491E7\" quest=\"17DC77F7F8C68AE6\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.trash</translate></p>",
+      "<hr/>",
+      "<reward reward=\"69AE6A259BD33878\" quest=\"17DC77F7F8C68AE6\"/>",
+      "<reward reward=\"5828D3729B49DFEC\" quest=\"17DC77F7F8C68AE6\"/>"
+    ],
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.trash"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          144,
+          -112
+        ]
+      }
+    }
+  }
+}

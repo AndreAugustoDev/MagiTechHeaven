@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"69497C419271A8F2\" quest=\"67AFCBCE7AAC3089\"/>",
+      "<task task=\"05559BFC34BEBF4A\" quest=\"67AFCBCE7AAC3089\"/>",
+      "<task task=\"42F16075D25E4A94\" quest=\"67AFCBCE7AAC3089\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.turbine_ports</translate></p>",
+      "<br/>",
+      "{image:atm:textures/questpics/extremereactors/maxbasicturbine.png width:100 height:150 align:1}",
+      "<hr/>",
+      "<reward reward=\"433D5587FE499E95\" quest=\"67AFCBCE7AAC3089\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          64
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.creating_turbine_shaft"
+  },
+  "rewards": {
+    "433D5587FE499E95": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "05559BFC34BEBF4A": {
+      "amount": 4,
+      "item": "bigreactors:basic_turbinerotorshaft",
+      "type": "heracles:item"
+    },
+    "42F16075D25E4A94": {
+      "amount": 8,
+      "item": "bigreactors:basic_turbinerotorblade",
+      "type": "heracles:item"
+    },
+    "69497C419271A8F2": {
+      "item": "bigreactors:basic_turbinerotorbearing",
+      "type": "heracles:item"
+    }
+  }
+}

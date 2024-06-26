@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C6719D81DE5A614"
+  ],
+  "tasks": {
+    "0309B0EB29771EC0": {
+      "title": "Blacksmith Gavel",
+      "type": "heracles:item",
+      "item": "#forbidden_arcanus:blacksmith_gavel"
+    }
+  },
+  "rewards": {
+    "7D92F94919F2BB7D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Performing Rituals",
+    "description": [
+      "<task task=\"0309B0EB29771EC0\" quest=\"537E39530360AD73\"/>",
+      "<hr/>",
+      "To perform a ritual, place the ingredients on the Arcane Pedestals around the Forge.",
+      "<br/>",
+      "You'll need a &&9Blacksmith's Gavel&&r to activate the ritual. To do this, right click on the Forge with the Gavel.",
+      "<hr/>",
+      "<reward reward=\"7D92F94919F2BB7D\" quest=\"537E39530360AD73\"/>"
+    ],
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          208,
+          96
+        ]
+      }
+    }
+  }
+}

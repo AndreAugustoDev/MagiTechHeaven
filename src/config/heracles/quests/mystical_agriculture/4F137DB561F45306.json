@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "216AD49CD1746BD3": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_helmet"
+    },
+    "0231342A2C080DE3": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_chestplate"
+    },
+    "1721D6A39270238F": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_leggings"
+    },
+    "5C37A638689F024A": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_boots"
+    }
+  },
+  "rewards": {
+    "18D9C501E9108110": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§2Prudentium Armor§r",
+    "description": [
+      "<task task=\"216AD49CD1746BD3\" quest=\"4F137DB561F45306\"/>",
+      "<task task=\"0231342A2C080DE3\" quest=\"4F137DB561F45306\"/>",
+      "<task task=\"1721D6A39270238F\" quest=\"4F137DB561F45306\"/>",
+      "<task task=\"5C37A638689F024A\" quest=\"4F137DB561F45306\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"18D9C501E9108110\" quest=\"4F137DB561F45306\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -416,
+          -48
+        ]
+      }
+    }
+  }
+}

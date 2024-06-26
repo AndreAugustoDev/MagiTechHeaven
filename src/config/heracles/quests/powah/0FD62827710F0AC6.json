@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "58D16A3D3A480A37": {
+      "type": "heracles:item",
+      "item": "powah:magmator_starter"
+    }
+  },
+  "rewards": {
+    "6500F8A1FD7CDE98": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:magmator_starter",
+    "description": [
+      "<task task=\"58D16A3D3A480A37\" quest=\"0FD62827710F0AC6\"/>",
+      "<hr/>",
+      "The &&cMagmator&&r will generate FE when supplied with Lava.",
+      "<hr/>",
+      "<reward reward=\"6500F8A1FD7CDE98\" quest=\"0FD62827710F0AC6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:magmator_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          112,
+          368
+        ]
+      }
+    }
+  }
+}

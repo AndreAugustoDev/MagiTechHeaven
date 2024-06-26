@@ -1,0 +1,15 @@
+{
+  "allowNoCrypt": true,
+  "barNick": false,
+  "nickWarns": true,
+  "passwordEchoing": true,
+  "server": "AVAILABLE",
+  "serversButton": true,
+  "serversText": true,
+  "serversTextAlign": "LEFT",
+  "titleButton": false,
+  "titleText": false,
+  "titleTextAlign": "LEFT",
+  "unexpectedPigs": true,
+  "version": 3
+}

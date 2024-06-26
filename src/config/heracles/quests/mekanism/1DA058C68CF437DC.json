@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10909A87C1953F7C"
+  ],
+  "tasks": {
+    "0485F28A3916A974": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_energy_cube"
+    }
+  },
+  "rewards": {
+    "7C97CFC3809180E9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_energy_cube",
+    "description": [
+      "<task task=\"0485F28A3916A974\" quest=\"1DA058C68CF437DC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7C97CFC3809180E9\" quest=\"1DA058C68CF437DC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_energy_cube"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -80,
+          266
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1CC4F8570A7A99EB"
+  ],
+  "tasks": {
+    "4B2621F8D8FA7CA7": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_essence"
+    }
+  },
+  "rewards": {
+    "3567491765DBBD85": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "721779A7E4B65713": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagriculture:prudentium_essence"
+      }
+    }
+  },
+  "display": {
+    "title": "§2Prudentium Essence§r",
+    "description": [
+      "<h2>&&bTier 2&&r</h2>",
+      "<hr/>",
+      "<task task=\"4B2621F8D8FA7CA7\" quest=\"73350AD668200E99\"/>",
+      "<hr/>",
+      "This is the Tier 2 Essence, made by combining 4 Inferium together with an Inferium Infusion Crystal.",
+      "<hr/>",
+      "<reward reward=\"3567491765DBBD85\" quest=\"73350AD668200E99\"/>",
+      "<reward reward=\"721779A7E4B65713\" quest=\"73350AD668200E99\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    "subtitle": {
+      "text": "§bTier 2§r"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -464,
+          -48
+        ]
+      }
+    }
+  }
+}

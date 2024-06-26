@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "6EDAB29FBD3C60A3"
+  ],
+  "tasks": {
+    "6CAD0E4CF3577BEB": {
+      "entity": {
+        "type": "minecraft:warden"
+      },
+      "amount": 1,
+      "title": "&5Kill The Warden&r",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "7949A3E032C67EB5": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6CAD0E4CF3577BEB\" quest=\"6D09511D64DDC282\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.warden</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7949A3E032C67EB5\" quest=\"6D09511D64DDC282\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          608,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.warden"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "616CFD4078D67B51"
+  ],
+  "tasks": {
+    "706E6BE855C4AE5C": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor_insertion_upgrade"
+    },
+    "1D7CB07E1E6F7A29": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor_extraction_upgrade"
+    }
+  },
+  "rewards": {
+    "7D6160CAB260B39C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "industrialforegoing:conveyor",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Conveyor Insertion & Extraction",
+    "description": [
+      "<task task=\"706E6BE855C4AE5C\" quest=\"3027584AA6138E6D\"/>",
+      "<task task=\"1D7CB07E1E6F7A29\" quest=\"3027584AA6138E6D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7D6160CAB260B39C\" quest=\"3027584AA6138E6D\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          314,
+          42
+        ]
+      }
+    }
+  }
+}

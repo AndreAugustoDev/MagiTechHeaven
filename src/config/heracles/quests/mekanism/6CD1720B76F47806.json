@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "36B12984060A90FD": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:bio_generator"
+    }
+  },
+  "rewards": {
+    "45C7E780DC5681CF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanismgenerators:bio_generator",
+    "description": [
+      "<task task=\"36B12984060A90FD\" quest=\"6CD1720B76F47806\"/>",
+      "<hr/>",
+      "This generator will burn Bio Fuel into energy. It produces around 140FE/t.",
+      "<hr/>",
+      "<reward reward=\"45C7E780DC5681CF\" quest=\"6CD1720B76F47806\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:bio_generator"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          96,
+          64
+        ]
+      }
+    }
+  }
+}

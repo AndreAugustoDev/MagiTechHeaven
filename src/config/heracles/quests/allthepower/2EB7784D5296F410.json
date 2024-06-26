@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "36DEA17CBB696CC7"
+  ],
+  "tasks": {
+    "3D721B55E8D33FE8": {
+      "title": "i18n.quest.power.UI",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "64751B6E2F284585": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.power.UI",
+    "description": [
+      "<task task=\"3D721B55E8D33FE8\" quest=\"2EB7784D5296F410\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.UI\",
+.*"<br/>",
+.*"\{image:atm:textures/questpics/flux/flux_ui.png width:125 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"64751B6E2F284585\" quest=\"2EB7784D5296F410\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "fluxnetworks:admin_configurator"
+    },
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -320,
+          192
+        ]
+      }
+    }
+  }
+}

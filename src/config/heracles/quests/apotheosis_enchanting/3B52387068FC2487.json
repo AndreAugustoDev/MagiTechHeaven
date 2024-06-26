@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "076DFB0B39A4259F"
+  ],
+  "tasks": {},
+  "rewards": {
+    "7613504621365233": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5CA899DB91021ED1\" quest=\"3B52387068FC2487\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.heart-forged</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7613504621365233\" quest=\"3B52387068FC2487\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          160,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.heart-forged"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

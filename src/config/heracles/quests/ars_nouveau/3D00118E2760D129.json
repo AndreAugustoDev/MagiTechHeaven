@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "34C8EB5C0EEE98DD": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_name"
+    }
+  },
+  "rewards": {
+    "00305DC754DB0F35": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_name",
+    "description": [
+      "<task task=\"34C8EB5C0EEE98DD\" quest=\"3D00118E2760D129\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"00305DC754DB0F35\" quest=\"3D00118E2760D129\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_name"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -336
+        ]
+      }
+    }
+  }
+}

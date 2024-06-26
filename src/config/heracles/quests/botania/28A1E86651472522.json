@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "1CC547383983CA1C": {
+      "type": "heracles:item",
+      "item": "botania:black_mystical_flower"
+    }
+  },
+  "rewards": {
+    "3D9818D12990102D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:black_mystical_flower",
+    "description": [
+      "<task task=\"1CC547383983CA1C\" quest=\"28A1E86651472522\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3D9818D12990102D\" quest=\"28A1E86651472522\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:black_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          208,
+          -96
+        ]
+      }
+    }
+  }
+}

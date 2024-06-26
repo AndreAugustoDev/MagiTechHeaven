@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3E30EC9CA875A1F9"
+  ],
+  "tasks": {
+    "56A8A51990C7F0A1": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_tier_installer"
+    }
+  },
+  "rewards": {
+    "7191632FDBC16F4D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_tier_installer",
+    "description": [
+      "<task task=\"56A8A51990C7F0A1\" quest=\"220C38510116BF36\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7191632FDBC16F4D\" quest=\"220C38510116BF36\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_tier_installer"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -32,
+          248
+        ]
+      }
+    }
+  }
+}

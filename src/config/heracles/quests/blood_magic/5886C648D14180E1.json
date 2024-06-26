@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C3CA7B9D1A7DC47"
+  ],
+  "tasks": {
+    "45FE50B70B45B915": {
+      "type": "heracles:item",
+      "amount": 28,
+      "item": "bloodmagic:blankrune"
+    }
+  },
+  "rewards": {
+    "7698DE23F4AEC268": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Upgrading the Altar: Tier 3",
+    "description": [
+      "<h2>Use the Guidebook for help building this!</h2>",
+      "<hr/>",
+      "<task task=\"45FE50B70B45B915\" quest=\"5886C648D14180E1\"/>",
+      "<hr/>",
+      "To upgrade our Altar to Tier 3, we need to get a lot more runes. 28 total to be exact.",
+      "<br/>",
+      "You need to place 5 Blood Runes (Blank or better) one block down and two blocks away from the Tier 2 Altar runes, along each edge.",
+      "<br/>",
+      "You'll then want to create a pillar in each corner out of any block, with a pillar cap of Glowstone sitting one block higher than the Altar itself.",
+      "<br/>",
+      "If you want to check if the Altar was built correctly, use a &&9Divination Sigil&&r to check the Tier.",
+      "<br/>",
+      "Note: Any non-air block can be used for the pillar, as long as the cap is Glowstone.",
+      "<br/>",
+      "{image:atm:textures/questpics/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7698DE23F4AEC268\" quest=\"5886C648D14180E1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altar"
+    },
+    "subtitle": {
+      "text": "Use the Guidebook for help building this!"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -640,
+          -32
+        ]
+      }
+    }
+  }
+}

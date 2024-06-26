@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "2FB231069D2E4E77"
+  ],
+  "tasks": {
+    "3B720F63D105F7DF": {
+      "type": "heracles:item",
+      "item": "ae2:matter_cannon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3AC5F84892DC0717": {
+      "type": "heracles:item",
+      "item": "ae2:charged_staff",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "68BE70918BD7F81B": {
+      "type": "heracles:item",
+      "item": "ae2:entropy_manipulator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "79695D39F0DA9907": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.weapons"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.weapons</translate></h2>",
+      "<hr/>",
+      "<task task=\"3AC5F84892DC0717\" quest=\"5CD8D169181C7339\"/>",
+      "<task task=\"68BE70918BD7F81B\" quest=\"5CD8D169181C7339\"/>",
+      "<task task=\"3B720F63D105F7DF\" quest=\"5CD8D169181C7339\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.weapons</translate></p>",
+      "<hr/>",
+      "<reward reward=\"79695D39F0DA9907\" quest=\"5CD8D169181C7339\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          480,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.weapons"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

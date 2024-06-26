@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "05F63F2B26AC3813": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:dye_seeds"
+    }
+  },
+  "rewards": {
+    "188AD13C9980BBFC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:dye_seeds",
+    "description": [
+      "<task task=\"05F63F2B26AC3813\" quest=\"2777FEB022346947\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"188AD13C9980BBFC\" quest=\"2777FEB022346947\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:dye_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -464,
+          -144
+        ]
+      }
+    }
+  }
+}

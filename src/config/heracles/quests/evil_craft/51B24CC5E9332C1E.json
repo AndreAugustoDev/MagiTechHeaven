@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E79F52147B606F9"
+  ],
+  "tasks": {
+    "048E4473A97AD33E": {
+      "type": "heracles:item",
+      "item": "evilcraft:vengeance_essence"
+    },
+    "1F78BC1E71207D66": {
+      "type": "heracles:item",
+      "item": "evilcraft:vengeance_ring"
+    }
+  },
+  "rewards": {
+    "32E1BD15DDDD99B6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Revenge of the §dSpirit§r",
+    "description": [
+      "<task task=\"048E4473A97AD33E\" quest=\"51B24CC5E9332C1E\"/>",
+      "<task task=\"1F78BC1E71207D66\" quest=\"51B24CC5E9332C1E\"/>",
+      "<hr/>",
+      "Sometimes when you kill a mob, a &&dVengeance Spirit&&r will spawn.",
+      "<br/>",
+      "Their &&dEssence&&r seems to be useful in crafting more advanced items within EvilCraft.",
+      "<br/>",
+      "Not finding many Spirits? Make a &&9Vengeance Ring&&r and toggle it on to attract more Spirits during your battles.",
+      "<hr/>",
+      "<reward reward=\"32E1BD15DDDD99B6\" quest=\"51B24CC5E9332C1E\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

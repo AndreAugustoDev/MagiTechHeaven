@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "EuSoJao",
+      "uniqueId": "0bf83230-8847-43a4-9412-ac19f4a7fabd"
+    },
+    "time": 1718038031466,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WI6yvIgXoq"
+    }
+  }
+]

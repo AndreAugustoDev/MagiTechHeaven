@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "312250C813E89B54": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_delay"
+    }
+  },
+  "rewards": {
+    "33CBB61F5D1C72FE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_delay",
+    "description": [
+      "<task task=\"312250C813E89B54\" quest=\"430CAC90C8B34A17\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33CBB61F5D1C72FE\" quest=\"430CAC90C8B34A17\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_delay"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -368
+        ]
+      }
+    }
+  }
+}

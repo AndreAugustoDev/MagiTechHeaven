@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "0674C07C7DE332A9": {
+      "type": "heracles:item",
+      "item": "create:rope_pulley"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:rope_pulley",
+    "description": [
+      "<task task=\"0674C07C7DE332A9\" quest=\"24E658BA47367A44\"/>",
+      "<hr/>",
+      "The &&n&&5Rope Pulley&&r can move blocks up or down, they can be glued together."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:rope_pulley"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "description": [
+      "<task task=\"3FD4E648D3560D1B\" quest=\"4415C9F8DA2D7E68\"/>",
+      "<task task=\"738B3094737D9A6A\" quest=\"4415C9F8DA2D7E68\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reprocessing_waste</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6EE855A0C663EDDF\" quest=\"4415C9F8DA2D7E68\"/>",
+      "<reward reward=\"5C20A5831F6F1EE9\" quest=\"4415C9F8DA2D7E68\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          176
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.making_turbines"
+  },
+  "rewards": {
+    "5C20A5831F6F1EE9": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "6EE855A0C663EDDF": {
+      "item": {
+        "count": 2,
+        "id": "bigreactors:basic_turbinecasing"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "3FD4E648D3560D1B": {
+      "amount": 4,
+      "item": "bigreactors:basic_turbinecasing",
+      "type": "heracles:item"
+    },
+    "738B3094737D9A6A": {
+      "item": "bigreactors:basic_turbinecontroller",
+      "type": "heracles:item"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66324D7D0C51AEAC"
+  ],
+  "tasks": {
+    "2289A74F096C389C": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_comb_block"
+    }
+  },
+  "rewards": {
+    "08153982346B6697": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "2DD19E19BEC19037": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_comb_block",
+    "description": [
+      "<h2>Lumber and Quarry Bees will give Blocks instead of Chips</h2>",
+      "<hr/>",
+      "<task task=\"2289A74F096C389C\" quest=\"397E2D14BDE7DED0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08153982346B6697\" quest=\"397E2D14BDE7DED0\"/>",
+      "<reward reward=\"2DD19E19BEC19037\" quest=\"397E2D14BDE7DED0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_comb_block"
+    },
+    "subtitle": {
+      "text": "Lumber and Quarry Bees will give Blocks instead of Chips"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -144,
+          -16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "744A01000E086CC9"
+  ],
+  "tasks": {
+    "1837D97833619166": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:tyr_helmet"
+    },
+    "679C3B7915C403AC": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:tyr_chestplate"
+    },
+    "2B5AFD104DE50D5F": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:tyr_leggings"
+    },
+    "11795A1BD0916EC2": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:tyr_boots"
+    }
+  },
+  "rewards": {
+    "332909BF099BE23B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§5Tyr Armor",
+    "description": [
+      "<task task=\"1837D97833619166\" quest=\"70112194DFFD15D3\"/>",
+      "<task task=\"679C3B7915C403AC\" quest=\"70112194DFFD15D3\"/>",
+      "<task task=\"2B5AFD104DE50D5F\" quest=\"70112194DFFD15D3\"/>",
+      "<task task=\"11795A1BD0916EC2\" quest=\"70112194DFFD15D3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"332909BF099BE23B\" quest=\"70112194DFFD15D3\"/>"
+    ],
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          144,
+          272
+        ]
+      }
+    }
+  }
+}

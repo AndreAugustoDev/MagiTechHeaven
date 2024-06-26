@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "1BD13B156A778B94": {
+      "type": "heracles:item",
+      "item": "botania:pink_mystical_flower"
+    }
+  },
+  "rewards": {
+    "2E9165F4BEC99E2B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:pink_mystical_flower",
+    "description": [
+      "<task task=\"1BD13B156A778B94\" quest=\"5295793DD0FBEC3D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2E9165F4BEC99E2B\" quest=\"5295793DD0FBEC3D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:pink_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          208,
+          -64
+        ]
+      }
+    }
+  }
+}

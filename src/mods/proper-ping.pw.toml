@@ -1,0 +1,13 @@
+name = "Proper Ping"
+filename = "proper_ping-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1SvzcA6G/versions/j4ny4OP7/proper_ping-1.20.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "b47454d04e599b01cd3807b065f3e20644bc6ac9"
+
+[update]
+[update.modrinth]
+mod-id = "1SvzcA6G"
+version = "j4ny4OP7"

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "04811BA420B80046"
+  ],
+  "tasks": {
+    "5E09C884ABD4A22F": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_niotic"
+    }
+  },
+  "rewards": {
+    "7041E7242D3861A0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_hopper_niotic",
+    "description": [
+      "<task task=\"5E09C884ABD4A22F\" quest=\"5A8DE0C7D4F28E05\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7041E7242D3861A0\" quest=\"5A8DE0C7D4F28E05\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          496
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "3178C46D9BD7FA88"
+  ],
+  "tasks": {},
+  "rewards": {
+    "14E98566218C16C2": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of Reality\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "392529EC0611951C": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39D19F3F6F6B3D02\" quest=\"6EBCCC78DC682CC6\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.reality</translate></p>",
+      "<hr/>",
+      "<reward reward=\"14E98566218C16C2\" quest=\"6EBCCC78DC682CC6\"/>",
+      "<reward reward=\"392529EC0611951C\" quest=\"6EBCCC78DC682CC6\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -64,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.reality"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

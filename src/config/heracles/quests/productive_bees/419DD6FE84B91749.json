@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "2E829A75260DFF75": {
+      "type": "heracles:item",
+      "item": "productivebees:gene_indexer"
+    }
+  },
+  "rewards": {
+    "5C1387EEB2AC5D4E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "5E255C49AD125390": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:gene_indexer",
+    "description": [
+      "<h2>The Gene Combiner and Chest</h2>",
+      "<hr/>",
+      "<task task=\"2E829A75260DFF75\" quest=\"419DD6FE84B91749\"/>",
+      "<hr/>",
+      "When collecting genes, you'll get a percentage of a trait. You can combine them in a crafting table to add them together, or place them in a Gene Indexer to auto-combine.",
+      "<hr/>",
+      "<reward reward=\"5C1387EEB2AC5D4E\" quest=\"419DD6FE84B91749\"/>",
+      "<reward reward=\"5E255C49AD125390\" quest=\"419DD6FE84B91749\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:gene_indexer"
+    },
+    "subtitle": {
+      "text": "The Gene Combiner and Chest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          128,
+          16
+        ]
+      }
+    }
+  }
+}

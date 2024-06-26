@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26",
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "6D405361F834914E": {
+      "type": "heracles:item",
+      "item": "botania:lens_flare"
+    }
+  },
+  "rewards": {
+    "7C77D58570AC86F4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_flare",
+    "description": [
+      "<task task=\"6D405361F834914E\" quest=\"7B95C7407A1F5550\"/>",
+      "<hr/>",
+      "This converts the Mana Spreader's bursts to only fire a continuous particle rather than short bursts. No mana is consumed. Great for decorative uses.",
+      "<hr/>",
+      "<reward reward=\"7C77D58570AC86F4\" quest=\"7B95C7407A1F5550\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_flare"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          352,
+          464
+        ]
+      }
+    }
+  }
+}

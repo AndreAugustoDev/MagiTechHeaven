@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "1732E57F7595BB7E": {
+      "type": "heracles:item",
+      "item": "botania:lens_weight"
+    }
+  },
+  "rewards": {
+    "7FC8A1841922B1CC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_weight",
+    "description": [
+      "<task task=\"1732E57F7595BB7E\" quest=\"3CD45533D0BDF26D\"/>",
+      "<hr/>",
+      "When a block is hit by a Mana Burst from this lens, the block will fall as if it were Sand or Gravel.",
+      "<hr/>",
+      "<reward reward=\"7FC8A1841922B1CC\" quest=\"3CD45533D0BDF26D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_weight"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          352,
+          384
+        ]
+      }
+    }
+  }
+}

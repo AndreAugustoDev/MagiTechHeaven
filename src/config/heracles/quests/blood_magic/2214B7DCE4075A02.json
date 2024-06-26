@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "431C44439CA54077",
+    "42CDD69527871332"
+  ],
+  "tasks": {
+    "3830486EDCC81431": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "bloodmagic:blankrune"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Tier 5 Altar",
+    "description": [
+      "<task task=\"3830486EDCC81431\" quest=\"2214B7DCE4075A02\"/>",
+      "<hr/>",
+      "To upgrade our Altar to Tier 5, we'll need a total of 108 Runes, as well as 4 Demonite Blocks.",
+      "<br/>",
+      "Follow the Sanguine Scietiem (the guide book for the mod) for a detailed guide on how to build the structure.",
+      "<br/>",
+      "You want to start by going one block down and three blocks out from the previous set of runes of your Tier 4 Altar. You want to place 15 runes along each side.",
+      "<br/>",
+      "In the corners of the newly created ring, place a Demonite Block with one empty space on each side. "
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altar"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -352,
+          -32
+        ]
+      }
+    }
+  }
+}

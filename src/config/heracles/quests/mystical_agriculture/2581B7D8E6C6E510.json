@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "756BEE3608FFA0A4": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:obsidian_seeds"
+    }
+  },
+  "rewards": {
+    "2924AA270CC01817": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:obsidian_seeds",
+    "description": [
+      "<task task=\"756BEE3608FFA0A4\" quest=\"2581B7D8E6C6E510\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2924AA270CC01817\" quest=\"2581B7D8E6C6E510\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:obsidian_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -320,
+          -224
+        ]
+      }
+    }
+  }
+}

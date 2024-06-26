@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {
+    "6855AE257D62AA37": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "145F9B3A17676EAA": {
+      "item": {
+        "id": "pipez:fluid_pipe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "1159FE6CDF262C46": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.sink"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.sink</translate></h2>",
+      "<hr/>",
+      "<task task=\"6855AE257D62AA37\" quest=\"722978AC0C1B2649\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.sink</translate></p>",
+      "<hr/>",
+      "<reward reward=\"145F9B3A17676EAA\" quest=\"722978AC0C1B2649\"/>",
+      "<reward reward=\"1159FE6CDF262C46\" quest=\"722978AC0C1B2649\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          96,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:sink",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.sink"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

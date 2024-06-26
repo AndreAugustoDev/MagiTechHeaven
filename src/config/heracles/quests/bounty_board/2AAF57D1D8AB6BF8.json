@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "2916F873A4DA84E8"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"6BA6847A172C8DD7\" quest=\"2AAF57D1D8AB6BF8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6A0CF631E02D49A1\" quest=\"2AAF57D1D8AB6BF8\"/>",
+      "<reward reward=\"05A65D5FBBCE30C9\" quest=\"2AAF57D1D8AB6BF8\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          320,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:ender_pearl",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.enderman.50"
+  },
+  "rewards": {
+    "05A65D5FBBCE30C9": {
+      "item": {
+        "count": 8,
+        "id": "minecraft:ender_pearl"
+      },
+      "type": "heracles:item"
+    },
+    "6A0CF631E02D49A1": {
+      "amount": 50,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "6BA6847A172C8DD7": {
+      "amount": 50,
+      "entity": {
+        "type": "minecraft:enderman"
+      },
+      "icon": {
+        "item": "minecraft:ender_pearl",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.enderman.50",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

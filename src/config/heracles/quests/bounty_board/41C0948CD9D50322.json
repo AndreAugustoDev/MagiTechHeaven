@@ -1,0 +1,45 @@
+{
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.subt.board</translate></h2>",
+      "<hr/>",
+      "<task task=\"3C380961550177C2\" quest=\"41C0948CD9D50322\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bounty.desc.board1</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.bounty.desc.board2</translate></p>",
+      "<hr/>",
+      "<reward reward=\"55CF29758364D4B2\" quest=\"41C0948CD9D50322\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          96,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:green_wool",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.bounty.subt.board"
+    },
+    "title": "i18n.quest.bounty.board"
+  },
+  "rewards": {
+    "55CF29758364D4B2": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "3C380961550177C2": {
+      "title": "i18n.quest.bounty.board",
+      "type": "heracles:check"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "42CDD69527871332"
+  ],
+  "tasks": {
+    "4BD6380E3CB0AFA1": {
+      "type": "heracles:item",
+      "item": "bloodmagic:sacrificerune2"
+    },
+    "4A26B1A6BDC9BEF2": {
+      "type": "heracles:item",
+      "item": "bloodmagic:selfsacrificerune2"
+    },
+    "374B021596B02DB5": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altarcapacityrune2"
+    },
+    "642940CFA557BEF9": {
+      "type": "heracles:item",
+      "item": "bloodmagic:bettercapacityrune2"
+    },
+    "5F5E0CDAB56FBAA8": {
+      "type": "heracles:item",
+      "item": "bloodmagic:orbcapacityrune2"
+    }
+  },
+  "rewards": {
+    "63047FEB0BE55B5A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 1000
+    }
+  },
+  "display": {
+    "title": "Reinforced Runes",
+    "description": [
+      "<task task=\"4BD6380E3CB0AFA1\" quest=\"2CA28551F2A5B761\"/>",
+      "<task task=\"4A26B1A6BDC9BEF2\" quest=\"2CA28551F2A5B761\"/>",
+      "<task task=\"374B021596B02DB5\" quest=\"2CA28551F2A5B761\"/>",
+      "<task task=\"642940CFA557BEF9\" quest=\"2CA28551F2A5B761\"/>",
+      "<task task=\"5F5E0CDAB56FBAA8\" quest=\"2CA28551F2A5B761\"/>",
+      "<hr/>",
+      "Using loot from the Demon Realm, you can upgrade each rune to double its effect. ",
+      "<hr/>",
+      "<reward reward=\"63047FEB0BE55B5A\" quest=\"2CA28551F2A5B761\"/>"
+    ],
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -352,
+          -128
+        ]
+      }
+    }
+  }
+}

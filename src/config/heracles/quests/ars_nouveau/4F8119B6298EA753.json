@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "51A93C01E6E8F960": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_cloudshaping"
+    }
+  },
+  "rewards": {
+    "2004FAB6824A6495": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_cloudshaping",
+    "description": [
+      "<task task=\"51A93C01E6E8F960\" quest=\"4F8119B6298EA753\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2004FAB6824A6495\" quest=\"4F8119B6298EA753\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_cloudshaping"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          224,
+          144
+        ]
+      }
+    }
+  }
+}

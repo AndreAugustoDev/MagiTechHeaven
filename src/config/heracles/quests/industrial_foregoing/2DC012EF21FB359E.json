@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "45B306381A723562": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_extractor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:enchantment_extractor",
+    "description": [
+      "<task task=\"45B306381A723562\" quest=\"2DC012EF21FB359E\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_extractor"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          528,
+          128
+        ]
+      }
+    }
+  }
+}

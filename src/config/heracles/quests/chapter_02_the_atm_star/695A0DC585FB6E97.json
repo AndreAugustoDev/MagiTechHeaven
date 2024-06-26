@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "65487ADF2E5E3FD3": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter",
+      "amount": 55,
+      "collection": "AUTOMATIC"
+    },
+    "72BBD7FD2DD5001D": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"65487ADF2E5E3FD3\" quest=\"695A0DC585FB6E97\"/>",
+      "<task task=\"72BBD7FD2DD5001D\" quest=\"695A0DC585FB6E97\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.create1",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"100C477F4E63F20A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.chapter2.desc.create2}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.create"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

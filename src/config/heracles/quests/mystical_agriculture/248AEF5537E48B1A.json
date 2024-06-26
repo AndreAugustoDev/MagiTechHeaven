@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BC4250E4C9F803C"
+  ],
+  "tasks": {
+    "2FF27D7E36203A68": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:end_seeds"
+    }
+  },
+  "rewards": {
+    "2A0F42A7316E845C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:end_seeds",
+    "description": [
+      "<task task=\"2FF27D7E36203A68\" quest=\"248AEF5537E48B1A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2A0F42A7316E845C\" quest=\"248AEF5537E48B1A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:end_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -128,
+          -192
+        ]
+      }
+    }
+  }
+}

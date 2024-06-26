@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2CA3707BEE2E3C0D",
+    "00FD36C207845895"
+  ],
+  "tasks": {
+    "21F18F576B555114": {
+      "title": "Vibranium Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:vibranium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7E3C72B5CB548A0D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:vibranium"
+          }
+        }
+      }
+    },
+    "525D801E1FF98425": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Vibranium Bee",
+    "description": [
+      "<h2>Ancient + Draconic</h2>",
+      "<hr/>",
+      "<task task=\"21F18F576B555114\" quest=\"6E819CCD57B15D54\"/>",
+      "<hr/>",
+      "Breed a Draconic Bee with an Ancient Bee to get a Vibranium Bee!",
+      "<hr/>",
+      "<reward reward=\"7E3C72B5CB548A0D\" quest=\"6E819CCD57B15D54\"/>",
+      "<reward reward=\"525D801E1FF98425\" quest=\"6E819CCD57B15D54\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "allthemodium:raw_vibranium"
+    },
+    "subtitle": {
+      "text": "Ancient + Draconic"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          288,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "CTOV - Paragliders compat"
+filename = "ctov-paragliders-compat-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/a2GCqbko/versions/TzMOh3hR/ctov-paragliders-compat-1.0.jar"
+hash-format = "sha1"
+hash = "43b56e51fdc81f951e4759ccda2a822c571e60fb"
+
+[update]
+[update.modrinth]
+mod-id = "a2GCqbko"
+version = "TzMOh3hR"

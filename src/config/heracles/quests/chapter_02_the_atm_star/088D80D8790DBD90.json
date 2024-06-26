@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "53F6F7544E28F1CC": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "06F40832496CDD9E": {
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "pneumaticcraft:book"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"53F6F7544E28F1CC\" quest=\"088D80D8790DBD90\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.PC</translate></p>",
+      "<hr/>",
+      "<reward reward=\"06F40832496CDD9E\" quest=\"088D80D8790DBD90\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          352,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "pneumaticcraft:ingot_iron_compressed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.PC"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

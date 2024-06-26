@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26",
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "58FACC24E092C8EB": {
+      "type": "heracles:item",
+      "item": "botania:lens_warp"
+    }
+  },
+  "rewards": {
+    "71D834AFD30CAC03": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_warp",
+    "description": [
+      "<task task=\"58FACC24E092C8EB\" quest=\"4CC46A4E71320140\"/>",
+      "<hr/>",
+      "Refer to the &&aLexica Botania&&r on how to use this lens.",
+      "<hr/>",
+      "<reward reward=\"71D834AFD30CAC03\" quest=\"4CC46A4E71320140\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_warp"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          432,
+          432
+        ]
+      }
+    }
+  }
+}

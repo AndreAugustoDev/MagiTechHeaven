@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "60F5DC851FCFF1B2",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "1FAA953BA925186C": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_hardened"
+    }
+  },
+  "rewards": {
+    "679396D0CC02A060": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:thermo_generator_hardened",
+    "description": [
+      "<task task=\"1FAA953BA925186C\" quest=\"6230C6884B800689\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"679396D0CC02A060\" quest=\"6230C6884B800689\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          176,
+          432
+        ]
+      }
+    }
+  }
+}

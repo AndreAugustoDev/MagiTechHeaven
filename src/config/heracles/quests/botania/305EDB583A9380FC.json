@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "74F64B1A74B30D28": {
+      "type": "heracles:item",
+      "item": "botania:hopperhock"
+    }
+  },
+  "rewards": {
+    "3045B98D9536DBE8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:hopperhock",
+    "description": [
+      "<task task=\"74F64B1A74B30D28\" quest=\"305EDB583A9380FC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3045B98D9536DBE8\" quest=\"305EDB583A9380FC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:hopperhock"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          32,
+          80
+        ]
+      }
+    }
+  }
+}

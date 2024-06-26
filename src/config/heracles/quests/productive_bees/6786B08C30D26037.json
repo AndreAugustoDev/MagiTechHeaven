@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "64248C6FBC867D56": {
+      "title": "Nomad Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4421D42829BE3B93": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Nomad Bee",
+    "description": [
+      "<h2>Spawns in a nest that has an Ashy Mining Bee</h2>",
+      "<hr/>",
+      "<task task=\"64248C6FBC867D56\" quest=\"6786B08C30D26037\"/>",
+      "<hr/>",
+      "If you want one of these, you'll need an Ashy Mining Bee first. ",
+      "<br/>",
+      "Once the Ashy Mining Bee is cozy in its nest, there is a chance for a Nomad Bee to take it over.",
+      "<hr/>",
+      "<reward reward=\"4421D42829BE3B93\" quest=\"6786B08C30D26037\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_sword"
+    },
+    "subtitle": {
+      "text": "Spawns in a nest that has an Ashy Mining Bee"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -96,
+          496
+        ]
+      }
+    }
+  }
+}

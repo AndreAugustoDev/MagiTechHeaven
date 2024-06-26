@@ -1,0 +1,105 @@
+{
+  "settings": {},
+  "dependencies": [
+    "65C147F5282E8FCD"
+  ],
+  "tasks": {
+    "6D1A2543E374542A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:infinity_trident",
+      "nbt": {
+        "CanCharge": 1,
+        "Channeling": 0,
+        "Energy": 0,
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "biofuel"
+        },
+        "Loyalty": 0,
+        "Riptide": 0,
+        "Selected": "POOR",
+        "Special": 0
+      }
+    },
+    "798860AC37F98D4E": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:infinity_drill",
+      "nbt": {
+        "CanCharge": 1,
+        "Energy": 0,
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "biofuel"
+        },
+        "Selected": "POOR",
+        "Special": 0
+      }
+    },
+    "75341FD6B58D8988": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:infinity_saw",
+      "nbt": {
+        "CanCharge": 1,
+        "Energy": 0,
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "biofuel"
+        },
+        "Selected": "POOR",
+        "Special": 0
+      }
+    },
+    "291E22AEBC7FBCE2": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:infinity_hammer",
+      "nbt": {
+        "Beheading": 0,
+        "CanCharge": 1,
+        "Energy": 0,
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "biofuel"
+        },
+        "Selected": "POOR",
+        "Special": 0
+      }
+    },
+    "1A3351BC0935160A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:infinity_backpack",
+      "nbt": {
+        "CanCharge": 1,
+        "Energy": 0,
+        "Selected": "POOR",
+        "Special": 0
+      }
+    }
+  },
+  "rewards": {
+    "1382AE5136BAB6C3": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 2
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"6D1A2543E374542A\" quest=\"41E8550FC36ABCA5\"/>",
+      "<task task=\"798860AC37F98D4E\" quest=\"41E8550FC36ABCA5\"/>",
+      "<task task=\"75341FD6B58D8988\" quest=\"41E8550FC36ABCA5\"/>",
+      "<task task=\"291E22AEBC7FBCE2\" quest=\"41E8550FC36ABCA5\"/>",
+      "<task task=\"1A3351BC0935160A\" quest=\"41E8550FC36ABCA5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1382AE5136BAB6C3\" quest=\"41E8550FC36ABCA5\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          336,
+          -96
+        ]
+      }
+    }
+  }
+}

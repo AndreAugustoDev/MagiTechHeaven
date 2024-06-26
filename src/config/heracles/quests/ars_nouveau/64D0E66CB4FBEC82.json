@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6E0E13806F388D7E"
+  ],
+  "tasks": {
+    "6988873450238F30": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:novice_spell_book"
+    }
+  },
+  "rewards": {
+    "565501823D60D08C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "ars_nouveau:mana_regen_potion"
+        }
+      }
+    },
+    "6C54AF41C1300895": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:novice_spell_book",
+    "description": [
+      "<h2>Our First Spellbook</h2>",
+      "<hr/>",
+      "<task task=\"6988873450238F30\" quest=\"64D0E66CB4FBEC82\"/>",
+      "<hr/>",
+      "To get started, you'll need to craft yourself a &&6Novice Spellbook&&r.",
+      "<br/>",
+      "This is where you create and store your spells.",
+      "<br/>",
+      "Hitting the &&9C&&r key will open up the \"Create a Spell\" page. On the left, there are several tabs, but the main 3 are: Spell Creation, Color Picker, and Familiars.",
+      "<br/>",
+      "This spellbook will only allow you to create and use Tier 1 Glyphs. To create better spells, you'll need to upgrade your Spellbook!",
+      "<hr/>",
+      "<reward reward=\"565501823D60D08C\" quest=\"64D0E66CB4FBEC82\"/>",
+      "<reward reward=\"6C54AF41C1300895\" quest=\"64D0E66CB4FBEC82\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:novice_spell_book"
+    },
+    "subtitle": {
+      "text": "Our First Spellbook"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    }
+  }
+}

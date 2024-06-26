@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "4EE84594A8A996AF": {
+      "type": "heracles:item",
+      "item": "productivebees:nether_gold_nest"
+    }
+  },
+  "rewards": {
+    "76C1F3990EFECFDB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:nether_gold_nest",
+    "description": [
+      "<h2>Lures a Gold Bee when placed in the Nether</h2>",
+      "<hr/>",
+      "<task task=\"4EE84594A8A996AF\" quest=\"160BD0185954C891\"/>",
+      "<hr/>",
+      "Instead of using Honey Treats, this hive requires Gold Ingots to attract Bees.",
+      "<hr/>",
+      "<reward reward=\"76C1F3990EFECFDB\" quest=\"160BD0185954C891\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:nether_gold_nest"
+    },
+    "subtitle": {
+      "text": "Lures a Gold Bee when placed in the Nether"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -288,
+          144
+        ]
+      }
+    }
+  }
+}

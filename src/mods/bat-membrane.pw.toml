@@ -1,0 +1,13 @@
+name = "Bat Membrane (Anti Phantom)"
+filename = "bat-membrane-v.1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vz3NiXrd/versions/2NYYtmUS/bat-membrane-v.1.0.1.jar"
+hash-format = "sha1"
+hash = "89d2d378733537fce6c3e0e1cb2b2027bb99e4c7"
+
+[update]
+[update.modrinth]
+mod-id = "vz3NiXrd"
+version = "2NYYtmUS"

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "49E42AE6E840232B": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:redstone_seeds"
+    }
+  },
+  "rewards": {
+    "67093CDD313A9388": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:redstone_seeds",
+    "description": [
+      "<task task=\"49E42AE6E840232B\" quest=\"5EE485880EA9FACF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"67093CDD313A9388\" quest=\"5EE485880EA9FACF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:redstone_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -320,
+          -192
+        ]
+      }
+    }
+  }
+}

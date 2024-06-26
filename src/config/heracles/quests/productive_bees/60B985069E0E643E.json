@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "50823C029014781A": {
+      "title": "Obsidian Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:obsidian"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "72ADB76DCE00FAEF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Obsidian Bee",
+    "description": [
+      "<h2>Magmatic + Sweat</h2>",
+      "<hr/>",
+      "<task task=\"50823C029014781A\" quest=\"60B985069E0E643E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"72ADB76DCE00FAEF\" quest=\"60B985069E0E643E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:obsidian"
+    },
+    "subtitle": {
+      "text": "Magmatic + Sweat"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          528
+        ]
+      }
+    }
+  }
+}

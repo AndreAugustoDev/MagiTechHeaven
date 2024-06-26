@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "761F5F98E18E824D": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_accelerate"
+    }
+  },
+  "rewards": {
+    "183520B645B94E0A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_accelerate",
+    "description": [
+      "<task task=\"761F5F98E18E824D\" quest=\"5F75215CB5956290\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"183520B645B94E0A\" quest=\"5F75215CB5956290\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_accelerate"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -432
+        ]
+      }
+    }
+  }
+}

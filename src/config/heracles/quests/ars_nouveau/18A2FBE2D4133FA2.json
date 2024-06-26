@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5C3FF43CF16BCF30"
+  ],
+  "tasks": {
+    "5B80C1EF5D85EA64": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "ars_nouveau:arcane_pedestal"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Arcane Pedestals",
+    "description": [
+      "<h2>Fancy Tables</h2>",
+      "<hr/>",
+      "<task task=\"5B80C1EF5D85EA64\" quest=\"18A2FBE2D4133FA2\"/>",
+      "<hr/>",
+      "Arcane Pedestals are needed for the Ritual Brazier and crafting items with an Enchanting Apparatus.",
+      "<br/>",
+      "Go ahead and make yourself 8 of them!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:arcane_pedestal"
+    },
+    "subtitle": {
+      "text": "Fancy Tables"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  }
+}

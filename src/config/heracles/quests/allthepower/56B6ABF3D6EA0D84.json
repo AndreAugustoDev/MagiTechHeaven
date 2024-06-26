@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "36DEA17CBB696CC7"
+  ],
+  "tasks": {
+    "026DE584C4DF393C": {
+      "type": "heracles:item",
+      "item": "fluxnetworks:flux_point",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "34498E12E8224864": {
+      "item": {
+        "id": "fluxnetworks:flux_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "175D04352F2F6D97": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"026DE584C4DF393C\" quest=\"56B6ABF3D6EA0D84\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.point</translate></p>",
+      "<hr/>",
+      "<reward reward=\"34498E12E8224864\" quest=\"56B6ABF3D6EA0D84\"/>",
+      "<reward reward=\"175D04352F2F6D97\" quest=\"56B6ABF3D6EA0D84\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -304,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fluxnetworks:flux_point",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.point"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

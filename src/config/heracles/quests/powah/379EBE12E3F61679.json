@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68B604EF40198B8D",
+    "25EFC21A3C48E0B6"
+  ],
+  "tasks": {
+    "112F14F2CFAAE9B7": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_spirited"
+    }
+  },
+  "rewards": {
+    "6258FB9CBCB92B8E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cable_spirited",
+    "description": [
+      "<task task=\"112F14F2CFAAE9B7\" quest=\"379EBE12E3F61679\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6258FB9CBCB92B8E\" quest=\"379EBE12E3F61679\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          32,
+          528
+        ]
+      }
+    }
+  }
+}

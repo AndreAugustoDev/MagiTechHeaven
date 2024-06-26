@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "1D02EF09FDC433ED": {
+      "type": "heracles:item",
+      "item": "powah:battery_starter"
+    }
+  },
+  "rewards": {
+    "7984927D6A54E393": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:battery_starter",
+    "description": [
+      "<task task=\"1D02EF09FDC433ED\" quest=\"61A8FAEC4FF18449\"/>",
+      "<hr/>",
+      "These can be used to charge items in your inventory, or can be used to increase the overall power capacity of an &&7Ender Network&&r channel.",
+      "<hr/>",
+      "<reward reward=\"7984927D6A54E393\" quest=\"61A8FAEC4FF18449\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:battery_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -176,
+          368
+        ]
+      }
+    }
+  }
+}

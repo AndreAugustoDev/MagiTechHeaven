@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "6F72BC1DF6CBCDED": {
+      "type": "heracles:item",
+      "item": "silentgear:bracelet_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6BE21A7766B057B1": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6F72BC1DF6CBCDED\" quest=\"21234BB40DB05C78\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6BE21A7766B057B1\" quest=\"21234BB40DB05C78\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          288,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:bracelet_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.bracelet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

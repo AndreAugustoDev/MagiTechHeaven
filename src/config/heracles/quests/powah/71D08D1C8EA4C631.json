@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "637A8E4BBF108417",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "7E8AFD4455E17266": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_nitro"
+    }
+  },
+  "rewards": {
+    "290D33D880E718A3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:thermo_generator_nitro",
+    "description": [
+      "<task task=\"7E8AFD4455E17266\" quest=\"71D08D1C8EA4C631\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"290D33D880E718A3\" quest=\"71D08D1C8EA4C631\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          176,
+          560
+        ]
+      }
+    }
+  }
+}

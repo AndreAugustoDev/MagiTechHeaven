@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "519604E883E6B620"
+  ],
+  "tasks": {
+    "21FEA5B3DD72F35D": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:wither_builder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"21FEA5B3DD72F35D\" quest=\"4F1575600E7CD512\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          208,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialforegoing:wither_builder",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.wither_builder"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

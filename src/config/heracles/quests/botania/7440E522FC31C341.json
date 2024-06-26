@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "634E71DBAE81D197"
+  ],
+  "tasks": {
+    "1550070280A21DC5": {
+      "type": "heracles:item",
+      "item": "botania:corporea_crystal_cube"
+    }
+  },
+  "rewards": {
+    "400B276E83E4995C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:corporea_crystal_cube",
+    "description": [
+      "<task task=\"1550070280A21DC5\" quest=\"7440E522FC31C341\"/>",
+      "<hr/>",
+      "The &&9Corporea Crystal Cube&&r is used to show the total count of an item in the Corporea Network of the Spark placed above it by right clicking it with that item.",
+      "<hr/>",
+      "<reward reward=\"400B276E83E4995C\" quest=\"7440E522FC31C341\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:corporea_crystal_cube"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          688,
+          208
+        ]
+      }
+    }
+  }
+}

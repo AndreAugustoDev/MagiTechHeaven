@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "50624A39AD15A8A6": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:wind_generator"
+    }
+  },
+  "rewards": {
+    "32DF83533E5D7416": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanismgenerators:wind_generator",
+    "description": [
+      "<h2>Generates Power from the Wind</h2>",
+      "<hr/>",
+      "<task task=\"50624A39AD15A8A6\" quest=\"7778937DF377C1B4\"/>",
+      "<hr/>",
+      "This is a great option for generating power.",
+      "<br/>",
+      "This generates around 40FE/t, and increases based on how high you are. The higher the Y level, the more power it produces!",
+      "<hr/>",
+      "<reward reward=\"32DF83533E5D7416\" quest=\"7778937DF377C1B4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:wind_generator"
+    },
+    "subtitle": {
+      "text": "Generates Power from the Wind"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          64,
+          32
+        ]
+      }
+    }
+  }
+}

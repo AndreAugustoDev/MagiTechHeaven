@@ -1,0 +1,93 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "3083D90A0F79A772": {
+      "title": "Supremium Tools and Weapons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_sword"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_pickaxe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_shovel"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_axe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_hoe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_bow"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_crossbow"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_shears"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_fishing_rod"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_sickle"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:supremium_scythe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagradditions:supremium_paxel"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "2CB8FCF5EE19919C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§4Supremium Tools and Weapons",
+    "description": [
+      "<task task=\"3083D90A0F79A772\" quest=\"30E9255DEC69C061\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2CB8FCF5EE19919C\" quest=\"30E9255DEC69C061\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -32,
+          -48
+        ]
+      }
+    }
+  }
+}

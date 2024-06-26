@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "585502BC014E420F"
+  ],
+  "tasks": {
+    "60705F980E6AA8F3": {
+      "title": "What Happens Next?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "42A7A77B539294C4": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"60705F980E6AA8F3\" quest=\"11B8C5F88DCB3BF5\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.next</translate></p>",
+      "<hr/>",
+      "<reward reward=\"42A7A77B539294C4\" quest=\"11B8C5F88DCB3BF5\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          416
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.next"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "6B88F1F9DF50C1E4": {
+      "title": "Any #forge:ingots/steel",
+      "icon": {
+        "type": "heracles:item",
+        "item": "alltheores:steel_ingot"
+      },
+      "type": "heracles:item",
+      "item": "#forge:ingots/steel"
+    }
+  },
+  "rewards": {
+    "62B5B4DCE3CD982F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Steel",
+    "description": [
+      "<task task=\"6B88F1F9DF50C1E4\" quest=\"1B6DDF50D00CBB31\"/>",
+      "<hr/>",
+      "Infusing Iron with Coal or Charcoal in a Metallurgic Infuser will give you Enriched Iron.",
+      "<br/>",
+      "Infusing the Enriched Iron with more Coal or Charcoal will give you Steel Dust, which can be smelted into Steel.",
+      "<br/>",
+      "This is a major crafting component in a lot of recipes in Mekanism.",
+      "<hr/>",
+      "<reward reward=\"62B5B4DCE3CD982F\" quest=\"1B6DDF50D00CBB31\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:steel_ingot"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          16,
+          64
+        ]
+      }
+    }
+  }
+}

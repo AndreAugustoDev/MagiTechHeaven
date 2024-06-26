@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1112E4E2CCEB2467"
+  ],
+  "tasks": {
+    "1FE5AA0FF1F9BB51": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_dissolution_chamber"
+    }
+  },
+  "rewards": {
+    "168E7AFB6769C922": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:ingot_refined_obsidian",
+        "count": 2
+      }
+    },
+    "0A42ABE6D34462D5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The Start of a Tier 4 Ore Factory",
+    "description": [
+      "<task task=\"1FE5AA0FF1F9BB51\" quest=\"4F436770D30D8520\"/>",
+      "<hr/>",
+      "We will need to add 3 more machines to our current setup.",
+      "<br/>",
+      "The first part of the process is the Chemical Dissolution Chamber.",
+      "<br/>",
+      "This machine requires &&aSulfuric Acid&&r to break down raw ores into an \"Ore Slurry.\"",
+      "<br/>",
+      "To get Sulfuric Acid, we'll need a new setup, which is explained further in the above quests.",
+      "<hr/>",
+      "<reward reward=\"168E7AFB6769C922\" quest=\"4F436770D30D8520\"/>",
+      "<reward reward=\"0A42ABE6D34462D5\" quest=\"4F436770D30D8520\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_dissolution_chamber"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          288,
+          -64
+        ]
+      }
+    }
+  }
+}

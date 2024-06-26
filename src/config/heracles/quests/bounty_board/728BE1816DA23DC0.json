@@ -1,0 +1,44 @@
+{
+  "display": {
+    "description": [
+      "<task task=\"1809F1F9A3043683\" quest=\"728BE1816DA23DC0\"/>",
+      "<hr/>",
+      "<reward reward=\"73BAA6AD36E525E5\" quest=\"728BE1816DA23DC0\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          48,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:dragon_head",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.dragon"
+  },
+  "rewards": {
+    "73BAA6AD36E525E5": {
+      "amount": 1000,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "1809F1F9A3043683": {
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:ender_dragon"
+      },
+      "icon": {
+        "item": "minecraft:dragon_head",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.dragon",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

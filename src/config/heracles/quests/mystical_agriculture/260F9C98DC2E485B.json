@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "61058B1004B5C97C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:blaze_seeds"
+    }
+  },
+  "rewards": {
+    "4A50A8F0CF444B74": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:blaze_seeds",
+    "description": [
+      "<task task=\"61058B1004B5C97C\" quest=\"260F9C98DC2E485B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4A50A8F0CF444B74\" quest=\"260F9C98DC2E485B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:blaze_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -160,
+          16
+        ]
+      }
+    }
+  }
+}

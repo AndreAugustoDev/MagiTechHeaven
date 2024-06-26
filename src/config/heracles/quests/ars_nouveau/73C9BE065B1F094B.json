@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "3F20F6E300F8E095": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_light"
+    }
+  },
+  "rewards": {
+    "002DBEDD1338DB6E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_light",
+    "description": [
+      "<task task=\"3F20F6E300F8E095\" quest=\"73C9BE065B1F094B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"002DBEDD1338DB6E\" quest=\"73C9BE065B1F094B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_light"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -272
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "5093432E189F5F6F": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_farmland"
+    }
+  },
+  "rewards": {
+    "3FBF79AC233906E2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:prudentium_farmland",
+    "description": [
+      "<task task=\"5093432E189F5F6F\" quest=\"576ABF43FCF886B7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3FBF79AC233906E2\" quest=\"576ABF43FCF886B7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_farmland"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -464,
+          -96
+        ]
+      }
+    }
+  }
+}

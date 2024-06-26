@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7FEE780F37A1322E",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "50B61EC144D1832F": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_blazing"
+    }
+  },
+  "rewards": {
+    "60BE5AA8BA68AA39": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cell_blazing",
+    "description": [
+      "<task task=\"50B61EC144D1832F\" quest=\"25088F06228F8561\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"60BE5AA8BA68AA39\" quest=\"25088F06228F8561\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          464
+        ]
+      }
+    }
+  }
+}

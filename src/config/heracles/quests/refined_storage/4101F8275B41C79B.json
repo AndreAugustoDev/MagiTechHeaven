@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "7604D8B3C9FCCFD9"
+  ],
+  "tasks": {
+    "1121780C6403D660": {
+      "type": "heracles:item",
+      "item": "refinedstorage:1k_storage_part",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1121780C6403D660\" quest=\"4101F8275B41C79B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.1kstorage}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -16,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:1k_storage_part",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.1kstorage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

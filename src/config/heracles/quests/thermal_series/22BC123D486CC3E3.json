@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "288B38C43A7C6D48": {
+      "type": "heracles:item",
+      "item": "thermal:machine_furnace"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Redstone Furnace",
+    "description": [
+      "<h2>Powered Furnace</h2>",
+      "<hr/>",
+      "<task task=\"288B38C43A7C6D48\" quest=\"22BC123D486CC3E3\"/>",
+      "<hr/>",
+      "The Redstone Furnace uses RF/FE instead of Coal to smelt items.",
+      "<br/>",
+      "Like all machines in the Thermal Series, this machine can be upgraded with augments to increase the speed of each process."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_furnace"
+    },
+    "subtitle": {
+      "text": "Powered Furnace"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  }
+}

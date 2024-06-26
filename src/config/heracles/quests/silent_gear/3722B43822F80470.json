@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "0DF4B01CC5B49E4E"
+  ],
+  "tasks": {
+    "7929CED2B31B3355": {
+      "type": "heracles:item",
+      "item": "silentgear:katana_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "569FE8789232CF20": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.katana"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.katana</translate></h2>",
+      "<hr/>",
+      "<task task=\"7929CED2B31B3355\" quest=\"3722B43822F80470\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.katana</translate></p>",
+      "<hr/>",
+      "<reward reward=\"569FE8789232CF20\" quest=\"3722B43822F80470\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -16,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:katana_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.katana"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

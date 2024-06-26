@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "2BB7C4355B61F638": {
+      "type": "heracles:item",
+      "item": "thermal:charge_bench"
+    }
+  },
+  "rewards": {
+    "16C939074FA98D0B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:charge_bench",
+    "description": [
+      "<h2>Charges Items</h2>",
+      "<hr/>",
+      "<task task=\"2BB7C4355B61F638\" quest=\"5FDEAA78891874FD\"/>",
+      "<hr/>",
+      "This machine charges the items placed inside.",
+      "<hr/>",
+      "<reward reward=\"16C939074FA98D0B\" quest=\"5FDEAA78891874FD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:charge_bench"
+    },
+    "subtitle": {
+      "text": "Charges Items"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -144,
+          96
+        ]
+      }
+    }
+  }
+}

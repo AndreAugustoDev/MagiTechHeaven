@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "18A2FBE2D4133FA2"
+  ],
+  "tasks": {
+    "1E0B9FBF5319CEF6": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_brazier"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_brazier",
+    "description": [
+      "<task task=\"1E0B9FBF5319CEF6\" quest=\"457DE8C154641437\"/>",
+      "<hr/>",
+      "The &&9Ritual Brazier&&r is used to cast rituals. It can also be used for decoration. If you want to light the Brazier, use a Light spell on it.",
+      "<br/>",
+      "To perform rituals, you'll need Arcane Pedestals as well. As there are so many rituals to cast, make sure to check out each of them using the &&6Worn Notebook&&r!",
+      "<br/>",
+      "This can be done by holding Ctrl on the Ritual Table while the book is in your inventory."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_brazier"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          240,
+          112
+        ]
+      }
+    }
+  }
+}

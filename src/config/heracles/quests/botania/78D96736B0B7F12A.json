@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "1B4F0D2059B8026B": {
+      "type": "heracles:item",
+      "item": "botania:entropinnyum"
+    }
+  },
+  "rewards": {
+    "110F28702A946AC5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:entropinnyum",
+    "description": [
+      "<task task=\"1B4F0D2059B8026B\" quest=\"78D96736B0B7F12A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"110F28702A946AC5\" quest=\"78D96736B0B7F12A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:entropinnyum"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -160,
+          144
+        ]
+      }
+    }
+  }
+}

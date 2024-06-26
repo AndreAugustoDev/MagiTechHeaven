@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "24A17B911DF7B6A3": {
+      "type": "heracles:item",
+      "item": "botania:munchdew"
+    }
+  },
+  "rewards": {
+    "6D7842714E46455E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:munchdew",
+    "description": [
+      "<task task=\"24A17B911DF7B6A3\" quest=\"7D5981F097FD4237\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6D7842714E46455E\" quest=\"7D5981F097FD4237\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:munchdew"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -192,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24174700F7FB771C"
+  ],
+  "tasks": {
+    "31A1425AA09C33F8": {
+      "title": "Lithium Dust",
+      "type": "heracles:item",
+      "item": "#forge:dusts/lithium"
+    }
+  },
+  "rewards": {
+    "6FBC38ABC17E2BFF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Advanced Power Storage",
+    "description": [
+      "<task task=\"31A1425AA09C33F8\" quest=\"0FF852DE33E41C90\"/>",
+      "<hr/>",
+      "If we want to create massive amounts of power, we'll need a way to store all of it, and those Energy Cubes just won't cut it.",
+      "<br/>",
+      "We're going to create a customizable multiblock used to store large amounts of power, but first, we need to make some Lithium Dust!",
+      "<br/>",
+      "You should have some Brine being made from a previous quest using the &&aThermal Evaporation Plants&&r. Run the &&eBrine&&r through another &&aThermal Evaporation Plant&&r to get Lithium, then through a &&9Chemical Crystallizer&&r to get &&aLithium Dust&&r.",
+      "<hr/>",
+      "<reward reward=\"6FBC38ABC17E2BFF\" quest=\"0FF852DE33E41C90\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_energy"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          96,
+          -32
+        ]
+      }
+    }
+  }
+}

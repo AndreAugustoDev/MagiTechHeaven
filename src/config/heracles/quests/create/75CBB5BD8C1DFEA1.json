@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "56DBF4356117F26A": {
+      "type": "heracles:item",
+      "item": "create:basin"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:basin",
+    "description": [
+      "<task task=\"56DBF4356117F26A\" quest=\"75CBB5BD8C1DFEA1\"/>",
+      "<hr/>",
+      "The &&n&&5Basin&&r is used for recipes, mainly including the &&n&&5Mechanical Press&&r and the &&n&&5Mechanical Mixer&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:basin"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          80,
+          -112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "5F0667A0930319F8": {
+      "type": "heracles:item",
+      "item": "botania:corporea_spark"
+    },
+    "3844BA7E922E8B45": {
+      "type": "heracles:item",
+      "item": "botania:corporea_spark_master"
+    }
+  },
+  "rewards": {
+    "24B9FEA1C04B9C8C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§dThe Corporea Network§r",
+    "description": [
+      "<task task=\"5F0667A0930319F8\" quest=\"634E71DBAE81D197\"/>",
+      "<task task=\"3844BA7E922E8B45\" quest=\"634E71DBAE81D197\"/>",
+      "<hr/>",
+      "With Botania, you can create a &&dCorporea Network&&r by using &&9Corporea Sparks&&r over inventories.",
+      "<br/>",
+      "While the network will need at least one &&bMaster&&r &&9Corporea Spark&&r to work, you can expand the network with as many Corporea Sparks as you want. When these Sparks are placed, it will connect to all of the same colored Corporea Sparks and form an item network. Each Spark only has a range of 8 blocks.",
+      "<br/>",
+      "These Sparks can only see the inventory directly beneath it, but can only access items from its top side. Each Spark can also see every item in the Corporea network, and can be accessed by other Corporea blocks, like the Funnel or Index.",
+      "<hr/>",
+      "<reward reward=\"24B9FEA1C04B9C8C\" quest=\"634E71DBAE81D197\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          656,
+          176
+        ]
+      }
+    }
+  }
+}

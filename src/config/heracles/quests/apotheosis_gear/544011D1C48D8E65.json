@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "359E1FFAB18FE50F"
+  ],
+  "tasks": {},
+  "rewards": {
+    "3B0E731D612ECA80": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4241A0F3897E9DF0\" quest=\"544011D1C48D8E65\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.affixes.desc.gem_cutting</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3B0E731D612ECA80\" quest=\"544011D1C48D8E65\"/>"
+    ],
+    "groups": {
+      "Apotheosis Gear": {
+        "position": [
+          -96,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.affixes.gem_cutting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

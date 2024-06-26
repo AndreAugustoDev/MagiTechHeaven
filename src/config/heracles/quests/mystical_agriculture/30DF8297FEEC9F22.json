@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "073DB8EBFC3BC948": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nether_quartz_seeds"
+    }
+  },
+  "rewards": {
+    "736DC15554CC4850": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:nether_quartz_seeds",
+    "description": [
+      "<task task=\"073DB8EBFC3BC948\" quest=\"30DF8297FEEC9F22\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"736DC15554CC4850\" quest=\"30DF8297FEEC9F22\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nether_quartz_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -304,
+          -208
+        ]
+      }
+    }
+  }
+}

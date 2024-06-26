@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "33CEC23CAF6DA6A6": {
+      "title": "Ars Nouveau",
+      "icon": {
+        "type": "heracles:item",
+        "item": "ars_nouveau:creative_spell_book"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "24AA489F2E015748": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:worn_notebook"
+      }
+    }
+  },
+  "display": {
+    "title": "Ars Nouveau",
+    "description": [
+      "<task task=\"33CEC23CAF6DA6A6\" quest=\"6E0E13806F388D7E\"/>",
+      "<hr/>",
+      "Welcome to &&aArs Nouveau&&f!",
+      "<br/>",
+      "Ars Nouveau is a magic mod that allows you to create custom spells with the different Glyphs made within the mod!",
+      "<hr/>",
+      "<reward reward=\"24AA489F2E015748\" quest=\"6E0E13806F388D7E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:creative_spell_book"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -200,
+          0
+        ]
+      }
+    }
+  }
+}

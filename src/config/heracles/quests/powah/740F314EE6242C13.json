@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "677365A816994C8B",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "5ED7B42C22BCD280": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_basic"
+    }
+  },
+  "rewards": {
+    "72A188DBD0297AF3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:player_transmitter_basic",
+    "description": [
+      "<task task=\"5ED7B42C22BCD280\" quest=\"740F314EE6242C13\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"72A188DBD0297AF3\" quest=\"740F314EE6242C13\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -208,
+          400
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68318811CCC28320"
+  ],
+  "tasks": {
+    "0BE59456FB7744CE": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_infuser"
+    }
+  },
+  "rewards": {
+    "173EF0031734B431": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§aThe§r §cBlood Infuser§r",
+    "description": [
+      "<task task=\"0BE59456FB7744CE\" quest=\"62A262A706CFCAF0\"/>",
+      "<hr/>",
+      "We won't be creating Dark Power Gems using pools of blood anymore.",
+      "<br/>",
+      "Instead, we can make the &&9Blood Infuser&&r to do all of the messy work for us. This allows you to directly infuse items with blood!",
+      "<br/>",
+      "These can be upgraded using &&6Promises&&r as well. This is one of the main machines used for progression!",
+      "<hr/>",
+      "<reward reward=\"173EF0031734B431\" quest=\"62A262A706CFCAF0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_infuser"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          112,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5"
+  ],
+  "tasks": {
+    "1BAC364D2AF426D3": {
+      "type": "heracles:item",
+      "item": "powah:capacitor_basic_tiny"
+    }
+  },
+  "rewards": {
+    "27DAD35DC7E2C8C4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Tier: §7Tiny§r",
+    "description": [
+      "<task task=\"1BAC364D2AF426D3\" quest=\"6D88C19F47D0D469\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"27DAD35DC7E2C8C4\" quest=\"6D88C19F47D0D469\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          368
+        ]
+      }
+    }
+  }
+}

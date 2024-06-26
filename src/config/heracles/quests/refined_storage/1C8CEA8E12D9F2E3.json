@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "7C26D0295ABBF5BD"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6CF001677DE268D7\" quest=\"1C8CEA8E12D9F2E3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -48,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.ultraDM"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

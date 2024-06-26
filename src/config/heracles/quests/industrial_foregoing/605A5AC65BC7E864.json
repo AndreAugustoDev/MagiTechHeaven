@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3514E9C1A8C7400C"
+  ],
+  "tasks": {
+    "0B132D9A270D8A51": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:marine_fisher"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:marine_fisher",
+    "description": [
+      "<task task=\"0B132D9A270D8A51\" quest=\"605A5AC65BC7E864\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:marine_fisher"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          176,
+          64
+        ]
+      }
+    }
+  }
+}

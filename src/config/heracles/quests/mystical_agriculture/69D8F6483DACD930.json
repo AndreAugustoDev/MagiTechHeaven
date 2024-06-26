@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "0CA99B2609E73E80": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_watering_can",
+      "nbt": {
+        "Active": 0,
+        "Water": 0
+      }
+    }
+  },
+  "rewards": {
+    "16A3731766EBE630": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:tertium_watering_can",
+    "description": [
+      "<task task=\"0CA99B2609E73E80\" quest=\"69D8F6483DACD930\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16A3731766EBE630\" quest=\"69D8F6483DACD930\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_watering_can"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -336,
+          -80
+        ]
+      }
+    }
+  }
+}

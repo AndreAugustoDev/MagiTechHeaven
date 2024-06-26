@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "69642A3618E86DED"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"37BB2B7853E319A3\" quest=\"7E07C5A6FA6B6B1F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.importing_waste.blutonium</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1437F7CBCB818A17\" quest=\"7E07C5A6FA6B6B1F\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:blutonium_ingot",
+      "type": "heracles:item"
+    },
+    "title": "item.bigreactors.blutonium_ingot"
+  },
+  "rewards": {
+    "1437F7CBCB818A17": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "37BB2B7853E319A3": {
+      "item": "bigreactors:blutonium_ingot",
+      "type": "heracles:item"
+    }
+  }
+}

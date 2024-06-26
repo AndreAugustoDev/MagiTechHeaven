@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F1C04C0F6769825"
+  ],
+  "tasks": {
+    "716D483EFC35F6F3": {
+      "type": "heracles:item",
+      "item": "mekanism:thermal_evaporation_controller"
+    },
+    "33D7942176AD257D": {
+      "type": "heracles:item",
+      "amount": 37,
+      "item": "mekanism:thermal_evaporation_block"
+    },
+    "4BAD2AADFE32215A": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "mekanism:thermal_evaporation_valve"
+    }
+  },
+  "rewards": {
+    "7C0FF0123BCFA127": {
+      "type": "heracles:item",
+      "item": {
+        "id": "alltheores:steel_ingot",
+        "count": 2
+      }
+    },
+    "2A58C351E36E9DD3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Thermal Evaporation Plant",
+    "description": [
+      "<h2>Water turns into Brine!</h2>",
+      "<hr/>",
+      "<task task=\"716D483EFC35F6F3\" quest=\"603877AB96321F1A\"/>",
+      "<task task=\"33D7942176AD257D\" quest=\"603877AB96321F1A\"/>",
+      "<task task=\"4BAD2AADFE32215A\" quest=\"603877AB96321F1A\"/>",
+      "<hr/>",
+      "To get Hydrogen Chloride for our machines, we'll need to first create &&aBrine&&r.",
+      "<br/>",
+      "To do this, we'll need a Thermal Evaporation Plant. This is a multi-block structure.",
+      "<br/>",
+      "To start, create a 4x3x4 structure that is hollow in the middle, except for the base. You can replace any of the sides with a Controller or Valve.",
+      "<br/>",
+      "You'll need at least 1 controller, and at least 2  valves.",
+      "<br/>",
+      "Pump in water, and you'll start collecting brine, which can be pumped into an &&aElectrolytic Separator&&r to extract &&6Chlorine&&r from the gas.",
+      "{image:atm:textures/questpics/mek/thermalplant.png width:100 height:100 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7C0FF0123BCFA127\" quest=\"603877AB96321F1A\"/>",
+      "<reward reward=\"2A58C351E36E9DD3\" quest=\"603877AB96321F1A\"/>"
+    ],
+    "subtitle": {
+      "text": "Water turns into Brine!"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          160,
+          -112
+        ]
+      }
+    }
+  }
+}

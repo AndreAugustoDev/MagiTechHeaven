@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1B0087400B0B8B49",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "18847CA551A72B03": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "powah:reactor_basic"
+    }
+  },
+  "rewards": {
+    "57B3E1679990C2B0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Reactor (Basic)",
+    "description": [
+      "<task task=\"18847CA551A72B03\" quest=\"5F6152CF085D75D6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"57B3E1679990C2B0\" quest=\"5F6152CF085D75D6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:reactor_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          208,
+          400
+        ]
+      }
+    }
+  }
+}

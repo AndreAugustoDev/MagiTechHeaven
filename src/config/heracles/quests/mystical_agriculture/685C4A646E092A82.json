@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A103577EAE7B3F1"
+  ],
+  "tasks": {
+    "6A66020F75FB0CDB": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_helmet"
+    },
+    "33823BEEA08AFE8F": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_chestplate"
+    },
+    "5F4BDE8731B7CA86": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_leggings"
+    },
+    "1B5875E635B468A2": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_boots"
+    }
+  },
+  "rewards": {
+    "782618367E8FCD36": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    },
+    "0A337E0C343C74BD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagradditions:insanium_essence"
+      }
+    }
+  },
+  "display": {
+    "title": "§cAwakened Armor§r",
+    "description": [
+      "<task task=\"6A66020F75FB0CDB\" quest=\"685C4A646E092A82\"/>",
+      "<task task=\"33823BEEA08AFE8F\" quest=\"685C4A646E092A82\"/>",
+      "<task task=\"5F4BDE8731B7CA86\" quest=\"685C4A646E092A82\"/>",
+      "<task task=\"1B5875E635B468A2\" quest=\"685C4A646E092A82\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"782618367E8FCD36\" quest=\"685C4A646E092A82\"/>",
+      "<reward reward=\"0A337E0C343C74BD\" quest=\"685C4A646E092A82\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -32,
+          160
+        ]
+      }
+    }
+  }
+}

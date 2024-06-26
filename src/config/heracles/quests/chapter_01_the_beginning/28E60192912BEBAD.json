@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "681E89DB12A21A09"
+  ],
+  "tasks": {
+    "7F265D92FDA70DFA": {
+      "type": "heracles:item",
+      "item": "easy_villagers:villager",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6502F8AB0033CC29": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7F265D92FDA70DFA\" quest=\"28E60192912BEBAD\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.villagers</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6502F8AB0033CC29\" quest=\"28E60192912BEBAD\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -96,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "easy_villagers:villager",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.villagers"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "1A4B96C7C821174E": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:encased_fan",
+    "description": [
+      "<task task=\"1A4B96C7C821174E\" quest=\"1E9B2D814F50A265\"/>",
+      "<hr/>",
+      "The &&n&&5Encased Fan&&r is used to pull/push items and entities if you spin it. The arrow will show you the direction it's facing and the rotation direction will determine if it pushes or pulls."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          48
+        ]
+      }
+    }
+  }
+}

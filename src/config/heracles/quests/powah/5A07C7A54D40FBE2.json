@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "13A1F6468574ED2A": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_basic"
+    }
+  },
+  "rewards": {
+    "076EBFB074989F80": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_discharger_basic",
+    "description": [
+      "<task task=\"13A1F6468574ED2A\" quest=\"5A07C7A54D40FBE2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"076EBFB074989F80\" quest=\"5A07C7A54D40FBE2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -272,
+          400
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "23A45F19E1E556BB": {
+      "type": "heracles:item",
+      "item": "productivebees:end_stone_nest"
+    }
+  },
+  "rewards": {
+    "121400F2EFEEB64C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:end_stone_nest",
+    "description": [
+      "<h2>Lures in Ender Bees when placed in the End</h2>",
+      "<hr/>",
+      "<task task=\"23A45F19E1E556BB\" quest=\"1E9BD4B74DAEA9FC\"/>",
+      "<hr/>",
+      "To attract Bees to this nest, you'll need Popped Chorus Fruit instead of Honey Treats.",
+      "<hr/>",
+      "<reward reward=\"121400F2EFEEB64C\" quest=\"1E9BD4B74DAEA9FC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:end_stone_nest"
+    },
+    "subtitle": {
+      "text": "Lures in Ender Bees when placed in the End"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -256,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CA3AE708F46CEBF"
+  ],
+  "tasks": {
+    "5A91384EF5463B4D": {
+      "type": "heracles:item",
+      "item": "bloodmagic:telepositionsigil"
+    },
+    "097D8139589AF377": {
+      "type": "heracles:item",
+      "item": "bloodmagic:sigilofsuppression"
+    }
+  },
+  "rewards": {
+    "12698FAA72C0BF02": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"5A91384EF5463B4D\" quest=\"5E2CB036B00758AE\"/>",
+      "<task task=\"097D8139589AF377\" quest=\"5E2CB036B00758AE\"/>",
+      "<hr/>",
+      "&&6Teleposition Sigil&&r - Will teleport the user to a linked Teleposer at the cost of 1000LP. You can shift-click with the sigil on a Teleposer to set the location.",
+      "<br/>",
+      "&&9Suppression Sigil&&r - You can push liquids away from you in a 6 block radius. It's pretty cool.",
+      "<hr/>",
+      "<reward reward=\"12698FAA72C0BF02\" quest=\"5E2CB036B00758AE\"/>"
+    ],
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -448,
+          -160
+        ]
+      }
+    }
+  }
+}

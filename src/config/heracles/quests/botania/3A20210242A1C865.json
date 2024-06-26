@@ -1,0 +1,92 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1EF7664F5D8C5FF1"
+  ],
+  "tasks": {
+    "6A9E12C2483D4883": {
+      "type": "heracles:item",
+      "item": "botania:lexicon",
+      "nbt": {
+        "botania:elven_unlock": 1
+      }
+    },
+    "5BD644B2A02DF9C0": {
+      "title": "Alfheim Resources",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "botania:pixie_dust"
+          },
+          {
+            "Count": 1,
+            "id": "botania:quartz_elven"
+          },
+          {
+            "Count": 1,
+            "id": "botania:elf_glass"
+          },
+          {
+            "Count": 1,
+            "id": "botania:elementium_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:elementium_ingot"
+          },
+          {
+            "Count": 1,
+            "id": "botania:dreamwood_log"
+          },
+          {
+            "Count": 1,
+            "id": "botania:dreamwood"
+          },
+          {
+            "Count": 1,
+            "id": "botania:dragonstone_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:dragonstone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "54485635405DA167": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Communing with Elves",
+    "description": [
+      "<task task=\"6A9E12C2483D4883\" quest=\"3A20210242A1C865\"/>",
+      "<task task=\"5BD644B2A02DF9C0\" quest=\"3A20210242A1C865\"/>",
+      "<hr/>",
+      "While you may not be able to enter the &&dPortal to Alfheim&&r, you can perform an &&2Elven Trade&&r by tossing in certain items through the portal. This does use mana for each trade! These materials can also be used to upgrade some of your items, like creating &&2Elven Mana Spreaders&&r.",
+      "<br/>",
+      "Throwing in our &&aLexica Botania&&r will also upgrade it with &&6Elven Knowledge&&r, giving you more insight into your journey in Botania.",
+      "<hr/>",
+      "<reward reward=\"54485635405DA167\" quest=\"3A20210242A1C865\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:dragonstone"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          656,
+          80
+        ]
+      }
+    }
+  }
+}

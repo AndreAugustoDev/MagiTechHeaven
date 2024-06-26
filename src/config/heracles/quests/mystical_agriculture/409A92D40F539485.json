@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "7DEB271808127E13": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:wood_seeds"
+    }
+  },
+  "rewards": {
+    "6FD5D0C6234A07C2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:wood_seeds",
+    "description": [
+      "<task task=\"7DEB271808127E13\" quest=\"409A92D40F539485\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6FD5D0C6234A07C2\" quest=\"409A92D40F539485\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:wood_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -640,
+          -128
+        ]
+      }
+    }
+  }
+}

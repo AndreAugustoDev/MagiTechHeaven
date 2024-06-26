@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48BF71269DEA1AB1"
+  ],
+  "tasks": {
+    "50F4429AB337EF8A": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:platinum_seeds"
+    }
+  },
+  "rewards": {
+    "52E998698DDE1EFA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:platinum_seeds",
+    "description": [
+      "<task task=\"50F4429AB337EF8A\" quest=\"2B0553F307A024F7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52E998698DDE1EFA\" quest=\"2B0553F307A024F7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:platinum_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          0,
+          -160
+        ]
+      }
+    }
+  }
+}

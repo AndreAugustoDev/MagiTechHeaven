@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "2B539F4F290DC4CF",
+    "73EFADE932DFEF86",
+    "7790E599B42A5DE5",
+    "4D3D96B6019CA7F9",
+    "4A3DF999B969C875"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1C55EF91B9DAA586": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "48F65810E60EDC84": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of The Sky\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7560975C9F20D969\" quest=\"048F2942436D3C46\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"48F65810E60EDC84\" quest=\"048F2942436D3C46\"/>",
+      "<reward reward=\"1C55EF91B9DAA586\" quest=\"048F2942436D3C46\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -96,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.sky"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

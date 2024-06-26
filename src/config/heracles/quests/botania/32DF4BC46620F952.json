@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "0B5B67B066E672CD": {
+      "type": "heracles:item",
+      "item": "botania:alchemy_catalyst"
+    }
+  },
+  "rewards": {
+    "5105A5CC9AE334EF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:alchemy_catalyst",
+    "description": [
+      "<task task=\"0B5B67B066E672CD\" quest=\"32DF4BC46620F952\"/>",
+      "<hr/>",
+      "The &&dAlchemy Catalyst&&r can be placed under a &&bMana Pool&&r to allow it to perform &&9Alchemy&&r. This is useful to convert certain items into more useful items, like Rotten Flesh into Leather.",
+      "<hr/>",
+      "<reward reward=\"5105A5CC9AE334EF\" quest=\"32DF4BC46620F952\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:alchemy_catalyst"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          448,
+          96
+        ]
+      }
+    }
+  }
+}

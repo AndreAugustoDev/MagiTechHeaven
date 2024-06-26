@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "10C7C3214FFC012D": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:smelting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "621E7721DC1187BF": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.smelting"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.smelting</translate></h2>",
+      "<hr/>",
+      "<task task=\"10C7C3214FFC012D\" quest=\"668C313FF46B6005\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"621E7721DC1187BF\" quest=\"668C313FF46B6005\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -192,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:smelting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.smelting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

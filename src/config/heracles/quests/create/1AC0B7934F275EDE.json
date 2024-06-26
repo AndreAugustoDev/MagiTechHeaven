@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "23A9617F183C4EB1"
+  ],
+  "tasks": {
+    "35709DE2871F0CED": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "create:water_wheel"
+    }
+  },
+  "rewards": {
+    "5118928E884676B3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:water_wheel"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:water_wheel",
+    "description": [
+      "<task task=\"35709DE2871F0CED\" quest=\"1AC0B7934F275EDE\"/>",
+      "<hr/>",
+      "The &&n&&5Water Wheel&&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other.",
+      "<br/>",
+      "You can also change the appearance by using different Wooden Logs on them!",
+      "<hr/>",
+      "<reward reward=\"5118928E884676B3\" quest=\"1AC0B7934F275EDE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:water_wheel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          -240
+        ]
+      }
+    }
+  }
+}

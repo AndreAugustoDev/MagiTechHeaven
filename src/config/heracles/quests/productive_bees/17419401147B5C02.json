@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "2153473228DA4678": {
+      "title": "Bee Breeding",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1836D4B5770F396C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Breeding and Converting Bees",
+    "description": [
+      "<h2>The Birds and The Bees</h2>",
+      "<hr/>",
+      "<task task=\"2153473228DA4678\" quest=\"17419401147B5C02\"/>",
+      "<hr/>",
+      "Aside from luring bees in with nests, most bees require either &&eBreeding&&r or &&9Conversion&&r to bee created. (No, that isn't a typo.)",
+      "<br/>",
+      "&&eBee Breeding&&r requires 2 bees and specific items fed to them to cause them to mate. ",
+      "<br/>",
+      "&&9Bee Conversion&&r requires you to feed a bee a specific item to convert it into a new bee.",
+      "<hr/>",
+      "<reward reward=\"1836D4B5770F396C\" quest=\"17419401147B5C02\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "The Birds and The Bees"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          240
+        ]
+      }
+    }
+  }
+}

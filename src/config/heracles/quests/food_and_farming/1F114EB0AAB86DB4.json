@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "3EA883C0BB7BD38F"
+  ],
+  "tasks": {
+    "1AFEBED0226CEBC1": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:market",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "72142B51809511CF": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "2A90BE5DD251767D": {
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.market"
+    },
+    "description": [
+      "<h2>The villager has more than one way to spawn</h2>",
+      "<hr/>",
+      "<task task=\"1AFEBED0226CEBC1\" quest=\"1F114EB0AAB86DB4\"/>",
+      "<hr/>",
+      "Markets provide you with a villager than can sell you anything if you have the right amount of emeralds.",
+      "<br/>",
+      "Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING.",
+      "<hr/>",
+      "<reward reward=\"2A90BE5DD251767D\" quest=\"1F114EB0AAB86DB4\"/>",
+      "<reward reward=\"72142B51809511CF\" quest=\"1F114EB0AAB86DB4\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:market",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.market"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

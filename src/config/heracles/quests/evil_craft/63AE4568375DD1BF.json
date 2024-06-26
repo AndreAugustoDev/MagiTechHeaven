@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35FA55BE8DF49EE8"
+  ],
+  "tasks": {
+    "58D7956E86F91083": {
+      "type": "heracles:item",
+      "item": "evilcraft:sanguinary_environmental_accumulator"
+    }
+  },
+  "rewards": {
+    "05E294959C8F918F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Our Own Weather Accumulator",
+    "description": [
+      "<task task=\"58D7956E86F91083\" quest=\"63AE4568375DD1BF\"/>",
+      "<hr/>",
+      "With &&dGarmonbozia&&r, we can now create our own &&aEnvironmental Accumulator&&r. That's a lot to type out, I'm gonna be honest.",
+      "<hr/>",
+      "<reward reward=\"05E294959C8F918F\" quest=\"63AE4568375DD1BF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:sanguinary_environmental_accumulator"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          448,
+          176
+        ]
+      }
+    }
+  }
+}

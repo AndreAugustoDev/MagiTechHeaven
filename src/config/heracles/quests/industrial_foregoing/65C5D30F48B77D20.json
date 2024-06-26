@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "285EB289271FF17A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_death"
+    }
+  },
+  "rewards": {
+    "6DFF5F139145071E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_death",
+    "description": [
+      "<task task=\"285EB289271FF17A\" quest=\"65C5D30F48B77D20\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6DFF5F139145071E\" quest=\"65C5D30F48B77D20\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_death"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          416,
+          96
+        ]
+      }
+    }
+  }
+}

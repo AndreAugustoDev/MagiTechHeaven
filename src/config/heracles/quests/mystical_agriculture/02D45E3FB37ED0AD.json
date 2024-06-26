@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "2D62D0EC3AC2BA8D": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:glowstone_seeds"
+    }
+  },
+  "rewards": {
+    "2C5B66FF48D9E60B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:glowstone_seeds",
+    "description": [
+      "<task task=\"2D62D0EC3AC2BA8D\" quest=\"02D45E3FB37ED0AD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2C5B66FF48D9E60B\" quest=\"02D45E3FB37ED0AD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:glowstone_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -288,
+          -192
+        ]
+      }
+    }
+  }
+}

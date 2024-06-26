@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7B4AF35313D7D779"
+  ],
+  "tasks": {
+    "2FD098DEE8336866": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_reactor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_reactor",
+    "description": [
+      "<task task=\"2FD098DEE8336866\" quest=\"0F8FE6692717AA6A\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_reactor"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          336,
+          352
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "669BC6911F43DB26": {
+      "title": "Fluix Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:fluix"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "24B5A6BA1F9F31BB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Fluix Bee",
+    "description": [
+      "<h2>Feed a Spatial Bee a Fluix Pearl!</h2>",
+      "<hr/>",
+      "<task task=\"669BC6911F43DB26\" quest=\"33422FBDAE11AE82\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"24B5A6BA1F9F31BB\" quest=\"33422FBDAE11AE82\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_crystal"
+    },
+    "subtitle": {
+      "text": "Feed a Spatial Bee a Fluix Pearl!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          496
+        ]
+      }
+    }
+  }
+}

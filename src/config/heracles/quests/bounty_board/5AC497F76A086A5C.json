@@ -1,0 +1,75 @@
+{
+  "dependencies": [],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.witch.5</translate></h2>",
+      "<hr/>",
+      "<task task=\"7BAB5E17D2DE4E3E\" quest=\"5AC497F76A086A5C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"310682051A0C2291\" quest=\"5AC497F76A086A5C\"/>",
+      "<reward reward=\"3545146C9E60CD9B\" quest=\"5AC497F76A086A5C\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          128,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "count": 1,
+        "id": "minecraft:potion"
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "translate": "i18n.quest.bounty.witch.5"
+    },
+    "title": {
+      "translate": "i18n.quest.bounty.witch"
+    }
+  },
+  "rewards": {
+    "310682051A0C2291": {
+      "item": {
+        "count": 5,
+        "id": "minecraft:glass_bottle"
+      },
+      "type": "heracles:item"
+    },
+    "3545146C9E60CD9B": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "POINTS"
+    }
+  },
+  "settings": {
+    "autoClaimRewards": false,
+    "hidden": "LOCKED",
+    "individual_progress": false,
+    "repeatable": false,
+    "showDependencyArrow": true,
+    "unlockNotification": false
+  },
+  "tasks": {
+    "7BAB5E17D2DE4E3E": {
+      "amount": 5,
+      "entity": {
+        "type": "minecraft:witch"
+      },
+      "icon": {
+        "item": {
+          "count": 1,
+          "id": "minecraft:potion"
+        },
+        "type": "heracles:item"
+      },
+      "title": "&l&9Overworld Bounty:&r&e Witches",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

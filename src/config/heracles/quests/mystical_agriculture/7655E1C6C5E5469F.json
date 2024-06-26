@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "357DFF6A72C09E2E": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_growth_accelerator"
+    }
+  },
+  "rewards": {
+    "7E8581BE5D310EFD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:prudentium_growth_accelerator",
+    "description": [
+      "<task task=\"357DFF6A72C09E2E\" quest=\"7655E1C6C5E5469F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7E8581BE5D310EFD\" quest=\"7655E1C6C5E5469F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_growth_accelerator"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -496,
+          -16
+        ]
+      }
+    }
+  }
+}

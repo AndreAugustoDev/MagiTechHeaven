@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "33106E24A3B5DDD8"
+  ],
+  "tasks": {
+    "7FC0ED5732DFDCF2": {
+      "type": "heracles:item",
+      "item": "occultism:iesnium_pickaxe"
+    }
+  },
+  "rewards": {
+    "725142351E7457CF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aThe Otherworld Pickaxe§r",
+    "description": [
+      "<task task=\"7FC0ED5732DFDCF2\" quest=\"57282D7E31EE61EE\"/>",
+      "<hr/>",
+      "Once you've gathered a few &&aRaw Iesnium Ores&&r, you'll probably want to use the first few ingots to make an &&dIesnium Pickaxe&&r. This not only mines Iesnium like the Infused Pickaxe, but lasts a lot longer too.",
+      "<br/>",
+      "Do yourself a favor and make one of these!",
+      "<hr/>",
+      "<reward reward=\"725142351E7457CF\" quest=\"57282D7E31EE61EE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:iesnium_pickaxe"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          400,
+          400
+        ]
+      }
+    }
+  }
+}

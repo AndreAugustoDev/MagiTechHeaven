@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4EBED8ABC8C863A4"
+  ],
+  "tasks": {
+    "25714C3E4C8266CD": {
+      "type": "heracles:item",
+      "item": "evilcraft:garmonbozia"
+    }
+  },
+  "rewards": {
+    "737E46F6AB10F512": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "§dGarmonbozia§r",
+    "description": [
+      "<task task=\"25714C3E4C8266CD\" quest=\"35FA55BE8DF49EE8\"/>",
+      "<hr/>",
+      "Using the power of a slain &&9Vengeance Spirit&&r, we can use the Blood Infuser to create &&dGarmonbozia&&r.",
+      "<br/>",
+      "This is &&dPain&&r and &&dSorrow&&r materialized. It's also the high-end crafting material for powerful tools and items in EvilCraft.",
+      "<hr/>",
+      "<reward reward=\"737E46F6AB10F512\" quest=\"35FA55BE8DF49EE8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:garmonbozia"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          384,
+          176
+        ]
+      }
+    }
+  }
+}

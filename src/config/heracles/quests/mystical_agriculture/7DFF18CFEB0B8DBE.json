@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1CC4F8570A7A99EB"
+  ],
+  "tasks": {
+    "3BE2200A7B852974": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_farmland"
+    },
+    "11EDB05BC54E502C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_seeds"
+    }
+  },
+  "rewards": {
+    "6532E45AED2EBAC6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagriculture:inferium_essence"
+      }
+    },
+    "1C0AB29F65E420FE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Growing §aInferium§r",
+    "description": [
+      "<task task=\"3BE2200A7B852974\" quest=\"7DFF18CFEB0B8DBE\"/>",
+      "<task task=\"11EDB05BC54E502C\" quest=\"7DFF18CFEB0B8DBE\"/>",
+      "<hr/>",
+      "You'll want to start growing &&aInferium&&r as soon as you can!",
+      "<br/>",
+      "While not required for growing Inferium seeds, you can also create &&eEssence Farmland&&r that will increase the growth speed of the seeds. However, certain seeds will require certain farmlands to be planted on.",
+      "<hr/>",
+      "<reward reward=\"6532E45AED2EBAC6\" quest=\"7DFF18CFEB0B8DBE\"/>",
+      "<reward reward=\"1C0AB29F65E420FE\" quest=\"7DFF18CFEB0B8DBE\"/>"
+    ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -624,
+          -96
+        ]
+      }
+    }
+  }
+}

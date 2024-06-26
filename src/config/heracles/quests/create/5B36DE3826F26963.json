@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "2F89C6C2CD322B51": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "create:shaft"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:shaft",
+    "description": [
+      "<task task=\"2F89C6C2CD322B51\" quest=\"5B36DE3826F26963\"/>",
+      "<hr/>",
+      "&&n&&5Shafts&&r transfer rotational power without changing the speed of the gears."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:shaft"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -32,
+          -176
+        ]
+      }
+    }
+  }
+}

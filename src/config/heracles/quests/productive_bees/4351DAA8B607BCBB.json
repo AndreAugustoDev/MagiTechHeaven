@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "6D15CFE8E1CF6D25": {
+      "title": "Grave's Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:grave"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "3E53E43ACB7E4CB8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Grave's Bee",
+    "description": [
+      "<h2>Ghostly + Skeletal/Zombee</h2>",
+      "<hr/>",
+      "<task task=\"6D15CFE8E1CF6D25\" quest=\"4351DAA8B607BCBB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3E53E43ACB7E4CB8\" quest=\"4351DAA8B607BCBB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "tombstone:grave_dust"
+    },
+    "subtitle": {
+      "text": "Ghostly + Skeletal/Zombee"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          480
+        ]
+      }
+    }
+  }
+}

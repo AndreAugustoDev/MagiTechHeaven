@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2746575C929B6C50"
+  ],
+  "tasks": {
+    "2F64FAD1FD2D3BAA": {
+      "type": "heracles:item",
+      "item": "functionalstorage:copper_upgrade"
+    }
+  },
+  "rewards": {
+    "389E00F11BC30473": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "367143472E975AC8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.8",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.8</translate></h2>",
+      "<hr/>",
+      "<task task=\"2F64FAD1FD2D3BAA\" quest=\"485D5664A17E16DF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"389E00F11BC30473\" quest=\"485D5664A17E16DF\"/>",
+      "<reward reward=\"367143472E975AC8\" quest=\"485D5664A17E16DF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:copper_upgrade"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.8"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          -208
+        ]
+      }
+    }
+  }
+}

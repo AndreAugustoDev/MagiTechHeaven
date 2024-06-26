@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {
+    "6418A273A57B203C": {
+      "type": "heracles:item",
+      "item": "torchmaster:megatorch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2EA020DC0A263031": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6418A273A57B203C\" quest=\"05F186C95510BD4B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.mobs</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2EA020DC0A263031\" quest=\"05F186C95510BD4B\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          -32,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "torchmaster:megatorch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.mobs"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

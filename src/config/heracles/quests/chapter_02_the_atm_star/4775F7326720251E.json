@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "1B2898A31C297B58",
+    "0301633594309CC6",
+    "050AAD831C0AE375",
+    "73EFADE932DFEF86",
+    "54277F570314DCE1"
+  ],
+  "tasks": {},
+  "rewards": {
+    "3F4169D77B00BC02": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of The Elements\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "3959AD37C75CDA96": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"298D54656EEF2372\" quest=\"4775F7326720251E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3F4169D77B00BC02\" quest=\"4775F7326720251E\"/>",
+      "<reward reward=\"3959AD37C75CDA96\" quest=\"4775F7326720251E\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -96,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.elements"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

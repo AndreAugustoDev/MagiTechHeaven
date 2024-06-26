@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "603877AB96321F1A"
+  ],
+  "tasks": {
+    "6E75525A5D88EF23": {
+      "title": "Heaters",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mekanism:fuelwood_heater"
+          },
+          {
+            "Count": 1,
+            "id": "mekanism:resistive_heater"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3EF65B888EC38888": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:thermal_evaporation_valve"
+      }
+    },
+    "12B2CD9579419F81": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Heating Up our Brine Production",
+    "description": [
+      "<h2>Hot Brine here. Get Your Hot Brine here.</h2>",
+      "<hr/>",
+      "<task task=\"6E75525A5D88EF23\" quest=\"027084AE2DF5EBA6\"/>",
+      "<hr/>",
+      "The Thermal Evaporation Plant multi-block produces Brine based on the internal temperature.",
+      "<br/>",
+      "There are several methods to increase the temperature of the plant, including building them in a desert!",
+      "<br/>",
+      "The &&aFuelwood Heater&&r burns buckets of Lava, which can then be piped in using a pipe that transfers heat.",
+      "<br/>",
+      "The &&aResistive Heater&&r uses RF/FE to produce heat, and can be set to use whatever RF/FE you want it to use.",
+      "<hr/>",
+      "<reward reward=\"3EF65B888EC38888\" quest=\"027084AE2DF5EBA6\"/>",
+      "<reward reward=\"12B2CD9579419F81\" quest=\"027084AE2DF5EBA6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Hot Brine here. Get Your Hot Brine here."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          160,
+          -160
+        ]
+      }
+    }
+  }
+}

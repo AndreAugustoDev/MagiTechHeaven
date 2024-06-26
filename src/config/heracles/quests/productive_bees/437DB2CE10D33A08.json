@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C0302FF4F63B52E"
+  ],
+  "tasks": {
+    "17B0E19125FCFA1A": {
+      "title": "Glowing Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:glowing"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "33CF41454AF3192E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:glowing"
+          }
+        }
+      }
+    },
+    "7274DFEAC7126A2D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Glowing Bee",
+    "description": [
+      "<task task=\"17B0E19125FCFA1A\" quest=\"437DB2CE10D33A08\"/>",
+      "<hr/>",
+      "You'll need to grab yourself a &&6Glowstone Nest&&r and head to the Nether to capture this bee!",
+      "<hr/>",
+      "<reward reward=\"33CF41454AF3192E\" quest=\"437DB2CE10D33A08\"/>",
+      "<reward reward=\"7274DFEAC7126A2D\" quest=\"437DB2CE10D33A08\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:glowstone_dust"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          192,
+          160
+        ]
+      }
+    }
+  }
+}

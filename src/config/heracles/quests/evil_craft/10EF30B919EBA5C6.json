@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40888A2C17D8FFF6"
+  ],
+  "tasks": {
+    "56C5BE8015C28FBC": {
+      "type": "heracles:item",
+      "item": "evilcraft:vengeance_pickaxe",
+      "nbt": {
+        "Enchantments": [
+          {
+            "id": "evilcraft:vengeance",
+            "lvl": 3
+          },
+          {
+            "id": "minecraft:fortune",
+            "lvl": 5
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3EB65F6BBCFCDEF3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:vengeance_pickaxe",
+    "description": [
+      "<task task=\"56C5BE8015C28FBC\" quest=\"10EF30B919EBA5C6\"/>",
+      "<hr/>",
+      "It's a pickaxe with Fortune V on it. That's all.",
+      "<br/>",
+      "Definitely won't summon spirits when you are mining. &&oDefinitely won't.&&r",
+      "<hr/>",
+      "<reward reward=\"3EB65F6BBCFCDEF3\" quest=\"10EF30B919EBA5C6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:vengeance_pickaxe"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          144,
+          288
+        ]
+      }
+    }
+  }
+}

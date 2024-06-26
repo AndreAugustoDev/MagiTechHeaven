@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "39E60F2CA2EFAB9E": {
+      "type": "heracles:item",
+      "item": "minecraft:comparator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0E37557EFACD595E": {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39E60F2CA2EFAB9E\" quest=\"0E02CE4469FCA4C9\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.redstone</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0E37557EFACD595E\" quest=\"0E02CE4469FCA4C9\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          96,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:comparator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.redstone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

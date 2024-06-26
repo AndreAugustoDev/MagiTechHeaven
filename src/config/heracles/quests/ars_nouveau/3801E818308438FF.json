@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "03829269308C4BC8": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_aoe"
+    }
+  },
+  "rewards": {
+    "5A23E05D4AB7A880": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_aoe",
+    "description": [
+      "<task task=\"03829269308C4BC8\" quest=\"3801E818308438FF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A23E05D4AB7A880\" quest=\"3801E818308438FF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_aoe"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -400
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6AAB831CB3FB536A",
+    "506D48AD9FB2E89D"
+  ],
+  "tasks": {
+    "59D4952D3D164F6D": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulforge"
+    }
+  },
+  "rewards": {
+    "65BAEBCF71A95208": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§4Hellfire Forge§r",
+    "description": [
+      "<task task=\"59D4952D3D164F6D\" quest=\"7BA086472D87D705\"/>",
+      "<hr/>",
+      "The &&4Hellfire Forge&&r is one of the main blocks needed for creating certain items in Blood Magic.",
+      "<br/>",
+      "It is powered by &&dDemon Will&&r, and can be used to create several items including the &&bSentient Sword&&r.",
+      "<hr/>",
+      "<reward reward=\"65BAEBCF71A95208\" quest=\"7BA086472D87D705\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulforge"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -832,
+          32
+        ]
+      }
+    }
+  }
+}

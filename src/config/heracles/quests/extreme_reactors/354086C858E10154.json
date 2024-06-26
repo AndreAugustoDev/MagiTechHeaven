@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "4745152F6FF242B3"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"0577F2FA32B65E00\" quest=\"354086C858E10154\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.dealing_with_waste</translate></p>",
+      "<hr/>",
+      "<reward reward=\"601D8AF8D45F9818\" quest=\"354086C858E10154\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:reprocessorcasing",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bigreactors.reprocessing_waste"
+  },
+  "rewards": {
+    "601D8AF8D45F9818": {
+      "amount": 25,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "0577F2FA32B65E00": {
+      "item": "bigreactors:reprocessorcasing",
+      "type": "heracles:item"
+    }
+  }
+}

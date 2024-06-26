@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "681E89DB12A21A09"
+  ],
+  "tasks": {
+    "34E3533D501B867B": {
+      "type": "heracles:item",
+      "item": "#botanypots:all_botany_pots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "&aBotany Pots&r",
+      "icon": {
+        "item": {
+          "id": "botanypots:terracotta_botany_pot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0FA5EFB87AE17336": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"34E3533D501B867B\" quest=\"709344CCB273856F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.botany</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0FA5EFB87AE17336\" quest=\"709344CCB273856F\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -64,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botanypots:terracotta_botany_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.botany"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

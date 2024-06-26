@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "2F556E7919582D2D"
+  ],
+  "tasks": {
+    "2D72E699C4D506CE": {
+      "type": "heracles:item",
+      "item": "ae2:void_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "48C92D1EB16C0CA2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2D72E699C4D506CE\" quest=\"33ADE41526C39AFD\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.overflow_card</translate></p>",
+      "<hr/>",
+      "<reward reward=\"48C92D1EB16C0CA2\" quest=\"33ADE41526C39AFD\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          416,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:void_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.ae2.overflow_card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

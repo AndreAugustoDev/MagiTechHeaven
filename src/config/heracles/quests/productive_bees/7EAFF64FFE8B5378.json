@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "181135E3A83C5B9E": {
+      "title": "Zinc Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:zinc"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "4537E0AF362216D5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Zinc Bees",
+    "description": [
+      "<h2>Iron + Sweat</h2>",
+      "<hr/>",
+      "<task task=\"181135E3A83C5B9E\" quest=\"7EAFF64FFE8B5378\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"4537E0AF362216D5\" quest=\"7EAFF64FFE8B5378\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:zinc_ingot"
+    },
+    "subtitle": {
+      "text": "Iron + Sweat"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          400
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "3BE7523330044E2F": {
+      "type": "heracles:item",
+      "item": "productivebees:sugar_cane_nest"
+    }
+  },
+  "rewards": {
+    "53A40EE86E11B2C0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:sugar_cane_nest",
+    "description": [
+      "<h2>Lures bees in any Overworld Biome</h2>",
+      "<hr/>",
+      "<task task=\"3BE7523330044E2F\" quest=\"5CC9CB0911954215\"/>",
+      "<hr/>",
+      "A Reed Nest will work in any overworld biome, and will lure in a Mason Bee or a Reed Bee.",
+      "<hr/>",
+      "<reward reward=\"53A40EE86E11B2C0\" quest=\"5CC9CB0911954215\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:sugar_cane_nest"
+    },
+    "subtitle": {
+      "text": "Lures bees in any Overworld Biome"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -192,
+          144
+        ]
+      }
+    }
+  }
+}

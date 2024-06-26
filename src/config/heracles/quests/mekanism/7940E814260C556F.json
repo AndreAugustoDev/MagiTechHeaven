@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "166971866A9234C7"
+  ],
+  "tasks": {
+    "2FE06FDA0A3A66C7": {
+      "type": "heracles:item",
+      "item": "mekanism:alloy_reinforced"
+    }
+  },
+  "rewards": {
+    "5FA097D4BF2A2654": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:enriched_diamond"
+      }
+    },
+    "73EF7D1E94F0925B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:alloy_reinforced",
+    "description": [
+      "<task task=\"2FE06FDA0A3A66C7\" quest=\"7940E814260C556F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5FA097D4BF2A2654\" quest=\"7940E814260C556F\"/>",
+      "<reward reward=\"73EF7D1E94F0925B\" quest=\"7940E814260C556F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:alloy_reinforced"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -240,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "27E52482C789280F"
+  ],
+  "tasks": {
+    "45723AB59D9FC1B7": {
+      "advancements": [
+        "immersiveengineering:multiblocks/mb_fermenter"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"45723AB59D9FC1B7\" quest=\"20D4341820B44B91\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.fermenter}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -384,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.fermenter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

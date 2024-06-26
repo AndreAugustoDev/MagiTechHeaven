@@ -1,0 +1,102 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "43FD619EF9A41E76": {
+      "type": "heracles:item",
+      "item": "ae2:certus_quartz_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7B9519E1AF53A9A3": {
+      "type": "heracles:item",
+      "item": "ae2:certus_quartz_crystal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "705C55E801A67B8C": {
+      "item": {
+        "id": "minecraft:player_head",
+        "count": 1,
+        "nbt": {
+          "SkullOwner": {
+            "Id": [
+              -1680803463,
+              -166246322,
+              -1868942693,
+              1690810404
+            ],
+            "Properties": {
+              "textures": [
+                {
+                  "Signature": "afEokwjhQtrEuhPrUCmvW/OHzXnvehI3eVhaYzEFWtMtoeHyv2sEuo98N8+wdJD96s20vNYxzrW+epk27SVhGXzd9wDg0An6Q3OcdlWXeENr2nN4HEtxdWxodBHZU3/vdVKv7WcsGK0Oqu7PXIdUj1pRA9e6YS2MpMapS7b+65S6EmeC4zZTir4rOFbzZaDno1dNuOeyCX5azT8vF6B1ayMbfxo6NyhRz/PhY0Wp6ArZXAjgQXUUoBUSFHRnz25U4GqdlDiDF8ZDeP314lDbws0kjYpuM9Kagj71xvlUC3bFgFFGXzvXP0gYfexxMBU91T37jDrQwaXAywP+lfArCh3G/QwwJ7jwBFPc1B2Pqb0+z9w2r7ntM/VC/R/1w8xyyYmHB/xE+XIicx97bfNl/Yi7M6mkprlFq3H6Be/KD2n/MZ+O/R9bOklryen811LuTfiBPXhR2a5ye3prkcV+WMWNS65q5HCw6/F8ZBydj/Uym++fHWW/mKB7kBbj2gcZf5fukw2KTIuEcZQVHRKyRQNns4JSBlXb90VKg56rNmwcs2CnVs+sNrCTWFqYocJAdQ+F25pdJ0wbQhXUSAV709F2phRuYurCW+2QyvyO8LlRHKjfSQ59VxxihnEQOqYfiBW49E+Dut5aQiFif6c9UDtTATvXucase/7v4ni7yug=",
+                  "Value": "ewogICJ0aW1lc3RhbXAiIDogMTY1NTA1MjI1MjUyMSwKICAicHJvZmlsZUlkIiA6ICI5YmQwZjk3OWY2MTc0ODRlOTA5YTMyOWI2NGM3YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4MjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGVjZjI1NzkyZDc3YTc4NzkzZjcxNDY3OGUxMTk4YTY1ZDY3OTA3OTI5YWIyZDRlYmZmZjZlZmQwYTRlZWVhIgogICAgfQogIH0KfQ=="
+                }
+              ]
+            },
+            "Name": "82000"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "04731B877AA067A3": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "3B8F9C922DCD426E": {
+      "item": {
+        "id": "ae2:certus_quartz_dust",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.AE2"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.AE2</translate></h2>",
+      "<hr/>",
+      "<task task=\"43FD619EF9A41E76\" quest=\"2893F483C10293E6\"/>",
+      "<task task=\"7B9519E1AF53A9A3\" quest=\"2893F483C10293E6\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.AE2</translate></p>",
+      "&&o&&bappliedenergistics.github.io&&f&&r.",
+      "<hr/>",
+      "<reward reward=\"705C55E801A67B8C\" quest=\"2893F483C10293E6\"/>",
+      "<reward reward=\"3B8F9C922DCD426E\" quest=\"2893F483C10293E6\"/>",
+      "<reward reward=\"04731B877AA067A3\" quest=\"2893F483C10293E6\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          0,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:certus_quartz_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.AE2"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "2515FBAF4FB435D1": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:dirt_seeds"
+    }
+  },
+  "rewards": {
+    "6831467D3DD66DD8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:dirt_seeds",
+    "description": [
+      "<task task=\"2515FBAF4FB435D1\" quest=\"4526E151BAE88310\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6831467D3DD66DD8\" quest=\"4526E151BAE88310\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:dirt_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -624,
+          -144
+        ]
+      }
+    }
+  }
+}

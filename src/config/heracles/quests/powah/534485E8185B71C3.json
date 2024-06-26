@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "040A94FEA0038444": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_hardened"
+    }
+  },
+  "rewards": {
+    "26EBA6D243FC8A09": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_discharger_hardened",
+    "description": [
+      "<task task=\"040A94FEA0038444\" quest=\"534485E8185B71C3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"26EBA6D243FC8A09\" quest=\"534485E8185B71C3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -272,
+          432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "705AE21001A4E9C7": {
+      "title": "Radial Enchancement",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:area_radius_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:area_radius_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:area_radius_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:area_radius_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:area_radius_augment_4"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Radial Enchancement",
+    "description": [
+      "<h2>Increases AoE Effect</h2>",
+      "<hr/>",
+      "<task task=\"705AE21001A4E9C7\" quest=\"00C24A7DFEAEE956\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases AoE Effect"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          96,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1482F2D45E8F761D"
+  ],
+  "tasks": {
+    "032045BB026F44B3": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "mekanismgenerators:fission_fuel_assembly"
+    },
+    "0875D821930A348A": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:control_rod_assembly"
+    }
+  },
+  "rewards": {
+    "6819DA9F73BA383C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Inside the Reactor: Fuel Control",
+    "description": [
+      "<task task=\"032045BB026F44B3\" quest=\"3F5010269469EBE0\"/>",
+      "<task task=\"0875D821930A348A\" quest=\"3F5010269469EBE0\"/>",
+      "<hr/>",
+      "The inside of the reactor is built up of pillars using several &&aFission Fuel Assembly&&r blocks, with a single &&aControl Rod Assembly&&r placed at the top of each pillar. These can be anywhere from 1 to 15 blocks in height, depending on the size of the reactor.",
+      "<br/>",
+      "For this build, we'll put 2 of the Fission Fuel Assemblies in the center of our multiblock, and then put the Control Rod Assembly right on top of it.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6819DA9F73BA383C\" quest=\"3F5010269469EBE0\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

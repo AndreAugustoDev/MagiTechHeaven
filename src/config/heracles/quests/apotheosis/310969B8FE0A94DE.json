@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "07D875C6BBFF3264"
+  ],
+  "tasks": {
+    "5C9366CC53004462": {
+      "type": "heracles:item",
+      "item": "minecraft:spawner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5C9366CC53004462\" quest=\"310969B8FE0A94DE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.spawner</translate></p>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          32,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:spawner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.spawner"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

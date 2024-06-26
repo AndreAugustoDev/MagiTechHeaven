@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "41EF535B718F674F": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_amplify"
+    }
+  },
+  "rewards": {
+    "18A7D6E21342AC84": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_amplify",
+    "description": [
+      "<task task=\"41EF535B718F674F\" quest=\"073FD3884B2B11F7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"18A7D6E21342AC84\" quest=\"073FD3884B2B11F7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_amplify"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -304
+        ]
+      }
+    }
+  }
+}

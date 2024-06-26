@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "738B3094737D9A6A": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_turbinecontroller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3FD4E648D3560D1B": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_turbinecasing",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5C20A5831F6F1EE9": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "6EE855A0C663EDDF": {
+      "item": {
+        "id": "bigreactors:basic_turbinecasing",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3FD4E648D3560D1B\" quest=\"4415C9F8DA2D7E68\"/>",
+      "<task task=\"738B3094737D9A6A\" quest=\"4415C9F8DA2D7E68\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reprocessing_waste</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6EE855A0C663EDDF\" quest=\"4415C9F8DA2D7E68\"/>",
+      "<reward reward=\"5C20A5831F6F1EE9\" quest=\"4415C9F8DA2D7E68\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.making_turbines"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

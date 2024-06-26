@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "532229D285CA4858"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6947092EB1DF6DCE\" quest=\"616B6046EF5DDF21\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -208,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.eliteI"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

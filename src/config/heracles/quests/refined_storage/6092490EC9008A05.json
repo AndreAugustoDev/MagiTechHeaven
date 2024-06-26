@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6904EC449FBEE387"
+  ],
+  "tasks": {
+    "5762E9CE9A7D3FCA": {
+      "type": "heracles:item",
+      "item": "refinedstorage:destructor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.destructor"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.destructor</translate></h2>",
+      "<hr/>",
+      "<task task=\"5762E9CE9A7D3FCA\" quest=\"6092490EC9008A05\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.destructor}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -144,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:destructor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.destructor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

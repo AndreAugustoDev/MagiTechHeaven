@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "51DE3157DE3E57B8"
+  ],
+  "tasks": {
+    "58BF9A4EAD7C88E6": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_encoding_terminal"
+    },
+    "08D08A1400F7348F": {
+      "type": "heracles:item",
+      "item": "ae2:blank_pattern"
+    }
+  },
+  "rewards": {
+    "7E23E751506B04D0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ae2:blank_pattern",
+        "count": 8
+      }
+    },
+    "20EB24D02799A27D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.patterns",
+    "description": [
+      "<task task=\"58BF9A4EAD7C88E6\" quest=\"2C04B3BA507D5673\"/>",
+      "<task task=\"08D08A1400F7348F\" quest=\"2C04B3BA507D5673\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.patterns</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7E23E751506B04D0\" quest=\"2C04B3BA507D5673\"/>",
+      "<reward reward=\"20EB24D02799A27D\" quest=\"2C04B3BA507D5673\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:blank_pattern"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          448,
+          -112
+        ]
+      }
+    }
+  }
+}

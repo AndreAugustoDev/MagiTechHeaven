@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "06CFF66846E1CE0F": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:fire_seeds"
+    }
+  },
+  "rewards": {
+    "33D3392AF782C1E4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:fire_seeds",
+    "description": [
+      "<task task=\"06CFF66846E1CE0F\" quest=\"27A0BCE75F198A82\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33D3392AF782C1E4\" quest=\"27A0BCE75F198A82\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:fire_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -608,
+          -192
+        ]
+      }
+    }
+  }
+}

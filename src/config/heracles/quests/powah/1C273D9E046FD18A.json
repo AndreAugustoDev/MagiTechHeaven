@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "2E74430108DE6170": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_starter"
+    }
+  },
+  "rewards": {
+    "601B548099153FD8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energizing_rod_starter",
+    "description": [
+      "<task task=\"2E74430108DE6170\" quest=\"1C273D9E046FD18A\"/>",
+      "<hr/>",
+      "Used to energize items using the Energizing Orb.",
+      "<hr/>",
+      "<reward reward=\"601B548099153FD8\" quest=\"1C273D9E046FD18A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -144,
+          368
+        ]
+      }
+    }
+  }
+}

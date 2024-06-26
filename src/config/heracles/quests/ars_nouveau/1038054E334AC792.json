@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "56F8DEF68AA8B41C": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_extend_time"
+    }
+  },
+  "rewards": {
+    "56F859C404D06D60": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_extend_time",
+    "description": [
+      "<task task=\"56F8DEF68AA8B41C\" quest=\"1038054E334AC792\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"56F859C404D06D60\" quest=\"1038054E334AC792\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_extend_time"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "30B3469DAA8D5A0A"
+  ],
+  "tasks": {
+    "1F7689D1D5DB5E8C": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_logistical_transporter"
+    }
+  },
+  "rewards": {
+    "77ACF6D58FB6571F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_logistical_transporter",
+    "description": [
+      "<task task=\"1F7689D1D5DB5E8C\" quest=\"46AB23E922C51517\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"77ACF6D58FB6571F\" quest=\"46AB23E922C51517\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_logistical_transporter"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          80,
+          176
+        ]
+      }
+    }
+  }
+}

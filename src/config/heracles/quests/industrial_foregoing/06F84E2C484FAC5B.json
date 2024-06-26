@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "5949367631EAD828": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:material_stonework_factory"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:material_stonework_factory",
+    "description": [
+      "<task task=\"5949367631EAD828\" quest=\"06F84E2C484FAC5B\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:material_stonework_factory"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          560,
+          128
+        ]
+      }
+    }
+  }
+}

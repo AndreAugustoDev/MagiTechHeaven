@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26",
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "2F04E0FD92572BE8": {
+      "type": "heracles:item",
+      "item": "botania:lens_firework"
+    }
+  },
+  "rewards": {
+    "1871B498998A7526": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_firework",
+    "description": [
+      "<task task=\"2F04E0FD92572BE8\" quest=\"478352E24CE1F45F\"/>",
+      "<hr/>",
+      "Allows the Mana Bursts to launch festive fireworks when they hit a block.",
+      "<hr/>",
+      "<reward reward=\"1871B498998A7526\" quest=\"478352E24CE1F45F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_firework"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          384,
+          464
+        ]
+      }
+    }
+  }
+}

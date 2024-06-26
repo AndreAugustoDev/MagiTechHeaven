@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57C4A0BAE739E903"
+  ],
+  "tasks": {
+    "719FBA82094C5EC2": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:machine_frame_simple"
+    }
+  },
+  "rewards": {
+    "3CB88390179E68C1": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 1
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:machine_frame_simple",
+    "description": [
+      "<task task=\"719FBA82094C5EC2\" quest=\"3514E9C1A8C7400C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3CB88390179E68C1\" quest=\"3514E9C1A8C7400C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          240,
+          96
+        ]
+      }
+    }
+  }
+}

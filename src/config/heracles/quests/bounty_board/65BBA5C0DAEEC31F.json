@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "77FC692AC94D2EEF"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"1AB92CF7F0246D21\" quest=\"65BBA5C0DAEEC31F\"/>",
+      "<hr/>",
+      "<reward reward=\"687FF91B1E08FDFF\" quest=\"65BBA5C0DAEEC31F\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:creeper_head",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.creeper.10"
+  },
+  "rewards": {
+    "687FF91B1E08FDFF": {
+      "amount": 20,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "1AB92CF7F0246D21": {
+      "amount": 10,
+      "entity": {
+        "type": "minecraft:creeper"
+      },
+      "icon": {
+        "item": "minecraft:creeper_head",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.creeper.10",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A359C1F5E041C4F"
+  ],
+  "tasks": {
+    "0ADA4C174CEF2EEE": {
+      "type": "heracles:item",
+      "item": "botania:mana_tablet"
+    }
+  },
+  "rewards": {
+    "45AC19C3D395E86B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Transferring Mana from Pools",
+    "description": [
+      "<task task=\"0ADA4C174CEF2EEE\" quest=\"2162EA0216E27D68\"/>",
+      "<hr/>",
+      "The &&9Mana Tablet&&r is a portable Mana Pool!",
+      "<br/>",
+      "Tossing the tablet into a Mana Pool will allow it to either give or take Mana from the pool. You can switch between the modes by sneak-right clicking with a &&2Wand of the Forest&&r.",
+      "<br/>",
+      "Note: Tablets will not despawn.",
+      "<hr/>",
+      "<reward reward=\"45AC19C3D395E86B\" quest=\"2162EA0216E27D68\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:mana_tablet"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          304,
+          16
+        ]
+      }
+    }
+  }
+}

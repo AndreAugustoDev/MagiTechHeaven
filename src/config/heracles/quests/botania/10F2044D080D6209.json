@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "23A2865FBE7831AB"
+  ],
+  "tasks": {
+    "7502EF4CC54F1E6E": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_helmet"
+    },
+    "30BFF28FAC3C6862": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_chestplate"
+    },
+    "1295FFF7C7E5C731": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_leggings"
+    },
+    "69DDDE2C4D586735": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_boots"
+    }
+  },
+  "rewards": {
+    "652C453A738FEC70": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Terrasteel Armor",
+    "description": [
+      "<task task=\"7502EF4CC54F1E6E\" quest=\"10F2044D080D6209\"/>",
+      "<task task=\"30BFF28FAC3C6862\" quest=\"10F2044D080D6209\"/>",
+      "<task task=\"1295FFF7C7E5C731\" quest=\"10F2044D080D6209\"/>",
+      "<task task=\"69DDDE2C4D586735\" quest=\"10F2044D080D6209\"/>",
+      "<hr/>",
+      "Just like Manasteel armor, &&aTerrasteel Armor&&r can repair itself using Mana. It has the durability comparable to Diamond armor as well.",
+      "<hr/>",
+      "<reward reward=\"652C453A738FEC70\" quest=\"10F2044D080D6209\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          528,
+          -16
+        ]
+      }
+    }
+  }
+}

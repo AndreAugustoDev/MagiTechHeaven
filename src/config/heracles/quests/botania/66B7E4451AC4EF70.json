@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "6D6367DDF0FF15EB": {
+      "type": "heracles:item",
+      "item": "botania:thermalily"
+    }
+  },
+  "rewards": {
+    "6408A878638B4A4F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:thermalily",
+    "description": [
+      "<task task=\"6D6367DDF0FF15EB\" quest=\"66B7E4451AC4EF70\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6408A878638B4A4F\" quest=\"66B7E4451AC4EF70\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:thermalily"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -192,
+          48
+        ]
+      }
+    }
+  }
+}

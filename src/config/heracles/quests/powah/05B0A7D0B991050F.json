@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F6152CF085D75D6",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "60AF685179E1AB4B": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "powah:reactor_hardened"
+    }
+  },
+  "rewards": {
+    "298FF735E0518BDD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Reactor (Hardened)",
+    "description": [
+      "<task task=\"60AF685179E1AB4B\" quest=\"05B0A7D0B991050F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"298FF735E0518BDD\" quest=\"05B0A7D0B991050F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:reactor_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          208,
+          432
+        ]
+      }
+    }
+  }
+}

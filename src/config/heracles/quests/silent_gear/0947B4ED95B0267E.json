@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "657B3116A6419420"
+  ],
+  "tasks": {
+    "3179733D8ACBDA86": {
+      "type": "heracles:item",
+      "item": "silentgear:coating_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.coating"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.coating</translate></h2>",
+      "<hr/>",
+      "<task task=\"3179733D8ACBDA86\" quest=\"0947B4ED95B0267E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.coating}"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -32,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:coating_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.coating"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

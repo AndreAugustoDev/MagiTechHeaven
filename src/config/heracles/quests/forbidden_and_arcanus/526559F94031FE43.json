@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "34592A8F4B661D8D",
+    "1C91BD525C91FD73",
+    "5CF175DA7BDA52F3"
+  ],
+  "tasks": {
+    "662F567369FBB0AD": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:eternal_stella"
+    },
+    "58473B04E525807A": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+    }
+  },
+  "rewards": {
+    "4D6EC3BA13F54659": {
+      "type": "heracles:item",
+      "item": {
+        "id": "forbidden_arcanus:stellarite_piece"
+      }
+    },
+    "629C79B4071B31A3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§dEternal Stella",
+    "description": [
+      "<task task=\"662F567369FBB0AD\" quest=\"526559F94031FE43\"/>",
+      "<task task=\"58473B04E525807A\" quest=\"526559F94031FE43\"/>",
+      "<hr/>",
+      "The &&6Eternal Stella&&r has 3 charges, and when right-clicked, can fully repair all of your items in your inventory.",
+      "<br/>",
+      "The main purpose of it is to give the enchant &&9Unbreakable&&r to an item, which is done by combining it with a tool and an &&dApply Item Modifier Smithing Template&&r in a Smithing Table.",
+      "<hr/>",
+      "<reward reward=\"4D6EC3BA13F54659\" quest=\"526559F94031FE43\"/>",
+      "<reward reward=\"629C79B4071B31A3\" quest=\"526559F94031FE43\"/>"
+    ],
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          304,
+          96
+        ]
+      }
+    }
+  }
+}

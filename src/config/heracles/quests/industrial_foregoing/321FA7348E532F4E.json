@@ -1,0 +1,81 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EC2053B191C55C6"
+  ],
+  "tasks": {
+    "1D19038D0227D7EC": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:latex_bucket"
+    }
+  },
+  "rewards": {
+    "6D991DABAE36FE01": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_fluid_tank",
+        "count": 2,
+        "nbt": {
+          "BlockEntityTag": {
+            "FluidTanks": [
+              {
+                "Tank": 0,
+                "stored": {
+                  "Amount": 14000,
+                  "FluidName": "industrialforegoing:latex"
+                }
+              }
+            ],
+            "ForgeCaps": {},
+            "Items": [],
+            "activeState": 0,
+            "currentRedstone": 15,
+            "editMode": 0,
+            "id": "mekanism:basic_fluid_tank",
+            "redstone": 0,
+            "updateDelay": 0
+          },
+          "display": {
+            "Lore": [
+              "\"(+NBT)\""
+            ]
+          },
+          "mekData": {
+            "FluidTanks": [
+              {
+                "Tank": 0,
+                "stored": {
+                  "Amount": 14000,
+                  "FluidName": "industrialforegoing:latex"
+                }
+              }
+            ],
+            "Items": [],
+            "securityMode": 0
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:latex_bucket",
+    "description": [
+      "<task task=\"1D19038D0227D7EC\" quest=\"321FA7348E532F4E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6D991DABAE36FE01\" quest=\"321FA7348E532F4E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:latex_bucket"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "3EC446E752907C94": {
+      "type": "heracles:item",
+      "item": "thermal:machine_frame"
+    }
+  },
+  "rewards": {
+    "157563CE4EFA237B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "676677234F8E6F37": {
+      "type": "heracles:item",
+      "item": {
+        "id": "thermal:tin_gear"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_frame",
+    "description": [
+      "<h2>The Basic Frame for Machines</h2>",
+      "<hr/>",
+      "<task task=\"3EC446E752907C94\" quest=\"5F385CBA98795C62\"/>",
+      "<hr/>",
+      "The Machine Frame is needed to craft various machines in Thermal Series.",
+      "<hr/>",
+      "<reward reward=\"157563CE4EFA237B\" quest=\"5F385CBA98795C62\"/>",
+      "<reward reward=\"676677234F8E6F37\" quest=\"5F385CBA98795C62\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_frame"
+    },
+    "subtitle": {
+      "text": "The Basic Frame for Machines"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -16,
+          0
+        ]
+      }
+    }
+  }
+}

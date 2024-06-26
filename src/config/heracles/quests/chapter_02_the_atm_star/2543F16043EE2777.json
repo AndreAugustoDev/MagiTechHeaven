@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "59C07F8A254D52B3": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_brazier",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"59C07F8A254D52B3\" quest=\"2543F16043EE2777\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.ars",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"6AEDA2F9BEB57759\"}, \"text\": \"Click here to check out the Ars Nouveau questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -288,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ars_nouveau:ritual_brazier",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.ars"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

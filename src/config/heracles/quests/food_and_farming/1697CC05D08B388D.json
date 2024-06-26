@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "1D2EF12FD7FDD217"
+  ],
+  "tasks": {
+    "264B00606E5BE374": {
+      "type": "heracles:item",
+      "item": "minecraft:feather",
+      "amount": 10,
+      "collection": "AUTOMATIC"
+    },
+    "763031D0E9F0850C": {
+      "type": "heracles:item",
+      "item": "minecraft:chicken",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7A84544510F1D4EE": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "6ABAD303E8397549": {
+      "item": {
+        "id": "croptopia:fried_chicken",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.egg"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.egg</translate></h2>",
+      "<hr/>",
+      "<task task=\"264B00606E5BE374\" quest=\"1697CC05D08B388D\"/>",
+      "<task task=\"763031D0E9F0850C\" quest=\"1697CC05D08B388D\"/>",
+      "<hr/>",
+      "<reward reward=\"7A84544510F1D4EE\" quest=\"1697CC05D08B388D\"/>",
+      "<reward reward=\"6ABAD303E8397549\" quest=\"1697CC05D08B388D\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          192,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:fried_chicken",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.egg"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

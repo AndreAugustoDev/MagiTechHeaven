@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6E616DB197387C86"
+  ],
+  "tasks": {
+    "3CEAE2B50AD7C5ED": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_extractor"
+    }
+  },
+  "rewards": {
+    "2D3F9D6C16FE7EAF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:fluid_extractor",
+    "description": [
+      "<task task=\"3CEAE2B50AD7C5ED\" quest=\"0EC2053B191C55C6\"/>",
+      "<hr/>",
+      "Extracts latex from logs.",
+      "<br/>",
+      "Check JEI for acceptable logs and latex amounts.",
+      "<hr/>",
+      "<reward reward=\"2D3F9D6C16FE7EAF\" quest=\"0EC2053B191C55C6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_extractor"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          96,
+          0
+        ]
+      }
+    }
+  }
+}

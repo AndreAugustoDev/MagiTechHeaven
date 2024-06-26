@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "5E7E35CCAF1C88EE"
+  ],
+  "tasks": {
+    "3F715007AD9C0D58": {
+      "type": "heracles:item",
+      "item": "ae2:annihilation_plane",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "43B0C50B9F25E213": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.annhilation_plane"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.annhilation_plane</translate></h2>",
+      "<hr/>",
+      "<task task=\"3F715007AD9C0D58\" quest=\"140DE53DC0FCD9F4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.annhilation_plane</translate></p>",
+      "<hr/>",
+      "<reward reward=\"43B0C50B9F25E213\" quest=\"140DE53DC0FCD9F4\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          736,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:annihilation_plane",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.annhilation_plane"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

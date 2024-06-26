@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3F663416E824720C"
+  ],
+  "tasks": {
+    "739701B00C0F8A7B": {
+      "type": "heracles:item",
+      "item": "create:hose_pulley"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:hose_pulley",
+    "description": [
+      "<task task=\"739701B00C0F8A7B\" quest=\"77382D4114E901CB\"/>",
+      "<hr/>",
+      "The &&n&&5Hose Pulley&&r is a pump that can extract liquids or place liquids in the world."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:hose_pulley"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          384,
+          32
+        ]
+      }
+    }
+  }
+}

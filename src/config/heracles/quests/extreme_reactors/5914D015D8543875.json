@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "25D4406CB86C8CBB"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"730D5AE0E7A04CFB\" quest=\"5914D015D8543875\"/>",
+      "<task task=\"4A714BB3605492B9\" quest=\"5914D015D8543875\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.fluidizer_modes</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3858004802200429\" quest=\"5914D015D8543875\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -96,
+          368
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.operational_modes"
+  },
+  "rewards": {
+    "3858004802200429": {
+      "amount": 25,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "4A714BB3605492B9": {
+      "item": "bigreactors:fluidizerfluidinjector",
+      "type": "heracles:item"
+    },
+    "730D5AE0E7A04CFB": {
+      "item": "bigreactors:fluidizersolidinjector",
+      "type": "heracles:item"
+    }
+  }
+}

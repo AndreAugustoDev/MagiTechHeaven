@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5047792C6EF6D2AD"
+  ],
+  "tasks": {
+    "62E8F3CC847BBD3D": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "mekanism:hdpe_pellet"
+    }
+  },
+  "rewards": {
+    "16F49D5355A06C1B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:substrate",
+        "count": 2
+      }
+    },
+    "1138396810238D01": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "HDPE Pellets",
+    "description": [
+      "<task task=\"62E8F3CC847BBD3D\" quest=\"76A38CCA5816CDAD\"/>",
+      "<hr/>",
+      "Combining Oxygen, Ethylene, and a Substrate in a &&aPressurized Reaction Chamber&&r will create an HDPE Pellet.",
+      "<hr/>",
+      "<reward reward=\"16F49D5355A06C1B\" quest=\"76A38CCA5816CDAD\"/>",
+      "<reward reward=\"1138396810238D01\" quest=\"76A38CCA5816CDAD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:hdpe_pellet"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          -160
+        ]
+      }
+    }
+  }
+}

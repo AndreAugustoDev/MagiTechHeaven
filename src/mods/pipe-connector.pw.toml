@@ -1,0 +1,13 @@
+name = "Pipe Connector"
+filename = "pipe_connector-1.20.1-0.3.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2efef4a66b31d9014fe49ead35c2849be3725982"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5353593
+project-id = 846168

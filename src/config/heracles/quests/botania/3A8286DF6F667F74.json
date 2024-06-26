@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "4A5B6A054BC2618A": {
+      "type": "heracles:item",
+      "item": "botania:orange_mystical_flower"
+    }
+  },
+  "rewards": {
+    "187D54D9F8554BFF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:orange_mystical_flower",
+    "description": [
+      "<task task=\"4A5B6A054BC2618A\" quest=\"3A8286DF6F667F74\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"187D54D9F8554BFF\" quest=\"3A8286DF6F667F74\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:orange_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          112,
+          -160
+        ]
+      }
+    }
+  }
+}

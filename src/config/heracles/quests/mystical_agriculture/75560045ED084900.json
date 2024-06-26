@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54D6F7F8FE859729"
+  ],
+  "tasks": {
+    "46E948B8C21361D8": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soul_jar"
+    },
+    "1D0225C66C7B48F3": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soulium_dagger"
+    },
+    "7E7F031E78DE4E4D": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soul_extractor"
+    }
+  },
+  "rewards": {
+    "1EADD864A3D552F0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagriculture:soul_jar"
+      }
+    },
+    "1ACB29D670B09D06": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Creating Mob Seeds",
+    "description": [
+      "<task task=\"46E948B8C21361D8\" quest=\"75560045ED084900\"/>",
+      "<task task=\"1D0225C66C7B48F3\" quest=\"75560045ED084900\"/>",
+      "<task task=\"7E7F031E78DE4E4D\" quest=\"75560045ED084900\"/>",
+      "<hr/>",
+      "Most seeds are simple to make, but to make &&9Mob Seeds&&r, you'll need to head to the Nether to pick up some &&8Soulium&&r.",
+      "<br/>",
+      "With the stone and ore that you find, you'll need to use these to make the &&3Soulium Dagger&&r and &&3Soul Jars&&r. Using the dagger to kill mobs, you'll be able to gather their &&bsouls&&r, which are used in the Infusion Altar to create the respective mob seeds.",
+      "<br/>",
+      "Alternatively, you can fill Soul Jars inside of the &&3Soul Extractor&&r by inserting a jar and using mob items to fill them. For example, adding Rotten Flesh will give a portion of a Zombie Soul.",
+      "<hr/>",
+      "<reward reward=\"1EADD864A3D552F0\" quest=\"75560045ED084900\"/>",
+      "<reward reward=\"1ACB29D670B09D06\" quest=\"75560045ED084900\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -602,
+          74
+        ]
+      }
+    }
+  }
+}

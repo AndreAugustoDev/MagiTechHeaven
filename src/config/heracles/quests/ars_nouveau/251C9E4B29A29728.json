@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "6BEA84FA2F3A39AE": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_restoration"
+    }
+  },
+  "rewards": {
+    "40E53BCA971C8B77": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_restoration",
+    "description": [
+      "<task task=\"6BEA84FA2F3A39AE\" quest=\"251C9E4B29A29728\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"40E53BCA971C8B77\" quest=\"251C9E4B29A29728\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_restoration"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          256,
+          208
+        ]
+      }
+    }
+  }
+}

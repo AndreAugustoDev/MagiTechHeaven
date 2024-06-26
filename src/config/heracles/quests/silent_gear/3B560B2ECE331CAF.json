@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "7C3D763CF22D167A"
+  ],
+  "tasks": {
+    "68EF78DC95598D3B": {
+      "type": "heracles:item",
+      "item": "silentgear:tyrian_steel_block",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "78F9F7CA7518C4EB": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "5B4F394C75229DA8": {
+      "item": {
+        "id": "silentgear:starmetal_dust",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"68EF78DC95598D3B\" quest=\"3B560B2ECE331CAF\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.tier3SGCPC</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5B4F394C75229DA8\" quest=\"3B560B2ECE331CAF\"/>",
+      "<reward reward=\"78F9F7CA7518C4EB\" quest=\"3B560B2ECE331CAF\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          528,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:tyrian_steel_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.SG.tier3SGCPC"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

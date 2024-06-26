@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55E2F8C6A71E7328"
+  ],
+  "tasks": {
+    "744EA1745278F562": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_thermodynamic_conductor"
+    }
+  },
+  "rewards": {
+    "3589979E95DB7C1B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_thermodynamic_conductor",
+    "description": [
+      "<task task=\"744EA1745278F562\" quest=\"5E2F9E27E6B4DF74\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3589979E95DB7C1B\" quest=\"5E2F9E27E6B4DF74\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_thermodynamic_conductor"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          128,
+          160
+        ]
+      }
+    }
+  }
+}

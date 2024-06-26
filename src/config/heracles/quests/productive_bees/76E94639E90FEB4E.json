@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "4203F7ED807F3D30": {
+      "title": "Skeletal Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:skeletal"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7A6D1C4C8A908A18": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:skeletal"
+          }
+        }
+      }
+    },
+    "70F080D7463D7B92": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Skeletal Bee",
+    "description": [
+      "<h2>Spawned with empty Beehives in the Dark</h2>",
+      "<hr/>",
+      "<task task=\"4203F7ED807F3D30\" quest=\"76E94639E90FEB4E\"/>",
+      "<hr/>",
+      "Place some empty &&eAdvanced Beehives&&r in an unlit area. The bees will move in over time.",
+      "<hr/>",
+      "<reward reward=\"7A6D1C4C8A908A18\" quest=\"76E94639E90FEB4E\"/>",
+      "<reward reward=\"70F080D7463D7B92\" quest=\"76E94639E90FEB4E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:skeleton_skull"
+    },
+    "subtitle": {
+      "text": "Spawned with empty Beehives in the Dark"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          288,
+          112
+        ]
+      }
+    }
+  }
+}

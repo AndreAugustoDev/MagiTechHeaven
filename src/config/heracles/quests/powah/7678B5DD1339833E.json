@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "2B3E7BB9F4D228A7": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_starter"
+    }
+  },
+  "rewards": {
+    "65F43EC6BDE0870D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:solar_panel_starter",
+    "description": [
+      "<task task=\"2B3E7BB9F4D228A7\" quest=\"7678B5DD1339833E\"/>",
+      "<hr/>",
+      "The Solar Panel generates FE when given direct access to the sun. However, you can use a &&7Lens of Ender&&r to ignore blocks in its way.",
+      "<hr/>",
+      "<reward reward=\"65F43EC6BDE0870D\" quest=\"7678B5DD1339833E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          240,
+          368
+        ]
+      }
+    }
+  }
+}

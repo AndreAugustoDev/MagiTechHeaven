@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "51DE3157DE3E57B8"
+  ],
+  "tasks": {
+    "3E4BDC8D3B7F727C": {
+      "type": "heracles:item",
+      "item": "ae2:level_emitter"
+    }
+  },
+  "rewards": {
+    "2465F9C03BFFB3B8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.MElevel",
+    "description": [
+      "<task task=\"3E4BDC8D3B7F727C\" quest=\"3DDB0DDA7571B2C1\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.MElevel</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2465F9C03BFFB3B8\" quest=\"3DDB0DDA7571B2C1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:level_emitter"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          480,
+          -80
+        ]
+      }
+    }
+  }
+}

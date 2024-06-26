@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "795A2D642A7B7D50": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_gourmand"
+    }
+  },
+  "rewards": {
+    "557845C485F475BB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 4
+      }
+    },
+    "7C366B7A8CE82E4B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:dynamo_gourmand",
+    "description": [
+      "<h2>Generates Power using Food?</h2>",
+      "<hr/>",
+      "<task task=\"795A2D642A7B7D50\" quest=\"40ADAB71DB70EF32\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"557845C485F475BB\" quest=\"40ADAB71DB70EF32\"/>",
+      "<reward reward=\"7C366B7A8CE82E4B\" quest=\"40ADAB71DB70EF32\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_gourmand"
+    },
+    "subtitle": {
+      "text": "Generates Power using Food?"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          272,
+          0
+        ]
+      }
+    }
+  }
+}

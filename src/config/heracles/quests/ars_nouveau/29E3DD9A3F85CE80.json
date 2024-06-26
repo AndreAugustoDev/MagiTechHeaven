@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "72D77A51A69EDA71": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_decoy"
+    }
+  },
+  "rewards": {
+    "24B9ED813A6ACDB6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_summon_decoy",
+    "description": [
+      "<task task=\"72D77A51A69EDA71\" quest=\"29E3DD9A3F85CE80\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"24B9ED813A6ACDB6\" quest=\"29E3DD9A3F85CE80\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_decoy"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "698A959C9E449592"
+  ],
+  "tasks": {
+    "73F9C130378195B9": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2C46B4017AC5F3AE": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"73F9C130378195B9\" quest=\"4DE1158931F84F22\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.redstone</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2C46B4017AC5F3AE\" quest=\"4DE1158931F84F22\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          336,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.redstone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

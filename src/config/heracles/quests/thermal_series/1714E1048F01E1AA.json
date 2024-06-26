@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66858700C3DDCB9E"
+  ],
+  "tasks": {
+    "501A3B2548F6DB3E": {
+      "type": "heracles:item",
+      "item": "thermal:potion_duration_augment"
+    }
+  },
+  "rewards": {
+    "065A80C12CFDB394": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:potion_duration_augment",
+    "description": [
+      "<h2>Increases Duration of Potion Effect</h2>",
+      "<hr/>",
+      "<task task=\"501A3B2548F6DB3E\" quest=\"1714E1048F01E1AA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"065A80C12CFDB394\" quest=\"1714E1048F01E1AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:potion_duration_augment"
+    },
+    "subtitle": {
+      "text": "Increases Duration of Potion Effect"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -128,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "6826F3DB5C759EF2": {
+      "type": "heracles:item",
+      "item": "botania:heisei_dream"
+    }
+  },
+  "rewards": {
+    "7F7D3E99B055C3B1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:heisei_dream",
+    "description": [
+      "<task task=\"6826F3DB5C759EF2\" quest=\"18BD20B1D713FEBC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F7D3E99B055C3B1\" quest=\"18BD20B1D713FEBC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:heisei_dream"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -32,
+          144
+        ]
+      }
+    }
+  }
+}

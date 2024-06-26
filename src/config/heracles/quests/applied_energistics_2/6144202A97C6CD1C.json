@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "5C22E3103544B120"
+  ],
+  "tasks": {
+    "23D186249A999B8C": {
+      "type": "heracles:item",
+      "item": "#ae2:knife",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Quartz Cutting Knife"
+    },
+    "2B8EC37AF863F9A6": {
+      "type": "heracles:item",
+      "item": "ae2:cable_anchor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1FFAB0FE9A2D46F2": {
+      "type": "heracles:item",
+      "item": "ae2:name_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0BAC4AB615750E48": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.anchor"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.anchor</translate></h2>",
+      "<hr/>",
+      "<task task=\"23D186249A999B8C\" quest=\"6144202A97C6CD1C\"/>",
+      "<task task=\"2B8EC37AF863F9A6\" quest=\"6144202A97C6CD1C\"/>",
+      "<task task=\"1FFAB0FE9A2D46F2\" quest=\"6144202A97C6CD1C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.anchor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0BAC4AB615750E48\" quest=\"6144202A97C6CD1C\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          144,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:cable_anchor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.anchor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

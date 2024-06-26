@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "5E69BDE183E08FF3": {
+      "title": "Resource Gathering",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "600B88D837FD3BF2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E69BDE183E08FF3\" quest=\"46B515C90C13A72F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.resource_generation</translate></p>",
+      "<hr/>",
+      "<reward reward=\"600B88D837FD3BF2\" quest=\"46B515C90C13A72F\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          528
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.resource_generation"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

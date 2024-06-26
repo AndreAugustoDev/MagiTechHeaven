@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2FA6B8A1C8713DE0"
+  ],
+  "tasks": {
+    "7E1EA6614D3AD212": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nether_star_seeds"
+    }
+  },
+  "rewards": {
+    "42FB45F90EE1E82C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:nether_star_seeds",
+    "description": [
+      "<task task=\"7E1EA6614D3AD212\" quest=\"4A96A0456680837C\"/>",
+      "<hr/>",
+      "Requires a Crux (Next Quest)",
+      "<hr/>",
+      "<reward reward=\"42FB45F90EE1E82C\" quest=\"4A96A0456680837C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nether_star_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          176,
+          -144
+        ]
+      }
+    }
+  }
+}

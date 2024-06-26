@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "50A2D68A83A50F47"
+  ],
+  "tasks": {
+    "05993154671C0697": {
+      "type": "heracles:item",
+      "item": "botania:thor_ring"
+    }
+  },
+  "rewards": {
+    "3FBDEEEB45C98853": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:thor_ring",
+    "description": [
+      "<task task=\"05993154671C0697\" quest=\"4E7B1FF823C85AD6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3FBDEEEB45C98853\" quest=\"4E7B1FF823C85AD6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:thor_ring"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          928,
+          144
+        ]
+      }
+    }
+  }
+}

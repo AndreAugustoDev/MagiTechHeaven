@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D86B2E553503E53"
+  ],
+  "tasks": {
+    "7CB3845C4BCA9F0E": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:wixie_charm"
+    }
+  },
+  "rewards": {
+    "12374B641E9A7691": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:wixie_charm",
+    "description": [
+      "<task task=\"7CB3845C4BCA9F0E\" quest=\"34A173721735401B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"12374B641E9A7691\" quest=\"34A173721735401B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:wixie_charm"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          320,
+          -112
+        ]
+      }
+    }
+  }
+}

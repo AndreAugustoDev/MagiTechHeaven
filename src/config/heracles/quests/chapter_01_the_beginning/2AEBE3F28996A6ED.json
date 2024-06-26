@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "051E0C85E7B71CE0"
+  ],
+  "tasks": {},
+  "rewards": {
+    "668CE42B421B64D8": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C88F80D05E62AC7\" quest=\"2AEBE3F28996A6ED\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.iron_furnace</translate></p>",
+      "<hr/>",
+      "<reward reward=\"668CE42B421B64D8\" quest=\"2AEBE3F28996A6ED\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          176,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.iron_furnace"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

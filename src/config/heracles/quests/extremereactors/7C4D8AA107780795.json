@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "5914D015D8543875",
+    "501C6B7580453410",
+    "55DCA040C84DCEF3"
+  ],
+  "tasks": {
+    "52B5D97C5675BBA7": {
+      "type": "heracles:item",
+      "item": "bigreactors:reinforced_reactorfluidaccessport",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7B3F79DA7988E2AC": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"52B5D97C5675BBA7\" quest=\"7C4D8AA107780795\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.verderium_creation</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7B3F79DA7988E2AC\" quest=\"7C4D8AA107780795\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -128,
+          448
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:reinforced_reactorfluidaccessport",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.rossinite"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

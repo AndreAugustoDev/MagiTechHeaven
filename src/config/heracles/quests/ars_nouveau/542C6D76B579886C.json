@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "58EC47584C773B82"
+  ],
+  "tasks": {
+    "561CAB97C346BD65": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:magebloom_fiber"
+    }
+  },
+  "rewards": {
+    "18BF6731D11BADA5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:magebloom_fiber",
+        "count": 2
+      }
+    },
+    "3942C398C37DE6AA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:magebloom_fiber",
+    "description": [
+      "<task task=\"561CAB97C346BD65\" quest=\"542C6D76B579886C\"/>",
+      "<hr/>",
+      "When your Magebloom seeds.... bloom, you can use the Magebloom to create Fibers.",
+      "<br/>",
+      "These are used to craft several items, including your first set of magical armor!",
+      "<hr/>",
+      "<reward reward=\"18BF6731D11BADA5\" quest=\"542C6D76B579886C\"/>",
+      "<reward reward=\"3942C398C37DE6AA\" quest=\"542C6D76B579886C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          496,
+          0
+        ]
+      }
+    }
+  }
+}

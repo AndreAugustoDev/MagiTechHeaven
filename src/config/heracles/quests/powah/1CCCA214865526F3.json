@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7D7983F39E6E818D"
+  ],
+  "tasks": {
+    "2FE8500140D5D2E8": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_niotic"
+    }
+  },
+  "rewards": {
+    "375C89AC95AC1F3B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_cell_niotic",
+    "description": [
+      "<task task=\"2FE8500140D5D2E8\" quest=\"1CCCA214865526F3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"375C89AC95AC1F3B\" quest=\"1CCCA214865526F3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          496
+        ]
+      }
+    }
+  }
+}

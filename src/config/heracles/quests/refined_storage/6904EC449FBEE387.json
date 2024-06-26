@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "01F18150EC923482"
+  ],
+  "tasks": {
+    "1A2C2B95FDA9D2DA": {
+      "type": "heracles:item",
+      "item": "refinedstorage:cable",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3940AD01E5D76358": {
+      "item": {
+        "id": "refinedstorage:cable",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.cables"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.cables</translate></h2>",
+      "<hr/>",
+      "<task task=\"1A2C2B95FDA9D2DA\" quest=\"6904EC449FBEE387\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.cables</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3940AD01E5D76358\" quest=\"6904EC449FBEE387\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -192,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.cables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

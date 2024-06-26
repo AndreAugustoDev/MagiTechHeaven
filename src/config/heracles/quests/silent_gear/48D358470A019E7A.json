@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "7C3D763CF22D167A"
+  ],
+  "tasks": {
+    "2276AE38B913787C": {
+      "type": "heracles:item",
+      "item": "silentgear:blaze_gold_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "672ECAB1F0B4ACA5": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "11895ED684B965A5": {
+      "item": {
+        "id": "silentgear:blaze_gold_dust",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2276AE38B913787C\" quest=\"48D358470A019E7A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"11895ED684B965A5\" quest=\"48D358470A019E7A\"/>",
+      "<reward reward=\"672ECAB1F0B4ACA5\" quest=\"48D358470A019E7A\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          432,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:blaze_gold_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.SG.tier1SGC"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

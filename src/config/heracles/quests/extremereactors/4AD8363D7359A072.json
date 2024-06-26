@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "75AD0CEBC1335915"
+  ],
+  "tasks": {
+    "1C89B070388F3ADF": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorcontrolrod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2ADB404DAFBD7AC5": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorsolidaccessport",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "368FDD7ECB8C06CD": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorfuelrod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1D03F9FD56B01515": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorcontroller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6E7930A4B00563C9": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorpowertapfe_active",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "70D705C81989D87C": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorcasing",
+      "amount": 21,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3FEA5D1C2E8907D8": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.bigreactors.subt.our_first_reactor"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.our_first_reactor</translate></h2>",
+      "<hr/>",
+      "<task task=\"70D705C81989D87C\" quest=\"4AD8363D7359A072\"/>",
+      "<task task=\"1D03F9FD56B01515\" quest=\"4AD8363D7359A072\"/>",
+      "<task task=\"2ADB404DAFBD7AC5\" quest=\"4AD8363D7359A072\"/>",
+      "<task task=\"6E7930A4B00563C9\" quest=\"4AD8363D7359A072\"/>",
+      "<task task=\"1C89B070388F3ADF\" quest=\"4AD8363D7359A072\"/>",
+      "<task task=\"368FDD7ECB8C06CD\" quest=\"4AD8363D7359A072\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.first_reactor.casing</translate></p>",
+      "<p><translate>i18n.ui.page.next</translate></p>",
+      "<br/>",
+      "{@pagebreak}",
+      "<p><translate>i18n.quest.bigreactors.desc.first_reactor.controller</translate></p>",
+      "{@pagebreak}",
+      "<p><translate>i18n.quest.bigreactors.desc.first_reactor.look</translate></p>",
+      "{image:atm:textures/questpics/extremereactors/3x3sample.png width:150 height:150 align:1}",
+      "<hr/>",
+      "<reward reward=\"3FEA5D1C2E8907D8\" quest=\"4AD8363D7359A072\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -176,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.our_first_reactor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4F04DC4226148B47": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:inception_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "251C508792472ABB": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.inception"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.inception</translate></h2>",
+      "<hr/>",
+      "<task task=\"4F04DC4226148B47\" quest=\"7C07D6A33F7ADB02\"/>",
+      "<hr/>",
+      "So we got a backpack upgrade to put your backpack in your backpack.",
+      "<br/>",
+      "So you can have your backpack in your backpack when you need your backpack in your backpack.",
+      "<hr/>",
+      "<reward reward=\"251C508792472ABB\" quest=\"7C07D6A33F7ADB02\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -48,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:inception_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.inception"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "04E0C481BB6ABD87": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_pierce"
+    }
+  },
+  "rewards": {
+    "1243EAD7C7EF2671": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_pierce",
+    "description": [
+      "<task task=\"04E0C481BB6ABD87\" quest=\"290F943A1FF52070\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1243EAD7C7EF2671\" quest=\"290F943A1FF52070\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_pierce"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -368
+        ]
+      }
+    }
+  }
+}

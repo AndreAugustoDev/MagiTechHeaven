@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "4B9E9497E44D0096"
+  ],
+  "tasks": {
+    "14C67262D9F8A9A8": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorfuelrod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1FC2120A22A7BAEC": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorcontrolrod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "332E2A363D91F6E9": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "3165C37A9C6F4AA4": {
+      "item": {
+        "id": "bigreactors:basic_reactorcasing",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1FC2120A22A7BAEC\" quest=\"7B4AAC741F0A6073\"/>",
+      "<task task=\"14C67262D9F8A9A8\" quest=\"7B4AAC741F0A6073\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.gregtech.desc.reactor_control_rods</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3165C37A9C6F4AA4\" quest=\"7B4AAC741F0A6073\"/>",
+      "<reward reward=\"332E2A363D91F6E9\" quest=\"7B4AAC741F0A6073\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -192,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.reactor_control_rods"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

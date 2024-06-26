@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "30FE30A7FA067459": {
+      "title": "Brown Shroombee Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:brown_shroom"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "52ABD90406552164": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Brown Shroombee",
+    "description": [
+      "<h2>Feed a Shroombee a Brown Mushroom!</h2>",
+      "<hr/>",
+      "<task task=\"30FE30A7FA067459\" quest=\"01F7F3589EBD8872\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52ABD90406552164\" quest=\"01F7F3589EBD8872\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:brown_mushroom"
+    },
+    "subtitle": {
+      "text": "Feed a Shroombee a Brown Mushroom!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          368
+        ]
+      }
+    }
+  }
+}

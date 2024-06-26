@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "72BC6673FB44DBB2": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:creeper_seeds"
+    }
+  },
+  "rewards": {
+    "3CC7D35B9BCD4800": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:creeper_seeds",
+    "description": [
+      "<task task=\"72BC6673FB44DBB2\" quest=\"7ADE214373DE135F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3CC7D35B9BCD4800\" quest=\"7ADE214373DE135F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:creeper_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -288,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6E3B9051503B938C"
+  ],
+  "tasks": {
+    "0FCB0911BA208C40": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:dark_matter"
+    }
+  },
+  "rewards": {
+    "1B284389DED0B292": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:dark_matter",
+    "description": [
+      "<task task=\"0FCB0911BA208C40\" quest=\"310B54FB390982C5\"/>",
+      "<hr/>",
+      "Smelting &&9Edelwood&&r will give you Dark Matter.",
+      "<br/>",
+      "You can make Black Holes with this.",
+      "<hr/>",
+      "<reward reward=\"1B284389DED0B292\" quest=\"310B54FB390982C5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -272,
+          240
+        ]
+      }
+    }
+  }
+}

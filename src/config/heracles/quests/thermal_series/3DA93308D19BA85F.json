@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "4BEE939AC38768ED": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_stirling"
+    }
+  },
+  "rewards": {
+    "108A20AE0FED5D27": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:dynamo_stirling",
+    "description": [
+      "<h2>Generates Power by Burning Items!</h2>",
+      "<hr/>",
+      "<task task=\"4BEE939AC38768ED\" quest=\"3DA93308D19BA85F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"108A20AE0FED5D27\" quest=\"3DA93308D19BA85F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_stirling"
+    },
+    "subtitle": {
+      "text": "Generates Power by Burning Items!"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          240,
+          -32
+        ]
+      }
+    }
+  }
+}

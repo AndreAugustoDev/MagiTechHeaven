@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "195459EDA666625B": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:iron_seeds"
+    }
+  },
+  "rewards": {
+    "4AB006D5D57DAD29": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:iron_seeds",
+    "description": [
+      "<task task=\"195459EDA666625B\" quest=\"7A89560F303A8BE6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AB006D5D57DAD29\" quest=\"7A89560F303A8BE6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:iron_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -288,
+          -128
+        ]
+      }
+    }
+  }
+}

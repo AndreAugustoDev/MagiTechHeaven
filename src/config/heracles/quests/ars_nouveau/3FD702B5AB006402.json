@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "470AEF18D37A0535": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:belt_of_levitation"
+    }
+  },
+  "rewards": {
+    "41F8D938A9DDFA38": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:belt_of_levitation",
+    "description": [
+      "<task task=\"470AEF18D37A0535\" quest=\"3FD702B5AB006402\"/>",
+      "<hr/>",
+      "Have you ever wanted to just hover everywhere you go?",
+      "<br/>",
+      "This belt allows you to levitate. To activate, just sneak while in the air, either while falling or from jumping.",
+      "<hr/>",
+      "<reward reward=\"41F8D938A9DDFA38\" quest=\"3FD702B5AB006402\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:belt_of_levitation"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          352,
+          144
+        ]
+      }
+    }
+  }
+}

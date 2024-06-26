@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "7318E29D6291C991": {
+      "type": "heracles:item",
+      "item": "botania:fallen_kanade"
+    }
+  },
+  "rewards": {
+    "352D8C9B91ABE45F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:fallen_kanade",
+    "description": [
+      "<task task=\"7318E29D6291C991\" quest=\"1025A352CF7131FD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"352D8C9B91ABE45F\" quest=\"1025A352CF7131FD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:fallen_kanade"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          48
+        ]
+      }
+    }
+  }
+}

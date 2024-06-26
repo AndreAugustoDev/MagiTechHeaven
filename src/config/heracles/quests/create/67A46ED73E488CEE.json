@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "0CE491535E6FA50B": {
+      "type": "heracles:item",
+      "item": "create:gearshift"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:gearshift",
+    "description": [
+      "<task task=\"0CE491535E6FA50B\" quest=\"67A46ED73E488CEE\"/>",
+      "<hr/>",
+      "The &&n&&5Gearshift&&r will reverse the direction of rotation if a redstone signal is applied."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:gearshift"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          176,
+          144
+        ]
+      }
+    }
+  }
+}

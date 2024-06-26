@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5A8DE0C7D4F28E05"
+  ],
+  "tasks": {
+    "0BB591BF32031D66": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_spirited"
+    }
+  },
+  "rewards": {
+    "3CCEF8B4922C5AD9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_hopper_spirited",
+    "description": [
+      "<task task=\"0BB591BF32031D66\" quest=\"18B20F4F27F37197\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3CCEF8B4922C5AD9\" quest=\"18B20F4F27F37197\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          528
+        ]
+      }
+    }
+  }
+}

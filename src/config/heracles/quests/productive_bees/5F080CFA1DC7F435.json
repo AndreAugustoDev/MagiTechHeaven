@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "281AD60CC0AB054F": {
+      "type": "heracles:item",
+      "item": "productivebees:honeycomb_ghostly"
+    }
+  },
+  "rewards": {
+    "340488322E26DDE0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Ghostly Bee",
+    "description": [
+      "<h2>Spawned using a Soul Sand Nest in the Nether.</h2>",
+      "<hr/>",
+      "<task task=\"281AD60CC0AB054F\" quest=\"5F080CFA1DC7F435\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"340488322E26DDE0\" quest=\"5F080CFA1DC7F435\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_sand"
+    },
+    "subtitle": {
+      "text": "Spawned using a Soul Sand Nest in the Nether."
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -96,
+          528
+        ]
+      }
+    }
+  }
+}

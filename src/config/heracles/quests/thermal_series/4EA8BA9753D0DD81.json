@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "2720B59BB163F73B": {
+      "type": "heracles:item",
+      "item": "thermal:device_rock_gen"
+    }
+  },
+  "rewards": {
+    "600EF049B3363CCC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:device_rock_gen",
+    "description": [
+      "<h2>A Cobblestone Generator</h2>",
+      "<hr/>",
+      "<task task=\"2720B59BB163F73B\" quest=\"4EA8BA9753D0DD81\"/>",
+      "<hr/>",
+      "This machine can produce several types of stone.",
+      "<br/>",
+      "Place 1 lava source block on one side, and 1 water source block on the other, and it will generate cobblestone. Check the recipes to see the other kinds of stone you can create!",
+      "<hr/>",
+      "<reward reward=\"600EF049B3363CCC\" quest=\"4EA8BA9753D0DD81\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:device_rock_gen"
+    },
+    "subtitle": {
+      "text": "A Cobblestone Generator"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -144,
+          64
+        ]
+      }
+    }
+  }
+}

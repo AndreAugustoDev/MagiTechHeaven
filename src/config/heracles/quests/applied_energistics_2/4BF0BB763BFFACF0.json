@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "68B0B3DAF1145191"
+  ],
+  "tasks": {
+    "4498692EC5F9E09B": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_crystal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "0FC1380E32E02533": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "724ADD8BA4137929": {
+      "item": {
+        "id": "ae2:fluix_dust",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "34AA471D42A56F02": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0FC1380E32E02533\" quest=\"4BF0BB763BFFACF0\"/>",
+      "<task task=\"4498692EC5F9E09B\" quest=\"4BF0BB763BFFACF0\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.fluix</translate></p>",
+      "<hr/>",
+      "<reward reward=\"724ADD8BA4137929\" quest=\"4BF0BB763BFFACF0\"/>",
+      "<reward reward=\"34AA471D42A56F02\" quest=\"4BF0BB763BFFACF0\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.fluix"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

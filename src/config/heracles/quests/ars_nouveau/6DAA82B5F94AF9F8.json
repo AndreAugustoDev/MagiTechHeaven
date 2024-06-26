@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "78C9026D8627D7B7": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:jar_of_light"
+    },
+    "1ED244E1CC75D358": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:void_jar"
+    }
+  },
+  "rewards": {
+    "3B2C1E6EB58BA313": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"78C9026D8627D7B7\" quest=\"6DAA82B5F94AF9F8\"/>",
+      "<task task=\"1ED244E1CC75D358\" quest=\"6DAA82B5F94AF9F8\"/>",
+      "<hr/>",
+      "The &&9Jar of Light&&r summons a floating light source that follows you.",
+      "<br/>",
+      "The &&6Jar of Voiding&&r destroys items you pick up in exchange for mana. This can be filtered.",
+      "<br/>",
+      "To add or remove an item to be destroyed by the jar, use the jar with the item in your off hand, or use an item on the Scribe's Table with the jar placed on it.",
+      "<br/>",
+      "The jar must be on your hotbar to function.",
+      "<hr/>",
+      "<reward reward=\"3B2C1E6EB58BA313\" quest=\"6DAA82B5F94AF9F8\"/>"
+    ],
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          336,
+          160
+        ]
+      }
+    }
+  }
+}

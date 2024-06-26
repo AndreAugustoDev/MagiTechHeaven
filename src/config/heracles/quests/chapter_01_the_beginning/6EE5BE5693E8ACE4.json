@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "61C49BC2B384FB80"
+  ],
+  "tasks": {
+    "4E47E0E49057195E": {
+      "title": "&dTo The End&r",
+      "advancements": [
+        "minecraft:story/enter_the_end"
+      ],
+      "type": "heracles:advancement"
+    },
+    "3EC9DF0765694A7E": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2F96969419E7C767": {
+      "title": "&5The End&r",
+      "icon": {
+        "item": {
+          "id": "minecraft:dragon_head",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "minecraft:end/root"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "56A277BC5DE71CA9": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4E47E0E49057195E\" quest=\"6EE5BE5693E8ACE4\"/>",
+      "<task task=\"2F96969419E7C767\" quest=\"6EE5BE5693E8ACE4\"/>",
+      "<task task=\"3EC9DF0765694A7E\" quest=\"6EE5BE5693E8ACE4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.ender_dragon</translate></p>",
+      "<hr/>",
+      "<reward reward=\"56A277BC5DE71CA9\" quest=\"6EE5BE5693E8ACE4\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          608,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.ender_dragon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

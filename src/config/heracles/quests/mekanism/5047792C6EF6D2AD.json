@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B43DB1A6B0A7B44"
+  ],
+  "tasks": {
+    "1F6A5B58DF94730B": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "mekanism:substrate"
+    }
+  },
+  "rewards": {
+    "4501F6A232456167": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:substrate"
+      }
+    },
+    "1979E89900B74A27": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Substrates",
+    "description": [
+      "<task task=\"1F6A5B58DF94730B\" quest=\"5047792C6EF6D2AD\"/>",
+      "<hr/>",
+      "When Bio Fuel is combined with Water and Hydrogen in a &&aPressurized Reaction Chamber&&r it creates Substrates. It also creates Ethylene as a by-product.",
+      "<br/>",
+      "These are needed to create HDPE pellets, which are used for end-game crafts like the Meka-suit.",
+      "<hr/>",
+      "<reward reward=\"4501F6A232456167\" quest=\"5047792C6EF6D2AD\"/>",
+      "<reward reward=\"1979E89900B74A27\" quest=\"5047792C6EF6D2AD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:substrate"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          -128
+        ]
+      }
+    }
+  }
+}

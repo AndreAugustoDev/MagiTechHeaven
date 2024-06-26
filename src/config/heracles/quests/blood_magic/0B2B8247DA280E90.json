@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "375FF0D8ACD2E17F"
+  ],
+  "tasks": {
+    "41758E5DA17E2FDF": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altarcapacityrune"
+    }
+  },
+  "rewards": {
+    "7CF045B2A95086EB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:altarcapacityrune",
+    "description": [
+      "<task task=\"41758E5DA17E2FDF\" quest=\"0B2B8247DA280E90\"/>",
+      "<hr/>",
+      "This rune increases the total capacity of the Altar by 20% for each Capacity rune.",
+      "<hr/>",
+      "<reward reward=\"7CF045B2A95086EB\" quest=\"0B2B8247DA280E90\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altarcapacityrune"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -560,
+          -64
+        ]
+      }
+    }
+  }
+}

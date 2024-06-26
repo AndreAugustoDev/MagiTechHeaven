@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6EFFF0DC80C1C8A3",
+    "6E819CCD57B15D54"
+  ],
+  "tasks": {
+    "271BDC9E7B37BCB5": {
+      "title": "Unobtainium Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:unobtainium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "252172AFDCBF882B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:unobtainium"
+          }
+        }
+      }
+    },
+    "4E4DBE9FF2C1BBD0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Unobtainium Bee",
+    "description": [
+      "<h2>Allthemodium + Vibranium</h2>",
+      "<hr/>",
+      "<task task=\"271BDC9E7B37BCB5\" quest=\"2BE538246C672689\"/>",
+      "<hr/>",
+      "Once you have the Allthemodium and Vibranium Bees, breed them together to get an Unobtainium Bee.",
+      "<br/>",
+      "To breed: Feed the Allthemodium Bee 4 ingots of Vibranium, then feed the Vibranium Bee 4 ingots of Unobtainium.",
+      "<hr/>",
+      "<reward reward=\"252172AFDCBF882B\" quest=\"2BE538246C672689\"/>",
+      "<reward reward=\"4E4DBE9FF2C1BBD0\" quest=\"2BE538246C672689\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "allthemodium:raw_unobtainium"
+    },
+    "subtitle": {
+      "text": "Allthemodium + Vibranium"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          320,
+          176
+        ]
+      }
+    }
+  }
+}

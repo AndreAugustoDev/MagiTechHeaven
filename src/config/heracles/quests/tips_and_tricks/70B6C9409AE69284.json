@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "595B3FA9F32B712D": {
+      "type": "heracles:item",
+      "item": "naturescompass:naturescompass",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "554BFA90C78DEDD5": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.compass"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.compass</translate></h2>",
+      "<hr/>",
+      "<task task=\"595B3FA9F32B712D\" quest=\"70B6C9409AE69284\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.compass</translate></p>",
+      "<hr/>",
+      "<reward reward=\"554BFA90C78DEDD5\" quest=\"70B6C9409AE69284\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          32,
+          272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "naturescompass:naturescompass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.compass"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F1784E562C29B66",
+    "100ACB5C8A359BF0"
+  ],
+  "tasks": {
+    "4EF5B261BAD2AC7D": {
+      "title": "Diamond Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:diamond"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7A4D2E2C591FB3CD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:diamond"
+          }
+        }
+      }
+    },
+    "1EF8A565196DEB2C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Diamond Bee",
+    "description": [
+      "<h2>Ender + Lapis</h2>",
+      "<hr/>",
+      "<task task=\"4EF5B261BAD2AC7D\" quest=\"1D720AC88431BD70\"/>",
+      "<hr/>",
+      "Breed the Ender Bee with a Lapis Bee to create a Diamond Bee!",
+      "<hr/>",
+      "<reward reward=\"7A4D2E2C591FB3CD\" quest=\"1D720AC88431BD70\"/>",
+      "<reward reward=\"1EF8A565196DEB2C\" quest=\"1D720AC88431BD70\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond"
+    },
+    "subtitle": {
+      "text": "Ender + Lapis"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          256,
+          144
+        ]
+      }
+    }
+  }
+}

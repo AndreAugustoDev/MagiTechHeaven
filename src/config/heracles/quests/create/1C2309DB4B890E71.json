@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3F663416E824720C"
+  ],
+  "tasks": {
+    "6772D04457414991": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:spout",
+    "description": [
+      "<task task=\"6772D04457414991\" quest=\"1C2309DB4B890E71\"/>",
+      "<hr/>",
+      "The &&n&&5Spout&&r is used to fill items with liquid. It is best to use a Depot under it to hold the items."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          400,
+          0
+        ]
+      }
+    }
+  }
+}

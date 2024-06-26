@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "1F81EA5E45424308"
+  ],
+  "tasks": {
+    "3E843C44C9CD3ACC": {
+      "type": "heracles:item",
+      "item": "mekanism:quantum_entangloporter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "31A1DA2A1735B16F": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.QE"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.QE</translate></h2>",
+      "<hr/>",
+      "<task task=\"3E843C44C9CD3ACC\" quest=\"7FE969CB4B419FC6\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.QE</translate></p>",
+      "<hr/>",
+      "<reward reward=\"31A1DA2A1735B16F\" quest=\"7FE969CB4B419FC6\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -320,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanism:quantum_entangloporter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.QE"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

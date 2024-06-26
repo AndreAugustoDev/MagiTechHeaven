@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "33E3574096820D99"
+  ],
+  "tasks": {
+    "02C38FA962D8920F": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:dust_coke",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02C38FA962D8920F\" quest=\"323F39FC300F7E30\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.coke}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -368,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "immersiveengineering:dust_coke",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.coke"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "2BC129A5A112714B": {
+      "type": "heracles:item",
+      "item": "silentgear:fishing_rod_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "73AECD6F2CB1CA8B": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2BC129A5A112714B\" quest=\"462C1F75A2FB9F02\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"73AECD6F2CB1CA8B\" quest=\"462C1F75A2FB9F02\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -128,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:fishing_rod_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.fish"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

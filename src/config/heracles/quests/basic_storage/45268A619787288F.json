@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "2F9B0C642A6BE30C"
+  ],
+  "tasks": {
+    "040F32155AD31A4C": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:diamond_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1CD2A81868C15FC6": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "2E794D147447A3E2": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"040F32155AD31A4C\" quest=\"45268A619787288F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1CD2A81868C15FC6\" quest=\"45268A619787288F\"/>",
+      "<reward reward=\"2E794D147447A3E2\" quest=\"45268A619787288F\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -160,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:diamond_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.diamondBP"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

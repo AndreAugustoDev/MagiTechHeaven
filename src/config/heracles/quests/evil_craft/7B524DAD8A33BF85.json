@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40888A2C17D8FFF6"
+  ],
+  "tasks": {
+    "19AAADDD210A2AF9": {
+      "type": "heracles:item",
+      "item": "evilcraft:vein_sword",
+      "nbt": {
+        "Enchantments": [
+          {
+            "id": "minecraft:looting",
+            "lvl": 2
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "7131BA97015DC647": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:vein_sword",
+    "description": [
+      "<task task=\"19AAADDD210A2AF9\" quest=\"7B524DAD8A33BF85\"/>",
+      "<hr/>",
+      "Need more blood from your enemies? Of course you do!",
+      "<br/>",
+      "The &&dVein Sword&&r allows you to collect more blood, as well as more drops with Looting attached to it!",
+      "<hr/>",
+      "<reward reward=\"7131BA97015DC647\" quest=\"7B524DAD8A33BF85\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:vein_sword"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          80,
+          288
+        ]
+      }
+    }
+  }
+}

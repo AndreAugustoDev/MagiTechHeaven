@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "187A3F5B41D1C923",
+    "3AF4E5D4839CEF8B"
+  ],
+  "tasks": {
+    "73C5F4AC41EE5123": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_infuser"
+    }
+  },
+  "rewards": {
+    "1AA24CF536807D83": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§2Uranium Hexafluoride",
+    "description": [
+      "<task task=\"73C5F4AC41EE5123\" quest=\"3663E93E169EF8E3\"/>",
+      "<hr/>",
+      "Using another &&9Chemical Infuser&&r, we want to combine our &&bHydrofluoric Acid&&r with &&eUranium Oxide&&r to make &&2Uranium Hexafluoride&&r.",
+      "<hr/>",
+      "<reward reward=\"1AA24CF536807D83\" quest=\"3663E93E169EF8E3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_infuser"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          256,
+          80
+        ]
+      }
+    }
+  }
+}

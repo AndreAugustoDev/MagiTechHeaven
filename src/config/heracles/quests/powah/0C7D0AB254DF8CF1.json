@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6ED2F8A8DEED417D",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "3F7EBFC46DB90461": {
+      "type": "heracles:item",
+      "item": "powah:magmator_blazing"
+    }
+  },
+  "rewards": {
+    "2721ED866794D71C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:magmator_blazing",
+    "description": [
+      "<task task=\"3F7EBFC46DB90461\" quest=\"0C7D0AB254DF8CF1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2721ED866794D71C\" quest=\"0C7D0AB254DF8CF1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:magmator_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          112,
+          464
+        ]
+      }
+    }
+  }
+}

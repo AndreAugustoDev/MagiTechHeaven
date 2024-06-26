@@ -1,0 +1,46 @@
+{
+  "dependencies": [
+    "1DE0769EA393A72A"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"62063F358673A131\" quest=\"65A9D3648C7B01A4\"/>",
+      "<task task=\"15E3378E8DC7FD01\" quest=\"65A9D3648C7B01A4\"/>",
+      "<task task=\"0FED082529A46DAE\" quest=\"65A9D3648C7B01A4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.ritual}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.ritual"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A359C1F5E041C4F"
+  ],
+  "tasks": {
+    "6979609EF9040D79": {
+      "type": "heracles:item",
+      "item": "botania:mana_distributor"
+    },
+    "4EA054C6C0255900": {
+      "type": "heracles:item",
+      "item": "botania:spark"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Manipulating Mana Storage",
+    "description": [
+      "<task task=\"6979609EF9040D79\" quest=\"2CBBE8EF07B1D3DA\"/>",
+      "<task task=\"4EA054C6C0255900\" quest=\"2CBBE8EF07B1D3DA\"/>",
+      "<hr/>",
+      "The &&bMana Splitter&&r can be used as a way of splitting incoming Mana bursts into several Mana Pools at once.",
+      "<br/>",
+      "&&dSparks&&r are used to transfer Mana to specific blocks, which are needed for in the progression of Botania.",
+      "<br/>",
+      "To use a Spark, place one over a Mana Pool, then another over a nearby block that can accept it. Think of this like \"wirelessly\" transferring Mana from your Mana Pools to the desired nearby block.",
+      "<br/>",
+      "To remove a Spark, sneak-right click it with a &&2Wand of the Forest&&r."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          272,
+          16
+        ]
+      }
+    }
+  }
+}

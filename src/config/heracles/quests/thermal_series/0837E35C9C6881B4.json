@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "2F608F433D9A3363": {
+      "title": "Expanded RF Coil",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:rf_coil_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_augment_4"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_augment_5"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3990D47351D43E1C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Expanded RF Coil",
+    "description": [
+      "<h2>Increases RF Capacity and Transfer Rate</h2>",
+      "<hr/>",
+      "<task task=\"2F608F433D9A3363\" quest=\"0837E35C9C6881B4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3990D47351D43E1C\" quest=\"0837E35C9C6881B4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases RF Capacity and Transfer Rate"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          48,
+          102
+        ]
+      }
+    }
+  }
+}

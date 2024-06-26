@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "3861678346D376C1": {
+      "title": "Auxiliary Reaction Chamber",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:dynamo_output_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_output_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_output_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_output_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:dynamo_output_augment_4"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "4B8F25D9433225BF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Auxiliary Reaction Chamber",
+    "description": [
+      "<h2>Increases Generation Rate at the Cost of Efficiency</h2>",
+      "<hr/>",
+      "<task task=\"3861678346D376C1\" quest=\"7C83735C2D746162\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4B8F25D9433225BF\" quest=\"7C83735C2D746162\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases Generation Rate at the Cost of Efficiency"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          256,
+          64
+        ]
+      }
+    }
+  }
+}

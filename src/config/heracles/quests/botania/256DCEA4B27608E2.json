@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "5CEAA28BFDDFCC5F": {
+      "type": "heracles:item",
+      "item": "botania:exoflame"
+    }
+  },
+  "rewards": {
+    "4AD76BBE8D4AF6B3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:exoflame",
+    "description": [
+      "<task task=\"5CEAA28BFDDFCC5F\" quest=\"256DCEA4B27608E2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AD76BBE8D4AF6B3\" quest=\"256DCEA4B27608E2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:exoflame"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -32,
+          48
+        ]
+      }
+    }
+  }
+}

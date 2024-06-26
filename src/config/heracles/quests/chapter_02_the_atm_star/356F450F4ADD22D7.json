@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2435B6D970F48DF8"
+  ],
+  "tasks": {
+    "44CFFE38FD3BBED3": {
+      "type": "heracles:item",
+      "item": "occultism:stable_wormhole",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"44CFFE38FD3BBED3\" quest=\"356F450F4ADD22D7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -128,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "occultism:stable_wormhole",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.dimstorage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

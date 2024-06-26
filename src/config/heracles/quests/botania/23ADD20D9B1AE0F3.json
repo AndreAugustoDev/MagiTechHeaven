@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4E02DC8A474A4A2F"
+  ],
+  "tasks": {
+    "66BBC650D92AD2D0": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "botania:livingrock"
+    }
+  },
+  "rewards": {
+    "426D86B36BE8B608": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone",
+        "count": 4
+      }
+    },
+    "4D7BE00A8ADC513A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§7Livingrock",
+    "description": [
+      "<task task=\"66BBC650D92AD2D0\" quest=\"23ADD20D9B1AE0F3\"/>",
+      "<hr/>",
+      "Use a &&bPure Daisy&&r to convert Stone into Livingrock!",
+      "<hr/>",
+      "<reward reward=\"426D86B36BE8B608\" quest=\"23ADD20D9B1AE0F3\"/>",
+      "<reward reward=\"4D7BE00A8ADC513A\" quest=\"23ADD20D9B1AE0F3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:livingrock"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          224,
+          32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "20B495B4B8B95636"
+  ],
+  "tasks": {
+    "6B1B4574299B7E42": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_shovel"
+    },
+    "7AC6974CDDE401B1": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_pickaxe"
+    },
+    "1EC5573A12A3B7F7": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_axe"
+    },
+    "70CEF00CFA26E97A": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_hoe"
+    }
+  },
+  "rewards": {
+    "483938E5BF2FAFC7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "§1Draco Tools",
+    "description": [
+      "<h2>Dragon Tools</h2>",
+      "<hr/>",
+      "<task task=\"6B1B4574299B7E42\" quest=\"33F44B87C5496158\"/>",
+      "<task task=\"7AC6974CDDE401B1\" quest=\"33F44B87C5496158\"/>",
+      "<task task=\"1EC5573A12A3B7F7\" quest=\"33F44B87C5496158\"/>",
+      "<task task=\"70CEF00CFA26E97A\" quest=\"33F44B87C5496158\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"483938E5BF2FAFC7\" quest=\"33F44B87C5496158\"/>"
+    ],
+    "subtitle": {
+      "text": "Dragon Tools"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          64,
+          272
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "74B0308336F5E017"
+  ],
+  "tasks": {
+    "685A188F7C39BE43": {
+      "type": "heracles:item",
+      "item": "evilcraft:colossal_blood_chest",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 10000
+      }
+    },
+    "0B3D5A92B01017A5": {
+      "type": "heracles:item",
+      "amount": 25,
+      "item": "evilcraft:reinforced_undead_planks"
+    }
+  },
+  "rewards": {
+    "2F653206D21841F4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aColossal Repairs§r",
+    "description": [
+      "<h2>Papa Blood Chest</h2>",
+      "<hr/>",
+      "<task task=\"685A188F7C39BE43\" quest=\"0104C2E2E30B966B\"/>",
+      "<task task=\"0B3D5A92B01017A5\" quest=\"0104C2E2E30B966B\"/>",
+      "<hr/>",
+      "Is the &&cBlood Chest&&r not working fast enough? Do you have too many items that need to be repaired? You can make a &&cColossal Blood Chest&&r to solve these problems.",
+      "<br/>",
+      "To build one, you need to make 25 &&9Reinforced Undead Planks&&r. Using these, you want to make a 3x3x3 hollow cube, then place a &&cColossal Blood Chest&&r block to close off the multiblock structure. If done right, you'll have a massive &&cBlood Chest&&r you can now use. Some might call is colossal.",
+      "<br/>",
+      "This also allows you to upgrade it using &&6Promises&&r.",
+      "<br/>",
+      "<br/>",
+      "{image:atm:textures/questpics/evilcraft/bloodchest.png width:250 height:200 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2F653206D21841F4\" quest=\"0104C2E2E30B966B\"/>"
+    ],
+    "subtitle": {
+      "text": "Papa Blood Chest"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          0,
+          208
+        ]
+      }
+    }
+  }
+}

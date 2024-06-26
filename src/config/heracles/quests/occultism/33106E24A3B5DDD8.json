@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "686AEC3EF1140D15"
+  ],
+  "tasks": {
+    "2C341B16967645C9": {
+      "type": "heracles:item",
+      "item": "occultism:iesnium_ore"
+    }
+  },
+  "rewards": {
+    "5D7A367FA795C5B3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§cIesnium: Ore of the Otherworld§r",
+    "description": [
+      "<task task=\"2C341B16967645C9\" quest=\"33106E24A3B5DDD8\"/>",
+      "<hr/>",
+      "The next step in your journey will be to find &&eIesnium Ore&&r in the Nether.",
+      "<br/>",
+      "Without the effects of the &&3Third Eye&&r, this will look just like Netherrack. Make sure to have your &&dOtherworld Goggles&&r equipped!",
+      "<br/>",
+      "To locate the ore, try using a &&aDivination Rod&&r. You'll need to attune it to Netherrack first, then hold down right click to use it. After a few seconds, you will see a particle shoot out in the direction of the nearest Iesnium Ore. You can only mine the ore using the &&dInfused Pickaxe&&r!",
+      "<br/>",
+      "Since you can't break this ore down into double the dusts using the standard methods, try using your Foliot Crusher to double your ingots per raw ore!",
+      "<br/>",
+      "Note: If you don't see the particle, make sure your particle settings are turned on!",
+      "<br/>",
+      "{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5D7A367FA795C5B3\" quest=\"33106E24A3B5DDD8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:iesnium_ore"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          352,
+          352
+        ]
+      }
+    }
+  }
+}

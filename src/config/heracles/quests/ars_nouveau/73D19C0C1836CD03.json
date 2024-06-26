@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "05AD66530B699FA0": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_crush"
+    }
+  },
+  "rewards": {
+    "76E52105DFA1D72B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_crush",
+    "description": [
+      "<task task=\"05AD66530B699FA0\" quest=\"73D19C0C1836CD03\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76E52105DFA1D72B\" quest=\"73D19C0C1836CD03\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_crush"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -208
+        ]
+      }
+    }
+  }
+}

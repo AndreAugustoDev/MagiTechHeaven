@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "65238A6DCDDDFA0D"
+  ],
+  "tasks": {
+    "70E6334F11A6C4C8": {
+      "type": "heracles:item",
+      "amount": 5,
+      "item": "botania:livingrock"
+    },
+    "6DE2A53806A697FF": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "minecraft:lapis_block"
+    },
+    "1DFC017C335D814E": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_ingot"
+    }
+  },
+  "rewards": {
+    "5F4FB5C3386BFBE9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§aCreating§r §dTerrasteel§r",
+    "description": [
+      "<task task=\"70E6334F11A6C4C8\" quest=\"23A2865FBE7831AB\"/>",
+      "<task task=\"6DE2A53806A697FF\" quest=\"23A2865FBE7831AB\"/>",
+      "<task task=\"1DFC017C335D814E\" quest=\"23A2865FBE7831AB\"/>",
+      "<hr/>",
+      "Now it's time to create our platform for the &&9T.A. Plate&&r so we can make &&aTerrasteel&&r!",
+      "<br/>",
+      "To create the platform, you'll need to place 5 pieces of Livingrock and 4 Blocks of Lapis in a checkerboard pattern, like in the image below. Place the plate on the center Livingrock block, and the platform will be complete!",
+      "<br/>",
+      "Terrasteel needs a lot of Mana to craft, requiring the use of &&9Sparks&&r. Place several Sparks over your Mana Pools, then one over the T.A. Plate to direct your mana for crafting.",
+      "<br/>",
+      "Once you have the platform ready for crafting, toss one Manasteel Ingot, Mana Diamond, and a Mana Pearl on the plate to start crafting Terrasteel.",
+      "<br/>",
+      "{image:atm:textures/questpics/botania/t_a_plate_base.png width:200 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5F4FB5C3386BFBE9\" quest=\"23A2865FBE7831AB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_ingot"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          528,
+          80
+        ]
+      }
+    }
+  }
+}

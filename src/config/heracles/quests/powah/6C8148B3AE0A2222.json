@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7890A1478121D2CD",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "11F169284433B9B7": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_hardened"
+    }
+  },
+  "rewards": {
+    "02E45FFD4554B630": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:solar_panel_hardened",
+    "description": [
+      "<task task=\"11F169284433B9B7\" quest=\"6C8148B3AE0A2222\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"02E45FFD4554B630\" quest=\"6C8148B3AE0A2222\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          240,
+          432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "7EFB9500BBDD745C": {
+      "type": "heracles:item",
+      "item": "create:depot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:depot",
+    "description": [
+      "<task task=\"7EFB9500BBDD745C\" quest=\"7F0D59EC1573FDC0\"/>",
+      "<hr/>",
+      "The &&n&&5Depot&&r is used to store items, mainly for the Spout."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:depot"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          176,
+          -32
+        ]
+      }
+    }
+  }
+}

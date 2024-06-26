@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C4B1602E2AFC314"
+  ],
+  "tasks": {
+    "5FD0078940E64A4C": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_chemical_tank"
+    }
+  },
+  "rewards": {
+    "77A4A2D6E72F8CE5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_chemical_tank",
+    "description": [
+      "<task task=\"5FD0078940E64A4C\" quest=\"0C0D0B80B3FA26F2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"77A4A2D6E72F8CE5\" quest=\"0C0D0B80B3FA26F2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          250
+        ]
+      }
+    }
+  }
+}

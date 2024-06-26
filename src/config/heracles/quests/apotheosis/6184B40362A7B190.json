@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "7C3968AF39557751"
+  ],
+  "tasks": {
+    "0756DD96D4A479FD": {
+      "type": "heracles:item",
+      "item": "minecraft:bamboo",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "01F155EEAC1A8404": {
+      "type": "heracles:item",
+      "item": "minecraft:sugar_cane",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3FE68BCA484CF4BB": {
+      "type": "heracles:item",
+      "item": "minecraft:cactus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "26405F74A6300E73": {
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"01F155EEAC1A8404\" quest=\"6184B40362A7B190\"/>",
+      "<task task=\"3FE68BCA484CF4BB\" quest=\"6184B40362A7B190\"/>",
+      "<task task=\"0756DD96D4A479FD\" quest=\"6184B40362A7B190\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.cactus</translate></p>",
+      "<hr/>",
+      "<reward reward=\"26405F74A6300E73\" quest=\"6184B40362A7B190\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          -80,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.cactus"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

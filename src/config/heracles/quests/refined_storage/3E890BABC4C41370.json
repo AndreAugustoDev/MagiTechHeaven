@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "01F18150EC923482"
+  ],
+  "tasks": {
+    "2E028480454ECBB5": {
+      "type": "heracles:item",
+      "item": "refinedstorage:network_transmitter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1CB0AFE99559C1B5": {
+      "type": "heracles:item",
+      "item": "refinedstorage:network_receiver",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7D644616E6416286": {
+      "item": {
+        "id": "refinedstorage:network_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.grid"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.grid</translate></h2>",
+      "<hr/>",
+      "<task task=\"2E028480454ECBB5\" quest=\"3E890BABC4C41370\"/>",
+      "<task task=\"1CB0AFE99559C1B5\" quest=\"3E890BABC4C41370\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.grid</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7D644616E6416286\" quest=\"3E890BABC4C41370\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -192,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.grid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

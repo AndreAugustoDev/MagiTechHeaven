@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "0C4C662FE28C30A5": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:zinc_seeds"
+    }
+  },
+  "rewards": {
+    "0B65996DBBE92C9B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:zinc_seeds",
+    "description": [
+      "<task task=\"0C4C662FE28C30A5\" quest=\"0A8F44B9B3C8FC0F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B65996DBBE92C9B\" quest=\"0A8F44B9B3C8FC0F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:zinc_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -288,
+          -160
+        ]
+      }
+    }
+  }
+}

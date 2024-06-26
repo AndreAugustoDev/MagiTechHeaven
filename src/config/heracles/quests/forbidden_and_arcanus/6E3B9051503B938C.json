@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "1F25B174EB5B4B9C": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:edelwood_stick"
+    },
+    "1BC05313036D72FD": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:edelwood_log"
+    }
+  },
+  "rewards": {
+    "342ACC27FDCA76C0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Edelwood Trees",
+    "description": [
+      "<task task=\"1F25B174EB5B4B9C\" quest=\"6E3B9051503B938C\"/>",
+      "<task task=\"1BC05313036D72FD\" quest=\"6E3B9051503B938C\"/>",
+      "<hr/>",
+      "Found within the Dark Forest biome, the Edelwood Tree looks like a small tree that has been chopped in half.",
+      "<br/>",
+      "You'll need to break the branches off and collect the logs, as these are used for crafting various items within the mod.",
+      "<hr/>",
+      "<reward reward=\"342ACC27FDCA76C0\" quest=\"6E3B9051503B938C\"/>"
+    ],
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -288,
+          208
+        ]
+      }
+    }
+  }
+}

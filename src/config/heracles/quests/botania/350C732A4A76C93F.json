@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "2A82329EFC75B3CB": {
+      "type": "heracles:item",
+      "item": "botania:narslimmus"
+    }
+  },
+  "rewards": {
+    "7CBE0D6B85E4C698": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:narslimmus",
+    "description": [
+      "<task task=\"2A82329EFC75B3CB\" quest=\"350C732A4A76C93F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7CBE0D6B85E4C698\" quest=\"350C732A4A76C93F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:narslimmus"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          240
+        ]
+      }
+    }
+  }
+}

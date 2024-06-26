@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "4E6AF23CA82F1C32": {
+      "type": "heracles:item",
+      "item": "botania:white_mystical_flower"
+    }
+  },
+  "rewards": {
+    "63281A9275BE311F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:white_mystical_flower",
+    "description": [
+      "<task task=\"4E6AF23CA82F1C32\" quest=\"586AF33A5298B77D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"63281A9275BE311F\" quest=\"586AF33A5298B77D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:white_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          160,
+          -128
+        ]
+      }
+    }
+  }
+}

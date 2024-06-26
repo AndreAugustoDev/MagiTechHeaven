@@ -1,0 +1,13 @@
+name = "Dynamic FPS"
+filename = "dynamic-fps-3.5.0+minecraft-1.20.0-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LQ3K71Q1/versions/5fk6vDb1/dynamic-fps-3.5.0%2Bminecraft-1.20.0-forge.jar"
+hash-format = "sha1"
+hash = "eff8081d038de99508849721531049e207ccb567"
+
+[update]
+[update.modrinth]
+mod-id = "LQ3K71Q1"
+version = "5fk6vDb1"

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16A6C47E35F3B9D0"
+  ],
+  "tasks": {
+    "45EC7D8BA0CCFB07": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "mekanism:radioactive_waste_barrel"
+    }
+  },
+  "rewards": {
+    "1EEAAB174D95E4B6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Dealing with §8Nuclear Waste§r",
+    "description": [
+      "<task task=\"45EC7D8BA0CCFB07\" quest=\"3FFF9018DA2A2763\"/>",
+      "<hr/>",
+      "Once we start burning up Fissile Fuel in the reactor, we'll get heated &&bCoolant&&r and &&8Nuclear Waste&&r.",
+      "<br/>",
+      "This is where the Radiation kicks in. As long as it stays &&osafely in some container or machine&&r, you won't have any spills....right?",
+      "<br/>",
+      "The best way to store any Radioactive substance is using a &&2Radioactive Waste Barrel&&r. These will safely store the waste, while slowly decaying the gas without causing a Radiation spill. You don't want your Nuclear Waste sitting in your Reactor as it causes it to produce more heat, so set a port to &&aoutput Waste&&r and ship it to a barrel!",
+      "<br/>",
+      "&&9Important Note&&r: Breaking &&nany&&r machine, barrel, pipe, or &&oanything&&r that has a Radioactive gas inside of it &&cwill cause a Radiation leak&&r. That includes the products of Nuclear Waste, like Polonium or Plutonium.",
+      "<hr/>",
+      "<reward reward=\"1EEAAB174D95E4B6\" quest=\"3FFF9018DA2A2763\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:radioactive_waste_barrel"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          304,
+          16
+        ]
+      }
+    }
+  }
+}

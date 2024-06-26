@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "22752792321F5533": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:silver_seeds"
+    }
+  },
+  "rewards": {
+    "70DBE4B9483C3D8B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:silver_seeds",
+    "description": [
+      "<task task=\"22752792321F5533\" quest=\"6950FC974624C6AA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"70DBE4B9483C3D8B\" quest=\"6950FC974624C6AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:silver_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -304,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"4A123A454CDD7120\" quest=\"25D4406CB86C8CBB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.fluidizer</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0A9859E493DA20A2\" quest=\"25D4406CB86C8CBB\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -128,
+          304
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:fluidizercontroller",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bigreactors.fluidizer"
+  },
+  "rewards": {
+    "0A9859E493DA20A2": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "4A123A454CDD7120": {
+      "item": "bigreactors:fluidizercontroller",
+      "type": "heracles:item"
+    }
+  }
+}

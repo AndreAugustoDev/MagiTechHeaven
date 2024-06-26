@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6E3B9051503B938C"
+  ],
+  "tasks": {
+    "1BD725A50F90B32C": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:edelwood_bucket"
+    }
+  },
+  "rewards": {
+    "0E316F795B1547B4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:edelwood_bucket",
+    "description": [
+      "<task task=\"1BD725A50F90B32C\" quest=\"0AFC5B1AF055811A\"/>",
+      "<hr/>",
+      "The &&2Edelwood Bucket&&r can store more than one bucket of liquid, and can also be used to capture small animals like chickens or squids.",
+      "<br/>",
+      "You'll need the Permafrost enchant to use it to carry Lava.",
+      "<hr/>",
+      "<reward reward=\"0E316F795B1547B4\" quest=\"0AFC5B1AF055811A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:edelwood_bucket"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -304,
+          240
+        ]
+      }
+    }
+  }
+}

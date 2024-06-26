@@ -1,0 +1,57 @@
+{
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.subt.chimera</translate></h2>",
+      "<hr/>",
+      "<task task=\"452B65E139D9E12D\" quest=\"56DA46DC82F6665D\"/>",
+      "<hr/>",
+      "<reward reward=\"4DFA285786102C2B\" quest=\"56DA46DC82F6665D\"/>",
+      "<reward reward=\"20AEE2C8F4472343\" quest=\"56DA46DC82F6665D\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          146,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": "ars_nouveau:wilden_tribute",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.bounty.subt.chimera"
+    },
+    "title": "i18n.quest.bounty.chimera"
+  },
+  "rewards": {
+    "20AEE2C8F4472343": {
+      "amount": 1000,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "4DFA285786102C2B": {
+      "item": {
+        "count": 10,
+        "id": "ars_nouveau:wilden_spike"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "452B65E139D9E12D": {
+      "amount": 1,
+      "entity": {
+        "type": "ars_nouveau:wilden_boss"
+      },
+      "icon": {
+        "item": "ars_nouveau:wilden_tribute",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.chimera",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

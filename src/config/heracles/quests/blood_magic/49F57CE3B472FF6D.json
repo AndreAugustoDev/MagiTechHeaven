@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4B51189C36B8D291"
+  ],
+  "tasks": {
+    "3EF20FD3AC7ED48B": {
+      "type": "heracles:item",
+      "item": "bloodmagic:speedrune"
+    }
+  },
+  "rewards": {
+    "422BF2738AC9D3D3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Altering the Altar",
+    "description": [
+      "<task task=\"3EF20FD3AC7ED48B\" quest=\"49F57CE3B472FF6D\"/>",
+      "<hr/>",
+      "There are several Rune types that can change how an Altar functions.",
+      "<br/>",
+      "For example, Speed Runes increase the speed of all crafting operations within the Altar by 20% per rune.",
+      "<br/>",
+      "This is the first rune you can use to upgrade your Altar.",
+      "<hr/>",
+      "<reward reward=\"422BF2738AC9D3D3\" quest=\"49F57CE3B472FF6D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:speedrune"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -768,
+          16
+        ]
+      }
+    }
+  }
+}

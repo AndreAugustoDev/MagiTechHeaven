@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "2EA19C4E46380CDA": {
+      "title": "RuBee Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:ruby"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "240612DCF75988AC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "RuBee",
+    "description": [
+      "<h2>Feed a Diamond Bee a Ruby!</h2>",
+      "<hr/>",
+      "<task task=\"2EA19C4E46380CDA\" quest=\"35E8F1CC0080E45E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"240612DCF75988AC\" quest=\"35E8F1CC0080E45E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:ruby"
+    },
+    "subtitle": {
+      "text": "Feed a Diamond Bee a Ruby!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          432
+        ]
+      }
+    }
+  }
+}

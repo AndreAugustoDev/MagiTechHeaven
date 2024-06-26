@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6D3C243268479EE9": {
+      "title": "i18n.quest.power.moving",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5C863FCC138617D2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6D3C243268479EE9\" quest=\"1F81EA5E45424308\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.moving</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5C863FCC138617D2\" quest=\"1F81EA5E45424308\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -288,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanism:energy_tablet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.moving"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

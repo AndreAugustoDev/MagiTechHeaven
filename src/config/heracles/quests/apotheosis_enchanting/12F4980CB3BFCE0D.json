@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "218803812A9C332B"
+  ],
+  "tasks": {},
+  "rewards": {
+    "0F9B9AC5B4AB3949": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"125517255CFAF0EE\" quest=\"12F4980CB3BFCE0D\"/>",
+      "<task task=\"448DFB347B07F8C6\" quest=\"12F4980CB3BFCE0D\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.sight</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0F9B9AC5B4AB3949\" quest=\"12F4980CB3BFCE0D\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          128,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.sight"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "dependencies": [
+    "698A959C9E449592"
+  ],
+  "tasks": {
+    "629F4296DDD32604": {
+      "type": "heracles:item",
+      "item": "silentgear:pickaxe",
+      "nbt": {
+        "SGear_UUID": [
+          2053226576,
+          840254061,
+          -1565882294,
+          1308565543
+        ],
+        "SGear_Data": {
+          "Construction": {
+            "Parts": [
+              {
+                "Item": {
+                  "Count": 1,
+                  "id": "silentgear:pickaxe_head",
+                  "tag": {
+                    "Materials": [
+                      {
+                        "ID": "silentgear:iron"
+                      }
+                    ],
+                    "Damage": 0
+                  }
+                },
+                "ID": "silentgear:pickaxe_head"
+              },
+              {
+                "Item": {
+                  "Count": 1,
+                  "id": "silentgear:rod",
+                  "tag": {
+                    "Materials": [
+                      {
+                        "ID": "silentgear:wood"
+                      }
+                    ]
+                  }
+                },
+                "ID": "silentgear:rod"
+              }
+            ]
+          },
+          "Rendering": {
+            "ModelKey": "pickaxe:pickaxe_head{iron},rod{wood},",
+            "Model": 3
+          },
+          "Properties": {
+            "ModVersion": "3.5.0",
+            "Stats": {
+              "silentgear:charging_value": 0.7,
+              "silentgear:enchantment_value": 14,
+              "silentgear:harvest_speed": 6,
+              "silentgear:attack_reach": 3,
+              "silentgear:harvest_level": 2,
+              "silentgear:durability": 250,
+              "silentgear:magic_damage": 1,
+              "silentgear:melee_damage": 3,
+              "silentgear:attack_speed": -2.8,
+              "silentgear:rarity": 20,
+              "silentgear:repair_efficiency": 1
+            },
+            "LockStats": 0,
+            "Traits": [
+              {
+                "Level": 3,
+                "Name": "silentgear:malleable"
+              },
+              {
+                "Level": 1,
+                "Name": "silentgear:magnetic"
+              },
+              {
+                "Level": 2,
+                "Name": "silentgear:flexible"
+              }
+            ]
+          }
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2C52336368ACAE77": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"629F4296DDD32604\" quest=\"680F2CB6905F08AD\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.silent_gear</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2C52336368ACAE77\" quest=\"680F2CB6905F08AD\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          256,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:pickaxe",
+        "count": 1,
+        "nbt": {
+          "SGear_Data": {
+            "Properties": {}
+          },
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.silent_gear"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

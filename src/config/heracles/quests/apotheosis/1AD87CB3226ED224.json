@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "39702880D9133E3E": {
+      "type": "heracles:item",
+      "item": "#minecraft:wool",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #minecraft:wool"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39702880D9133E3E\" quest=\"1AD87CB3226ED224\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.wool}"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          96,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.wool"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

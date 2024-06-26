@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "4745152F6FF242B3"
+  ],
+  "tasks": {
+    "0577F2FA32B65E00": {
+      "type": "heracles:item",
+      "item": "bigreactors:reprocessorcasing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "601D8AF8D45F9818": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0577F2FA32B65E00\" quest=\"354086C858E10154\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.dealing_with_waste</translate></p>",
+      "<hr/>",
+      "<reward reward=\"601D8AF8D45F9818\" quest=\"354086C858E10154\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:reprocessorcasing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.reprocessing_waste"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

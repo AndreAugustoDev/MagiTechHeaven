@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2D41B04C75FA02BC"
+  ],
+  "tasks": {
+    "057EDA1FF37AE35E": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:mechanical_mixer",
+    "description": [
+      "<task task=\"057EDA1FF37AE35E\" quest=\"5DC892BA79EB52EC\"/>",
+      "<hr/>",
+      "The &&n&&5Mixer&&r can be used combined with the Basin to craft."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          320,
+          48
+        ]
+      }
+    }
+  }
+}

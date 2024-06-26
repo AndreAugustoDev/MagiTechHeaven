@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "64D0E66CB4FBEC82"
+  ],
+  "tasks": {
+    "1B916AE67F84E6D7": {
+      "title": "Creating Your First Spell",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7874ECF0E643907B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Creating Your First Spell",
+    "description": [
+      "<task task=\"1B916AE67F84E6D7\" quest=\"5CFBA24B3E0CDEDD\"/>",
+      "<hr/>",
+      "While holding your Spellbook, you can press C to open up the spell creation page.",
+      "<br/>",
+      "Each spell must have a form. You start off with 3 basic forms: Projectile, Self-cast, and Touch.",
+      "<br/>",
+      "For the Effect, this determines what happens when you cast the spell. You can have up to 9 effects per spell.",
+      "<br/>",
+      "For starters, you have Harm and Break.",
+      "<br/>",
+      "Select one Form and one Effect, name your spell, and click create!",
+      "<br/>",
+      "{image:atm:textures/questpics/ars/spellbook.png width:200 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7874ECF0E643907B\" quest=\"5CFBA24B3E0CDEDD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:spell_parchment"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -144,
+          -48
+        ]
+      }
+    }
+  }
+}

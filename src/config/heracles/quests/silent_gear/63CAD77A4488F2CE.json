@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "05E69F9C3D0DC0DD": {
+      "type": "heracles:item",
+      "item": "silentgear:paxel_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "69B3A90EBE7C08A0": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.paxel"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.paxel</translate></h2>",
+      "<hr/>",
+      "<task task=\"05E69F9C3D0DC0DD\" quest=\"63CAD77A4488F2CE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"69B3A90EBE7C08A0\" quest=\"63CAD77A4488F2CE\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -96,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:paxel_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.paxel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

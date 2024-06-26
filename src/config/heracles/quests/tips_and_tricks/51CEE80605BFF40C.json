@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {
+    "655D747AB2AECCF2": {
+      "title": "Mahou Tsukai",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "2E8A795741E4854D": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.mahou"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.mahou</translate></h2>",
+      "<hr/>",
+      "<task task=\"655D747AB2AECCF2\" quest=\"51CEE80605BFF40C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.mahou</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2E8A795741E4854D\" quest=\"51CEE80605BFF40C\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          160,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.mahou"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

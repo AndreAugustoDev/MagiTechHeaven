@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DA7D0BA045CE7AB"
+  ],
+  "tasks": {
+    "65E0BEE90716B68C": {
+      "type": "heracles:item",
+      "item": "bloodmagic:weakbloodorb"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Portable Blood Storage",
+    "description": [
+      "<h2>Holds a max of 5k LP</h2>",
+      "<hr/>",
+      "<task task=\"65E0BEE90716B68C\" quest=\"5BF29A151A04FEF0\"/>",
+      "<hr/>",
+      "The &&9Weak Blood Orb&&r is used to store blood (or LP). It can be used as a way to transport blood to and from Altars. It also is used in several crafting recipes.",
+      "<br/>",
+      "To craft this, you'll need to place a diamond on top of the Blood Altar, then generate enough LP to craft it.",
+      "<br/>",
+      "To charge a Blood Orb, you can right-click to sacrifice some of your health to the Orb. This also links your Soul to your Soul Network. :)",
+      "<br/>",
+      "You can also place the Orb in a Blood Altar that has some LP in it. It'll drain faster the more Speed Runes it has."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:weakbloodorb"
+    },
+    "subtitle": {
+      "text": "Holds a max of 5k LP"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -912,
+          -80
+        ]
+      }
+    }
+  }
+}

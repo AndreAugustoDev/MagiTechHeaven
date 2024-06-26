@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "486CF16F4F5C860E": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_launch"
+    }
+  },
+  "rewards": {
+    "1345D7C50ED45695": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_launch",
+    "description": [
+      "<task task=\"486CF16F4F5C860E\" quest=\"7862778F8424419B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1345D7C50ED45695\" quest=\"7862778F8424419B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_launch"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -240
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "33682F4B44950123"
+  ],
+  "tasks": {
+    "5ADEEEE0C217B20F": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:scribes_table"
+    }
+  },
+  "rewards": {
+    "4E42BB4E02799D87": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:scribes_table",
+    "description": [
+      "<h2>Upgrading Spells</h2>",
+      "<hr/>",
+      "<task task=\"5ADEEEE0C217B20F\" quest=\"3D4D88B8BE881351\"/>",
+      "<hr/>",
+      "If you want to cast better spells, you'll need a &&6Scribe's Table&&r to unlock new glyphs for your spellbook.",
+      "<br/>",
+      "There are 3 tiers of glyphs to unlock, and each one requires some experience and items.",
+      "<br/>",
+      "The Scribe's Table is also used to attach spells to Spell Parchments. To do this, place a Spell Parchment on the table, select the spell in your Spellbook, then sneak right-click the book on the table.",
+      "<br/>",
+      "To create a Glyph, right-click on the Scribe's Table with your spellbook. Search for the glyph you want to make, then click Select at the bottom. Right-click the table with the items required, and the glyph will be created. Use the glyph to learn it.",
+      "<br/>",
+      "Note: The table can pull items from nearby inventories.",
+      "<hr/>",
+      "<reward reward=\"4E42BB4E02799D87\" quest=\"3D4D88B8BE881351\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:scribes_table"
+    },
+    "subtitle": {
+      "text": "Upgrading Spells"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "323F7A0C4FAC28D0"
+  ],
+  "tasks": {
+    "436D9B4714379730": {
+      "type": "heracles:item",
+      "item": "powah:furnator_niotic"
+    }
+  },
+  "rewards": {
+    "285C49BA853D2FCB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:furnator_niotic",
+    "description": [
+      "<task task=\"436D9B4714379730\" quest=\"24EE138780C43447\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"285C49BA853D2FCB\" quest=\"24EE138780C43447\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:furnator_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          144,
+          496
+        ]
+      }
+    }
+  }
+}

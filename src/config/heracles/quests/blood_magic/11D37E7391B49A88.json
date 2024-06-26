@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7BA086472D87D705"
+  ],
+  "tasks": {
+    "1E4979886B89B2AD": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgempetty"
+    }
+  },
+  "rewards": {
+    "3C98676E7D871A75": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Storing Demonic Will",
+    "description": [
+      "<task task=\"1E4979886B89B2AD\" quest=\"11D37E7391B49A88\"/>",
+      "<hr/>",
+      "Demon Will stacks up very quickly in your inventory.",
+      "<br/>",
+      "We're going to need a lot of it, so we'll need to create a way to store all of it. Creating a &&9Tartaric Gem&&r is just what we need.",
+      "<br/>",
+      "The &&bPetty Tartaric Gem&&r is what we'll spend our first Demon Will on. This will store up to a maximum of 64 Will.",
+      "<br/>",
+      "Note: If you drop any Demon Will you have in your inventory, the Gem will absorb it into its storage.",
+      "<hr/>",
+      "<reward reward=\"3C98676E7D871A75\" quest=\"11D37E7391B49A88\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgempetty"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -832,
+          80
+        ]
+      }
+    }
+  }
+}

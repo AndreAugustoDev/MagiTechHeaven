@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "072FBEB0F6F1BC48"
+  ],
+  "tasks": {
+    "2F275302DA90D4E4": {
+      "type": "heracles:item",
+      "item": "functionalstorage:configuration_tool",
+      "nbt": {
+        "Mode": "LOCKING"
+      }
+    }
+  },
+  "rewards": {
+    "2E141DF65F0D3931": {
+      "type": "heracles:item",
+      "item": {
+        "id": "functionalstorage:gold_upgrade"
+      }
+    },
+    "6A90B5A53F3FC368": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.configurator",
+    "description": [
+      "<task task=\"2F275302DA90D4E4\" quest=\"508A8366219175FE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.configurator</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2E141DF65F0D3931\" quest=\"508A8366219175FE\"/>",
+      "<reward reward=\"6A90B5A53F3FC368\" quest=\"508A8366219175FE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:configuration_tool"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -208,
+          -160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "4BC7F46B28DC6BA0": {
+      "title": "Mason Bees",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "40B999E6FCDAC7A8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Mason Bee",
+    "description": [
+      "<h2>Spawned using a Stone Nest</h2>",
+      "<hr/>",
+      "<task task=\"4BC7F46B28DC6BA0\" quest=\"24888CAD50B32B04\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"40B999E6FCDAC7A8\" quest=\"24888CAD50B32B04\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:brick"
+    },
+    "subtitle": {
+      "text": "Spawned using a Stone Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -96,
+          432
+        ]
+      }
+    }
+  }
+}

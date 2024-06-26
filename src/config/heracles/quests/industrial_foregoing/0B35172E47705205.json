@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "408203C29BAABA44",
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "79D439E38B286B8E": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:washing_factory"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:washing_factory",
+    "description": [
+      "<task task=\"79D439E38B286B8E\" quest=\"0B35172E47705205\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:washing_factory"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          432,
+          0
+        ]
+      }
+    }
+  }
+}

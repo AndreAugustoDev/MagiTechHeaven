@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "5820572224CA1F4C": {
+      "type": "heracles:item",
+      "item": "botania:elementium_helmet"
+    },
+    "3E0174D5D8FB4712": {
+      "type": "heracles:item",
+      "item": "botania:elementium_chestplate"
+    },
+    "2E1C97AD850434EC": {
+      "type": "heracles:item",
+      "item": "botania:elementium_leggings"
+    },
+    "4B1C5F307D76F97A": {
+      "type": "heracles:item",
+      "item": "botania:elementium_boots"
+    }
+  },
+  "rewards": {
+    "2FFD52FE7AC45EFB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"5820572224CA1F4C\" quest=\"2F388BE777C43EB6\"/>",
+      "<task task=\"3E0174D5D8FB4712\" quest=\"2F388BE777C43EB6\"/>",
+      "<task task=\"2E1C97AD850434EC\" quest=\"2F388BE777C43EB6\"/>",
+      "<task task=\"4B1C5F307D76F97A\" quest=\"2F388BE777C43EB6\"/>",
+      "<hr/>",
+      "Just like most armor in Botania, the &&9Elementium&&r set can repair itself with mana.",
+      "<br/>",
+      "It also has a chance to spawn a &&aPixie&&r whenever the wearer is harmed. ",
+      "<hr/>",
+      "<reward reward=\"2FFD52FE7AC45EFB\" quest=\"2F388BE777C43EB6\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          656,
+          -16
+        ]
+      }
+    }
+  }
+}

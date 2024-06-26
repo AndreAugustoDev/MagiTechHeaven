@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "6E4FD0B568BEB3F9"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"78A782913B7E6353\" quest=\"2D136FCDA92C92AC\"/>",
+      "<hr/>",
+      "<reward reward=\"0165B8CC821A943F\" quest=\"2D136FCDA92C92AC\"/>",
+      "<reward reward=\"52854A638D3FE878\" quest=\"2D136FCDA92C92AC\"/>",
+      "<reward reward=\"0049AE95E8647336\" quest=\"2D136FCDA92C92AC\"/>",
+      "<reward reward=\"2A0CD06747FBE0D8\" quest=\"2D136FCDA92C92AC\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          128,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:potion",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.witch.50"
+  },
+  "rewards": {
+    "0049AE95E8647336": {
+      "item": {
+        "count": 10,
+        "id": "minecraft:sugar"
+      },
+      "type": "heracles:item"
+    },
+    "0165B8CC821A943F": {
+      "amount": 50,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "2A0CD06747FBE0D8": {
+      "item": {
+        "count": 10,
+        "id": "minecraft:glowstone_dust"
+      },
+      "type": "heracles:item"
+    },
+    "52854A638D3FE878": {
+      "item": {
+        "count": 10,
+        "id": "minecraft:redstone"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "78A782913B7E6353": {
+      "amount": 50,
+      "entity": {
+        "type": "minecraft:witch"
+      },
+      "icon": {
+        "item": "minecraft:potion",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.witch.50",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

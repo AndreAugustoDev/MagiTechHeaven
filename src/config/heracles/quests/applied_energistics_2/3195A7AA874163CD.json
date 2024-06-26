@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "2F556E7919582D2D"
+  ],
+  "tasks": {
+    "5E1E2F6E86A3E0F3": {
+      "type": "heracles:item",
+      "item": "ae2:equal_distribution_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7425BEBDF51C1684": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.equal_card"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.equal_card</translate></h2>",
+      "<hr/>",
+      "<task task=\"5E1E2F6E86A3E0F3\" quest=\"3195A7AA874163CD\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.equal_card</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7425BEBDF51C1684\" quest=\"3195A7AA874163CD\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          384,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:equal_distribution_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.ae2.equal_card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

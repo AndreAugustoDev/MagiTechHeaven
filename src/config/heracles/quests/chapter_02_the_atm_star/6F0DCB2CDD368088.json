@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "6126741150866837"
+  ],
+  "tasks": {
+    "2230AE5FB1D4E9D2": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:dark_rune_block",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4A7E68819395F821": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2230AE5FB1D4E9D2\" quest=\"6F0DCB2CDD368088\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4A7E68819395F821\" quest=\"6F0DCB2CDD368088\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -240,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "forbidden_arcanus:dark_rune_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.dark_rune"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57A7A5C79389A96A"
+  ],
+  "tasks": {
+    "6989058FD488CE64": {
+      "type": "heracles:item",
+      "item": "create:goggles"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:goggles",
+    "description": [
+      "<task task=\"6989058FD488CE64\" quest=\"4F95F00ED78FBAB9\"/>",
+      "<hr/>",
+      "These goggles will allow you to see your contrations in more detail.",
+      "<br/>",
+      "It will show things as rotation speed and stress."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:goggles"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    }
+  }
+}

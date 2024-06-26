@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "18D88932916C7A98",
+    "407EFAF528871014"
+  ],
+  "tasks": {
+    "4983AE3B954BF2FE": {
+      "type": "heracles:item",
+      "item": "mekanism:purification_chamber"
+    }
+  },
+  "rewards": {
+    "258304336DF472BB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:clump_iron",
+        "count": 4
+      }
+    },
+    "2AF72C7C24D94674": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:purification_chamber",
+    "description": [
+      "<h2>It makes Clumps.</h2>",
+      "<hr/>",
+      "<task task=\"4983AE3B954BF2FE\" quest=\"6C25D42C36175BF4\"/>",
+      "<hr/>",
+      "This machine \"Purifies\" our ores. It turns 1 Raw Ore into 2 \"Clumps\", which can then be sent through a Crusher to be turned to dirty dusts, then through an Enrichment Chamber to get clean dust, then through a smelter to be turned to an ingot.",
+      "<br/>",
+      "This will double your ingot output.",
+      "<br/>",
+      "This machine requires &&aOxygen&&r to run, which is created by pumping water into an &&6Electrolytic Separator&&r.",
+      "<hr/>",
+      "<reward reward=\"258304336DF472BB\" quest=\"6C25D42C36175BF4\"/>",
+      "<reward reward=\"2AF72C7C24D94674\" quest=\"6C25D42C36175BF4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:purification_chamber"
+    },
+    "subtitle": {
+      "text": "It makes Clumps."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -16,
+          -64
+        ]
+      }
+    }
+  }
+}

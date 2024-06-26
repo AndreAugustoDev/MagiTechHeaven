@@ -1,0 +1,74 @@
+{
+  "dependencies": [],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.skeleton.5</translate></h2>",
+      "<hr/>",
+      "<task task=\"5B35720DF93CE2DB\" quest=\"42822B1E8A53D051\"/>",
+      "<hr/>",
+      "<reward reward=\"40AC6E73C9411610\" quest=\"42822B1E8A53D051\"/>",
+      "<reward reward=\"47DAFBFECB3B54BE\" quest=\"42822B1E8A53D051\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          -64,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "count": 1,
+        "id": "minecraft:skeleton_skull"
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "translate": "i18n.quest.bounty.skeleton.5"
+    },
+    "title": {
+      "translate": "i18n.quest.bounty.skeleton"
+    }
+  },
+  "rewards": {
+    "40AC6E73C9411610": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "POINTS"
+    },
+    "47DAFBFECB3B54BE": {
+      "item": {
+        "count": 5,
+        "id": "minecraft:bone"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {
+    "autoClaimRewards": false,
+    "hidden": "LOCKED",
+    "individual_progress": false,
+    "repeatable": false,
+    "showDependencyArrow": true,
+    "unlockNotification": false
+  },
+  "tasks": {
+    "5B35720DF93CE2DB": {
+      "amount": 5,
+      "entity": {
+        "type": "minecraft:skeleton"
+      },
+      "icon": {
+        "item": {
+          "count": 1,
+          "id": "minecraft:skeleton_skull"
+        },
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.skeleton.5",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

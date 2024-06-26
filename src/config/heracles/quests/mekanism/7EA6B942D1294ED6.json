@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4BDE773C3359D584"
+  ],
+  "tasks": {
+    "36FE95268A543F7C": {
+      "type": "heracles:item",
+      "item": "mekanism:digital_miner"
+    }
+  },
+  "rewards": {
+    "42A4D32A98E77574": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:digital_miner",
+    "description": [
+      "<h2>A bigger robot friend.</h2>",
+      "<hr/>",
+      "<task task=\"36FE95268A543F7C\" quest=\"7EA6B942D1294ED6\"/>",
+      "<hr/>",
+      "This machine can mine for you!",
+      "<br/>",
+      "It is completely configurable, and can even replace mined blocks with cobblestone, or whatever block you provide it with!",
+      "<hr/>",
+      "<reward reward=\"42A4D32A98E77574\" quest=\"7EA6B942D1294ED6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:digital_miner"
+    },
+    "subtitle": {
+      "text": "A bigger robot friend."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -248,
+          120
+        ]
+      }
+    }
+  }
+}

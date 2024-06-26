@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D4D88B8BE881351"
+  ],
+  "tasks": {
+    "1CC556A6921208B8": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tier 1 Glyphs",
+    "description": [
+      "<task task=\"1CC556A6921208B8\" quest=\"441C0659ED28D935\"/>",
+      "<hr/>",
+      "Tier 1 Glyphs require 3 levels of experience to be made."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -128
+        ]
+      }
+    }
+  }
+}

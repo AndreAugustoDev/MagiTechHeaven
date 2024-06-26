@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "487275B970530E3F"
+  ],
+  "tasks": {
+    "04BCD1D949FCB24D": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgemcommon",
+      "nbt": {
+        "souls": 0
+      }
+    }
+  },
+  "rewards": {
+    "0B2775EDC84F8DBC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:soulgemcommon",
+    "description": [
+      "<task task=\"04BCD1D949FCB24D\" quest=\"626C07DB8B8C5A04\"/>",
+      "<hr/>",
+      "This will hold a max of 1024 Will.",
+      "<hr/>",
+      "<reward reward=\"0B2775EDC84F8DBC\" quest=\"626C07DB8B8C5A04\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgemcommon"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -832,
+          144
+        ]
+      }
+    }
+  }
+}

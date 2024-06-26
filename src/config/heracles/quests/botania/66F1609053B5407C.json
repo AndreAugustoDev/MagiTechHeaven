@@ -1,0 +1,104 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0331107259F7B68C"
+  ],
+  "tasks": {
+    "44A3CDE54F2A5149": {
+      "title": "Gaia Trinkets",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "botania:black_hole_talisman"
+          },
+          {
+            "Count": 1,
+            "id": "botania:spawner_mover"
+          },
+          {
+            "Count": 1,
+            "id": "botania:astrolabe"
+          },
+          {
+            "Count": 1,
+            "id": "botania:holy_cloak"
+          },
+          {
+            "Count": 1,
+            "id": "botania:diva_charm"
+          },
+          {
+            "Count": 1,
+            "id": "botania:super_lava_pendant"
+          },
+          {
+            "Count": 1,
+            "id": "botania:unholy_cloak"
+          },
+          {
+            "Count": 1,
+            "id": "botania:laputa_shard"
+          },
+          {
+            "Count": 1,
+            "id": "botania:super_cloud_pendant"
+          },
+          {
+            "Count": 1,
+            "id": "botania:flight_tiara"
+          },
+          {
+            "Count": 1,
+            "id": "botania:mana_bomb"
+          },
+          {
+            "Count": 1,
+            "id": "botania:missile_rod"
+          },
+          {
+            "Count": 1,
+            "id": "botania:balance_cloak"
+          },
+          {
+            "Count": 1,
+            "id": "botania:super_travel_belt"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "67DD0610BB6C4893": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§aGaia Gear and Trinkets§r",
+    "description": [
+      "<task task=\"44A3CDE54F2A5149\" quest=\"66F1609053B5407C\"/>",
+      "<hr/>",
+      "There are many trinkets that harness the power of &&6Gaia Spirits&&r. Make sure to check them out!",
+      "<br/>",
+      "You can find all of the descriptions within the &&aLexica Botania&&r.",
+      "<hr/>",
+      "<reward reward=\"67DD0610BB6C4893\" quest=\"66F1609053B5407C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          784,
+          32
+        ]
+      }
+    }
+  }
+}

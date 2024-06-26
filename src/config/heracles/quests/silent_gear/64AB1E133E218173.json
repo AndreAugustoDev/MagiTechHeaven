@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "15DE3BF0CBD8E0B4"
+  ],
+  "tasks": {
+    "28223BD9AC4D64EA": {
+      "type": "heracles:item",
+      "item": "silentgear:blueprint_paper",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3B33A6AFBCBD24E2": {
+      "item": {
+        "id": "silentgear:blueprint_package",
+        "count": 1,
+        "nbt": {
+          "silentlib.LootContainer": {
+            "LootTable": "silentgear:starter_blueprints"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "5079BE02B6810490": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.blueprint"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.blueprint</translate></h2>",
+      "<hr/>",
+      "<task task=\"28223BD9AC4D64EA\" quest=\"64AB1E133E218173\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.blueprint</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5079BE02B6810490\" quest=\"64AB1E133E218173\"/>",
+      "<reward reward=\"3B33A6AFBCBD24E2\" quest=\"64AB1E133E218173\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -16,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:blueprint_paper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.blueprint"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

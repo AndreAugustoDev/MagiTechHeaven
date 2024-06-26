@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "556DC0BEDA4BB8E3": {
+      "type": "heracles:item",
+      "item": "botania:red_mystical_flower"
+    }
+  },
+  "rewards": {
+    "1153BCE864466F45": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:red_mystical_flower",
+    "description": [
+      "<task task=\"556DC0BEDA4BB8E3\" quest=\"781B75C63237C8E3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1153BCE864466F45\" quest=\"781B75C63237C8E3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:red_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          112,
+          -64
+        ]
+      }
+    }
+  }
+}

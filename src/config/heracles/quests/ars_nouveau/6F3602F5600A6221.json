@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D4D88B8BE881351"
+  ],
+  "tasks": {
+    "65D68BEEB36FC805": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tier 3 Glyphs",
+    "description": [
+      "<task task=\"65D68BEEB36FC805\" quest=\"6F3602F5600A6221\"/>",
+      "<hr/>",
+      "Tier 3 Glyphs require 10 levels of experience to be made.",
+      "<br/>",
+      "They also require an &&6Archmage's Spell Book&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          -128
+        ]
+      }
+    }
+  }
+}

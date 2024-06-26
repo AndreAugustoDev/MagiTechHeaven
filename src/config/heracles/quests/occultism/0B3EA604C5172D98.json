@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C873491F6F0FFAF"
+  ],
+  "tasks": {
+    "1A30B91B185BB2A3": {
+      "type": "heracles:item",
+      "item": "occultism:purified_ink"
+    },
+    "55135B05C01A5939": {
+      "type": "heracles:item",
+      "item": "occultism:book_of_binding_foliot"
+    }
+  },
+  "rewards": {
+    "536B2ACB55CC979E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 20
+    }
+  },
+  "display": {
+    "title": "§bBooks of§r §dBinding§r",
+    "description": [
+      "<task task=\"1A30B91B185BB2A3\" quest=\"0B3EA604C5172D98\"/>",
+      "<task task=\"55135B05C01A5939\" quest=\"0B3EA604C5172D98\"/>",
+      "<hr/>",
+      "For us to specify which &&c&&mDemon&&r &&9Friend&&r we want to summon, we'll need to make a specific &&bBook of Binding&&r.",
+      "<br/>",
+      "To make this, you'll need to purify some Black Dye in &&dSpiritfire&&r to get Purified Ink. With this, we're going to make our first Book of Binding which will summon a &&aFoliot&&r Demon.",
+      "<hr/>",
+      "<reward reward=\"536B2ACB55CC979E\" quest=\"0B3EA604C5172D98\"/>"
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          368,
+          -32
+        ]
+      }
+    }
+  }
+}

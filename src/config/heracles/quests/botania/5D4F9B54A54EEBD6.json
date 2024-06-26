@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "361773BACA86686E": {
+      "type": "heracles:item",
+      "item": "botania:hydroangeas"
+    }
+  },
+  "rewards": {
+    "7290957F0169C06E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "botania:hydroangeas"
+      }
+    },
+    "50C0DA8F19F519F4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "cookingforblockheads:sink"
+      }
+    },
+    "1FCDEEAB8174E4E1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Using §9Water§r to Create Mana",
+    "description": [
+      "<task task=\"361773BACA86686E\" quest=\"5D4F9B54A54EEBD6\"/>",
+      "<hr/>",
+      "These flowers generate Mana by consuming &&bWater Source Blocks&&r in a 3x3 area around it. These are very slow, and will eventually decay.",
+      "<br/>",
+      "Below is an example of a basic setup.",
+      "<br/>",
+      "{image:atm:textures/questpics/botania/hydrosample.png width:150 height:125 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7290957F0169C06E\" quest=\"5D4F9B54A54EEBD6\"/>",
+      "<reward reward=\"50C0DA8F19F519F4\" quest=\"5D4F9B54A54EEBD6\"/>",
+      "<reward reward=\"1FCDEEAB8174E4E1\" quest=\"5D4F9B54A54EEBD6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:hydroangeas"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          48,
+          32
+        ]
+      }
+    }
+  }
+}

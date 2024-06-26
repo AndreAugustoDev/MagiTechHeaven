@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "588D1526F8E13BF7": {
+      "type": "heracles:item",
+      "item": "botania:bubbell"
+    }
+  },
+  "rewards": {
+    "692FFE927E2BDDA3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:bubbell",
+    "description": [
+      "<task task=\"588D1526F8E13BF7\" quest=\"46959DF790DA9312\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"692FFE927E2BDDA3\" quest=\"46959DF790DA9312\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:bubbell"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -96,
+          48
+        ]
+      }
+    }
+  }
+}

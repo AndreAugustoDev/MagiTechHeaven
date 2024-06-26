@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "342E847B567C499A": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_warping"
+    }
+  },
+  "rewards": {
+    "1F0840B0DE4A1AB2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_warping",
+    "description": [
+      "<task task=\"342E847B567C499A\" quest=\"21EC1A577B4E2FC4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1F0840B0DE4A1AB2\" quest=\"21EC1A577B4E2FC4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_warping"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          272,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "tasks": {
+    "3C45AF8C3DC5A45E": {
+      "type": "heracles:item",
+      "item": "powah:uraninite_raw"
+    }
+  },
+  "rewards": {
+    "344F5D87627A95C7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "powah:book"
+      }
+    },
+    "0A20CAF72F0E3E11": {
+      "type": "heracles:item",
+      "item": {
+        "id": "powah:wrench",
+        "count": 1,
+        "nbt": {
+          "PowahWrenchNBT": {}
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§aWelcome to§r §9Powah§r!!!",
+    "description": [
+      "<task task=\"3C45AF8C3DC5A45E\" quest=\"6B2027DA7AA6FF34\"/>",
+      "<hr/>",
+      "&&9Powah&&r is a tech mod that's all about generating, storing, and transmitting &&dPower&&r. Ranging from basic FE generation to &&aReactors&&r that produce &&b250k FE/t&&r, Powah has you covered!",
+      "<br/>",
+      "To get started, go out and mine some &&aUraninite&&r!",
+      "<hr/>",
+      "<reward reward=\"344F5D87627A95C7\" quest=\"6B2027DA7AA6FF34\"/>",
+      "<reward reward=\"0A20CAF72F0E3E11\" quest=\"6B2027DA7AA6FF34\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:book"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "485D5664A17E16DF"
+  ],
+  "tasks": {
+    "25677521E16A9A63": {
+      "type": "heracles:item",
+      "item": "functionalstorage:gold_upgrade"
+    }
+  },
+  "rewards": {
+    "419CCB3888465495": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "2DD72079356465CE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.16",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.16</translate></h2>",
+      "<hr/>",
+      "<task task=\"25677521E16A9A63\" quest=\"3B570B3DB5F6D2CB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"419CCB3888465495\" quest=\"3B570B3DB5F6D2CB\"/>",
+      "<reward reward=\"2DD72079356465CE\" quest=\"3B570B3DB5F6D2CB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:gold_upgrade"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.16"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -304,
+          -224
+        ]
+      }
+    }
+  }
+}

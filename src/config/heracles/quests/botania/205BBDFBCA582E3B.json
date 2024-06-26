@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "597E4D997A20736D"
+  ],
+  "tasks": {
+    "59FB36F10FBA2E3D": {
+      "type": "heracles:item",
+      "item": "botania:twig_wand",
+      "nbt": {
+        "color1": 0,
+        "color2": 0
+      }
+    }
+  },
+  "rewards": {
+    "2240BDE8F6BEE2D2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Botania's Wrench",
+    "description": [
+      "<task task=\"59FB36F10FBA2E3D\" quest=\"205BBDFBCA582E3B\"/>",
+      "<hr/>",
+      "The &&2Wand of the Forest&&r is a must-have item if you want to continue your journey in Botania.",
+      "<br/>",
+      "The wand has two modes: &&aBind&&r and &&9Function&&r.",
+      "<br/>",
+      "&&aBind mode&&r is used to bind flowers and blocks together in Botania. Start by sneak-right clicking the first block or flower you want, then sneak-right click another block or flower to bind them together.",
+      "<br/>",
+      "&&9Function Mode&&r essentially acts like a wrench, and is used to rotate blocks.",
+      "<hr/>",
+      "<reward reward=\"2240BDE8F6BEE2D2\" quest=\"205BBDFBCA582E3B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:twig_wand"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          102
+        ]
+      }
+    }
+  }
+}

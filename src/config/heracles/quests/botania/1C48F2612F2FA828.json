@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "205BBDFBCA582E3B"
+  ],
+  "tasks": {
+    "0B0D56F682F2791A": {
+      "type": "heracles:item",
+      "item": "botania:mana_spreader"
+    }
+  },
+  "rewards": {
+    "1045A682FCD7A70E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Directing Mana",
+    "description": [
+      "<task task=\"0B0D56F682F2791A\" quest=\"1C48F2612F2FA828\"/>",
+      "<hr/>",
+      "The &&2Mana Spreader&&r is used to direct the flow of Mana by shooting out Mana Bursts.",
+      "<br/>",
+      "You can set the direction that the Spreader shoots by binding it to a block using the &&2Wand of the Forest&&r. While holding the Wand, you can also see the mana buffer, as well as the Mana Bursts.",
+      "<hr/>",
+      "<reward reward=\"1045A682FCD7A70E\" quest=\"1C48F2612F2FA828\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:mana_spreader"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "7EFBAF3E281D2EBE"
+  ],
+  "tasks": {
+    "6DC55B5EA1534444": {
+      "type": "heracles:item",
+      "item": "ae2:capacity_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "45FEE3C549C049B0": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6DC55B5EA1534444\" quest=\"371A382CF1DDF2B2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.capacity</translate></p>",
+      "<hr/>",
+      "<reward reward=\"45FEE3C549C049B0\" quest=\"371A382CF1DDF2B2\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          768,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:capacity_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.ae2.capacity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

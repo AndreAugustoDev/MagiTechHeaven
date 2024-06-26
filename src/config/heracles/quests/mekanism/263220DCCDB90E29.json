@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7AE502EDB73BD57A"
+  ],
+  "tasks": {
+    "46C4C1AD9FA5BEE2": {
+      "title": "Our Setup So Far",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "07F4FEA9CD91FB7B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:alloy_infused",
+        "count": 2
+      }
+    },
+    "12132365C99DF4EB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Our Setup So Far",
+    "description": [
+      "<h2>Tier 2 Ore Factory</h2>",
+      "<hr/>",
+      "<task task=\"46C4C1AD9FA5BEE2\" quest=\"263220DCCDB90E29\"/>",
+      "<hr/>",
+      "So far, to \"double\" our ingot output, your setup should look something like this:",
+      "<br/>",
+      "Raw Ore goes into your &&aPurification Chamber&&r, which is being fed &&aOxygen&&r from an &&6Electrolytic Separator&&r.",
+      "<br/>",
+      "It then outputs the product into the &&aCrusher&&r, which converts the ore clumps into \"dirty dusts\". This \"Dirty Dust\" is fed into an &&aEnrichment Chamber&&r, which converts the \"Dirty Dust\" into the appropriate \"Ore Dust.\"",
+      "<br/>",
+      "The &&aEnrichment Chamber&&r then feeds into your preferred smelter of choice. You follow?",
+      "<hr/>",
+      "<reward reward=\"07F4FEA9CD91FB7B\" quest=\"263220DCCDB90E29\"/>",
+      "<reward reward=\"12132365C99DF4EB\" quest=\"263220DCCDB90E29\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Tier 2 Ore Factory"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          96,
+          -64
+        ]
+      }
+    }
+  }
+}

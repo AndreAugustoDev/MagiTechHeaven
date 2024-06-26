@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1AAF0B31B47AF23D"
+  ],
+  "tasks": {
+    "356C06E894DC659B": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_card"
+    }
+  },
+  "rewards": {
+    "09DCAA3326CEE78F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.crafting",
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.crafting</translate></h2>",
+      "<hr/>",
+      "<task task=\"356C06E894DC659B\" quest=\"5E6585F7627247E3\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.crafting</translate></p>",
+      "<hr/>",
+      "<reward reward=\"09DCAA3326CEE78F\" quest=\"5E6585F7627247E3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_card"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "i18n.quest.ae2.subt.crafting"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          608,
+          -80
+        ]
+      }
+    }
+  }
+}

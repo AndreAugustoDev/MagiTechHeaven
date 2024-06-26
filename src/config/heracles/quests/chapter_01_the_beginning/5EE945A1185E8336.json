@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "0752E680F9DE4039"
+  ],
+  "tasks": {
+    "3B1F1A7CAC8B7BC7": {
+      "type": "heracles:item",
+      "item": "#functionalstorage:drawer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any Drawer from Functional Storage"
+    }
+  },
+  "rewards": {
+    "2F26494429A38E0C": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3B1F1A7CAC8B7BC7\" quest=\"5EE945A1185E8336\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.drawer</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2F26494429A38E0C\" quest=\"5EE945A1185E8336\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "functionalstorage:oak_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.drawer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

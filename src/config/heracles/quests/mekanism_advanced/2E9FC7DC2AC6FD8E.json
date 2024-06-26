@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3591EAA8E397F992"
+  ],
+  "tasks": {
+    "6B40312EE7C8875D": {
+      "type": "heracles:item",
+      "item": "mekanism:pellet_plutonium"
+    }
+  },
+  "rewards": {
+    "353657D187263DAA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:pellet_plutonium",
+    "description": [
+      "<task task=\"6B40312EE7C8875D\" quest=\"2E9FC7DC2AC6FD8E\"/>",
+      "<hr/>",
+      "&&8Nuclear Waste&&r can be sent into an Isotopic Centrifuge to create &&9Plutonium&&r.",
+      "<br/>",
+      "Sending the Plutonium into a Pressurized Reaction Chamber with some water and &&7Fluorite Dust&&r will give you &&9Plutonium Pellets&&r. These are used to make end game materials!",
+      "<br/>",
+      "Note: This will also create a byproduct of &&7Spent Nuclear Waste&&r, which needs to be pumped into a Waste Barrel for storage.",
+      "<hr/>",
+      "<reward reward=\"353657D187263DAA\" quest=\"2E9FC7DC2AC6FD8E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:pellet_plutonium"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          240,
+          -48
+        ]
+      }
+    }
+  }
+}

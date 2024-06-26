@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "4A198E875A6B0A64"
+  ],
+  "tasks": {},
+  "rewards": {
+    "23E76AEB4BEA3B45": {
+      "item": {
+        "id": "refinedstorage:pattern",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"461E78CF8E7FCD04\" quest=\"189018F641FBB44E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.diamond</translate></p>",
+      "<hr/>",
+      "<reward reward=\"23E76AEB4BEA3B45\" quest=\"189018F641FBB44E\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          80,
+          -288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.diamond"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

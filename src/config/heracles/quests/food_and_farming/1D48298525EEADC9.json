@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "361DFDB1E1352D6B"
+  ],
+  "tasks": {
+    "56CAB3D2E3421C7C": {
+      "type": "heracles:item",
+      "item": "minecraft:sugar",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7EAE8BCBABAA8B89": {
+      "item": {
+        "id": "minecraft:sugar_cane",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "04AB9DC101FCAB74": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.sugar"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.sugar</translate></h2>",
+      "<hr/>",
+      "<task task=\"56CAB3D2E3421C7C\" quest=\"1D48298525EEADC9\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.sugar</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7EAE8BCBABAA8B89\" quest=\"1D48298525EEADC9\"/>",
+      "<reward reward=\"04AB9DC101FCAB74\" quest=\"1D48298525EEADC9\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -224,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:sugar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.sugar"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

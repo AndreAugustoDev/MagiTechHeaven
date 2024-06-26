@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {},
+  "rewards": {
+    "156D559B0B56BA9A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.shrink"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.shrink</translate></h2>",
+      "<hr/>",
+      "<task task=\"30C938C85BED7956\" quest=\"7EC8814940C4C3D7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.shrink</translate></p>",
+      "<hr/>",
+      "<reward reward=\"156D559B0B56BA9A\" quest=\"7EC8814940C4C3D7\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          48,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.shrink"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

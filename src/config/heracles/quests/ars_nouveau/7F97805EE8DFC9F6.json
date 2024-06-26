@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "54E317444AF31DA0": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_grow"
+    }
+  },
+  "rewards": {
+    "75CB1B6486A4A1BA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_grow",
+    "description": [
+      "<task task=\"54E317444AF31DA0\" quest=\"7F97805EE8DFC9F6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"75CB1B6486A4A1BA\" quest=\"7F97805EE8DFC9F6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_grow"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -272
+        ]
+      }
+    }
+  }
+}

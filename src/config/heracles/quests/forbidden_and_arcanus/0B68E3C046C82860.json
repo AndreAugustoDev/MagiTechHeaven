@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03E7D73433AB6B7C"
+  ],
+  "tasks": {
+    "736A5F873C3DDF64": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:deorum_ingot"
+    }
+  },
+  "rewards": {
+    "643C5E6FC352BD9F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§6Deorum",
+    "description": [
+      "<task task=\"736A5F873C3DDF64\" quest=\"0B68E3C046C82860\"/>",
+      "<hr/>",
+      "The &&6Deorum Ingot&&r is needed to continue your progression in the mod!",
+      "<br/>",
+      "This is a very important crafting ingot used in a lot of recipes, plus it also makes some pretty blocks!",
+      "<hr/>",
+      "<reward reward=\"643C5E6FC352BD9F\" quest=\"0B68E3C046C82860\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -48,
+          160
+        ]
+      }
+    }
+  }
+}

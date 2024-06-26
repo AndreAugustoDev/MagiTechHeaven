@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "537E39530360AD73"
+  ],
+  "tasks": {
+    "4D5980FEE267D06C": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:stellarite_piece"
+    }
+  },
+  "rewards": {
+    "51217AE3DFB997C8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:stellarite_piece",
+    "description": [
+      "<h2>This Goes Boom Too</h2>",
+      "<hr/>",
+      "<task task=\"4D5980FEE267D06C\" quest=\"34592A8F4B661D8D\"/>",
+      "<hr/>",
+      "You'll find the Stella Arcanum ore deep underground.",
+      "<br/>",
+      "Careful when mining.",
+      "<hr/>",
+      "<reward reward=\"51217AE3DFB997C8\" quest=\"34592A8F4B661D8D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    "subtitle": {
+      "text": "This Goes Boom Too"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          256,
+          64
+        ]
+      }
+    }
+  }
+}

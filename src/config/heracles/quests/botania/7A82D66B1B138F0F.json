@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "1F0DDF8D08AA2D09": {
+      "type": "heracles:item",
+      "item": "botania:lens_power"
+    }
+  },
+  "rewards": {
+    "57CA8F5150562EDE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_power",
+    "description": [
+      "<task task=\"1F0DDF8D08AA2D09\" quest=\"7A82D66B1B138F0F\"/>",
+      "<hr/>",
+      "Doubles the amount of Mana a Mana Burst can carry, at the cost of speed and increased mana loss over longer distances.",
+      "<hr/>",
+      "<reward reward=\"57CA8F5150562EDE\" quest=\"7A82D66B1B138F0F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_power"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          448,
+          304
+        ]
+      }
+    }
+  }
+}

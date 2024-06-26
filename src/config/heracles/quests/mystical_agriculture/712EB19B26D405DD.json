@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "5865E21723C2C04C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:ice_seeds"
+    }
+  },
+  "rewards": {
+    "54FC34F2AB895D6B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:ice_seeds",
+    "description": [
+      "<task task=\"5865E21723C2C04C\" quest=\"712EB19B26D405DD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"54FC34F2AB895D6B\" quest=\"712EB19B26D405DD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:ice_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -624,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "1B91D26F0A805561": {
+      "type": "heracles:item",
+      "item": "botania:runic_altar"
+    },
+    "5A06ED36DD9E9681": {
+      "title": "Basic Runes",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "botania:rune_water"
+          },
+          {
+            "Count": 1,
+            "id": "botania:rune_fire"
+          },
+          {
+            "Count": 1,
+            "id": "botania:rune_earth"
+          },
+          {
+            "Count": 1,
+            "id": "botania:rune_air"
+          },
+          {
+            "Count": 1,
+            "id": "botania:rune_mana"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "576C91544B6A673C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Creating Runes",
+    "description": [
+      "<task task=\"1B91D26F0A805561\" quest=\"0631F054A9B97A40\"/>",
+      "<task task=\"5A06ED36DD9E9681\" quest=\"0631F054A9B97A40\"/>",
+      "<hr/>",
+      "&&9Runes&&r are vital crafting components in many of the more advanced recipes in Botania, and these are created on a &&aRunic Altar&&r.",
+      "<br/>",
+      "To use the Altar, start by placing the components of the rune you want on it. This can be done either by right clicking or dropping the item. It will also need Mana, so make sure to point a Mana Spreader that is getting Mana towards it as well.",
+      "<br/>",
+      "Once you've finished placing the items, you can hover over the Altar with your wand and it will show you the progress of the recipe. When it completes, drop a piece of Livingrock on the Altar, then use your wand to collect your rune.",
+      "<br/>",
+      "Note: Runes used for recipes in the Runic Altar function as catalysts, and will not be consumed. Just like the Petal Apothecary, right-clicking the Altar with an empty hand after a recipe is complete will refill it with the items used in the last recipe.",
+      "<hr/>",
+      "<reward reward=\"576C91544B6A673C\" quest=\"0631F054A9B97A40\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          400,
+          144
+        ]
+      }
+    }
+  }
+}

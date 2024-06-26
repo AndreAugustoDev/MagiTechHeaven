@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "2C993EEE2B11D440": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_magma"
+    }
+  },
+  "rewards": {
+    "4C75EC03132D7098": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_magma",
+    "description": [
+      "<task task=\"2C993EEE2B11D440\" quest=\"1BF511A13DF35C3A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C75EC03132D7098\" quest=\"1BF511A13DF35C3A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_magma"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          496,
+          64
+        ]
+      }
+    }
+  }
+}

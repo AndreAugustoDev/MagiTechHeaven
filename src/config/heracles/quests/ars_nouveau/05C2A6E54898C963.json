@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "20E81CE5B5665DAF": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_cold_snap"
+    }
+  },
+  "rewards": {
+    "1D22D2CA15F8A4D3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_cold_snap",
+    "description": [
+      "<task task=\"20E81CE5B5665DAF\" quest=\"05C2A6E54898C963\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1D22D2CA15F8A4D3\" quest=\"05C2A6E54898C963\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_cold_snap"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -176
+        ]
+      }
+    }
+  }
+}

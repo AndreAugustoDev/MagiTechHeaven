@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "29EE878BC8D3A742"
+  ],
+  "tasks": {
+    "7CB163461B2D1723": {
+      "type": "heracles:item",
+      "item": "patchouli:guide_book",
+      "nbt": {
+        "patchouli:book": "productivebees:guide"
+      }
+    }
+  },
+  "rewards": {
+    "1471AEAB1BD9E5DB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: patchouli:guide_book",
+    "description": [
+      "<h2>The Bee Manual</h2>",
+      "<hr/>",
+      "<task task=\"7CB163461B2D1723\" quest=\"6C9E88A61ECCF898\"/>",
+      "<hr/>",
+      "You can find this in the Eccentric Tome you start with, but if you somehow lost it, craft one!",
+      "<br/>",
+      "This guidebook will help you learn everything about bees.",
+      "<hr/>",
+      "<reward reward=\"1471AEAB1BD9E5DB\" quest=\"6C9E88A61ECCF898\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "patchouli:guide_book"
+    },
+    "subtitle": {
+      "text": "The Bee Manual"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          -80
+        ]
+      }
+    }
+  }
+}

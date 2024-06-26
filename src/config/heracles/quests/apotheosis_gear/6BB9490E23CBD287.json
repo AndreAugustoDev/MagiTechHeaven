@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "40926361B5A17F74"
+  ],
+  "tasks": {
+    "472F56378989C26F": {
+      "title": "Vials and Sigils",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "002EA5A58F916932": {
+      "item": {
+        "id": "minecraft:glass_bottle",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"472F56378989C26F\" quest=\"6BB9490E23CBD287\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.affixes.desc.vials_and_sigils</translate></p>",
+      "<hr/>",
+      "<reward reward=\"002EA5A58F916932\" quest=\"6BB9490E23CBD287\"/>"
+    ],
+    "groups": {
+      "Apotheosis Gear": {
+        "position": [
+          64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.affixes.vials_and_sigils"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

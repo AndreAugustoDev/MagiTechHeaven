@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "056ECFB6B80F6A37": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:battery_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "18E06C1A7BC76A3F": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.battery"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.battery</translate></h2>",
+      "<hr/>",
+      "<task task=\"056ECFB6B80F6A37\" quest=\"4C2A60FC1F1E0328\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"18E06C1A7BC76A3F\" quest=\"4C2A60FC1F1E0328\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -240,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:battery_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.battery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

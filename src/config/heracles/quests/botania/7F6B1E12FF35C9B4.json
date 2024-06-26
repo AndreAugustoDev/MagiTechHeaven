@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "15721B09FEE7A75E": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_pick"
+    }
+  },
+  "rewards": {
+    "42C319B92CE57B4F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:manasteel_pick",
+    "description": [
+      "<task task=\"15721B09FEE7A75E\" quest=\"7F6B1E12FF35C9B4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"42C319B92CE57B4F\" quest=\"7F6B1E12FF35C9B4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_pick"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          432,
+          -32
+        ]
+      }
+    }
+  }
+}

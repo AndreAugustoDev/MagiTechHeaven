@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "23F165DEAD225B10"
+  ],
+  "tasks": {
+    "445F3D8AA18A518A": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_universal_cable"
+    }
+  },
+  "rewards": {
+    "0FEFDBFB0971C811": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_universal_cable",
+    "description": [
+      "<task task=\"445F3D8AA18A518A\" quest=\"618ECDB3FB534A8A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0FEFDBFB0971C811\" quest=\"618ECDB3FB534A8A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_universal_cable"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -96,
+          160
+        ]
+      }
+    }
+  }
+}

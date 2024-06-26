@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "25EFC21A3C48E0B6"
+  ],
+  "tasks": {
+    "26D5E58095BD9A31": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_spirited"
+    }
+  },
+  "rewards": {
+    "49AED7663FF7E87A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_discharger_spirited",
+    "description": [
+      "<task task=\"26D5E58095BD9A31\" quest=\"0536D7B41964FE38\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49AED7663FF7E87A\" quest=\"0536D7B41964FE38\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -272,
+          528
+        ]
+      }
+    }
+  }
+}

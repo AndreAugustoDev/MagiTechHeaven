@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "05BAF8FF07FD6A10": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_invisibility"
+    }
+  },
+  "rewards": {
+    "4A8CCAD32C41B1F0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_invisibility",
+    "description": [
+      "<task task=\"05BAF8FF07FD6A10\" quest=\"36183375DAA54408\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"4A8CCAD32C41B1F0\" quest=\"36183375DAA54408\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_invisibility"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -272
+        ]
+      }
+    }
+  }
+}

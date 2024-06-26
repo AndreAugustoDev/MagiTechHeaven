@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "583141D1F71510B3": {
+      "type": "heracles:item",
+      "item": "productivebees:sand_nest"
+    }
+  },
+  "rewards": {
+    "73C97FC16BFC308A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:sand_nest",
+    "description": [
+      "<h2>Lures bees in Desert Biomes</h2>",
+      "<hr/>",
+      "<task task=\"583141D1F71510B3\" quest=\"06044B4452A6B720\"/>",
+      "<hr/>",
+      "When placed in a Desert biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee.",
+      "<hr/>",
+      "<reward reward=\"73C97FC16BFC308A\" quest=\"06044B4452A6B720\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:sand_nest"
+    },
+    "subtitle": {
+      "text": "Lures bees in Desert Biomes"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          144
+        ]
+      }
+    }
+  }
+}

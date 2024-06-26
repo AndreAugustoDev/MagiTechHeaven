@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "0F3D51FFD2FE8DCB"
+  ],
+  "tasks": {
+    "2014E320BFF51D62": {
+      "title": "&dFind The Stronghold&r",
+      "icon": {
+        "item": {
+          "id": "minecraft:end_portal_frame",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "minecraft:story/follow_ender_eye"
+      ],
+      "type": "heracles:advancement"
+    },
+    "2BF525CB7074AF2A": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_eye",
+      "amount": 10,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2BF525CB7074AF2A\" quest=\"61C49BC2B384FB80\"/>",
+      "<task task=\"2014E320BFF51D62\" quest=\"61C49BC2B384FB80\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.end}"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          512,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:end_portal_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.end"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

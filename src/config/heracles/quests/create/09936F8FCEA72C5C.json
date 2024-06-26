@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "15BA4109324B4A44": {
+      "type": "heracles:item",
+      "item": "create:cart_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:cart_assembler",
+    "description": [
+      "<task task=\"15BA4109324B4A44\" quest=\"09936F8FCEA72C5C\"/>",
+      "<hr/>",
+      "The &&n&&5Cart Assembler&&r can be placed on tracks. Anything you build on top of it will be picked up by a Minecart if the Assembler has a redstone signal.",
+      "<br/>",
+      "The blocks must be glued together and any blocks requiring rotational force will automatically be working.",
+      "<br/>",
+      "To \"unmount\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:cart_assembler"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -80,
+          -112
+        ]
+      }
+    }
+  }
+}

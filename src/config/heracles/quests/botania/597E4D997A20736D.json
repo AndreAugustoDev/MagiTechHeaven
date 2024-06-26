@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4E02DC8A474A4A2F"
+  ],
+  "tasks": {
+    "3CC2E22FFC03582A": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "botania:livingwood_log"
+    }
+  },
+  "rewards": {
+    "4DADC5BC88012019": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 4
+      }
+    },
+    "7DBF2C3A190ED049": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§2Livingwood§r",
+    "description": [
+      "<task task=\"3CC2E22FFC03582A\" quest=\"597E4D997A20736D\"/>",
+      "<hr/>",
+      "Use a &&bPure Daisy&&r to convert Wooden Logs into Livingwood!",
+      "<hr/>",
+      "<reward reward=\"4DADC5BC88012019\" quest=\"597E4D997A20736D\"/>",
+      "<reward reward=\"7DBF2C3A190ED049\" quest=\"597E4D997A20736D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:livingwood_log"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          224,
+          128
+        ]
+      }
+    }
+  }
+}

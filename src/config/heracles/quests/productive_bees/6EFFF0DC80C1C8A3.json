@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2CA3707BEE2E3C0D",
+    "399882F3C51DD282"
+  ],
+  "tasks": {
+    "5851FC52DDFE7826": {
+      "title": "Allthemodium Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:allthemodium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "52BF6B50DD93E0C7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:allthemodium"
+          }
+        }
+      }
+    },
+    "43280AD345FCEAC4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Allthemodium Bee",
+    "description": [
+      "<h2>Ancient + Withered</h2>",
+      "<hr/>",
+      "<task task=\"5851FC52DDFE7826\" quest=\"6EFFF0DC80C1C8A3\"/>",
+      "<hr/>",
+      "To get the Allthemodium Bee, breed a Withered Bee with an Ancient Bee.",
+      "<hr/>",
+      "<reward reward=\"52BF6B50DD93E0C7\" quest=\"6EFFF0DC80C1C8A3\"/>",
+      "<reward reward=\"43280AD345FCEAC4\" quest=\"6EFFF0DC80C1C8A3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "allthemodium:raw_allthemodium"
+    },
+    "subtitle": {
+      "text": "Ancient + Withered"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          320,
+          144
+        ]
+      }
+    }
+  }
+}

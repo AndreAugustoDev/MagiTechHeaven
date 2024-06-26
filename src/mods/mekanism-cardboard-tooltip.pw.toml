@@ -1,0 +1,13 @@
+name = "Mekanism Cardboard Tooltip"
+filename = "mekanismcardboardtooltip-forge-1.20.1-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f0fOt5qj/versions/cqYWulOp/mekanismcardboardtooltip-forge-1.20.1-1.4.0.jar"
+hash-format = "sha1"
+hash = "fdceda71e8f4f36dfda9668fcb10e701f86896be"
+
+[update]
+[update.modrinth]
+mod-id = "f0fOt5qj"
+version = "cqYWulOp"

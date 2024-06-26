@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5766C8B9E850C186"
+  ],
+  "tasks": {
+    "1344731C799303A3": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "rewards": {
+    "74A1C83DF8199111": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:source_gem"
+      }
+    },
+    "383031B91565B2F6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§5Source Gems",
+    "description": [
+      "<task task=\"1344731C799303A3\" quest=\"40BC67BDEE15D1DE\"/>",
+      "<hr/>",
+      "To create Source Gems, we'll need to put either Lapis or Amethyst Shards into the Imbuement Chamber. Over time, these will convert to Source Gems!",
+      "<hr/>",
+      "<reward reward=\"74A1C83DF8199111\" quest=\"40BC67BDEE15D1DE\"/>",
+      "<reward reward=\"383031B91565B2F6\" quest=\"40BC67BDEE15D1DE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:source_gem"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          0
+        ]
+      }
+    }
+  }
+}

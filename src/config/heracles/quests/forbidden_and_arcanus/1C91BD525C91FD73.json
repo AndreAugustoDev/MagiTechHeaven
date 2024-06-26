@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "537E39530360AD73"
+  ],
+  "tasks": {
+    "552F1CF53E9AF9BD": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:xpetrified_orb"
+    }
+  },
+  "rewards": {
+    "5B12316594633566": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:xpetrified_orb",
+    "description": [
+      "<task task=\"552F1CF53E9AF9BD\" quest=\"1C91BD525C91FD73\"/>",
+      "<hr/>",
+      "This stuff is everywhere.",
+      "<br/>",
+      "It can be used to give yourself experience, or used to make the Eternal Stella.",
+      "<hr/>",
+      "<reward reward=\"5B12316594633566\" quest=\"1C91BD525C91FD73\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:xpetrified_orb"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          256,
+          128
+        ]
+      }
+    }
+  }
+}

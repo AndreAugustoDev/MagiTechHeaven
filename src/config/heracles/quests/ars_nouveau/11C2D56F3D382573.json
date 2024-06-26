@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "352317A2806A9855": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_sense_magic"
+    }
+  },
+  "rewards": {
+    "73AC0617FCAE9088": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_sense_magic",
+    "description": [
+      "<task task=\"352317A2806A9855\" quest=\"11C2D56F3D382573\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"73AC0617FCAE9088\" quest=\"11C2D56F3D382573\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_sense_magic"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -336
+        ]
+      }
+    }
+  }
+}

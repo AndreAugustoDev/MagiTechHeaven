@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "6F96A800F8BDA3FD": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_crimed"
+    }
+  },
+  "rewards": {
+    "22719C30558DBF7B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_crimed",
+    "description": [
+      "<task task=\"6F96A800F8BDA3FD\" quest=\"776EE1F5C4565146\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"22719C30558DBF7B\" quest=\"776EE1F5C4565146\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_crimed"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          480,
+          96
+        ]
+      }
+    }
+  }
+}

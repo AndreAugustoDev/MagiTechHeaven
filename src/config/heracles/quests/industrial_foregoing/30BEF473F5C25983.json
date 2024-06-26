@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7B4AF35313D7D779"
+  ],
+  "tasks": {
+    "01FE619C47E82C71": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:supreme_black_hole_unit"
+    },
+    "63514396DB2EEA1C": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:supreme_black_hole_tank"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "description": [
+      "<task task=\"01FE619C47E82C71\" quest=\"30BEF473F5C25983\"/>",
+      "<task task=\"63514396DB2EEA1C\" quest=\"30BEF473F5C25983\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          400,
+          272
+        ]
+      }
+    }
+  }
+}

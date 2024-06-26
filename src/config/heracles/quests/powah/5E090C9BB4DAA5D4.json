@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DDF87A1E5F5D009"
+  ],
+  "tasks": {
+    "7D5E27F786265E83": {
+      "type": "heracles:item",
+      "item": "powah:steel_energized"
+    }
+  },
+  "rewards": {
+    "72826C337A2463CA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Tier: §aEnergized§r",
+    "description": [
+      "<task task=\"7D5E27F786265E83\" quest=\"5E090C9BB4DAA5D4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"72826C337A2463CA\" quest=\"5E090C9BB4DAA5D4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:steel_energized"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0E8647B8EB4AAC41"
+  ],
+  "tasks": {
+    "7055454F2F8936C7": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:infinity_charger"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:infinity_charger",
+    "description": [
+      "<task task=\"7055454F2F8936C7\" quest=\"65C147F5282E8FCD\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:infinity_charger"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          336,
+          -48
+        ]
+      }
+    }
+  }
+}

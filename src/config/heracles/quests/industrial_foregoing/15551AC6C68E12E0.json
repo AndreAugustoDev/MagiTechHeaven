@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "532B0FD90F4D6AF6": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_duplicator"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:mob_duplicator",
+    "description": [
+      "<task task=\"532B0FD90F4D6AF6\" quest=\"15551AC6C68E12E0\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_duplicator"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          576,
+          96
+        ]
+      }
+    }
+  }
+}

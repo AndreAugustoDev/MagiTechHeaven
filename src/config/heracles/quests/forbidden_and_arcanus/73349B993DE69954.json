@@ -1,0 +1,80 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F5675E30ED046F7"
+  ],
+  "tasks": {
+    "2429D427160A65D5": {
+      "type": "heracles:item",
+      "amount": 45,
+      "item": "forbidden_arcanus:polished_darkstone"
+    },
+    "3D6D6E05A9D04FC5": {
+      "type": "heracles:item",
+      "amount": 9,
+      "item": "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+    },
+    "2F27161BBD1D059A": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+    },
+    "754E2CB9BDC2549E": {
+      "type": "heracles:item",
+      "item": "minecraft:smithing_table"
+    },
+    "2FC5F424A0583DFD": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mundabitur_dust"
+    }
+  },
+  "rewards": {
+    "7F8265D8621DC5A2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "forbidden_arcanus:aureal_bottle",
+        "count": 2
+      }
+    },
+    "11369C066386D75D": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§1The Hephaestus Forge",
+    "description": [
+      "<task task=\"2429D427160A65D5\" quest=\"73349B993DE69954\"/>",
+      "<task task=\"3D6D6E05A9D04FC5\" quest=\"73349B993DE69954\"/>",
+      "<task task=\"2F27161BBD1D059A\" quest=\"73349B993DE69954\"/>",
+      "<task task=\"754E2CB9BDC2549E\" quest=\"73349B993DE69954\"/>",
+      "<task task=\"2FC5F424A0583DFD\" quest=\"73349B993DE69954\"/>",
+      "<hr/>",
+      "We'll be using all of that Darkstone to create the &&dHephaestus Forge&&r.",
+      "<br/>",
+      "Once you have all of the blocks needed, you'll need to build the platform for the forge!",
+      "<br/>",
+      "{image:atm:textures/questpics/forbidden/forge.png width:200 height:200 align:1",
+      "<br/>",
+      "The 8 Chiseled Arcane Polished Darkstone blocks on the outer ring of the platform can be used for pedestals or Arcane Cryal Obelisks, with the last block being placed in the center of the platform. ",
+      "<br/>",
+      "On top of the center block, place a Smithing Table and sneak+right-click it with a piece of Mundabitur Dust to convert it to the Forge!",
+      "<hr/>",
+      "<reward reward=\"7F8265D8621DC5A2\" quest=\"73349B993DE69954\"/>",
+      "<reward reward=\"11369C066386D75D\" quest=\"73349B993DE69954\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:hephaestus_forge"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          80,
+          96
+        ]
+      }
+    }
+  }
+}

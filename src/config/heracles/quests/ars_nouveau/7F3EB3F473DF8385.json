@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "598ED65E5C450F82": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_undead"
+    }
+  },
+  "rewards": {
+    "49FE505047D7DA5B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_summon_undead",
+    "description": [
+      "<task task=\"598ED65E5C450F82\" quest=\"7F3EB3F473DF8385\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49FE505047D7DA5B\" quest=\"7F3EB3F473DF8385\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_undead"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          64,
+          -272
+        ]
+      }
+    }
+  }
+}

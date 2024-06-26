@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "tasks": {
+    "61F1446D2A460827": {
+      "type": "heracles:item",
+      "item": "dimstorage:dimensional_chest"
+    },
+    "17FE9F196E4C6B44": {
+      "type": "heracles:item",
+      "item": "dimstorage:dimensional_tank"
+    }
+  },
+  "rewards": {
+    "685834F0A29F6B78": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:ender_pearl",
+        "count": 4
+      }
+    },
+    "36EA7EC9235E0AEA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.dim",
+    "description": [
+      "<task task=\"61F1446D2A460827\" quest=\"3D5852E6D0ADF651\"/>",
+      "<task task=\"17FE9F196E4C6B44\" quest=\"3D5852E6D0ADF651\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"685834F0A29F6B78\" quest=\"3D5852E6D0ADF651\"/>",
+      "<reward reward=\"36EA7EC9235E0AEA\" quest=\"3D5852E6D0ADF651\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          208,
+          -48
+        ]
+      }
+    }
+  }
+}

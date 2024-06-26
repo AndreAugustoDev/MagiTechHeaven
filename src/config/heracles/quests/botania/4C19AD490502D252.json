@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "09C57FE747E4FDB1": {
+      "type": "heracles:item",
+      "item": "botania:rosa_arcana"
+    }
+  },
+  "rewards": {
+    "2DB6C4E435C1BEBB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:rosa_arcana",
+    "description": [
+      "<task task=\"09C57FE747E4FDB1\" quest=\"4C19AD490502D252\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2DB6C4E435C1BEBB\" quest=\"4C19AD490502D252\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:rosa_arcana"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -128,
+          176
+        ]
+      }
+    }
+  }
+}

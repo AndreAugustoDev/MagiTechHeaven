@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F35D04721DFC9FF"
+  ],
+  "tasks": {
+    "034F6D98DA7900BD": {
+      "title": "Observe a Foliot Demon",
+      "icon": {
+        "type": "heracles:item",
+        "item": "ftbquests:custom_icon"
+      },
+      "type": "heracles:entity_interaction",
+      "entity": "occultism:foliot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "§aTalking with our New Friend!§r",
+    "description": [
+      "<task task=\"034F6D98DA7900BD\" quest=\"7174A0CEC5CCC53B\"/>",
+      "<hr/>",
+      "See, they aren't all bad!",
+      "<br/>",
+      "If you've completed the Ritual properly, you'll now have your very own &&cFoliot Crusher Demon&&r. These Demons are great at crushing down items for you!",
+      "<br/>",
+      "To give it an item to crush, just throw it nearby and it will pick up the item and crush it. You can also sneak-right click the Demon to open up the inventory.",
+      "<br/>",
+      "This is a starter Demon, so it won't last very long. This one can also double your ore output for you!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ftbquests:custom_icon"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          400,
+          128
+        ]
+      }
+    }
+  }
+}

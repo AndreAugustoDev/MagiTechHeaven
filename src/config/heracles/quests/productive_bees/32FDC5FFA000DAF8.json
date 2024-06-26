@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "4DA861A4D91D15D5": {
+      "type": "heracles:item",
+      "item": "productivebees:jar_oak"
+    }
+  },
+  "rewards": {
+    "23284D6510C4B17A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "3E37E54642DD9ABE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:jar_oak",
+    "description": [
+      "<h2>Showing Off Bees</h2>",
+      "<hr/>",
+      "<task task=\"4DA861A4D91D15D5\" quest=\"32FDC5FFA000DAF8\"/>",
+      "<hr/>",
+      "Proud of the bees you have?",
+      "<br/>",
+      "Wanna put them into a jar to show it off?",
+      "<br/>",
+      "Place a Bee Jar down and use a pipe or hopper to insert the caged bee into the jar.",
+      "<hr/>",
+      "<reward reward=\"23284D6510C4B17A\" quest=\"32FDC5FFA000DAF8\"/>",
+      "<reward reward=\"3E37E54642DD9ABE\" quest=\"32FDC5FFA000DAF8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:jar_oak"
+    },
+    "subtitle": {
+      "text": "Showing Off Bees"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          48
+        ]
+      }
+    }
+  }
+}

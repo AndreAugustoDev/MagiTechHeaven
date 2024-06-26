@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "12DA09A6C97199B7": {
+      "type": "heracles:item",
+      "item": "botania:pollidisiac"
+    }
+  },
+  "rewards": {
+    "5A971A64D2C62A72": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:pollidisiac",
+    "description": [
+      "<task task=\"12DA09A6C97199B7\" quest=\"067FDF87F4703205\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A971A64D2C62A72\" quest=\"067FDF87F4703205\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:pollidisiac"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          144
+        ]
+      }
+    }
+  }
+}

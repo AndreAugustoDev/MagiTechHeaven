@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "10D3703D3C415FC3": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_harvest"
+    }
+  },
+  "rewards": {
+    "538981D001CEF01F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_harvest",
+    "description": [
+      "<task task=\"10D3703D3C415FC3\" quest=\"496639EC3DC0165C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"538981D001CEF01F\" quest=\"496639EC3DC0165C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_harvest"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -208
+        ]
+      }
+    }
+  }
+}

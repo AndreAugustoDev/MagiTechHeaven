@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "25EFC21A3C48E0B6"
+  ],
+  "tasks": {
+    "60A94CD9FA76AF4B": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_spirited"
+    }
+  },
+  "rewards": {
+    "617FF7989E95A7FF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_cell_spirited",
+    "description": [
+      "<task task=\"60A94CD9FA76AF4B\" quest=\"486356E189081ADC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"617FF7989E95A7FF\" quest=\"486356E189081ADC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          528
+        ]
+      }
+    }
+  }
+}

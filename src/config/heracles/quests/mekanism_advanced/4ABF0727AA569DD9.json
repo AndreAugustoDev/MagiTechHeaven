@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "12D271359D48210E"
+  ],
+  "tasks": {
+    "34228001011C4524": {
+      "type": "heracles:item",
+      "item": "mekanism:electric_pump"
+    },
+    "1C627F3894C50E4E": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_filter"
+    }
+  },
+  "rewards": {
+    "5A40C3DB56EDA0E3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Fueling the Reactor: §cDeuterium§r",
+    "description": [
+      "<task task=\"34228001011C4524\" quest=\"4ABF0727AA569DD9\"/>",
+      "<task task=\"1C627F3894C50E4E\" quest=\"4ABF0727AA569DD9\"/>",
+      "<hr/>",
+      "To fuel our Fusion Reactor, we'll need to create two different gases, this one being &&cDeuterium&&r.",
+      "<br/>",
+      "To make this, we'll need to make some Electric Pumps and give them a Filter Upgrade. Place them over a source block of water, give them some power, and they'll pump out &&5Heavy Water&&r.",
+      "<br/>",
+      "Pump the Heavy Water into an Electrolytic Separator to get &&cDeuterium&&r.",
+      "<hr/>",
+      "<reward reward=\"5A40C3DB56EDA0E3\" quest=\"4ABF0727AA569DD9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:electric_pump"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          400,
+          -272
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C6719D81DE5A614"
+  ],
+  "tasks": {
+    "0B41D927E575771E": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:aureal_bottle"
+    }
+  },
+  "rewards": {
+    "68666FC2D57373D0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§9Aureal",
+    "description": [
+      "<task task=\"0B41D927E575771E\" quest=\"4DA04ABF4FF2625C\"/>",
+      "<hr/>",
+      "&&dAureal Bottles&&r can be found in loot chests, but they can also be crafted using Arcane Crystal Dust.",
+      "<br/>",
+      "You can also generate Aureal with Arcane Crystal Obelisks.",
+      "<hr/>",
+      "<reward reward=\"68666FC2D57373D0\" quest=\"4DA04ABF4FF2625C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:aureal_bottle"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          128,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "01C9E075D831E1AD": {
+      "type": "heracles:item",
+      "item": "productivebees:snow_nest"
+    }
+  },
+  "rewards": {
+    "5109858DAD10D79F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:snow_nest",
+    "description": [
+      "<h2>Lures the Sweat Bee in Cold Biomes</h2>",
+      "<hr/>",
+      "<task task=\"01C9E075D831E1AD\" quest=\"264BFB8C5F79616F\"/>",
+      "<hr/>",
+      "Placing a Snow Nest in a snowy biome will lure in a Sweat Bee.",
+      "<hr/>",
+      "<reward reward=\"5109858DAD10D79F\" quest=\"264BFB8C5F79616F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:snow_nest"
+    },
+    "subtitle": {
+      "text": "Lures the Sweat Bee in Cold Biomes"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -192,
+          112
+        ]
+      }
+    }
+  }
+}

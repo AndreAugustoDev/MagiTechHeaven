@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "74FC0DDDB91DB172"
+  ],
+  "tasks": {
+    "05A8DD006B623032": {
+      "type": "heracles:item",
+      "item": "ae2:quartz_fiber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3337CC6EF03730C7": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.fiber"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.fiber</translate></h2>",
+      "<hr/>",
+      "<task task=\"05A8DD006B623032\" quest=\"2077D64428E9C067\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.fiber</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3337CC6EF03730C7\" quest=\"2077D64428E9C067\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          800,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:quartz_fiber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.fiber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

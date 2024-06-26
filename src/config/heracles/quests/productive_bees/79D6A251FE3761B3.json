@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "255B5D268D66C748": {
+      "type": "heracles:item",
+      "item": "productivebees:slimy_nest"
+    }
+  },
+  "rewards": {
+    "4D2E30FE89E3148F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:slimy_nest",
+    "description": [
+      "<h2>Lures in a Slimy Bee in a Swamp Biome</h2>",
+      "<hr/>",
+      "<task task=\"255B5D268D66C748\" quest=\"79D6A251FE3761B3\"/>",
+      "<hr/>",
+      "When placed in a swamp biome, the Slimy Nest will lure in Slimy Bees.",
+      "<hr/>",
+      "<reward reward=\"4D2E30FE89E3148F\" quest=\"79D6A251FE3761B3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:slimy_nest"
+    },
+    "subtitle": {
+      "text": "Lures in a Slimy Bee in a Swamp Biome"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -192,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "5A51E26D66D1273B"
+  ],
+  "tasks": {
+    "35864460DFF78192": {
+      "type": "heracles:item",
+      "item": "minecraft:string",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3AE014AE6CF77A06": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"35864460DFF78192\" quest=\"1CBEB3ABB4260CC2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.string</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3AE014AE6CF77A06\" quest=\"1CBEB3ABB4260CC2\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -224,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:string",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.string"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09408C6DCAC90318"
+  ],
+  "tasks": {
+    "3939A98E3276095B": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_energy_cube"
+    }
+  },
+  "rewards": {
+    "24AB492929A83BB7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_energy_cube",
+    "description": [
+      "<task task=\"3939A98E3276095B\" quest=\"10909A87C1953F7C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"24AB492929A83BB7\" quest=\"10909A87C1953F7C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_energy_cube"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -64,
+          250
+        ]
+      }
+    }
+  }
+}

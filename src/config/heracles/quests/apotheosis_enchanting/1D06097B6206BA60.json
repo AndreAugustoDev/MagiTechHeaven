@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "5B3CC3F66F2C3DE5",
+    "50EEDDDE129D2742"
+  ],
+  "tasks": {
+    "0EE3A88719BB0221": {
+      "title": "Infusion",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "62BEA9EB0C5B1D25": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0EE3A88719BB0221\" quest=\"1D06097B6206BA60\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.infusion</translate></p>",
+      "<hr/>",
+      "<reward reward=\"62BEA9EB0C5B1D25\" quest=\"1D06097B6206BA60\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          64,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.infusion"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

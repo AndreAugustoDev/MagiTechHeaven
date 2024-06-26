@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "38003743B695C5C1": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_leap"
+    }
+  },
+  "rewards": {
+    "78BB5F978CE1F7D5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_leap",
+    "description": [
+      "<task task=\"38003743B695C5C1\" quest=\"00D329407250AC7B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"78BB5F978CE1F7D5\" quest=\"00D329407250AC7B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_leap"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -336
+        ]
+      }
+    }
+  }
+}

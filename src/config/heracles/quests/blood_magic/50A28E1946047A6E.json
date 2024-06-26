@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0E8418B42A744030"
+  ],
+  "tasks": {
+    "2D780C226FCF4A03": {
+      "type": "heracles:item",
+      "item": "bloodmagic:weak_tau"
+    }
+  },
+  "rewards": {
+    "4899CDA6BDDEB8C3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:weak_tau",
+    "description": [
+      "<task task=\"2D780C226FCF4A03\" quest=\"50A28E1946047A6E\"/>",
+      "<hr/>",
+      "Tau Fruit can be obtained from loot chests within the Hidden Realm. You'll need this to upgrade your Altar even further!",
+      "<br/>",
+      "Once collected, the fruit can be planted to farm it. However, it has 2 potential products instead of one.",
+      "<br/>",
+      "Growing the fruit naturally will result in more Tau Fruit, which can be turned into Oil. But what if we give it some blood......",
+      "<hr/>",
+      "<reward reward=\"4899CDA6BDDEB8C3\" quest=\"50A28E1946047A6E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:weak_tau"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -512,
+          64
+        ]
+      }
+    }
+  }
+}

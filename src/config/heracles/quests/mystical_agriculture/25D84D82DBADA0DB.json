@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BC4250E4C9F803C"
+  ],
+  "tasks": {
+    "238B6815E9C74478": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nickel_seeds"
+    }
+  },
+  "rewards": {
+    "0227BB7E1E0AEDF1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:nickel_seeds",
+    "description": [
+      "<task task=\"238B6815E9C74478\" quest=\"25D84D82DBADA0DB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0227BB7E1E0AEDF1\" quest=\"25D84D82DBADA0DB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nickel_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -160,
+          -128
+        ]
+      }
+    }
+  }
+}

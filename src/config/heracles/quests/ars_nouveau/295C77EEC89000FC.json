@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "227DBA8836021B0B"
+  ],
+  "tasks": {
+    "33072A37F4A28A77": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:vitalic_sourcelink"
+    }
+  },
+  "rewards": {
+    "42C6A17CF858CF08": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:vitalic_sourcelink",
+    "description": [
+      "<h2>Generates Source from Mob Deaths and Animal Breeding</h2>",
+      "<hr/>",
+      "<task task=\"33072A37F4A28A77\" quest=\"295C77EEC89000FC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"42C6A17CF858CF08\" quest=\"295C77EEC89000FC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:vitalic_sourcelink"
+    },
+    "subtitle": {
+      "text": "Generates Source from Mob Deaths and Animal Breeding"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          128,
+          112
+        ]
+      }
+    }
+  }
+}

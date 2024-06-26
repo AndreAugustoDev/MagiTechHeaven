@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "6904EC449FBEE387"
+  ],
+  "tasks": {
+    "2B39C12AEFA55C59": {
+      "type": "heracles:item",
+      "item": "refinedstorage:stack_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "0B3AB478E6493DBC": {
+      "type": "heracles:item",
+      "item": "refinedstorage:speed_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4B859F9679182D36": {
+      "item": {
+        "id": "refinedstorage:speed_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0B3AB478E6493DBC\" quest=\"2B27E4E04A628C60\"/>",
+      "<task task=\"2B39C12AEFA55C59\" quest=\"2B27E4E04A628C60\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.speeding</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4B859F9679182D36\" quest=\"2B27E4E04A628C60\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -240,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.speeding"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

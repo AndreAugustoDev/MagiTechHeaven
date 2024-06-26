@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5E2D15E4A410B5DA",
+    "308581359FEF32E9"
+  ],
+  "tasks": {
+    "3A104E7D6C6AA524": {
+      "type": "heracles:item",
+      "item": "bloodmagic:weakbloodshard"
+    },
+    "04EAE604D8B668B3": {
+      "type": "heracles:item",
+      "item": "bloodmagic:largebloodstonebrick"
+    },
+    "6C20FD13B73935A7": {
+      "type": "heracles:item",
+      "item": "bloodmagic:sanguinereverter"
+    }
+  },
+  "rewards": {
+    "3A386B0E3C9940DE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"3A104E7D6C6AA524\" quest=\"25343A0C4C22AA60\"/>",
+      "<task task=\"04EAE604D8B668B3\" quest=\"25343A0C4C22AA60\"/>",
+      "<task task=\"6C20FD13B73935A7\" quest=\"25343A0C4C22AA60\"/>",
+      "<hr/>",
+      "Hopefully by this point, you've been stocking up on some Demon Will with a Sentient Sword. If not, make sure to go and grab that part of the questline!",
+      "<br/>",
+      "With our Saturated Tau and our Alchemical Reaction Chamber, we can make the required materials to upgrade our Altar and Blood Orb, the &&4Weak Blood Shard&&r.",
+      "<br/>",
+      "This does require the Sanguine Reverter, which takes a couple of upgrades to your Tartaric Gem.",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"3A386B0E3C9940DE\" quest=\"25343A0C4C22AA60\"/>"
+    ],
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -448,
+          16
+        ]
+      }
+    }
+  }
+}

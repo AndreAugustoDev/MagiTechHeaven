@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "24165D460DCC2212": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:tool_swapper_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "54802B4F6EE4412E": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.tool"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.tool</translate></h2>",
+      "<hr/>",
+      "<task task=\"24165D460DCC2212\" quest=\"615B9062FE8CCD36\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"54802B4F6EE4412E\" quest=\"615B9062FE8CCD36\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -144,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:tool_swapper_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.tool"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

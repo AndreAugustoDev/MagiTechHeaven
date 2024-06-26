@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3514E9C1A8C7400C"
+  ],
+  "tasks": {
+    "782FFDDEED06401F": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:plant_fertilizer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:plant_fertilizer",
+    "description": [
+      "<task task=\"782FFDDEED06401F\" quest=\"0D2DD9AA960843A3\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:plant_fertilizer"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          144,
+          64
+        ]
+      }
+    }
+  }
+}

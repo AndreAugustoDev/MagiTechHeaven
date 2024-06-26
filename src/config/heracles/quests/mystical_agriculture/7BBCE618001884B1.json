@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4A96A0456680837C"
+  ],
+  "tasks": {
+    "790FD93CF3EFE86F": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:nether_star_crux"
+    }
+  },
+  "rewards": {
+    "433A4B914A5FA642": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:nether_star_crux",
+    "description": [
+      "<task task=\"790FD93CF3EFE86F\" quest=\"7BBCE618001884B1\"/>",
+      "<hr/>",
+      "Place this under the soil to allow Nether Star Seeds to grow.",
+      "<hr/>",
+      "<reward reward=\"433A4B914A5FA642\" quest=\"7BBCE618001884B1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:nether_star_crux"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          176,
+          -176
+        ]
+      }
+    }
+  }
+}

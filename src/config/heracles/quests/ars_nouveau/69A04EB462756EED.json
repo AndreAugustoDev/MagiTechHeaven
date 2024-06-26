@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "17413068980A17B1": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_underfoot"
+    }
+  },
+  "rewards": {
+    "408EBF04460254C7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_underfoot",
+    "description": [
+      "<task task=\"17413068980A17B1\" quest=\"69A04EB462756EED\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"408EBF04460254C7\" quest=\"69A04EB462756EED\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_underfoot"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -176
+        ]
+      }
+    }
+  }
+}

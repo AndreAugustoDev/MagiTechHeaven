@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "545B39FB8B2627AD": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_harm"
+    }
+  },
+  "rewards": {
+    "58343DFDAE1210BF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_harm",
+    "description": [
+      "<task task=\"545B39FB8B2627AD\" quest=\"00ABBF2CB07D573C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"58343DFDAE1210BF\" quest=\"00ABBF2CB07D573C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_harm"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -304
+        ]
+      }
+    }
+  }
+}

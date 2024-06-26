@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "407EFAF528871014"
+  ],
+  "tasks": {
+    "2C13E8B67BC61E34": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:gas_burning_generator"
+    }
+  },
+  "rewards": {
+    "5E48D3BDD3BDAF4C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:alloy_infused",
+        "count": 2
+      }
+    },
+    "56B7014FCB396F47": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanismgenerators:gas_burning_generator",
+    "description": [
+      "<h2>Burn Gases into Power!</h2>",
+      "<hr/>",
+      "<task task=\"2C13E8B67BC61E34\" quest=\"3EC9D0DA61B45328\"/>",
+      "<hr/>",
+      "This generator can burn both Hydrogen and Ethylene to produce power.",
+      "<br/>",
+      "Note: Burning Hydrogen will not produce more power than it costs to run an Electrolytic Separator. Use for Ethylene instead.",
+      "<hr/>",
+      "<reward reward=\"5E48D3BDD3BDAF4C\" quest=\"3EC9D0DA61B45328\"/>",
+      "<reward reward=\"56B7014FCB396F47\" quest=\"3EC9D0DA61B45328\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:gas_burning_generator"
+    },
+    "subtitle": {
+      "text": "Burn Gases into Power!"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -64,
+          -128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# 🪄 MagiTechHeaven ⚙️
+
+*MagiTechHeaven* is a *Minecraft 1.20.1* modpack that focuses on technology and magic.
+
+This modpack is created for those who enjoy exploring the latest and greatest in modding for Minecraft.
+
+It includes a wide variety of mods that enhance the gameplay experience, from magic spells and items to industrial and technological advancements.
+
+## 📜 License
+
+Licensed under xref:LICENSE.md[The MIT License]

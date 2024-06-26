@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "4B9E9497E44D0096"
+  ],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.reactor_heart</translate></h2>",
+      "<hr/>",
+      "<task task=\"62A0FE4CFAB9621B\" quest=\"75AD0CEBC1335915\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_heart</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2975B436F7D91A8A\" quest=\"75AD0CEBC1335915\"/>",
+      "<reward reward=\"38C141F047926833\" quest=\"75AD0CEBC1335915\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -176,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:basic_reactorcontroller",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.bigreactors.subt.reactor_heart"
+    },
+    "title": "block.bigreactors.basic_reactorcontroller"
+  },
+  "rewards": {
+    "2975B436F7D91A8A": {
+      "item": {
+        "count": 2,
+        "id": "bigreactors:basic_reactorcasing"
+      },
+      "type": "heracles:item"
+    },
+    "38C141F047926833": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "62A0FE4CFAB9621B": {
+      "item": "bigreactors:basic_reactorcontroller",
+      "type": "heracles:item"
+    }
+  }
+}

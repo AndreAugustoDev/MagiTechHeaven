@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "782E7DB1D1B935F9": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nature_seeds"
+    }
+  },
+  "rewards": {
+    "16F24663BFC84395": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:nature_seeds",
+    "description": [
+      "<task task=\"782E7DB1D1B935F9\" quest=\"40B13424FA523E11\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16F24663BFC84395\" quest=\"40B13424FA523E11\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nature_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -480,
+          -160
+        ]
+      }
+    }
+  }
+}

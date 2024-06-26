@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F436770D30D8520"
+  ],
+  "tasks": {
+    "21BFDF262D2A9DB3": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_oxidizer"
+    },
+    "3B5A283601BEADA0": {
+      "title": "Any Sulfur Dust",
+      "type": "heracles:item",
+      "item": "#forge:dusts/sulfur"
+    }
+  },
+  "rewards": {
+    "2F7DD21804D3F74C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"21BFDF262D2A9DB3\" quest=\"2E274BEEF2B0B8C7\"/>",
+      "<task task=\"3B5A283601BEADA0\" quest=\"2E274BEEF2B0B8C7\"/>",
+      "<hr/>",
+      "Okay, let's start with making Sulfur Dioxide first.",
+      "<br/>",
+      "Start by placing Gunpowder in a separate &&aChemical Injection Chamber&&r with Hydrogen Chloride to create Sulfur Dust. OR you can just pulverize Sulfur from Thermal Series into Sulfur Dust, it's up to you.",
+      "<br/>",
+      "Feeding the Sulfur Dust into this machine, the &&aChemical Oxidizer&&r, will create Sulfur Dioxide. Now we need to create Sulfur Trioxide.",
+      "<br/>",
+      "Send the Sulfur Dioxide into a Chemical Infuser to combine it with Oxygen to create Sulfur Trioxide. Send the Trioxide to another Chemical Infuser to combine it with Water Vapor to create Sulfuric Acid.",
+      "<br/>",
+      "It's a lot.",
+      "<hr/>",
+      "<reward reward=\"2F7DD21804D3F74C\" quest=\"2E274BEEF2B0B8C7\"/>"
+    ],
+    "groups": {
+      "Mekanism": {
+        "position": [
+          304,
+          -112
+        ]
+      }
+    }
+  }
+}

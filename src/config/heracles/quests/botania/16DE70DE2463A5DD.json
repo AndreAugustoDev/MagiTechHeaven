@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "50A2D68A83A50F47"
+  ],
+  "tasks": {
+    "337F2A21222F5FFC": {
+      "type": "heracles:item",
+      "item": "botania:flugel_eye"
+    }
+  },
+  "rewards": {
+    "020513DCA252A8B9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:flugel_eye",
+    "description": [
+      "<task task=\"337F2A21222F5FFC\" quest=\"16DE70DE2463A5DD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"020513DCA252A8B9\" quest=\"16DE70DE2463A5DD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:flugel_eye"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          864,
+          16
+        ]
+      }
+    }
+  }
+}

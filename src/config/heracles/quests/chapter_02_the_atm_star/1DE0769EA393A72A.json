@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {},
+  "rewards": {
+    "12C1E315460E29B6": {
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "naturesaura:book"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1B09D06A8E9FFDCA\" quest=\"1DE0769EA393A72A\"/>",
+      "<task task=\"2BFF8A71EA171A76\" quest=\"1DE0769EA393A72A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.nature</translate></p>",
+      "<hr/>",
+      "<reward reward=\"12C1E315460E29B6\" quest=\"1DE0769EA393A72A\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          -304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.nature"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

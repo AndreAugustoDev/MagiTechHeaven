@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E79F52147B606F9"
+  ],
+  "tasks": {
+    "1B4C9F78177AE9B5": {
+      "type": "heracles:item",
+      "item": "evilcraft:dark_power_gem"
+    }
+  },
+  "rewards": {
+    "64E447CC5A543294": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§dInfusing Gems with§r §cBlood§r",
+    "description": [
+      "<task task=\"1B4C9F78177AE9B5\" quest=\"64EC182B81BD8B86\"/>",
+      "<hr/>",
+      "To progress, we'll need to create our first &&5Dark Power Gem&&r.",
+      "<br/>",
+      "To do this, you'll need to collect at least 5 buckets worth of blood in your &&aBlood Extractor&&r. Once collected, make a hole with at least 5 blocks of space, and then fill it with the blood.",
+      "<br/>",
+      "Once you've created your pool of blood, toss in a &&9Dark Gem&&r to infuse it.",
+      "<hr/>",
+      "<reward reward=\"64E447CC5A543294\" quest=\"64EC182B81BD8B86\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:dark_power_gem"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          16,
+          128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "3E3DF8E967D95DB0"
+  ],
+  "tasks": {
+    "7D869E1310E92BED": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_ring",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "6590872EF147B7DF": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_entangled_singularity",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "20AA67ECEA653B99": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_link",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "25C4692C8D47D950": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7D869E1310E92BED\" quest=\"0B218DD73FE8D985\"/>",
+      "<task task=\"20AA67ECEA653B99\" quest=\"0B218DD73FE8D985\"/>",
+      "<task task=\"6590872EF147B7DF\" quest=\"0B218DD73FE8D985\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.quantum</translate></p>",
+      "<hr/>",
+      "<reward reward=\"25C4692C8D47D950\" quest=\"0B218DD73FE8D985\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          96,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.quantum"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

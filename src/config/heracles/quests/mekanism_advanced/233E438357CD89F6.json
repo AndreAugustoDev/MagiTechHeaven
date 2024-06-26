@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6313B18820445882"
+  ],
+  "tasks": {
+    "3E72FC25B884DFFC": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "mekanismgenerators:turbine_valve"
+    },
+    "4D32BE4920464ED0": {
+      "type": "heracles:item",
+      "amount": 24,
+      "item": "mekanismgenerators:turbine_vent"
+    },
+    "2C56599158C13CDF": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "mekanismgenerators:saturating_condenser"
+    }
+  },
+  "rewards": {
+    "0A4A1734D68DC205": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The §aPorts§r",
+    "description": [
+      "<task task=\"3E72FC25B884DFFC\" quest=\"233E438357CD89F6\"/>",
+      "<task task=\"4D32BE4920464ED0\" quest=\"233E438357CD89F6\"/>",
+      "<task task=\"2C56599158C13CDF\" quest=\"233E438357CD89F6\"/>",
+      "<hr/>",
+      "&&9Turbine Valves&&r are used to pump in &&bSteam&&r, as well as pumping out the power that the Turbine creates.",
+      "<br/>",
+      "&&8Turbine Vents&&r are used to pump out excess water when using &&aSaturating Condensers&&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limits the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces.",
+      "<br/>",
+      "&&aSaturating Condensers&&r are used to convert &&bSteam&&r back into water. These are placed on or above the layer containing the Electromagnetic Coils.",
+      "<hr/>",
+      "<reward reward=\"0A4A1734D68DC205\" quest=\"233E438357CD89F6\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          448,
+          -16
+        ]
+      }
+    }
+  }
+}

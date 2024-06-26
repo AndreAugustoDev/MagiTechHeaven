@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "61DBF366AFC8A579": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:recipe_book",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "54B713BDF265A213": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.book"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.book</translate></h2>",
+      "<hr/>",
+      "<task task=\"61DBF366AFC8A579\" quest=\"45F83C2750F70F9B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.book</translate></p>",
+      "<hr/>",
+      "<reward reward=\"54B713BDF265A213\" quest=\"45F83C2750F70F9B\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          16,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:recipe_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.book"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

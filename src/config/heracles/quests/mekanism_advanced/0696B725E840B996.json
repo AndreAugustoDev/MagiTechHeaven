@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1482F2D45E8F761D"
+  ],
+  "tasks": {
+    "057CDA5BC0C5F774": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "mekanismgenerators:fission_reactor_port"
+    }
+  },
+  "rewards": {
+    "11FABC06766669F5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Interacting with the Fission Reactor",
+    "description": [
+      "<task task=\"057CDA5BC0C5F774\" quest=\"0696B725E840B996\"/>",
+      "<hr/>",
+      "For us to take anything in or out of the Fission Reactor, we'll need &&aFission Reactor Ports&&r. These can be configured to input or output by using the &&9Configurator&&r. ",
+      "<br/>",
+      "Every Fission Reactor &&aneeds a minimum of 4 Ports&&r:",
+      "<br/>",
+      "1 Coolant Input",
+      "1 Coolant Output",
+      "1 Fissile Fuel Input",
+      "1 Waste Output",
+      "<br/>",
+      "For this starter build, let's put a port on each side like the image shown below. Make sure to configure them to match the list of inputs and outputs!",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"11FABC06766669F5\" quest=\"0696B725E840B996\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:fission_reactor_port"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          48,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "185FE487EF5B3069": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_disenchantment"
+    }
+  },
+  "rewards": {
+    "41D2AB7FDF96F0BD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_disenchantment",
+    "description": [
+      "<task task=\"185FE487EF5B3069\" quest=\"393A7BA6768A3F56\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"41D2AB7FDF96F0BD\" quest=\"393A7BA6768A3F56\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_disenchantment"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          464,
+          64
+        ]
+      }
+    }
+  }
+}

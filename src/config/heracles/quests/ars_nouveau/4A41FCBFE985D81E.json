@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "496294EBE15C66AD": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_glide"
+    }
+  },
+  "rewards": {
+    "400099F57136829D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_glide",
+    "description": [
+      "<task task=\"496294EBE15C66AD\" quest=\"4A41FCBFE985D81E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"400099F57136829D\" quest=\"4A41FCBFE985D81E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_glide"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          -240
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "03A4FFC4CFCA5DB7": {
+      "title": "i18n.quest.power.end",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "45BE4BD6F9CCB927": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.end"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.end</translate></h2>",
+      "<hr/>",
+      "<task task=\"03A4FFC4CFCA5DB7\" quest=\"3BDB94F17765EE77\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.end</translate></p>",
+      "<hr/>",
+      "<reward reward=\"45BE4BD6F9CCB927\" quest=\"3BDB94F17765EE77\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -112,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanismgenerators:fusion_reactor_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.end"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

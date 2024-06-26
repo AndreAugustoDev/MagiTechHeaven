@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "5365DC5EBDAB7F1F": {
+      "type": "heracles:item",
+      "item": "botania:orechid"
+    }
+  },
+  "rewards": {
+    "20318101FE4BAE80": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:orechid",
+    "description": [
+      "<task task=\"5365DC5EBDAB7F1F\" quest=\"58B0D3B672042B20\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20318101FE4BAE80\" quest=\"58B0D3B672042B20\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:orechid"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "299DE26FF7293F34": {
+      "title": "Electrum Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:electrum"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "6FA6170C19493AB7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Electrum Bees",
+    "description": [
+      "<h2>Gold + Silver</h2>",
+      "<hr/>",
+      "<task task=\"299DE26FF7293F34\" quest=\"3054D016D2EF25FF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6FA6170C19493AB7\" quest=\"3054D016D2EF25FF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:electrum_ingot"
+    },
+    "subtitle": {
+      "text": "Gold + Silver"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          448
+        ]
+      }
+    }
+  }
+}

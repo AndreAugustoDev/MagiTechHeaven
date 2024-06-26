@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "7F042DED357DEF3C"
+  ],
+  "tasks": {},
+  "rewards": {
+    "66E35FA659A0A347": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"01AAFC6ADF0C8844\" quest=\"5B3CC3F66F2C3DE5\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.seashelf</translate></p>",
+      "<hr/>",
+      "<reward reward=\"66E35FA659A0A347\" quest=\"5B3CC3F66F2C3DE5\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.seashelf"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

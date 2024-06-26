@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "117241986C99E475"
+  ],
+  "tasks": {
+    "429FA8057B666565": {
+      "title": "Lapis Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:lapis"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7633FEC136EBA1D4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    },
+    "1ED82242D8118B20": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:lapis"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Lapis Bees",
+    "description": [
+      "<h2>Redstone + Blue Banded</h2>",
+      "<hr/>",
+      "<task task=\"429FA8057B666565\" quest=\"100ACB5C8A359BF0\"/>",
+      "<hr/>",
+      "Breed a Redstone Bee with a Blue Banded Bee to get a Lapis Bee!",
+      "<hr/>",
+      "<reward reward=\"7633FEC136EBA1D4\" quest=\"100ACB5C8A359BF0\"/>",
+      "<reward reward=\"1ED82242D8118B20\" quest=\"100ACB5C8A359BF0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lapis_lazuli"
+    },
+    "subtitle": {
+      "text": "Redstone + Blue Banded"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          144
+        ]
+      }
+    }
+  }
+}

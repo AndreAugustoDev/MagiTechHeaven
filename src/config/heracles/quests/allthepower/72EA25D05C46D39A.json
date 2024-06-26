@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "76EA017B12E8F01B"
+  ],
+  "tasks": {
+    "460A67B09BD45CF4": {
+      "type": "heracles:item",
+      "item": "integrateddynamics:energy_battery",
+      "nbt": {
+        "energy": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "59A5734689019951": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.battery"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.battery</translate></h2>",
+      "<hr/>",
+      "<task task=\"460A67B09BD45CF4\" quest=\"72EA25D05C46D39A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.battery</translate></p>",
+      "<hr/>",
+      "<reward reward=\"59A5734689019951\" quest=\"72EA25D05C46D39A\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          64,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "integrateddynamics:energy_battery",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.battery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "71BD7D345E670234": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_starter"
+    },
+    "1F929F1DF23460AE": {
+      "title": "Binding Cards",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:binding_card"
+          },
+          {
+            "Count": 1,
+            "id": "powah:binding_card_dim"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "224C0B9104AF03F3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"71BD7D345E670234\" quest=\"677365A816994C8B\"/>",
+      "<task task=\"1F929F1DF23460AE\" quest=\"677365A816994C8B\"/>",
+      "<hr/>",
+      "The &&9Player Transmitter&&r will charge a player's items wirelessly. You must first bind this to a player using a &&9Binding Card&&r. This is the basic card which allows the transmitter to only work in the same dimension. You can upgrade this by using a &&dBinding Card (Dimensional)&&r instead. ",
+      "<br/>",
+      "Note: To get a Player Aerial Pearl, use an Aerial Pearl on a Zombie or Husk.",
+      "<hr/>",
+      "<reward reward=\"224C0B9104AF03F3\" quest=\"677365A816994C8B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -208,
+          368
+        ]
+      }
+    }
+  }
+}

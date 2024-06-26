@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "31FD9EA513E0D010"
+  ],
+  "tasks": {
+    "52D6F14FEB974305": {
+      "title": "Visit a Dark Temple",
+      "icon": {
+        "type": "heracles:item",
+        "item": "evilcraft:environmental_accumulator"
+      },
+      "type": "heracles:structure",
+      "structures": "evilcraft:dark_temple"
+    },
+    "22E342DF7C9197A7": {
+      "type": "heracles:item",
+      "item": "evilcraft:weather_container",
+      "nbt": {
+        "weather": "EMPTY"
+      }
+    }
+  },
+  "rewards": {
+    "1D2A6BD57767B921": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§9Dark Temples§r",
+    "description": [
+      "<task task=\"52D6F14FEB974305\" quest=\"2CB69634F6A6E53E\"/>",
+      "<task task=\"22E342DF7C9197A7\" quest=\"2CB69634F6A6E53E\"/>",
+      "<hr/>",
+      "These are hard to miss, considering they have a massive beam coming from the center.",
+      "<br/>",
+      "In the center of the &&9Dark Temple&&r is a &&aEnvironmental Accumulator&&r. ",
+      "<br/>",
+      "We can use this to empower and create several items that we'll need along the way, including &&dLightning Bombs&&r!",
+      "<hr/>",
+      "<reward reward=\"1D2A6BD57767B921\" quest=\"2CB69634F6A6E53E\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B81800EE6E77EF2"
+  ],
+  "tasks": {
+    "14A09EAF150777A3": {
+      "title": "Sulfur Dust",
+      "type": "heracles:item",
+      "item": "#forge:dusts/sulfur"
+    }
+  },
+  "rewards": {
+    "414A6E5BDC1A3B1E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§2Sulfuric Acid",
+    "description": [
+      "<h2>A Quick Recap</h2>",
+      "<hr/>",
+      "<task task=\"14A09EAF150777A3\" quest=\"31EEE2875595F315\"/>",
+      "<hr/>",
+      "You should have already made &&2Sulfuric Acid&&r for your Tier 4 Ore Processing facility, but here is a reminder on how to get it.",
+      "<br/>",
+      "Start by getting &&eSulfur Dust&&r either by crushing Sulfur from Thermal, or by mixing &&bHydrogen Chloride&&r with &&3Gunpowder&&r in a Chemical Dissolution Chamber.",
+      "<br/>",
+      "Take the Sulfur Dust and run it through a &&9Chemical Oxidizer&&r to get &&eSulfur Dioxide&&r. Combine that with &&bOxygen&&r in a Chemical Infuser to get &&eSulfur Trioxide&&r.",
+      "<br/>",
+      "Next, we'll combine &&bWater Vapor&&r with the Sulfur Trioxide to make &&2Sulfuric Acid&&r.",
+      "<hr/>",
+      "<reward reward=\"414A6E5BDC1A3B1E\" quest=\"31EEE2875595F315\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:sulfur_dust"
+    },
+    "subtitle": {
+      "text": "A Quick Recap"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          176,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "5FE74EB95A4EA4D1": {
+      "type": "heracles:item",
+      "item": "botania:blue_mystical_flower"
+    }
+  },
+  "rewards": {
+    "63E5B4F2FC93096F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:blue_mystical_flower",
+    "description": [
+      "<task task=\"5FE74EB95A4EA4D1\" quest=\"6CA3A5E801C82C19\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"63E5B4F2FC93096F\" quest=\"6CA3A5E801C82C19\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:blue_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          128,
+          -128
+        ]
+      }
+    }
+  }
+}

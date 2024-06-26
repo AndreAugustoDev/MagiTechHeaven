@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "3472B3099BD5EE5D": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_snare"
+    }
+  },
+  "rewards": {
+    "4C1EFACFEBA74106": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_snare",
+    "description": [
+      "<task task=\"3472B3099BD5EE5D\" quest=\"67A207CF6900F232\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C1EFACFEBA74106\" quest=\"67A207CF6900F232\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_snare"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -272
+        ]
+      }
+    }
+  }
+}

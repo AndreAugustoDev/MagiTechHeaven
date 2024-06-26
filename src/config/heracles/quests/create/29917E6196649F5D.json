@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F95F00ED78FBAB9"
+  ],
+  "tasks": {
+    "6A5BBAA13F1730F2": {
+      "type": "heracles:item",
+      "item": "create:speedometer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:speedometer",
+    "description": [
+      "<task task=\"6A5BBAA13F1730F2\" quest=\"29917E6196649F5D\"/>",
+      "<hr/>",
+      "The Speedometer will show you the speed of the currently connected gear."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:speedometer"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -16,
+          112
+        ]
+      }
+    }
+  }
+}

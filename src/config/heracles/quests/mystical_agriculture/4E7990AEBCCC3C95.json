@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BC4250E4C9F803C"
+  ],
+  "tasks": {
+    "275EBE6C08104C69": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:uranium_seeds"
+    }
+  },
+  "rewards": {
+    "0745782C26D0B543": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:uranium_seeds",
+    "description": [
+      "<task task=\"275EBE6C08104C69\" quest=\"4E7990AEBCCC3C95\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0745782C26D0B543\" quest=\"4E7990AEBCCC3C95\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:uranium_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -176
+        ]
+      }
+    }
+  }
+}

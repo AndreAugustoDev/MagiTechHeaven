@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73349B993DE69954"
+  ],
+  "tasks": {
+    "0BC04910ED51A3A5": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "forbidden_arcanus:darkstone_pedestal"
+    }
+  },
+  "rewards": {
+    "434F08CC0F88F901": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Darkstone Pedestals",
+    "description": [
+      "<task task=\"0BC04910ED51A3A5\" quest=\"76BC484FC50EAEC3\"/>",
+      "<hr/>",
+      "To enchant items, you'll need Darkstone Pedestals placed around the Forge.",
+      "<br/>",
+      "Make sure to place these on the Arcane Chiseled Polished Darkstone.",
+      "<hr/>",
+      "<reward reward=\"434F08CC0F88F901\" quest=\"76BC484FC50EAEC3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:darkstone_pedestal"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          64,
+          48
+        ]
+      }
+    }
+  }
+}

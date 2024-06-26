@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "1AE233B4CCFE99F7": {
+      "type": "heracles:item",
+      "item": "mekanism:enrichment_chamber"
+    }
+  },
+  "rewards": {
+    "4DF8BB733E3987AA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:raw_iron",
+        "count": 3
+      }
+    },
+    "0C4A930404601471": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:enrichment_chamber",
+    "description": [
+      "<h2>Breaks Raw Ores into Dusts</h2>",
+      "<hr/>",
+      "<task task=\"1AE233B4CCFE99F7\" quest=\"08DDE018A804BFE7\"/>",
+      "<hr/>",
+      "This machine works like a Macerator or Pulverizer, and will break ores down into dusts.",
+      "<br/>",
+      "This breaks 3 raw ores down into 4 dusts.",
+      "<br/>",
+      "This is the start of your Ore Factory. It can also be upgraded to a factory machine, increasing the slots of use.",
+      "<hr/>",
+      "<reward reward=\"4DF8BB733E3987AA\" quest=\"08DDE018A804BFE7\"/>",
+      "<reward reward=\"0C4A930404601471\" quest=\"08DDE018A804BFE7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:enrichment_chamber"
+    },
+    "subtitle": {
+      "text": "Breaks Raw Ores into Dusts"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -128,
+          -64
+        ]
+      }
+    }
+  }
+}

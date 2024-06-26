@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "072131C19C185896": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:mechanical_drill",
+    "description": [
+      "<task task=\"072131C19C185896\" quest=\"3029E1E133B91ED8\"/>",
+      "<hr/>",
+      "The &&n&&5Drill&&r will break any block in front of it. If it has a connected inventory, the items will be stored in it."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          96,
+          112
+        ]
+      }
+    }
+  }
+}

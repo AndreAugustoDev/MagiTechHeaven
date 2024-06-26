@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "50348CD6A080A1D1": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:everlasting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "16FFA5DD686C0084": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.everlasting"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.everlasting</translate></h2>",
+      "<hr/>",
+      "<task task=\"50348CD6A080A1D1\" quest=\"037415D5B965E214\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16FFA5DD686C0084\" quest=\"037415D5B965E214\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          0,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:everlasting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.everlasting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

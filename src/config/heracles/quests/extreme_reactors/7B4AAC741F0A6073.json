@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4B9E9497E44D0096"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"1FC2120A22A7BAEC\" quest=\"7B4AAC741F0A6073\"/>",
+      "<task task=\"14C67262D9F8A9A8\" quest=\"7B4AAC741F0A6073\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.gregtech.desc.reactor_control_rods</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3165C37A9C6F4AA4\" quest=\"7B4AAC741F0A6073\"/>",
+      "<reward reward=\"332E2A363D91F6E9\" quest=\"7B4AAC741F0A6073\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -192,
+          176
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.reactor_control_rods"
+  },
+  "rewards": {
+    "3165C37A9C6F4AA4": {
+      "item": {
+        "count": 2,
+        "id": "bigreactors:basic_reactorcasing"
+      },
+      "type": "heracles:item"
+    },
+    "332E2A363D91F6E9": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "14C67262D9F8A9A8": {
+      "item": "bigreactors:basic_reactorfuelrod",
+      "type": "heracles:item"
+    },
+    "1FC2120A22A7BAEC": {
+      "item": "bigreactors:basic_reactorcontrolrod",
+      "type": "heracles:item"
+    }
+  }
+}

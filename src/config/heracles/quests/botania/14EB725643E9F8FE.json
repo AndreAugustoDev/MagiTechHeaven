@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "24EBCD71A8C65AAE": {
+      "type": "heracles:item",
+      "item": "botania:lens_piston"
+    }
+  },
+  "rewards": {
+    "235D599CD40C83BA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_piston",
+    "description": [
+      "<task task=\"24EBCD71A8C65AAE\" quest=\"14EB725643E9F8FE\"/>",
+      "<hr/>",
+      "Allows the Mana Burst to move a block just as if a piston would.",
+      "<hr/>",
+      "<reward reward=\"235D599CD40C83BA\" quest=\"14EB725643E9F8FE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_piston"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          480,
+          368
+        ]
+      }
+    }
+  }
+}

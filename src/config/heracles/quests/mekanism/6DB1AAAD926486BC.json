@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "58B125BD4876054C"
+  ],
+  "tasks": {
+    "54BEF9EA9F1D4374": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_fluid_tank"
+    }
+  },
+  "rewards": {
+    "2DF1E2F8B6BF2589": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bucket"
+      }
+    },
+    "13F85F8598002FFE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_fluid_tank",
+    "description": [
+      "<h2>It has a BUCKET MODE!</h2>",
+      "<hr/>",
+      "<task task=\"54BEF9EA9F1D4374\" quest=\"6DB1AAAD926486BC\"/>",
+      "<hr/>",
+      "This item stores liquids.",
+      "<br/>",
+      "It has a bucket mode which can be toggled to scoop up liquids with it. Very useful for lava in §aChapter 1§r: §bThe Beginning§r!",
+      "<hr/>",
+      "<reward reward=\"2DF1E2F8B6BF2589\" quest=\"6DB1AAAD926486BC\"/>",
+      "<reward reward=\"13F85F8598002FFE\" quest=\"6DB1AAAD926486BC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_fluid_tank"
+    },
+    "subtitle": {
+      "text": "It has a BUCKET MODE!"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          112,
+          224
+        ]
+      }
+    }
+  }
+}

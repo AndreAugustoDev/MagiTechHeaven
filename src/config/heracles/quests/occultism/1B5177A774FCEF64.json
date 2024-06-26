@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C873491F6F0FFAF"
+  ],
+  "tasks": {
+    "2B674654193E542F": {
+      "type": "heracles:item",
+      "item": "occultism:chalk_white_impure"
+    },
+    "370267FD8FDE9D4F": {
+      "type": "heracles:item",
+      "item": "occultism:chalk_white"
+    },
+    "476F220D083B2C99": {
+      "type": "heracles:item",
+      "item": "occultism:brush"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Preparing for a Ritual: §eChalk§r",
+    "description": [
+      "<task task=\"2B674654193E542F\" quest=\"1B5177A774FCEF64\"/>",
+      "<task task=\"370267FD8FDE9D4F\" quest=\"1B5177A774FCEF64\"/>",
+      "<task task=\"476F220D083B2C99\" quest=\"1B5177A774FCEF64\"/>",
+      "<hr/>",
+      "Before we start enlisting the help of our Demon friends, we will need to create the most important item needed for Rituals: &&aChalk&&r.",
+      "<br/>",
+      "There are several colors of chalk needed, with higher level Rituals requiring several to activate. To start with, &&bWhite Chalk&&r is the easiest to get.",
+      "<br/>",
+      "Start by tossing Otherstone in a furnace, and tossing Otherworld Logs into &&dSpiritfire&&r. With the items you create, you'll be able to make the Impure White Chalk.",
+      "<br/>",
+      "To purify any piece of Chalk, simply throw it into &&dSpiritfire&&r to cleanse it. Using the Purified Chalk on the ground will draw &&mdemonic&&r pretty symbols on the ground. These are a pain to remove, unless of course, you make yourself the &&aChalk Brush&&r. Do it, it's worth it."
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          368,
+          32
+        ]
+      }
+    }
+  }
+}

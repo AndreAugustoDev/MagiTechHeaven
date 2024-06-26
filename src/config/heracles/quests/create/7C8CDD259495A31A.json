@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "07162DA2FD7B0E05": {
+      "type": "heracles:item",
+      "item": "create:andesite_tunnel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:andesite_tunnel",
+    "description": [
+      "<task task=\"07162DA2FD7B0E05\" quest=\"7C8CDD259495A31A\"/>",
+      "<hr/>",
+      "The &&n&&5Tunnels&&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_tunnel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "3CB5441C8E4480CC": {
+      "type": "heracles:item",
+      "item": "silentgear:lining_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "37525488AF6404B2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3CB5441C8E4480CC\" quest=\"2098D8BFADB55D2A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"37525488AF6404B2\" quest=\"2098D8BFADB55D2A\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          320,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:lining_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.lining"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

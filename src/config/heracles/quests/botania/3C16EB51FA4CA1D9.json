@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "4117B65D86284D80": {
+      "type": "heracles:item",
+      "item": "botania:lime_mystical_flower"
+    }
+  },
+  "rewards": {
+    "08B4BC73CBCACDC9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lime_mystical_flower",
+    "description": [
+      "<task task=\"4117B65D86284D80\" quest=\"3C16EB51FA4CA1D9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08B4BC73CBCACDC9\" quest=\"3C16EB51FA4CA1D9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lime_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          96,
+          -128
+        ]
+      }
+    }
+  }
+}

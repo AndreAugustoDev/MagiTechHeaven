@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6A2B2C5E2ADCE366"
+  ],
+  "tasks": {
+    "6DDC631193C9A496": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:upgrade_base"
+    }
+  },
+  "rewards": {
+    "5B9CB28C6BC4759D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "sophisticatedbackpacks:upgrade_base",
+        "count": 2
+      }
+    },
+    "4B2F25D7E70DD87F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 5
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.upgrade_base",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.upgrade_base</translate></h2>",
+      "<hr/>",
+      "<task task=\"6DDC631193C9A496\" quest=\"1FE052F643401232\"/>",
+      "<hr/>",
+			"\<translate>i18n.quest.storage.desc.upgrade_base</translate></p>
+			<hr/>","<reward reward=\"5B9CB28C6BC4759D\" quest=\"1FE052F643401232\"/>",
+      "<reward reward=\"4B2F25D7E70DD87F\" quest=\"1FE052F643401232\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.upgrade_base"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          128
+        ]
+      }
+    }
+  }
+}

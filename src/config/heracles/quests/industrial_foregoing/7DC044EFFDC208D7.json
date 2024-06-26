@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "4AF8DF7BC38E419B": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_slimey"
+    }
+  },
+  "rewards": {
+    "5EF23943495FF756": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_slimey",
+    "description": [
+      "<task task=\"4AF8DF7BC38E419B\" quest=\"7DC044EFFDC208D7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5EF23943495FF756\" quest=\"7DC044EFFDC208D7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_slimey"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          400,
+          64
+        ]
+      }
+    }
+  }
+}

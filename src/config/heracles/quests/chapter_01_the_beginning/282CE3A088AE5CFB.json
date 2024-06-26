@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "5CF320E9C4C1B1E1"
+  ],
+  "tasks": {
+    "746C44D800F4E4FB": {
+      "type": "heracles:item",
+      "item": "minecraft:crafting_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7A8E604C248E9E0B": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"746C44D800F4E4FB\" quest=\"282CE3A088AE5CFB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.crafting</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7A8E604C248E9E0B\" quest=\"282CE3A088AE5CFB\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          0,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.crafting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

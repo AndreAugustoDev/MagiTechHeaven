@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "5237B4381DA7BE1B": {
+      "type": "heracles:item",
+      "item": "thermal:upgrade_augment_3"
+    }
+  },
+  "rewards": {
+    "6724D7DE6CC92091": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:upgrade_augment_3",
+    "description": [
+      "<h2>Tier 3 Base Upgrade</h2>",
+      "<hr/>",
+      "<task task=\"5237B4381DA7BE1B\" quest=\"034FC4BCCCD7D154\"/>",
+      "<hr/>",
+      "Note: While you can put several base upgrades into a machine, only the highest tier takes effect.",
+      "<hr/>",
+      "<reward reward=\"6724D7DE6CC92091\" quest=\"034FC4BCCCD7D154\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:upgrade_augment_3"
+    },
+    "subtitle": {
+      "text": "Tier 3 Base Upgrade"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          80,
+          64
+        ]
+      }
+    }
+  }
+}

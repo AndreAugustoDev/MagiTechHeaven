@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "4F813C90DC8DE4F0": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_factory"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:enchantment_factory",
+    "description": [
+      "<task task=\"4F813C90DC8DE4F0\" quest=\"287B47E27EBC2C18\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_factory"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          432,
+          128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "3CF6151060ADB889": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:wand"
+    }
+  },
+  "rewards": {
+    "60BB52FF66A48FA2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:wand",
+    "description": [
+      "<task task=\"3CF6151060ADB889\" quest=\"111649D7E16D869F\"/>",
+      "<hr/>",
+      "The &&9Caster's Wand&&r only accepts a single spell, and is inscribed using the Scribe's Table.",
+      "<br/>",
+      "Wand spells always start with Projectile > Accelerate, and MUST be inscribed with a spell that does not have another method (like touch, self, etc).",
+      "<br/>",
+      "This allows you to cast spells beyond the 10 spell cap. If you want to use Break, just inscribe the wand with Break by itself.",
+      "<hr/>",
+      "<reward reward=\"60BB52FF66A48FA2\" quest=\"111649D7E16D869F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:wand"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          336,
+          48
+        ]
+      }
+    }
+  }
+}

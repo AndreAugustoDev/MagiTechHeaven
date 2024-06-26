@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55C8DD9A754545BD"
+  ],
+  "tasks": {
+    "63C10CF0EF19F2C8": {
+      "type": "heracles:item",
+      "item": "thermal:machine_smelter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: thermal:machine_smelter",
+    "description": [
+      "<h2>The Alloy Maker</h2>",
+      "<hr/>",
+      "<task task=\"63C10CF0EF19F2C8\" quest=\"452F51995AD0461C\"/>",
+      "<hr/>",
+      "The Induction Furnace combines materials into new alloys.",
+      "<br/>",
+      "This is also useful when smelting Ancient Debris into Netherite Scraps."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_smelter"
+    },
+    "subtitle": {
+      "text": "The Alloy Maker"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    }
+  }
+}

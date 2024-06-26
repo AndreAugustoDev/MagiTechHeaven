@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "072FBEB0F6F1BC48"
+  ],
+  "tasks": {
+    "4AC0DA5197DEBC7B": {
+      "type": "heracles:item",
+      "item": "functionalstorage:compacting_drawer"
+    }
+  },
+  "rewards": {
+    "20DD94A587AC244E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "functionalstorage:copper_upgrade"
+      }
+    },
+    "7438B1DD5423F325": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.compacting",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.compacting</translate></h2>",
+      "<hr/>",
+      "<task task=\"4AC0DA5197DEBC7B\" quest=\"2B422B7E0CE3590D\"/>",
+      "<hr/>",
+.*"<p><translate>i18n.quest.storage.desc.compacting</translate></p>",
+      "<hr/>",
+      "<reward reward=\"20DD94A587AC244E\" quest=\"2B422B7E0CE3590D\"/>",
+      "<reward reward=\"7438B1DD5423F325\" quest=\"2B422B7E0CE3590D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:compacting_drawer"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.compacting"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -192,
+          -144
+        ]
+      }
+    }
+  }
+}

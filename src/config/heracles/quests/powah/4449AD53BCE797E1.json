@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6EFB4BF8110F2712"
+  ],
+  "tasks": {
+    "355DD6351F004027": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_spirited"
+    }
+  },
+  "rewards": {
+    "576792D73AB84741": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cell_spirited",
+    "description": [
+      "<task task=\"355DD6351F004027\" quest=\"4449AD53BCE797E1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"576792D73AB84741\" quest=\"4449AD53BCE797E1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          528
+        ]
+      }
+    }
+  }
+}

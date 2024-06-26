@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6CA01A42CC183F87": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:tank_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "198BF862B3BF5ABA": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.tank"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.tank</translate></h2>",
+      "<hr/>",
+      "<task task=\"6CA01A42CC183F87\" quest=\"0D4C64DD58567758\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"198BF862B3BF5ABA\" quest=\"0D4C64DD58567758\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:tank_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.tank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

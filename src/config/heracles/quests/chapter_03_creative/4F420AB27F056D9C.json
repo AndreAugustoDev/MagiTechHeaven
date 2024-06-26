@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "464D0C17601E8A2B"
+  ],
+  "tasks": {
+    "23419C4DB7C1E5CB": {
+      "type": "heracles:item",
+      "item": "pipez:infinity_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"23419C4DB7C1E5CB\" quest=\"4F420AB27F056D9C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7AABD1369C9574CC\" quest=\"4F420AB27F056D9C\"/>",
+      "<reward reward=\"0F0A6F37DB362775\" quest=\"4F420AB27F056D9C\"/>"
+    ],
+    "groups": {
+      "§aChapter 3§r: §dCreative": {
+        "position": [
+          -96,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "pipez:infinity_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter3.power"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

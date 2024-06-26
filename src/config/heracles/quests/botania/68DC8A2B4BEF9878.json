@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26",
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "1C3B5F68898949A4": {
+      "type": "heracles:item",
+      "item": "botania:lens_paint"
+    }
+  },
+  "rewards": {
+    "2BE5158003577809": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_paint",
+    "description": [
+      "<task task=\"1C3B5F68898949A4\" quest=\"68DC8A2B4BEF9878\"/>",
+      "<hr/>",
+      "Needs to be dyed with a color first.",
+      "<br/>",
+      "Allows the Mana Bursts to paint any colorable block it hits, as well as any colorable block it is connected to. It also works on sheep. ",
+      "<hr/>",
+      "<reward reward=\"2BE5158003577809\" quest=\"68DC8A2B4BEF9878\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_paint"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          448,
+          464
+        ]
+      }
+    }
+  }
+}

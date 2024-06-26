@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "3AE63F706CF41E9B": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor"
+    }
+  },
+  "rewards": {
+    "6C5045E055FD5551": {
+      "type": "heracles:item",
+      "item": {
+        "id": "industrialforegoing:conveyor",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:conveyor",
+    "description": [
+      "<task task=\"3AE63F706CF41E9B\" quest=\"616CFD4078D67B51\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6C5045E055FD5551\" quest=\"616CFD4078D67B51\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "2D879A34A5788CCC"
+  ],
+  "tasks": {},
+  "rewards": {
+    "18EEB670636B9671": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3C95552D03C16F3D\" quest=\"672134A1A620EEAB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.power_storage</translate></p>",
+      "<hr/>",
+      "<reward reward=\"18EEB670636B9671\" quest=\"672134A1A620EEAB\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          480,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.power_storage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

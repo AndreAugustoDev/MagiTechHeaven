@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "3930404D5C8B44EB"
+  ],
+  "tasks": {
+    "03C944C082828C47": {
+      "type": "heracles:item",
+      "item": "silentgear:starlight_charger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5920F91CCD994BE4": {
+      "xptype": "POINTS",
+      "amount": 20,
+      "type": "heracles:xp"
+    },
+    "514A9B0ACDD05365": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.starlight_charger"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.starlight_charger</translate></h2>",
+      "<hr/>",
+      "<task task=\"03C944C082828C47\" quest=\"7C3D763CF22D167A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.starlight_charger</translate></p>",
+      "<hr/>",
+      "<reward reward=\"514A9B0ACDD05365\" quest=\"7C3D763CF22D167A\"/>",
+      "<reward reward=\"5920F91CCD994BE4\" quest=\"7C3D763CF22D167A\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          464,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:starlight_charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.starlight_charger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "2A80E3849EB6A71D": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_hex"
+    }
+  },
+  "rewards": {
+    "43BD5FE7A425EB01": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_hex",
+    "description": [
+      "<task task=\"2A80E3849EB6A71D\" quest=\"44D5ABE34271D7FE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43BD5FE7A425EB01\" quest=\"44D5ABE34271D7FE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_hex"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          64,
+          -208
+        ]
+      }
+    }
+  }
+}

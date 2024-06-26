@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DE0F289821F55D1"
+  ],
+  "tasks": {
+    "1ED2F7B4B900BDD1": {
+      "type": "heracles:item",
+      "item": "occultism:otherworld_goggles"
+    }
+  },
+  "rewards": {
+    "66AF59413C4ADCF3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Quit Eating That Fruit!",
+    "description": [
+      "<task task=\"1ED2F7B4B900BDD1\" quest=\"2A5004EB99AE4F96\"/>",
+      "<hr/>",
+      "There are more Otherworld items you will need to gather, and eating &&cDemon's Dream Fruit&&r every time you need the &&7Third Eye&&r effect gets annoying.",
+      "<br/>",
+      "This is what the &&dOtherworld Goggles&&r are for! When equipped (even in your Curios slot), it gives the Third Eye effect!",
+      "<hr/>",
+      "<reward reward=\"66AF59413C4ADCF3\" quest=\"2A5004EB99AE4F96\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:otherworld_goggles"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          352,
+          256
+        ]
+      }
+    }
+  }
+}

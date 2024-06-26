@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6B2027DA7AA6FF34"
+  ],
+  "tasks": {
+    "21FC6D010E5D5360": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "powah:dielectric_paste"
+    },
+    "499AF83C86984D26": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_casing"
+    }
+  },
+  "rewards": {
+    "4E8234C1477A2822": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Starting with Dielectric Mats",
+    "description": [
+      "<task task=\"21FC6D010E5D5360\" quest=\"7E92ED270C67FDE5\"/>",
+      "<task task=\"499AF83C86984D26\" quest=\"7E92ED270C67FDE5\"/>",
+      "<hr/>",
+      "Almost every single machine you can make in the mod will require a &&9Dielectric Casing&&r.",
+      "<br/>",
+      "You'll need to make the &&bPaste&&r first, as well as some &&aRods&&r to progress!",
+      "<hr/>",
+      "<reward reward=\"4E8234C1477A2822\" quest=\"7E92ED270C67FDE5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_casing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          208
+        ]
+      }
+    }
+  }
+}

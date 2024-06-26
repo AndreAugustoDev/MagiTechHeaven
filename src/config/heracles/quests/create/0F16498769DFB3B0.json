@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57A7A5C79389A96A"
+  ],
+  "tasks": {
+    "5D2B9139C49F5ABA": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "create:andesite_alloy"
+    }
+  },
+  "rewards": {
+    "50217BC8953EBD3E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:andesite",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:andesite_alloy",
+    "description": [
+      "<task task=\"5D2B9139C49F5ABA\" quest=\"0F16498769DFB3B0\"/>",
+      "<hr/>",
+      "This will be the main ingredient for most of this mod's items and blocks.",
+      "<hr/>",
+      "<reward reward=\"50217BC8953EBD3E\" quest=\"0F16498769DFB3B0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          -112
+        ]
+      }
+    }
+  }
+}

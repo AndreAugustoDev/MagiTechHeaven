@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "65C8A43FEDBA3835"
+  ],
+  "tasks": {
+    "202A7EA0318662C5": {
+      "type": "heracles:item",
+      "item": "refinedstorage:crafter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3351B9B6898579ED": {
+      "item": {
+        "id": "refinedstorage:pattern",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.crafter"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.crafter</translate></h2>",
+      "<hr/>",
+      "<task task=\"202A7EA0318662C5\" quest=\"44881E39AB1D62AA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.crafter</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3351B9B6898579ED\" quest=\"44881E39AB1D62AA\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          64,
+          -272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:crafter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.crafter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

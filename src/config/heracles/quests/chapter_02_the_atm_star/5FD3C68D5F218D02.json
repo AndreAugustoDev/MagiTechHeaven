@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "376DE283F77F6524": {
+      "type": "heracles:item",
+      "item": "botania:life_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"376DE283F77F6524\" quest=\"5FD3C68D5F218D02\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.botania",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -80,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:life_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.botania"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4B51189C36B8D291"
+  ],
+  "tasks": {
+    "5D7178C2EF652773": {
+      "type": "heracles:item",
+      "item": "bloodmagic:daggerofsacrifice"
+    }
+  },
+  "rewards": {
+    "050236926D942519": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    },
+    "217032A5D292D4A1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:egg",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:daggerofsacrifice",
+    "description": [
+      "<h2>Tired of Stabbing Yourself?</h2>",
+      "<hr/>",
+      "<task task=\"5D7178C2EF652773\" quest=\"5361F72BAB72D318\"/>",
+      "<hr/>",
+      "Now you can stab others to use their Blood instead!",
+      "<br/>",
+      "Stabbing any mob within 2 blocks of your Altar with one of these will insta-kill them and drain their LP into your Altar!",
+      "<br/>",
+      "If you have Runes of Sacrifice around your Altar, you'll get more per kill.",
+      "<br/>",
+      "I'm also totally not giving you 16 eggs for you to potentially get chickens for blood. Totally just for cooking. ",
+      "<hr/>",
+      "<reward reward=\"050236926D942519\" quest=\"5361F72BAB72D318\"/>",
+      "<reward reward=\"217032A5D292D4A1\" quest=\"5361F72BAB72D318\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:daggerofsacrifice"
+    },
+    "subtitle": {
+      "text": "Tired of Stabbing Yourself?"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -768,
+          -80
+        ]
+      }
+    }
+  }
+}

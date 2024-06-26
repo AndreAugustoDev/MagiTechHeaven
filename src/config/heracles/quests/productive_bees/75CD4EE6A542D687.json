@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "263F0E416A8E1110": {
+      "title": "Copper Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:copper"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "4AD65F5EA93306F1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Copper Bees",
+    "description": [
+      "<h2>Crystalline + Ashy Mining</h2>",
+      "<hr/>",
+      "<task task=\"263F0E416A8E1110\" quest=\"75CD4EE6A542D687\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"4AD65F5EA93306F1\" quest=\"75CD4EE6A542D687\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot"
+    },
+    "subtitle": {
+      "text": "Crystalline + Ashy Mining"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          64,
+          352
+        ]
+      }
+    }
+  }
+}

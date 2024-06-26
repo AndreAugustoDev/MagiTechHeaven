@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "7B9B459AAB9F6483": {
+      "type": "heracles:item",
+      "item": "create:mechanical_plough"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:mechanical_plough",
+    "description": [
+      "<task task=\"7B9B459AAB9F6483\" quest=\"0759CA52EECF3B49\"/>",
+      "<hr/>",
+      "The &&n&&5Plough&&r will destroy any non-solid block, turn dirt into farmland and launch entities without doing damage. If it has a connected inventory, the items will be stored in it."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_plough"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          48
+        ]
+      }
+    }
+  }
+}

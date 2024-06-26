@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "195729280394ABFB"
+  ],
+  "tasks": {
+    "69CEEFADCFA28675": {
+      "type": "heracles:item",
+      "item": "mekanism:ingot_refined_obsidian"
+    }
+  },
+  "rewards": {
+    "66D918CA2A6FE21B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:enriched_refined_obsidian"
+      }
+    },
+    "0E6DCEACCB6074DF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ingot_refined_obsidian",
+    "description": [
+      "<task task=\"69CEEFADCFA28675\" quest=\"31B73D16C0199785\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"66D918CA2A6FE21B\" quest=\"31B73D16C0199785\"/>",
+      "<reward reward=\"0E6DCEACCB6074DF\" quest=\"31B73D16C0199785\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -240,
+          16
+        ]
+      }
+    }
+  }
+}

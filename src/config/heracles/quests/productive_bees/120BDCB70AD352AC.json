@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "359396879CBA62D5": {
+      "title": "Nest Spawning",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0B45A4897BE75592": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Nest Spawning",
+    "description": [
+      "<h2>Honey Treats Required</h2>",
+      "<hr/>",
+      "<task task=\"359396879CBA62D5\" quest=\"120BDCB70AD352AC\"/>",
+      "<hr/>",
+      "If you want to turn your Bee Farm into a factory for resources, you'll need to start by spawning in Bees with &&6Nests&&r.",
+      "<br/>",
+      "The nests must be placed in specific biomes, which you can find in the JEI for it (look for the I icon at the top).",
+      "<br/>",
+      "To lure in a bee to the nest, right click on it with a &&9Honey Treat&&r. Nests will not work without the treats!!",
+      "<br/>",
+      "&&9Important Note&&r: Certain bees will only live in Nests and will not go into Advanced Hives. If they don't produce a honeycomb, they need to live in a nest instead.",
+      "<hr/>",
+      "<reward reward=\"0B45A4897BE75592\" quest=\"120BDCB70AD352AC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Honey Treats Required"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -64,
+          144
+        ]
+      }
+    }
+  }
+}

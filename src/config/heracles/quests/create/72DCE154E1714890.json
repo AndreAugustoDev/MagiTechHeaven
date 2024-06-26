@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "36C1D75275CE2AAB": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:mechanical_saw",
+    "description": [
+      "<task task=\"36C1D75275CE2AAB\" quest=\"72DCE154E1714890\"/>",
+      "<hr/>",
+      "The &&n&&5Saw&&r will harvest trees in front of it. It can also be used as a Sawmill. If it has a connected inventory, the items will be stored in it."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          80,
+          80
+        ]
+      }
+    }
+  }
+}

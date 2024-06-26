@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "195729280394ABFB"
+  ],
+  "tasks": {
+    "532EE85D4748D50D": {
+      "type": "heracles:item",
+      "item": "mekanism:ingot_refined_glowstone"
+    }
+  },
+  "rewards": {
+    "356543506AA2B6B0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glowstone_dust",
+        "count": 2
+      }
+    },
+    "7B3AD733695E004D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ingot_refined_glowstone",
+    "description": [
+      "<task task=\"532EE85D4748D50D\" quest=\"58445E5B3957ACC8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"356543506AA2B6B0\" quest=\"58445E5B3957ACC8\"/>",
+      "<reward reward=\"7B3AD733695E004D\" quest=\"58445E5B3957ACC8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ingot_refined_glowstone"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -272,
+          16
+        ]
+      }
+    }
+  }
+}

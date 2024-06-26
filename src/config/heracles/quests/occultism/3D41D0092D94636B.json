@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "47358ADC1470C82A"
+  ],
+  "tasks": {
+    "070E5E92D50F02D1": {
+      "title": "Observe &dSpiritfire&r",
+      "icon": {
+        "type": "heracles:item",
+        "item": "ftbquests:custom_icon"
+      },
+      "type": "heracles:block_interaction",
+      "block": "occultism:spirit_fire"
+    }
+  },
+  "rewards": {
+    "5248E4D377A75048": {
+      "type": "heracles:item",
+      "item": {
+        "id": "occultism:datura",
+        "count": 2
+      }
+    },
+    "70852D7A479998AA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "The Flames of §9The Otherworld§r",
+    "description": [
+      "<task task=\"070E5E92D50F02D1\" quest=\"3D41D0092D94636B\"/>",
+      "<hr/>",
+      "What if I told you that the Demon's Fruit is flammable?",
+      "<br/>",
+      "Throwing our &&cDemon's Dream Fruit&&r down and setting it on fire will create &&dSpiritfire&&r. This is how we'll convert some overworld items into &&9Otherworld&&r materials.",
+      "<br/>",
+      "It's also pretty.",
+      "<hr/>",
+      "<reward reward=\"5248E4D377A75048\" quest=\"3D41D0092D94636B\"/>",
+      "<reward reward=\"70852D7A479998AA\" quest=\"3D41D0092D94636B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ftbquests:custom_icon"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          192,
+          0
+        ]
+      }
+    }
+  }
+}

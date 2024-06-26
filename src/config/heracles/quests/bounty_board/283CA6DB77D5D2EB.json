@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "1F18B64C84C8809D"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"5801AF8000768808\" quest=\"283CA6DB77D5D2EB\"/>",
+      "<hr/>",
+      "<reward reward=\"39C45D0CB4075128\" quest=\"283CA6DB77D5D2EB\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          64,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:spider_eye",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.spider.10"
+  },
+  "rewards": {
+    "39C45D0CB4075128": {
+      "amount": 20,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "5801AF8000768808": {
+      "amount": 10,
+      "entity": {
+        "type": "minecraft:spider"
+      },
+      "icon": {
+        "item": "minecraft:spider_eye",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.spider.10",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35FA55BE8DF49EE8"
+  ],
+  "tasks": {
+    "2789A057B859F93B": {
+      "type": "heracles:item",
+      "item": "evilcraft:mace_of_destruction",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 4000
+      }
+    }
+  },
+  "rewards": {
+    "2D6B2B067E478156": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:mace_of_destruction",
+    "description": [
+      "<task task=\"2789A057B859F93B\" quest=\"290FAB3DE8FD04E7\"/>",
+      "<hr/>",
+      "Works like the &&aMace of Distortion&&r, except it causes an AoE explosion instead.",
+      "<hr/>",
+      "<reward reward=\"2D6B2B067E478156\" quest=\"290FAB3DE8FD04E7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:mace_of_destruction"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          368,
+          0
+        ]
+      }
+    }
+  }
+}

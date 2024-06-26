@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "3280A874803F3976": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_sunrise"
+    }
+  },
+  "rewards": {
+    "5FCADF47120B444F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_sunrise",
+    "description": [
+      "<task task=\"3280A874803F3976\" quest=\"43784C83C8A76E8B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5FCADF47120B444F\" quest=\"43784C83C8A76E8B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_sunrise"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          256,
+          176
+        ]
+      }
+    }
+  }
+}

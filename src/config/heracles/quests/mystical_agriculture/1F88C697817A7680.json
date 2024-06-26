@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1CC4F8570A7A99EB"
+  ],
+  "tasks": {
+    "51547F271EAC0A87": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:inferium_apple"
+    }
+  },
+  "rewards": {
+    "5CCA33558E177F51": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagriculture:inferium_essence"
+      }
+    },
+    "0CCC0CB700A57992": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:inferium_apple",
+    "description": [
+      "<task task=\"51547F271EAC0A87\" quest=\"1F88C697817A7680\"/>",
+      "<hr/>",
+      "Better than a golden apple, and a tasty snack!",
+      "<br/>",
+      "Higher tiers give more hunger and saturation, as well as more buffs.",
+      "<hr/>",
+      "<reward reward=\"5CCA33558E177F51\" quest=\"1F88C697817A7680\"/>",
+      "<reward reward=\"0CCC0CB700A57992\" quest=\"1F88C697817A7680\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:inferium_apple"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -592,
+          -80
+        ]
+      }
+    }
+  }
+}

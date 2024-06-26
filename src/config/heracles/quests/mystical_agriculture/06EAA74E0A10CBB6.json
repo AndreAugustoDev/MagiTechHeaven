@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "77C281598A060103": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_growth_accelerator"
+    }
+  },
+  "rewards": {
+    "3ED2B39F0EC37469": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:imperium_growth_accelerator",
+    "description": [
+      "<task task=\"77C281598A060103\" quest=\"06EAA74E0A10CBB6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3ED2B39F0EC37469\" quest=\"06EAA74E0A10CBB6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_growth_accelerator"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -176,
+          -16
+        ]
+      }
+    }
+  }
+}

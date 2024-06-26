@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2E9FC7DC2AC6FD8E",
+    "1FAAF8216CDC3AC6"
+  ],
+  "tasks": {
+    "63C9D54A0F55BA9B": {
+      "type": "heracles:item",
+      "amount": 60,
+      "item": "mekanism:sps_casing"
+    },
+    "6236D6215419A2EF": {
+      "type": "heracles:item",
+      "amount": 122,
+      "item": "mekanism:structural_glass"
+    },
+    "769C396EE20CD89D": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "mekanism:sps_port"
+    }
+  },
+  "rewards": {
+    "34DCA3CB7F03E0E4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:sps_port"
+      }
+    },
+    "7805E5E238BB92F1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§dSupercritical Phase Shifter",
+    "description": [
+      "<task task=\"63C9D54A0F55BA9B\" quest=\"068728DE3B9B13C3\"/>",
+      "<task task=\"6236D6215419A2EF\" quest=\"068728DE3B9B13C3\"/>",
+      "<task task=\"769C396EE20CD89D\" quest=\"068728DE3B9B13C3\"/>",
+      "<hr/>",
+      "The &&dSupercritical Phase Shifter&&r (SPS for short) is another multiblock structure used to infuse Polonium with large amounts of power to create &&dAntimatter&&r gas, which can be crystallized into pellets.",
+      "<br/>",
+      "To build the SPS, you'll need to make a total of 72 &&9SPS Casings&&r (60 for the build, 12 to make the ports), 3 &&9SPS Ports&&r, 122 Reactor Glass, and one other item we'll talk about in the next quest. Let's get the materials first!",
+      "<hr/>",
+      "<reward reward=\"34DCA3CB7F03E0E4\" quest=\"068728DE3B9B13C3\"/>",
+      "<reward reward=\"7805E5E238BB92F1\" quest=\"068728DE3B9B13C3\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          192,
+          -112
+        ]
+      }
+    }
+  }
+}

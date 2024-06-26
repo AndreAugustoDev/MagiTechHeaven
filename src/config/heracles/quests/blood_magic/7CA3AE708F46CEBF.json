@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "431C44439CA54077"
+  ],
+  "tasks": {
+    "57F75D0B2554BA61": {
+      "type": "heracles:item",
+      "item": "bloodmagic:demonslate"
+    }
+  },
+  "rewards": {
+    "0FE381A79B163DDA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:demonslate",
+    "description": [
+      "<task task=\"57F75D0B2554BA61\" quest=\"7CA3AE708F46CEBF\"/>",
+      "<hr/>",
+      "The last piece of Slate that has any use...",
+      "<br/>",
+      "yet.",
+      "<hr/>",
+      "<reward reward=\"0FE381A79B163DDA\" quest=\"7CA3AE708F46CEBF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:demonslate"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -448,
+          -80
+        ]
+      }
+    }
+  }
+}

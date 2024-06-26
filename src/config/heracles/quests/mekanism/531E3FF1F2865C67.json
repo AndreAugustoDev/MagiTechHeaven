@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1B6DDF50D00CBB31"
+  ],
+  "tasks": {
+    "5F4FEC0FD7C5CC33": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_thermodynamic_conductor"
+    }
+  },
+  "rewards": {
+    "434BA009CC22D188": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_thermodynamic_conductor",
+        "count": 4
+      }
+    },
+    "02D46DE414B9402B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_thermodynamic_conductor",
+    "description": [
+      "<h2>For Transferring Heat</h2>",
+      "<hr/>",
+      "<task task=\"5F4FEC0FD7C5CC33\" quest=\"531E3FF1F2865C67\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"434BA009CC22D188\" quest=\"531E3FF1F2865C67\"/>",
+      "<reward reward=\"02D46DE414B9402B\" quest=\"531E3FF1F2865C67\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_thermodynamic_conductor"
+    },
+    "subtitle": {
+      "text": "For Transferring Heat"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          144,
+          128
+        ]
+      }
+    }
+  }
+}

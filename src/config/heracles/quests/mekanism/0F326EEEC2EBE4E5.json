@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08DDE018A804BFE7"
+  ],
+  "tasks": {
+    "4B60ACBCC3B46D1D": {
+      "type": "heracles:item",
+      "item": "mekanism:enriched_carbon"
+    }
+  },
+  "rewards": {
+    "1B7E6CC9019F43AB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:enriched_carbon",
+        "count": 2
+      }
+    },
+    "04127BD3A4706FE4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Enriched Items",
+    "description": [
+      "<h2>Enrich your items first!</h2>",
+      "<hr/>",
+      "<task task=\"4B60ACBCC3B46D1D\" quest=\"0F326EEEC2EBE4E5\"/>",
+      "<hr/>",
+      "Using the Enrichment Chamber, you can enrich items to convert them into Enriched variants.",
+      "<br/>",
+      "These \"Enriched\" items give 8x the amount of mb in a Metallurgic Infuser.",
+      "<br/>",
+      "If you plan on making a bunch of steel, Enrich your Charcoal first!",
+      "<hr/>",
+      "<reward reward=\"1B7E6CC9019F43AB\" quest=\"0F326EEEC2EBE4E5\"/>",
+      "<reward reward=\"04127BD3A4706FE4\" quest=\"0F326EEEC2EBE4E5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:enriched_carbon"
+    },
+    "subtitle": {
+      "text": "Enrich your items first!"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -128,
+          -16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0F3D51FFD2FE8DCB"
+  ],
+  "tasks": {
+    "43762D6B09E48291": {
+      "type": "heracles:item",
+      "item": "minecraft:ancient_debris",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "4346DAC18183627E": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"43762D6B09E48291\" quest=\"5E799B92358A8732\"/>",
+      "<task task=\"4346DAC18183627E\" quest=\"5E799B92358A8732\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.netherite}"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          432,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.netherite"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

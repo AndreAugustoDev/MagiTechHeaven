@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2CB69634F6A6E53E"
+  ],
+  "tasks": {
+    "40BB2C59D2A857BF": {
+      "type": "heracles:item",
+      "item": "evilcraft:mace_of_distortion",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 4000
+      }
+    }
+  },
+  "rewards": {
+    "06E13CEE3DF1FC56": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:mace_of_distortion",
+    "description": [
+      "<task task=\"40BB2C59D2A857BF\" quest=\"56FB82DEB944F758\"/>",
+      "<hr/>",
+      "Holding right click will charge up the Mace to do an AoE attack using &&cBlood&&r. Sneak-right clicking will change the power level. The higher the power level, the more damage it will do at a higher cost of Blood.",
+      "<hr/>",
+      "<reward reward=\"06E13CEE3DF1FC56\" quest=\"56FB82DEB944F758\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:mace_of_distortion"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          384,
+          -16
+        ]
+      }
+    }
+  }
+}

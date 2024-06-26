@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "18F8BF7CC5B3126D": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:jukebox_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3285596442FF6447": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.jukebox"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.jukebox</translate></h2>",
+      "<hr/>",
+      "<task task=\"18F8BF7CC5B3126D\" quest=\"53F861876B991C36\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3285596442FF6447\" quest=\"53F861876B991C36\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -144,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:jukebox_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.jukebox"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

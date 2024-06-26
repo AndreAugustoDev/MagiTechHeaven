@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "1357FF84B9B133C4": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:mechanical_harvester",
+    "description": [
+      "<task task=\"1357FF84B9B133C4\" quest=\"4C31649D721F76B5\"/>",
+      "<hr/>",
+      "The &&n&&5Harvester&&r will harvest any crops it goes over. If it has a connected inventory, the items will be stored in it."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          48,
+          16
+        ]
+      }
+    }
+  }
+}

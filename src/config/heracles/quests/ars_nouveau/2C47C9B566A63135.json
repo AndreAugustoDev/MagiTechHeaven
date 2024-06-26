@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D86B2E553503E53"
+  ],
+  "tasks": {
+    "5646241FF2CF806B": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:whirlisprig_charm"
+    }
+  },
+  "rewards": {
+    "22F6119959883273": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:whirlisprig_charm",
+    "description": [
+      "<task task=\"5646241FF2CF806B\" quest=\"2C47C9B566A63135\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"22F6119959883273\" quest=\"2C47C9B566A63135\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:whirlisprig_charm"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          336,
+          -96
+        ]
+      }
+    }
+  }
+}

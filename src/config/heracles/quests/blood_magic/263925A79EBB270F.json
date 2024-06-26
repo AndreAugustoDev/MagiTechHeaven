@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CA3AE708F46CEBF"
+  ],
+  "tasks": {
+    "46C11FFD8A06B63E": {
+      "type": "heracles:item",
+      "item": "bloodmagic:duskscribetool"
+    },
+    "088CD8231DD1A37A": {
+      "type": "heracles:item",
+      "item": "bloodmagic:ritualdivinerdusk"
+    }
+  },
+  "rewards": {
+    "6647598F7C4C2325": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Tier II rituals",
+    "description": [
+      "<task task=\"46C11FFD8A06B63E\" quest=\"263925A79EBB270F\"/>",
+      "<task task=\"088CD8231DD1A37A\" quest=\"263925A79EBB270F\"/>",
+      "<hr/>",
+      "Now we'll need to make the Dusk version of the Ritual Diviner.",
+      "<br/>",
+      "This gives us access to even more rituals, including the ritual that gets us to the Demon Realm. ",
+      "<hr/>",
+      "<reward reward=\"6647598F7C4C2325\" quest=\"263925A79EBB270F\"/>"
+    ],
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -400,
+          -80
+        ]
+      }
+    }
+  }
+}

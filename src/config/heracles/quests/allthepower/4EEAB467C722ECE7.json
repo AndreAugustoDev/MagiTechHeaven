@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "1F81EA5E45424308"
+  ],
+  "tasks": {
+    "467584E3BB06E9CD": {
+      "type": "heracles:item",
+      "item": "pipez:energy_pipe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5299A78587A00044": {
+      "type": "heracles:item",
+      "item": "pipez:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4FE5FAE1AA387086": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "08460933939CF881": {
+      "item": {
+        "id": "pipez:energy_pipe",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"467584E3BB06E9CD\" quest=\"4EEAB467C722ECE7\"/>",
+      "<task task=\"5299A78587A00044\" quest=\"4EEAB467C722ECE7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.pipez</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4FE5FAE1AA387086\" quest=\"4EEAB467C722ECE7\"/>",
+      "<reward reward=\"08460933939CF881\" quest=\"4EEAB467C722ECE7\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -336,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.pipez"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

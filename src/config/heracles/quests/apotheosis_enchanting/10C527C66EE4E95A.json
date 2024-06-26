@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "0C596CB7C7C24615"
+  ],
+  "tasks": {},
+  "rewards": {
+    "6EAD8EAE57E2CDCF": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2AE7BBE870F24DCB\" quest=\"10C527C66EE4E95A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.Soul_sculk</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6EAD8EAE57E2CDCF\" quest=\"10C527C66EE4E95A\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          224,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.Soul_sculk"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

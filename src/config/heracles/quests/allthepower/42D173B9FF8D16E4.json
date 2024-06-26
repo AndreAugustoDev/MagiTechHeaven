@@ -1,0 +1,57 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "55F3497E936C4885": {
+      "title": "Burning Fuel for Power",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0CE525ECCA99C748": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.early"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.early</translate></h2>",
+      "<hr/>",
+      "<task task=\"55F3497E936C4885\" quest=\"42D173B9FF8D16E4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.early</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0CE525ECCA99C748\" quest=\"42D173B9FF8D16E4\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -160,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:coal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.early"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

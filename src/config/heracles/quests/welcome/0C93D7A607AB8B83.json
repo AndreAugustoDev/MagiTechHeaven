@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "103C42C743E2A2DB": {
+      "title": "Claiming Chunks",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1B044C35466AFAEF": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"103C42C743E2A2DB\" quest=\"0C93D7A607AB8B83\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.welcome.desc.claims1</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.welcome.desc.claims2</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.welcome.desc.claims3</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1B044C35466AFAEF\" quest=\"0C93D7A607AB8B83\"/>"
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          144,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.welcome.claims"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

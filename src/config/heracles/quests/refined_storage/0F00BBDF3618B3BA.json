@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "43E8912CB307E421"
+  ],
+  "tasks": {
+    "5B74E6CB7AB75F92": {
+      "type": "heracles:item",
+      "item": "refinedstorage:crafting_grid",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5B74E6CB7AB75F92\" quest=\"0F00BBDF3618B3BA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.crafting_grid}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          48,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:crafting_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.crafting_grid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

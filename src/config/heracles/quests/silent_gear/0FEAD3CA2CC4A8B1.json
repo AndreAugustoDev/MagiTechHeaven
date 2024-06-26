@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "7C3D763CF22D167A"
+  ],
+  "tasks": {
+    "4B244AC889982750": {
+      "type": "heracles:item",
+      "item": "silentgear:starmetal_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3645936047468429": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "149C0884AF0F9C96": {
+      "item": {
+        "id": "silentgear:starmetal_dust",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4B244AC889982750\" quest=\"0FEAD3CA2CC4A8B1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"149C0884AF0F9C96\" quest=\"0FEAD3CA2CC4A8B1\"/>",
+      "<reward reward=\"3645936047468429\" quest=\"0FEAD3CA2CC4A8B1\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          496,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:starmetal_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.SG.tier3SGC"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

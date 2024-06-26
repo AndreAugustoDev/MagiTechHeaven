@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "4B044D41247AC672": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:cognizant_dust"
+    }
+  },
+  "rewards": {
+    "08A14FAD1B4AADD0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§5Cognizant Dust",
+    "description": [
+      "<task task=\"4B044D41247AC672\" quest=\"1CF8263756EE8F2A\"/>",
+      "<hr/>",
+      "This special &&eDust&&r is dropped from the Wither and the Ender Dragon when killed by an &&dEssence Weapon&&r enchanted with &&dMystical Enlightenment&&r.",
+      "<hr/>",
+      "<reward reward=\"08A14FAD1B4AADD0\" quest=\"1CF8263756EE8F2A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:cognizant_dust"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

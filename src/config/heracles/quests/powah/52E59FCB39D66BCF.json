@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "6D3CE4788C112806": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_starter"
+    }
+  },
+  "rewards": {
+    "6DB5053765546C84": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:thermo_generator_starter",
+    "description": [
+      "<task task=\"6D3CE4788C112806\" quest=\"52E59FCB39D66BCF\"/>",
+      "<hr/>",
+      "One of the best options for \"Passive Power\", the &&9Thermal Generator&&r will produce FE when placed over a &&cHeat Source&&r and given a steady supply of water.",
+      "<br/>",
+      "There are currently 3 blocks you can place this over: a Magma block which produces the lowest, a lava source block which is a little better, or a &&cBlock of Blazing Crystal&&r, which provides the most heat. ",
+      "<hr/>",
+      "<reward reward=\"6DB5053765546C84\" quest=\"52E59FCB39D66BCF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          176,
+          368
+        ]
+      }
+    }
+  }
+}

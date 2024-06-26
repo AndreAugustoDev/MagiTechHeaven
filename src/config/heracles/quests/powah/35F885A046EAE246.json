@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BCA3F716348ECCD",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "66DEF2F1E882F41E": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_basic"
+    }
+  },
+  "rewards": {
+    "5ED5D54F02F272AE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_hopper_basic",
+    "description": [
+      "<task task=\"66DEF2F1E882F41E\" quest=\"35F885A046EAE246\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5ED5D54F02F272AE\" quest=\"35F885A046EAE246\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          400
+        ]
+      }
+    }
+  }
+}

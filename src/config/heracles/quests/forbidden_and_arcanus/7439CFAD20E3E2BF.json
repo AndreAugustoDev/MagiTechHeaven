@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2894F11A73335179"
+  ],
+  "tasks": {
+    "78493C576C4F0F87": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_bone_meal"
+    }
+  },
+  "rewards": {
+    "029C949DE3C11683": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:arcane_bone_meal",
+    "description": [
+      "<h2>Use on Farmland to make it Magical!</h2>",
+      "<hr/>",
+      "<task task=\"78493C576C4F0F87\" quest=\"7439CFAD20E3E2BF\"/>",
+      "<hr/>",
+      "Using this bone meal on Farmland will convert it to Magical Farmland.",
+      "<br/>",
+      "Crops will produce double the output when grown on Magical Farmland.",
+      "<hr/>",
+      "<reward reward=\"029C949DE3C11683\" quest=\"7439CFAD20E3E2BF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_bone_meal"
+    },
+    "subtitle": {
+      "text": "Use on Farmland to make it Magical!"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -176,
+          112
+        ]
+      }
+    }
+  }
+}

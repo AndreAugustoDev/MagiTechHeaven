@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "31EEE2875595F315"
+  ],
+  "tasks": {
+    "452FBF76102210BD": {
+      "title": "Any #forge:gems/fluorite",
+      "type": "heracles:item",
+      "item": "#forge:gems/fluorite"
+    },
+    "4F5A28143EFF4944": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_dissolution_chamber"
+    }
+  },
+  "rewards": {
+    "5AEF7913046DC6FB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§bHydrofluoric Acid",
+    "description": [
+      "<task task=\"452FBF76102210BD\" quest=\"187A3F5B41D1C923\"/>",
+      "<task task=\"4F5A28143EFF4944\" quest=\"187A3F5B41D1C923\"/>",
+      "<hr/>",
+      "Let's take our &&2Sulfuric Acid&&r and combine it with &&bFluorite&&r in a &&9Chemical Dissolution Chamber&&r to make &&bHydrofluoric Acid&&r.",
+      "<br/>",
+      "We're almost there!",
+      "<hr/>",
+      "<reward reward=\"5AEF7913046DC6FB\" quest=\"187A3F5B41D1C923\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          224,
+          48
+        ]
+      }
+    }
+  }
+}

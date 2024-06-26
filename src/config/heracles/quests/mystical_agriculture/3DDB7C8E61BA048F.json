@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "02578ADBCFF855EA": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nether_seeds"
+    }
+  },
+  "rewards": {
+    "0F1447BFF43A612E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:nether_seeds",
+    "description": [
+      "<task task=\"02578ADBCFF855EA\" quest=\"3DDB7C8E61BA048F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F1447BFF43A612E\" quest=\"3DDB7C8E61BA048F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:nether_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -480,
+          -192
+        ]
+      }
+    }
+  }
+}

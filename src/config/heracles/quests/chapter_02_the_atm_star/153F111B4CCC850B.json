@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "6F0DCB2CDD368088",
+    "652DBDD284873140"
+  ],
+  "tasks": {
+    "3D3372C05B445DFA": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:eternal_stella",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "562028607C486543": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3D3372C05B445DFA\" quest=\"153F111B4CCC850B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"562028607C486543\" quest=\"153F111B4CCC850B\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -208,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "forbidden_arcanus:eternal_stella",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.eternal_stella"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

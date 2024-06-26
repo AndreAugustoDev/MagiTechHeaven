@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "0752E680F9DE4039"
+  ],
+  "tasks": {
+    "63C2682DA7129BE1": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:backpack",
+      "nbt": {
+        "inventorySlots": 27,
+        "upgradeSlots": 1
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2A88291C5526A88C": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"63C2682DA7129BE1\" quest=\"00BD90363CA2D893\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.backpack</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2A88291C5526A88C\" quest=\"00BD90363CA2D893\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -128,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.backpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

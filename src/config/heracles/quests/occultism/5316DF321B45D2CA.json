@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "tasks": {
+    "4B0A4027FACE9108": {
+      "type": "heracles:item",
+      "item": "occultism:datura_seeds"
+    }
+  },
+  "rewards": {
+    "042DA96F1C15434A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§dDreaming of§r §cDemons§r",
+    "description": [
+      "<task task=\"4B0A4027FACE9108\" quest=\"5316DF321B45D2CA\"/>",
+      "<hr/>",
+      "Welcome to &&dOccultism&&r!",
+      "<br/>",
+      "This mod aimes to help the player in many different ways by enlisting the help of &&c&&mDemons&&r &&bSpirits&&r! Don't worry, they are friendly. &&oMostly&&r.",
+      "<br/>",
+      "To get started, you'll need to get some &&aDemon's Fruit Seeds&&r.",
+      "<hr/>",
+      "<reward reward=\"042DA96F1C15434A\" quest=\"5316DF321B45D2CA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ftbquests:custom_icon"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

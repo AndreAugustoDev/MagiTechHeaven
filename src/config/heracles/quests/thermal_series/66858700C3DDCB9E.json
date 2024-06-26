@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "590869F3AE44A956": {
+      "type": "heracles:item",
+      "item": "thermal:device_potion_diffuser"
+    }
+  },
+  "rewards": {
+    "479CC02BC1343DBE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:device_potion_diffuser",
+    "description": [
+      "<task task=\"590869F3AE44A956\" quest=\"66858700C3DDCB9E\"/>",
+      "<hr/>",
+      "Spreads Potion Effects to an area.",
+      "<hr/>",
+      "<reward reward=\"479CC02BC1343DBE\" quest=\"66858700C3DDCB9E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:device_potion_diffuser"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -144,
+          -96
+        ]
+      }
+    }
+  }
+}

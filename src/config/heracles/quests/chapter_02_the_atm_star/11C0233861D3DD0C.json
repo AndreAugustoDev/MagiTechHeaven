@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "09EF804D70C856FB"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3908C778F8451988\" quest=\"11C0233861D3DD0C\"/>",
+      "<task task=\"36E3BB50691AFC71\" quest=\"11C0233861D3DD0C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.creosote}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -464,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.creosote"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

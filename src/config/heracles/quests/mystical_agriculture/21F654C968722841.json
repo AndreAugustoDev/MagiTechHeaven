@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BC4250E4C9F803C"
+  ],
+  "tasks": {
+    "5E6AA14A531DC749": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:fluorite_seeds"
+    }
+  },
+  "rewards": {
+    "340FBF5541CBF858": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:fluorite_seeds",
+    "description": [
+      "<task task=\"5E6AA14A531DC749\" quest=\"21F654C968722841\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"340FBF5541CBF858\" quest=\"21F654C968722841\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:fluorite_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -128,
+          -128
+        ]
+      }
+    }
+  }
+}

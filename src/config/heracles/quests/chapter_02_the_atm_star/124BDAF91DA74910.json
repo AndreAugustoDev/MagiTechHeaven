@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "7BB6AE1BDF0D3EB7": {
+      "type": "heracles:item",
+      "item": "irons_spellbooks:fire_upgrade_orb",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "17586358EA27FD5D": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7BB6AE1BDF0D3EB7\" quest=\"124BDAF91DA74910\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.spells</translate></p>",
+      "<hr/>",
+      "<reward reward=\"17586358EA27FD5D\" quest=\"124BDAF91DA74910\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          192,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "irons_spellbooks:fire_upgrade_orb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.spells"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

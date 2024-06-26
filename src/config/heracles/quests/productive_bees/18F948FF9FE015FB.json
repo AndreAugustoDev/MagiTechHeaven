@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "4E787C04DB76613F": {
+      "type": "heracles:item",
+      "item": "productivebees:honeycomb_powdery"
+    }
+  },
+  "rewards": {
+    "4C709117DECA0969": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "CreeBee",
+    "description": [
+      "<h2>Feed a Vanilla Bee TNT!</h2>",
+      "<hr/>",
+      "<task task=\"4E787C04DB76613F\" quest=\"18F948FF9FE015FB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C709117DECA0969\" quest=\"18F948FF9FE015FB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:creeper_head"
+    },
+    "subtitle": {
+      "text": "Feed a Vanilla Bee TNT!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          368
+        ]
+      }
+    }
+  }
+}

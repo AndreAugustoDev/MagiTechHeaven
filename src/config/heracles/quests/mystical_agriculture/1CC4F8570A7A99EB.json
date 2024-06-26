@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "tasks": {
+    "667004CD0469493D": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_essence"
+    }
+  },
+  "rewards": {
+    "3D25E7ADCE8DD795": {
+      "type": "heracles:item",
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "mysticalagriculture:guide"
+        }
+      }
+    },
+    "4D30539341658032": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagriculture:inferium_essence"
+      }
+    },
+    "4E46C1C19FFFCCD0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§aInferium Essence§r",
+    "description": [
+      "<h2>&&bTier 1&&r</h2>",
+      "<hr/>",
+      "<task task=\"667004CD0469493D\" quest=\"1CC4F8570A7A99EB\"/>",
+      "<hr/>",
+      "&&dEssence&&r is the starting point for all of your growing needs in Mystical Agriculture. ",
+      "<br/>",
+      "&&eInferium Essence&&r is the base tier of all essences. You can get this from mining, killing mobs, or by making seeds to grow them!",
+      "<br/>",
+      "To make the bigger and better essences, you'll need to make an &&9Infusion Crystal&&r. ",
+      "<hr/>",
+      "<reward reward=\"3D25E7ADCE8DD795\" quest=\"1CC4F8570A7A99EB\"/>",
+      "<reward reward=\"4D30539341658032\" quest=\"1CC4F8570A7A99EB\"/>",
+      "<reward reward=\"4E46C1C19FFFCCD0\" quest=\"1CC4F8570A7A99EB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_essence"
+    },
+    "subtitle": {
+      "text": "§bTier 1§r"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -624,
+          -48
+        ]
+      }
+    }
+  }
+}

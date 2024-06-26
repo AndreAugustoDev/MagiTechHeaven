@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "640B83A35EB10103": {
+      "type": "heracles:item",
+      "item": "silentgear:hammer_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "350D7AB75BA2D89D": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.hammer"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.hammer</translate></h2>",
+      "<hr/>",
+      "<task task=\"640B83A35EB10103\" quest=\"262036FE8E87F50A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"350D7AB75BA2D89D\" quest=\"262036FE8E87F50A\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -128,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:hammer_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

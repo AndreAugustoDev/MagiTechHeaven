@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "12A2CE1C3AE8A033": {
+      "title": "Blue Banded Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0D9788B0439CE954": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Blue Banded Bee",
+    "description": [
+      "<h2>Spawned using a Wood Nest</h2>",
+      "<hr/>",
+      "<task task=\"12A2CE1C3AE8A033\" quest=\"2CA4D7253DA1825F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0D9788B0439CE954\" quest=\"2CA4D7253DA1825F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blue_dye"
+    },
+    "subtitle": {
+      "text": "Spawned using a Wood Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -128,
+          496
+        ]
+      }
+    }
+  }
+}

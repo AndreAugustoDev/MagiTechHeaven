@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "19C3A9D5E656FAA5": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_energy_cube"
+    }
+  },
+  "rewards": {
+    "0CD8FBAF40FDD1E5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_energy_cube",
+    "description": [
+      "<h2>Storing Power</h2>",
+      "<hr/>",
+      "<task task=\"19C3A9D5E656FAA5\" quest=\"09408C6DCAC90318\"/>",
+      "<hr/>",
+      "This block stores power, and can also be used to charge items.",
+      "<hr/>",
+      "<reward reward=\"0CD8FBAF40FDD1E5\" quest=\"09408C6DCAC90318\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_energy_cube"
+    },
+    "subtitle": {
+      "text": "Storing Power"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -80,
+          224
+        ]
+      }
+    }
+  }
+}

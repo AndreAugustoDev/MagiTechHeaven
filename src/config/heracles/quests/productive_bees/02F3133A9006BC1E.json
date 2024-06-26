@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "01F96E4C1D881AD1": {
+      "title": "Steel Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:steel"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "0FC5BC7A7E459E87": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Steel Bee",
+    "description": [
+      "<h2>Iron + Coal</h2>",
+      "<hr/>",
+      "<task task=\"01F96E4C1D881AD1\" quest=\"02F3133A9006BC1E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0FC5BC7A7E459E87\" quest=\"02F3133A9006BC1E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:steel_ingot"
+    },
+    "subtitle": {
+      "text": "Iron + Coal"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          64,
+          480
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "6190BE8B67130AB5": {
+      "type": "heracles:item",
+      "item": "mekanism:chargepad"
+    }
+  },
+  "rewards": {
+    "18F7E9FF427F660D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:chargepad",
+    "description": [
+      "<task task=\"6190BE8B67130AB5\" quest=\"4204702AA6FBF40B\"/>",
+      "<hr/>",
+      "Standing on this item will charge up any powered item from any mod.",
+      "<br/>",
+      "This is also needed for the Robit.",
+      "<hr/>",
+      "<reward reward=\"18F7E9FF427F660D\" quest=\"4204702AA6FBF40B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chargepad"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -208,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "11F0D662FF4DC335",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "3FE9AB0CAE241A22": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_nitro"
+    }
+  },
+  "rewards": {
+    "2AFB6334D91B8FD7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:player_transmitter_nitro",
+    "description": [
+      "<task task=\"3FE9AB0CAE241A22\" quest=\"348FEC9A50C2E62E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2AFB6334D91B8FD7\" quest=\"348FEC9A50C2E62E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -208,
+          560
+        ]
+      }
+    }
+  }
+}

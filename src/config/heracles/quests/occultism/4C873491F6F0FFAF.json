@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "3D41D0092D94636B"
+  ],
+  "tasks": {
+    "6656AD567687385A": {
+      "type": "heracles:item",
+      "item": "occultism:otherstone"
+    },
+    "2A1C88D9C4546A36": {
+      "type": "heracles:item",
+      "item": "occultism:otherworld_sapling_natural",
+      "nbt": {
+        "isInventoryItem": 1
+      }
+    },
+    "275C2B11FEFF527D": {
+      "type": "heracles:item",
+      "item": "occultism:spirit_attuned_gem"
+    }
+  },
+  "rewards": {
+    "70EE0C205B5B9BAC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§dSpiritfire§r Conversions",
+    "description": [
+      "<task task=\"6656AD567687385A\" quest=\"4C873491F6F0FFAF\"/>",
+      "<task task=\"2A1C88D9C4546A36\" quest=\"4C873491F6F0FFAF\"/>",
+      "<task task=\"275C2B11FEFF527D\" quest=\"4C873491F6F0FFAF\"/>",
+      "<hr/>",
+      "Using &&dSpiritfire&&r, we can convert several Overworld mats into their Otherworld variants. You can also find several Otherworld mats by going under the effects of the &&bThird Eye&&r and adventuring into the world. You might be surprised what you find. To make it easier, there are crafting recipes for the basic materials by throwing them into &&dSpiritfire&&r.",
+      "<br/>",
+      "&&bAndesite&&r converts to &&3Otherstone&&r, which can be used to light a permanent &&dSpiritfire&&r.",
+      "<br/>",
+      "&&aOak Saplings&&r convert to &&9Oak Saplings&&r but they are not the same. When grown, these will look exactly like a regular Oak tree. However, under the effects of the &&bThird Eye&&r, you will be able to harvest the Otherworld variant.",
+      "<br/>",
+      "&&eDiamonds&&r will turn into &&dSpirit Attuned Gems&&r which are used in several recipes we'll need later down the road.",
+      "<hr/>",
+      "<reward reward=\"70EE0C205B5B9BAC\" quest=\"4C873491F6F0FFAF\"/>"
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          256,
+          0
+        ]
+      }
+    }
+  }
+}

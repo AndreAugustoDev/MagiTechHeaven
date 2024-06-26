@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "464D0C17601E8A2B"
+  ],
+  "tasks": {
+    "2E44EAD876619015": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:creative_source_jar",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2E44EAD876619015\" quest=\"695C8159D28F16B7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2208E7A037EAB0CE\" quest=\"695C8159D28F16B7\"/>"
+    ],
+    "groups": {
+      "§aChapter 3§r: §dCreative": {
+        "position": [
+          64,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ars_nouveau:creative_source_jar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter3.source"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

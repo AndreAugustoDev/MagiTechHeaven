@@ -1,0 +1,13 @@
+name = "Great Scrollable Tooltips"
+filename = "great_scrollable_tooltips-15.0.0-beta.1+forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mzNYT2LK/versions/5lZQJGjC/great_scrollable_tooltips-15.0.0-beta.1%2Bforge.jar"
+hash-format = "sha1"
+hash = "cab5f323c073c0d7941d50899c455bb5f216d5ed"
+
+[update]
+[update.modrinth]
+mod-id = "mzNYT2LK"
+version = "5lZQJGjC"

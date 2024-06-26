@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "0060BCEDABC9BE2E",
+    "722978AC0C1B2649",
+    "7EC8814940C4C3D7",
+    "378C95C18798D413",
+    "14C8FC3F19190054",
+    "05F186C95510BD4B",
+    "2A2E3D020B1F5126"
+  ],
+  "tasks": {
+    "42DA8E971B27ACED": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "032158E75A1291D8": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.tipped_out"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.tipped_out</translate></h2>",
+      "<hr/>",
+      "<task task=\"42DA8E971B27ACED\" quest=\"0F8F37D7E12078F5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"032158E75A1291D8\" quest=\"0F8F37D7E12078F5\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          32,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.tips.tipped_out"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

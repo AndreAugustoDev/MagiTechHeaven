@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "4DE1158931F84F22"
+  ],
+  "tasks": {},
+  "rewards": {
+    "2C9E98C328385885": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C383FCA495D1CAB\" quest=\"2D879A34A5788CCC\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.power</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2C9E98C328385885\" quest=\"2D879A34A5788CCC\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          512,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.power"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

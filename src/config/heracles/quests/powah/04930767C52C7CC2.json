@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35F885A046EAE246",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "5B3DDFB23CA6C703": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_hardened"
+    }
+  },
+  "rewards": {
+    "4F497079C6C19EBE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_hopper_hardened",
+    "description": [
+      "<task task=\"5B3DDFB23CA6C703\" quest=\"04930767C52C7CC2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4F497079C6C19EBE\" quest=\"04930767C52C7CC2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          432
+        ]
+      }
+    }
+  }
+}

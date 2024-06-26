@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "46FA84B093CC1151": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_linger"
+    }
+  },
+  "rewards": {
+    "730F984D1201E8F4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_linger",
+    "description": [
+      "<task task=\"46FA84B093CC1151\" quest=\"08B6FA532A136AF2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"730F984D1201E8F4\" quest=\"08B6FA532A136AF2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_linger"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          128,
+          -272
+        ]
+      }
+    }
+  }
+}

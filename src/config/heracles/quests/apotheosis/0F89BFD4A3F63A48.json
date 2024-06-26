@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "5F16431DBEAF97B0": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_lantern",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6C85E2CE330363D6": {
+      "item": {
+        "id": "torchmaster:dreadlamp",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5F16431DBEAF97B0\" quest=\"0F89BFD4A3F63A48\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.lantern</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6C85E2CE330363D6\" quest=\"0F89BFD4A3F63A48\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:soul_lantern",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.lantern"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

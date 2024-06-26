@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "696076AA28E02C89": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_break"
+    }
+  },
+  "rewards": {
+    "157C46CA34F1665F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_break",
+    "description": [
+      "<task task=\"696076AA28E02C89\" quest=\"1EAE42D3A2162339\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"157C46CA34F1665F\" quest=\"1EAE42D3A2162339\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_break"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -432
+        ]
+      }
+    }
+  }
+}

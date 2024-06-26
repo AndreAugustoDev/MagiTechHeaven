@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "72717D1135486D7F"
+  ],
+  "tasks": {},
+  "rewards": {
+    "6A184032CC7F6E17": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.flax"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.flax</translate></h2>",
+      "<hr/>",
+      "<task task=\"52030BFD91159DAC\" quest=\"5A51E26D66D1273B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.flax</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6A184032CC7F6E17\" quest=\"5A51E26D66D1273B\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -176,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:flax_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.flax"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6C1BBA559963B3DF"
+  ],
+  "tasks": {
+    "0008773503CCA262": {
+      "type": "heracles:item",
+      "item": "occultism:datura"
+    }
+  },
+  "rewards": {
+    "3BB86ECD39545201": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§cDemon Fruit§r",
+    "description": [
+      "<h2>Get Ready for a Trip</h2>",
+      "<hr/>",
+      "<task task=\"0008773503CCA262\" quest=\"47358ADC1470C82A\"/>",
+      "<hr/>",
+      "&&cDemon's Dream Fruit&&r is perfectly healthy for you. There might be some side effects you should know about.",
+      "<br/>",
+      "When you consume one, you have a chance to get the effect of the &&3Third Eye&&r, allowing you to see into the &&9The Otherworld&&r. Certain items in the world might not be what they seem, and you'll need this \"vision\" to find certain items for progression.",
+      "<br/>",
+      "Or you can set it on fire and skip finding most of them. That's up to you.",
+      "<hr/>",
+      "<reward reward=\"3BB86ECD39545201\" quest=\"47358ADC1470C82A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:datura"
+    },
+    "subtitle": {
+      "text": "Get Ready for a Trip"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "6A393C7A24899E3E"
+  ],
+  "tasks": {
+    "699AAD43DA73386D": {
+      "type": "heracles:item",
+      "item": "silentgear:glittery_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "02ADE8B6A9044835": {
+      "item": {
+        "id": "silentgear:glittery_dust",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "7CDD443193BF52FB": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"699AAD43DA73386D\" quest=\"7D690A7D0FF6E328\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"02ADE8B6A9044835\" quest=\"7D690A7D0FF6E328\"/>",
+      "<reward reward=\"7CDD443193BF52FB\" quest=\"7D690A7D0FF6E328\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:glittery_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.tier3GC"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

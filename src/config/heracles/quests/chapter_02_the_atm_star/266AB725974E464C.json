@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {},
+  "rewards": {
+    "4E373C8CD820DF3C": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"405C2925273BB6EB\" quest=\"266AB725974E464C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.abyssal_sacrifice</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4E373C8CD820DF3C\" quest=\"266AB725974E464C\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -80,
+          255
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.abyssal_sacrifice"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "58B125BD4876054C"
+  ],
+  "tasks": {
+    "52967F83338A3AC3": {
+      "type": "heracles:item",
+      "item": "alltheores:osmium_ingot"
+    }
+  },
+  "rewards": {
+    "52CF295425D3C2B9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "alltheores:raw_osmium"
+      }
+    },
+    "75AA096A6B99BFA3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Osmium",
+    "description": [
+      "<h2>The Base Crafting Ingot</h2>",
+      "<hr/>",
+      "<task task=\"52967F83338A3AC3\" quest=\"6F62B5510FA881CD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52CF295425D3C2B9\" quest=\"6F62B5510FA881CD\"/>",
+      "<reward reward=\"75AA096A6B99BFA3\" quest=\"6F62B5510FA881CD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:osmium_ingot"
+    },
+    "subtitle": {
+      "text": "The Base Crafting Ingot"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -336,
+          -64
+        ]
+      }
+    }
+  }
+}

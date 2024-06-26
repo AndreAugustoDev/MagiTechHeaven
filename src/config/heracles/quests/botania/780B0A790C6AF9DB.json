@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "50A2D68A83A50F47"
+  ],
+  "tasks": {
+    "371A7D51171C67D4": {
+      "type": "heracles:item",
+      "item": "botania:king_key"
+    }
+  },
+  "rewards": {
+    "01E797D246D95395": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:king_key",
+    "description": [
+      "<task task=\"371A7D51171C67D4\" quest=\"780B0A790C6AF9DB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"01E797D246D95395\" quest=\"780B0A790C6AF9DB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:king_key"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          928,
+          16
+        ]
+      }
+    }
+  }
+}

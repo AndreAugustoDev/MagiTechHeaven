@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "tasks": {
+    "1997E42FA9EA414C": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0201A0D475099871": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Industrial Foregoing",
+    "description": [
+      "<task task=\"1997E42FA9EA414C\" quest=\"55820773BDD5319D\"/>",
+      "<hr/>",
+      "Welcome to &&aIndustrial Foregoing&&f!",
+      "<hr/>",
+      "<reward reward=\"0201A0D475099871\" quest=\"55820773BDD5319D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "patchouli:guide_book"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

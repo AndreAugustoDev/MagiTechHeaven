@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "3DE460F842195173": {
+      "title": "Ashy Mining Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5834F59FFE9CB283": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Ashy Mining Bee",
+    "description": [
+      "<h2>Spawns from a Dirt Nest</h2>",
+      "<hr/>",
+      "<task task=\"3DE460F842195173\" quest=\"37367101B3DAA70F\"/>",
+      "<hr/>",
+      "The Ashy Mining Bee is spawned from a Dirt, Gravel, or Sand Nest.",
+      "<hr/>",
+      "<reward reward=\"5834F59FFE9CB283\" quest=\"37367101B3DAA70F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:stone_pickaxe"
+    },
+    "subtitle": {
+      "text": "Spawns from a Dirt Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -128,
+          400
+        ]
+      }
+    }
+  }
+}

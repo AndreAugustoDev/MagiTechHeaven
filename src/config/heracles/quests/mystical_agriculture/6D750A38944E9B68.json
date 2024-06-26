@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54D6F7F8FE859729"
+  ],
+  "tasks": {
+    "46517C1CEB2EFD8D": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:infusion_altar"
+    },
+    "4D6831E87CCCC3F2": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "mysticalagriculture:infusion_pedestal"
+    }
+  },
+  "rewards": {
+    "682208F5DF52149E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§dThe Infusion Altar§r",
+    "description": [
+      "<task task=\"46517C1CEB2EFD8D\" quest=\"6D750A38944E9B68\"/>",
+      "<task task=\"4D6831E87CCCC3F2\" quest=\"6D750A38944E9B68\"/>",
+      "<hr/>",
+      "The &&9Infusion Altar&&r is the bread and butter of creating &&aSeeds&&r in the mod. You'll need to create the Altar itself, as well as 8 Pedestals.",
+      "<br/>",
+      "Placing the Altar down first will show you where to put the Pedestals. To craft a seed, place the required mats in each pedestal, then give a redstone signal to the Altar.",
+      "<hr/>",
+      "<reward reward=\"682208F5DF52149E\" quest=\"6D750A38944E9B68\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -602,
+          26
+        ]
+      }
+    }
+  }
+}

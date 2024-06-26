@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "21285C89735F67FC": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:ore_laser_base"
+    },
+    "7EB10ED3F8398FF4": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_laser_base"
+    },
+    "39B89950413E16A6": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "industrialforegoing:laser_drill"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "description": [
+      "<task task=\"21285C89735F67FC\" quest=\"418E57E34FFC19E1\"/>",
+      "<task task=\"7EB10ED3F8398FF4\" quest=\"418E57E34FFC19E1\"/>",
+      "<task task=\"39B89950413E16A6\" quest=\"418E57E34FFC19E1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          352,
+          144
+        ]
+      }
+    }
+  }
+}

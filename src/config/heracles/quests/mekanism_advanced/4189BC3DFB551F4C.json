@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "233E438357CD89F6",
+    "7C61906C6C87C97D",
+    "05D20B506213A449"
+  ],
+  "tasks": {},
+  "rewards": {
+    "3B59F78B29ABD642": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Creating Power with the Turbine!",
+    "description": [
+      "If you've built the Turbine properly, you will see red particles around the structure. Right clicking on the Turbine will open up the interface.",
+      "<br/>",
+      "This will tell you all of the information that you need to know, including the total Steam Flow Rate, as well as the total Steam inside of the Turbine.",
+      "<br/>",
+      "On the right, you will have a bar that shows you the Power that is stored inside of the Turbine. If this gets full, the Turbine will turn off, unless you set it to Vent Overflow.",
+      "<br/>",
+      "Let's get it running!",
+      "<br/>",
+      "Once you have a fully functioning Fission Reactor, pump out the &&bSteam&&r directly into a Turbine Valve on your Turbine. Since we're using Saturating Condensers in this build, you can pump out water from a Turbine Vent back into your Reactor if you want. ",
+      "<hr/>",
+      "<reward reward=\"3B59F78B29ABD642\" quest=\"4189BC3DFB551F4C\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          496,
+          16
+        ]
+      }
+    }
+  }
+}

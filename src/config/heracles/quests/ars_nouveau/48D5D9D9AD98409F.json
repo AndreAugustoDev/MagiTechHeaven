@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D86B2E553503E53"
+  ],
+  "tasks": {
+    "1624D71379FBBDA6": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:starbuncle_charm"
+    }
+  },
+  "rewards": {
+    "363F911808E2F53D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:starbuncle_charm",
+    "description": [
+      "<task task=\"1624D71379FBBDA6\" quest=\"48D5D9D9AD98409F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"363F911808E2F53D\" quest=\"48D5D9D9AD98409F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:starbuncle_charm"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          352,
+          -112
+        ]
+      }
+    }
+  }
+}

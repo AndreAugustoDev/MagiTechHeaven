@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "0F88AE3ABD17518C": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_arrow"
+    }
+  },
+  "rewards": {
+    "7069E419456D4661": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:draco_arcanus_arrow",
+    "description": [
+      "<h2>Leaves an AoE Cloud that damages living mobs</h2>",
+      "<hr/>",
+      "<task task=\"0F88AE3ABD17518C\" quest=\"6C832BFE4D07D897\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7069E419456D4661\" quest=\"6C832BFE4D07D897\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_arrow"
+    },
+    "subtitle": {
+      "text": "Leaves an AoE Cloud that damages living mobs"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -384,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1823CC81D613892B"
+  ],
+  "tasks": {
+    "3F52AEF4BF3FE722": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:pink_slime_bucket"
+    },
+    "6F7BCA742E93DB2A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:meat_bucket"
+    }
+  },
+  "rewards": {
+    "6AD72BC1A1F77913": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_fluid_tank",
+        "count": 1,
+        "nbt": {
+          "mekData": {
+            "FluidTanks": [
+              {
+                "Tank": 0,
+                "stored": {
+                  "Amount": 14000,
+                  "FluidName": "industrialforegoing:pink_slime"
+                }
+              }
+            ],
+            "Items": [],
+            "securityMode": 0
+          }
+        }
+      }
+    },
+    "0D8B60F8BD60B5CB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_fluid_tank",
+        "count": 1,
+        "nbt": {
+          "mekData": {
+            "FluidTanks": [
+              {
+                "Tank": 0,
+                "stored": {
+                  "Amount": 14000,
+                  "FluidName": "industrialforegoing:meat"
+                }
+              }
+            ],
+            "Items": [],
+            "securityMode": 0
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Pink Slime & Liquid Meat",
+    "description": [
+      "<task task=\"3F52AEF4BF3FE722\" quest=\"0E8647B8EB4AAC41\"/>",
+      "<task task=\"6F7BCA742E93DB2A\" quest=\"0E8647B8EB4AAC41\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6AD72BC1A1F77913\" quest=\"0E8647B8EB4AAC41\"/>",
+      "<reward reward=\"0D8B60F8BD60B5CB\" quest=\"0E8647B8EB4AAC41\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          336,
+          0
+        ]
+      }
+    }
+  }
+}

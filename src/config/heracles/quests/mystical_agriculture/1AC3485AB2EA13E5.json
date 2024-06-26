@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "0CBE6C91D28E45B1": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_watering_can",
+      "nbt": {
+        "Active": 0,
+        "Water": 0
+      }
+    }
+  },
+  "rewards": {
+    "5E2106AE83DADFB2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:prudentium_watering_can",
+    "description": [
+      "<task task=\"0CBE6C91D28E45B1\" quest=\"1AC3485AB2EA13E5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5E2106AE83DADFB2\" quest=\"1AC3485AB2EA13E5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_watering_can"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -496,
+          -80
+        ]
+      }
+    }
+  }
+}

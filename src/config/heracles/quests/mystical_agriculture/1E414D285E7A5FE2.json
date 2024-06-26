@@ -1,0 +1,129 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "76EEDB393CB4FF6F": {
+      "title": "Tertium Tools and Weapons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_sword",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_pickaxe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_shovel",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_axe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_hoe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_bow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_crossbow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_shears",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_fishing_rod",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_sickle",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:tertium_scythe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagradditions:tertium_paxel",
+            "tag": {
+              "Damage": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "0E76ECFEB8F11E6A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§cTertium Tools and Weapons",
+    "description": [
+      "<task task=\"76EEDB393CB4FF6F\" quest=\"1E414D285E7A5FE2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0E76ECFEB8F11E6A\" quest=\"1E414D285E7A5FE2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -352,
+          -48
+        ]
+      }
+    }
+  }
+}

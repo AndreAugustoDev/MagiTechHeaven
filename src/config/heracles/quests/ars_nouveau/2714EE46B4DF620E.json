@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "0AD6A125820795DE": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_vex"
+    }
+  },
+  "rewards": {
+    "0E66259E403E2C95": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_summon_vex",
+    "description": [
+      "<task task=\"0AD6A125820795DE\" quest=\"2714EE46B4DF620E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0E66259E403E2C95\" quest=\"2714EE46B4DF620E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_vex"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          64,
+          -176
+        ]
+      }
+    }
+  }
+}

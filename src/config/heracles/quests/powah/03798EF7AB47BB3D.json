@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "79421463F01ED2D7"
+  ],
+  "tasks": {
+    "732BEE5909694731": {
+      "type": "heracles:item",
+      "item": "powah:battery_niotic"
+    }
+  },
+  "rewards": {
+    "6A8D144C5BA3D081": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:battery_niotic",
+    "description": [
+      "<task task=\"732BEE5909694731\" quest=\"03798EF7AB47BB3D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6A8D144C5BA3D081\" quest=\"03798EF7AB47BB3D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:battery_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -176,
+          496
+        ]
+      }
+    }
+  }
+}

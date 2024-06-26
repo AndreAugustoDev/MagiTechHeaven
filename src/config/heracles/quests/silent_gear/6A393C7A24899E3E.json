@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "2EB96FF06627FD9A"
+  ],
+  "tasks": {
+    "202BA9A48D4D4B79": {
+      "type": "heracles:item",
+      "item": "silentgear:material_grader",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2E59EBB44FCD4372": {
+      "item": {
+        "id": "minecraft:glowstone_dust",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "426DA90F446231C4": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.material_grader"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.material_grader</translate></h2>",
+      "<hr/>",
+      "<task task=\"202BA9A48D4D4B79\" quest=\"6A393C7A24899E3E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.material_grader</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2E59EBB44FCD4372\" quest=\"6A393C7A24899E3E\"/>",
+      "<reward reward=\"426DA90F446231C4\" quest=\"6A393C7A24899E3E\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          256,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:material_grader",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.material_grader"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

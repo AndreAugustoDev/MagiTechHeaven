@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62CE0FFAF6352287"
+  ],
+  "tasks": {
+    "5C748C6F62DC11FF": {
+      "type": "heracles:item",
+      "item": "evilcraft:purifier",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 3000
+      }
+    },
+    "5E175E8BE4C2D8F2": {
+      "type": "heracles:item",
+      "item": "evilcraft:blook"
+    }
+  },
+  "rewards": {
+    "106290C6011C5430": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Removing §dEnchantments§r and §dCurses§r",
+    "description": [
+      "<task task=\"5C748C6F62DC11FF\" quest=\"5A8F4CA0F09F4842\"/>",
+      "<task task=\"5E175E8BE4C2D8F2\" quest=\"5A8F4CA0F09F4842\"/>",
+      "<hr/>",
+      "Need to remove &&dEnchantments&&r from an item you've found? Maybe you want to remove a Curse? This can be done using the &&cPurifier&&r.",
+      "<br/>",
+      "To do this, first place at least 3 buckets worth of blood into the Purifier, then throw in the item you want to remove an enchantment from.",
+      "<br/>",
+      "Next, add in the &&cBlook&&r. The Blook will absorb one of the enchants from the item, and convert it into a book of the enchant.",
+      "<hr/>",
+      "<reward reward=\"106290C6011C5430\" quest=\"5A8F4CA0F09F4842\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          192,
+          224
+        ]
+      }
+    }
+  }
+}

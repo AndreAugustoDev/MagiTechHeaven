@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3999760881C855FA",
+    "4AFF81D3D0E78255"
+  ],
+  "tasks": {
+    "3B3B58C438FD4397": {
+      "title": "Tier 4 Ore Processing Factory Summary",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3417F669ABC16584": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Tier 4 Ore Processing Factory Summary",
+    "description": [
+      "<h2>This is a lot, I know.</h2>",
+      "<hr/>",
+      "<task task=\"3B3B58C438FD4397\" quest=\"3C49F2EEDCCAF1DF\"/>",
+      "<hr/>",
+      "If you're like me, you probably got lost 55 times during these last few steps. This is a complicated system.",
+      "<br/>",
+      "A basic layout of your factory should be: ",
+      "<br/>",
+      "Raw ore goes into your Chemical Dissolution Chamber > pumps A GAS to Chemical Washer > pumps A GAS to Chemical Crystallizer >  outputs crystals to Chemical Injection Chamber > outputs shards to Purification Chamber > outputs clumps to Crusher > outputs dirty dusts to Enrichment Chamber > outputs clean dust to Smelter.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3417F669ABC16584\" quest=\"3C49F2EEDCCAF1DF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "This is a lot, I know."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          288,
+          32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7553689BC9202E14"
+  ],
+  "tasks": {
+    "1ECDAF49CF1BC952": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_universal_cable"
+    }
+  },
+  "rewards": {
+    "4992789167D656CD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_universal_cable",
+    "description": [
+      "<task task=\"1ECDAF49CF1BC952\" quest=\"32E093F004E8CAC6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4992789167D656CD\" quest=\"32E093F004E8CAC6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_universal_cable"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -128,
+          160
+        ]
+      }
+    }
+  }
+}

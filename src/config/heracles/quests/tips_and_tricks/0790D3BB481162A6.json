@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "7658C1C663394E85"
+  ],
+  "tasks": {},
+  "rewards": {
+    "2D7265C36210BDDB": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6038387EA35404CD\" quest=\"0790D3BB481162A6\"/>",
+      "<task task=\"0BF4F9C40FF717DE\" quest=\"0790D3BB481162A6\"/>",
+      "<task task=\"405411318EA7A80C\" quest=\"0790D3BB481162A6\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.stick</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2D7265C36210BDDB\" quest=\"0790D3BB481162A6\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          -16,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.stick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

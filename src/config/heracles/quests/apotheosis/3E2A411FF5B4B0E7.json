@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "75FE61AB74C39108": {
+      "type": "heracles:item",
+      "item": "minecraft:prismarine_crystals",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1CFFBC0A625D0737": {
+      "item": {
+        "id": "minecraft:prismarine_crystals",
+        "count": 14
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"75FE61AB74C39108\" quest=\"3E2A411FF5B4B0E7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.prismarine</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1CFFBC0A625D0737\" quest=\"3E2A411FF5B4B0E7\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          48,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:prismarine_crystals",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.prismarine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

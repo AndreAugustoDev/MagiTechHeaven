@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "36B14701D95C3C21",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "36A675359DAB88CA": {
+      "type": "heracles:item",
+      "item": "powah:magmator_nitro"
+    }
+  },
+  "rewards": {
+    "41A64BC8DF294061": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:magmator_nitro",
+    "description": [
+      "<task task=\"36A675359DAB88CA\" quest=\"4E67DE071FC9D80D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"41A64BC8DF294061\" quest=\"4E67DE071FC9D80D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:magmator_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          112,
+          560
+        ]
+      }
+    }
+  }
+}

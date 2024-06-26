@@ -1,0 +1,669 @@
+{
+  "dependencies": [
+    "4775F7326720251E",
+    "73CD6CE2B10830B9",
+    "048F2942436D3C46",
+    "73990028197AF1AB",
+    "527453CD5A20AE38",
+    "6EBCCC78DC682CC6",
+    "6F598D9CFB915123",
+    "43CE45F9FDDB91EE",
+    "32DC639415E45075",
+    "67E154DC24F54854"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1A44EDC903F8E8D7": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "4B6504EB06DFE127": {
+      "amount": 1,
+      "rewards": {
+        "4B6504EB06DFE127_0": {
+          "item": {
+            "id": "mekanism:pellet_antimatter",
+            "count": 1
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_1": {
+          "item": {
+            "id": "mysticalagriculture:awakened_supremium_block",
+            "count": 1
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_2": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_3": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_4": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_5": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_6": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_7": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_8": {
+          "item": {
+            "id": "mekanism:ultimate_induction_cell",
+            "count": 1
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_9": {
+          "item": {
+            "id": "mekanism:ultimate_induction_provider",
+            "count": 1
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_10": {
+          "item": {
+            "id": "productivebees:spawn_egg_configurable_bee",
+            "count": 2,
+            "nbt": {
+              "EntityTag": {
+                "type": "productivebees:wasted_radioactive"
+              }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_11": {
+          "item": {
+            "id": "botania:dice",
+            "count": 1
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_12": {
+          "item": {
+            "id": "powah:reactor_nitro",
+            "count": 36
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_13": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "affixes": {
+                  "apotheosis:sword/mob_effect/weakening": 0.6003846,
+                  "apotheosis:sword/special/thunderstruck": 0.014283717,
+                  "apotheosis:sword/attribute/lacerating": 0.98741335,
+                  "apotheosis:sword/attribute/elongated": 0.85489064,
+                  "apotheosis:sword/special/festive": 0.05302018,
+                  "apotheosis:sword/mob_effect/sophisticated": 0.33794326,
+                  "apotheosis:sword/attribute/intricate": 0.8090417,
+                  "apotheosis:sword/attribute/piercing": 0.95980805,
+                  "apotheosis:sword/attribute/glacial": 0.14216435,
+                  "apotheosis:durable": 0.73,
+                  "apotheosis:socket": 2
+                },
+                "name": "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/attribute/intricate\"},\"\",{\"translate\":\"affix.apotheosis:sword/attribute/glacial.suffix\"}]",
+                "rarity": "ancient",
+                "uuids": [
+                  [
+                    -2031333617,
+                    480725750,
+                    -1840465454,
+                    888090631
+                  ]
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_14": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "affixes": {
+                  "apotheosis:sword/mob_effect/weakening": 0.5375767,
+                  "apotheosis:heavy_weapon/mob_effect/bloodletting": 0.3663811,
+                  "apotheosis:heavy_weapon/special/executing": 0.1903069,
+                  "apotheosis:heavy_weapon/attribute/forceful": 0.55899656,
+                  "apotheosis:heavy_weapon/attribute/nullifying": 0.9218933,
+                  "apotheosis:heavy_weapon/attribute/giant_slaying": 0.2867335,
+                  "apotheosis:durable": 0.75,
+                  "apotheosis:socket": 3,
+                  "apotheosis:sword/mob_effect/elusive": 0.41748703,
+                  "apotheosis:heavy_weapon/attribute/berserking": 0.4974252,
+                  "apotheosis:heavy_weapon/attribute/decimating": 0.7945931
+                },
+                "name": "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:sword/mob_effect/elusive\"},\"\",{\"translate\":\"affix.apotheosis:sword/mob_effect/weakening.suffix\"}]",
+                "rarity": "ancient",
+                "uuids": [
+                  [
+                    -121922779,
+                    252989166,
+                    -2142870923,
+                    -758475871
+                  ]
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_15": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "affixes": {
+                  "apotheosis:armor/attribute/stalwart": 0.290222,
+                  "apotheosis:armor/mob_effect/nimble": 0.46427995,
+                  "apotheosis:armor/attribute/aquatic": 0.82155675,
+                  "apotheosis:armor/attribute/fortunate": 0.77634436,
+                  "apotheosis:armor/attribute/elastic": 0.6213249,
+                  "apotheosis:armor/dmg_reduction/feathery": 0.28605968,
+                  "apotheosis:armor/attribute/steel_touched": 0.13261014,
+                  "apotheosis:durable": 0.72,
+                  "apotheosis:socket": 4
+                },
+                "name": "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/dmg_reduction/feathery\"},\"\",{\"translate\":\"affix.apotheosis:armor/mob_effect/nimble.suffix\"}]",
+                "rarity": "ancient",
+                "uuids": [
+                  [
+                    1819268669,
+                    781468608,
+                    -1097470744,
+                    1967161402
+                  ]
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_16": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "affixes": {
+                  "apotheosis:armor/attribute/stalwart": 0.8879348,
+                  "apotheosis:armor/mob_effect/revitalizing": 0.42083818,
+                  "apotheosis:armor/dmg_reduction/blockading": 0.8093422,
+                  "apotheosis:armor/dmg_reduction/dwarven": 0.89473104,
+                  "apotheosis:armor/attribute/fortunate": 0.5392455,
+                  "apotheosis:armor/attribute/ironforged": 0.73820835,
+                  "apotheosis:armor/attribute/spiritual": 0.40667433,
+                  "apotheosis:armor/attribute/steel_touched": 0.7234405,
+                  "apotheosis:armor/dmg_reduction/blast_forged": 0.690976,
+                  "apotheosis:durable": 0.77,
+                  "apotheosis:socket": 5
+                },
+                "name": "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/fortunate\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/stalwart.suffix\"}]",
+                "rarity": "ancient",
+                "uuids": [
+                  [
+                    757261460,
+                    2142519499,
+                    -1792455440,
+                    -61737911
+                  ]
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_17": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "affixes": {
+                  "apotheosis:armor/attribute/stalwart": 0.9614721,
+                  "apotheosis:armor/mob_effect/revitalizing": 0.5552426,
+                  "apotheosis:armor/dmg_reduction/blockading": 0.44201344,
+                  "apotheosis:armor/dmg_reduction/dwarven": 0.8801219,
+                  "apotheosis:armor/attribute/ironforged": 0.49947667,
+                  "apotheosis:armor/attribute/spiritual": 0.6402667,
+                  "apotheosis:armor/attribute/steel_touched": 0.21885413,
+                  "apotheosis:armor/dmg_reduction/blast_forged": 0.40757203,
+                  "apotheosis:durable": 0.74,
+                  "apotheosis:socket": 3,
+                  "apotheosis:armor/attribute/blessed": 0.28241175
+                },
+                "name": "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/stalwart\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/blessed.suffix\"}]",
+                "rarity": "ancient",
+                "uuids": [
+                  [
+                    1370735257,
+                    220416342,
+                    -1312451949,
+                    1292699076
+                  ]
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "4B6504EB06DFE127_18": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "affixes": {
+                  "apotheosis:armor/attribute/stalwart": 0.6440308,
+                  "apotheosis:armor/dmg_reduction/runed": 0.8986178,
+                  "apotheosis:armor/attribute/fortunate": 0.998058,
+                  "apotheosis:armor/mob_effect/blinding": 0.09419179,
+                  "apotheosis:armor/attribute/ironforged": 0.6378598,
+                  "apotheosis:armor/attribute/steel_touched": 0.11399037,
+                  "apotheosis:durable": 0.72,
+                  "apotheosis:socket": 3,
+                  "apotheosis:armor/attribute/blessed": 0.84155154
+                },
+                "name": "{\"color\":\"rainbow\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/blessed\"},\"\",{\"translate\":\"affix.apotheosis:armor/dmg_reduction/runed.suffix\"}]",
+                "rarity": "ancient",
+                "uuids": [
+                  [
+                    -370265463,
+                    703221486,
+                    -1585586250,
+                    -1427299350
+                  ]
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
+        }
+      },
+      "type": "heracles:selectable"
+    },
+    "382984099BD8DCEF": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "58C6756E0DF327FF": {
+      "amount": 1,
+      "rewards": {
+        "58C6756E0DF327FF_0": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/ballast"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_1": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/brawlers"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_2": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/breach"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_3": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/combatant"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_4": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/guardian"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_5": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/lightning"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_6": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/lunar"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_7": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/samurai"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_8": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/slipstream"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_9": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/solar"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_10": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/splendor"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_11": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/tyrannical"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_12": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:core/warlord"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_13": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "irons_spellbooks:intelligent"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_14": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:overworld/earth"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_15": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:overworld/royalty"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_16": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:the_end/endersurge"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_17": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:the_end/mageslayer"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_18": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:the_nether/blood_lord"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_19": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:the_nether/inferno"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_20": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:twilight/forest"
+            }
+          },
+          "type": "heracles:item"
+        },
+        "58C6756E0DF327FF_21": {
+          "item": {
+            "id": "minecraft:air",
+            "count": 0,
+            "nbt": {
+              "affix_data": {
+                "rarity": "apotheosis:ancient"
+              },
+              "gem": "apotheosis:twilight/queen"
+            }
+          },
+          "type": "heracles:item"
+        }
+      },
+      "type": "heracles:selectable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.chapter2.atm_star"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.chapter2.atm_star</translate></h2>",
+      "<hr/>",
+      "<task task=\"5F6988D125AAB233\" quest=\"464D0C17601E8A2B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.ATM_Star</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1A44EDC903F8E8D7\" quest=\"464D0C17601E8A2B\"/>",
+      "<reward reward=\"382984099BD8DCEF\" quest=\"464D0C17601E8A2B\"/>",
+      "<reward reward=\"4B6504EB06DFE127\" quest=\"464D0C17601E8A2B\"/>",
+      "<reward reward=\"58C6756E0DF327FF\" quest=\"464D0C17601E8A2B\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.ATM_Star"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

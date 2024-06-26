@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CC2D826CA6BBDDB"
+  ],
+  "tasks": {
+    "6168644A110A263A": {
+      "type": "heracles:item",
+      "item": "bloodmagic:arcaneashes"
+    }
+  },
+  "rewards": {
+    "4BD9ABC2D427A1FB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:arcaneashes",
+    "description": [
+      "<h2>We're drawing on the ground now.</h2>",
+      "<hr/>",
+      "<task task=\"6168644A110A263A\" quest=\"1F3B9803AFAEED5F\"/>",
+      "<hr/>",
+      "With our Alchemy Table and our Orb full of Blood, we want to make some &&9Arcane Ashes&&r.",
+      "<br/>",
+      "With the Ashes, we'll be able to draw a circle on the ground, known as an Alchemy Array. You can insert 2 items in by right-clicking, and will either craft a new item or perform an action, like turning day into night!",
+      "<hr/>",
+      "<reward reward=\"4BD9ABC2D427A1FB\" quest=\"1F3B9803AFAEED5F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:arcaneashes"
+    },
+    "subtitle": {
+      "text": "We're drawing on the ground now."
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -832,
+          -160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "6BBFC01F3C0CC252": {
+      "type": "heracles:item",
+      "item": "botania:apothecary_default"
+    }
+  },
+  "rewards": {
+    "3CAE6C7AC360FDC9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:apothecary_default",
+    "description": [
+      "<task task=\"6BBFC01F3C0CC252\" quest=\"79BE48D56622542F\"/>",
+      "<hr/>",
+      "Now that we have some flowers, we can start converting the basic flora into functioning and generating flora using the &&9Petal Apothecary&&r!",
+      "<br/>",
+      "To start harnessing the energy from Mystical Flower Petals, we will need to fill the Apothecary with &&bWater&&r. This can be done by right clicking with a water bucket, or by throwing the water bucket on the Apothecary.",
+      "<br/>",
+      "To create items, just throw the appropriate items for the recipe into the Apothecary. Right clicking with an empty hand will remove items from it as well.",
+      "<br/>",
+      "Once a recipe has been completed, you will have about 20 seconds where &&aright clicking with an empty hand&&r will refill the last recipe, making it easier to create multiple of the same items!",
+      "<hr/>",
+      "<reward reward=\"3CAE6C7AC360FDC9\" quest=\"79BE48D56622542F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:apothecary_default"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          160,
+          80
+        ]
+      }
+    }
+  }
+}

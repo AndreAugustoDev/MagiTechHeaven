@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "208145EA6533CDDB": {
+      "title": "Enderium Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:enderium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7F7B0C8A87197491": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Enderium Bee",
+    "description": [
+      "<h2>Lead + Diamond/Platinum</h2>",
+      "<hr/>",
+      "<task task=\"208145EA6533CDDB\" quest=\"0D97CDE92F3B1A83\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F7B0C8A87197491\" quest=\"0D97CDE92F3B1A83\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:enderium_ingot"
+    },
+    "subtitle": {
+      "text": "Lead + Diamond/Platinum"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -32,
+          400
+        ]
+      }
+    }
+  }
+}

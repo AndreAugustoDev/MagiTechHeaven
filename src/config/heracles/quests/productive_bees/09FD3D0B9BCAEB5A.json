@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "3091212589824103": {
+      "type": "heracles:item",
+      "item": "productivebees:gravel_nest"
+    }
+  },
+  "rewards": {
+    "12F728528AF6A6D3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:gravel_nest",
+    "description": [
+      "<h2>Lures in bees in River and Beach Biomes</h2>",
+      "<hr/>",
+      "<task task=\"3091212589824103\" quest=\"09FD3D0B9BCAEB5A\"/>",
+      "<hr/>",
+      "The Gravel Nest will lure bees in either a River biome or Beach biome.",
+      "<br/>",
+      "It lures in the Ashy Mining Bee, Chocolate Mining Bee, and the Digger Bee.",
+      "<hr/>",
+      "<reward reward=\"12F728528AF6A6D3\" quest=\"09FD3D0B9BCAEB5A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:gravel_nest"
+    },
+    "subtitle": {
+      "text": "Lures in bees in River and Beach Biomes"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          112
+        ]
+      }
+    }
+  }
+}

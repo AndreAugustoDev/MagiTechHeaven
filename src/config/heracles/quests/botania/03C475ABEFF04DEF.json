@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26",
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "28089D55C29C8A5D": {
+      "type": "heracles:item",
+      "item": "botania:lens_redirect"
+    }
+  },
+  "rewards": {
+    "651D17D05A4AEE6F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_redirect",
+    "description": [
+      "<task task=\"28089D55C29C8A5D\" quest=\"03C475ABEFF04DEF\"/>",
+      "<hr/>",
+      "This lens will redirect any Mana Spreaders or entities it collides with to face towards teh block or entity that fired the burst.",
+      "<hr/>",
+      "<reward reward=\"651D17D05A4AEE6F\" quest=\"03C475ABEFF04DEF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_redirect"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          416,
+          464
+        ]
+      }
+    }
+  }
+}

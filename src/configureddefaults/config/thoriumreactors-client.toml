@@ -1,0 +1,22 @@
+
+[General]
+	#Show by hotkey activated details hover text
+	showBlockDetails = true
+	#Show by hotkey activated description hover text
+	showBlockDescription = true
+
+["Reactor Control Screen"]
+	#Render left area of the reactor control screen
+	showLeftReactorScreenArea = true
+	#Render right area of the reactor control screen
+	showRightReactorScreenArea = true
+
+["Creative TAB and JEI"]
+	#Show fluid creative tanks in Just Enough Items (JEI)
+	showCreativeEnergyTanksInJEI = false
+	#Show fluid creative tanks in creative tab
+	showCreativeEnergyTanksInCreativeTAB = true
+	#Show fluid creative tanks in Just Enough Items (JEI)
+	showCreativeFluidTanksInJEI = false
+	#Show fluid creative tanks in creative tab
+	showCreativeFluidTanksInCreativeTAB = true

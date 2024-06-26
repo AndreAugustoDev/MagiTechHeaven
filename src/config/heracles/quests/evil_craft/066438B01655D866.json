@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "51B24CC5E9332C1E"
+  ],
+  "tasks": {
+    "2161414994EAB2A9": {
+      "type": "heracles:item",
+      "item": "evilcraft:box_of_eternal_closure"
+    },
+    "2228CC59A99F49E9": {
+      "type": "heracles:item",
+      "item": "evilcraft:vengeance_focus"
+    }
+  },
+  "rewards": {
+    "4E246CAB1B584FB1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Capturing §dSpirits§r",
+    "description": [
+      "<task task=\"2161414994EAB2A9\" quest=\"066438B01655D866\"/>",
+      "<task task=\"2228CC59A99F49E9\" quest=\"066438B01655D866\"/>",
+      "<hr/>",
+      "While their &&dEssence&&r is useful, we can also capture these Spirits for later use. That sounds evil, doesn't it?",
+      "<br/>",
+      "To become a Spirit Hunter, you'll need to create the &&dVengeance Focus&&r first. This is used to &&aFreeze Spirits&&r in place, then you place a &&9Box of Eternal Closure&&r near the Spirit. This will then suck the Spirit in for later use.",
+      "<hr/>",
+      "<reward reward=\"4E246CAB1B584FB1\" quest=\"066438B01655D866\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:box_of_eternal_closure"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    }
+  }
+}

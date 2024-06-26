@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "01F18150EC923482"
+  ],
+  "tasks": {
+    "411F819314EF6C57": {
+      "type": "heracles:item",
+      "item": "refinedstorage:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.wrench"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.wrench</translate></h2>",
+      "<hr/>",
+      "<task task=\"411F819314EF6C57\" quest=\"3FAD086F7D9CCAE9\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.wrench}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -160,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.wrench"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

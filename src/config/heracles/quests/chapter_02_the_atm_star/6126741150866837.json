@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "39C07D45FD0CA49C": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_crystal_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "55CAAE378E2CA4A4": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39C07D45FD0CA49C\" quest=\"6126741150866837\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.FA",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"34E8FF3196478229\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"</translate></p>",
+      "<hr/>",
+      "<reward reward=\"55CAAE378E2CA4A4\" quest=\"6126741150866837\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -240,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "forbidden_arcanus:arcane_crystal_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.FA"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

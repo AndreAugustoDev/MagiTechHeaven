@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1B6DDF50D00CBB31"
+  ],
+  "tasks": {
+    "685BFFC7BDA40FC3": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_pressurized_tube"
+    }
+  },
+  "rewards": {
+    "43C7CBD7952BAF44": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_pressurized_tube",
+        "count": 4
+      }
+    },
+    "0C073BA4ADC6439C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_pressurized_tube",
+    "description": [
+      "<h2>For Transferring Gasses</h2>",
+      "<hr/>",
+      "<task task=\"685BFFC7BDA40FC3\" quest=\"4434D7B66521D69A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43C7CBD7952BAF44\" quest=\"4434D7B66521D69A\"/>",
+      "<reward reward=\"0C073BA4ADC6439C\" quest=\"4434D7B66521D69A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    "subtitle": {
+      "text": "For Transferring Gasses"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          16,
+          128
+        ]
+      }
+    }
+  }
+}

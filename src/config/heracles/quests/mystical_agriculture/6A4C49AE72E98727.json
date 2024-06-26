@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54D6F7F8FE859729"
+  ],
+  "tasks": {
+    "7DDEA59FB8F44932": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tinkering_table"
+    },
+    "6DFAB0CADDD8E8D4": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:unattuned_augment"
+    }
+  },
+  "rewards": {
+    "733E64EEA73E388A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagriculture:unattuned_augment"
+      }
+    },
+    "6D094DA8640BC38B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"7DDEA59FB8F44932\" quest=\"6A4C49AE72E98727\"/>",
+      "<task task=\"6DFAB0CADDD8E8D4\" quest=\"6A4C49AE72E98727\"/>",
+      "<hr/>",
+      "The &&9Tinkering Table&&r is used to upgrade &&aEssence Gear&&r with &&dAugments&&r.",
+      "<br/>",
+      "Augments can be made using the Infusion Altar. Just like the Essences, Augments have tiers!",
+      "<hr/>",
+      "<reward reward=\"733E64EEA73E388A\" quest=\"6A4C49AE72E98727\"/>",
+      "<reward reward=\"6D094DA8640BC38B\" quest=\"6A4C49AE72E98727\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -646,
+          74
+        ]
+      }
+    }
+  }
+}

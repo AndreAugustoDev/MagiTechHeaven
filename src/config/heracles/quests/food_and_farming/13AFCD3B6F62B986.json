@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "66815AB6FDACCAB7"
+  ],
+  "tasks": {
+    "6BDB280D22CE0118": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:ice_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7F98CDC2EA641EF7": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "03911B94997F0691": {
+      "item": {
+        "id": "minecraft:snowball",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6BDB280D22CE0118\" quest=\"13AFCD3B6F62B986\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.cool</translate></p>",
+      "<hr/>",
+      "<reward reward=\"03911B94997F0691\" quest=\"13AFCD3B6F62B986\"/>",
+      "<reward reward=\"7F98CDC2EA641EF7\" quest=\"13AFCD3B6F62B986\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          0,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:ice_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.cool"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "2626959A926C1054": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_explosion"
+    }
+  },
+  "rewards": {
+    "711554480E47E3EE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_explosion",
+    "description": [
+      "<task task=\"2626959A926C1054\" quest=\"5DE36D1C9F29F931\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"711554480E47E3EE\" quest=\"5DE36D1C9F29F931\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_explosion"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -208
+        ]
+      }
+    }
+  }
+}

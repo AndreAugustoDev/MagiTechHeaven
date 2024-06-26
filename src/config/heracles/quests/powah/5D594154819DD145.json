@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "029922AB09F8C76A",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "5333BF78E072B674": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_hardened"
+    }
+  },
+  "rewards": {
+    "38CAEE3F16B26CEB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_gate_hardened",
+    "description": [
+      "<task task=\"5333BF78E072B674\" quest=\"5D594154819DD145\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"38CAEE3F16B26CEB\" quest=\"5D594154819DD145\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          64,
+          432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E39FB9F3E973009"
+  ],
+  "tasks": {
+    "0DC23FAFFD8954C2": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:machine_frame_supreme"
+    }
+  },
+  "rewards": {
+    "3A2DA002948C28DF": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 1
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:machine_frame_supreme",
+    "description": [
+      "<task task=\"0DC23FAFFD8954C2\" quest=\"7B4AF35313D7D779\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3A2DA002948C28DF\" quest=\"7B4AF35313D7D779\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          336,
+          240
+        ]
+      }
+    }
+  }
+}

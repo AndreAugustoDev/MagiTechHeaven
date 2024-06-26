@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D720AC88431BD70"
+  ],
+  "tasks": {
+    "065E5450AC87F1D5": {
+      "title": "Ancient Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:netherite"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "6B10EC7376089305": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:netherite"
+          }
+        }
+      }
+    },
+    "36535E022831C4FD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Ancient Bee (Netherite)",
+    "description": [
+      "<h2>Feed Diamond Bee a Block of Netherite</h2>",
+      "<hr/>",
+      "<task task=\"065E5450AC87F1D5\" quest=\"2CA3707BEE2E3C0D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6B10EC7376089305\" quest=\"2CA3707BEE2E3C0D\"/>",
+      "<reward reward=\"36535E022831C4FD\" quest=\"2CA3707BEE2E3C0D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_ingot"
+    },
+    "subtitle": {
+      "text": "Feed Diamond Bee a Block of Netherite"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          288,
+          144
+        ]
+      }
+    }
+  }
+}

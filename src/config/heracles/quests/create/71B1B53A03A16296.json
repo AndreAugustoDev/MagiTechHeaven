@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3F663416E824720C"
+  ],
+  "tasks": {
+    "339D26EDFBB54047": {
+      "type": "heracles:item",
+      "item": "create:portable_fluid_interface"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:portable_fluid_interface",
+    "description": [
+      "<task task=\"339D26EDFBB54047\" quest=\"71B1B53A03A16296\"/>",
+      "<hr/>",
+      "The &&n&&5Portable Interface&&r works in pairs. You need to have one placed in the world and another one on a moving entity, like a Minecart.",
+      "<br/>",
+      "When the two interfaces are facing each other, they will link and transfer liquids between each other."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:portable_fluid_interface"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          384,
+          -32
+        ]
+      }
+    }
+  }
+}

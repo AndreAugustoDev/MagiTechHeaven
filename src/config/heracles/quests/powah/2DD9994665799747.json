@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D80E6C3327AB376"
+  ],
+  "tasks": {
+    "7FB09E6585E098BB": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_niotic"
+    }
+  },
+  "rewards": {
+    "6E4CC4AEC9D8721A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:player_transmitter_niotic",
+    "description": [
+      "<task task=\"7FB09E6585E098BB\" quest=\"2DD9994665799747\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6E4CC4AEC9D8721A\" quest=\"2DD9994665799747\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -208,
+          496
+        ]
+      }
+    }
+  }
+}

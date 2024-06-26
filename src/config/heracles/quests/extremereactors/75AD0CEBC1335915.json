@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "4B9E9497E44D0096"
+  ],
+  "tasks": {
+    "62A0FE4CFAB9621B": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorcontroller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2975B436F7D91A8A": {
+      "item": {
+        "id": "bigreactors:basic_reactorcasing",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "38C141F047926833": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.bigreactors.subt.reactor_heart"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.reactor_heart</translate></h2>",
+      "<hr/>",
+      "<task task=\"62A0FE4CFAB9621B\" quest=\"75AD0CEBC1335915\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_heart</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2975B436F7D91A8A\" quest=\"75AD0CEBC1335915\"/>",
+      "<reward reward=\"38C141F047926833\" quest=\"75AD0CEBC1335915\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -176,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:basic_reactorcontroller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "block.bigreactors.basic_reactorcontroller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

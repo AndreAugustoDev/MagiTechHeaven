@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "596B05D2C017A3A4": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_helmet"
+    },
+    "2D35459D09DE4348": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_chestplate"
+    },
+    "2FF5CD7746B6C122": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_leggings"
+    },
+    "5B823E7DB3B4894A": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_boots"
+    }
+  },
+  "rewards": {
+    "7F1DC169F853D19D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§4Supremium Armor",
+    "description": [
+      "<task task=\"596B05D2C017A3A4\" quest=\"5B1E0E3E876339E7\"/>",
+      "<task task=\"2D35459D09DE4348\" quest=\"5B1E0E3E876339E7\"/>",
+      "<task task=\"2FF5CD7746B6C122\" quest=\"5B1E0E3E876339E7\"/>",
+      "<task task=\"5B823E7DB3B4894A\" quest=\"5B1E0E3E876339E7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F1DC169F853D19D\" quest=\"5B1E0E3E876339E7\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          64,
+          -48
+        ]
+      }
+    }
+  }
+}

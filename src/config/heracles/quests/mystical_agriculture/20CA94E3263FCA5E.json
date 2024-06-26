@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "4DC4C2C45A241BBB": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_watering_can",
+      "nbt": {
+        "Active": 0,
+        "Water": 0
+      }
+    }
+  },
+  "rewards": {
+    "4313254414219D46": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:imperium_watering_can",
+    "description": [
+      "<task task=\"4DC4C2C45A241BBB\" quest=\"20CA94E3263FCA5E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4313254414219D46\" quest=\"20CA94E3263FCA5E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_watering_can"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -176,
+          -80
+        ]
+      }
+    }
+  }
+}

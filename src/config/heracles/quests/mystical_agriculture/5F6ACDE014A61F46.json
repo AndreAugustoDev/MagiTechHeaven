@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "7991C1D054311F8C": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:tertium_apple"
+    }
+  },
+  "rewards": {
+    "00D7A0D35FE36750": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:tertium_apple",
+    "description": [
+      "<task task=\"7991C1D054311F8C\" quest=\"5F6ACDE014A61F46\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"00D7A0D35FE36750\" quest=\"5F6ACDE014A61F46\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:tertium_apple"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -272,
+          -80
+        ]
+      }
+    }
+  }
+}

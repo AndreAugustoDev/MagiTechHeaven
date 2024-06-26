@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "282CE3A088AE5CFB"
+  ],
+  "tasks": {},
+  "rewards": {
+    "78B689AE8463620A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4756A216A6E6860C\" quest=\"378BF828DC931F0C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.crafting_stick",
+      "<br/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"78B689AE8463620A\" quest=\"378BF828DC931F0C\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          0,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.crafting_stick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

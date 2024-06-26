@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "172B0296F87D6725",
+    "7D7983F39E6E818D"
+  ],
+  "tasks": {
+    "4779D480ED4EB6E9": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_niotic"
+    }
+  },
+  "rewards": {
+    "1F35D42EC2F4A0A6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energizing_rod_niotic",
+    "description": [
+      "<task task=\"4779D480ED4EB6E9\" quest=\"270B5EA3E710A209\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1F35D42EC2F4A0A6\" quest=\"270B5EA3E710A209\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -144,
+          496
+        ]
+      }
+    }
+  }
+}

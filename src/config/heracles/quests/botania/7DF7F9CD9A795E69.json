@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "634E71DBAE81D197"
+  ],
+  "tasks": {
+    "3611F94A69522BA9": {
+      "type": "heracles:item",
+      "item": "botania:corporea_index"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: botania:corporea_index",
+    "description": [
+      "<task task=\"3611F94A69522BA9\" quest=\"7DF7F9CD9A795E69\"/>",
+      "<hr/>",
+      "The &&5Corporea Index&&r is the interface block you need to access and request items from the &&9Corporea Network&&r of the Corporea Spark placed above it.",
+      "<br/>",
+      "To use this, approach the Index and it will intercept Chat Messages from nearby players. These players can request items from the network by typing in what they are looking to get. For example, you could say &&b10 Iron Ingots&&r, and if the system has it, it will drop it out for you.",
+      "<br/>",
+      "For more information, you can always check your &&aLexica Botania&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:corporea_index"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          656,
+          240
+        ]
+      }
+    }
+  }
+}

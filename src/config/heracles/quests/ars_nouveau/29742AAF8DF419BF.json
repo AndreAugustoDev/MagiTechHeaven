@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "12EA0487A7DD255B": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_toss"
+    }
+  },
+  "rewards": {
+    "282A4F66165A7A37": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_toss",
+    "description": [
+      "<task task=\"12EA0487A7DD255B\" quest=\"29742AAF8DF419BF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"282A4F66165A7A37\" quest=\"29742AAF8DF419BF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_toss"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "196B8B6D59ABFC74": {
+      "type": "heracles:item",
+      "item": "refinedstorage:controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.refined"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.refined</translate></h2>",
+      "<hr/>",
+      "<task task=\"196B8B6D59ABFC74\" quest=\"01F18150EC923482\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.refined</translate></p>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -192,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.refined"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

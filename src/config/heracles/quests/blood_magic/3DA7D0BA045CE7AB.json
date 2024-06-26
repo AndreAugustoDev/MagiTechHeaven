@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A9B90A453C933C4"
+  ],
+  "tasks": {
+    "49E5D4B7057851E7": {
+      "type": "heracles:item",
+      "item": "bloodmagic:sacrificialdagger"
+    },
+    "41D32B8152806B22": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altar"
+    }
+  },
+  "rewards": {
+    "2DE0010C8535C460": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Collecting §cBlood",
+    "description": [
+      "<task task=\"49E5D4B7057851E7\" quest=\"3DA7D0BA045CE7AB\"/>",
+      "<task task=\"41D32B8152806B22\" quest=\"3DA7D0BA045CE7AB\"/>",
+      "<hr/>",
+      "To get started with Blood Magic, we'll need to collect some blood.",
+      "<br/>",
+      "To do this, we'll need to craft the &&dSacrificial Knife&&r and the &&4Blood Altar&&r. ",
+      "<br/>",
+      "Go ahead and place the Altar somewhere with plenty of space around it. We might want to expand on it more in the future.",
+      "<br/>",
+      "To acquire blood, stand by the Altar and... well... use the knife. You'll take a little damage, but &&oit's for the cause&&r.",
+      "<br/>",
+      "Each stab will generate around 200 LP.",
+      "<hr/>",
+      "<reward reward=\"2DE0010C8535C460\" quest=\"3DA7D0BA045CE7AB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altar"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -912,
+          -32
+        ]
+      }
+    }
+  }
+}

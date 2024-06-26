@@ -1,0 +1,68 @@
+{
+  "dependencies": [],
+  "display": {
+    "description": [
+      "<task task=\"7ECE44526077F3C9\" quest=\"7C4E4793DA887DE4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.extremereactors</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5D196EE2BB1E921E\" quest=\"7C4E4793DA887DE4\"/>",
+      "<reward reward=\"1C213B4FE894781D\" quest=\"7C4E4793DA887DE4\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -320,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "count": 1,
+        "id": "alltheores:uranium_ingot"
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": ""
+    },
+    "title": {
+      "translate": "i18n.quest.bigreactors.welcome"
+    }
+  },
+  "rewards": {
+    "1C213B4FE894781D": {
+      "item": {
+        "count": 1,
+        "id": "patchouli:guide_book",
+        "nbt": {
+          "patchouli:book": "bigreactors:erguide"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "5D196EE2BB1E921E": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "POINTS"
+    }
+  },
+  "settings": {
+    "autoClaimRewards": false,
+    "hidden": "LOCKED",
+    "individual_progress": false,
+    "repeatable": false,
+    "showDependencyArrow": true,
+    "unlockNotification": false
+  },
+  "tasks": {
+    "7ECE44526077F3C9": {
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "alltheores:uranium_ingot",
+      "type": "heracles:item"
+    }
+  }
+}

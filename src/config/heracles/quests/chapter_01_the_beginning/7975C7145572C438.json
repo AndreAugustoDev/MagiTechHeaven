@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "282CE3A088AE5CFB"
+  ],
+  "tasks": {
+    "5CA7453233441165": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_pickaxe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1551FD138B9B3813": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5CA7453233441165\" quest=\"7975C7145572C438\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.wooden_pick",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"1551FD138B9B3813\" quest=\"7975C7145572C438\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          32,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:wooden_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.wooden_pick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

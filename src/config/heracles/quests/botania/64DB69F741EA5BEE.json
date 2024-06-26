@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "731919E7ED474146": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_helmet"
+    },
+    "6ABD8D027FD1C170": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_chestplate"
+    },
+    "41EBB5AAF5F27DCA": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_leggings"
+    },
+    "248AD65A97AFB7DB": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_boots"
+    }
+  },
+  "rewards": {
+    "02369900BB48EB59": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Manasteel Armor",
+    "description": [
+      "<task task=\"731919E7ED474146\" quest=\"64DB69F741EA5BEE\"/>",
+      "<task task=\"6ABD8D027FD1C170\" quest=\"64DB69F741EA5BEE\"/>",
+      "<task task=\"41EBB5AAF5F27DCA\" quest=\"64DB69F741EA5BEE\"/>",
+      "<task task=\"248AD65A97AFB7DB\" quest=\"64DB69F741EA5BEE\"/>",
+      "<hr/>",
+      "Similar to the qualities of Iron, &&9Manasteel Armor&&r has superior enchantability and durability. Manasteel items can also repair themselves with Mana from the user's inventory.",
+      "<hr/>",
+      "<reward reward=\"02369900BB48EB59\" quest=\"64DB69F741EA5BEE\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          400,
+          -16
+        ]
+      }
+    }
+  }
+}

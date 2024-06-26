@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "2866EA9311E575B6": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:cow_seeds"
+    }
+  },
+  "rewards": {
+    "2AC8734439489F3C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Meow Meow I'm a Cow... NO!",
+    "description": [
+      "<task task=\"2866EA9311E575B6\" quest=\"7580037DB8ADEB3C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2AC8734439489F3C\" quest=\"7580037DB8ADEB3C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:cow_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -480,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "44C1315098B9CF3F"
+  ],
+  "tasks": {
+    "3507C8B858D39314": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_niotic"
+    }
+  },
+  "rewards": {
+    "61A665E0362576F0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:thermo_generator_niotic",
+    "description": [
+      "<task task=\"3507C8B858D39314\" quest=\"28EE8C172F9DF5C1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"61A665E0362576F0\" quest=\"28EE8C172F9DF5C1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          176,
+          496
+        ]
+      }
+    }
+  }
+}

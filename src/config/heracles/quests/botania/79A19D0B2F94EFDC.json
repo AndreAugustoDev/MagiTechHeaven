@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "6F5CDA3C118F1D62": {
+      "type": "heracles:item",
+      "item": "botania:lens_magnet"
+    }
+  },
+  "rewards": {
+    "7923DCD4C5364E57": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_magnet",
+    "description": [
+      "<task task=\"6F5CDA3C118F1D62\" quest=\"79A19D0B2F94EFDC\"/>",
+      "<hr/>",
+      "Allows a Mana Burst to home in on any nearby blocks that can receive Mana. This also slightly decreases the speed of the burst.",
+      "<hr/>",
+      "<reward reward=\"7923DCD4C5364E57\" quest=\"79A19D0B2F94EFDC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_magnet"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          416,
+          368
+        ]
+      }
+    }
+  }
+}

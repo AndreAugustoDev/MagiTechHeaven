@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "21FBC4E0F668347C": {
+      "title": "NBT and YOU!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "709280A79BC54D7E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:chest"
+      }
+    },
+    "495C45D51AEDF931": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.NBT",
+    "description": [
+      "<task task=\"21FBC4E0F668347C\" quest=\"7EF57BBEAA4B6B08\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.NBT</translate></p>",
+      "<hr/>",
+      "<reward reward=\"709280A79BC54D7E\" quest=\"7EF57BBEAA4B6B08\"/>",
+      "<reward reward=\"495C45D51AEDF931\" quest=\"7EF57BBEAA4B6B08\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          144,
+          16
+        ]
+      }
+    }
+  }
+}

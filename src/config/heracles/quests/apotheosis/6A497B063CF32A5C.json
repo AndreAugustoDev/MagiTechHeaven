@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {},
+  "rewards": {
+    "3F1149656E6D078F": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"426CC475B062FC85\" quest=\"6A497B063CF32A5C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.piglich</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3F1149656E6D078F\" quest=\"6A497B063CF32A5C\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          48,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.piglich"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

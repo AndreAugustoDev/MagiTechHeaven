@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "25088F06228F8561"
+  ],
+  "tasks": {
+    "6B0A0DA8C0C79568": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_niotic"
+    }
+  },
+  "rewards": {
+    "43505AB66A3199A4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cell_niotic",
+    "description": [
+      "<task task=\"6B0A0DA8C0C79568\" quest=\"6EFB4BF8110F2712\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43505AB66A3199A4\" quest=\"6EFB4BF8110F2712\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          496
+        ]
+      }
+    }
+  }
+}

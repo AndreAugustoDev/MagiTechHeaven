@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "78772A2785AE9DD2": {
+      "title": "The Planter",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "116FA96039FC2359": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "70556C33AE952F49": {
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.farming"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.farming</translate></h2>",
+      "<hr/>",
+      "<task task=\"78772A2785AE9DD2\" quest=\"43021923E220CF68\"/>",
+      "<hr/>",
+      "<reward reward=\"70556C33AE952F49\" quest=\"43021923E220CF68\"/>",
+      "<reward reward=\"116FA96039FC2359\" quest=\"43021923E220CF68\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -50,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:wooden_hoe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.farming"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

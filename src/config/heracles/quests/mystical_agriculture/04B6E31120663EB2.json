@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "180DD2AAD6C8F073": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:slime_seeds"
+    }
+  },
+  "rewards": {
+    "6F6C1F17DF70CE89": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:slime_seeds",
+    "description": [
+      "<task task=\"180DD2AAD6C8F073\" quest=\"04B6E31120663EB2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6F6C1F17DF70CE89\" quest=\"04B6E31120663EB2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:slime_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -448,
+          112
+        ]
+      }
+    }
+  }
+}

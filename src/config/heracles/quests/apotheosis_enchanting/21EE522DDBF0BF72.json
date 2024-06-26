@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "606780E5B8CF83BE",
+    "10C527C66EE4E95A"
+  ],
+  "tasks": {},
+  "rewards": {
+    "366AFCAB92AF9E96": {
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6436AFC23A51F495\" quest=\"21EE522DDBF0BF72\"/>",
+      "<task task=\"1D07057D04625570\" quest=\"21EE522DDBF0BF72\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.endshelf</translate></p>",
+      "<hr/>",
+      "<reward reward=\"366AFCAB92AF9E96\" quest=\"21EE522DDBF0BF72\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          256,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.endshelf"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

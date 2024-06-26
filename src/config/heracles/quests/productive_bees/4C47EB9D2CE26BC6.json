@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "6E21D8349EEB2A11": {
+      "title": "Crystalline Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:crystalline"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "492A77FECC7B1FBB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Crystalline Bee",
+    "description": [
+      "<h2>Spawns from a Quartz Nest in the Nether</h2>",
+      "<hr/>",
+      "<task task=\"6E21D8349EEB2A11\" quest=\"4C47EB9D2CE26BC6\"/>",
+      "<hr/>",
+      "The Crystalline Bee is spawned from a Quartz Nest.",
+      "<br/>",
+      "This bee is needed to make many of the other metal bees, like Iron and Copper.",
+      "<hr/>",
+      "<reward reward=\"492A77FECC7B1FBB\" quest=\"4C47EB9D2CE26BC6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:quartz"
+    },
+    "subtitle": {
+      "text": "Spawns from a Quartz Nest in the Nether"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -128,
+          352
+        ]
+      }
+    }
+  }
+}

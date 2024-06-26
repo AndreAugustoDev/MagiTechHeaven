@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "464D0C17601E8A2B"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"317121010F937E4F\" quest=\"58095E9EBC6FF9B2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1DAEDC2E98F1482B\" quest=\"58095E9EBC6FF9B2\"/>"
+    ],
+    "groups": {
+      "§aChapter 3§r: §dCreative": {
+        "position": [
+          96,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter3.powah"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

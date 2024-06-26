@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "3ADCAD65EA6900BA"
+  ],
+  "tasks": {
+    "1693B07767081FB3": {
+      "type": "heracles:item",
+      "item": "#minecraft:trim_templates",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Trim Templates"
+    }
+  },
+  "rewards": {
+    "78458A2A58EEEAAF": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1693B07767081FB3\" quest=\"7741905EA8380B25\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.trims</translate></p>",
+      "<hr/>",
+      "<reward reward=\"78458A2A58EEEAAF\" quest=\"7741905EA8380B25\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          144,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.trims"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

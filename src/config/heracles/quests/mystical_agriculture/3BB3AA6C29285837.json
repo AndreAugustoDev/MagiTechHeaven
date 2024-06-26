@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "50EED9493818859D": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:prudentium_apple"
+    }
+  },
+  "rewards": {
+    "61D04CE0E2195B37": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:prudentium_apple",
+    "description": [
+      "<task task=\"50EED9493818859D\" quest=\"3BB3AA6C29285837\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"61D04CE0E2195B37\" quest=\"3BB3AA6C29285837\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:prudentium_apple"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -432,
+          -80
+        ]
+      }
+    }
+  }
+}

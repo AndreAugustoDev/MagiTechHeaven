@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "407E853A5B322E13"
+  ],
+  "tasks": {
+    "35CB81CE67784F1C": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:plate_duroplast",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7CA6D658065E142C": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:mold_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "35D9EEB6824E3FF4": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:conveyor_basic",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"35D9EEB6824E3FF4\" quest=\"2CBEEDDD4B6DDDD9\"/>",
+      "<task task=\"7CA6D658065E142C\" quest=\"2CBEEDDD4B6DDDD9\"/>",
+      "<task task=\"35CB81CE67784F1C\" quest=\"2CBEEDDD4B6DDDD9\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.duroplast}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -272,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.duroplast"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

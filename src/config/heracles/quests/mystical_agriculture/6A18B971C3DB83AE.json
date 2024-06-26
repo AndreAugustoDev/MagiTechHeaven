@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "633406C0560295F7": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:spider_seeds"
+    }
+  },
+  "rewards": {
+    "0A3C82B3C36B09FF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:spider_seeds",
+    "description": [
+      "<task task=\"633406C0560295F7\" quest=\"6A18B971C3DB83AE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0A3C82B3C36B09FF\" quest=\"6A18B971C3DB83AE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:spider_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -304,
+          80
+        ]
+      }
+    }
+  }
+}

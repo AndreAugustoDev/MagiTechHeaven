@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "0EB5B926E1FBAF0E"
+  ],
+  "tasks": {
+    "1CC9EA4FD2BF3DB0": {
+      "type": "heracles:item",
+      "item": "#forge:bookshelves",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #forge:bookshelves"
+    }
+  },
+  "rewards": {
+    "02A49326EC0332F9": {
+      "item": {
+        "id": "minecraft:book",
+        "count": 9
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1CC9EA4FD2BF3DB0\" quest=\"7F042DED357DEF3C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.book</translate></p>",
+      "<hr/>",
+      "<reward reward=\"02A49326EC0332F9\" quest=\"7F042DED357DEF3C\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          -32,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.book"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

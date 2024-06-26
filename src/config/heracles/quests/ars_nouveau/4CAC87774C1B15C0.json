@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "7F2FC5D08E7B548B": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_fell"
+    }
+  },
+  "rewards": {
+    "2483EB293F404A34": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_fell",
+    "description": [
+      "<task task=\"7F2FC5D08E7B548B\" quest=\"4CAC87774C1B15C0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2483EB293F404A34\" quest=\"4CAC87774C1B15C0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_fell"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -240
+        ]
+      }
+    }
+  }
+}

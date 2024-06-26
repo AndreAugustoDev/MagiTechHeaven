@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "6B04FC81351CD1AB"
+  ],
+  "tasks": {
+    "77FE4FDC2F752084": {
+      "type": "heracles:item",
+      "item": "refinedstorage:wireless_fluid_grid",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"77FE4FDC2F752084\" quest=\"7FA85713C86166DA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.WFG}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          208,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:wireless_fluid_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.WFG"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

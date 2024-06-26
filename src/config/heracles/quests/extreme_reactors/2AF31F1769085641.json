@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "354086C858E10154"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"2DBC9E20BFE7F058\" quest=\"2AF31F1769085641\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.turbine_interface</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5FAF55F5CF1BA345\" quest=\"2AF31F1769085641\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          304
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:reprocessorcontroller",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bigreactors.turbine_interface"
+  },
+  "rewards": {
+    "5FAF55F5CF1BA345": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "2DBC9E20BFE7F058": {
+      "item": "bigreactors:reprocessorcontroller",
+      "type": "heracles:item"
+    }
+  }
+}

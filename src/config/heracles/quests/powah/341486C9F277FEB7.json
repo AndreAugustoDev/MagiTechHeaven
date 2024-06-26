@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0FFF2BEE5D8EBE12"
+  ],
+  "tasks": {
+    "31C9199965D38CAB": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "powah:reactor_spirited"
+    }
+  },
+  "rewards": {
+    "3B76ED3D475D74E5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Reactor (Spirited)",
+    "description": [
+      "<task task=\"31C9199965D38CAB\" quest=\"341486C9F277FEB7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3B76ED3D475D74E5\" quest=\"341486C9F277FEB7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:reactor_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          208,
+          528
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "0C6725EA57E7D9EE": {
+      "type": "heracles:item",
+      "item": "thermal:machine_press"
+    }
+  },
+  "rewards": {
+    "650B53A376632EC3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_press",
+    "description": [
+      "<task task=\"0C6725EA57E7D9EE\" quest=\"5963FBEB78A79668\"/>",
+      "<hr/>",
+      "Creates \"Presses\" using Casts.",
+      "<br/>",
+      "Think plates, gears, etc.",
+      "<hr/>",
+      "<reward reward=\"650B53A376632EC3\" quest=\"5963FBEB78A79668\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_press"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          16,
+          -80
+        ]
+      }
+    }
+  }
+}

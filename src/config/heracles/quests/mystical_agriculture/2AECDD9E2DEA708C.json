@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "1E4845AD1FC5216D": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:squid_seeds"
+    }
+  },
+  "rewards": {
+    "0498E8AC667AAC94": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:squid_seeds",
+    "description": [
+      "<task task=\"1E4845AD1FC5216D\" quest=\"2AECDD9E2DEA708C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0498E8AC667AAC94\" quest=\"2AECDD9E2DEA708C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:squid_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -480,
+          80
+        ]
+      }
+    }
+  }
+}

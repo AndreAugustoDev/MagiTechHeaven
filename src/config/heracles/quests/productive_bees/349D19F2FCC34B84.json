@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "3722A83F8591AC9F": {
+      "type": "heracles:item",
+      "item": "productivebees:nether_brick_nest"
+    }
+  },
+  "rewards": {
+    "4A620DDFDE9BDB88": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:nether_brick_nest",
+    "description": [
+      "<h2>Lures in a Magmatic Bee when placed in the Nether</h2>",
+      "<hr/>",
+      "<task task=\"3722A83F8591AC9F\" quest=\"349D19F2FCC34B84\"/>",
+      "<hr/>",
+      "Placing the Nether Brick Nest in the Nether will lure in a Magmatic Bee when given Magma Cream.",
+      "<hr/>",
+      "<reward reward=\"4A620DDFDE9BDB88\" quest=\"349D19F2FCC34B84\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:nether_brick_nest"
+    },
+    "subtitle": {
+      "text": "Lures in a Magmatic Bee when placed in the Nether"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -224,
+          144
+        ]
+      }
+    }
+  }
+}

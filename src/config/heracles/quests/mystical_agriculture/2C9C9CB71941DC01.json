@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "6A85B770B8EA032B": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_essence"
+    }
+  },
+  "rewards": {
+    "16EB669025917F77": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§cTertium Essence",
+    "description": [
+      "<h2>&&bTier 3</h2>",
+      "<hr/>",
+      "<task task=\"6A85B770B8EA032B\" quest=\"2C9C9CB71941DC01\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16EB669025917F77\" quest=\"2C9C9CB71941DC01\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    "subtitle": {
+      "text": "§bTier 3"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -304,
+          -48
+        ]
+      }
+    }
+  }
+}

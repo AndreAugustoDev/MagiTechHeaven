@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F94483E05D2F528"
+  ],
+  "tasks": {
+    "33F9C615B944909A": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_fluid_tank"
+    }
+  },
+  "rewards": {
+    "00B48685B5FE781C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_fluid_tank",
+    "description": [
+      "<task task=\"33F9C615B944909A\" quest=\"712CB147B5873121\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"00B48685B5FE781C\" quest=\"712CB147B5873121\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_fluid_tank"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          96,
+          250
+        ]
+      }
+    }
+  }
+}

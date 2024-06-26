@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6313B18820445882"
+  ],
+  "tasks": {
+    "69CE83F6561383E5": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "mekanismgenerators:turbine_rotor"
+    },
+    "2902E36FD3AC8E68": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:rotational_complex"
+    },
+    "1E9FDE2560C1AB7C": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "mekanism:pressure_disperser"
+    },
+    "526F17523CE9BDF5": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "mekanismgenerators:turbine_blade"
+    }
+  },
+  "rewards": {
+    "5FDADDDF8428A238": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "The §aRotor§r",
+    "description": [
+      "<task task=\"69CE83F6561383E5\" quest=\"05D20B506213A449\"/>",
+      "<task task=\"2902E36FD3AC8E68\" quest=\"05D20B506213A449\"/>",
+      "<task task=\"1E9FDE2560C1AB7C\" quest=\"05D20B506213A449\"/>",
+      "<task task=\"526F17523CE9BDF5\" quest=\"05D20B506213A449\"/>",
+      "<hr/>",
+      "The &&9Turbine Rotor&&r is placed in the middle of the Turbine. For every Turbine Rotor, you will need 2 &&aTurbine Blades&&r. For this Turbine, we'll be using 3 Rotors.",
+      "<br/>",
+      "While looking at the Rotor, right clicking with &&aTurbine Blades&&r will place them directly onto the Rotor. The taller the Rotor, the longer the Blades will become. For this build, we are using 6 total Blades. If you plan on building a bigger Turbine, you will need to increase the width of the Turbine depending on how many Blades you plan on using.",
+      "<br/>",
+      "The &&9Rotational Complex&&r must be placed at the top of the Turbine Rotor. This is then surrounded by &&ePressure Dispersers&&r.",
+      "<br/>",
+      "The Dispersers must fill out the entire layer where the Rotational Complex sits.",
+      "<hr/>",
+      "<reward reward=\"5FDADDDF8428A238\" quest=\"05D20B506213A449\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          448,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3B857C698A419BC0": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanting_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "71CBD6EA1A5B7930": {
+      "item": {
+        "id": "minecraft:book",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3B857C698A419BC0\" quest=\"0EB5B926E1FBAF0E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.enchant</translate></p>",
+      "<hr/>",
+      "<reward reward=\"71CBD6EA1A5B7930\" quest=\"0EB5B926E1FBAF0E\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          -96,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:enchanting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.enchant"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

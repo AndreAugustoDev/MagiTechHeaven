@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1B6DDF50D00CBB31"
+  ],
+  "tasks": {
+    "3F972BE9DFCA1EB5": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_logistical_transporter"
+    }
+  },
+  "rewards": {
+    "75E2FFA83AB6A12A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_logistical_transporter",
+        "count": 4
+      }
+    },
+    "0E81EDFBC2D49452": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_logistical_transporter",
+    "description": [
+      "<h2>For Transferring Items</h2>",
+      "<hr/>",
+      "<task task=\"3F972BE9DFCA1EB5\" quest=\"5B681BC43371CC5C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"75E2FFA83AB6A12A\" quest=\"5B681BC43371CC5C\"/>",
+      "<reward reward=\"0E81EDFBC2D49452\" quest=\"5B681BC43371CC5C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_logistical_transporter"
+    },
+    "subtitle": {
+      "text": "For Transferring Items"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          80,
+          128
+        ]
+      }
+    }
+  }
+}

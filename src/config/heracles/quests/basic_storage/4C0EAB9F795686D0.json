@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "00DB5495C3A44999"
+  ],
+  "tasks": {
+    "3D7F2E1489EB84AA": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_deposit_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "27CA65D1E2EEDA8A": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3D7F2E1489EB84AA\" quest=\"4C0EAB9F795686D0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"27CA65D1E2EEDA8A\" quest=\"4C0EAB9F795686D0\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -240,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:advanced_deposit_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Adeposit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

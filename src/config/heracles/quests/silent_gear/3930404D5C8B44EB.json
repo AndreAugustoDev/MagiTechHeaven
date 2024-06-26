@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "6A393C7A24899E3E"
+  ],
+  "tasks": {
+    "7F18323AEA5BF486": {
+      "type": "heracles:item",
+      "item": "silentgear:metal_alloyer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2A50AB8483F114F2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "02BF731EB9C877A9": {
+      "item": {
+        "id": "silentgear:crimson_steel_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.alloyer"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.alloyer</translate></h2>",
+      "<hr/>",
+      "<task task=\"7F18323AEA5BF486\" quest=\"3930404D5C8B44EB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.alloyer</translate></p>",
+      "<hr/>",
+      "<reward reward=\"02BF731EB9C877A9\" quest=\"3930404D5C8B44EB\"/>",
+      "<reward reward=\"2A50AB8483F114F2\" quest=\"3930404D5C8B44EB\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          352,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:metal_alloyer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.alloyer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

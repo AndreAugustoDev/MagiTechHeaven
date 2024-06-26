@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "316B266E606B709C": {
+      "type": "heracles:item",
+      "item": "silentgear:ring_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6A8BDD8F692F157C": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"316B266E606B709C\" quest=\"74FA25B2E087BEC4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6A8BDD8F692F157C\" quest=\"74FA25B2E087BEC4\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          224,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:ring_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.ring"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

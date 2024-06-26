@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2F5D0ABEF5F4EDEF": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:restock_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4C3EB57AC444EC11": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.restock"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.restock</translate></h2>",
+      "<hr/>",
+      "<task task=\"2F5D0ABEF5F4EDEF\" quest=\"4B62AF0405F68041\"/>",
+      "<hr/>",
+      "Adds a filter that allows you to tell the backpack which items it should keep stocked. Shift-Right Clicking an inventory will refill it.",
+      "<hr/>",
+      "<reward reward=\"4C3EB57AC444EC11\" quest=\"4B62AF0405F68041\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -48,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:restock_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.restock"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

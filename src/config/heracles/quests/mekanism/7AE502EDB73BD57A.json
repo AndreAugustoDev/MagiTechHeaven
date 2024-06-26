@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6C25D42C36175BF4"
+  ],
+  "tasks": {
+    "431D7329CFCAF880": {
+      "type": "heracles:item",
+      "item": "mekanism:crusher"
+    }
+  },
+  "rewards": {
+    "62B555EE0C1159EA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:dirty_dust_iron",
+        "count": 4
+      }
+    },
+    "0E0B58D60884D6AD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:crusher",
+    "description": [
+      "<h2>It Crushes Things.</h2>",
+      "<hr/>",
+      "<task task=\"431D7329CFCAF880\" quest=\"7AE502EDB73BD57A\"/>",
+      "<hr/>",
+      "This machine crushes ores into their \"dirty\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot.",
+      "<hr/>",
+      "<reward reward=\"62B555EE0C1159EA\" quest=\"7AE502EDB73BD57A\"/>",
+      "<reward reward=\"0E0B58D60884D6AD\" quest=\"7AE502EDB73BD57A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:crusher"
+    },
+    "subtitle": {
+      "text": "It Crushes Things."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          -64
+        ]
+      }
+    }
+  }
+}

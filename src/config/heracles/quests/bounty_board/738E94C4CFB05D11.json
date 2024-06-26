@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "3371F9248D403664"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"33107949548BC22D\" quest=\"738E94C4CFB05D11\"/>",
+      "<hr/>",
+      "<reward reward=\"5A7979DA8E07631A\" quest=\"738E94C4CFB05D11\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          256,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.wither_skeleton.10"
+  },
+  "rewards": {
+    "5A7979DA8E07631A": {
+      "amount": 20,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "33107949548BC22D": {
+      "amount": 10,
+      "entity": {
+        "type": "minecraft:wither_skeleton"
+      },
+      "icon": {
+        "item": "minecraft:wither_skeleton_skull",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.wither_skeleton.10",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

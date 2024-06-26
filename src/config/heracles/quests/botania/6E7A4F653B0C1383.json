@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "064F00766BFAC083": {
+      "type": "heracles:item",
+      "item": "botania:gourmaryllis"
+    }
+  },
+  "rewards": {
+    "7AA7BD3489BDE052": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:gourmaryllis",
+    "description": [
+      "<task task=\"064F00766BFAC083\" quest=\"6E7A4F653B0C1383\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7AA7BD3489BDE052\" quest=\"6E7A4F653B0C1383\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:gourmaryllis"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          -80
+        ]
+      }
+    }
+  }
+}

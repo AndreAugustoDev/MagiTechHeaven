@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "7C3968AF39557751"
+  ],
+  "tasks": {
+    "6CB3873E7BCE06F2": {
+      "type": "heracles:item",
+      "item": "minecraft:fletching_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "25153229ED21F95C": {
+      "item": {
+        "id": "minecraft:arrow",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6CB3873E7BCE06F2\" quest=\"00588B2FDB99874D\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.fletcher</translate></p>",
+      "<hr/>",
+      "<reward reward=\"25153229ED21F95C\" quest=\"00588B2FDB99874D\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          -64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:fletching_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.fletcher"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

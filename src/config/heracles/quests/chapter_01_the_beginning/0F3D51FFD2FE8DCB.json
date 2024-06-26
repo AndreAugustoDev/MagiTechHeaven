@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "76406EFFF8CBA6B4"
+  ],
+  "tasks": {
+    "6206DC761D4CDDFE": {
+      "type": "heracles:item",
+      "item": "minecraft:obsidian",
+      "amount": 10,
+      "collection": "AUTOMATIC"
+    },
+    "6FF63A559722919C": {
+      "title": "Enter The Nether",
+      "advancements": [
+        "minecraft:story/enter_the_nether"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "196D91EFBD3EBC2F": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6206DC761D4CDDFE\" quest=\"0F3D51FFD2FE8DCB\"/>",
+      "<task task=\"6FF63A559722919C\" quest=\"0F3D51FFD2FE8DCB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.nether",
+      "<br/>",
+      "{image:atm:textures/questpics/gettingstarted/example_netherportal.png width:175 height:201 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"196D91EFBD3EBC2F\" quest=\"0F3D51FFD2FE8DCB\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          432,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.nether"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

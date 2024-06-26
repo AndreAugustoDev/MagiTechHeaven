@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "43C5F3AECB9F88F1": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_crusher"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:mob_crusher",
+    "description": [
+      "<task task=\"43C5F3AECB9F88F1\" quest=\"7CB4D47ABC295B92\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mob_crusher"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          544,
+          96
+        ]
+      }
+    }
+  }
+}

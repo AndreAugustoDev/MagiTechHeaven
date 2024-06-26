@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "3C55D19D9BD9C886": {
+      "type": "heracles:item",
+      "item": "botania:spectranthemum"
+    }
+  },
+  "rewards": {
+    "52FEDB72D380FC4A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:spectranthemum",
+    "description": [
+      "<task task=\"3C55D19D9BD9C886\" quest=\"04606CC66363B7A2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52FEDB72D380FC4A\" quest=\"04606CC66363B7A2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:spectranthemum"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          112
+        ]
+      }
+    }
+  }
+}

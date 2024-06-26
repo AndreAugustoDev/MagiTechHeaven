@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C48F2612F2FA828"
+  ],
+  "tasks": {
+    "06C2FA45E55D9369": {
+      "type": "heracles:item",
+      "item": "botania:redstone_spreader"
+    }
+  },
+  "rewards": {
+    "51FB8A5FF90A645C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:redstone_spreader",
+    "description": [
+      "<task task=\"06C2FA45E55D9369\" quest=\"4C22BA5824662C7E\"/>",
+      "<hr/>",
+      "When you combine a piece of &&4Redstone&&r with a &&2Mana Spreader&&r, it creates a &&9Pulse Mana Spreader&&r.",
+      "<br/>",
+      "These can be controlled to only shoot a mana pulse when given a redstone pulse.",
+      "<hr/>",
+      "<reward reward=\"51FB8A5FF90A645C\" quest=\"4C22BA5824662C7E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:redstone_spreader"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          176
+        ]
+      }
+    }
+  }
+}

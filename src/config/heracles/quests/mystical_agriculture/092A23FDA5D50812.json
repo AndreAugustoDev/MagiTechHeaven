@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "697EBA0A6EF9183E": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:turtle_seeds"
+    }
+  },
+  "rewards": {
+    "4EF6DF19C18B7745": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:turtle_seeds",
+    "description": [
+      "<task task=\"697EBA0A6EF9183E\" quest=\"092A23FDA5D50812\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4EF6DF19C18B7745\" quest=\"092A23FDA5D50812\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:turtle_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -480,
+          112
+        ]
+      }
+    }
+  }
+}

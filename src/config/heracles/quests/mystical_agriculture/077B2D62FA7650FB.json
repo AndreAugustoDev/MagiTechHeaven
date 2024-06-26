@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "21BCED1462115F52": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_growth_accelerator"
+    }
+  },
+  "rewards": {
+    "13C0DE1B6E41A5A4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:tertium_growth_accelerator",
+    "description": [
+      "<task task=\"21BCED1462115F52\" quest=\"077B2D62FA7650FB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"13C0DE1B6E41A5A4\" quest=\"077B2D62FA7650FB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_growth_accelerator"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -336,
+          -16
+        ]
+      }
+    }
+  }
+}

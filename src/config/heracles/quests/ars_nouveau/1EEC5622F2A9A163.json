@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "44C797F6DFAF95D9": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_pickup"
+    }
+  },
+  "rewards": {
+    "3345878DB26C9352": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_pickup",
+    "description": [
+      "<task task=\"44C797F6DFAF95D9\" quest=\"1EEC5622F2A9A163\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3345878DB26C9352\" quest=\"1EEC5622F2A9A163\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_pickup"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -176,
+          -464
+        ]
+      }
+    }
+  }
+}

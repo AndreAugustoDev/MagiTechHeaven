@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "1726C6AB09496E0C": {
+      "type": "heracles:item",
+      "item": "thermal:item_filter_augment"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: thermal:item_filter_augment",
+    "description": [
+      "<task task=\"1726C6AB09496E0C\" quest=\"6D35E56FC874C841\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:item_filter_augment"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          48,
+          176
+        ]
+      }
+    }
+  }
+}

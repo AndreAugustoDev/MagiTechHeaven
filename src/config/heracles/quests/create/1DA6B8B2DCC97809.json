@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5DC892BA79EB52EC"
+  ],
+  "tasks": {
+    "07896B715ED0E04F": {
+      "title": "Any Brass Ingot",
+      "icon": {
+        "type": "heracles:item",
+        "item": "create:brass_ingot"
+      },
+      "type": "heracles:item",
+      "item": "#forge:ingots/brass"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Brass",
+    "description": [
+      "<task task=\"07896B715ED0E04F\" quest=\"1DA6B8B2DCC97809\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          336,
+          96
+        ]
+      }
+    }
+  }
+}

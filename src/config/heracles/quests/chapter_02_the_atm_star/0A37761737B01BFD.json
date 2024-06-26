@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "46B515C90C13A72F"
+  ],
+  "tasks": {},
+  "rewards": {
+    "06D1AEF8DADA23BD": {
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Star of The Gods\",\"italic\":false,\"color\":\"dark_purple\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "7F841182CDB587C1": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2A37E5A3F7716D02\" quest=\"0A37761737B01BFD\"/>",
+      "<hr/>",
+      "You didn't hear it from me, but there are some interesting ways to make &&5Inert Nether Stars&&r which can be turned into Nether Stars",
+      "<hr/>",
+      "<reward reward=\"06D1AEF8DADA23BD\" quest=\"0A37761737B01BFD\"/>",
+      "<reward reward=\"7F841182CDB587C1\" quest=\"0A37761737B01BFD\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          672
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.nether_stars"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

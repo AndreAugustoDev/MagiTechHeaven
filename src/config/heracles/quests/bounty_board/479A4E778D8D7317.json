@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "2AAF57D1D8AB6BF8"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"53C23DB8B4D1CEE2\" quest=\"479A4E778D8D7317\"/>",
+      "<hr/>",
+      "<reward reward=\"2BC1E9EBB5267A83\" quest=\"479A4E778D8D7317\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          320,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:ender_eye",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.enderman.100"
+  },
+  "rewards": {
+    "2BC1E9EBB5267A83": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "53C23DB8B4D1CEE2": {
+      "amount": 100,
+      "entity": {
+        "type": "minecraft:enderman"
+      },
+      "icon": {
+        "item": "minecraft:ender_eye",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.enderman.100",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

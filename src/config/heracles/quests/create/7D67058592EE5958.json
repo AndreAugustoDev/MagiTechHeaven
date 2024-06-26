@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0CF69DBA9573A7B3"
+  ],
+  "tasks": {
+    "5D989C876E9B8AA5": {
+      "type": "heracles:item",
+      "item": "create:schematicannon"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:schematicannon",
+    "description": [
+      "<task task=\"5D989C876E9B8AA5\" quest=\"7D67058592EE5958\"/>",
+      "<hr/>",
+      "The Cannon will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:schematicannon"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -80,
+          80
+        ]
+      }
+    }
+  }
+}

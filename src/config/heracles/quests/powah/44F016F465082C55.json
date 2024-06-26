@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3CD1F9E00E33C6C9",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "09770035C196D36D": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_nitro"
+    }
+  },
+  "rewards": {
+    "601F715D79D3E748": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_gate_nitro",
+    "description": [
+      "<task task=\"09770035C196D36D\" quest=\"44F016F465082C55\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"601F715D79D3E748\" quest=\"44F016F465082C55\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          64,
+          560
+        ]
+      }
+    }
+  }
+}

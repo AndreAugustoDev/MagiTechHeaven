@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C6719D81DE5A614"
+  ],
+  "tasks": {
+    "0D4ABA98B2FDB158": {
+      "type": "heracles:item",
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "rewards": {
+    "03B074FCE2297BF6": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    }
+  },
+  "display": {
+    "title": "§aBottle O' Enchanting",
+    "description": [
+      "<h2>Experience in a bottle</h2>",
+      "<hr/>",
+      "<task task=\"0D4ABA98B2FDB158\" quest=\"5E45D2A2FDD67495\"/>",
+      "<hr/>",
+      "This goes in the right side of the forge.",
+      "<hr/>",
+      "<reward reward=\"03B074FCE2297BF6\" quest=\"5E45D2A2FDD67495\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:experience_bottle"
+    },
+    "subtitle": {
+      "text": "Experience in a bottle"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          160,
+          112
+        ]
+      }
+    }
+  }
+}

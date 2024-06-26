@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "110D27EA86CDA62B"
+  ],
+  "tasks": {
+    "14A8CEB60805E90A": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_magnet_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2B3FB31DDDCD1F45": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"14A8CEB60805E90A\" quest=\"11D57C768032E3F7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2B3FB31DDDCD1F45\" quest=\"11D57C768032E3F7\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -144,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:advanced_magnet_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Amagnet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

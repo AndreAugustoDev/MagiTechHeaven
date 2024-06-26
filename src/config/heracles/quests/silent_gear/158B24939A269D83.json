@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "657B3116A6419420"
+  ],
+  "tasks": {
+    "4ECD1D119E695CBD": {
+      "type": "heracles:item",
+      "item": "silentgear:tip_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.tip"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.tip</translate></h2>",
+      "<hr/>",
+      "<task task=\"4ECD1D119E695CBD\" quest=\"158B24939A269D83\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.tip}"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -48,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:tip_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.tip"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

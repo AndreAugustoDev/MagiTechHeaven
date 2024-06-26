@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73349B993DE69954"
+  ],
+  "tasks": {
+    "4CAF79C3D1E35958": {
+      "title": "Powering the Forge",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4361C7754AB234B0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Powering the Forge",
+    "description": [
+      "<task task=\"4CAF79C3D1E35958\" quest=\"0C6719D81DE5A614\"/>",
+      "<hr/>",
+      "<br/>",
+      "The Forge requires 4 different items to be powered: Aureal, Souls, Blood, and Experience.",
+      "<br/>",
+      "To learn more about each, follow the corner quests!",
+      "<hr/>",
+      "<reward reward=\"4361C7754AB234B0\" quest=\"0C6719D81DE5A614\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          144,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "20D4341820B44B91"
+  ],
+  "tasks": {
+    "7978848A0670B07B": {
+      "type": "heracles:item",
+      "item": "alltheores:silver_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3C054656AAF44209": {
+      "title": "Refinery",
+      "advancements": [
+        "immersiveengineering:multiblocks/mb_refinery"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3C054656AAF44209\" quest=\"407E853A5B322E13\"/>",
+      "<task task=\"7978848A0670B07B\" quest=\"407E853A5B322E13\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.refinery}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -320,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.refinery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

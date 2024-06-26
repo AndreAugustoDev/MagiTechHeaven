@@ -1,0 +1,93 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A103577EAE7B3F1"
+  ],
+  "tasks": {
+    "343438DEFC6E307A": {
+      "title": "Awakened Supremium Tools and Weapons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_sword"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_pickaxe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_shovel"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_axe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_hoe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_bow"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_crossbow"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_shears"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_fishing_rod"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_sickle"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:awakened_supremium_scythe"
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagradditions:awakened_supremium_paxel"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "7B0AD2F72CBB422E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§cAwakened Tools and Weapons§r",
+    "description": [
+      "<task task=\"343438DEFC6E307A\" quest=\"5A58D4B25C9CB757\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7B0AD2F72CBB422E\" quest=\"5A58D4B25C9CB757\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          16,
+          176
+        ]
+      }
+    }
+  }
+}

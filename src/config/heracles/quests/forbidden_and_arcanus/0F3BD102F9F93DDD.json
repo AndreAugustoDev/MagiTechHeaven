@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "13E5783AD64E3BC2"
+  ],
+  "tasks": {
+    "38ECF24F59D34252": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:quantum_catcher"
+    }
+  },
+  "rewards": {
+    "5ED4399C894F175E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Entity Tools",
+    "description": [
+      "<task task=\"38ECF24F59D34252\" quest=\"0F3BD102F9F93DDD\"/>",
+      "<hr/>",
+      "The &&9Quantum Catcher&&r is used to capture and transport mobs.",
+      "<hr/>",
+      "<reward reward=\"5ED4399C894F175E\" quest=\"0F3BD102F9F93DDD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:quantum_catcher"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -304,
+          80
+        ]
+      }
+    }
+  }
+}

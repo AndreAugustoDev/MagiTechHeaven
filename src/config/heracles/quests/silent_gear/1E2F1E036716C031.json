@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "3F4C79848F8548D5": {
+      "type": "heracles:item",
+      "item": "silentgear:slingshot_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6DCC64F4FCD87ECA": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3F4C79848F8548D5\" quest=\"1E2F1E036716C031\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6DCC64F4FCD87ECA\" quest=\"1E2F1E036716C031\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -144,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:slingshot_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.slingshot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

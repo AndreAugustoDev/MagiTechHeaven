@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "6C996D5E63879519": {
+      "title": "Catalytic Reclamation Chamber",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:machine_catalyst_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_catalyst_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_catalyst_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_catalyst_augment_3"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "0410D3AC01336E89": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 4
+      }
+    },
+    "40E9A3AF6C1A87BC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Catalytic Reclamation Chamber",
+    "description": [
+      "<h2>Reduces Catalyst Usage</h2>",
+      "<hr/>",
+      "<task task=\"6C996D5E63879519\" quest=\"7D49A41E4D63A596\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0410D3AC01336E89\" quest=\"7D49A41E4D63A596\"/>",
+      "<reward reward=\"40E9A3AF6C1A87BC\" quest=\"7D49A41E4D63A596\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Reduces Catalyst Usage"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          96,
+          118
+        ]
+      }
+    }
+  }
+}

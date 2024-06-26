@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35FA55BE8DF49EE8"
+  ],
+  "tasks": {
+    "19C973A3F42D631C": {
+      "type": "heracles:item",
+      "item": "evilcraft:flesh_humanoid"
+    }
+  },
+  "rewards": {
+    "0354885167881B05": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:flesh_humanoid",
+    "description": [
+      "<task task=\"19C973A3F42D631C\" quest=\"753B3EF7CC94A6DD\"/>",
+      "<hr/>",
+      "This is a unique drop from &&aPlayers&&r, including when you die!",
+      "<br/>",
+      "You &&ocould&&r get this by dying over and over, or by participating in PvP. Same thing!",
+      "<hr/>",
+      "<reward reward=\"0354885167881B05\" quest=\"753B3EF7CC94A6DD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:flesh_humanoid"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          352,
+          240
+        ]
+      }
+    }
+  }
+}

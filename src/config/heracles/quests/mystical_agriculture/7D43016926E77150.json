@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "5C510B48A85397B6": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_helmet"
+    },
+    "4C60EA95AA2084D1": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_chestplate"
+    },
+    "2DB5403F9514E6DD": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_leggings"
+    },
+    "4B8C4F4457E2367F": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_boots"
+    }
+  },
+  "rewards": {
+    "5154E725372B77F2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§9Imperium Armor",
+    "description": [
+      "<task task=\"5C510B48A85397B6\" quest=\"7D43016926E77150\"/>",
+      "<task task=\"4C60EA95AA2084D1\" quest=\"7D43016926E77150\"/>",
+      "<task task=\"2DB5403F9514E6DD\" quest=\"7D43016926E77150\"/>",
+      "<task task=\"4B8C4F4457E2367F\" quest=\"7D43016926E77150\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5154E725372B77F2\" quest=\"7D43016926E77150\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -96,
+          -48
+        ]
+      }
+    }
+  }
+}

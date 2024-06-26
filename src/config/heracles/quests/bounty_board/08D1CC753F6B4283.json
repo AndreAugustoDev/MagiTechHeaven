@@ -1,0 +1,44 @@
+{
+  "display": {
+    "description": [
+      "<task task=\"2F28B803C75DA3B2\" quest=\"08D1CC753F6B4283\"/>",
+      "<hr/>",
+      "<reward reward=\"67970FDC5848EF61\" quest=\"08D1CC753F6B4283\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          144,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:elder_guardian_spawn_egg",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.elder"
+  },
+  "rewards": {
+    "67970FDC5848EF61": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "2F28B803C75DA3B2": {
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:elder_guardian"
+      },
+      "icon": {
+        "item": "minecraft:elder_guardian_spawn_egg",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.elder",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

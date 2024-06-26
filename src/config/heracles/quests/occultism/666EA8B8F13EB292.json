@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08B1A64B01A8A604"
+  ],
+  "tasks": {
+    "1E44A3F521ED5DFC": {
+      "type": "heracles:item",
+      "item": "occultism:soul_gem"
+    }
+  },
+  "rewards": {
+    "7D6E46BD52D37617": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§dEmpty Soul Gem§r",
+    "description": [
+      "<task task=\"1E44A3F521ED5DFC\" quest=\"666EA8B8F13EB292\"/>",
+      "<hr/>",
+      "This item is used to capture Demons for transport or storage. It's also needed for the &&6ATM Star&&r.",
+      "<hr/>",
+      "<reward reward=\"7D6E46BD52D37617\" quest=\"666EA8B8F13EB292\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:soul_gem"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          224,
+          176
+        ]
+      }
+    }
+  }
+}

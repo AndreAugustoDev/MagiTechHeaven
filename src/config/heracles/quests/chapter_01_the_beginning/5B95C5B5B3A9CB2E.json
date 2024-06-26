@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "4E9229FBA875C0BE"
+  ],
+  "tasks": {
+    "7DD48BFCA238430A": {
+      "type": "heracles:item",
+      "item": "#artifacts:artifacts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Artifacts"
+    }
+  },
+  "rewards": {
+    "29ECF9DB6CC61534": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7DD48BFCA238430A\" quest=\"5B95C5B5B3A9CB2E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.loot</translate></p>",
+      "<hr/>",
+      "<reward reward=\"29ECF9DB6CC61534\" quest=\"5B95C5B5B3A9CB2E\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          64,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "lootr:lootr_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.loot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B570B3DB5F6D2CB"
+  ],
+  "tasks": {
+    "5F8923D392E224BB": {
+      "type": "heracles:item",
+      "item": "functionalstorage:diamond_upgrade"
+    }
+  },
+  "rewards": {
+    "7DDEB81C6D62844E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "349616860CC71998": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.24",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.24</translate></h2>",
+      "<hr/>",
+      "<task task=\"5F8923D392E224BB\" quest=\"1B72E95569B07E18\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7DDEB81C6D62844E\" quest=\"1B72E95569B07E18\"/>",
+      "<reward reward=\"349616860CC71998\" quest=\"1B72E95569B07E18\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:diamond_upgrade"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.24"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          -240
+        ]
+      }
+    }
+  }
+}

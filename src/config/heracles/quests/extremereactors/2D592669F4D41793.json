@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68"
+  ],
+  "tasks": {
+    "2FC2A5929C2E0EA9": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_turbineglass",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "01C09E75947CCBF5": {
+      "item": {
+        "id": "bigreactors:basic_turbineglass",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "46A906727C46868C": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2FC2A5929C2E0EA9\" quest=\"2D592669F4D41793\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.turbine_construction</translate></p>",
+      "<hr/>",
+      "<reward reward=\"01C09E75947CCBF5\" quest=\"2D592669F4D41793\"/>",
+      "<reward reward=\"46A906727C46868C\" quest=\"2D592669F4D41793\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:basic_turbineglass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.turbine_construction"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

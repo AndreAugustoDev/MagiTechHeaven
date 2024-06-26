@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "40926361B5A17F74"
+  ],
+  "tasks": {
+    "69CF59A7A4E03D1F": {
+      "type": "heracles:item",
+      "item": "minecraft:smithing_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "52E0A2CFCA537D12": {
+      "item": {
+        "id": "minecraft:smooth_stone",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"69CF59A7A4E03D1F\" quest=\"359E1FFAB18FE50F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.affixes.desc.smith</translate></p>",
+      "<hr/>",
+      "<reward reward=\"52E0A2CFCA537D12\" quest=\"359E1FFAB18FE50F\"/>"
+    ],
+    "groups": {
+      "Apotheosis Gear": {
+        "position": [
+          -64,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:smithing_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.affixes.smith"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

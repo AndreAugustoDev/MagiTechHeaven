@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "051E0C85E7B71CE0"
+  ],
+  "tasks": {
+    "1869893A4F8E9E9C": {
+      "type": "heracles:item",
+      "item": "#alltheores:ore_hammers",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Ore Hammers"
+    }
+  },
+  "rewards": {
+    "5C1B39677C047DEA": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1869893A4F8E9E9C\" quest=\"4E5238F00CEED8B2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.hammer</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5C1B39677C047DEA\" quest=\"4E5238F00CEED8B2\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          176,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

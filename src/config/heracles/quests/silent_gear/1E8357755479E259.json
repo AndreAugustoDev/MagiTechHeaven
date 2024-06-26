@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "49B566024C78B433": {
+      "type": "heracles:item",
+      "item": "silentgear:crossbow_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "267E1DA2BC5DB5C5": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"49B566024C78B433\" quest=\"1E8357755479E259\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"267E1DA2BC5DB5C5\" quest=\"1E8357755479E259\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -112,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:crossbow_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.crossbow"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

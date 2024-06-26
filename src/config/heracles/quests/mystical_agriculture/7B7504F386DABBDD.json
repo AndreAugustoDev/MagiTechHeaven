@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6AB1C7B6251FE9F5"
+  ],
+  "tasks": {
+    "725AA849F27E509F": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:dragon_egg_crux"
+    }
+  },
+  "rewards": {
+    "7A9B43198D240FCA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:dragon_egg_crux",
+    "description": [
+      "<task task=\"725AA849F27E509F\" quest=\"7B7504F386DABBDD\"/>",
+      "<hr/>",
+      "Place this under the soil to allow Dragon Egg Seeds to grow.",
+      "<hr/>",
+      "<reward reward=\"7A9B43198D240FCA\" quest=\"7B7504F386DABBDD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:dragon_egg_crux"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          144,
+          -176
+        ]
+      }
+    }
+  }
+}

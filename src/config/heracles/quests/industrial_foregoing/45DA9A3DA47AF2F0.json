@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3514E9C1A8C7400C"
+  ],
+  "tasks": {
+    "3ECC5C50C2436DB2": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_frosty"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_frosty",
+    "description": [
+      "<task task=\"3ECC5C50C2436DB2\" quest=\"45DA9A3DA47AF2F0\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_frosty"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          96,
+          96
+        ]
+      }
+    }
+  }
+}

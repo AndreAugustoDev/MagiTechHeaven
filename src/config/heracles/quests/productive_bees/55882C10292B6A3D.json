@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "544D288D9F81C6D8": {
+      "title": "Prosperity Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:prosperity"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "677634D163F8DDDB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "ProsperiBee",
+    "description": [
+      "<h2>Feed a Crystalline Bee a Prosperity Block!</h2>",
+      "<hr/>",
+      "<task task=\"544D288D9F81C6D8\" quest=\"55882C10292B6A3D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"677634D163F8DDDB\" quest=\"55882C10292B6A3D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "subtitle": {
+      "text": "Feed a Crystalline Bee a Prosperity Block!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          192,
+          448
+        ]
+      }
+    }
+  }
+}

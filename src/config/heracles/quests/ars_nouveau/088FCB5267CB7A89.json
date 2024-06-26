@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "28D8B81E947FCB97": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:belt_of_unstable_gifts"
+    }
+  },
+  "rewards": {
+    "77A632E3CC0DA81D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:belt_of_unstable_gifts",
+    "description": [
+      "<task task=\"28D8B81E947FCB97\" quest=\"088FCB5267CB7A89\"/>",
+      "<hr/>",
+      "This belt will give random positive potion effects for a short duration. These will vary in strength. ",
+      "<hr/>",
+      "<reward reward=\"77A632E3CC0DA81D\" quest=\"088FCB5267CB7A89\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:belt_of_unstable_gifts"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          368,
+          128
+        ]
+      }
+    }
+  }
+}

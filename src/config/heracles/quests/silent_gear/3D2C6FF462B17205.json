@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "0DF4B01CC5B49E4E"
+  ],
+  "tasks": {
+    "07A58F926DAA9F86": {
+      "type": "heracles:item",
+      "item": "silentgear:dagger_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6F242ECEA2C8AB26": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.dagger"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.dagger</translate></h2>",
+      "<hr/>",
+      "<task task=\"07A58F926DAA9F86\" quest=\"3D2C6FF462B17205\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.dagger</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6F242ECEA2C8AB26\" quest=\"3D2C6FF462B17205\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -48,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:dagger_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.dagger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

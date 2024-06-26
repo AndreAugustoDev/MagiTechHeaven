@@ -1,0 +1,13 @@
+name = "Blocks You Need"
+filename = "blocksyouneed_luna-1.5-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lIyS5pGh/versions/qPeu3bJr/blocksyouneed_luna-1.5-forge-1.20.1.jar"
+hash-format = "sha1"
+hash = "5edbfc51993c88c860a3030af8a8ec7133001777"
+
+[update]
+[update.modrinth]
+mod-id = "lIyS5pGh"
+version = "qPeu3bJr"

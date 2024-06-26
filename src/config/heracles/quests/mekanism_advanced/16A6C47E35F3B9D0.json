@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3663E93E169EF8E3"
+  ],
+  "tasks": {
+    "3F2371FD486D4F0E": {
+      "type": "heracles:item",
+      "item": "mekanism:isotopic_centrifuge"
+    }
+  },
+  "rewards": {
+    "04AA88C4D9B33E34": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§3Fissile Fuel§r",
+    "description": [
+      "<task task=\"3F2371FD486D4F0E\" quest=\"16A6C47E35F3B9D0\"/>",
+      "<hr/>",
+      "Once we have an &&9Isotopic Centrifuge&&r, we can run our &&2Uranium Hexafluoride&&r in and create &&3Fissile Fuel&&r!",
+      "<br/>",
+      "See, that wasn't so bad was it?",
+      "<hr/>",
+      "<reward reward=\"04AA88C4D9B33E34\" quest=\"16A6C47E35F3B9D0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:isotopic_centrifuge"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          304,
+          80
+        ]
+      }
+    }
+  }
+}
