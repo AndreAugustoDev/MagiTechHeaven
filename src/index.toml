@@ -7306,7 +7306,7 @@ hash = "26ecd24f2ac5cb48faf939fcb658d7d2a05acdf7a8df7c207b9a0928e43a5cc1"
 
 [[files]]
 file = "configureddefaults/config/mods_optimizer/config.toml"
-hash = "d381663bb1a7c8eb92bc0fa03308dcb0c7c3b629f5a57147c5c9ed085829e0b9"
+hash = "c56030fccf4c0af5077c09e323b260d2bf84449295c8f7e968759cfd1c326093"
 
 [[files]]
 file = "configureddefaults/config/oculus.properties"
