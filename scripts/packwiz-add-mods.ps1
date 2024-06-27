@@ -190,6 +190,7 @@ packwiz mr add 5WeWGLoJ # Forge Config Screens
 packwiz mr add a8Jk9kpK # EdivadLib
 packwiz mr add 8lnmIJH7 # DimStorage
 packwiz mr add Rw1NrDzF # Cucumber Library
+packwiz mr add W6ROj0Hl # iChunUtil
 packwiz mr add UEtTD3gP # Ding
 packwiz mr add 1Zu0uTEE # McJtyLib
 packwiz mr add hIO8IsD8 # RFTools Base

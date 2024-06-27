@@ -7206,7 +7206,7 @@ hash = "60ef584512c646c49c51fce1d22a144c851e26aa9efe69143f7637db8d1e8184"
 
 [[files]]
 file = "configureddefaults/config/bcc-common.toml"
-hash = "e91760d82e8f2b3da68541e854f308feefd5ef11460b333606d2c17c9847441f"
+hash = "5da5cb8d12318e328ee91fed2f995d582fa5b5ae66c6b873708b9c6ffa208bcb"
 
 [[files]]
 file = "configureddefaults/config/betteradvancements-client.toml"
@@ -7343,10 +7343,6 @@ hash = "e12be0d1772eb24b6e251cc5fb43abc91dc993093fe02c82b0da5983858951c8"
 [[files]]
 file = "configureddefaults/config/silentgear-common.toml"
 hash = "1eb64c5c4c72d3caf8bca26b6bbf5c6b9a512b1b0c97394f0a9713a9c212a138"
-
-[[files]]
-file = "configureddefaults/config/spark/activity.json"
-hash = "d40658f6ba2ca6eb6acce33a9687635f6eb59cfd9dc6fbe8265348b59f26c26b"
 
 [[files]]
 file = "configureddefaults/config/spark/config.json"
@@ -8493,6 +8489,11 @@ metafile = true
 [[files]]
 file = "mods/iceberg.pw.toml"
 hash = "d0d383d4ff24fd6a4c5a9319806b0c99da9d0120fa14719911596eb39abc6f20"
+metafile = true
+
+[[files]]
+file = "mods/ichunutil.pw.toml"
+hash = "1f480633dc1c22b9fd5924320b49fbe4645eebcb7fe21283b85b687c376efe0f"
 metafile = true
 
 [[files]]
