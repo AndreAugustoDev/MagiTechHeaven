@@ -7758,7 +7758,7 @@ metafile = true
 
 [[files]]
 file = "mods/chisel-reborn.pw.toml"
-hash = "969619bf25aab69f366b37df4849d1e10f155bc91b9179a4cedd26d39e55a33a"
+hash = "4dbefa4ee1f70ff5104367c6accf1a757226afa17c55d0cd9d0f403a69a49529"
 metafile = true
 
 [[files]]
@@ -9348,7 +9348,7 @@ metafile = true
 
 [[files]]
 file = "mods/universal-sawmill.pw.toml"
-hash = "b85371c2336ab205f8f7f50b81c76ccf6e9def238ee5bad5c3feb61df35fcddd"
+hash = "5a1fc7740591522e3c7673b3172d42bb9af0d60fa6528d5a38820302d11571c1"
 metafile = true
 
 [[files]]
