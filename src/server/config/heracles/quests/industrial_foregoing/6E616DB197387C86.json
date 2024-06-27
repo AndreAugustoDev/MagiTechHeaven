@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55820773BDD5319D"
+  ],
+  "tasks": {
+    "62D9743FABC21813": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:machine_frame_pity"
+    }
+  },
+  "rewards": {
+    "31C7A99204AFBBF7": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 1
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:machine_frame_pity",
+    "description": [
+      "<task task=\"62D9743FABC21813\" quest=\"6E616DB197387C86\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"31C7A99204AFBBF7\" quest=\"6E616DB197387C86\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  }
+}

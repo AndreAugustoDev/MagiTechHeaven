@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "3D89286F2B7BF9FB": {
+      "type": "heracles:item",
+      "item": "productivebees:incubator"
+    }
+  },
+  "rewards": {
+    "2855225AAB5CB15B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "4E9C7BCD64A5B238": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:incubator",
+    "description": [
+      "<h2>Baby Bee Daycare</h2>",
+      "<hr/>",
+      "<task task=\"3D89286F2B7BF9FB\" quest=\"3E301F3EEC8C763A\"/>",
+      "<hr/>",
+      "This can be used to speed up the growth rate of baby bees, or to create new spawn eggs.",
+      "<br/>",
+      "Place a caged baby bee with 20 Honey Treats to turn it into an adult.",
+      "<br/>",
+      "To create spawn eggs, you'll need to combine the gene of the bee you want with a honey treat, then use that honey treat in this machine with an egg to create the new spawn egg.",
+      "<br/>",
+      "Genes can be combined for a maximum of 100% purity, which will give you a 100% chance to convert an egg to a bee spawn egg.",
+      "<hr/>",
+      "<reward reward=\"2855225AAB5CB15B\" quest=\"3E301F3EEC8C763A\"/>",
+      "<reward reward=\"4E9C7BCD64A5B238\" quest=\"3E301F3EEC8C763A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:incubator"
+    },
+    "subtitle": {
+      "text": "Baby Bee Daycare"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          -16
+        ]
+      }
+    }
+  }
+}

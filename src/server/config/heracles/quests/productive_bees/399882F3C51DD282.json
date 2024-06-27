@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76E94639E90FEB4E"
+  ],
+  "tasks": {
+    "5BFAA4BB6651F71A": {
+      "title": "Withered Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:withered"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "2A44E3F699DB9247": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:withered"
+          }
+        }
+      }
+    },
+    "095AA005F163ECC5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Withered Bee",
+    "description": [
+      "<h2>Feed a Skeletal Bee a Withered Rose</h2>",
+      "<hr/>",
+      "<task task=\"5BFAA4BB6651F71A\" quest=\"399882F3C51DD282\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2A44E3F699DB9247\" quest=\"399882F3C51DD282\"/>",
+      "<reward reward=\"095AA005F163ECC5\" quest=\"399882F3C51DD282\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "subtitle": {
+      "text": "Feed a Skeletal Bee a Withered Rose"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          320,
+          112
+        ]
+      }
+    }
+  }
+}

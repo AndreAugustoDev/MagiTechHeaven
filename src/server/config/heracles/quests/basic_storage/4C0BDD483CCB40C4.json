@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "3E33730DC2115D26"
+  ],
+  "tasks": {
+    "00ED02255105A973": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:diamond_chest",
+      "nbt": {
+        "woodType": "oak"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7634B130CAFA493B": {
+      "item": {
+        "id": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "09194C282964BF5A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.diamond"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.diamond</translate></h2>",
+      "<hr/>",
+      "<task task=\"00ED02255105A973\" quest=\"4C0BDD483CCB40C4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7634B130CAFA493B\" quest=\"4C0BDD483CCB40C4\"/>",
+      "<reward reward=\"09194C282964BF5A\" quest=\"4C0BDD483CCB40C4\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -96,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:diamond_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.diamond"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

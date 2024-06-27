@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D86B2E553503E53"
+  ],
+  "tasks": {
+    "3BFC384D0B963E6E": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:drygmy_charm"
+    }
+  },
+  "rewards": {
+    "2A2837CD356DA8D3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:drygmy_charm",
+    "description": [
+      "<task task=\"3BFC384D0B963E6E\" quest=\"04987E54ADC2C057\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2A2837CD356DA8D3\" quest=\"04987E54ADC2C057\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:drygmy_charm"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          368,
+          -96
+        ]
+      }
+    }
+  }
+}

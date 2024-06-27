@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "464D0C17601E8A2B"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7052974A3E7D3DF2\" quest=\"6C706326381CE611\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2578E2D5023264B9\" quest=\"6C706326381CE611\"/>"
+    ],
+    "groups": {
+      "§aChapter 3§r: §dCreative": {
+        "position": [
+          -96,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter3.pressure"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

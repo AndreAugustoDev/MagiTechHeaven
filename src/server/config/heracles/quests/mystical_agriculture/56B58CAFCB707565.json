@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "4F0C1B7C6A7D8B48": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tin_seeds"
+    }
+  },
+  "rewards": {
+    "6C4A3B5DCC897DEC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:tin_seeds",
+    "description": [
+      "<task task=\"4F0C1B7C6A7D8B48\" quest=\"56B58CAFCB707565\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6C4A3B5DCC897DEC\" quest=\"56B58CAFCB707565\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tin_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -320,
+          -128
+        ]
+      }
+    }
+  }
+}

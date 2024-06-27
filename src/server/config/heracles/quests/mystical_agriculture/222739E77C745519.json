@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BC4250E4C9F803C"
+  ],
+  "tasks": {
+    "1DC4FE7A037EC52E": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:osmium_seeds"
+    }
+  },
+  "rewards": {
+    "6728171DE1C539D4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:osmium_seeds",
+    "description": [
+      "<task task=\"1DC4FE7A037EC52E\" quest=\"222739E77C745519\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6728171DE1C539D4\" quest=\"222739E77C745519\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:osmium_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -208
+        ]
+      }
+    }
+  }
+}

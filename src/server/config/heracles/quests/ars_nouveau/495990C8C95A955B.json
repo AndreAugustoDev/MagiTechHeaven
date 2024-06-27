@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "23921DC99D9F19D8": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_redstone_signal"
+    }
+  },
+  "rewards": {
+    "3C9E29A9FC03AF29": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_redstone_signal",
+    "description": [
+      "<task task=\"23921DC99D9F19D8\" quest=\"495990C8C95A955B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3C9E29A9FC03AF29\" quest=\"495990C8C95A955B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_redstone_signal"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -336
+        ]
+      }
+    }
+  }
+}

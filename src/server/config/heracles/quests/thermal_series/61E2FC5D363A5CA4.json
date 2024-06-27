@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "1E0593F1AA073CFD": {
+      "title": "Flux Efficiency",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:machine_efficiency_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_efficiency_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_efficiency_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_efficiency_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_efficiency_augment_4"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "5534C32BABF19B6D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Flux Efficiency",
+    "description": [
+      "<h2>Increases Efficiency at the cost of Speed</h2>",
+      "<hr/>",
+      "<task task=\"1E0593F1AA073CFD\" quest=\"61E2FC5D363A5CA4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5534C32BABF19B6D\" quest=\"61E2FC5D363A5CA4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases Efficiency at the cost of Speed"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          32,
+          118
+        ]
+      }
+    }
+  }
+}

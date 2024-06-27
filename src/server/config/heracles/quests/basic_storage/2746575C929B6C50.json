@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0682DC1F2417DAEB"
+  ],
+  "tasks": {
+    "79EC3CF180A5A940": {
+      "title": "Any #storagedrawers:drawers",
+      "type": "heracles:item",
+      "item": "#functionalstorage:drawer"
+    }
+  },
+  "rewards": {
+    "3F6E823825D51DAC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "functionalstorage:oak_1"
+      }
+    },
+    "57814182F5AA0BAB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 5
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.drawer",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.drawer</translate></h2>",
+      "<hr/>",
+      "<task task=\"79EC3CF180A5A940\" quest=\"2746575C929B6C50\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.drawer</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3F6E823825D51DAC\" quest=\"2746575C929B6C50\"/>",
+      "<reward reward=\"57814182F5AA0BAB\" quest=\"2746575C929B6C50\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:oak_1"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.drawer"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          -160
+        ]
+      }
+    }
+  }
+}

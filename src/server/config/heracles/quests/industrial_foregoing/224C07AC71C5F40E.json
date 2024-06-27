@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3514E9C1A8C7400C"
+  ],
+  "tasks": {
+    "353C9F6B5E56C76E": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fermentation_station"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:fermentation_station",
+    "description": [
+      "<task task=\"353C9F6B5E56C76E\" quest=\"224C07AC71C5F40E\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fermentation_station"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          112,
+          128
+        ]
+      }
+    }
+  }
+}

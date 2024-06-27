@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2AE17A935862BCBF",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "2E5070E71CCEDADE": {
+      "type": "heracles:item",
+      "item": "powah:furnator_blazing"
+    }
+  },
+  "rewards": {
+    "7128821934715B0C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:furnator_blazing",
+    "description": [
+      "<task task=\"2E5070E71CCEDADE\" quest=\"323F7A0C4FAC28D0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7128821934715B0C\" quest=\"323F7A0C4FAC28D0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:furnator_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          144,
+          464
+        ]
+      }
+    }
+  }
+}

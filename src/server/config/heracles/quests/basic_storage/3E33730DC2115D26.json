@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "58514FDE153FD971"
+  ],
+  "tasks": {
+    "0427B441A750316F": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:gold_chest",
+      "nbt": {
+        "woodType": "oak"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7BF7AC6177891566": {
+      "item": {
+        "id": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "2B0E611FC8E7C52F": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.gold"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.gold</translate></h2>",
+      "<hr/>",
+      "<task task=\"0427B441A750316F\" quest=\"3E33730DC2115D26\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7BF7AC6177891566\" quest=\"3E33730DC2115D26\"/>",
+      "<reward reward=\"2B0E611FC8E7C52F\" quest=\"3E33730DC2115D26\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -160,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:gold_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.gold"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

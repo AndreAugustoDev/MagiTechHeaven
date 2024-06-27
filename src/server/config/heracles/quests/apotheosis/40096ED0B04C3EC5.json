@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "74B1D74F1C52D05C": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4D40145162EB9BEC": {
+      "item": {
+        "id": "mysticalagradditions:dragon_scale",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"74B1D74F1C52D05C\" quest=\"40096ED0B04C3EC5\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.dragon</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4D40145162EB9BEC\" quest=\"40096ED0B04C3EC5\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.dragon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

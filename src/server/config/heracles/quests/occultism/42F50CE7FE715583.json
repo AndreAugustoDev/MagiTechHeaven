@@ -1,0 +1,69 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6CC5FE34778F0DFA"
+  ],
+  "tasks": {
+    "51F520BF7DA37873": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "occultism:storage_stabilizer_tier1"
+          },
+          {
+            "Count": 1,
+            "id": "occultism:storage_stabilizer_tier2"
+          },
+          {
+            "Count": 1,
+            "id": "occultism:storage_stabilizer_tier3"
+          },
+          {
+            "Count": 1,
+            "id": "occultism:storage_stabilizer_tier4"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "1AEF7C3C027531C5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§aUpgrading Our Magical Storage§r",
+    "description": [
+      "<task task=\"51F520BF7DA37873\" quest=\"42F50CE7FE715583\"/>",
+      "<hr/>",
+      "To upgrade the amount of stacks your magical storage can hold, you'll need to make &&dStorage Stabilizers&&r.",
+      "<br/>",
+      "Once made, these must point directly at the Dimensional Matrix part of your Storage Actuator, not the base. These can be up to 5 blocks away, but must have a clear line of sight to the Matrix.",
+      "<br/>",
+      "Whenever you want to upgrade to a higher tier Stabilizer, breaking it won't destroy the items inside. However, you will not be able to add any more items to your storage until it is either replaced or upgraded.",
+      "<br/>",
+      "Below is an example of a simple setup!",
+      "<br/>",
+      "{image:atm:textures/questpics/occultism/storageupgradeexample.png width:200 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1AEF7C3C027531C5\" quest=\"42F50CE7FE715583\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          576,
+          176
+        ]
+      }
+    }
+  }
+}

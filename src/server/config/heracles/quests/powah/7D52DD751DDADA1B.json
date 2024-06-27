@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "72A59D5484D75032": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_starter"
+    }
+  },
+  "rewards": {
+    "6DE8006788293478": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cable_starter",
+    "description": [
+      "<task task=\"72A59D5484D75032\" quest=\"7D52DD751DDADA1B\"/>",
+      "<hr/>",
+      "The basic cables for transferring power.",
+      "<hr/>",
+      "<reward reward=\"6DE8006788293478\" quest=\"7D52DD751DDADA1B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          32,
+          368
+        ]
+      }
+    }
+  }
+}

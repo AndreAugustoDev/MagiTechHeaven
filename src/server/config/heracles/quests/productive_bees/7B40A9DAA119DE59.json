@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "22F5DD43B8A7C452": {
+      "title": "Menril Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:menril"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "1FD5CBE1FB0136F8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Menril Bee",
+    "description": [
+      "<h2>Crystalline + Neon Cuckoo</h2>",
+      "<hr/>",
+      "<task task=\"22F5DD43B8A7C452\" quest=\"7B40A9DAA119DE59\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1FD5CBE1FB0136F8\" quest=\"7B40A9DAA119DE59\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "integrateddynamics:crystalized_menril_chunk"
+    },
+    "subtitle": {
+      "text": "Crystalline + Neon Cuckoo"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          96,
+          528
+        ]
+      }
+    }
+  }
+}

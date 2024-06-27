@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "1B2898A31C297B58",
+    "22D716F330A6D4CE",
+    "3912DE46B5F39287",
+    "1AB8C28C9E991E1C",
+    "5FD3C68D5F218D02"
+  ],
+  "tasks": {},
+  "rewards": {
+    "06FA9F4A937F0402": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of Dragons\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "147542B53C621B39": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"25D3F715AF6677B4\" quest=\"527453CD5A20AE38\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06FA9F4A937F0402\" quest=\"527453CD5A20AE38\"/>",
+      "<reward reward=\"147542B53C621B39\" quest=\"527453CD5A20AE38\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -64,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.dragons"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

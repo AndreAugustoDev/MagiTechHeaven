@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "61287BF539F0C5FC": {
+      "type": "heracles:item",
+      "item": "thermal:machine_insolator"
+    }
+  },
+  "rewards": {
+    "265FD226E965D7B3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_insolator",
+    "description": [
+      "<task task=\"61287BF539F0C5FC\" quest=\"648B483B128A32F5\"/>",
+      "<hr/>",
+      "This machine works like a Botany Pot, Garden Cloche, etc.",
+      "<br/>",
+      "When given water and a seed, it will grow the seed inside of the machine and auto-output the products into the machine.",
+      "<hr/>",
+      "<reward reward=\"265FD226E965D7B3\" quest=\"648B483B128A32F5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_insolator"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -32,
+          -64
+        ]
+      }
+    }
+  }
+}

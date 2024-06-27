@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "744A01000E086CC9"
+  ],
+  "tasks": {
+    "548E998BF89F6713": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_dragon_egg"
+    }
+  },
+  "rewards": {
+    "413D504AB03C2837": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:arcane_dragon_egg",
+    "description": [
+      "<task task=\"548E998BF89F6713\" quest=\"24261D6C5C5A6CB4\"/>",
+      "<hr/>",
+      "This Dragon Egg is a cool decoration piece. That's pretty much it.",
+      "<hr/>",
+      "<reward reward=\"413D504AB03C2837\" quest=\"24261D6C5C5A6CB4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_dragon_egg"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          208,
+          224
+        ]
+      }
+    }
+  }
+}

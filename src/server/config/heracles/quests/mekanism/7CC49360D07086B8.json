@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "0526878F9506FB48": {
+      "type": "heracles:item",
+      "item": "mekanism:quantum_entangloporter"
+    }
+  },
+  "rewards": {
+    "18DB85CED00A8626": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:teleportation_core"
+      }
+    },
+    "5EA61C4244976347": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:quantum_entangloporter",
+    "description": [
+      "<h2>Wireless Power, Gases, Fluids, Everything.</h2>",
+      "<hr/>",
+      "<task task=\"0526878F9506FB48\" quest=\"7CC49360D07086B8\"/>",
+      "<hr/>",
+      "This item is how you make Wireless Transfers possible.",
+      "<br/>",
+      "You can set specific channels, named by you, to transfer whatever you want from it.",
+      "<hr/>",
+      "<reward reward=\"18DB85CED00A8626\" quest=\"7CC49360D07086B8\"/>",
+      "<reward reward=\"5EA61C4244976347\" quest=\"7CC49360D07086B8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:quantum_entangloporter"
+    },
+    "subtitle": {
+      "text": "Wireless Power, Gases, Fluids, Everything."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -248,
+          160
+        ]
+      }
+    }
+  }
+}

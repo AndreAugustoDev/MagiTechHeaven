@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "7C3968AF39557751"
+  ],
+  "tasks": {
+    "2A0D3BDA4C874A43": {
+      "type": "heracles:item",
+      "item": "minecraft:anvil",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5A94111976A96FCC": {
+      "type": "heracles:item",
+      "item": "minecraft:shears",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "551D3CE25E4DD3EB": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "lvl": 3,
+              "id": "minecraft:unbreaking"
+            }
+          ]
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2A0D3BDA4C874A43\" quest=\"5B653A45093C56F0\"/>",
+      "<task task=\"5A94111976A96FCC\" quest=\"5B653A45093C56F0\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.anvil</translate></p>",
+      "<hr/>",
+      "<reward reward=\"551D3CE25E4DD3EB\" quest=\"5B653A45093C56F0\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          -64,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.anvil"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

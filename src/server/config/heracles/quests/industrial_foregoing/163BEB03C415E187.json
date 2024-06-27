@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "53836C0727B39DCF": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:common_black_hole_unit"
+    },
+    "15A028284A4863C1": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:common_black_hole_tank"
+    }
+  },
+  "rewards": {
+    "06BB8635159DB685": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Common Black Hole Storage",
+    "description": [
+      "<task task=\"53836C0727B39DCF\" quest=\"163BEB03C415E187\"/>",
+      "<task task=\"15A028284A4863C1\" quest=\"163BEB03C415E187\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06BB8635159DB685\" quest=\"163BEB03C415E187\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          304,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "27A5137AD2895362": {
+      "type": "heracles:item",
+      "item": "botania:shulk_me_not"
+    }
+  },
+  "rewards": {
+    "1240970AE089DA75": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:shulk_me_not",
+    "description": [
+      "<task task=\"27A5137AD2895362\" quest=\"4E5F2803B20A3E93\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1240970AE089DA75\" quest=\"4E5F2803B20A3E93\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:shulk_me_not"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -96,
+          -48
+        ]
+      }
+    }
+  }
+}

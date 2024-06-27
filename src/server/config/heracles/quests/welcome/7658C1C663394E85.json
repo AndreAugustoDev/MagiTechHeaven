@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "10A16F89D4AD238D": {
+      "title": "Useful Commands",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5007C73E170C4FF6": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"10A16F89D4AD238D\" quest=\"7658C1C663394E85\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.welcome.desc.commands</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5007C73E170C4FF6\" quest=\"7658C1C663394E85\"/>"
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          -80,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rftoolsutility:computer_module",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.welcome.commands"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

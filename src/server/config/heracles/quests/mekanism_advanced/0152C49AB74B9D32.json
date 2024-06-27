@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FAAF8216CDC3AC6"
+  ],
+  "tasks": {
+    "4005EDF7A97FD97D": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:fusion_reactor_controller"
+    },
+    "6E680D259F45AF80": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "mekanismgenerators:fusion_reactor_frame"
+    },
+    "2369D4585A3BDCCC": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "mekanismgenerators:fusion_reactor_port"
+    },
+    "554C67BA24832AB4": {
+      "type": "heracles:item",
+      "amount": 25,
+      "item": "mekanismgenerators:reactor_glass"
+    }
+  },
+  "rewards": {
+    "73F01F26D46493C6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The §cFusion Reactor§r",
+    "description": [
+      "<h2>The Best Power Source In The Pack</h2>",
+      "<hr/>",
+      "<task task=\"4005EDF7A97FD97D\" quest=\"0152C49AB74B9D32\"/>",
+      "<task task=\"6E680D259F45AF80\" quest=\"0152C49AB74B9D32\"/>",
+      "<task task=\"2369D4585A3BDCCC\" quest=\"0152C49AB74B9D32\"/>",
+      "<task task=\"554C67BA24832AB4\" quest=\"0152C49AB74B9D32\"/>",
+      "<hr/>",
+      "You've probably heard people talk about how the &&cFusion Reactor&&r is the best power source in the pack. They are right.",
+      "<br/>",
+      "Once activated, the Reactor can push out up to 200MRF/t with the right setup. It can also be cooled with water to produce steam, which can go into an &&9Industrial Turbine&&r to make even more power.",
+      "<br/>",
+      "To build the Fusion Reactor, we need to follow a simple pattern. Each face will look like this:",
+      "{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1",
+      "<br/>",
+      "For the top, we want to replace the middle block with the Fusion Reactor Controller.",
+      "<br/>",
+      "For the ports, you can replace any of the Reactor Glass on the sides. For this setup, we'll need two ports to input &&cDeuterium&&r and &&eTritium&&r, then a port to output power. ",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"73F01F26D46493C6\" quest=\"0152C49AB74B9D32\"/>"
+    ],
+    "subtitle": {
+      "text": "The Best Power Source In The Pack"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          272,
+          -224
+        ]
+      }
+    }
+  }
+}

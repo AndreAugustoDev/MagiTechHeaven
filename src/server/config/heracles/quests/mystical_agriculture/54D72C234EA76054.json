@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "66A22C64B978D14E": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:air_seeds"
+    }
+  },
+  "rewards": {
+    "46C102C711A54E39": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:air_seeds",
+    "description": [
+      "<task task=\"66A22C64B978D14E\" quest=\"54D72C234EA76054\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"46C102C711A54E39\" quest=\"54D72C234EA76054\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:air_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -640,
+          -160
+        ]
+      }
+    }
+  }
+}

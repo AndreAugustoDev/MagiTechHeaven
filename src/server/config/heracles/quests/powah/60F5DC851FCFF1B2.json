@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "52E59FCB39D66BCF",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "414DD76E288A6CF7": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_basic"
+    }
+  },
+  "rewards": {
+    "060D1AD152581ECD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:thermo_generator_basic",
+    "description": [
+      "<task task=\"414DD76E288A6CF7\" quest=\"60F5DC851FCFF1B2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"060D1AD152581ECD\" quest=\"60F5DC851FCFF1B2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          176,
+          400
+        ]
+      }
+    }
+  }
+}

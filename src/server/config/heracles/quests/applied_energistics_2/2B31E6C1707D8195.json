@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "2F16B6A173525277"
+  ],
+  "tasks": {
+    "60F10069FD956D54": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_booster",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3DF8F1A72EBCD73F": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_access_point",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7C6512C24B5A19A3": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3DF8F1A72EBCD73F\" quest=\"2B31E6C1707D8195\"/>",
+      "<task task=\"60F10069FD956D54\" quest=\"2B31E6C1707D8195\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.wireless_AP</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7C6512C24B5A19A3\" quest=\"2B31E6C1707D8195\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          288,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.wireless_AP"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

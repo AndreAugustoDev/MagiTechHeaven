@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "6CF702640DFC9FBA": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_flight"
+    }
+  },
+  "rewards": {
+    "6301CC507E4D320B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_flight",
+    "description": [
+      "<task task=\"6CF702640DFC9FBA\" quest=\"7471CDF5166D38F0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6301CC507E4D320B\" quest=\"7471CDF5166D38F0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_flight"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          272,
+          192
+        ]
+      }
+    }
+  }
+}

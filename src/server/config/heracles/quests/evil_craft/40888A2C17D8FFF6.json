@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62A262A706CFCAF0"
+  ],
+  "tasks": {
+    "2379362CB6DAE025": {
+      "type": "heracles:item",
+      "item": "evilcraft:undead_sapling"
+    },
+    "758C54EFB1301C68": {
+      "type": "heracles:item",
+      "item": "evilcraft:undead_planks"
+    }
+  },
+  "rewards": {
+    "352AA0893B127276": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Undead Trees",
+    "description": [
+      "<task task=\"2379362CB6DAE025\" quest=\"40888A2C17D8FFF6\"/>",
+      "<task task=\"758C54EFB1301C68\" quest=\"40888A2C17D8FFF6\"/>",
+      "<hr/>",
+      "Using the Blood Infuser, you can create &&cUndead Saplings&&r that grow into &&dUndead Trees&&r.",
+      "<br/>",
+      "The logs and planks are useful for creating several tools and items within EvilCraft.",
+      "<hr/>",
+      "<reward reward=\"352AA0893B127276\" quest=\"40888A2C17D8FFF6\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          112,
+          240
+        ]
+      }
+    }
+  }
+}

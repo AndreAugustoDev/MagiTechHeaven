@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "6E0961A56194F0A8": {
+      "title": "Digger Bees",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3202C04BE7D817FE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Digger Bee",
+    "description": [
+      "<h2>Spawned using a Gravel or Stone Nest</h2>",
+      "<hr/>",
+      "<task task=\"6E0961A56194F0A8\" quest=\"1C474B46AECCCFE9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3202C04BE7D817FE\" quest=\"1C474B46AECCCFE9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:gravel"
+    },
+    "subtitle": {
+      "text": "Spawned using a Gravel or Stone Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -96,
+          368
+        ]
+      }
+    }
+  }
+}

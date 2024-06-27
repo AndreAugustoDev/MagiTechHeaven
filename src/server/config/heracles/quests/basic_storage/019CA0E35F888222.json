@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "4B62AF0405F68041"
+  ],
+  "tasks": {
+    "45492321B5D5A2D6": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_restock_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4F4574E228792C80": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"45492321B5D5A2D6\" quest=\"019CA0E35F888222\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4F4574E228792C80\" quest=\"019CA0E35F888222\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -48,
+          320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:advanced_restock_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Arestock"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

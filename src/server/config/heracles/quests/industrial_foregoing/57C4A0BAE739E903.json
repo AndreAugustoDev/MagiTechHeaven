@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "47C0E765FD874FCC": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:dissolution_chamber"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:dissolution_chamber",
+    "description": [
+      "<task task=\"47C0E765FD874FCC\" quest=\"57C4A0BAE739E903\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:dissolution_chamber"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          240,
+          48
+        ]
+      }
+    }
+  }
+}

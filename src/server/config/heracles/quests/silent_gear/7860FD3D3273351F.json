@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "2226DC0E053E8631": {
+      "type": "heracles:item",
+      "item": "silentgear:blueprint_book",
+      "nbt": {
+        "Inventory": {}
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "151BDF4BB67DB85D": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "704BACF5602FB682": {
+      "item": {
+        "id": "silentgear:blueprint_paper",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.book"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.book</translate></h2>",
+      "<hr/>",
+      "<task task=\"2226DC0E053E8631\" quest=\"7860FD3D3273351F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"704BACF5602FB682\" quest=\"7860FD3D3273351F\"/>",
+      "<reward reward=\"151BDF4BB67DB85D\" quest=\"7860FD3D3273351F\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -16,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:blueprint_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.book"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

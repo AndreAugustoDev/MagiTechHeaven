@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1D48B6FC70F5C745": {
+      "title": "&6Visit The&r &dDeep Dark&r!",
+      "biomes": "minecraft:deep_dark",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1D48B6FC70F5C745\" quest=\"6EDAB29FBD3C60A3\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.deep_dark}"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          512,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.deep_dark"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

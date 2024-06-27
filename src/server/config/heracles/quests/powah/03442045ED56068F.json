@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C7D0AB254DF8CF1"
+  ],
+  "tasks": {
+    "0AD625D068474E21": {
+      "type": "heracles:item",
+      "item": "powah:magmator_niotic"
+    }
+  },
+  "rewards": {
+    "22599F0527EEA03D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:magmator_niotic",
+    "description": [
+      "<task task=\"0AD625D068474E21\" quest=\"03442045ED56068F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"22599F0527EEA03D\" quest=\"03442045ED56068F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:magmator_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          112,
+          496
+        ]
+      }
+    }
+  }
+}

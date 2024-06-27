@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "11B83581781F5029": {
+      "type": "heracles:item",
+      "item": "botania:yellow_mystical_flower"
+    }
+  },
+  "rewards": {
+    "3504F4736EEDF2C6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:yellow_mystical_flower",
+    "description": [
+      "<task task=\"11B83581781F5029\" quest=\"573838380230C65D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3504F4736EEDF2C6\" quest=\"573838380230C65D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:yellow_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          176,
+          -160
+        ]
+      }
+    }
+  }
+}

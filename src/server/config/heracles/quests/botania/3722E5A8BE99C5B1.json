@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "671D9D2E3EDF31D9": {
+      "type": "heracles:item",
+      "item": "botania:lens_mine"
+    }
+  },
+  "rewards": {
+    "65BDF707606009F8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_mine",
+    "description": [
+      "<task task=\"671D9D2E3EDF31D9\" quest=\"3722E5A8BE99C5B1\"/>",
+      "<hr/>",
+      "Allows Mana Bursts to break through blocks by using its own mana.",
+      "<hr/>",
+      "<reward reward=\"65BDF707606009F8\" quest=\"3722E5A8BE99C5B1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_mine"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          384,
+          368
+        ]
+      }
+    }
+  }
+}

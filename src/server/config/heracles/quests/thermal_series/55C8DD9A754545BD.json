@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "22BC123D486CC3E3"
+  ],
+  "tasks": {
+    "06665E87CB134F3C": {
+      "type": "heracles:item",
+      "item": "thermal:machine_pulverizer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: thermal:machine_pulverizer",
+    "description": [
+      "<h2>Breaks Ores into Dusts</h2>",
+      "<hr/>",
+      "<task task=\"06665E87CB134F3C\" quest=\"55C8DD9A754545BD\"/>",
+      "<hr/>",
+      "The Pulverizer breaks raw ores into dusts, and also has a 25% chance to create an extra dust."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_pulverizer"
+    },
+    "subtitle": {
+      "text": "Breaks Ores into Dusts"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          112,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {},
+  "rewards": {
+    "34037270BA530831": {
+      "item": {
+        "id": "comforts:rope_and_nail",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "0CA8B7411485A9D0": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.sleep"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.sleep</translate></h2>",
+      "<hr/>",
+      "<task task=\"51AA3A27028426C5\" quest=\"14C8FC3F19190054\"/>",
+      "<task task=\"04903282E935F3D3\" quest=\"14C8FC3F19190054\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.sleep</translate></p>",
+      "<hr/>",
+      "<reward reward=\"34037270BA530831\" quest=\"14C8FC3F19190054\"/>",
+      "<reward reward=\"0CA8B7411485A9D0\" quest=\"14C8FC3F19190054\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          96,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.sleep"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "75AC4440283F2FD2": {
+      "type": "heracles:item",
+      "item": "productivebees:coarse_dirt_nest"
+    }
+  },
+  "rewards": {
+    "7BF7221FDB6D90C9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:coarse_dirt_nest",
+    "description": [
+      "<h2>Any Overworld Biome</h2>",
+      "<hr/>",
+      "<task task=\"75AC4440283F2FD2\" quest=\"73C70B15582958A5\"/>",
+      "<hr/>",
+      "The &&eDirt Nest&&r can be placed in any overworld biome to lure in bees.",
+      "<br/>",
+      "It can lure the Ashy Mining Bee, Chocolate Mining Bee, and the Leafcutter Bee.",
+      "<hr/>",
+      "<reward reward=\"7BF7221FDB6D90C9\" quest=\"73C70B15582958A5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:coarse_dirt_nest"
+    },
+    "subtitle": {
+      "text": "Any Overworld Biome"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -128,
+          128
+        ]
+      }
+    }
+  }
+}

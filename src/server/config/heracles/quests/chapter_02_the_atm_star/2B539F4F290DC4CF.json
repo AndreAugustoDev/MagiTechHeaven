@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "42E5B5C27799DD93"
+  ],
+  "tasks": {
+    "11F66AFE2DCCBBBF": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_nitro",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"11F66AFE2DCCBBBF\" quest=\"2B539F4F290DC4CF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -192,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:player_transmitter_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.transmitter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

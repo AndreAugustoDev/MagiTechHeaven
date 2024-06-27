@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "320CC038A64A3195",
+    "3593D955361B0C6D"
+  ],
+  "tasks": {
+    "4B63979C49A34565": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:hohlraum",
+      "nbt": {
+        "mekData": {
+          "GasTanks": [
+            {
+              "Tank": 0,
+              "stored": {
+                "amount": 10,
+                "gasName": "mekanismgenerators:fusion_fuel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "66CC79AB269C93AC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 500
+    }
+  },
+  "display": {
+    "title": "§dI Think We're Ready§r",
+    "description": [
+      "<task task=\"4B63979C49A34565\" quest=\"54D8B9CB3F98040F\"/>",
+      "<hr/>",
+      "Hohlraum filled with D-T Fuel? &&oCheck!&&r",
+      "<br/>",
+      "Deuterium and Tritium ready to be pumped into the Reactor? &&oCheck!&&r",
+      "<br/>",
+      "A Laser Amplifier with at least 400MRF ready to shoot into the Laser Focus Matrix? &&oCheck!&&r",
+      "<br/>",
+      "Once you are ready, place the &&5Hohlraum&&r into the &&aFusion Reactor Controller&&r, pump in the Fuel, then activate your Laser Amplifier.",
+      "<br/>",
+      "If done right, &&nyou'll see the Reactor activate!&&r",
+      "<br/>",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"66CC79AB269C93AC\" quest=\"54D8B9CB3F98040F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:fusion_reactor_controller"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          544,
+          -224
+        ]
+      }
+    }
+  }
+}

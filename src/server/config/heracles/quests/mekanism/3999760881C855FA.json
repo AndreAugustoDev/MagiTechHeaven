@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F436770D30D8520"
+  ],
+  "tasks": {
+    "6F2B3A4206C129B0": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_crystallizer"
+    }
+  },
+  "rewards": {
+    "75C11279E936ADAA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:chemical_crystallizer",
+    "description": [
+      "<h2>Turns Ore Slurry into Crystals</h2>",
+      "<hr/>",
+      "<task task=\"6F2B3A4206C129B0\" quest=\"3999760881C855FA\"/>",
+      "<hr/>",
+      "This machine will be #3 in your Tier 4 Ore Processing Factory.",
+      "<br/>",
+      "It takes the Clean Ore Slurry from the Chemical Washer and turns it into Crystals, which the Chemical Injection Chamber can process after.",
+      "<hr/>",
+      "<reward reward=\"75C11279E936ADAA\" quest=\"3999760881C855FA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_crystallizer"
+    },
+    "subtitle": {
+      "text": "Turns Ore Slurry into Crystals"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          304,
+          -16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62CE0FFAF6352287"
+  ],
+  "tasks": {
+    "26ADA98532E2CDB7": {
+      "type": "heracles:item",
+      "item": "evilcraft:sceptre_of_thunder"
+    }
+  },
+  "rewards": {
+    "2B585A6FB25F377D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:sceptre_of_thunder",
+    "description": [
+      "<h2>A One-Time Use Lightning Scepter</h2>",
+      "<hr/>",
+      "<task task=\"26ADA98532E2CDB7\" quest=\"6CA1D90CCE17097D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2B585A6FB25F377D\" quest=\"6CA1D90CCE17097D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:sceptre_of_thunder"
+    },
+    "subtitle": {
+      "text": "A One-Time Use Lightning Scepter"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          400,
+          0
+        ]
+      }
+    }
+  }
+}

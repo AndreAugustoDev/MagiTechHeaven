@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "0CDFF60D581118E3": {
+      "title": "Neon Cuckoo Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "713068FC6AD69883": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Neon Cuckoo Bee",
+    "description": [
+      "<h2>Spawns in a nest that has a Blue Banded Bee</h2>",
+      "<hr/>",
+      "<task task=\"0CDFF60D581118E3\" quest=\"683B58B699D4D381\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"713068FC6AD69883\" quest=\"683B58B699D4D381\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:spawn_egg_neon_cuckoo_bee"
+    },
+    "subtitle": {
+      "text": "Spawns in a nest that has a Blue Banded Bee"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          528
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "50A2D68A83A50F47"
+  ],
+  "tasks": {
+    "408C9E36F8C27D8C": {
+      "type": "heracles:item",
+      "item": "botania:infinite_fruit"
+    }
+  },
+  "rewards": {
+    "0423B21E4757A2E6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:infinite_fruit",
+    "description": [
+      "<task task=\"408C9E36F8C27D8C\" quest=\"6AFC5FE71A80913E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0423B21E4757A2E6\" quest=\"6AFC5FE71A80913E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:infinite_fruit"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          960,
+          48
+        ]
+      }
+    }
+  }
+}

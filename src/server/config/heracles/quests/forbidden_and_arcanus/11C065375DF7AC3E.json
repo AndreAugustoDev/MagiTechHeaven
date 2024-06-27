@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73349B993DE69954"
+  ],
+  "tasks": {
+    "5400EB85133AAAEE": {
+      "title": "Arcane Crystal Obelisks",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "37FA801AED4BD6AC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Arcane Crystal Obelisks",
+    "description": [
+      "<task task=\"5400EB85133AAAEE\" quest=\"11C065375DF7AC3E\"/>",
+      "<hr/>",
+      "To create an Arcane Crystal Obelisk, place down an Arcane Polished Darkstone block, then place two Arcane Crystal Blocks on top of it.",
+      "<br/>",
+      "Right-click with Mundabitur Dust and you'll create the obelisk.",
+      "<br/>",
+      "When placed on a Arcane Chiseled Polished Darkstone block on the Hephaestus Forge structure, it will slowly generate Aureal over time.",
+      "<hr/>",
+      "<reward reward=\"37FA801AED4BD6AC\" quest=\"11C065375DF7AC3E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_crystal_obelisk"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    }
+  }
+}

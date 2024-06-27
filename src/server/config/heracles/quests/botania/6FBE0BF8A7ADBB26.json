@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0631F054A9B97A40"
+  ],
+  "tasks": {
+    "3E76CBAA617FAA35": {
+      "type": "heracles:item",
+      "item": "botania:lens_normal"
+    }
+  },
+  "rewards": {
+    "3B601334FFB56069": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Upgrading Mana Spreaders",
+    "description": [
+      "<task task=\"3E76CBAA617FAA35\" quest=\"6FBE0BF8A7ADBB26\"/>",
+      "<hr/>",
+      "To upgrade the &&2Mana Spreader&&r, you can attach &&9Mana Lenses&&r to the front of the Spreader. However, the most basic Mana Lens does nothing.",
+      "<br/>",
+      "You'll need to upgrade the Mana Lens to give it different effects on the bursts of Mana it sends out. Lenses can also be dyed by crafting it with any color, or with a Mana Pearl to create a Rainbow Lens.",
+      "<br/>",
+      "By combining a Mana Lens with specific runes and items, we can use them to upgrade our Spreaders. You can also combine 2 lenses together with a &&aSlime Ball&&r to create &&9Composite Lenses&&r, combining the powers to create even stronger effects.",
+      "<hr/>",
+      "<reward reward=\"3B601334FFB56069\" quest=\"6FBE0BF8A7ADBB26\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_normal"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          400,
+          256
+        ]
+      }
+    }
+  }
+}

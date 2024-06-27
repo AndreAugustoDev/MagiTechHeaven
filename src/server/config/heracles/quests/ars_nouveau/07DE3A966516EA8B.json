@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "4553742BFEB7AAF6": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_overgrowth"
+    }
+  },
+  "rewards": {
+    "77C5D3A22AC85962": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_overgrowth",
+    "description": [
+      "<task task=\"4553742BFEB7AAF6\" quest=\"07DE3A966516EA8B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"77C5D3A22AC85962\" quest=\"07DE3A966516EA8B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_overgrowth"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          240,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "4C0BDD483CCB40C4"
+  ],
+  "tasks": {
+    "34B6EB0B801E4743": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:netherite_chest",
+      "nbt": {
+        "woodType": "oak"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3E846FD78C055A89": {
+      "xptype": "POINTS",
+      "amount": 20,
+      "type": "heracles:xp"
+    },
+    "2084D6F08E608125": {
+      "item": {
+        "id": "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.netherite"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.netherite</translate></h2>",
+      "<hr/>",
+      "<task task=\"34B6EB0B801E4743\" quest=\"77F241BEE9902751\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.netherite</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2084D6F08E608125\" quest=\"77F241BEE9902751\"/>",
+      "<reward reward=\"3E846FD78C055A89\" quest=\"77F241BEE9902751\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -32,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:netherite_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.netherite"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

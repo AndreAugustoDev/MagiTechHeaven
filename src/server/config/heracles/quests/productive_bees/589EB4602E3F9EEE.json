@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "17C7DC04BC22C0D7": {
+      "title": "Tin Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:tin"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7FA16F264547ECF7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Tin Bees",
+    "description": [
+      "<h2>Ashy Mining + Crystalline</h2>",
+      "<hr/>",
+      "<task task=\"17C7DC04BC22C0D7\" quest=\"589EB4602E3F9EEE\"/>",
+      "<hr/>",
+      "Tin Bees are made by breeding a Crystalline Bee with an Ashy Mining Bee.",
+      "<hr/>",
+      "<reward reward=\"7FA16F264547ECF7\" quest=\"589EB4602E3F9EEE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:tin_ingot"
+    },
+    "subtitle": {
+      "text": "Ashy Mining + Crystalline"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          96,
+          336
+        ]
+      }
+    }
+  }
+}

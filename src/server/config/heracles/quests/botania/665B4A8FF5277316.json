@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "5698F1ECAA82616E": {
+      "type": "heracles:item",
+      "item": "botania:lens_gravity"
+    }
+  },
+  "rewards": {
+    "48A5A90DEE2E614E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_gravity",
+    "description": [
+      "<task task=\"5698F1ECAA82616E\" quest=\"665B4A8FF5277316\"/>",
+      "<hr/>",
+      "Makes gravity affect a Mana Burst, making it move in an arc. It also slightly increases the time before it starts to lose mana.",
+      "<hr/>",
+      "<reward reward=\"48A5A90DEE2E614E\" quest=\"665B4A8FF5277316\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_gravity"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          416,
+          400
+        ]
+      }
+    }
+  }
+}

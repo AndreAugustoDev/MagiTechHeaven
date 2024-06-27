@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "28C9EDBF6607E180"
+  ],
+  "tasks": {
+    "2872A1297BE6C40D": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2B2B365E281A6940": {
+      "item": {
+        "id": "minecraft:bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "62FB77230F1D9F9B": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.sink"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.sink</translate></h2>",
+      "<hr/>",
+      "<task task=\"2872A1297BE6C40D\" quest=\"0EFF1AA37772156B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.sink</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2B2B365E281A6940\" quest=\"0EFF1AA37772156B\"/>",
+      "<reward reward=\"62FB77230F1D9F9B\" quest=\"0EFF1AA37772156B\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -33,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:sink",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.sink"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

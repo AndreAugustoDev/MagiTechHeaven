@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "12A43F82FC67A289"
+  ],
+  "tasks": {
+    "057EA89AE615DA6D": {
+      "type": "heracles:item",
+      "item": "refinedstorage:disk_manipulator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"057EA89AE615DA6D\" quest=\"4844DEF57A2287B4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.disk_manipulator}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -48,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:disk_manipulator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.disk_manipulator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

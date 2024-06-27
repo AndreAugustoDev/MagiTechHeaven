@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "2E9C035EEE7E5C34"
+  ],
+  "tasks": {
+    "3A9869856B3E9D54": {
+      "type": "heracles:item",
+      "item": "minecraft:shears",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "68AA10BF3AA0408A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3A9869856B3E9D54\" quest=\"18EADBAFC932F864\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"68AA10BF3AA0408A\" quest=\"18EADBAFC932F864\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.sheep"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

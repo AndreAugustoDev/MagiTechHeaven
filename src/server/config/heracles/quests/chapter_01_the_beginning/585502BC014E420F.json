@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "69A517AB8A801939",
+    "2D879A34A5788CCC",
+    "6EE5BE5693E8ACE4",
+    "6D09511D64DDC282"
+  ],
+  "tasks": {
+    "4EBF6B68ED8C9B40": {
+      "title": "&6To §aChapter 2§r: §6The ATM Star&r!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "50EF2FE79AC5FB74": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.chapter1.subt.star"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.chapter1.subt.star</translate></h2>",
+      "<hr/>",
+      "<task task=\"4EBF6B68ED8C9B40\" quest=\"585502BC014E420F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.atm_star</translate></p>",
+      "<hr/>",
+      "<reward reward=\"50EF2FE79AC5FB74\" quest=\"585502BC014E420F\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          720,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.atm_star"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

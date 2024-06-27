@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "6EA660C81B613163": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_wind_shear"
+    }
+  },
+  "rewards": {
+    "012CAAC458234260": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_wind_shear",
+    "description": [
+      "<task task=\"6EA660C81B613163\" quest=\"790C77898FED4E5D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"012CAAC458234260\" quest=\"790C77898FED4E5D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_wind_shear"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -304
+        ]
+      }
+    }
+  }
+}

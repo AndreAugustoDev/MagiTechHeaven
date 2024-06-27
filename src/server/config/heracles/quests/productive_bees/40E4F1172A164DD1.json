@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "49F452C12DF14873": {
+      "type": "heracles:item",
+      "item": "productivebees:sugarbag_honeycomb"
+    }
+  },
+  "rewards": {
+    "69806B463D43C9FD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Sugarbag Bee",
+    "description": [
+      "<h2>Random Chance to Spawn when breaking Cocoa Pods in a Jungle</h2>",
+      "<hr/>",
+      "<task task=\"49F452C12DF14873\" quest=\"40E4F1172A164DD1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"69806B463D43C9FD\" quest=\"40E4F1172A164DD1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sugar"
+    },
+    "subtitle": {
+      "text": "Random Chance to Spawn when breaking Cocoa Pods in a Jungle"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -128,
+          544
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6DBF9CAB37B9BBF3"
+  ],
+  "tasks": {
+    "123810EB2AEB0EAB": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_productivity_2"
+    }
+  },
+  "rewards": {
+    "78311D0F7C60994E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_productivity_2",
+    "description": [
+      "<task task=\"123810EB2AEB0EAB\" quest=\"01A0612C516B4F7F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"78311D0F7C60994E\" quest=\"01A0612C516B4F7F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_productivity_2"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -192,
+          16
+        ]
+      }
+    }
+  }
+}

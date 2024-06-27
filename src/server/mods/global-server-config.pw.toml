@@ -1,0 +1,13 @@
+name = "Global Server Config"
+filename = "global-server-config-forge-1.18.2+-1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/c5dOxpD8/versions/19JfFGV6/global-server-config-forge-1.18.2%2B-1.0.jar"
+hash-format = "sha1"
+hash = "1e1f0284d44dda59caa65ba8d775f67fcd5bf304"
+
+[update]
+[update.modrinth]
+mod-id = "c5dOxpD8"
+version = "19JfFGV6"

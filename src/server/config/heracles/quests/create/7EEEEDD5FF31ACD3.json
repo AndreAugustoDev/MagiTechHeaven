@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D2A03EB2B91E9C1"
+  ],
+  "tasks": {
+    "37EE09651ED58F6F": {
+      "type": "heracles:item",
+      "item": "create:smart_chute"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:smart_chute",
+    "description": [
+      "<task task=\"37EE09651ED58F6F\" quest=\"7EEEEDD5FF31ACD3\"/>",
+      "<hr/>",
+      "The &&n&&5Smart Chute&&r is the same as the Chute but with additional functionalities, such as stack size and filters."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:smart_chute"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          304,
+          -96
+        ]
+      }
+    }
+  }
+}

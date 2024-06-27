@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "6F1EBC95C7BC93DF": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_cloth"
+    },
+    "380292B73C32D32D": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_helmet"
+    },
+    "0E65D022473C0996": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_chestplate"
+    },
+    "75862C1E5E59C465": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_leggings"
+    },
+    "0E6BE4209A3BFC82": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_boots"
+    }
+  },
+  "rewards": {
+    "31C822F989CE89D1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Manaweave Robes",
+    "description": [
+      "<task task=\"6F1EBC95C7BC93DF\" quest=\"05A845C811A9A4A0\"/>",
+      "<task task=\"380292B73C32D32D\" quest=\"05A845C811A9A4A0\"/>",
+      "<task task=\"0E65D022473C0996\" quest=\"05A845C811A9A4A0\"/>",
+      "<task task=\"75862C1E5E59C465\" quest=\"05A845C811A9A4A0\"/>",
+      "<task task=\"0E6BE4209A3BFC82\" quest=\"05A845C811A9A4A0\"/>",
+      "<hr/>",
+      "While the &&bManaweave Robes&&r don't offer the greatest overall protection, the set bonus is pretty powerful!",
+      "<br/>",
+      "When all four pieces are worn, you'll get a discount on Mana cost for mana tools and rods. The set can also repair itself using Mana from one's inventory.",
+      "<hr/>",
+      "<reward reward=\"31C822F989CE89D1\" quest=\"05A845C811A9A4A0\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          448,
+          64
+        ]
+      }
+    }
+  }
+}

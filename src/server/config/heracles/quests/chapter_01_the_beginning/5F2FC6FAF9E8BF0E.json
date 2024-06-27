@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "0752E680F9DE4039"
+  ],
+  "tasks": {},
+  "rewards": {
+    "6605AE7CCB68D0C9": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7FF8E7BFE4AB1B90\" quest=\"5F2FC6FAF9E8BF0E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.danks</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6605AE7CCB68D0C9\" quest=\"5F2FC6FAF9E8BF0E\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -64,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.danks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

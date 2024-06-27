@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "tasks": {
+    "10CE7D11B912F418": {
+      "type": "heracles:item",
+      "item": "alltheores:raw_osmium"
+    }
+  },
+  "rewards": {
+    "7D519C36EA3CF356": {
+      "type": "heracles:item",
+      "item": {
+        "id": "alltheores:raw_osmium"
+      }
+    },
+    "1C5A7C0402C237DD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§dMekanism§r",
+    "description": [
+      "<h2>The Start of Your Own Factory</h2>",
+      "<hr/>",
+      "<task task=\"10CE7D11B912F418\" quest=\"58B125BD4876054C\"/>",
+      "<hr/>",
+      "Mekanism is a tech mod that will change the way you play Minecraft.",
+      "<br/>",
+      "The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. ",
+      "<br/>",
+      "This mod features Hydrogen-Powered Jetpacks, a mini-robotic friend, reactors, a Digital Miner to automate mining, and much, much more.",
+      "<hr/>",
+      "<reward reward=\"7D519C36EA3CF356\" quest=\"58B125BD4876054C\"/>",
+      "<reward reward=\"1C5A7C0402C237DD\" quest=\"58B125BD4876054C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:creative_energy_cube"
+    },
+    "subtitle": {
+      "text": "The Start of Your Own Factory"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -416,
+          -64
+        ]
+      }
+    }
+  }
+}

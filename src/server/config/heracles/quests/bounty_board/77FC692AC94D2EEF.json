@@ -1,0 +1,74 @@
+{
+  "dependencies": [],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.creeper.5</translate></h2>",
+      "<hr/>",
+      "<task task=\"423AF6C6647B1626\" quest=\"77FC692AC94D2EEF\"/>",
+      "<hr/>",
+      "<reward reward=\"311AAB7A9D64E946\" quest=\"77FC692AC94D2EEF\"/>",
+      "<reward reward=\"02E39788C2347A3F\" quest=\"77FC692AC94D2EEF\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          0,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "count": 1,
+        "id": "minecraft:creeper_head"
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "translate": "i18n.quest.bounty.creeper.5"
+    },
+    "title": {
+      "translate": "i18n.quest.bounty.creeper"
+    }
+  },
+  "rewards": {
+    "02E39788C2347A3F": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "POINTS"
+    },
+    "311AAB7A9D64E946": {
+      "item": {
+        "count": 5,
+        "id": "minecraft:gunpowder"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {
+    "autoClaimRewards": false,
+    "hidden": "LOCKED",
+    "individual_progress": false,
+    "repeatable": false,
+    "showDependencyArrow": true,
+    "unlockNotification": false
+  },
+  "tasks": {
+    "423AF6C6647B1626": {
+      "amount": 5,
+      "entity": {
+        "type": "minecraft:creeper"
+      },
+      "icon": {
+        "item": {
+          "count": 1,
+          "id": "minecraft:creeper_head"
+        },
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.creeper.5",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

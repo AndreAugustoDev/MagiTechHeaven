@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "677DA84F4B304778": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:blasting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "003DF784F0E1EDE6": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.blasting"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.blasting</translate></h2>",
+      "<hr/>",
+      "<task task=\"677DA84F4B304778\" quest=\"1E499F94A2A193E1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"003DF784F0E1EDE6\" quest=\"1E499F94A2A193E1\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -240,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:blasting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.blasting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

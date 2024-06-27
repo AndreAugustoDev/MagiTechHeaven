@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "18D88932916C7A98"
+  ],
+  "tasks": {
+    "16DAFC5C5846015A": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink"
+    }
+  },
+  "rewards": {
+    "5F4E37BD22336518": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:water_bucket"
+      }
+    },
+    "661BF73705DAFB31": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Water Source",
+    "description": [
+      "<h2>The All-Mighty Infinite Water Source</h2>",
+      "<hr/>",
+      "<task task=\"16DAFC5C5846015A\" quest=\"407EFAF528871014\"/>",
+      "<hr/>",
+      "To start breaking down water, we'll need a water source. The Kitchen Sink provides infinite water, and can easily be set up to pump out water.",
+      "<br/>",
+      "Alternatively, you can always just use the classic infinite water source with a Pump from Mekanism.",
+      "<br/>",
+      "Pump the water into your Electrolytic Separator to split the water into Hydrogen and Oxygen.",
+      "<hr/>",
+      "<reward reward=\"5F4E37BD22336518\" quest=\"407EFAF528871014\"/>",
+      "<reward reward=\"661BF73705DAFB31\" quest=\"407EFAF528871014\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink"
+    },
+    "subtitle": {
+      "text": "The All-Mighty Infinite Water Source"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -64,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Integrated Scripting"
+filename = "IntegratedScripting-1.20.1-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uDJkuFRe/versions/bzG8l1Ya/IntegratedScripting-1.20.1-1.0.3.jar"
+hash-format = "sha1"
+hash = "f5b3a799eb9d9c28731a145ac868e55e4854ce6a"
+
+[update]
+[update.modrinth]
+mod-id = "uDJkuFRe"
+version = "bzG8l1Ya"

@@ -1,0 +1,100 @@
+{
+  "dependencies": [
+    "464D0C17601E8A2B"
+  ],
+  "tasks": {},
+  "rewards": {
+    "625FC1DFA2B2A8B3": {
+      "xptype": "LEVEL",
+      "amount": 10000,
+      "type": "heracles:xp"
+    },
+    "13C7B1760109C468": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "affix_data": {
+            "affixes": {
+              "apotheosis:heavy_weapon/attribute/annihilating": 0.20009226,
+              "apotheosis:heavy_weapon/attribute/murderous": 0.9636011,
+              "apotheosis:heavy_weapon/attribute/shredding": 0.52882904,
+              "apotheosis:heavy_weapon/special/executing": 0.42035472,
+              "apotheosis:heavy_weapon/attribute/giant_slaying": 0.80212396,
+              "apotheosis:durable": 0.8,
+              "apotheosis:sword/mob_effect/elusive": 0.27058095,
+              "apotheosis:heavy_weapon/attribute/berserking": 0.34490293,
+              "apotheosis:heavy_weapon/special/cleaving": 0.57667243
+            },
+            "name": "{\"color\":\"rainbow\",\"translate\":\"%2$s\",\"with\":[\"\",\"\"]",
+            "sockets": 5,
+            "rarity": "apotheosis:ancient",
+            "uuids": [
+              [
+                458049447,
+                -427996311,
+                -1781331551,
+                1681014930
+              ]
+            ]
+          },
+          "display": {
+            "Name": "{\"text\":\"Ultimate Axe of AlfredGG\"}"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "5AC6632FD554B8F2": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.chapter3.subt.welcome"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.chapter3.subt.welcome</translate></h2>",
+      "<hr/>",
+      "<task task=\"529AEED3E1A07228\" quest=\"6E6FDF551EA4FF1A\"/>",
+      "<task task=\"5C995984E37F6C5A\" quest=\"6E6FDF551EA4FF1A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter3.desc.welcome</translate></p>",
+      "<hr/>",
+      "<reward reward=\"625FC1DFA2B2A8B3\" quest=\"6E6FDF551EA4FF1A\"/>",
+      "<reward reward=\"13C7B1760109C468\" quest=\"6E6FDF551EA4FF1A\"/>",
+      "<reward reward=\"5AC6632FD554B8F2\" quest=\"6E6FDF551EA4FF1A\"/>"
+    ],
+    "groups": {
+      "§aChapter 3§r: §dCreative": {
+        "position": [
+          0,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter3.welcome"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

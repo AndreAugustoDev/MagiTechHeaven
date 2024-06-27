@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "5A03F82C6B50D548": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_steed"
+    }
+  },
+  "rewards": {
+    "5DDFF0D49AF679D4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_summon_steed",
+    "description": [
+      "<task task=\"5A03F82C6B50D548\" quest=\"1D3471FCA8B3BE36\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5DDFF0D49AF679D4\" quest=\"1D3471FCA8B3BE36\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_steed"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -240
+        ]
+      }
+    }
+  }
+}

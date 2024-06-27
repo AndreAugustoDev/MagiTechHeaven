@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "698A959C9E449592"
+  ],
+  "tasks": {
+    "17B9A643AFD7EB39": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5631B3158B9642FB": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"17B9A643AFD7EB39\" quest=\"76406EFFF8CBA6B4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.diamonds</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5631B3158B9642FB\" quest=\"76406EFFF8CBA6B4\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          336,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.diamonds"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "743C9FFD4A3D73EF": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:spawner_scrap"
+    }
+  },
+  "rewards": {
+    "0E15CFABEE5C0283": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:spawner_scrap",
+    "description": [
+      "<task task=\"743C9FFD4A3D73EF\" quest=\"13E5783AD64E3BC2\"/>",
+      "<hr/>",
+      "Breaking spawners will now drop &&9Spawner Scraps&&r.",
+      "<hr/>",
+      "<reward reward=\"0E15CFABEE5C0283\" quest=\"13E5783AD64E3BC2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:spawner_scrap"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -288,
+          112
+        ]
+      }
+    }
+  }
+}

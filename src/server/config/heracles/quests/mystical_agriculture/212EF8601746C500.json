@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "6B6B34B77A5563FC": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:imperium_apple"
+    }
+  },
+  "rewards": {
+    "237BA662FCE263A8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:imperium_apple",
+    "description": [
+      "<task task=\"6B6B34B77A5563FC\" quest=\"212EF8601746C500\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"237BA662FCE263A8\" quest=\"212EF8601746C500\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:imperium_apple"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -112,
+          -80
+        ]
+      }
+    }
+  }
+}

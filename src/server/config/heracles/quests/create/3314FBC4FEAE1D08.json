@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "79D2F12337D1F637": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:deployer",
+    "description": [
+      "<task task=\"79D2F12337D1F637\" quest=\"3314FBC4FEAE1D08\"/>",
+      "<hr/>",
+      "The &&n&&5Deployer&&r can be used to either place items/blocks or to use items like Swords."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "563CFA1EF74E52E9"
+  ],
+  "tasks": {
+    "57E17CFF237DB302": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:upgrade_base",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "573A85406505C80F": {
+      "item": {
+        "id": "sophisticatedstorage:upgrade_base",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "34E6939A2878A929": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.upgrade"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.upgrade</translate></h2>",
+      "<hr/>",
+      "<task task=\"57E17CFF237DB302\" quest=\"4007DFA7CC3A5FF2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.upgrade</translate></p>",
+      "<hr/>",
+      "<reward reward=\"573A85406505C80F\" quest=\"4007DFA7CC3A5FF2\"/>",
+      "<reward reward=\"34E6939A2878A929\" quest=\"4007DFA7CC3A5FF2\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -256,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:upgrade_base",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

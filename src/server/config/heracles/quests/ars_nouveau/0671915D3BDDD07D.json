@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "54AED59019A9FC16": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_dispel"
+    }
+  },
+  "rewards": {
+    "2D178271A4983D6D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_dispel",
+    "description": [
+      "<task task=\"54AED59019A9FC16\" quest=\"0671915D3BDDD07D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D178271A4983D6D\" quest=\"0671915D3BDDD07D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_dispel"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -176
+        ]
+      }
+    }
+  }
+}

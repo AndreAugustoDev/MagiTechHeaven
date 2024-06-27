@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4194397DFD0199C2"
+  ],
+  "tasks": {
+    "3EC06DE78E520CC9": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:mechanical_arm",
+    "description": [
+      "<task task=\"3EC06DE78E520CC9\" quest=\"3F2C1A81C17D2D67\"/>",
+      "<hr/>",
+      "The &&n&&5Arm&&r is a machine that can take items from a Depot or a Belt and place them into a different Depot, Belt or Crafter.",
+      "<br/>",
+      "To select input/output hold the Arm in your hand and R-Click the blocks you want to assign.",
+      "<br/>",
+      "To deselect a block, L-Click it with the Arm in your hand."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          432,
+          80
+        ]
+      }
+    }
+  }
+}

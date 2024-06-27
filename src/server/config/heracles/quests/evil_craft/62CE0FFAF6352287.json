@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62A262A706CFCAF0"
+  ],
+  "tasks": {
+    "689026A3ED7A863A": {
+      "type": "heracles:item",
+      "item": "evilcraft:bowl_of_promises_tier0"
+    },
+    "68A9C99DC3DFD901": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_tier_1"
+    }
+  },
+  "rewards": {
+    "448851E30BF3A2D9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aUpgrading Our Machines§r",
+    "description": [
+      "<task task=\"689026A3ED7A863A\" quest=\"62CE0FFAF6352287\"/>",
+      "<task task=\"68A9C99DC3DFD901\" quest=\"62CE0FFAF6352287\"/>",
+      "<hr/>",
+      "EvilCraft machines can be upgraded using &&6Promises&&r. Each Promise will have different effects, but first, we'll want to upgrade our Blood Infuser to unlock more recipes.",
+      "<br/>",
+      "To do this, we need to create a &&6Promise of Tenacity: Tier 1&&r. Generally, this just increases the storage capacity of a machine. For the Blood Infuser, this will unlock more recipes!",
+      "<hr/>",
+      "<reward reward=\"448851E30BF3A2D9\" quest=\"62CE0FFAF6352287\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_tier_1"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          192,
+          176
+        ]
+      }
+    }
+  }
+}

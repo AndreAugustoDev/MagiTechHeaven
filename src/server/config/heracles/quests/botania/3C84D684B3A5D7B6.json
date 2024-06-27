@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "23A2865FBE7831AB"
+  ],
+  "tasks": {
+    "1B5BCFFB27A87601": {
+      "type": "heracles:item",
+      "item": "botania:terra_axe"
+    }
+  },
+  "rewards": {
+    "3102E56C03312F24": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:terra_axe",
+    "description": [
+      "<task task=\"1B5BCFFB27A87601\" quest=\"3C84D684B3A5D7B6\"/>",
+      "<hr/>",
+      "Using Mana, the &&2Terra Truncator&&r will feel entire trees in one fell swoop.",
+      "<hr/>",
+      "<reward reward=\"3102E56C03312F24\" quest=\"3C84D684B3A5D7B6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terra_axe"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          528,
+          -48
+        ]
+      }
+    }
+  }
+}

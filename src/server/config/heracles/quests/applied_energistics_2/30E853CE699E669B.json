@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "51DE3157DE3E57B8"
+  ],
+  "tasks": {
+    "08DA73B1AC17E5F5": {
+      "title": "Crafting Storage",
+      "type": "heracles:item",
+      "item": "itemfilters:id_regex",
+      "nbt": {
+        "value": "(.*)crafting_storage"
+      }
+    }
+  },
+  "rewards": {
+    "57230DB26A88BF90": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.crafting_storage",
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.crafting_storage</translate></h2>",
+      "<hr/>",
+      "<task task=\"08DA73B1AC17E5F5\" quest=\"30E853CE699E669B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.crafting_storage</translate></p>",
+      "<hr/>",
+      "<reward reward=\"57230DB26A88BF90\" quest=\"30E853CE699E669B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:id_regex"
+    },
+    "subtitle": {
+      "text": "i18n.quest.ae2.subt.crafting_storage"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          448,
+          -48
+        ]
+      }
+    }
+  }
+}

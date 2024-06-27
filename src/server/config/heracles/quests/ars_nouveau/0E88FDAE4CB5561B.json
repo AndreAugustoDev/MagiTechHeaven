@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "5018B75946EB5FA4": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_awakening"
+    }
+  },
+  "rewards": {
+    "3C7EF29C9BD3D3D7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_awakening",
+    "description": [
+      "<task task=\"5018B75946EB5FA4\" quest=\"0E88FDAE4CB5561B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3C7EF29C9BD3D3D7\" quest=\"0E88FDAE4CB5561B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_awakening"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          208,
+          192
+        ]
+      }
+    }
+  }
+}

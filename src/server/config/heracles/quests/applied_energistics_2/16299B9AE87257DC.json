@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "2B31E6C1707D8195"
+  ],
+  "tasks": {
+    "195B7DC4D7815D29": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "384594EA34F0985B": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_crafting_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3A1C068ABC13E7EE": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.wireless_terminal"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.wireless_terminal</translate></h2>",
+      "<hr/>",
+      "<task task=\"195B7DC4D7815D29\" quest=\"16299B9AE87257DC\"/>",
+      "<task task=\"384594EA34F0985B\" quest=\"16299B9AE87257DC\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.wireless_terminal</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3A1C068ABC13E7EE\" quest=\"16299B9AE87257DC\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          352,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.wireless_terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "1710B3D05215A71E"
+  ],
+  "tasks": {
+    "2D19A4EF2E4B7A55": {
+      "type": "heracles:item",
+      "item": "ae2:memory_card",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Memory Card"
+    }
+  },
+  "rewards": {
+    "58A650BEBD72CCDB": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2D19A4EF2E4B7A55\" quest=\"55186B8602689B66\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.memory</translate></p>",
+      "<hr/>",
+      "<reward reward=\"58A650BEBD72CCDB\" quest=\"55186B8602689B66\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          832,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:memory_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.ae2.memory"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

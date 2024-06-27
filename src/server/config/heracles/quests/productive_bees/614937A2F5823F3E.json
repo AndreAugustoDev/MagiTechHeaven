@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "3202568944BCBF77": {
+      "title": "Magmatic Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:magmatic"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "14454A91BA2CAE69": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Magmatic Bee",
+    "description": [
+      "<h2>Spawned using a Nether Brick Nest in the Nether</h2>",
+      "<hr/>",
+      "<task task=\"3202568944BCBF77\" quest=\"614937A2F5823F3E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"14454A91BA2CAE69\" quest=\"614937A2F5823F3E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:magma_block"
+    },
+    "subtitle": {
+      "text": "Spawned using a Nether Brick Nest in the Nether"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          368
+        ]
+      }
+    }
+  }
+}

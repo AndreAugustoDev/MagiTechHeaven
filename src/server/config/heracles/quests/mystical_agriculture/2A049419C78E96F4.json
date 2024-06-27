@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "7BDE7BF288BF4C12": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:aluminum_seeds"
+    }
+  },
+  "rewards": {
+    "23686842869FACF1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:aluminum_seeds",
+    "description": [
+      "<task task=\"7BDE7BF288BF4C12\" quest=\"2A049419C78E96F4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"23686842869FACF1\" quest=\"2A049419C78E96F4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:aluminum_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -448,
+          -192
+        ]
+      }
+    }
+  }
+}

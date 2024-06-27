@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "42D173B9FF8D16E4"
+  ],
+  "tasks": {
+    "0F7D7AE91E20F778": {
+      "type": "heracles:item",
+      "item": "rftoolspower:coalgenerator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "698CCE0DFA894C3A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0F7D7AE91E20F778\" quest=\"0BB367839D28607D\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.coal</translate></p>",
+      "<hr/>",
+      "<reward reward=\"698CCE0DFA894C3A\" quest=\"0BB367839D28607D\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -192,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rftoolspower:coalgenerator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.coal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

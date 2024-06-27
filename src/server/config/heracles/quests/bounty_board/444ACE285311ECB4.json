@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "2B05A29C62676EB2"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"3AD10C31CB6BA4C2\" quest=\"444ACE285311ECB4\"/>",
+      "<hr/>",
+      "<reward reward=\"3ED7AA82E00DCFD5\" quest=\"444ACE285311ECB4\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          -128,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:zombie_head",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.zombie.10"
+  },
+  "rewards": {
+    "3ED7AA82E00DCFD5": {
+      "amount": 20,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "3AD10C31CB6BA4C2": {
+      "amount": 10,
+      "entity": {
+        "type": "minecraft:zombie"
+      },
+      "icon": {
+        "item": "minecraft:zombie_head",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.zombie.10",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

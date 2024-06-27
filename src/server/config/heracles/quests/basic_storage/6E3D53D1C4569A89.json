@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "56B80A7EBFE21428"
+  ],
+  "tasks": {
+    "3B52B2670A826CE4": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:xp_pump_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "67BA8A35E56EB3F0": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3B52B2670A826CE4\" quest=\"6E3D53D1C4569A89\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"67BA8A35E56EB3F0\" quest=\"6E3D53D1C4569A89\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -144,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:xp_pump_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.EPU"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

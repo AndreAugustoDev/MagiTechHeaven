@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1F3B9803AFAEED5F"
+  ],
+  "tasks": {
+    "7825C546B68A7F85": {
+      "type": "heracles:item",
+      "item": "bloodmagic:watersigil"
+    }
+  },
+  "rewards": {
+    "1B7AF47021D62F36": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:watersigil",
+    "description": [
+      "<task task=\"7825C546B68A7F85\" quest=\"7EED2502F1F38147\"/>",
+      "<hr/>",
+      "When held in hand, you can right-click to create a water source block for 100LP. Not bad huh?",
+      "<br/>",
+      "Unless you don't have 100LP. In that case, it'll just take your health. :)",
+      "<hr/>",
+      "<reward reward=\"1B7AF47021D62F36\" quest=\"7EED2502F1F38147\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:watersigil"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -816,
+          -192
+        ]
+      }
+    }
+  }
+}

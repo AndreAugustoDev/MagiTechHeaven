@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "3686E63D875EBFB8": {
+      "type": "heracles:item",
+      "item": "botania:lens_influence"
+    }
+  },
+  "rewards": {
+    "62FDD1E9AF0AC18A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_influence",
+    "description": [
+      "<task task=\"3686E63D875EBFB8\" quest=\"5732936F1FD1D4AE\"/>",
+      "<hr/>",
+      "Allows a Mana Burst to influence nearby dropped items, experience orbs, and falling blocks, having them move in the exact same vector of the motion as the burst itself.",
+      "<hr/>",
+      "<reward reward=\"62FDD1E9AF0AC18A\" quest=\"5732936F1FD1D4AE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_influence"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          480,
+          336
+        ]
+      }
+    }
+  }
+}

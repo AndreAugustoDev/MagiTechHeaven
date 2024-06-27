@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "0A77407CE9055F04": {
+      "title": "Sweat Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5F80C0F9DAB3D6F7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Sweat Bee",
+    "description": [
+      "<h2>Spawns from a Snow Nest</h2>",
+      "<hr/>",
+      "<task task=\"0A77407CE9055F04\" quest=\"447CAC472A99835B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5F80C0F9DAB3D6F7\" quest=\"447CAC472A99835B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:snowball"
+    },
+    "subtitle": {
+      "text": "Spawns from a Snow Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "5D0C944F84E341BE",
+    "71B824BEA02C4A34",
+    "124BDAF91DA74910",
+    "73EFADE932DFEF86",
+    "6E29BA2E8642AF53",
+    "356F450F4ADD22D7"
+  ],
+  "tasks": {},
+  "rewards": {
+    "69D20E0F1A44244F": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of Space\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "288D32C87F308B7B": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"08EC833DF79CEA1E\" quest=\"73990028197AF1AB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"69D20E0F1A44244F\" quest=\"73990028197AF1AB\"/>",
+      "<reward reward=\"288D32C87F308B7B\" quest=\"73990028197AF1AB\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          64,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.space"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

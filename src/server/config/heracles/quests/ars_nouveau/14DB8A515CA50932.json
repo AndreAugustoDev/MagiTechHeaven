@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "307E429DCDA2A0BC": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:enchanters_sword"
+    }
+  },
+  "rewards": {
+    "2BD5532974AC8144": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:enchanters_sword",
+    "description": [
+      "<task task=\"307E429DCDA2A0BC\" quest=\"14DB8A515CA50932\"/>",
+      "<hr/>",
+      "The &&9Enchanter's Sword&&r allows you to attach a Touch Spell to the sword. ",
+      "<br/>",
+      "All spells on the Sword gain 1 additional Amplify augment to the last effect on the spell.",
+      "<br/>",
+      "To apply a spell to the sword, use a Scribe's Table. Create the spell without using a form.",
+      "<hr/>",
+      "<reward reward=\"2BD5532974AC8144\" quest=\"14DB8A515CA50932\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:enchanters_sword"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          336,
+          80
+        ]
+      }
+    }
+  }
+}

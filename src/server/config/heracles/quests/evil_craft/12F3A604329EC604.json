@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62CE0FFAF6352287"
+  ],
+  "tasks": {
+    "0B55C293EACD60B9": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_efficiency_0"
+    }
+  },
+  "rewards": {
+    "021809D0577370B6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:promise_efficiency_0",
+    "description": [
+      "<h2>Increases the Efficiency of EvilCraft Machines</h2>",
+      "<hr/>",
+      "<task task=\"0B55C293EACD60B9\" quest=\"12F3A604329EC604\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"021809D0577370B6\" quest=\"12F3A604329EC604\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_efficiency_0"
+    },
+    "subtitle": {
+      "text": "Increases the Efficiency of EvilCraft Machines"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          224,
+          128
+        ]
+      }
+    }
+  }
+}

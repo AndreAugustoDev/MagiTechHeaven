@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "0E9A11E8D18F4183": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_blazing"
+    }
+  },
+  "rewards": {
+    "495A35BBE79525E0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_discharger_blazing",
+    "description": [
+      "<task task=\"0E9A11E8D18F4183\" quest=\"13FDBA4BC4514F58\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"495A35BBE79525E0\" quest=\"13FDBA4BC4514F58\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -272,
+          464
+        ]
+      }
+    }
+  }
+}

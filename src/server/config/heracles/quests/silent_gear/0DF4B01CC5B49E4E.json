@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "6916F3E24E09B0BE": {
+      "type": "heracles:item",
+      "item": "silentgear:sword_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3B6BDE76C5A9446F": {
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "16720CCB3ED1C3A2": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.sword"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.sword</translate></h2>",
+      "<hr/>",
+      "<task task=\"6916F3E24E09B0BE\" quest=\"0DF4B01CC5B49E4E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.sword</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3B6BDE76C5A9446F\" quest=\"0DF4B01CC5B49E4E\"/>",
+      "<reward reward=\"16720CCB3ED1C3A2\" quest=\"0DF4B01CC5B49E4E\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -16,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:sword_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.SG.sword"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2B3F2F470E06BC40"
+  ],
+  "tasks": {
+    "3B83170BC4E75158": {
+      "type": "heracles:item",
+      "item": "mekanism:pellet_antimatter"
+    }
+  },
+  "rewards": {
+    "377C6F58639E8469": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 1000
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:pellet_antimatter",
+    "description": [
+      "<task task=\"3B83170BC4E75158\" quest=\"00EFC7B327E79076\"/>",
+      "<hr/>",
+      "After zapping away trillions of power in the SPS, we can finally create &&dAntimatter Pellets&&r.",
+      "<br/>",
+      "Run the Antimatter Gas you get from the SPS into a Chemical Crystallizer and you'll get 1 Antimatter Pellet for every 1,000mb you make.",
+      "<hr/>",
+      "<reward reward=\"377C6F58639E8469\" quest=\"00EFC7B327E79076\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:pellet_antimatter"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          64,
+          -224
+        ]
+      }
+    }
+  }
+}

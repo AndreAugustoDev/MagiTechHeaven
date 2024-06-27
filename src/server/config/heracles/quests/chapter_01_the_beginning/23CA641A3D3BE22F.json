@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "76406EFFF8CBA6B4"
+  ],
+  "tasks": {
+    "082FD4018EA92767": {
+      "from": "minecraft:overworld",
+      "to": "twilightforest:twilight_forest",
+      "title": "The &dTwilight Forest&r",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "61AB892E58B3E5AE": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"082FD4018EA92767\" quest=\"23CA641A3D3BE22F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.twilight",
+      "<br/>",
+      "{image:atm:textures/questpics/gettingstarted/twilight_portal.png width:241 height:180 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"61AB892E58B3E5AE\" quest=\"23CA641A3D3BE22F\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          336,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherrack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.twilight"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

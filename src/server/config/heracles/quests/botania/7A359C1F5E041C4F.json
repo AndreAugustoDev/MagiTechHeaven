@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "23ADD20D9B1AE0F3"
+  ],
+  "tasks": {
+    "57D1954039E03CDB": {
+      "type": "heracles:item",
+      "item": "botania:mana_pool"
+    },
+    "558649C69096D2D7": {
+      "title": "Starter Generating Flowers",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "botania:hydroangeas"
+          },
+          {
+            "Count": 1,
+            "id": "botania:endoflame"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3F5C579642C1615A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§bMana§r",
+    "description": [
+      "<task task=\"57D1954039E03CDB\" quest=\"7A359C1F5E041C4F\"/>",
+      "<task task=\"558649C69096D2D7\" quest=\"7A359C1F5E041C4F\"/>",
+      "<hr/>",
+      "With our &&bLivingrock&&r we've created, we can now make the &&9Mana Pool&&r.",
+      "<br/>",
+      "The Mana Pool is our storage for our Mana we generate. Once it has some mana stored inside, we can begin converting specific resources into Mana resources, like Manasteel, Mana Diamonds. To create these resources, throw the item into the pool with enough mana inside to convert the item.",
+      "<br/>",
+      "To &&bgenerate mana&&r, you'll need to create a &&2Generating Flower&&r, like the &&9Hydroangeas&&r or the &&cEndoflame&&r.",
+      "<br/>",
+      "Note: The Mana Pool stores a massive amount of mana. To see how much Mana is stored, try looking at one while holding the &&2Wand of the Forest&&r.",
+      "<hr/>",
+      "<reward reward=\"3F5C579642C1615A\" quest=\"7A359C1F5E041C4F\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          58
+        ]
+      }
+    }
+  }
+}

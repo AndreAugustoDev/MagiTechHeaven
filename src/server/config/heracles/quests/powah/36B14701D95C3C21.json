@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03442045ED56068F"
+  ],
+  "tasks": {
+    "2E611F9024AF2142": {
+      "type": "heracles:item",
+      "item": "powah:magmator_spirited"
+    }
+  },
+  "rewards": {
+    "6380B215B854230B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:magmator_spirited",
+    "description": [
+      "<task task=\"2E611F9024AF2142\" quest=\"36B14701D95C3C21\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6380B215B854230B\" quest=\"36B14701D95C3C21\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:magmator_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          112,
+          528
+        ]
+      }
+    }
+  }
+}

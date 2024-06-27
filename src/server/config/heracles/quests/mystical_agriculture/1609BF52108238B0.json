@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "5ABAC0A86621FDAE": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:stone_seeds"
+    }
+  },
+  "rewards": {
+    "3E4B9513E8527E5B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:stone_seeds",
+    "description": [
+      "<task task=\"5ABAC0A86621FDAE\" quest=\"1609BF52108238B0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3E4B9513E8527E5B\" quest=\"1609BF52108238B0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:stone_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -608,
+          -128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "3282190E6DF860F4": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_decelerate"
+    }
+  },
+  "rewards": {
+    "34208794F55297FD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_decelerate",
+    "description": [
+      "<task task=\"3282190E6DF860F4\" quest=\"407AD700892ADBF1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"34208794F55297FD\" quest=\"407AD700892ADBF1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_decelerate"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -400
+        ]
+      }
+    }
+  }
+}

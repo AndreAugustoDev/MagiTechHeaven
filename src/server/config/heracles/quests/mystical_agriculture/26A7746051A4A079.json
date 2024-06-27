@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "4315AB4B19D55458": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:skeleton_seeds"
+    }
+  },
+  "rewards": {
+    "53B8FBD373198779": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:skeleton_seeds",
+    "description": [
+      "<task task=\"4315AB4B19D55458\" quest=\"26A7746051A4A079\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"53B8FBD373198779\" quest=\"26A7746051A4A079\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:skeleton_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -320,
+          48
+        ]
+      }
+    }
+  }
+}

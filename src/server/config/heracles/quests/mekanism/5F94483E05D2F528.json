@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "30F8BA43B1BB9035"
+  ],
+  "tasks": {
+    "05059B48A8F56BC5": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_fluid_tank"
+    }
+  },
+  "rewards": {
+    "310591995AE450E0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_fluid_tank",
+    "description": [
+      "<task task=\"05059B48A8F56BC5\" quest=\"5F94483E05D2F528\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"310591995AE450E0\" quest=\"5F94483E05D2F528\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_fluid_tank"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          112,
+          266
+        ]
+      }
+    }
+  }
+}

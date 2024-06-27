@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6EDAB29FBD3C60A3",
+    "5E799B92358A8732"
+  ],
+  "tasks": {},
+  "rewards": {
+    "4777AE0A69D4354B": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4F5479637B945F88\" quest=\"1FD4C32B3937E1C7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.atm</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4777AE0A69D4354B\" quest=\"1FD4C32B3937E1C7\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          432,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.atm"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

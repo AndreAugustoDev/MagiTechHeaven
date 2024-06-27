@@ -1,5 +1,3 @@
-$packtoml = '\pack.toml'
-$srcPath = '.\src'
-$srcPackFile = $srcPath + $packtoml
+. $PSScriptRoot\variables.ps1
 
-& packwiz --pack-file $srcPackFile --meta-folder-base $srcPath $args
+& packwiz --pack-file $clientPackFile --meta-folder-base $clientPath $args

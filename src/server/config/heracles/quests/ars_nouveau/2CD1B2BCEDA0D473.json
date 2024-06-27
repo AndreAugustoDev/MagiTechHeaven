@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "105A471BB30BD30F": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_exchange"
+    }
+  },
+  "rewards": {
+    "37BF85F7140B1BA5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_exchange",
+    "description": [
+      "<task task=\"105A471BB30BD30F\" quest=\"2CD1B2BCEDA0D473\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"37BF85F7140B1BA5\" quest=\"2CD1B2BCEDA0D473\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_exchange"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "153F111B4CCC850B",
+    "6827CD2484040402"
+  ],
+  "tasks": {},
+  "rewards": {
+    "10C97B39C12475D3": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of Oblivion\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "60DD6D09683F298A": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"17ED2BF9BAAB9268\" quest=\"67E154DC24F54854\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"10C97B39C12475D3\" quest=\"67E154DC24F54854\"/>",
+      "<reward reward=\"60DD6D09683F298A\" quest=\"67E154DC24F54854\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.oblivion"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

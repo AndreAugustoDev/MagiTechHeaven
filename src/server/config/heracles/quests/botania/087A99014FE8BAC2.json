@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "443C2EF5FFE8D265": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_shovel"
+    }
+  },
+  "rewards": {
+    "308B2A25CF474BDA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:manasteel_shovel",
+    "description": [
+      "<task task=\"443C2EF5FFE8D265\" quest=\"087A99014FE8BAC2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"308B2A25CF474BDA\" quest=\"087A99014FE8BAC2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_shovel"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          0
+        ]
+      }
+    }
+  }
+}

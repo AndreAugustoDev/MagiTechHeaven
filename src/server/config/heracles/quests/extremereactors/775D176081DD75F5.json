@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68"
+  ],
+  "tasks": {
+    "2905C4386A407A1E": {
+      "title": "i18n.quest.bigreactors.turbine_interface",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7CD6A1F962D2C310": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2905C4386A407A1E\" quest=\"775D176081DD75F5\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.turbine_controller</translate></p>",
+      "<br/>",
+      "{image:atm:textures/questpics/extremereactors/turbineui.png width:200 height:150 align:1}",
+      "<hr/>",
+      "<reward reward=\"7CD6A1F962D2C310\" quest=\"775D176081DD75F5\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.turbine_interface"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

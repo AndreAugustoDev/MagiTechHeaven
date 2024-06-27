@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "6141DE779232C8AA"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"00445193DEB7EAA0\" quest=\"4F48A4839B549C92\"/>",
+      "<hr/>",
+      "<reward reward=\"10A5CCDDA3FABD37\" quest=\"4F48A4839B549C92\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          192,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:blaze_rod",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.blaze.10"
+  },
+  "rewards": {
+    "10A5CCDDA3FABD37": {
+      "amount": 20,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "00445193DEB7EAA0": {
+      "amount": 10,
+      "entity": {
+        "type": "minecraft:blaze"
+      },
+      "icon": {
+        "item": "minecraft:blaze_rod",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.blaze.10",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

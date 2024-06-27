@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1162544BA1B2B0F3"
+  ],
+  "tasks": {
+    "1D2AE44FA5391B71": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_chemical_tank"
+    }
+  },
+  "rewards": {
+    "2CF135C8D597A4A4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_chemical_tank",
+    "description": [
+      "<task task=\"1D2AE44FA5391B71\" quest=\"4C4B1602E2AFC314\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2CF135C8D597A4A4\" quest=\"4C4B1602E2AFC314\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_chemical_tank"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          48,
+          266
+        ]
+      }
+    }
+  }
+}

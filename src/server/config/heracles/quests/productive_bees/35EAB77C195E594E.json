@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "0F2BCC279B5731AB": {
+      "title": "Amethyst Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:amethyst"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "712F1D5B6F5C3E3B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Amethyst Bee",
+    "description": [
+      "<h2>Feed a Diamond Bee Amethyst</h2>",
+      "<hr/>",
+      "<task task=\"0F2BCC279B5731AB\" quest=\"35EAB77C195E594E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"712F1D5B6F5C3E3B\" quest=\"35EAB77C195E594E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:amethyst_cluster"
+    },
+    "subtitle": {
+      "text": "Feed a Diamond Bee Amethyst"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          192,
+          352
+        ]
+      }
+    }
+  }
+}

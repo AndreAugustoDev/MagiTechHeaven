@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "46B515C90C13A72F"
+  ],
+  "tasks": {
+    "0CECD87DB952DD82": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prosperity_seed_base",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0CECD87DB952DD82\" quest=\"3FEA99DD35D4B7CF\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.MA",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C764279146E5E66\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          48,
+          576
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:prosperity_seed_base",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.MA"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

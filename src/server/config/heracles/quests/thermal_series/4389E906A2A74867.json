@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "694DB377E094D28E": {
+      "type": "heracles:item",
+      "item": "thermal:fluid_cell",
+      "nbt": {
+        "BlockEntityTag": {
+          "TankInv": [
+            {
+              "Amount": 0,
+              "Capacity": 32000,
+              "FluidName": "minecraft:empty",
+              "Tank": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "4AE007FFAF1003F8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bucket"
+      }
+    },
+    "43B8F1F2FBA0D4EA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Storing Fluids",
+    "description": [
+      "<task task=\"694DB377E094D28E\" quest=\"4389E906A2A74867\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AE007FFAF1003F8\" quest=\"4389E906A2A74867\"/>",
+      "<reward reward=\"43B8F1F2FBA0D4EA\" quest=\"4389E906A2A74867\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:fluid_cell"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          168,
+          62
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "21EE522DDBF0BF72"
+  ],
+  "tasks": {},
+  "rewards": {
+    "6DC65D64AFC9FB86": {
+      "item": {
+        "id": "minecraft:dragon_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7AB6761EB41B1E07\" quest=\"4A59DF02128DA9F3\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.pearlescent</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6DC65D64AFC9FB86\" quest=\"4A59DF02128DA9F3\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          288,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.pearlescent"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66324D7D0C51AEAC"
+  ],
+  "tasks": {
+    "553DD93D10666049": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_filter"
+    }
+  },
+  "rewards": {
+    "1A390E7C759A0668": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "7DCEF23469265229": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_filter",
+    "description": [
+      "<h2>Used to add Bees to a Filter</h2>",
+      "<hr/>",
+      "<task task=\"553DD93D10666049\" quest=\"57167FE67CFAC255\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1A390E7C759A0668\" quest=\"57167FE67CFAC255\"/>",
+      "<reward reward=\"7DCEF23469265229\" quest=\"57167FE67CFAC255\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_filter"
+    },
+    "subtitle": {
+      "text": "Used to add Bees to a Filter"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -144,
+          48
+        ]
+      }
+    }
+  }
+}

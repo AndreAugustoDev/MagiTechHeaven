@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2894F11A73335179"
+  ],
+  "tasks": {
+    "16DBF179371A23E1": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:corrupti_dust"
+    }
+  },
+  "rewards": {
+    "162E81395E446AB6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:corrupti_dust",
+    "description": [
+      "<task task=\"16DBF179371A23E1\" quest=\"7CF76A542529A181\"/>",
+      "<hr/>",
+      "Used to corrupt Souls and Runes. You'll need this for later.",
+      "<br/>",
+      "If you throw down Dark Matter, then throw down Corrupti Dust, it'll create a Black Hole. Feed it small entities like Arrows or Experience Orbs, and it'll produce Xpetrified Orbs.",
+      "<hr/>",
+      "<reward reward=\"162E81395E446AB6\" quest=\"7CF76A542529A181\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:corrupti_dust"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -176,
+          208
+        ]
+      }
+    }
+  }
+}

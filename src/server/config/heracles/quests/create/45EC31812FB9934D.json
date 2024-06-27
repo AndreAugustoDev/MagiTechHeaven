@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "47897D827C50629D"
+  ],
+  "tasks": {
+    "0BD1BA7949BB5855": {
+      "title": "Mechanical Pistons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "create:mechanical_piston"
+          },
+          {
+            "Count": 1,
+            "id": "create:sticky_mechanical_piston"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mechanical Pistons",
+    "description": [
+      "<task task=\"0BD1BA7949BB5855\" quest=\"45EC31812FB9934D\"/>",
+      "<hr/>",
+      "The &&n&&5Mechanical Piston&&r is similar to the Piston, it can push blocks, but you can add as many Extension Poles as you wish."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          112,
+          -64
+        ]
+      }
+    }
+  }
+}

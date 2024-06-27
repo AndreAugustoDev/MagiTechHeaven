@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "67FD7FB84A1DBDC1": {
+      "type": "heracles:item",
+      "item": "mekanism:supercharged_coil",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"67FD7FB84A1DBDC1\" quest=\"1D7104AE853A3D86\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.meka",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"23983F4DC524B14B\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          384,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanism:supercharged_coil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.meka"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

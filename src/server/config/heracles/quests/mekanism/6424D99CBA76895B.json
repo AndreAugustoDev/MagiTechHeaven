@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "768F9EBD3E115CA6"
+  ],
+  "tasks": {
+    "460D2FF854258953": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_pressurized_tube"
+    }
+  },
+  "rewards": {
+    "4B2C848A94AB89DF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_pressurized_tube",
+    "description": [
+      "<task task=\"460D2FF854258953\" quest=\"6424D99CBA76895B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4B2C848A94AB89DF\" quest=\"6424D99CBA76895B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_pressurized_tube"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          16,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "618ECDB3FB534A8A"
+  ],
+  "tasks": {
+    "6EC6D1463C65EBF2": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_universal_cable"
+    }
+  },
+  "rewards": {
+    "71DC1FAB9D749E6D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_universal_cable",
+    "description": [
+      "<task task=\"6EC6D1463C65EBF2\" quest=\"7553689BC9202E14\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"71DC1FAB9D749E6D\" quest=\"7553689BC9202E14\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_universal_cable"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -112,
+          176
+        ]
+      }
+    }
+  }
+}

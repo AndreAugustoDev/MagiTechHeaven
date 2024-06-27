@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "7379282EA5C084B4": {
+      "type": "heracles:item",
+      "item": "silentgear:leggings_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1243D0195D23CDB0": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7379282EA5C084B4\" quest=\"22C51025DC42CDE2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1243D0195D23CDB0\" quest=\"22C51025DC42CDE2\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          256,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:leggings_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.leggings"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

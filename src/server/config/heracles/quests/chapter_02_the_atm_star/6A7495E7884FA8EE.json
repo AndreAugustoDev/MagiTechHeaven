@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "1E7D0E40D0E2B026"
+  ],
+  "tasks": {},
+  "rewards": {
+    "0832E904C70196CD": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "77E93511635DA2ED": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of The Alloy\",\"italic\":false}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3C29DD4BCE2918F0\" quest=\"6A7495E7884FA8EE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"77E93511635DA2ED\" quest=\"6A7495E7884FA8EE\"/>",
+      "<reward reward=\"0832E904C70196CD\" quest=\"6A7495E7884FA8EE\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          32,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.star_casing"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

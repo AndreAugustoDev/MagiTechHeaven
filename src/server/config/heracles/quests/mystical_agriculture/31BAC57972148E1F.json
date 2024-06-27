@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "68C2E4443A30EBCD": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:coral_seeds"
+    }
+  },
+  "rewards": {
+    "4CFA4CEFB44E7800": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:coral_seeds",
+    "description": [
+      "<task task=\"68C2E4443A30EBCD\" quest=\"31BAC57972148E1F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4CFA4CEFB44E7800\" quest=\"31BAC57972148E1F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:coral_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -448,
+          -128
+        ]
+      }
+    }
+  }
+}

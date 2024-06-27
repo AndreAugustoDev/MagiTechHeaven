@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4800DD5A7039B8B7": {
+      "title": "i18n.quest.power.ATP",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3C8F065AEE4CDB80": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4800DD5A7039B8B7\" quest=\"4AB0DD227471FDBF\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.ATP</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3C8F065AEE4CDB80\" quest=\"4AB0DD227471FDBF\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -112,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:redstone_torch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.ATP"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

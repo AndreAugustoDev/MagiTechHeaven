@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48EA6D9923E38B71"
+  ],
+  "tasks": {
+    "2D54A1DB29903A0A": {
+      "type": "heracles:item",
+      "item": "create:portable_storage_interface"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:portable_storage_interface",
+    "description": [
+      "<task task=\"2D54A1DB29903A0A\" quest=\"134BC365E77C6DB8\"/>",
+      "<hr/>",
+      "The &&n&&5Portable Interface&&r works in pairs. You need to have one placed in the world and another one on a moving entity, like a Minecart.",
+      "<br/>",
+      "When the two interfaces are facing each other, they will link and transfer items between each other."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:portable_storage_interface"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          432,
+          128
+        ]
+      }
+    }
+  }
+}

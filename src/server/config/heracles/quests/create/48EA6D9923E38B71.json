@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DA6B8B2DCC97809"
+  ],
+  "tasks": {
+    "23E40F6D58658887": {
+      "type": "heracles:item",
+      "item": "create:brass_casing"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:brass_casing",
+    "description": [
+      "<task task=\"23E40F6D58658887\" quest=\"48EA6D9923E38B71\"/>",
+      "<hr/>",
+      "&&n&&5Casings&&r are used as a crafting ingredient for most blocks."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_casing"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          384,
+          128
+        ]
+      }
+    }
+  }
+}

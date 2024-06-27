@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "5FBA2E1E91367CB5": {
+      "type": "heracles:item",
+      "item": "botania:lens_efficiency"
+    }
+  },
+  "rewards": {
+    "136B2862652086D9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_efficiency",
+    "description": [
+      "<task task=\"5FBA2E1E91367CB5\" quest=\"5A7FF6D0AED656DC\"/>",
+      "<hr/>",
+      "Decreases the amount of time that it takes for a Mana Burst to start losing its Mana, but will also decrease its rate of loss.",
+      "<hr/>",
+      "<reward reward=\"136B2862652086D9\" quest=\"5A7FF6D0AED656DC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_efficiency"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          352,
+          304
+        ]
+      }
+    }
+  }
+}

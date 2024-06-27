@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "1F18CE807E81A7EC": {
+      "type": "heracles:item",
+      "item": "botania:clayconia"
+    }
+  },
+  "rewards": {
+    "0300495737AD2924": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:clayconia",
+    "description": [
+      "<task task=\"1F18CE807E81A7EC\" quest=\"7BB2EE5D33229891\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0300495737AD2924\" quest=\"7BB2EE5D33229891\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:clayconia"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "3512BC20229693CD": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_dampen"
+    }
+  },
+  "rewards": {
+    "10F069AD9A83E88E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_dampen",
+    "description": [
+      "<task task=\"3512BC20229693CD\" quest=\"62A9FD6138446A17\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"10F069AD9A83E88E\" quest=\"62A9FD6138446A17\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_dampen"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -432
+        ]
+      }
+    }
+  }
+}

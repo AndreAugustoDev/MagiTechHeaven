@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68",
+    "4745152F6FF242B3"
+  ],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.to_make_steam</translate></h2>",
+      "<hr/>",
+      "<task task=\"122E3BB7DB314F68\" quest=\"476755275B948A5F\"/>",
+      "<task task=\"3A52CAA0728D629A\" quest=\"476755275B948A5F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_as_coolant</translate></p>",
+      "<hr/>",
+      "<reward reward=\"450F59D9CB0FEF7A\" quest=\"476755275B948A5F\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -96,
+          176
+        ]
+      }
+    },
+    "subtitle": {
+      "text": "i18n.quest.bigreactors.subt.to_make_steam"
+    },
+    "title": "i18n.quest.bigreactors.building_actively_cooled_reactor"
+  },
+  "rewards": {
+    "450F59D9CB0FEF7A": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "122E3BB7DB314F68": {
+      "item": "bigreactors:reinforced_reactorcasing",
+      "type": "heracles:item"
+    },
+    "3A52CAA0728D629A": {
+      "item": "bigreactors:reinforced_reactorfluidport_forge_active",
+      "type": "heracles:item"
+    }
+  }
+}

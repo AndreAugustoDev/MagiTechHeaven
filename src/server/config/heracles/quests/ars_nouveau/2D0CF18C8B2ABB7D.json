@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "227DBA8836021B0B"
+  ],
+  "tasks": {
+    "7CEAACDBB77206CC": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:agronomic_sourcelink"
+    }
+  },
+  "rewards": {
+    "5FFE6FE428A53B3F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:agronomic_sourcelink",
+    "description": [
+      "<h2>Creates Source using the growth of Plants</h2>",
+      "<hr/>",
+      "<task task=\"7CEAACDBB77206CC\" quest=\"2D0CF18C8B2ABB7D\"/>",
+      "<hr/>",
+      "Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source!",
+      "<br/>",
+      "Note: Bonemealing does not produce Source.",
+      "<hr/>",
+      "<reward reward=\"5FFE6FE428A53B3F\" quest=\"2D0CF18C8B2ABB7D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:agronomic_sourcelink"
+    },
+    "subtitle": {
+      "text": "Creates Source using the growth of Plants"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          48,
+          80
+        ]
+      }
+    }
+  }
+}

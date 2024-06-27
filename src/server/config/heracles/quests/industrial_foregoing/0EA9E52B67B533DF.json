@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FF04DD735346BED"
+  ],
+  "tasks": {
+    "578EB2E46656AC16": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:dryrubber"
+    }
+  },
+  "rewards": {
+    "2152C5EA52C0D06F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:dryrubber",
+    "description": [
+      "<task task=\"578EB2E46656AC16\" quest=\"0EA9E52B67B533DF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2152C5EA52C0D06F\" quest=\"0EA9E52B67B533DF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:dryrubber"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          192,
+          0
+        ]
+      }
+    }
+  }
+}

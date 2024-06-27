@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "31FD9EA513E0D010"
+  ],
+  "tasks": {
+    "20878EDDDF0C77DA": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_pearl_of_teleportation",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 1000
+      }
+    }
+  },
+  "rewards": {
+    "396530A6F7A571DA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:blood_pearl_of_teleportation",
+    "description": [
+      "<h2>A Reusable Ender Pearl</h2>",
+      "<hr/>",
+      "<task task=\"20878EDDDF0C77DA\" quest=\"1F8BC2A4CF055038\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"396530A6F7A571DA\" quest=\"1F8BC2A4CF055038\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_pearl_of_teleportation"
+    },
+    "subtitle": {
+      "text": "A Reusable Ender Pearl"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          384,
+          112
+        ]
+      }
+    }
+  }
+}

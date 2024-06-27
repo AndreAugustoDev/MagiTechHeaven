@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "7860FD3D3273351F"
+  ],
+  "tasks": {
+    "146DFBC42B522A36": {
+      "type": "heracles:item",
+      "item": "silentgear:rod_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3144F2282E53F770": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.toolrod"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.toolrod</translate></h2>",
+      "<hr/>",
+      "<task task=\"146DFBC42B522A36\" quest=\"657B3116A6419420\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3144F2282E53F770\" quest=\"657B3116A6419420\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -16,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:rod_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.toolrod"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

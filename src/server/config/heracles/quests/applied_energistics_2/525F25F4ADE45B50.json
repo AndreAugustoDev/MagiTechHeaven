@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "083D458032F0325C"
+  ],
+  "tasks": {
+    "0BEBC087F970093E": {
+      "type": "heracles:item",
+      "item": "ae2:formation_plane",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4DA3D1592D0E57DA": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.formation_plane"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.formation_plane</translate></h2>",
+      "<hr/>",
+      "<task task=\"0BEBC087F970093E\" quest=\"525F25F4ADE45B50\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.formation_plane</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4DA3D1592D0E57DA\" quest=\"525F25F4ADE45B50\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          800,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:formation_plane",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.formation_plane"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1CC4F8570A7A99EB"
+  ],
+  "tasks": {
+    "63E738B944DC0915": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prosperity_shard"
+    }
+  },
+  "rewards": {
+    "6C00F85D73FBE858": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Prosperity Shards",
+    "description": [
+      "<task task=\"63E738B944DC0915\" quest=\"54D6F7F8FE859729\"/>",
+      "<hr/>",
+      "&&bProsperity Shards&&r are used as one of the main crafting mats for several of the recipes in Mystical Agriculture, like seeds, ingots, and more.",
+      "<br/>",
+      "You'll find these from mining!",
+      "<hr/>",
+      "<reward reward=\"6C00F85D73FBE858\" quest=\"54D6F7F8FE859729\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -624,
+          48
+        ]
+      }
+    }
+  }
+}

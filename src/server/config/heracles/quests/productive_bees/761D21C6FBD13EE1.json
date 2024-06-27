@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "3DE2AD0FFF364185": {
+      "title": "Peridot Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:peridot"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "75FB934FE110A59C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Peridot Bee",
+    "description": [
+      "<h2>Feed a Diamond Bee Peridot!</h2>",
+      "<hr/>",
+      "<task task=\"3DE2AD0FFF364185\" quest=\"761D21C6FBD13EE1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"75FB934FE110A59C\" quest=\"761D21C6FBD13EE1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:peridot"
+    },
+    "subtitle": {
+      "text": "Feed a Diamond Bee Peridot!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          400
+        ]
+      }
+    }
+  }
+}

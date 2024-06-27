@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "542C6D76B579886C"
+  ],
+  "tasks": {
+    "5D09025968ED4E34": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:spell_parchment"
+    }
+  },
+  "rewards": {
+    "19F2CD6C0B18C66F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:spell_parchment",
+        "count": 1
+      }
+    },
+    "31B61E81E7B4F0A6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:spell_parchment",
+    "description": [
+      "<task task=\"5D09025968ED4E34\" quest=\"0E2AD156E5EF263A\"/>",
+      "<hr/>",
+      "Used to inscribe spells on with the Scribe's Table.",
+      "<hr/>",
+      "<reward reward=\"19F2CD6C0B18C66F\" quest=\"0E2AD156E5EF263A\"/>",
+      "<reward reward=\"31B61E81E7B4F0A6\" quest=\"0E2AD156E5EF263A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:spell_parchment"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          416,
+          32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "4B4A171486A31360": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:enchanters_mirror"
+    }
+  },
+  "rewards": {
+    "70B40C2275C05E53": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:enchanters_mirror",
+    "description": [
+      "<task task=\"4B4A171486A31360\" quest=\"632BC46928CC9A8C\"/>",
+      "<hr/>",
+      "The &&9Enchanter's Mirror&&r will apply a self spell when used.",
+      "<br/>",
+      "Spells cast with this mirror are discounted and gain additional bonus duration.",
+      "<br/>",
+      "To apply a spell, use a Scribe's table. Create a spell without using a form.",
+      "<hr/>",
+      "<reward reward=\"70B40C2275C05E53\" quest=\"632BC46928CC9A8C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:enchanters_mirror"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          336,
+          112
+        ]
+      }
+    }
+  }
+}

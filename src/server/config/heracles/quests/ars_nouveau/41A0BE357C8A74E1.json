@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "04D9F6587EF8D9B7"
+  ],
+  "tasks": {
+    "2D08E66F6D607676": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:alchemical_sourcelink"
+    }
+  },
+  "rewards": {
+    "5D9B8AC5306D8C48": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:alchemical_sourcelink",
+    "description": [
+      "<h2>Power through Potions</h2>",
+      "<hr/>",
+      "<task task=\"2D08E66F6D607676\" quest=\"41A0BE357C8A74E1\"/>",
+      "<hr/>",
+      "The &&9Alchemical Sourcelink&&r produces Source from adjacent potion jars.",
+      "<br/>",
+      "The amount of source varies per potion and complexity.",
+      "<hr/>",
+      "<reward reward=\"5D9B8AC5306D8C48\" quest=\"41A0BE357C8A74E1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:alchemical_sourcelink"
+    },
+    "subtitle": {
+      "text": "Power through Potions"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {},
+  "rewards": {
+    "4AE6F7370612B872": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"07853F746BBA3A90\" quest=\"1149F92182DC2A54\"/>",
+      "<task task=\"703C12DAC547F77A\" quest=\"1149F92182DC2A54\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.ancient_pyramid</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4AE6F7370612B872\" quest=\"1149F92182DC2A54\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.ancient_pyramid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

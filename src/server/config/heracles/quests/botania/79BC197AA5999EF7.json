@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "53DFF5E0788632CF": {
+      "type": "heracles:item",
+      "item": "botania:hyacidus"
+    }
+  },
+  "rewards": {
+    "4A2357FA548F8D36": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:hyacidus",
+    "description": [
+      "<task task=\"53DFF5E0788632CF\" quest=\"79BC197AA5999EF7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4A2357FA548F8D36\" quest=\"79BC197AA5999EF7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:hyacidus"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          80
+        ]
+      }
+    }
+  }
+}

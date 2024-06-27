@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6CC5FE34778F0DFA"
+  ],
+  "tasks": {
+    "792FA8ED0719803C": {
+      "type": "heracles:item",
+      "item": "occultism:stable_wormhole"
+    },
+    "2ED65EBA5FFE2C2E": {
+      "type": "heracles:item",
+      "item": "occultism:storage_remote"
+    }
+  },
+  "rewards": {
+    "3CC49302B482FAE5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aRemote Access§r",
+    "description": [
+      "<task task=\"792FA8ED0719803C\" quest=\"5831B3192C0E8C56\"/>",
+      "<task task=\"2ED65EBA5FFE2C2E\" quest=\"5831B3192C0E8C56\"/>",
+      "<hr/>",
+      "Want to access your storage remotely? This can be done with either the &&eStable Wormhole&&r or the &&aStorage Accessor&&r.",
+      "<br/>",
+      "To use the &&eStable Wormhole&&r, shift-click a &&dStorage Actuator&&r to link it. You can then place the Wormhole to act as another storage location.",
+      "<br/>",
+      "The &&aStorage Accessor&&r is linked in the same way, but acts as a wireless remote that can even work across dimensions!",
+      "<hr/>",
+      "<reward reward=\"3CC49302B482FAE5\" quest=\"5831B3192C0E8C56\"/>"
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          528,
+          224
+        ]
+      }
+    }
+  }
+}

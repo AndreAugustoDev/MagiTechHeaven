@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C6719D81DE5A614"
+  ],
+  "tasks": {
+    "6558C3AA159F57D6": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:soul_extractor"
+    },
+    "16226358D9107349": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:soul"
+    }
+  },
+  "rewards": {
+    "6E91C2363706DBDC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "forbidden_arcanus:soul",
+        "count": 2
+      }
+    },
+    "2EBC61C8851B2229": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§dSouls",
+    "description": [
+      "<task task=\"6558C3AA159F57D6\" quest=\"788A3685A7D07E75\"/>",
+      "<task task=\"16226358D9107349\" quest=\"788A3685A7D07E75\"/>",
+      "<hr/>",
+      "Souls are gathered by creating a &&9Soul Extractor&&r, and then using it on Soul Sand.",
+      "<hr/>",
+      "<reward reward=\"6E91C2363706DBDC\" quest=\"788A3685A7D07E75\"/>",
+      "<reward reward=\"2EBC61C8851B2229\" quest=\"788A3685A7D07E75\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:soul"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          128,
+          112
+        ]
+      }
+    }
+  }
+}

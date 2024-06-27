@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "7E92ED270C67FDE5"
+  ],
+  "tasks": {},
+  "rewards": {
+    "5C3D57C7B5555A75": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"37FB7E3C8FD03825\" quest=\"3DDF87A1E5F5D009\"/>",
+      "<task task=\"36E378BF22554E0A\" quest=\"3DDF87A1E5F5D009\"/>",
+      "<task task=\"17F07D6404668DE6\" quest=\"3DDF87A1E5F5D009\"/>",
+      "<hr/>",
+      "In §aChapter 1§r: §bThe Beginning§r, you can get by with creating the &&7Starter&&r and &&bBasic&&r tier machines using Iron, but you'll eventually need to create energized mats using the &&9Energizing Orb&&r.",
+      "<br/>",
+      "The &&9Energizing Orb&&r will energize items using nearby &&aEnergizing Rods&&r within a 9x9 area around it, creating better materials for you to use to progress through the &&eTiers&&r in Powah.",
+      "<br/>",
+      "To power the orb, you'll need to attach Energizing Rods to energy cables that are being supplied with energy. If you want the Orb to energize faster, either make more rods, upgrade to higher tier rods, or both! To see if the Rods are connected, set your &&aWrench&&r to link mode and you can link any Rod to the Orb.",
+      "<br/>",
+      "{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5C3D57C7B5555A75\" quest=\"3DDF87A1E5F5D009\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energizing_orb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The §9Energizing Orb§r"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

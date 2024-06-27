@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24174700F7FB771C"
+  ],
+  "tasks": {
+    "14BF9ADCB8F43ADC": {
+      "type": "heracles:item",
+      "item": "mekanism:hazmat_mask"
+    },
+    "0B06DCC5BA15895E": {
+      "type": "heracles:item",
+      "item": "mekanism:hazmat_gown"
+    },
+    "1F43C3AE8239B716": {
+      "type": "heracles:item",
+      "item": "mekanism:hazmat_pants"
+    },
+    "68B050A8CDCDCD10": {
+      "type": "heracles:item",
+      "item": "mekanism:hazmat_boots"
+    }
+  },
+  "rewards": {
+    "6D8B557D90A02403": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Suiting Up for Reactors",
+    "description": [
+      "<h2>Orange = Radiation Protection</h2>",
+      "<hr/>",
+      "<task task=\"14BF9ADCB8F43ADC\" quest=\"36B1995B495AA674\"/>",
+      "<task task=\"0B06DCC5BA15895E\" quest=\"36B1995B495AA674\"/>",
+      "<task task=\"1F43C3AE8239B716\" quest=\"36B1995B495AA674\"/>",
+      "<task task=\"68B050A8CDCDCD10\" quest=\"36B1995B495AA674\"/>",
+      "<hr/>",
+      "To start our journey into the world of Mekanism Reactors, we'll start by making a &&aFission Reactor&&r. These are multiblock structures that generate massive amounts of heat by burning &&3Fissile Fuel&&r. This reactor does not produce power on its own, but the heat generated can be used to heat &&bCoolant&&r to be used to generate power in an &&aIndustrial Turbine&&r.",
+      "<br/>",
+      "The Fission Reactor can be very dangerous, as a meltdown can cause an &&cexplosion&&r as well as &&2Radiation&&r spreading over a 5 chunk radius, which lasts for several in-game weeks. ",
+      "<br/>",
+      "But we're going to be prepared for that. Let's make a Hazmat Suit, just in case... right?",
+      "<hr/>",
+      "<reward reward=\"6D8B557D90A02403\" quest=\"36B1995B495AA674\"/>"
+    ],
+    "subtitle": {
+      "text": "Orange = Radiation Protection"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

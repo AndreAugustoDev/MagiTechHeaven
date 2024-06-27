@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "4E9229FBA875C0BE"
+  ],
+  "tasks": {
+    "1FBEC3A36CAAA8EA": {
+      "title": "Find an &dApotheosis&r Enchanted Item",
+      "advancements": [
+        "apotheosis:affix/root"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "35C3A016DF3C9389": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    },
+    "27BF0B80ADD17159": {
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "apotheosis:apoth_chronicle"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.chapter1.subt.apotheosis"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.chapter1.subt.apotheosis</translate></h2>",
+      "<hr/>",
+      "<task task=\"1FBEC3A36CAAA8EA\" quest=\"780DE5A24ED53F60\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.apotheosis",
+      "<br/>",
+      "<br/>",
+      "{image:atm:textures/questpics/gettingstarted/apoth_exampleitem.png width:170 height:86 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"27BF0B80ADD17159\" quest=\"780DE5A24ED53F60\"/>",
+      "<reward reward=\"35C3A016DF3C9389\" quest=\"780DE5A24ED53F60\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          0,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.apotheosis"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

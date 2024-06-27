@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "79AEDC66EB312BCA": {
+      "title": "Brass Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:brass"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "024DA8780F619DC0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Brass Bees",
+    "description": [
+      "<h2>Copper + Zinc</h2>",
+      "<hr/>",
+      "<task task=\"79AEDC66EB312BCA\" quest=\"5DF26D712B643655\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"024DA8780F619DC0\" quest=\"5DF26D712B643655\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:brass_ingot"
+    },
+    "subtitle": {
+      "text": "Copper + Zinc"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          464
+        ]
+      }
+    }
+  }
+}

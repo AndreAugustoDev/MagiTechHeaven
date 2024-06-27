@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "18A2FBE2D4133FA2"
+  ],
+  "tasks": {
+    "2C36C64341C6B6F2": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:enchanting_apparatus"
+    },
+    "695EFDD9FC874F04": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:arcane_core"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Enchanting Apparatus",
+    "description": [
+      "<task task=\"2C36C64341C6B6F2\" quest=\"3D862A3D3F83CA26\"/>",
+      "<task task=\"695EFDD9FC874F04\" quest=\"3D862A3D3F83CA26\"/>",
+      "<hr/>",
+      "The &&9Enchanting Apparatus&&r is used to craft various items within the mod. It requires Source to work.",
+      "<br/>",
+      "It is also a multiblock structure that utilizes Arcane Pedestals to craft.",
+      "<br/>",
+      "Start by placing an Arcane Core in the ground, then place the Enchanting Apparatus on top of it. Surround the Apparatus with Arcane Pedestals.",
+      "<br/>",
+      "{image:atm:textures/questpics/ars/enchanting_app.png width:200 height:175 align:1}"
+    ],
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          336,
+          0
+        ]
+      }
+    }
+  }
+}

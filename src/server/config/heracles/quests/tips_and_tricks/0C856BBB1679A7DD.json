@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "7658C1C663394E85"
+  ],
+  "tasks": {
+    "3DC008A578A93CCF": {
+      "title": "Tips and Tricks!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5FA6EA3609ABF6BE": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.tricks"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.tricks</translate></h2>",
+      "<hr/>",
+      "<task task=\"3DC008A578A93CCF\" quest=\"0C856BBB1679A7DD\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.tricks</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5FA6EA3609ABF6BE\" quest=\"0C856BBB1679A7DD\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          32,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.tricks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

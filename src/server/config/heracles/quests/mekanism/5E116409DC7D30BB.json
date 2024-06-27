@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FC7E9DBF92BE6AA"
+  ],
+  "tasks": {
+    "2612CACBDDF9AD1A": {
+      "type": "heracles:item",
+      "item": "mekanism:configurator"
+    }
+  },
+  "rewards": {
+    "7B99F69BA1AB0098": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:configurator",
+    "description": [
+      "<h2>Mekanism's Wrench</h2>",
+      "<hr/>",
+      "<task task=\"2612CACBDDF9AD1A\" quest=\"5E116409DC7D30BB\"/>",
+      "<hr/>",
+      "This item is used to configure many of the items in Mekanism, from changing pipes to \"Pull or Push\" or rotating machines.",
+      "<hr/>",
+      "<reward reward=\"7B99F69BA1AB0098\" quest=\"5E116409DC7D30BB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:configurator"
+    },
+    "subtitle": {
+      "text": "Mekanism's Wrench"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -288,
+          160
+        ]
+      }
+    }
+  }
+}

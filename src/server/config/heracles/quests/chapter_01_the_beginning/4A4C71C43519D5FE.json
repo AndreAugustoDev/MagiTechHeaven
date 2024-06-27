@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0F3D51FFD2FE8DCB"
+  ],
+  "tasks": {
+    "14C0350713AC4214": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_sand",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "178C4C3288503A66": {
+      "type": "heracles:item",
+      "item": "minecraft:wither_skeleton_skull",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"178C4C3288503A66\" quest=\"4A4C71C43519D5FE\"/>",
+      "<task task=\"14C0350713AC4214\" quest=\"4A4C71C43519D5FE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.wither_skeleton}"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          512,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.wither_skeleton"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03798EF7AB47BB3D"
+  ],
+  "tasks": {
+    "064EE05D48DAFC60": {
+      "type": "heracles:item",
+      "item": "powah:battery_spirited"
+    }
+  },
+  "rewards": {
+    "1D3A0A467A2F1DB2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:battery_spirited",
+    "description": [
+      "<task task=\"064EE05D48DAFC60\" quest=\"63E57D2745D24761\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1D3A0A467A2F1DB2\" quest=\"63E57D2745D24761\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:battery_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -176,
+          528
+        ]
+      }
+    }
+  }
+}

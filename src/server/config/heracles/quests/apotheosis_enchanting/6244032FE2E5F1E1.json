@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "21EE522DDBF0BF72"
+  ],
+  "tasks": {},
+  "rewards": {
+    "361E51B63206BF0A": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1F41FD294030AE04\" quest=\"6244032FE2E5F1E1\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.draconic</translate></p>",
+      "<hr/>",
+      "<reward reward=\"361E51B63206BF0A\" quest=\"6244032FE2E5F1E1\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          288,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.draconic"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

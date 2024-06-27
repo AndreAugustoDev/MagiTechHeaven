@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "22ACFEB806D68385": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:solar_generator"
+    }
+  },
+  "rewards": {
+    "74FCF5135C24D033": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanismgenerators:solar_generator",
+    "description": [
+      "<h2>Produces about 17.6FE/t</h2>",
+      "<hr/>",
+      "<task task=\"22ACFEB806D68385\" quest=\"74200A48498DD7F8\"/>",
+      "<hr/>",
+      "Generates power from the sun!",
+      "<hr/>",
+      "<reward reward=\"74FCF5135C24D033\" quest=\"74200A48498DD7F8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:solar_generator"
+    },
+    "subtitle": {
+      "text": "Produces about 17.6FE/t"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -32,
+          32
+        ]
+      }
+    }
+  }
+}

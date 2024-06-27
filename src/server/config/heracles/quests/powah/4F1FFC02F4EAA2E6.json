@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DDF87A1E5F5D009"
+  ],
+  "tasks": {
+    "2BA798C77C6F3011": {
+      "type": "heracles:item",
+      "item": "powah:crystal_nitro"
+    }
+  },
+  "rewards": {
+    "2FF6315546889CC7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Tier: §4Nitro§r",
+    "description": [
+      "<task task=\"2BA798C77C6F3011\" quest=\"4F1FFC02F4EAA2E6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2FF6315546889CC7\" quest=\"4F1FFC02F4EAA2E6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:crystal_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          560
+        ]
+      }
+    }
+  }
+}

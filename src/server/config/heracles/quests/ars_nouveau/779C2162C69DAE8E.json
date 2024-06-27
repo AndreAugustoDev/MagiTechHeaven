@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "29E06B429B4AE176": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_wolves"
+    }
+  },
+  "rewards": {
+    "2903B75395F0A1A8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_summon_wolves",
+    "description": [
+      "<task task=\"29E06B429B4AE176\" quest=\"779C2162C69DAE8E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2903B75395F0A1A8\" quest=\"779C2162C69DAE8E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_summon_wolves"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -272
+        ]
+      }
+    }
+  }
+}

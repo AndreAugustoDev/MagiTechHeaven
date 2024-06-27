@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "25D4406CB86C8CBB"
+  ],
+  "tasks": {
+    "1088144C68D87424": {
+      "type": "heracles:item",
+      "item": "bigreactors:fluidizercasing",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "36D35DE85B71D5EC": {
+      "type": "heracles:item",
+      "item": "bigreactors:fluidizerglass",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "739312C574871639": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1088144C68D87424\" quest=\"501C6B7580453410\"/>",
+      "<task task=\"36D35DE85B71D5EC\" quest=\"501C6B7580453410\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.fluidizer_construction</translate></p>",
+      "<hr/>",
+      "<reward reward=\"739312C574871639\" quest=\"501C6B7580453410\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -160,
+          368
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.fluidizer_construction"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

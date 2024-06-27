@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "07D875C6BBFF3264"
+  ],
+  "tasks": {
+    "1F3314E76D27E430": {
+      "title": "Basic Game Changes",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1F3314E76D27E430\" quest=\"7C3968AF39557751\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.changes</translate></p>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          -32,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.changes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "64D0E66CB4FBEC82"
+  ],
+  "tasks": {
+    "01FD75641E5EA5E4": {
+      "title": "Mana",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "31255CD8D6C186BF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "ars_nouveau:mana_regen_potion_long"
+        }
+      }
+    },
+    "663859C4D0F226EF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Mana",
+    "description": [
+      "<h2>Mage Power</h2>",
+      "<hr/>",
+      "<task task=\"01FD75641E5EA5E4\" quest=\"6B511C8B572E8940\"/>",
+      "<hr/>",
+      "In the bottom left of your screen, you'll see a bar. This bar is your mana pool!",
+      "<br/>",
+      "There are several ways to increase your mana pool, or increase the efficiency of your spells as you progress through the mod. Upgrading your spellbook can also increase your mana!",
+      "<hr/>",
+      "<reward reward=\"31255CD8D6C186BF\" quest=\"6B511C8B572E8940\"/>",
+      "<reward reward=\"663859C4D0F226EF\" quest=\"6B511C8B572E8940\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:potion"
+    },
+    "subtitle": {
+      "text": "Mage Power"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -112,
+          -48
+        ]
+      }
+    }
+  }
+}

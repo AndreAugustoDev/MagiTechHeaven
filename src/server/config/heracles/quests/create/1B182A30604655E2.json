@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2D41B04C75FA02BC"
+  ],
+  "tasks": {
+    "50FED4EED98A8648": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:blaze_burner",
+    "description": [
+      "<task task=\"50FED4EED98A8648\" quest=\"1B182A30604655E2\"/>",
+      "<hr/>",
+      "To get the &&n&&5Blaze Burner&&r, you need to make an Empty Blaze Burner and R-Click it on a Blaze.",
+      "<br/>",
+      "This is used under a Basin to heat it or super-heat it for different recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          48
+        ]
+      }
+    }
+  }
+}

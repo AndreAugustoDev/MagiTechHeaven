@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "247349D4951C789F": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_essence"
+    }
+  },
+  "rewards": {
+    "51F17AE5A158CE62": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§4Supremium Essence",
+    "description": [
+      "<h2>&&bTier 5</h2>",
+      "<hr/>",
+      "<task task=\"247349D4951C789F\" quest=\"67DBE6C59C0D9D1B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"51F17AE5A158CE62\" quest=\"67DBE6C59C0D9D1B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    "subtitle": {
+      "text": "§bTier 5"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          16,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "21810A64B844C70E": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "botania:gaia_pylon"
+    },
+    "157BF2FA7A40BE0D": {
+      "type": "heracles:item",
+      "item": "minecraft:beacon"
+    }
+  },
+  "rewards": {
+    "2E6A747011B11C90": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§aSummoning the§r §5Guardian of Gaia§r",
+    "description": [
+      "<task task=\"21810A64B844C70E\" quest=\"04CE14D92603FC7A\"/>",
+      "<task task=\"157BF2FA7A40BE0D\" quest=\"04CE14D92603FC7A\"/>",
+      "<hr/>",
+      "To continue your journey, you will need to get your hands on &&6Gaia Spirits&&r. To do this, you will need to perform the &&9Ritual of Gaia&&r.",
+      "<br/>",
+      "You will need 4 Gaia Pylons around an &&aActive Beacon&&r, as well as a single Terrasteel ingot. Once the structure is built, sneak-right click the Beacon with the Terrasteel ingot and prepare for the fight of your life.",
+      "<br/>",
+      "If you need help with building the structure, you can always use the &&aLexica Botania&&r to help you build it. Look for the &&9Ritual of Gaia&&r.",
+      "<br/>",
+      "{image:atm:textures/questpics/botania/gaia_ritual.png width:300 height:100 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2E6A747011B11C90\" quest=\"04CE14D92603FC7A\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          720,
+          80
+        ]
+      }
+    }
+  }
+}

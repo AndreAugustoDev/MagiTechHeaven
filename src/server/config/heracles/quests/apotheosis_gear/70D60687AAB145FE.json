@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "1A507E77BF750F60"
+  ],
+  "tasks": {},
+  "rewards": {
+    "26ABC6C223985753": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.affixes.subt.common"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.affixes.subt.common</translate></h2>",
+      "<hr/>",
+      "<task task=\"650CAE5254152FB9\" quest=\"70D60687AAB145FE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"26ABC6C223985753\" quest=\"70D60687AAB145FE\"/>"
+    ],
+    "groups": {
+      "Apotheosis Gear": {
+        "position": [
+          -48,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§7Mysterious Scrap Materials§n"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

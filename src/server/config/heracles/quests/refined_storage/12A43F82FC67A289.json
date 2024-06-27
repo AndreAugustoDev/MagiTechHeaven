@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "01F18150EC923482"
+  ],
+  "tasks": {
+    "3724447C3E0F9942": {
+      "type": "heracles:item",
+      "item": "refinedstorage:disk_drive",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.disk_manipulator"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.disk_manipulator</translate></h2>",
+      "<hr/>",
+      "<task task=\"3724447C3E0F9942\" quest=\"12A43F82FC67A289\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.virtual_storage}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -48,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:disk_drive",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.virtual_storage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

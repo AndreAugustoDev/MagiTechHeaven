@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "375FF0D8ACD2E17F"
+  ],
+  "tasks": {
+    "1589663D302CE21E": {
+      "type": "heracles:item",
+      "item": "bloodmagic:alchemicalreactionchamber"
+    }
+  },
+  "rewards": {
+    "7798ABBC4BAB13CC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:alchemicalreactionchamber",
+    "description": [
+      "<task task=\"1589663D302CE21E\" quest=\"308581359FEF32E9\"/>",
+      "<hr/>",
+      "While not fully implemented yet, the &&6Alchemical Reaction Chamber&&r functions like a Furnace.",
+      "<br/>",
+      "This is currently the only way to obtain &&cWeak Blood Shards&&r, which we'll need to upgrade our Altar.",
+      "<hr/>",
+      "<reward reward=\"7798ABBC4BAB13CC\" quest=\"308581359FEF32E9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:alchemicalreactionchamber"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -512,
+          16
+        ]
+      }
+    }
+  }
+}

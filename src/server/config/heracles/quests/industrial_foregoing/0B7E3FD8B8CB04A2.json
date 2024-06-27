@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3514E9C1A8C7400C"
+  ],
+  "tasks": {
+    "2A17E5658713BB56": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:simple_black_hole_unit"
+    },
+    "7B9445CBF7FBAF14": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:simple_black_hole_tank"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Simple Black Hole Storage",
+    "description": [
+      "<task task=\"2A17E5658713BB56\" quest=\"0B7E3FD8B8CB04A2\"/>",
+      "<task task=\"7B9445CBF7FBAF14\" quest=\"0B7E3FD8B8CB04A2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          176,
+          128
+        ]
+      }
+    }
+  }
+}

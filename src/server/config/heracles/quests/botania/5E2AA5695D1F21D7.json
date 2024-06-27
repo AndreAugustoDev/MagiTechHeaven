@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7A359C1F5E041C4F"
+  ],
+  "tasks": {
+    "490EAAA3703A576F": {
+      "title": "Black Lotus",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "botania:black_lotus"
+          },
+          {
+            "Count": 1,
+            "id": "botania:blacker_lotus"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Elusive Mana-infused Lotus",
+    "description": [
+      "<task task=\"490EAAA3703A576F\" quest=\"5E2AA5695D1F21D7\"/>",
+      "<hr/>",
+      "Found only in treasure chests, the &&0Black Lotus&&r can be thrown into a non-empty Mana Pool to give it a good deal of concentrated Mana."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          320,
+          80
+        ]
+      }
+    }
+  }
+}

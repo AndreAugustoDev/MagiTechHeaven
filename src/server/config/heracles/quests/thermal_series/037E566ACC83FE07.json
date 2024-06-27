@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "64186CC4330A70D8": {
+      "type": "heracles:item",
+      "item": "thermal:energy_cell",
+      "nbt": {
+        "BlockEntityTag": {
+          "Energy": 0,
+          "EnergyMax": 1000000,
+          "EnergyRecv": 1000,
+          "EnergySend": 1000
+        }
+      }
+    }
+  },
+  "rewards": {
+    "54DBA686738A0538": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Storing Power",
+    "description": [
+      "<task task=\"64186CC4330A70D8\" quest=\"037E566ACC83FE07\"/>",
+      "<hr/>",
+      "Pro Tip: You can enchant these with &&9Capacity&&r to increase the storage!",
+      "<hr/>",
+      "<reward reward=\"54DBA686738A0538\" quest=\"037E566ACC83FE07\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:energy_cell"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -40,
+          62
+        ]
+      }
+    }
+  }
+}

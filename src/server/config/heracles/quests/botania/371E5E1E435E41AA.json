@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "32655EB912B77D13": {
+      "type": "heracles:item",
+      "item": "botania:fertilizer"
+    }
+  },
+  "rewards": {
+    "3070CD8684E71599": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:fertilizer",
+    "description": [
+      "<task task=\"32655EB912B77D13\" quest=\"371E5E1E435E41AA\"/>",
+      "<hr/>",
+      "You can make yourself some &&aFloral Fertilizer&&r which works like bone meal but for Botania Flowers!",
+      "<hr/>",
+      "<reward reward=\"3070CD8684E71599\" quest=\"371E5E1E435E41AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:fertilizer"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          160,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1A79FDE89728BFC7": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5C9D993FFFC365FB\" quest=\"7D8ECACF214324D6\"/>",
+      "<task task=\"6C405D0E0582C1CD\" quest=\"7D8ECACF214324D6\"/>",
+      "<task task=\"0E68CCFE6F5C9ADB\" quest=\"7D8ECACF214324D6\"/>",
+      "<task task=\"76FA4645607619E7\" quest=\"7D8ECACF214324D6\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.void_forge1",
+      "<br/>",
+      "{@pagebreak",
+      "i18n.quest.chapter2.desc.void_forge2",
+      "<br/>",
+      "{@pagebreak",
+      "i18n.quest.chapter2.desc.void_forge3</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1A79FDE89728BFC7\" quest=\"7D8ECACF214324D6\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          80,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.void_forge"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

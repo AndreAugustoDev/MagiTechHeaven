@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "727AAC7516CF8B5B": {
+      "type": "heracles:item",
+      "item": "productivebees:obsidian_nest"
+    }
+  },
+  "rewards": {
+    "69CAC89B71A6CB41": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:obsidian_nest",
+    "description": [
+      "<h2>Lures a Draconic Bee in the End</h2>",
+      "<hr/>",
+      "<task task=\"727AAC7516CF8B5B\" quest=\"3155E4212045BC8E\"/>",
+      "<hr/>",
+      "The Obsidian Nest will lure in Draconic Bees when placed in the End.",
+      "<br/>",
+      "These do not accept Honey Treats, but instead use Dragon's Breath.",
+      "<hr/>",
+      "<reward reward=\"69CAC89B71A6CB41\" quest=\"3155E4212045BC8E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:obsidian_nest"
+    },
+    "subtitle": {
+      "text": "Lures a Draconic Bee in the End"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -256,
+          112
+        ]
+      }
+    }
+  }
+}

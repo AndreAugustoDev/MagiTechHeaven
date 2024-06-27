@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40A7CC56DACC2623"
+  ],
+  "tasks": {
+    "338A6DA0D711B7DC": {
+      "title": "ME Pattern Provider",
+      "type": "heracles:item",
+      "item": "#ae2:pattern_provider"
+    },
+    "299121F0AFF40604": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_access_terminal"
+    }
+  },
+  "rewards": {
+    "12405240582D9D1A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.autocrafting",
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.autocrafting</translate></h2>",
+      "<hr/>",
+      "<task task=\"338A6DA0D711B7DC\" quest=\"51DE3157DE3E57B8\"/>",
+      "<task task=\"299121F0AFF40604\" quest=\"51DE3157DE3E57B8\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.autocrafting</translate></p>",
+      "<hr/>",
+      "<reward reward=\"12405240582D9D1A\" quest=\"51DE3157DE3E57B8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_provider"
+    },
+    "subtitle": {
+      "text": "i18n.quest.ae2.subt.autocrafting"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          416,
+          -80
+        ]
+      }
+    }
+  }
+}

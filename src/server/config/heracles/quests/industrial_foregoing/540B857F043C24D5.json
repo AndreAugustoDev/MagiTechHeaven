@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "6DBD9D66E78E0D58": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:bioreactor"
+    },
+    "28A15B47904E918A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:biofuel_generator"
+    }
+  },
+  "rewards": {
+    "0F06B8DC62695CBF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Bio Power",
+    "description": [
+      "<task task=\"6DBD9D66E78E0D58\" quest=\"540B857F043C24D5\"/>",
+      "<task task=\"28A15B47904E918A\" quest=\"540B857F043C24D5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F06B8DC62695CBF\" quest=\"540B857F043C24D5\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          176,
+          -48
+        ]
+      }
+    }
+  }
+}

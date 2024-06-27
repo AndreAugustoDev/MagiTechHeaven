@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "5E904CD770B69066": {
+      "type": "heracles:item",
+      "item": "botania:kekimurus"
+    }
+  },
+  "rewards": {
+    "391C5072F3EFA4FA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:kekimurus",
+    "description": [
+      "<task task=\"5E904CD770B69066\" quest=\"1CCB55703C1C3511\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"391C5072F3EFA4FA\" quest=\"1CCB55703C1C3511\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:kekimurus"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -32,
+          208
+        ]
+      }
+    }
+  }
+}

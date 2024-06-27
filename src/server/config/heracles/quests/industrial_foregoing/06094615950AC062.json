@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "616CFD4078D67B51"
+  ],
+  "tasks": {
+    "1F78346AC1AA58B4": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor_detection_upgrade"
+    },
+    "3DB99B677678BCDD": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor_bouncing_upgrade"
+    },
+    "1A64390CFB75F256": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor_dropping_upgrade"
+    },
+    "387D0194F77E1870": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor_blinking_upgrade"
+    },
+    "4C5292076C0A9E83": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:conveyor_splitting_upgrade"
+    }
+  },
+  "rewards": {
+    "66A3E488F1A371C4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "industrialforegoing:conveyor",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Other Conveyor Upgrades",
+    "description": [
+      "<task task=\"1F78346AC1AA58B4\" quest=\"06094615950AC062\"/>",
+      "<task task=\"3DB99B677678BCDD\" quest=\"06094615950AC062\"/>",
+      "<task task=\"1A64390CFB75F256\" quest=\"06094615950AC062\"/>",
+      "<task task=\"387D0194F77E1870\" quest=\"06094615950AC062\"/>",
+      "<task task=\"4C5292076C0A9E83\" quest=\"06094615950AC062\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"66A3E488F1A371C4\" quest=\"06094615950AC062\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          282,
+          74
+        ]
+      }
+    }
+  }
+}

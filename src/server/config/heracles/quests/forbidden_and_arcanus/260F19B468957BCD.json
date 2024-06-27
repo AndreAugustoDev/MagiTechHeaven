@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "60E79699A9E7FD13": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:nipa"
+    }
+  },
+  "rewards": {
+    "6FE911D60125F00B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "534F55AB312AA20D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "forbidden_arcanus:nipa"
+      }
+    }
+  },
+  "display": {
+    "title": "Nipa Plants",
+    "description": [
+      "<task task=\"60E79699A9E7FD13\" quest=\"260F19B468957BCD\"/>",
+      "<hr/>",
+      "Have you seen the random floating island in the sky?",
+      "<br/>",
+      "These have the Nipa plant on them. You can break these and replant them!",
+      "<br/>",
+      "They produce Arcane Crystal Dust Specks over time, which can be used to create Arcane Crystal Dust.",
+      "<hr/>",
+      "<reward reward=\"6FE911D60125F00B\" quest=\"260F19B468957BCD\"/>",
+      "<reward reward=\"534F55AB312AA20D\" quest=\"260F19B468957BCD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:nipa"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -224,
+          176
+        ]
+      }
+    }
+  }
+}

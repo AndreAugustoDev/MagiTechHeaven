@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DA6B8B2DCC97809"
+  ],
+  "tasks": {
+    "688E14A6938EBEF7": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:brass_tunnel",
+    "description": [
+      "<task task=\"688E14A6938EBEF7\" quest=\"78656C89EEE80DB5\"/>",
+      "<hr/>",
+      "The &&n&&5Tunnels&&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          336,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4978A9B616362CCE",
+    "066438B01655D866"
+  ],
+  "tasks": {
+    "69D96EE6DC2179D1": {
+      "type": "heracles:item",
+      "amount": 33,
+      "item": "evilcraft:dark_blood_brick"
+    },
+    "3CAAC4AF810BF534": {
+      "type": "heracles:item",
+      "item": "evilcraft:spirit_furnace"
+    }
+  },
+  "rewards": {
+    "6689C397E5960B91": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§aMob Farms using§r §cBlood§r!",
+    "description": [
+      "<task task=\"69D96EE6DC2179D1\" quest=\"1DA0A87C471A38AC\"/>",
+      "<task task=\"3CAAC4AF810BF534\" quest=\"1DA0A87C471A38AC\"/>",
+      "<hr/>",
+      "&&cEvilCraft&&r has its own Mob Farm!",
+      "<br/>",
+      "To start this, you'll need to craft at least 33 &&cDark Blood Bricks&&r. With these, we'll build a structure that is strong enough to contain the summoned spirits.",
+      "<br/>",
+      "You'll also need a spirit trapped in a &&9Box of Eternal Closure&&r. This will determine the drops you'll get.",
+      "<br/>",
+      "To build this, you need to build a cuboid structure with enough room for the mob to spawn. The minimum size is 3x4x3, which has enough room to spawn mobs like zombies. Make sure to place a &&9Spirit Furnace&&r on one of the faces so you can interact with the structure.",
+      "<br/>",
+      "If you want to spawn bigger mobs, you'll need to make a bigger structure.",
+      "<br/>",
+      "{image:atm:textures/questpics/evilcraft/evilcraft_spiritfurnace.png width:125 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6689C397E5960B91\" quest=\"1DA0A87C471A38AC\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          256,
+          48
+        ]
+      }
+    }
+  }
+}

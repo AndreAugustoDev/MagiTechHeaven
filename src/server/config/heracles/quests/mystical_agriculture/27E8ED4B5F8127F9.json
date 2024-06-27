@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "23CCD297E830C925": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:enderman_seeds"
+    }
+  },
+  "rewards": {
+    "5A5BA15966512907": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:enderman_seeds",
+    "description": [
+      "<task task=\"23CCD297E830C925\" quest=\"27E8ED4B5F8127F9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A5BA15966512907\" quest=\"27E8ED4B5F8127F9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:enderman_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -160,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "5BAA16D7598FF17A": {
+      "type": "heracles:item",
+      "item": "botania:dandelifeon"
+    }
+  },
+  "rewards": {
+    "4BC31CE9FE930876": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:dandelifeon",
+    "description": [
+      "<task task=\"5BAA16D7598FF17A\" quest=\"11671E9021F8FDDE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4BC31CE9FE930876\" quest=\"11671E9021F8FDDE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:dandelifeon"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -224,
+          80
+        ]
+      }
+    }
+  }
+}

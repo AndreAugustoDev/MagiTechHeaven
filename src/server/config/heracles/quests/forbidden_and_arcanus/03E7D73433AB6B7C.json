@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2894F11A73335179"
+  ],
+  "tasks": {
+    "133BDCB7B85C4CF4": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "forbidden_arcanus:mundabitur_dust"
+    }
+  },
+  "rewards": {
+    "0A2FEC70D103E074": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Mundabitur Dust",
+    "description": [
+      "<h2>Let the Dusts Combine</h2>",
+      "<hr/>",
+      "<task task=\"133BDCB7B85C4CF4\" quest=\"03E7D73433AB6B7C\"/>",
+      "<hr/>",
+      "Using our Arcane Crystal Dust, we'll need to combine it with other dusts and powders to create &&dMundabiter Dust&&r.",
+      "<br/>",
+      "This dust is used in several recipes, as well as activating the Hephaestus Forge.",
+      "<hr/>",
+      "<reward reward=\"0A2FEC70D103E074\" quest=\"03E7D73433AB6B7C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    "subtitle": {
+      "text": "Let the Dusts Combine"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -112,
+          160
+        ]
+      }
+    }
+  }
+}

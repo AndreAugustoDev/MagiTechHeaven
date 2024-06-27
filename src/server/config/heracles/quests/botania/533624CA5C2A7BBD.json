@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "6BF8FAA764F765F1": {
+      "type": "heracles:item",
+      "item": "botania:lens_damage"
+    }
+  },
+  "rewards": {
+    "696217E057A6C1AD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_damage",
+    "description": [
+      "<task task=\"6BF8FAA764F765F1\" quest=\"533624CA5C2A7BBD\"/>",
+      "<hr/>",
+      "Allows Mana Bursts to use its own mana to damage any living being it hits.",
+      "<hr/>",
+      "<reward reward=\"696217E057A6C1AD\" quest=\"533624CA5C2A7BBD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_damage"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          352,
+          352
+        ]
+      }
+    }
+  }
+}

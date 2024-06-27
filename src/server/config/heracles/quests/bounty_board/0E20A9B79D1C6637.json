@@ -1,0 +1,52 @@
+{
+  "display": {
+    "description": [
+      "<task task=\"69678CAC075C8EA5\" quest=\"0E20A9B79D1C6637\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1A20BD8574954FE2\" quest=\"0E20A9B79D1C6637\"/>",
+      "<reward reward=\"190AE302BBF17638\" quest=\"0E20A9B79D1C6637\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          48,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:sculk_sensor",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.warden"
+  },
+  "rewards": {
+    "190AE302BBF17638": {
+      "item": {
+        "id": "allthemodium:allthemodium_ingot"
+      },
+      "type": "heracles:item"
+    },
+    "1A20BD8574954FE2": {
+      "amount": 1000,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "69678CAC075C8EA5": {
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:warden"
+      },
+      "icon": {
+        "item": "minecraft:sculk_catalyst",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.warden",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

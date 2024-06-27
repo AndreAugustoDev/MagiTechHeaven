@@ -1,0 +1,84 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2E8E292ED596A104",
+    "418E57E34FFC19E1"
+  ],
+  "tasks": {
+    "1225664C1E9E28D3": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:ether_gas_bucket"
+    }
+  },
+  "rewards": {
+    "3F01AE70E8D45133": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_fluid_tank",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "FluidTanks": [
+              {
+                "Tank": 0,
+                "stored": {
+                  "Amount": 14000,
+                  "FluidName": "industrialforegoing:ether_gas"
+                }
+              }
+            ],
+            "ForgeCaps": {},
+            "Items": [],
+            "activeState": 0,
+            "currentRedstone": 15,
+            "editMode": 0,
+            "id": "mekanism:basic_fluid_tank",
+            "redstone": 0,
+            "updateDelay": 0
+          },
+          "display": {
+            "Lore": [
+              "\"(+NBT)\""
+            ]
+          },
+          "mekData": {
+            "FluidTanks": [
+              {
+                "Tank": 0,
+                "stored": {
+                  "Amount": 14000,
+                  "FluidName": "industrialforegoing:ether_gas"
+                }
+              }
+            ],
+            "Items": [],
+            "securityMode": 0
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:ether_gas_bucket",
+    "description": [
+      "<task task=\"1225664C1E9E28D3\" quest=\"7E39FB9F3E973009\"/>",
+      "<hr/>",
+      "Suggestion:",
+      "Use some sort of wither-proof glass.",
+      "<hr/>",
+      "<reward reward=\"3F01AE70E8D45133\" quest=\"7E39FB9F3E973009\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:ether_gas_bucket"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          336,
+          192
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0B68E3C046C82860"
+  ],
+  "tasks": {
+    "35004413DAFA1C58": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:spectral_eye_amulet"
+    }
+  },
+  "rewards": {
+    "2436BF5F9939867D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:spectral_eye_amulet",
+    "description": [
+      "<h2>Highlights Mobs when Activated</h2>",
+      "<hr/>",
+      "<task task=\"35004413DAFA1C58\" quest=\"44B1B147CDAC4E36\"/>",
+      "<hr/>",
+      "This gives X-Ray vision for mobs, highlighting them from afar to make it easier to spot them.",
+      "<hr/>",
+      "<reward reward=\"2436BF5F9939867D\" quest=\"44B1B147CDAC4E36\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:spectral_eye_amulet"
+    },
+    "subtitle": {
+      "text": "Highlights Mobs when Activated"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -64,
+          208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "6D8B27FE2BAB27FF": {
+      "type": "heracles:item",
+      "item": "botania:gray_mystical_flower"
+    }
+  },
+  "rewards": {
+    "0269B8785074D081": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:gray_mystical_flower",
+    "description": [
+      "<task task=\"6D8B27FE2BAB27FF\" quest=\"7C757F654BD74016\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0269B8785074D081\" quest=\"7C757F654BD74016\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:gray_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          144,
+          -160
+        ]
+      }
+    }
+  }
+}

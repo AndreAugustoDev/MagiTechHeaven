@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "531FB6E56B95C1CA": {
+      "type": "heracles:item",
+      "item": "productivebees:bottler"
+    }
+  },
+  "rewards": {
+    "58ED69D187E94890": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "08B9B9C77F1239AD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:bottler",
+    "description": [
+      "<h2>Honey I Squished The Bees</h2>",
+      "<hr/>",
+      "<task task=\"531FB6E56B95C1CA\" quest=\"6F978C4D561F35EC\"/>",
+      "<hr/>",
+      "The Bottler has two uses: Bottling honey and squshing bees for genes.",
+      "<br/>",
+      "To get genes from bees, place a piston above the Bottler with a block of space between them.",
+      "<br/>",
+      "Place the bee on top of the Bottler, and activate the piston to squish the bee into genes. The resulting squished bottle can be then placed in a Centrifuge.",
+      "<br/>",
+      "Note: Make sure to have bottles in the Bottler.",
+      "{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"58ED69D187E94890\" quest=\"6F978C4D561F35EC\"/>",
+      "<reward reward=\"08B9B9C77F1239AD\" quest=\"6F978C4D561F35EC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:bottler"
+    },
+    "subtitle": {
+      "text": "Honey I Squished The Bees"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          16
+        ]
+      }
+    }
+  }
+}

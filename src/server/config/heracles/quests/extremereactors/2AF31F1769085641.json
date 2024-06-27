@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "354086C858E10154"
+  ],
+  "tasks": {
+    "2DBC9E20BFE7F058": {
+      "type": "heracles:item",
+      "item": "bigreactors:reprocessorcontroller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5FAF55F5CF1BA345": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2DBC9E20BFE7F058\" quest=\"2AF31F1769085641\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.turbine_interface</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5FAF55F5CF1BA345\" quest=\"2AF31F1769085641\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:reprocessorcontroller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.turbine_interface"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

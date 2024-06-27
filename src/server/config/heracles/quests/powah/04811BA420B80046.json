@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "04930767C52C7CC2",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "3F987D5B5E9410DF": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_blazing"
+    }
+  },
+  "rewards": {
+    "76BC2C5552C75D1A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_hopper_blazing",
+    "description": [
+      "<task task=\"3F987D5B5E9410DF\" quest=\"04811BA420B80046\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76BC2C5552C75D1A\" quest=\"04811BA420B80046\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          464
+        ]
+      }
+    }
+  }
+}

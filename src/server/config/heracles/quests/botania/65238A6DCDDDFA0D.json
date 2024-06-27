@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0631F054A9B97A40"
+  ],
+  "tasks": {
+    "76F8BB9B8C181006": {
+      "type": "heracles:item",
+      "item": "botania:terra_plate"
+    }
+  },
+  "rewards": {
+    "369F0385E3D1A45B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Creating More Powerful Ingots",
+    "description": [
+      "<task task=\"76F8BB9B8C181006\" quest=\"65238A6DCDDDFA0D\"/>",
+      "<hr/>",
+      "To create &&aTerrasteel&&r, we'll first need to set up the multiblock for it. The first part of this is crafting the &&9Terrasteel Agglomeration Plate&&r.",
+      "<hr/>",
+      "<reward reward=\"369F0385E3D1A45B\" quest=\"65238A6DCDDDFA0D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terra_plate"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          464,
+          144
+        ]
+      }
+    }
+  }
+}

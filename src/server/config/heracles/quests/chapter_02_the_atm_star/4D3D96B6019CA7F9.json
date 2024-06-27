@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3B13BBC38696D452"
+  ],
+  "tasks": {
+    "1E0D86524C2B56C9": {
+      "type": "heracles:item",
+      "item": "ae2:singularity",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1E0D86524C2B56C9\" quest=\"4D3D96B6019CA7F9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -144,
+          352
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:singularity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

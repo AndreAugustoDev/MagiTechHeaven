@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "761B3590C99B461E": {
+      "type": "heracles:item",
+      "item": "silentgear:elytra_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5CD4106705C41360": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"761B3590C99B461E\" quest=\"5AB8651FCB1E2F72\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5CD4106705C41360\" quest=\"5AB8651FCB1E2F72\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          288,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:elytra_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.elytra"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

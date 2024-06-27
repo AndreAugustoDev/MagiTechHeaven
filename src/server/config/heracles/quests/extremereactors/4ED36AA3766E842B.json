@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "186731580B14F9D2",
+    "67AFCBCE7AAC3089",
+    "3FC7FDAF84871963",
+    "775D176081DD75F5"
+  ],
+  "tasks": {},
+  "rewards": {
+    "5AE542B84586D0BA": {
+      "xptype": "POINTS",
+      "amount": 500,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4A94CC9DA47A370C\" quest=\"4ED36AA3766E842B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.turbine_coils</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5AE542B84586D0BA\" quest=\"4ED36AA3766E842B\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.our_first_turbine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

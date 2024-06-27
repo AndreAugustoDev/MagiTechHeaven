@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "43E8912CB307E421"
+  ],
+  "tasks": {
+    "301E0669A3CD84EF": {
+      "type": "heracles:item",
+      "item": "refinedstorage:portable_grid",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.portable_grid"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.portable_grid</translate></h2>",
+      "<hr/>",
+      "<task task=\"301E0669A3CD84EF\" quest=\"66D85424EC74EDCC\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.portable_grid}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          64,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:portable_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.portable_grid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

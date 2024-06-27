@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C34EED27A9737D4"
+  ],
+  "tasks": {
+    "56504998BB4B686E": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_niotic"
+    }
+  },
+  "rewards": {
+    "5486B9D0023A62EB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:solar_panel_niotic",
+    "description": [
+      "<task task=\"56504998BB4B686E\" quest=\"39386F88CB38CF36\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5486B9D0023A62EB\" quest=\"39386F88CB38CF36\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          240,
+          496
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "05E237133AC3F46B": {
+      "title": "Nickel Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:nickel"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "1822D65E1764B5C3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Nickel Bee",
+    "description": [
+      "<h2>Iron + Sweat</h2>",
+      "<hr/>",
+      "<task task=\"05E237133AC3F46B\" quest=\"4FE7F45C72EF5DC1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1822D65E1764B5C3\" quest=\"4FE7F45C72EF5DC1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:nickel_ingot"
+    },
+    "subtitle": {
+      "text": "Iron + Sweat"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          384
+        ]
+      }
+    }
+  }
+}

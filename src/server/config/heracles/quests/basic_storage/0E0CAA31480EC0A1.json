@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0789D160EF625FF5": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:pickup_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7ADBF209091E5821": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.pickup"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.pickup</translate></h2>",
+      "<hr/>",
+      "<task task=\"0789D160EF625FF5\" quest=\"0E0CAA31480EC0A1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7ADBF209091E5821\" quest=\"0E0CAA31480EC0A1\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:pickup_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "i18n.quest.storage.pickup"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

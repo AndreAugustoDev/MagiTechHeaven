@@ -1,0 +1,13 @@
+name = "Thorium Reactors"
+filename = "thoriumreactors-1.20.1-0.1.6b-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jWflQvFb/versions/QChpjQeu/thoriumreactors-1.20.1-0.1.6b-all.jar"
+hash-format = "sha1"
+hash = "63cd5f078b06beaa762426778417fd0108781d15"
+
+[update]
+[update.modrinth]
+mod-id = "jWflQvFb"
+version = "QChpjQeu"

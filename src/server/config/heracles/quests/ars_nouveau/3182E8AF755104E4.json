@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "571B04DAC6DAFDAE": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:enchanters_shield"
+    }
+  },
+  "rewards": {
+    "41D97F7955037DCD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:enchanters_shield",
+    "description": [
+      "<task task=\"571B04DAC6DAFDAE\" quest=\"3182E8AF755104E4\"/>",
+      "<hr/>",
+      "When blocking damage, the &&9Enchanter's Shield&&r will give the user Mana Regen and Spell Damage for a short amount of time.",
+      "<br/>",
+      "Additionally, the shield will repair itself over time using the wearer's mana.",
+      "<hr/>",
+      "<reward reward=\"41D97F7955037DCD\" quest=\"3182E8AF755104E4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:enchanters_shield"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          352,
+          96
+        ]
+      }
+    }
+  }
+}

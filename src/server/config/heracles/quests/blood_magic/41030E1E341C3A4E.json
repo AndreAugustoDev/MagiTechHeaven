@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0E51D6BB2BC756B6"
+  ],
+  "tasks": {
+    "26FD5D4411242B25": {
+      "type": "heracles:item",
+      "item": "bloodmagic:livinghelmet"
+    },
+    "37A82F03CFF9D25A": {
+      "type": "heracles:item",
+      "item": "bloodmagic:livingplate",
+      "nbt": {
+        "livingStats": {
+          "maxPoints": 100,
+          "upgrades": []
+        }
+      }
+    },
+    "671E6A4CA8F8F77B": {
+      "type": "heracles:item",
+      "item": "bloodmagic:livingleggings"
+    },
+    "5E9B38CD413946E0": {
+      "type": "heracles:item",
+      "item": "bloodmagic:livingboots"
+    }
+  },
+  "rewards": {
+    "6D8D96707F3F4A83": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 1000
+    }
+  },
+  "display": {
+    "title": "Living Armor",
+    "description": [
+      "<task task=\"26FD5D4411242B25\" quest=\"41030E1E341C3A4E\"/>",
+      "<task task=\"37A82F03CFF9D25A\" quest=\"41030E1E341C3A4E\"/>",
+      "<task task=\"671E6A4CA8F8F77B\" quest=\"41030E1E341C3A4E\"/>",
+      "<task task=\"5E9B38CD413946E0\" quest=\"41030E1E341C3A4E\"/>",
+      "<hr/>",
+      "You can create Living Equipment by making some Binding Reagents in an Alchemy Table. You'll also need at least a Common Tartaric Gem in order to hold the Demon Will required.",
+      "<br/>",
+      "&&9Living Equipment&&r is the equivalent in durability of Diamond Armor, and can be repaired in an Anvil using Binding Reagents.",
+      "<br/>",
+      "It starts off as the equivalent of Iron, but has Upgrade Points that can be spent to train it in specific ways. It starts with 100, but there are ways to increase this limit.",
+      "<br/>",
+      "As you use it, it will \"learn\" from you. You can see what it has learned so far by holding left shift while looking at it.",
+      "<hr/>",
+      "<reward reward=\"6D8D96707F3F4A83\" quest=\"41030E1E341C3A4E\"/>"
+    ],
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -576,
+          -144
+        ]
+      }
+    }
+  }
+}

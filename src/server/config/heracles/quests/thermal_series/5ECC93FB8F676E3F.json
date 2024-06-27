@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "76A0C32FB86A089D": {
+      "type": "heracles:item",
+      "item": "thermal:machine_pyrolyzer"
+    }
+  },
+  "rewards": {
+    "5AA3B772E203E40C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_pyrolyzer",
+    "description": [
+      "<task task=\"76A0C32FB86A089D\" quest=\"5ECC93FB8F676E3F\"/>",
+      "<hr/>",
+      "Works like a Coke Oven, but simplified.",
+      "<br/>",
+      "Insert \"fuel\" like Coal and it'll produce Coal Coke and a by-product.",
+      "<hr/>",
+      "<reward reward=\"5AA3B772E203E40C\" quest=\"5ECC93FB8F676E3F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_pyrolyzer"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -64,
+          -96
+        ]
+      }
+    }
+  }
+}

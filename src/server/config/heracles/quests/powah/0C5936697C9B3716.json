@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "029922AB09F8C76A",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "2A02CDC7FDC41BD1": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_blazing"
+    }
+  },
+  "rewards": {
+    "55AAD824064689CB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cable_blazing",
+    "description": [
+      "<task task=\"2A02CDC7FDC41BD1\" quest=\"0C5936697C9B3716\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"55AAD824064689CB\" quest=\"0C5936697C9B3716\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          32,
+          464
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+AutoQuality           = true
+maxEntityEntities     = 512
+entitiesDistance      = 128
+QualityModes          = "NORMAL"
+RenderWeather         = "NORMAL"
+RenderTNTExplosions   = true
+FastItemRender        = false
+RenderDisplayItem     = false
+blackListedEntities   = []
+whiteListedEntities   = []
+isAlwaysShowItemCount = true

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "024EA8646EFADFF5": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_bounce"
+    }
+  },
+  "rewards": {
+    "771FA1C73778FDCB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_bounce",
+    "description": [
+      "<task task=\"024EA8646EFADFF5\" quest=\"12A70E00A63A7154\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"771FA1C73778FDCB\" quest=\"12A70E00A63A7154\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_bounce"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -400
+        ]
+      }
+    }
+  }
+}

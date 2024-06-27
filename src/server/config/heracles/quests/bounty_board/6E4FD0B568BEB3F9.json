@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "5AC497F76A086A5C"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"7127A76DEB4D1696\" quest=\"6E4FD0B568BEB3F9\"/>",
+      "<hr/>",
+      "<reward reward=\"15E0578B1F9521EF\" quest=\"6E4FD0B568BEB3F9\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          128,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:potion",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.witch.10"
+  },
+  "rewards": {
+    "15E0578B1F9521EF": {
+      "amount": 20,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {
+    "hidden": true
+  },
+  "tasks": {
+    "7127A76DEB4D1696": {
+      "amount": 10,
+      "entity": {
+        "type": "minecraft:witch"
+      },
+      "icon": {
+        "item": "minecraft:potion",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.witch.10",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

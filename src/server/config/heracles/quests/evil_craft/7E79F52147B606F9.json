@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "31FD9EA513E0D010"
+  ],
+  "tasks": {
+    "3DCF9B950A836935": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_extractor",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 5000
+      }
+    }
+  },
+  "rewards": {
+    "0B31270AAD83F04B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "evilcraft:blood_extractor",
+        "count": 1,
+        "nbt": {
+          "Fluid": {
+            "Amount": 0,
+            "FluidName": "minecraft:empty"
+          },
+          "capacity": 5000
+        }
+      }
+    },
+    "47C92745264ADA72": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aCollecting§r §cBlood§r",
+    "description": [
+      "<task task=\"3DCF9B950A836935\" quest=\"7E79F52147B606F9\"/>",
+      "<hr/>",
+      "To start collecting blood, we need to craft the &&cBlood Extractor&&r. ",
+      "<br/>",
+      "As long as you have this in your inventory, killing mobs will collect blood into the extractor. &&cBlood&&r is an important resouce in EvilCraft.",
+      "<br/>",
+      "Need to increase the storage of the Extractor? Simply make another, and then combine them in a crafting grid!",
+      "<br/>",
+      "These can also be used to extract blood from &&cBlood Stains&&r you find (or create) on the ground.",
+      "<br/>",
+      "Lastly, with enough blood stored, you can sneak-right click on the ground to place a bucket of blood down.",
+      "<hr/>",
+      "<reward reward=\"0B31270AAD83F04B\" quest=\"7E79F52147B606F9\"/>",
+      "<reward reward=\"47C92745264ADA72\" quest=\"7E79F52147B606F9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_extractor"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          0,
+          80
+        ]
+      }
+    }
+  }
+}

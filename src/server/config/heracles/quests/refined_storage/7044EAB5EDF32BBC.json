@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "65C8A43FEDBA3835"
+  ],
+  "tasks": {
+    "79FEA8AA18E5ED45": {
+      "type": "heracles:item",
+      "item": "refinedstorage:crafting_monitor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"79FEA8AA18E5ED45\" quest=\"7044EAB5EDF32BBC\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.crafting_monitor}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          32,
+          -208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:crafting_monitor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.crafting_monitor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "379EBE12E3F61679"
+  ],
+  "tasks": {
+    "5AA3BDCABBC5E9C1": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_spirited"
+    }
+  },
+  "rewards": {
+    "057CE0117FCA9D7E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_gate_spirited",
+    "description": [
+      "<task task=\"5AA3BDCABBC5E9C1\" quest=\"335927C2D234451A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"057CE0117FCA9D7E\" quest=\"335927C2D234451A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          64,
+          528
+        ]
+      }
+    }
+  }
+}

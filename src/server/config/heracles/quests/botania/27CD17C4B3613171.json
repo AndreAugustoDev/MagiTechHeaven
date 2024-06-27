@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "0331107259F7B68C"
+  ],
+  "tasks": {
+    "3DE2A054C6F00FBE": {
+      "type": "heracles:item",
+      "item": "botania:gaia_ingot"
+    }
+  },
+  "rewards": {
+    "6F718ABCAB882225": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "§5Guardian of Gaia 2.0§r",
+    "description": [
+      "<task task=\"3DE2A054C6F00FBE\" quest=\"27CD17C4B3613171\"/>",
+      "<hr/>",
+      "Want more of a challenge, or need more &&6Gaia Spirits&&r from the fight? Try combining 4 Gaia Spirits with a Terrasteel ingot, and use that to activate the Ritual of Gaia. :)",
+      "<hr/>",
+      "<reward reward=\"6F718ABCAB882225\" quest=\"27CD17C4B3613171\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:gaia_ingot"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          832,
+          80
+        ]
+      }
+    }
+  }
+}

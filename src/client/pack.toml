@@ -1,0 +1,13 @@
+name = "MagiTechHeaven"
+author = "EuSoJao"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8a75bfd3c6cd7b72c5eb181821bb6035c3a20ed6acae9c6f04df0b3e54a49ede"
+
+[versions]
+minecraft = "1.20.1"
+neoforge = "47.1.106"

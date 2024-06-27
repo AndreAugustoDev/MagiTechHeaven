@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "3590A9F43523CB5F": {
+      "type": "heracles:item",
+      "item": "botania:magenta_mystical_flower"
+    }
+  },
+  "rewards": {
+    "34D6ADEBEA37C6C9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:magenta_mystical_flower",
+    "description": [
+      "<task task=\"3590A9F43523CB5F\" quest=\"520E3DAD6C87B989\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"34D6ADEBEA37C6C9\" quest=\"520E3DAD6C87B989\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:magenta_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          208,
+          -160
+        ]
+      }
+    }
+  }
+}

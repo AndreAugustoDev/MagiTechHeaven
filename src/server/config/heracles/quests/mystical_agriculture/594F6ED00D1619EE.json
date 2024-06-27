@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "710F8974F3DC637A": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:honey_seeds"
+    }
+  },
+  "rewards": {
+    "21228B82977D645E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:honey_seeds",
+    "description": [
+      "<task task=\"710F8974F3DC637A\" quest=\"594F6ED00D1619EE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"21228B82977D645E\" quest=\"594F6ED00D1619EE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:honey_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -448,
+          -160
+        ]
+      }
+    }
+  }
+}

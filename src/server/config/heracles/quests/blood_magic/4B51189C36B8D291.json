@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6AAB831CB3FB536A"
+  ],
+  "tasks": {
+    "4CDFCAAED8ABB615": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "bloodmagic:blankrune"
+    }
+  },
+  "rewards": {
+    "4C507A1D9293C777": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Upgrading Our Altar to Tier 2",
+    "description": [
+      "<task task=\"4CDFCAAED8ABB615\" quest=\"4B51189C36B8D291\"/>",
+      "<hr/>",
+      "To craft even more items using blood, we'll want to upgrade our altar by surrounding it in &&9Blank Runes&&r.",
+      "<br/>",
+      "If you want, you can replace the Blank Runes in each of the cardinal directions to runes like the &&6Speed Rune&&r. These runes can affect how the Altar functions.",
+      "<br/>",
+      "Below is an example of how you'd build a Tier 2 Altar, but you can also visualize it in the guidebook.",
+      "<br/>",
+      "Note: Speed Runes are the only runes available (besides Blank Runes) until you make a Tier 2 Altar, but can be replaced later on.",
+      "<br/>",
+      "{image:atm:textures/questpics/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4C507A1D9293C777\" quest=\"4B51189C36B8D291\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altar"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -768,
+          -32
+        ]
+      }
+    }
+  }
+}

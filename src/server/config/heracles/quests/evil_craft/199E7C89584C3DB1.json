@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68318811CCC28320"
+  ],
+  "tasks": {
+    "40CA543BAAC1182D": {
+      "type": "heracles:item",
+      "item": "evilcraft:invigorating_pendant",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 5000
+      }
+    }
+  },
+  "rewards": {
+    "0F6D96198298DBF3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:invigorating_pendant",
+    "description": [
+      "<h2>Removes Bad Potion Effects</h2>",
+      "<hr/>",
+      "<task task=\"40CA543BAAC1182D\" quest=\"199E7C89584C3DB1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F6D96198298DBF3\" quest=\"199E7C89584C3DB1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:invigorating_pendant"
+    },
+    "subtitle": {
+      "text": "Removes Bad Potion Effects"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          368,
+          96
+        ]
+      }
+    }
+  }
+}

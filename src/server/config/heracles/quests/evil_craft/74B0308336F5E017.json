@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68318811CCC28320"
+  ],
+  "tasks": {
+    "45053D11D2454483": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_chest",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 10000
+      }
+    }
+  },
+  "rewards": {
+    "253E9653A75A538B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Repairing Tools with §cBlood§r",
+    "description": [
+      "<task task=\"45053D11D2454483\" quest=\"74B0308336F5E017\"/>",
+      "<hr/>",
+      "The &&cBlood Chest&&r can be used to repair items using &&cBlood&&r.",
+      "<br/>",
+      "However, items repaired might become &&dCursed&&r....",
+      "<hr/>",
+      "<reward reward=\"253E9653A75A538B\" quest=\"74B0308336F5E017\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_chest"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          32,
+          176
+        ]
+      }
+    }
+  }
+}

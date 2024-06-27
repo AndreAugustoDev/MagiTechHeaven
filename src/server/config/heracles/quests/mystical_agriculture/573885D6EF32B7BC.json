@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "0EE2D7787F6BCC5B": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:coal_seeds"
+    }
+  },
+  "rewards": {
+    "65700E61B22FED09": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:coal_seeds",
+    "description": [
+      "<task task=\"0EE2D7787F6BCC5B\" quest=\"573885D6EF32B7BC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"65700E61B22FED09\" quest=\"573885D6EF32B7BC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:coal_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -480,
+          -128
+        ]
+      }
+    }
+  }
+}

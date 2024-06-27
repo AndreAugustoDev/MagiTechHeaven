@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "30E853CE699E669B"
+  ],
+  "tasks": {
+    "5EC8D891031E34EF": {
+      "title": "Crafting Co-Processor",
+      "type": "heracles:item",
+      "item": "itemfilters:id_regex",
+      "nbt": {
+        "value": "(.*)crafting_accelerator"
+      }
+    }
+  },
+  "rewards": {
+    "33A5EAC376E2828C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.crafting_coprocessor",
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.crafting_coprocessor</translate></h2>",
+      "<hr/>",
+      "<task task=\"5EC8D891031E34EF\" quest=\"69B7DE2283B4EE6C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.crafting_coprocessor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"33A5EAC376E2828C\" quest=\"69B7DE2283B4EE6C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:id_regex"
+    },
+    "subtitle": {
+      "text": "i18n.quest.ae2.subt.crafting_coprocessor"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          512,
+          -48
+        ]
+      }
+    }
+  }
+}

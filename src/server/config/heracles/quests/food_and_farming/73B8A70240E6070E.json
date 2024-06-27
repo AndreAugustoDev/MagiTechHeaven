@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "635620A03E3505BF"
+  ],
+  "tasks": {
+    "19A9C679111A90BC": {
+      "type": "heracles:item",
+      "item": "minecraft:milk_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6680B692C05EDB9F": {
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "486994911F40FA8D": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.milk"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.milk</translate></h2>",
+      "<hr/>",
+      "<task task=\"19A9C679111A90BC\" quest=\"73B8A70240E6070E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.milk</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6680B692C05EDB9F\" quest=\"73B8A70240E6070E\"/>",
+      "<reward reward=\"486994911F40FA8D\" quest=\"73B8A70240E6070E\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          192,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:milk_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.milk"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

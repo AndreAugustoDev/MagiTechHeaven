@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "726FF2C87E9E972F": {
+      "title": "Platinum Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:platinum"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "0C66CBCE5AF692A1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Platinum Bees",
+    "description": [
+      "<h2>Gold + Ender</h2>",
+      "<hr/>",
+      "<task task=\"726FF2C87E9E972F\" quest=\"57ACD83205988834\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0C66CBCE5AF692A1\" quest=\"57ACD83205988834\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:platinum_ingot"
+    },
+    "subtitle": {
+      "text": "Gold + Ender"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          352
+        ]
+      }
+    }
+  }
+}

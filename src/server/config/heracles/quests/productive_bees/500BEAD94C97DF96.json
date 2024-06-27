@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66324D7D0C51AEAC"
+  ],
+  "tasks": {
+    "2F69E114B9F17B9A": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_time"
+    }
+  },
+  "rewards": {
+    "7B68706C7E4D9550": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "23E4F84BF4C64AB3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_time",
+    "description": [
+      "<h2>Sonic Bees</h2>",
+      "<hr/>",
+      "<task task=\"2F69E114B9F17B9A\" quest=\"500BEAD94C97DF96\"/>",
+      "<hr/>",
+      "Can be placed in a hive or centrifuge.",
+      "<br/>",
+      "When in a hive, it decreases the amount of time bees spend in the hive by 20%.",
+      "<br/>",
+      "When placed in a Centrifuge, it increases the processing speed.",
+      "<br/>",
+      "These do stack.",
+      "<hr/>",
+      "<reward reward=\"7B68706C7E4D9550\" quest=\"500BEAD94C97DF96\"/>",
+      "<reward reward=\"23E4F84BF4C64AB3\" quest=\"500BEAD94C97DF96\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_time"
+    },
+    "subtitle": {
+      "text": "Sonic Bees"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -80,
+          -16
+        ]
+      }
+    }
+  }
+}

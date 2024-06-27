@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66324D7D0C51AEAC"
+  ],
+  "tasks": {
+    "04E3182336EE3967": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_breeding"
+    }
+  },
+  "rewards": {
+    "4423FDFB72B07AFC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "60C16B8456B350DF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_breeding",
+    "description": [
+      "<h2>Making Babies</h2>",
+      "<hr/>",
+      "<task task=\"04E3182336EE3967\" quest=\"2182492BCC1B33D8\"/>",
+      "<hr/>",
+      "When installed in a hive, it gives a 5% chance for a new baby bee to be spawned every time honey is delivered.",
+      "<br/>",
+      "When placed in a Catcher, it only allows the catcher to catch baby bees.",
+      "<br/>",
+      "You can stack these for a greater chance.",
+      "<hr/>",
+      "<reward reward=\"4423FDFB72B07AFC\" quest=\"2182492BCC1B33D8\"/>",
+      "<reward reward=\"60C16B8456B350DF\" quest=\"2182492BCC1B33D8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_breeding"
+    },
+    "subtitle": {
+      "text": "Making Babies"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -112,
+          64
+        ]
+      }
+    }
+  }
+}

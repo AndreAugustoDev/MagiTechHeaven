@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1958DBFE401157E6": {
+      "type": "heracles:item",
+      "item": "botanypots:terracotta_botany_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0AC970B512BC6821": {
+      "item": {
+        "id": "minecraft:terracotta",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "5E4853D67766A132": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1958DBFE401157E6\" quest=\"01B70A4F230ED036\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.pot</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0AC970B512BC6821\" quest=\"01B70A4F230ED036\"/>",
+      "<reward reward=\"5E4853D67766A132\" quest=\"01B70A4F230ED036\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          80,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botanypots:terracotta_botany_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.pot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

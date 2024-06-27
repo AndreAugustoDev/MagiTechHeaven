@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "51DE3157DE3E57B8"
+  ],
+  "tasks": {
+    "3837D36BE3CC29A6": {
+      "type": "heracles:item",
+      "item": "ae2:growth_accelerator"
+    }
+  },
+  "rewards": {
+    "67FE782D7A821701": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.growth",
+    "description": [
+      "<task task=\"3837D36BE3CC29A6\" quest=\"5AA3E5DFECB4AC4D\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.growth</translate></p>",
+      "<hr/>",
+      "<reward reward=\"67FE782D7A821701\" quest=\"5AA3E5DFECB4AC4D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:growth_accelerator"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          384,
+          -112
+        ]
+      }
+    }
+  }
+}

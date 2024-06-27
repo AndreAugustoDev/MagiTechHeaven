@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48BF71269DEA1AB1"
+  ],
+  "tasks": {
+    "403DE50D5B8CFE29": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:emerald_seeds"
+    }
+  },
+  "rewards": {
+    "7D8DA00E4CD30BF9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:emerald_seeds",
+    "description": [
+      "<task task=\"403DE50D5B8CFE29\" quest=\"4E09BBC0BAED3440\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7D8DA00E4CD30BF9\" quest=\"4E09BBC0BAED3440\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:emerald_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          0,
+          -128
+        ]
+      }
+    }
+  }
+}

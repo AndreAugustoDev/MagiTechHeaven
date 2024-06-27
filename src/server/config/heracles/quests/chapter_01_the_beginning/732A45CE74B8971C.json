@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "0F3D51FFD2FE8DCB"
+  ],
+  "tasks": {},
+  "rewards": {
+    "126C7766C2476F51": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28D8E7A8C2004419\" quest=\"732A45CE74B8971C\"/>",
+      "<task task=\"294687FFA242DA9C\" quest=\"732A45CE74B8971C\"/>",
+      "<task task=\"7CD4EE36E1614FEC\" quest=\"732A45CE74B8971C\"/>",
+      "<task task=\"07E0A5D3F4546624\" quest=\"732A45CE74B8971C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.ore_sight1",
+      "<br/>",
+      "{@pagebreak</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.chapter1.desc.ore_sight2",
+      "<br/>",
+      "{image:atm:textures/questpics/gettingstarted/iron_powder.png width:217 height:69 align:1</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.chapter1.desc.ore_sight3",
+      "<br/>",
+      "{image:atm:textures/questpics/gettingstarted/iron_potions.png width:217 height:105 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"126C7766C2476F51\" quest=\"732A45CE74B8971C\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          432,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.ore_sight"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

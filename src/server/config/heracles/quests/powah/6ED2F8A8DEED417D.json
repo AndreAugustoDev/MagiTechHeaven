@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0E3A9D5E1E8AAF89",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "2AA92A1DCA9C3CAF": {
+      "type": "heracles:item",
+      "item": "powah:magmator_hardened"
+    }
+  },
+  "rewards": {
+    "71BF900C83503328": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:magmator_hardened",
+    "description": [
+      "<task task=\"2AA92A1DCA9C3CAF\" quest=\"6ED2F8A8DEED417D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"71BF900C83503328\" quest=\"6ED2F8A8DEED417D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:magmator_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          112,
+          432
+        ]
+      }
+    }
+  }
+}

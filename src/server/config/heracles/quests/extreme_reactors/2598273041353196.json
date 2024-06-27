@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "2AF31F1769085641"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"72B74F6051CD53A1\" quest=\"2598273041353196\"/>",
+      "<task task=\"221816504F2573A5\" quest=\"2598273041353196\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.importing_waste</translate></p>",
+      "<hr/>",
+      "<reward reward=\"18F8A508E2A08534\" quest=\"2598273041353196\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -64,
+          304
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.importing_waste"
+  },
+  "rewards": {
+    "18F8A508E2A08534": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "221816504F2573A5": {
+      "item": "bigreactors:reprocessorwasteinjector",
+      "type": "heracles:item"
+    },
+    "72B74F6051CD53A1": {
+      "item": "bigreactors:reprocessorcollector",
+      "type": "heracles:item"
+    }
+  }
+}

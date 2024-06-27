@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "1F2A2E5E1319BBAA": {
+      "type": "heracles:item",
+      "item": "productivebees:oak_wood_nest"
+    },
+    "05B1A9B5E710DC24": {
+      "type": "heracles:item",
+      "item": "productivebees:dark_oak_wood_nest"
+    },
+    "3F43AC1C5F87ACA3": {
+      "type": "heracles:item",
+      "item": "productivebees:jungle_wood_nest"
+    },
+    "06DB37B0D01CE868": {
+      "type": "heracles:item",
+      "item": "productivebees:spruce_wood_nest"
+    },
+    "406D976F0C6B5CB8": {
+      "type": "heracles:item",
+      "item": "productivebees:birch_wood_nest"
+    },
+    "3328BB57F3B6FDDA": {
+      "type": "heracles:item",
+      "item": "productivebees:acacia_wood_nest"
+    }
+  },
+  "rewards": {
+    "13A6FF7C32F2A33F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Wood Nest",
+    "description": [
+      "<h2>Can be used in any Overworld biome</h2>",
+      "<hr/>",
+      "<task task=\"1F2A2E5E1319BBAA\" quest=\"00A17728A387B426\"/>",
+      "<task task=\"05B1A9B5E710DC24\" quest=\"00A17728A387B426\"/>",
+      "<task task=\"3F43AC1C5F87ACA3\" quest=\"00A17728A387B426\"/>",
+      "<task task=\"06DB37B0D01CE868\" quest=\"00A17728A387B426\"/>",
+      "<task task=\"406D976F0C6B5CB8\" quest=\"00A17728A387B426\"/>",
+      "<task task=\"3328BB57F3B6FDDA\" quest=\"00A17728A387B426\"/>",
+      "<hr/>",
+      "Wood Nests are used to lure Carpenter Bees and the Blue Banded Bee.",
+      "<br/>",
+      "Dark Oak Nests lures 3 different bees.",
+      "<br/>",
+      "These can be placed in any Overworld Biome.",
+      "<hr/>",
+      "<reward reward=\"13A6FF7C32F2A33F\" quest=\"00A17728A387B426\"/>"
+    ],
+    "subtitle": {
+      "text": "Can be used in any Overworld biome"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -128,
+          160
+        ]
+      }
+    }
+  }
+}

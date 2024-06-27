@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "537E39530360AD73"
+  ],
+  "tasks": {
+    "1DCE7B9772542FDB": {
+      "title": "&dUpgrading The Forge&r",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "20AE49BAE55DE599": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "&dUpgrading The Forge&r",
+    "description": [
+      "<task task=\"1DCE7B9772542FDB\" quest=\"5CF175DA7BDA52F3\"/>",
+      "<hr/>",
+      "The &&dHephaestus Forge&&r can be upgraded into higher tiers using things like Spawner Scraps, Arcane Crystals, and more!",
+      "<br/>",
+      "You'll need higher tiers to make some of the higher tier items, like the &&aEternal Stella&&r. Make sure to check out JEI for more info!",
+      "<hr/>",
+      "<reward reward=\"20AE49BAE55DE599\" quest=\"5CF175DA7BDA52F3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:hephaestus_forge"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          256,
+          96
+        ]
+      }
+    }
+  }
+}

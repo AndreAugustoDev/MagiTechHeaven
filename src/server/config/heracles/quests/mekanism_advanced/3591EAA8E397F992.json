@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3FFF9018DA2A2763"
+  ],
+  "tasks": {
+    "27709080B4B77B09": {
+      "title": "Ready To Go!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5AC458A8C3D99B74": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Booting Up The Reactor",
+    "description": [
+      "<task task=\"27709080B4B77B09\" quest=\"3591EAA8E397F992\"/>",
+      "<hr/>",
+      "Let's go through the checklist &&oone more time&&r to ensure we have everything ready to go before we boot it up:",
+      "<br/>",
+      "1. Hazmat Suit On (safety first)",
+      "2. Water/coolant pumping into an input Port.",
+      "3. Fissile Fuel pumping into an input Port.",
+      "4. A Port set to output the Heated Coolant, either to a trashcan or an Industrial Turbine.",
+      "5. A Port set to output Nuclear Waste leading to Radioactive Waste Barrels or machines to process it, or both!",
+      "<br/>",
+      "If you're ready to go, hit that &&eActivate&&r button! You can also adjust the &&3Burn Rate&&r to produce more Nuclear Waste, but start slow.",
+      "<hr/>",
+      "<reward reward=\"5AC458A8C3D99B74\" quest=\"3591EAA8E397F992\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "chipped:hazard_red_concrete"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          304,
+          -48
+        ]
+      }
+    }
+  }
+}

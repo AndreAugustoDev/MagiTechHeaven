@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DE8B0C9A7195720"
+  ],
+  "tasks": {
+    "7E8281C007094843": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink"
+    }
+  },
+  "rewards": {
+    "1E2809FAFCF0A292": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Cooling Our Reactor",
+    "description": [
+      "<h2>High Quality H2O</h2>",
+      "<hr/>",
+      "<task task=\"7E8281C007094843\" quest=\"2B76B2F18C2C47D2\"/>",
+      "<hr/>",
+      "When burning fuel, the Fission Reactor creates a massive amount of heat. To prevent the Reactor from converting into TNT, we need to make sure it is properly cooled.",
+      "<br/>",
+      "The easiest way to do this is by giving the Reactor &&9Water&&r from a Sink. The Sink is an infinite water source, which is &&oreally nice for a situation like this&&r.",
+      "<br/>",
+      "Pump out the water into one of the Reactor's Ports that is set to &&ainput&&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &&bSteam&&r, which you can use to create power within an &&9Industrial Turbine&&r.",
+      "<br/>",
+      "&&eSodium&&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures.",
+      "<hr/>",
+      "<reward reward=\"1E2809FAFCF0A292\" quest=\"2B76B2F18C2C47D2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink"
+    },
+    "subtitle": {
+      "text": "High Quality H2O"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          96,
+          128
+        ]
+      }
+    }
+  }
+}

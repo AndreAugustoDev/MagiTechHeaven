@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "3D2DFF6062AED26E": {
+      "type": "heracles:item",
+      "item": "thermal:machine_crucible"
+    }
+  },
+  "rewards": {
+    "4C62A0183D243C27": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_crucible",
+    "description": [
+      "<task task=\"3D2DFF6062AED26E\" quest=\"0897F7A3203E45AF\"/>",
+      "<hr/>",
+      "Can convert certain blocks into liquids.",
+      "<br/>",
+      "This is useful for generating lava from Cobblestone, Netherrack, etc.",
+      "<hr/>",
+      "<reward reward=\"4C62A0183D243C27\" quest=\"0897F7A3203E45AF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_crucible"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -64,
+          -64
+        ]
+      }
+    }
+  }
+}

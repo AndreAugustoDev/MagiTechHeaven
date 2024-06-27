@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "4FC90CCB41E58D5A": {
+      "title": "Dye Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "29F6DF8F52E48EC6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Dye Bee",
+    "description": [
+      "<h2>Lapis + Skeletal</h2>",
+      "<hr/>",
+      "<task task=\"4FC90CCB41E58D5A\" quest=\"5962DC39E5874FB9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"29F6DF8F52E48EC6\" quest=\"5962DC39E5874FB9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:red_dye"
+    },
+    "subtitle": {
+      "text": "Lapis + Skeletal"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          496
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1F3B9803AFAEED5F"
+  ],
+  "tasks": {
+    "4EFA9FB003D8D147": {
+      "type": "heracles:item",
+      "item": "bloodmagic:lavasigil"
+    }
+  },
+  "rewards": {
+    "438796468164D727": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:lavasigil",
+    "description": [
+      "<task task=\"4EFA9FB003D8D147\" quest=\"3AADA53EC01FB0ED\"/>",
+      "<hr/>",
+      "With the Lava Sigil in hand, if you right-click, you'll create a source block of lava for the low low cost of 1,000 LP.",
+      "<br/>",
+      "If you don't have enough LP, that's cool too. It'll just take 5 hearts from you. No biggie.",
+      "<hr/>",
+      "<reward reward=\"438796468164D727\" quest=\"3AADA53EC01FB0ED\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:lavasigil"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -848,
+          -192
+        ]
+      }
+    }
+  }
+}

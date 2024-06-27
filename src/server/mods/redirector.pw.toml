@@ -1,0 +1,8 @@
+name     = "Redirector"
+filename = "redirector-5.0.1.jar"
+side     = "both"
+
+[download]
+  url         = "https://github.com/AndreAugustoDev/Redirector/releases/download/modern-forge-65426af9/redirector-5.0.1.jar"
+  hash-format = "sha1"
+  hash        = "f50bb1fda7977eb5da3d97e6548904f196600fda"

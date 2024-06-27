@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DE0F289821F55D1"
+  ],
+  "tasks": {
+    "429FA6C2EA459597": {
+      "type": "heracles:item",
+      "item": "occultism:afrit_essence"
+    },
+    "35F02CE88E956349": {
+      "type": "heracles:item",
+      "item": "occultism:chalk_red_impure"
+    }
+  },
+  "rewards": {
+    "4E321912FBCD641F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§cHot Demons§r",
+    "description": [
+      "<h2>R.I.P. Betsy</h2>",
+      "<hr/>",
+      "<task task=\"429FA6C2EA459597\" quest=\"145C8235BCCB9BA8\"/>",
+      "<task task=\"35F02CE88E956349\" quest=\"145C8235BCCB9BA8\"/>",
+      "<hr/>",
+      "No, not that kind.",
+      "<br/>",
+      "&&cAfrit Demons&&r are Demons of &&cFire&&r. They are more advanced Demons, which some are friends and some are....not.",
+      "<br/>",
+      "If we want to collect all of the Chalks, we'll need to summon a not-so friendly Ifrit. And kill it.",
+      "<br/>",
+      "This specific Ritual will need a live sacrifice. Once you've placed all of the items needed and the Book of Binding into the Golden Sacrificial Bowl, the Ritual will not start until you sacrifice the living creature nearby it. In this instance, we'll be sacrificing a cow. Sorry again, Betsy. ",
+      "<hr/>",
+      "<reward reward=\"4E321912FBCD641F\" quest=\"145C8235BCCB9BA8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:afrit_essence"
+    },
+    "subtitle": {
+      "text": "R.I.P. Betsy"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          448,
+          256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "56E50AF4DB0B9F30": {
+      "type": "heracles:item",
+      "item": "productivebees:honeycomb_milky"
+    }
+  },
+  "rewards": {
+    "4548200E1DB36178": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Rancher Bee",
+    "description": [
+      "<h2>Lumber + Sweat</h2>",
+      "<hr/>",
+      "<task task=\"56E50AF4DB0B9F30\" quest=\"3D7480E4F9063E93\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4548200E1DB36178\" quest=\"3D7480E4F9063E93\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:egg"
+    },
+    "subtitle": {
+      "text": "Lumber + Sweat"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          96,
+          464
+        ]
+      }
+    }
+  }
+}

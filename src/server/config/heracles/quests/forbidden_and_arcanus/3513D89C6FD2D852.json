@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "20B495B4B8B95636"
+  ],
+  "tasks": {
+    "49FEFEC69106EFFA": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_sword"
+    },
+    "388451A17A53336D": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_scepter"
+    }
+  },
+  "rewards": {
+    "487939397BCAAC5F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "§1Draco Weapons",
+    "description": [
+      "<h2>Go Pew Pew</h2>",
+      "<hr/>",
+      "<task task=\"49FEFEC69106EFFA\" quest=\"3513D89C6FD2D852\"/>",
+      "<task task=\"388451A17A53336D\" quest=\"3513D89C6FD2D852\"/>",
+      "<hr/>",
+      "The Scepter shoots out energy orbs when charged up with Right-Click. If a mob is hit, it'll strike it with lightning.",
+      "<hr/>",
+      "<reward reward=\"487939397BCAAC5F\" quest=\"3513D89C6FD2D852\"/>"
+    ],
+    "subtitle": {
+      "text": "Go Pew Pew"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          80,
+          288
+        ]
+      }
+    }
+  }
+}

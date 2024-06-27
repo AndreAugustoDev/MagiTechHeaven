@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "42624C9B608A803A": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prismarine_seeds"
+    }
+  },
+  "rewards": {
+    "0967B77119A4957E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:prismarine_seeds",
+    "description": [
+      "<task task=\"42624C9B608A803A\" quest=\"67AA59BD340FEC62\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0967B77119A4957E\" quest=\"67AA59BD340FEC62\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prismarine_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -304,
+          -240
+        ]
+      }
+    }
+  }
+}

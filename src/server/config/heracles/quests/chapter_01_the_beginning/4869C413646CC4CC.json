@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "2D879A34A5788CCC"
+  ],
+  "tasks": {},
+  "rewards": {
+    "583B550C6F1EDACC": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1960B985B54B9FBD\" quest=\"4869C413646CC4CC\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.cables</translate></p>",
+      "<hr/>",
+      "<reward reward=\"583B550C6F1EDACC\" quest=\"4869C413646CC4CC\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          480,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.cables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

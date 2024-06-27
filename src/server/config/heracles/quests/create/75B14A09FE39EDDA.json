@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "7DA78C3A582368E2": {
+      "type": "heracles:item",
+      "item": "create:gantry_carriage"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:gantry_carriage",
+    "description": [
+      "<task task=\"7DA78C3A582368E2\" quest=\"75B14A09FE39EDDA\"/>",
+      "<hr/>",
+      "The &&n&&5Gantry Carriage&&r can be attached to Gantry Shafts and if the Shaft is rotating, it will move the Carriage along it."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:gantry_carriage"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          240,
+          16
+        ]
+      }
+    }
+  }
+}

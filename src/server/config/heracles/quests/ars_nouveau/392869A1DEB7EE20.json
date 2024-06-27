@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "41A6ED0A1538D0A8": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_pull"
+    }
+  },
+  "rewards": {
+    "0DA7CDD79CBEAE32": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_pull",
+    "description": [
+      "<task task=\"41A6ED0A1538D0A8\" quest=\"392869A1DEB7EE20\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0DA7CDD79CBEAE32\" quest=\"392869A1DEB7EE20\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_pull"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -304
+        ]
+      }
+    }
+  }
+}

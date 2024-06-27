@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "7C4D8AA107780795"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"22922E479FED9E43\" quest=\"0B1DF8A040826D87\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.insanite_creation</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2065E13D53308BF3\" quest=\"0B1DF8A040826D87\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -128,
+          496
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:insanite_ingot",
+      "type": "heracles:item"
+    },
+    "title": "item.bigreactors.inanite_ingot"
+  },
+  "rewards": {
+    "2065E13D53308BF3": {
+      "amount": 100,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "22922E479FED9E43": {
+      "item": "bigreactors:insanite_ingot",
+      "type": "heracles:item"
+    }
+  }
+}

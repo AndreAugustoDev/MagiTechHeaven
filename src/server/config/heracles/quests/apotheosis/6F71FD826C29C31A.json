@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "65FF566B862C7211": {
+      "type": "heracles:item",
+      "item": "minecraft:turtle_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1532FF56C99CAB89": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"65FF566B862C7211\" quest=\"6F71FD826C29C31A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.egg</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1532FF56C99CAB89\" quest=\"6F71FD826C29C31A\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          112,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:turtle_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.egg"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

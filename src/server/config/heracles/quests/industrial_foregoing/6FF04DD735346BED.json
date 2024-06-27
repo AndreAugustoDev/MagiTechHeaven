@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "321FA7348E532F4E"
+  ],
+  "tasks": {
+    "163B2434699EEF1A": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:latex_processing_unit"
+    }
+  },
+  "rewards": {
+    "0FB5D498F42B6185": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:latex_processing_unit",
+    "description": [
+      "<task task=\"163B2434699EEF1A\" quest=\"6FF04DD735346BED\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0FB5D498F42B6185\" quest=\"6FF04DD735346BED\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:latex_processing_unit"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    }
+  }
+}

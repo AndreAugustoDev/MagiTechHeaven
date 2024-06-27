@@ -1,0 +1,79 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6581D4AF1A6DE230",
+    "0B3EA604C5172D98",
+    "7F09F8F98C13F11B",
+    "1B5177A774FCEF64"
+  ],
+  "tasks": {
+    "764B41E9502184D6": {
+      "type": "heracles:item",
+      "item": "occultism:book_of_binding_bound_foliot",
+      "nbt": {
+        "spiritName": "Krtimaeus"
+      }
+    },
+    "52346C907A05F81F": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_iron"
+    },
+    "2A95B8487590C044": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_gold"
+    },
+    "1F30D0DAE19357A9": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_copper"
+    },
+    "1EC7BD3BAC773EA7": {
+      "type": "heracles:item",
+      "item": "alltheores:raw_silver"
+    }
+  },
+  "rewards": {
+    "0BAC09BCF9644834": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "§bOur First§r §dRitual§r",
+    "description": [
+      "<task task=\"764B41E9502184D6\" quest=\"4F35D04721DFC9FF\"/>",
+      "<task task=\"52346C907A05F81F\" quest=\"4F35D04721DFC9FF\"/>",
+      "<task task=\"2A95B8487590C044\" quest=\"4F35D04721DFC9FF\"/>",
+      "<task task=\"1F30D0DAE19357A9\" quest=\"4F35D04721DFC9FF\"/>",
+      "<task task=\"1EC7BD3BAC773EA7\" quest=\"4F35D04721DFC9FF\"/>",
+      "<hr/>",
+      "For our first Ritual, we want to summon a &&aFoliot Crusher&&r Demon. This Demon will crush items for us, which is something we'll need to make some of the higher level Chalks!",
+      "<br/>",
+      "To start with, combine your Unbound Book with your &&aDictionary of Spirits&&r in a crafting table. This will bind a Demon to the book, which is what we'll need for the Ritual.",
+      "<br/>",
+      "Speaking of your Dictionary of Spirits, it's time to open it up! On the left, click on the &&dPentacles&&r tab and click on &&bAviar's Circle&&r. You might have to advance through it by reading a little bit. There is also a way to click \"Mark All As Read\" so it unlocks everything in the book.",
+      "<br/>",
+      "This is what we're going to use to summon our new Friend. On the right side, you can click the eye in the bottom-left corner of the image to build an outline of the Ritual for you in the world. This is super helpful!",
+      "<br/>",
+      "Once you've completed the multi-block Ritual, place down 4 Sacrificial Bowls and use the required items on them. Once you place your Bound Book in the Golden Sacrificial Bowl, the Ritual will start!",
+      "<br/>",
+      "This is what the Ritual will look like. The rods are just there for lighting.",
+      "<br/>",
+      "{image:atm:textures/questpics/occultism/aviarcircle.png width:200 height:200 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0BAC09BCF9644834\" quest=\"4F35D04721DFC9FF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ftbquests:custom_icon"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          400,
+          0
+        ]
+      }
+    }
+  }
+}

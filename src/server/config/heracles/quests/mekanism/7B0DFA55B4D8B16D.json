@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "2C1730C4F7CB8377": {
+      "type": "heracles:item",
+      "amount": 9,
+      "item": "mekanism:teleporter_frame"
+    },
+    "68FE61A81A5C1390": {
+      "type": "heracles:item",
+      "item": "mekanism:teleporter"
+    }
+  },
+  "rewards": {
+    "1BF6EFE93A37AF5C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:teleportation_core"
+      }
+    },
+    "7638B4BA27EA012E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Custom Portals!",
+    "description": [
+      "<h2>Teleportation at its finest.</h2>",
+      "<hr/>",
+      "<task task=\"2C1730C4F7CB8377\" quest=\"7B0DFA55B4D8B16D\"/>",
+      "<task task=\"68FE61A81A5C1390\" quest=\"7B0DFA55B4D8B16D\"/>",
+      "<hr/>",
+      "To create a custom Portal, place down a single Teleporter block. Connect power to the block.",
+      "<br/>",
+      "Create a \"Portal Frame\" with the teleporter block being the base of the portal.",
+      "<br/>",
+      "The final product will be a 4x3 portal structure, with the two blocks in the middle creating the portal.",
+      "<hr/>",
+      "<reward reward=\"1BF6EFE93A37AF5C\" quest=\"7B0DFA55B4D8B16D\"/>",
+      "<reward reward=\"7638B4BA27EA012E\" quest=\"7B0DFA55B4D8B16D\"/>"
+    ],
+    "subtitle": {
+      "text": "Teleportation at its finest."
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -288,
+          120
+        ]
+      }
+    }
+  }
+}

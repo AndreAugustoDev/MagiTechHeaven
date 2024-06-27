@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2331FCDD2F2B709A"
+  ],
+  "tasks": {},
+  "rewards": {
+    "7D3868B320D82382": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Build the SPS!",
+    "description": [
+      "With all of the gathered blocks, it's time to build this thing. Below is a text guide, or you can watch the Ponder!",
+      "<br/>",
+      "The SPS will be 7x7 when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: ",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1",
+      "<br/>",
+      "Each side, including the bottom and top, will follow this pattern. The Supercharged Coils should be placed across from each other in the center of their respective sides, and the remaining two ports will be used to pump in Polonium, and pump out Antimatter Gas.",
+      "<br/>",
+      "Here is the completed structure below: ",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7D3868B320D82382\" quest=\"2B3F2F470E06BC40\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          192,
+          -224
+        ]
+      }
+    }
+  }
+}

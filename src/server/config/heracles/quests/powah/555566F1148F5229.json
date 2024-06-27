@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7D7983F39E6E818D"
+  ],
+  "tasks": {
+    "04410F1240964912": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_niotic"
+    }
+  },
+  "rewards": {
+    "6A9E1326A8A119F5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_discharger_niotic",
+    "description": [
+      "<task task=\"04410F1240964912\" quest=\"555566F1148F5229\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6A9E1326A8A119F5\" quest=\"555566F1148F5229\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_discharger_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -272,
+          496
+        ]
+      }
+    }
+  }
+}

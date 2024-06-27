@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "7BAEC1CCE541863A": {
+      "type": "heracles:item",
+      "item": "silentgear:mattock_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "55313BAC0ABC7732": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.mattock"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.mattock</translate></h2>",
+      "<hr/>",
+      "<task task=\"7BAEC1CCE541863A\" quest=\"427516AA3E8C9442\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"55313BAC0ABC7732\" quest=\"427516AA3E8C9442\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -160,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:mattock_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.mattock"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

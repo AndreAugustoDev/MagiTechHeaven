@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66324D7D0C51AEAC"
+  ],
+  "tasks": {
+    "09CA837E39927465": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_anti_teleport"
+    }
+  },
+  "rewards": {
+    "741664A37CF3CE09": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "6D74E7326BB52C6E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_anti_teleport",
+    "description": [
+      "<h2>Prevents Bees from Teleporting in a Hive</h2>",
+      "<hr/>",
+      "<task task=\"09CA837E39927465\" quest=\"198EDBAC1D6E2339\"/>",
+      "<hr/>",
+      "You'll need these for Ender Bees.",
+      "<hr/>",
+      "<reward reward=\"741664A37CF3CE09\" quest=\"198EDBAC1D6E2339\"/>",
+      "<reward reward=\"6D74E7326BB52C6E\" quest=\"198EDBAC1D6E2339\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_anti_teleport"
+    },
+    "subtitle": {
+      "text": "Prevents Bees from Teleporting in a Hive"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -112,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "314E41B84C8DD464",
+    "44D1B410550B6C28"
+  ],
+  "tasks": {},
+  "rewards": {
+    "2651F1CE1044AC2B": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "lvl": 5,
+              "id": "minecraft:sharpness"
+            }
+          ]
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"21E8F3E04CA2BA93\" quest=\"5FD4F40CEC37D9FD\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.alexandria</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2651F1CE1044AC2B\" quest=\"5FD4F40CEC37D9FD\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          32,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.alexandria"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

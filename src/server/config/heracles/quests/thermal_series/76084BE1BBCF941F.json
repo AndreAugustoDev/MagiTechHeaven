@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "3EE6189C5B2FDD2F": {
+      "type": "heracles:item",
+      "item": "thermal:upgrade_augment_1"
+    }
+  },
+  "rewards": {
+    "7CD91CF01EAA7BCD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:upgrade_augment_1",
+    "description": [
+      "<h2>Tier 1 Base Upgrade</h2>",
+      "<hr/>",
+      "<task task=\"3EE6189C5B2FDD2F\" quest=\"76084BE1BBCF941F\"/>",
+      "<hr/>",
+      "This is a base upgrade for all machines and items.",
+      "<br/>",
+      "Note: While you can put several base upgrades into a machine, only the highest tier takes effect.",
+      "<hr/>",
+      "<reward reward=\"7CD91CF01EAA7BCD\" quest=\"76084BE1BBCF941F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:upgrade_augment_1"
+    },
+    "subtitle": {
+      "text": "Tier 1 Base Upgrade"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          16,
+          64
+        ]
+      }
+    }
+  }
+}

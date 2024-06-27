@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7B365A72AEF933E8\" quest=\"1B2898A31C297B58\"/>",
+      "<task task=\"62980DBF3A15DDBF\" quest=\"1B2898A31C297B58\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.twilight_forest",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"7732CF7AAA63DB3A\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -160,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.twilight_forest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

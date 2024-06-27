@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "576ABF43FCF886B7"
+  ],
+  "tasks": {
+    "612BAEBF597FE2EB": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:saltpeter_seeds"
+    }
+  },
+  "rewards": {
+    "0E9C59288BA4FF77": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:saltpeter_seeds",
+    "description": [
+      "<task task=\"612BAEBF597FE2EB\" quest=\"0E25CDB09FE88A63\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0E9C59288BA4FF77\" quest=\"0E25CDB09FE88A63\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:saltpeter_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -464,
+          -176
+        ]
+      }
+    }
+  }
+}

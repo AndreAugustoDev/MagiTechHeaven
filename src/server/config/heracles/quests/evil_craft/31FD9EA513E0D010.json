@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "tasks": {
+    "6467C991A6D45E36": {
+      "type": "heracles:item",
+      "item": "evilcraft:dark_gem"
+    }
+  },
+  "rewards": {
+    "7E586B43C8F5CF6F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "evilcraft:origins_of_darkness"
+      }
+    },
+    "27EAEB9369B92D43": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aWelcome to §r§cEvilCraft§r!",
+    "description": [
+      "<task task=\"6467C991A6D45E36\" quest=\"31FD9EA513E0D010\"/>",
+      "<hr/>",
+      "&&cEvilCraft&&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!",
+      "<br/>",
+      "Everything in this mod can be found in the guidebook, the &&aOrigins of Darkness&&r. ",
+      "<br/>",
+      "To get started, find yourself some &&9Dark Gems&&r. ",
+      "<hr/>",
+      "<reward reward=\"7E586B43C8F5CF6F\" quest=\"31FD9EA513E0D010\"/>",
+      "<reward reward=\"27EAEB9369B92D43\" quest=\"31FD9EA513E0D010\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:dark_gem"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

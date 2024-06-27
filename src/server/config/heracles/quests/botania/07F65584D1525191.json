@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "76BA8B9CAF7F42CF": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_sword"
+    }
+  },
+  "rewards": {
+    "43F14C9FC6B8D8A8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:manasteel_sword",
+    "description": [
+      "<task task=\"76BA8B9CAF7F42CF\" quest=\"07F65584D1525191\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43F14C9FC6B8D8A8\" quest=\"07F65584D1525191\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_sword"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          -32
+        ]
+      }
+    }
+  }
+}

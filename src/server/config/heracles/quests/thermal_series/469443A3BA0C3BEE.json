@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "66AF5C07727A5B39": {
+      "type": "heracles:item",
+      "item": "thermal:machine_chiller"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: thermal:machine_chiller",
+    "description": [
+      "<task task=\"66AF5C07727A5B39\" quest=\"469443A3BA0C3BEE\"/>",
+      "<hr/>",
+      "Converts items from a liquid to a solid, some requiring casts.",
+      "<br/>",
+      "There is also a bee spawn egg recipe it can create."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_chiller"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          32,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "3FEA99DD35D4B7CF"
+  ],
+  "tasks": {
+    "4B271057EE4F90B4": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:creative_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7367AE25EAF90CCB": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Enchantments": [
+            {}
+          ],
+          "display": {
+            "Name": "[{\"text\":\"Master of Creation\",\"italic\":false,\"color\":\"gold\"}]"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "4CEC9C77E587FE45": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4B271057EE4F90B4\" quest=\"43CE45F9FDDB91EE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7367AE25EAF90CCB\" quest=\"43CE45F9FDDB91EE\"/>",
+      "<reward reward=\"4CEC9C77E587FE45\" quest=\"43CE45F9FDDB91EE\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          64,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagradditions:creative_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.creation"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

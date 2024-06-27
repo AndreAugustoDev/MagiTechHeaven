@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "1D06097B6206BA60"
+  ],
+  "tasks": {},
+  "rewards": {
+    "48B69C4ED2286CE3": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1ADAC994F5D57FE1\" quest=\"353C7440B32F0A5E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.eterna</translate></p>",
+      "<hr/>",
+      "<reward reward=\"48B69C4ED2286CE3\" quest=\"353C7440B32F0A5E\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          64,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.eterna"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

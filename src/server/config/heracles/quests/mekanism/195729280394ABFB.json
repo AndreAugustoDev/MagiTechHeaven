@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "6934C61AFEB0443D": {
+      "type": "heracles:item",
+      "item": "mekanism:osmium_compressor"
+    }
+  },
+  "rewards": {
+    "268A8495184348CE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:osmium_compressor",
+    "description": [
+      "<h2>Really Only Good For 2 Things</h2>",
+      "<hr/>",
+      "<task task=\"6934C61AFEB0443D\" quest=\"195729280394ABFB\"/>",
+      "<hr/>",
+      "The machine creates two really strong ingots: Refined Glowstone and Refined Obsidian.",
+      "<br/>",
+      "It infuses an item with Osmium to create a more powerful ingot.",
+      "<hr/>",
+      "<reward reward=\"268A8495184348CE\" quest=\"195729280394ABFB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:osmium_compressor"
+    },
+    "subtitle": {
+      "text": "Really Only Good For 2 Things"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -256,
+          -16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "615188F5D6F85423": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_flare"
+    }
+  },
+  "rewards": {
+    "2A7E9481610EF8CE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_flare",
+    "description": [
+      "<task task=\"615188F5D6F85423\" quest=\"79146466E43A2B99\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2A7E9481610EF8CE\" quest=\"79146466E43A2B99\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_flare"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -240
+        ]
+      }
+    }
+  }
+}

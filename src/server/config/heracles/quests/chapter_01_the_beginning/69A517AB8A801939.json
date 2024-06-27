@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "4A4C71C43519D5FE"
+  ],
+  "tasks": {
+    "76C41881A02F2098": {
+      "entity": {
+        "type": "minecraft:wither"
+      },
+      "amount": 1,
+      "title": "&6Kill The&r &5Wither&r",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "1C1320B4266DCB86": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"76C41881A02F2098\" quest=\"69A517AB8A801939\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.wither</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1C1320B4266DCB86\" quest=\"69A517AB8A801939\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          608,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.wither"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

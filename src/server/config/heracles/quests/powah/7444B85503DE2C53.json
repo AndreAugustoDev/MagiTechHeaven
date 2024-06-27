@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "740F314EE6242C13",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "764E430B973B8BD9": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_hardened"
+    }
+  },
+  "rewards": {
+    "4B8A79E2928C6072": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:player_transmitter_hardened",
+    "description": [
+      "<task task=\"764E430B973B8BD9\" quest=\"7444B85503DE2C53\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4B8A79E2928C6072\" quest=\"7444B85503DE2C53\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -208,
+          432
+        ]
+      }
+    }
+  }
+}

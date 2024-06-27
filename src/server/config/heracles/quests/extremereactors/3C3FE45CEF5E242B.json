@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "2AF31F1769085641"
+  ],
+  "tasks": {
+    "41D67C2BF92A876A": {
+      "type": "heracles:item",
+      "item": "bigreactors:reprocessoroutputport",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "475BD29336FB98E8": {
+      "type": "heracles:item",
+      "item": "bigreactors:reprocessorpowerport",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "530111623A8C7C58": {
+      "type": "heracles:item",
+      "item": "bigreactors:reprocessorfluidinjector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6FE2DA9F00DF8EED": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"475BD29336FB98E8\" quest=\"3C3FE45CEF5E242B\"/>",
+      "<task task=\"530111623A8C7C58\" quest=\"3C3FE45CEF5E242B\"/>",
+      "<task task=\"41D67C2BF92A876A\" quest=\"3C3FE45CEF5E242B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reprocessor_parts</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6FE2DA9F00DF8EED\" quest=\"3C3FE45CEF5E242B\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          32,
+          304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

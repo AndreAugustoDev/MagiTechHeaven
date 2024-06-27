@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "28A769E7676E358F": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_tier_installer"
+    }
+  },
+  "rewards": {
+    "7A154DCDEA611E27": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_tier_installer",
+    "description": [
+      "<h2>Upgrading to Factories</h2>",
+      "<hr/>",
+      "<task task=\"28A769E7676E358F\" quest=\"07AD45DCF9EE3C2E\"/>",
+      "<hr/>",
+      "This item upgrades a base machine to a Basic Factory machine.",
+      "<hr/>",
+      "<reward reward=\"7A154DCDEA611E27\" quest=\"07AD45DCF9EE3C2E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_tier_installer"
+    },
+    "subtitle": {
+      "text": "Upgrading to Factories"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -16,
+          224
+        ]
+      }
+    }
+  }
+}

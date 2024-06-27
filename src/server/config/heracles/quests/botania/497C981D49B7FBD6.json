@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "1BF03F0B36123366": {
+      "type": "heracles:item",
+      "item": "botania:elementium_sword"
+    }
+  },
+  "rewards": {
+    "302C4454A0407139": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:elementium_sword",
+    "description": [
+      "<task task=\"1BF03F0B36123366\" quest=\"497C981D49B7FBD6\"/>",
+      "<hr/>",
+      "Increases the chance of a Pixie spawning when hit, and augments the strength of any Pixies that are spawned.",
+      "<hr/>",
+      "<reward reward=\"302C4454A0407139\" quest=\"497C981D49B7FBD6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:elementium_sword"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          624,
+          -32
+        ]
+      }
+    }
+  }
+}

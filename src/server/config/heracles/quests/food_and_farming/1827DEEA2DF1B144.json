@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "07603A90CCCB3627": {
+      "title": "Food and Farming",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "28C108EC59F6E7D9": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "2EFEA345691F570D": {
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.food"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.food</translate></h2>",
+      "<hr/>",
+      "<task task=\"07603A90CCCB3627\" quest=\"1827DEEA2DF1B144\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.food</translate></p>",
+      "<hr/>",
+      "<reward reward=\"28C108EC59F6E7D9\" quest=\"1827DEEA2DF1B144\"/>",
+      "<reward reward=\"2EFEA345691F570D\" quest=\"1827DEEA2DF1B144\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          16,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.food"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

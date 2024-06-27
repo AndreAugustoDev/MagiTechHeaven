@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "36B1995B495AA674"
+  ],
+  "tasks": {
+    "19447D5D621A8D89": {
+      "type": "heracles:item",
+      "amount": 44,
+      "item": "mekanismgenerators:fission_reactor_casing"
+    },
+    "0765AB709CC3C6E2": {
+      "type": "heracles:item",
+      "amount": 50,
+      "item": "mekanismgenerators:reactor_glass"
+    }
+  },
+  "rewards": {
+    "0792BEFF2D7C604C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Fission Reactor Building Basics",
+    "description": [
+      "<h2>Casings and Glass</h2>",
+      "<hr/>",
+      "<task task=\"19447D5D621A8D89\" quest=\"1482F2D45E8F761D\"/>",
+      "<task task=\"0765AB709CC3C6E2\" quest=\"1482F2D45E8F761D\"/>",
+      "<hr/>",
+      "It's time to gather the materials we'll need to build the reactor.",
+      "<br/>",
+      "Just like most Mekanism multiblocks, reactors can be a custom size depending on your needs. They must be cuboid, with the minimum outside size being 3 wide, 4 tall, and 3 blocks deep. The maximum size is 18x18x18. &&aWe're going to build a 5x5 to start with&&r.",
+      "<br/>",
+      "The edges of the outer shell &&bmust&&r be made out of &&aFission Reactor Casings&&r, while the faces can be either casings or &&bReactor Glass&&r, Reactor Ports, or Reactor Logic Adapters. We'll get to those later.",
+      "<br/>",
+      "For now, let's build a basic 5x5x5 Fission Reactor!",
+      "<br/>",
+      "Need more help building it? Holding &&dw&&r while hovering over the Fission Reactor Casing will show you the Ponder that can help you build it.",
+      "<hr/>",
+      "<reward reward=\"0792BEFF2D7C604C\" quest=\"1482F2D45E8F761D\"/>"
+    ],
+    "subtitle": {
+      "text": "Casings and Glass"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          0,
+          80
+        ]
+      }
+    }
+  }
+}

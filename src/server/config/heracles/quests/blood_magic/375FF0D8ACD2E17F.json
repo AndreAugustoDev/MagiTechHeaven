@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5886C648D14180E1"
+  ],
+  "tasks": {
+    "2BEC3F34860494B0": {
+      "type": "heracles:item",
+      "item": "bloodmagic:infusedslate"
+    }
+  },
+  "rewards": {
+    "467291771E176EC8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:infusedslate",
+    "description": [
+      "<task task=\"2BEC3F34860494B0\" quest=\"375FF0D8ACD2E17F\"/>",
+      "<hr/>",
+      "Combing Reinforced Slate with some blood in our new Altar will give us Imbued Slates.",
+      "<br/>",
+      "This is the next upgrade for our Blood Magic journey.",
+      "<hr/>",
+      "<reward reward=\"467291771E176EC8\" quest=\"375FF0D8ACD2E17F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:infusedslate"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -576,
+          -32
+        ]
+      }
+    }
+  }
+}

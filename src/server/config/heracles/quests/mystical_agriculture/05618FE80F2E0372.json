@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54D6F7F8FE859729"
+  ],
+  "tasks": {
+    "0F6AA02A1469173F": {
+      "type": "heracles:item",
+      "item": "matc:inferium_crystal"
+    }
+  },
+  "rewards": {
+    "5B70A04D41A9184C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§9The Infusion Crystal§r",
+    "description": [
+      "<task task=\"0F6AA02A1469173F\" quest=\"05618FE80F2E0372\"/>",
+      "<hr/>",
+      "The &&9Infusion Crystal&&r is used to upgrade to higher tier &&dEssences&&r.",
+      "<br/>",
+      "To start, you'll need to create the first tier of Crystal using &&2Inferium&&r. This Crystal can create &&ePrudentium&&r by combining 4 Inferium with the Crystal. This will be used to make the next tier Crystal, which will make the next tier of Essences.",
+      "<br/>",
+      "Eventually, you'll be able to make an Infusion Crystal that works for all tiers and doesn't break!",
+      "<hr/>",
+      "<reward reward=\"5B70A04D41A9184C\" quest=\"05618FE80F2E0372\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "matc:inferium_crystal"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -646,
+          26
+        ]
+      }
+    }
+  }
+}

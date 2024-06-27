@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4F13A02FB0055A62": {
+      "title": "Creating a Team",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "101D2FD24AB845AC": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4F13A02FB0055A62\" quest=\"5AC1BE754210429E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.welcome.desc.team</translate></p>",
+      "<hr/>",
+      "<reward reward=\"101D2FD24AB845AC\" quest=\"5AC1BE754210429E\"/>"
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          -144,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_hand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.welcome.team"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

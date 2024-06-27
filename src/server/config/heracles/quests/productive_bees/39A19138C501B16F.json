@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C0302FF4F63B52E"
+  ],
+  "tasks": {
+    "5E017E6B7E3F56B7": {
+      "title": "Slimy Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:slimy"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "6A5C1F186FAFFADA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:configurable_honeycomb",
+        "count": 2,
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:slimy"
+          }
+        }
+      }
+    },
+    "5E11CF7211ADB15A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Slimy Bee",
+    "description": [
+      "<h2>&&9Requires Slimy Nest</h2>",
+      "<hr/>",
+      "<task task=\"5E017E6B7E3F56B7\" quest=\"39A19138C501B16F\"/>",
+      "<hr/>",
+      "You can lure these bees in using a Slimy Nest in a swamp biome.",
+      "<hr/>",
+      "<reward reward=\"6A5C1F186FAFFADA\" quest=\"39A19138C501B16F\"/>",
+      "<reward reward=\"5E11CF7211ADB15A\" quest=\"39A19138C501B16F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:slime_ball"
+    },
+    "subtitle": {
+      "text": "§9Requires Slimy Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          192,
+          128
+        ]
+      }
+    }
+  }
+}

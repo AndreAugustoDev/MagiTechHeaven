@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6C8148B3AE0A2222",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "6F667F3C54316DA3": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_blazing"
+    }
+  },
+  "rewards": {
+    "4BCF7E68022B30ED": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:solar_panel_blazing",
+    "description": [
+      "<task task=\"6F667F3C54316DA3\" quest=\"7C34EED27A9737D4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4BCF7E68022B30ED\" quest=\"7C34EED27A9737D4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          240,
+          464
+        ]
+      }
+    }
+  }
+}

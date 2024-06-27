@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3591EAA8E397F992"
+  ],
+  "tasks": {
+    "38A344B697C93B3B": {
+      "type": "heracles:item",
+      "item": "mekanism:pellet_polonium"
+    }
+  },
+  "rewards": {
+    "316FC7C98CC22E11": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:pellet_polonium",
+    "description": [
+      "<task task=\"38A344B697C93B3B\" quest=\"1FAAF8216CDC3AC6\"/>",
+      "<hr/>",
+      "Pumping Nuclear Waste into a &&9Solar Neutron Activator&&r will give you &&dPolonium&&r. ",
+      "<br/>",
+      "Run the Polonium through a Pressurized Reaction Chamber with some Fluorite Dust and you'll get &&9Polonium Pellets&&r. You will need a good bit of these for the future.",
+      "<br/>",
+      "Note: This will also create a byproduct of &&7Spent Nuclear Waste&&r, which needs to be pumped into a Waste Barrel for storage.",
+      "<hr/>",
+      "<reward reward=\"316FC7C98CC22E11\" quest=\"1FAAF8216CDC3AC6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:pellet_polonium"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          272,
+          -112
+        ]
+      }
+    }
+  }
+}

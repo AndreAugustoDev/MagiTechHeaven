@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "569B0D7ABC091612": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_intangible"
+    }
+  },
+  "rewards": {
+    "06CC6FB96FDA2F42": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_intangible",
+    "description": [
+      "<task task=\"569B0D7ABC091612\" quest=\"7ACE7A6A71D3F4D2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06CC6FB96FDA2F42\" quest=\"7ACE7A6A71D3F4D2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_intangible"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          64,
+          -240
+        ]
+      }
+    }
+  }
+}

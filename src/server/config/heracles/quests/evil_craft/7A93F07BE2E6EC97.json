@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2CB69634F6A6E53E"
+  ],
+  "tasks": {
+    "747D85AFC2E37B49": {
+      "type": "heracles:item",
+      "item": "evilcraft:weather_container",
+      "nbt": {
+        "weather": "RAIN"
+      }
+    },
+    "005992A335555BA4": {
+      "type": "heracles:item",
+      "item": "evilcraft:bucket_eternal_water"
+    },
+    "576692A5D2EBAD4C": {
+      "type": "heracles:item",
+      "item": "evilcraft:eternal_water"
+    }
+  },
+  "rewards": {
+    "464BD039DFC85653": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aLet it§r §9Rain§r",
+    "description": [
+      "<task task=\"747D85AFC2E37B49\" quest=\"7A93F07BE2E6EC97\"/>",
+      "<task task=\"005992A335555BA4\" quest=\"7A93F07BE2E6EC97\"/>",
+      "<task task=\"576692A5D2EBAD4C\" quest=\"7A93F07BE2E6EC97\"/>",
+      "<hr/>",
+      "When it's raining, throwing in a &&aWeather Container&&r will harness the power of the rain.",
+      "<br/>",
+      "With this, you can create an &&9Infinite Water Bucket&&r, or an &&9Infinite Water Source Block&&r. These are both incredibly useful items to have!",
+      "<hr/>",
+      "<reward reward=\"464BD039DFC85653\" quest=\"7A93F07BE2E6EC97\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          16,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "6D4F62833424ADC0": {
+      "title": "Iron Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:iron"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "70F5DFF5B0D6BEF7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Iron Bees",
+    "description": [
+      "<h2>Ashy Mining + Crystalline</h2>",
+      "<hr/>",
+      "<task task=\"6D4F62833424ADC0\" quest=\"114D668C691A2BDF\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"70F5DFF5B0D6BEF7\" quest=\"114D668C691A2BDF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot"
+    },
+    "subtitle": {
+      "text": "Ashy Mining + Crystalline"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          304
+        ]
+      }
+    }
+  }
+}

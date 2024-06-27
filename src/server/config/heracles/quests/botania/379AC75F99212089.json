@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2162EA0216E27D68"
+  ],
+  "tasks": {
+    "088F2F276200B262": {
+      "type": "heracles:item",
+      "item": "botania:mana_ring"
+    }
+  },
+  "rewards": {
+    "2174A01222882E0A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:mana_ring",
+    "description": [
+      "<task task=\"088F2F276200B262\" quest=\"379AC75F99212089\"/>",
+      "<hr/>",
+      "The &&9Band of Mana&&r is a wearable Mana Tablet that can be equipped like a trinket.",
+      "<hr/>",
+      "<reward reward=\"2174A01222882E0A\" quest=\"379AC75F99212089\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:mana_ring"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          0
+        ]
+      }
+    }
+  }
+}

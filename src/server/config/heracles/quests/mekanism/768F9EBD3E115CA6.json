@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4434D7B66521D69A"
+  ],
+  "tasks": {
+    "2E82ABE762A77F41": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_pressurized_tube"
+    }
+  },
+  "rewards": {
+    "3CA544203F49B1DD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_pressurized_tube",
+    "description": [
+      "<task task=\"2E82ABE762A77F41\" quest=\"768F9EBD3E115CA6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3CA544203F49B1DD\" quest=\"768F9EBD3E115CA6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_pressurized_tube"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "28C9EDBF6607E180"
+  ],
+  "tasks": {
+    "193EA9F7C05B6F38": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:cow_jar",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2390EE9B8E964CCA": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "0D48FB30B8B254C7": {
+      "item": {
+        "id": "minecraft:cow_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.jar"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.jar</translate></h2>",
+      "<hr/>",
+      "<task task=\"193EA9F7C05B6F38\" quest=\"47764EFC822E462A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.jar</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0D48FB30B8B254C7\" quest=\"47764EFC822E462A\"/>",
+      "<reward reward=\"2390EE9B8E964CCA\" quest=\"47764EFC822E462A\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          16,
+          304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:cow_jar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.jar"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

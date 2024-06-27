@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "52A52D9AC73D57A6": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_magmatic"
+    }
+  },
+  "rewards": {
+    "317ED7FF0734E5F1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lava_bucket"
+      }
+    },
+    "79A13EA08A164B86": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:dynamo_magmatic",
+    "description": [
+      "<h2>Generates Power using Lava!</h2>",
+      "<hr/>",
+      "<task task=\"52A52D9AC73D57A6\" quest=\"2F71FCE4E576C977\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"317ED7FF0734E5F1\" quest=\"2F71FCE4E576C977\"/>",
+      "<reward reward=\"79A13EA08A164B86\" quest=\"2F71FCE4E576C977\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_magmatic"
+    },
+    "subtitle": {
+      "text": "Generates Power using Lava!"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          272,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1ABC352A4A4313E5": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:smoking_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0F7536B588E4582A": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.smoking"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.smoking</translate></h2>",
+      "<hr/>",
+      "<task task=\"1ABC352A4A4313E5\" quest=\"26A9F402DAE15EA2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F7536B588E4582A\" quest=\"26A9F402DAE15EA2\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:smoking_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.smoking"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

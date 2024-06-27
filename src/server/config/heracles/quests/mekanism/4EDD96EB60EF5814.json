@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "74200A48498DD7F8"
+  ],
+  "tasks": {
+    "4F0B3CA66BE1AEE1": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:advanced_solar_generator"
+    }
+  },
+  "rewards": {
+    "0736D51EE3F58FA4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanismgenerators:advanced_solar_generator",
+    "description": [
+      "<task task=\"4F0B3CA66BE1AEE1\" quest=\"4EDD96EB60EF5814\"/>",
+      "<hr/>",
+      "If you're wondering if it is worth making this upgrade, the answer is yes.",
+      "<br/>",
+      "This version produces 105.6FE/t. It also can be used to add extra heat to Thermal Evaporation Plants.",
+      "<hr/>",
+      "<reward reward=\"0736D51EE3F58FA4\" quest=\"4EDD96EB60EF5814\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:advanced_solar_generator"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -64,
+          64
+        ]
+      }
+    }
+  }
+}

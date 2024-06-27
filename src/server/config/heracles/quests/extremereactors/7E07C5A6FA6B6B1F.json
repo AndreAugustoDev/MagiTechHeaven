@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "69642A3618E86DED"
+  ],
+  "tasks": {
+    "37BB2B7853E319A3": {
+      "type": "heracles:item",
+      "item": "bigreactors:blutonium_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1437F7CBCB818A17": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"37BB2B7853E319A3\" quest=\"7E07C5A6FA6B6B1F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.importing_waste.blutonium</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1437F7CBCB818A17\" quest=\"7E07C5A6FA6B6B1F\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:blutonium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "item.bigreactors.blutonium_ingot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

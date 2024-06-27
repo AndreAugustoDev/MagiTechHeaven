@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "6E473A397B0824E4": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_extract"
+    }
+  },
+  "rewards": {
+    "7ED14CED220DB1A0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_extract",
+    "description": [
+      "<task task=\"6E473A397B0824E4\" quest=\"46469E3A8AF0CB80\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7ED14CED220DB1A0\" quest=\"46469E3A8AF0CB80\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_extract"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -368
+        ]
+      }
+    }
+  }
+}

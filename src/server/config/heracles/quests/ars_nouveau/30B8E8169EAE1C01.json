@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "53250785A630D303": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_heal"
+    }
+  },
+  "rewards": {
+    "4A88E180796EF97D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_heal",
+    "description": [
+      "<task task=\"53250785A630D303\" quest=\"30B8E8169EAE1C01\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4A88E180796EF97D\" quest=\"30B8E8169EAE1C01\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_heal"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -272
+        ]
+      }
+    }
+  }
+}

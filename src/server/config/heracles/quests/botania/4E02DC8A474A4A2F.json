@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "79BE48D56622542F"
+  ],
+  "tasks": {
+    "53794EAD5CE56471": {
+      "type": "heracles:item",
+      "item": "botania:pure_daisy"
+    }
+  },
+  "rewards": {
+    "1F36B10E3BEBA932": {
+      "type": "heracles:item",
+      "item": {
+        "id": "botania:pure_daisy"
+      }
+    },
+    "25024DCB06A60854": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Our First Flower",
+    "description": [
+      "<task task=\"53794EAD5CE56471\" quest=\"4E02DC8A474A4A2F\"/>",
+      "<hr/>",
+      "The &&aPure Daisy&&r is one of the first flowers you'll create!",
+      "<br/>",
+      "This flower will convert up to 8 nearby &&2Wooden Logs&&r or &&9Stone&&r into &&2Livingwood&&r or &&9Livingrock&&r, respectively. This only converts in a 1 block radius around the flower.",
+      "<hr/>",
+      "<reward reward=\"1F36B10E3BEBA932\" quest=\"4E02DC8A474A4A2F\"/>",
+      "<reward reward=\"25024DCB06A60854\" quest=\"4E02DC8A474A4A2F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:pure_daisy"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          224,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "541045912841BC47": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_axe"
+    }
+  },
+  "rewards": {
+    "5FAF2B25C21AE1C5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:manasteel_axe",
+    "description": [
+      "<task task=\"541045912841BC47\" quest=\"7E0A8892ABC7C368\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5FAF2B25C21AE1C5\" quest=\"7E0A8892ABC7C368\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_axe"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          400,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "7658C1C663394E85"
+  ],
+  "tasks": {
+    "5A1784C5676CDC62": {
+      "title": "Welcome to All The Mods 9!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4956CB79E44FB523": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5A1784C5676CDC62\" quest=\"3BC0A50886A3222B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.welcome.desc.welcome1</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.welcome.desc.welcome2</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.welcome.desc.welcome3</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4956CB79E44FB523\" quest=\"3BC0A50886A3222B\"/>"
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          0,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "paraglider:heart_container",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.welcome.welcome"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

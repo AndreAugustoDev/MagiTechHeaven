@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "375FF0D8ACD2E17F",
+    "25343A0C4C22AA60"
+  ],
+  "tasks": {
+    "03DBCA5695879C49": {
+      "type": "heracles:item",
+      "amount": 48,
+      "item": "bloodmagic:blankrune"
+    }
+  },
+  "rewards": {
+    "553B8263DE5508F5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Upgrading Our Altar: Tier 4",
+    "description": [
+      "<task task=\"03DBCA5695879C49\" quest=\"431C44439CA54077\"/>",
+      "<hr/>",
+      "To upgrade our Altar, we'll need 56 total Blood Runes (Blank or better).",
+      "<br/>",
+      "We'll do just like we did last time. Go one block down and two blocks out, then place 7 Blood Runes along each edge. You're basically making a pyramid at this point.",
+      "<br/>",
+      "We want to create pillars in each of the corners, starting &&9above&&r the new ring of runes. These pillars are 5 tall, with the pillar cap being made of &&cBloodstone Bricks&&r or &&cLarge Bloodstone Bricks&&r. ",
+      "<br/>",
+      "Instead of a picture, look in your Sanguine Scientiem and search for the Blood Altar section. Scroll until you find the Tier 4 Altar, and all of the information is there. You can even click the eye to visualize the structure.",
+      "<hr/>",
+      "<reward reward=\"553B8263DE5508F5\" quest=\"431C44439CA54077\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:altar"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -448,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5"
+  ],
+  "tasks": {
+    "3027F7F9B0D0EB88": {
+      "type": "heracles:item",
+      "item": "powah:capacitor_basic"
+    }
+  },
+  "rewards": {
+    "4384750DCCD8BCAC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Tier: §bBasic§r",
+    "description": [
+      "<task task=\"3027F7F9B0D0EB88\" quest=\"66ECC26BC81D0093\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4384750DCCD8BCAC\" quest=\"66ECC26BC81D0093\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:capacitor_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          400
+        ]
+      }
+    }
+  }
+}

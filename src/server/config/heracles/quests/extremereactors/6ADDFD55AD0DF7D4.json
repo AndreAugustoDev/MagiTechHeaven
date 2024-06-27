@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "7C4D8AA107780795",
+    "5A615BB74A5CD332"
+  ],
+  "tasks": {
+    "544C4964F5B857B1": {
+      "type": "heracles:item",
+      "item": "bigreactors:inanite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7FD3F44901EA7315": {
+      "xptype": "POINTS",
+      "amount": 1000,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"544C4964F5B857B1\" quest=\"6ADDFD55AD0DF7D4\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.inanite_creation</translate></p>",
+      "<reward reward=\"7FD3F44901EA7315\" quest=\"6ADDFD55AD0DF7D4\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -64,
+          448
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:inanite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "item.bigreactors.inanite_ingot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

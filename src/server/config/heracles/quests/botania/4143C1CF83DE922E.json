@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "23A2865FBE7831AB"
+  ],
+  "tasks": {
+    "65D28D69164FF766": {
+      "type": "heracles:item",
+      "item": "botania:terra_pick",
+      "nbt": {
+        "mana": 9999
+      }
+    }
+  },
+  "rewards": {
+    "55F2CC37949D63B0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:terra_pick",
+    "description": [
+      "<task task=\"65D28D69164FF766\" quest=\"4143C1CF83DE922E\"/>",
+      "<hr/>",
+      "It's not just a pickaxe, the &&9Terra Shatterer&&r also acts just like a Mana Tablet when tossed into a Mana Pool and can store a ton of mana. However, you will not be able to release the absorbed mana from the Shatterer. ",
+      "<br/>",
+      "The higher the amount of Mana stored in the tool, the higher the rank that it has, with D being the lowest and SS being the highest.",
+      "<br/>",
+      "Increasing the tool's rank does not increase its speed, but instead increases the AoE of its &&bActive Ability&&r, which can be toggled on and off by sneak-right clicking. When active, it increases the Shatterer's mining width and height based on the rank. Being at a rank of D will not have an ability.",
+      "<br/>",
+      "Note: As long as the tool is active, it will consume its stored mana.",
+      "<hr/>",
+      "<reward reward=\"55F2CC37949D63B0\" quest=\"4143C1CF83DE922E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terra_pick"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          560,
+          0
+        ]
+      }
+    }
+  }
+}

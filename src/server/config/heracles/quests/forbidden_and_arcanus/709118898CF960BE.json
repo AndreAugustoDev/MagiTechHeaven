@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "2ECD2C9267A13557": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:orb_of_temporary_flight"
+    }
+  },
+  "rewards": {
+    "775EC533EE1FAB6A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:orb_of_temporary_flight",
+    "description": [
+      "<task task=\"2ECD2C9267A13557\" quest=\"709118898CF960BE\"/>",
+      "<hr/>",
+      "Found randomly in loot chests from the End City.",
+      "<br/>",
+      "When used, it grants 5 minutes of creative flight.",
+      "<hr/>",
+      "<reward reward=\"775EC533EE1FAB6A\" quest=\"709118898CF960BE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:orb_of_temporary_flight"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -416,
+          176
+        ]
+      }
+    }
+  }
+}

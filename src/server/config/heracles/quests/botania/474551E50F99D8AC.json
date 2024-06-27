@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "4571B438D249F3D9": {
+      "type": "heracles:item",
+      "item": "botania:loonium"
+    }
+  },
+  "rewards": {
+    "2DF883FDE6570848": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:loonium",
+    "description": [
+      "<task task=\"4571B438D249F3D9\" quest=\"474551E50F99D8AC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2DF883FDE6570848\" quest=\"474551E50F99D8AC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:loonium"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -96,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5E41363F9AE243F3"
+  ],
+  "tasks": {
+    "215F37D96DF88189": {
+      "title": "Powah",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "2374BE0128AF2ED8": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"215F37D96DF88189\" quest=\"35ABB0DEE70DF7FD\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.powah</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2374BE0128AF2ED8\" quest=\"35ABB0DEE70DF7FD\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.powah"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

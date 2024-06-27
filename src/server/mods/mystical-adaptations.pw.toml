@@ -1,0 +1,13 @@
+name = "Mystical Adaptations"
+filename = "MysticalAdaptations-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JuNhazXF/versions/WdCcexbZ/MysticalAdaptations-1.20.1-1.0.1.jar"
+hash-format = "sha1"
+hash = "1bc3c63ba8e1b3aea1fa0f3589dd215d246ac089"
+
+[update]
+[update.modrinth]
+mod-id = "JuNhazXF"
+version = "WdCcexbZ"

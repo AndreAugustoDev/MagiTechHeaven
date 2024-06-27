@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "4645F8968B0B8BE5": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:rabbit_seeds"
+    }
+  },
+  "rewards": {
+    "5D6AF8B40BE48711": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:rabbit_seeds",
+    "description": [
+      "<task task=\"4645F8968B0B8BE5\" quest=\"38A77DBAD24C4B53\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5D6AF8B40BE48711\" quest=\"38A77DBAD24C4B53\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:rabbit_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -288,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5316DF321B45D2CA"
+  ],
+  "tasks": {
+    "15CDE30E1F7EBAD5": {
+      "type": "heracles:item",
+      "item": "occultism:dictionary_of_spirits",
+      "nbt": {
+        "modonomicon:book_id": "occultism:dictionary_of_spirits"
+      }
+    }
+  },
+  "rewards": {
+    "3D748FF1571433F2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Little Book o' §cDemons§r",
+    "description": [
+      "<task task=\"15CDE30E1F7EBAD5\" quest=\"6C1BBA559963B3DF\"/>",
+      "<hr/>",
+      "The &&aDictionary Of Spirits&&r serves as the Guide Book for &&dOccultism&&r. You'll absolutely need to make this if you want to continue with the mod!",
+      "<br/>",
+      "The Dictionary has a quest-style guide inside of it if you'd rather read it instead of doing these quests!",
+      "<br/>",
+      "You'll also need the book to craft several things in the pack, so you kind of have to make it. :)",
+      "<hr/>",
+      "<reward reward=\"3D748FF1571433F2\" quest=\"6C1BBA559963B3DF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:dictionary_of_spirits"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

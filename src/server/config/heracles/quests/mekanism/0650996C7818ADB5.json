@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F62B5510FA881CD"
+  ],
+  "tasks": {
+    "7BA12BAB8271E170": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:heat_generator"
+    }
+  },
+  "rewards": {
+    "7072D079156C2A44": {
+      "type": "heracles:item",
+      "item": {
+        "id": "alltheores:osmium_ingot"
+      }
+    },
+    "6D2DD795F34A4177": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanismgenerators:heat_generator",
+    "description": [
+      "<h2>Basic Power Gen</h2>",
+      "<hr/>",
+      "<task task=\"7BA12BAB8271E170\" quest=\"0650996C7818ADB5\"/>",
+      "<hr/>",
+      "The Heat Generator has 2 modes to generate power:",
+      "<br/>",
+      "&&9Passive:&&r Surrounding the generator with lava source or flowing blocks creates passive power by creating heat. Place one lava source block on top, and let it flow over the sides. Make sure to connect pipes first!",
+      "<br/>",
+      "&&9Active:&&r Placing combustible materials such as coal or wood into the generator will burn the fuel to create power.",
+      "<hr/>",
+      "<reward reward=\"7072D079156C2A44\" quest=\"0650996C7818ADB5\"/>",
+      "<reward reward=\"6D2DD795F34A4177\" quest=\"0650996C7818ADB5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:heat_generator"
+    },
+    "subtitle": {
+      "text": "Basic Power Gen"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -284,
+          -63
+        ]
+      }
+    }
+  }
+}

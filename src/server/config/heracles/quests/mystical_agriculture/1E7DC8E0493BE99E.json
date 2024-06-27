@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DFF18CFEB0B8DBE"
+  ],
+  "tasks": {
+    "549F9D9ED163CF60": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:water_seeds"
+    }
+  },
+  "rewards": {
+    "30A249AAB4B966F9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:water_seeds",
+    "description": [
+      "<task task=\"549F9D9ED163CF60\" quest=\"1E7DC8E0493BE99E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"30A249AAB4B966F9\" quest=\"1E7DC8E0493BE99E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:water_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -608,
+          -160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "3EDE79B7957D45AF": {
+      "title": "Coal Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:coal"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "0BEB353ACC73AD12": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Coal Bee",
+    "description": [
+      "<h2>Magmatic + Leafcutter</h2>",
+      "<hr/>",
+      "<task task=\"3EDE79B7957D45AF\" quest=\"71667FFC8011525C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0BEB353ACC73AD12\" quest=\"71667FFC8011525C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:coal"
+    },
+    "subtitle": {
+      "text": "Magmatic + Leafcutter"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          64,
+          320
+        ]
+      }
+    }
+  }
+}

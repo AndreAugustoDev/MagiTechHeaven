@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DE5F982629BB34",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "297B24A480069307": {
+      "type": "heracles:item",
+      "item": "powah:furnator_hardened"
+    }
+  },
+  "rewards": {
+    "0F62C43192364B78": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:furnator_hardened",
+    "description": [
+      "<task task=\"297B24A480069307\" quest=\"2AE17A935862BCBF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F62C43192364B78\" quest=\"2AE17A935862BCBF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:furnator_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          144,
+          432
+        ]
+      }
+    }
+  }
+}

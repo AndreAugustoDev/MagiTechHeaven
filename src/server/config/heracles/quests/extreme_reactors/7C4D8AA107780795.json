@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "5914D015D8543875",
+    "55DCA040C84DCEF3",
+    "501C6B7580453410"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"52B5D97C5675BBA7\" quest=\"7C4D8AA107780795\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.verderium_creation</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7B3F79DA7988E2AC\" quest=\"7C4D8AA107780795\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -128,
+          448
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:reinforced_reactorfluidaccessport",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bigreactors.rossinite"
+  },
+  "rewards": {
+    "7B3F79DA7988E2AC": {
+      "amount": 25,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "52B5D97C5675BBA7": {
+      "item": "bigreactors:reinforced_reactorfluidaccessport",
+      "type": "heracles:item"
+    }
+  }
+}

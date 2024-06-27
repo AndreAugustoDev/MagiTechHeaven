@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {},
+  "rewards": {
+    "36AC1DA2655AD3D3": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1FA39F402B7D0B8B\" quest=\"0D6D45DBA64E612D\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.unob</translate></p>",
+      "<hr/>",
+      "<reward reward=\"36AC1DA2655AD3D3\" quest=\"0D6D45DBA64E612D\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          144,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.unob"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

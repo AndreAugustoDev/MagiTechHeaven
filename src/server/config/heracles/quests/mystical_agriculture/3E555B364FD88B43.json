@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "67DBE6C59C0D9D1B"
+  ],
+  "tasks": {
+    "7572E0FF1D153196": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_growth_accelerator"
+    }
+  },
+  "rewards": {
+    "772E85D99E94298D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:supremium_growth_accelerator",
+    "description": [
+      "<task task=\"7572E0FF1D153196\" quest=\"3E555B364FD88B43\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"772E85D99E94298D\" quest=\"3E555B364FD88B43\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:supremium_growth_accelerator"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -16,
+          -16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0D330FAD6C993DBC"
+  ],
+  "tasks": {
+    "5E7DBDDD97BA8F13": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:archmage_spell_book"
+    }
+  },
+  "rewards": {
+    "0069DCEFE2EC5E72": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 1000
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:archmage_spell_book",
+    "description": [
+      "<task task=\"5E7DBDDD97BA8F13\" quest=\"17D7D34F519F7E5F\"/>",
+      "<hr/>",
+      "To create the final tier of your Spellbook, you'll need to have killed the &&6Wilden Chimera&&r.",
+      "<br/>",
+      "This is a Ritual that you'll need to complete using a &&9Ritual Brazier&&r.",
+      "<hr/>",
+      "<reward reward=\"0069DCEFE2EC5E72\" quest=\"17D7D34F519F7E5F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:archmage_spell_book"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          96
+        ]
+      }
+    }
+  }
+}

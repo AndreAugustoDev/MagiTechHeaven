@@ -1,0 +1,13 @@
+name = "Assembly Line"
+filename = "Assembly Line-1.20.1-0.6.0-3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SoWP7zzK/versions/R2FQoGsO/Assembly%20Line-1.20.1-0.6.0-3.jar"
+hash-format = "sha1"
+hash = "538aaafef1939a0ae5cf13c9563f818a701fa062"
+
+[update]
+[update.modrinth]
+mod-id = "SoWP7zzK"
+version = "R2FQoGsO"

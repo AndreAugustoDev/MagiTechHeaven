@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "6C02D97660F0347C": {
+      "type": "heracles:item",
+      "item": "silentgear:boots_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "50004D6B21F8E849": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6C02D97660F0347C\" quest=\"6912C0E3D092DD27\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"50004D6B21F8E849\" quest=\"6912C0E3D092DD27\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          256,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:boots_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.boots"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

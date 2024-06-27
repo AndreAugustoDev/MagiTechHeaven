@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "0E3CDD1130A56248": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_disenchantment"
+    }
+  },
+  "rewards": {
+    "7A632E03F9CD6324": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:book"
+      }
+    },
+    "47096C6969AB1279": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:dynamo_disenchantment",
+    "description": [
+      "<h2>Generates Power using Enchanted Items!</h2>",
+      "<hr/>",
+      "<task task=\"0E3CDD1130A56248\" quest=\"2EAE9EDE6EFA59F0\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"7A632E03F9CD6324\" quest=\"2EAE9EDE6EFA59F0\"/>",
+      "<reward reward=\"47096C6969AB1279\" quest=\"2EAE9EDE6EFA59F0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_disenchantment"
+    },
+    "subtitle": {
+      "text": "Generates Power using Enchanted Items!"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          240,
+          32
+        ]
+      }
+    }
+  }
+}

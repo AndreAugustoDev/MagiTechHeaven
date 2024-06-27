@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "tasks": {
+    "4E5DB7E53717FD3C": {
+      "type": "heracles:item",
+      "item": "enderchests:ender_chest",
+      "nbt": {
+        "code": "000",
+        "owner": "all"
+      }
+    },
+    "322CF20C9C5FB841": {
+      "type": "heracles:item",
+      "item": "endertanks:ender_tank",
+      "nbt": {
+        "code": "000",
+        "owner": "all"
+      }
+    }
+  },
+  "rewards": {
+    "1C3AB68685A3FD62": {
+      "type": "heracles:item",
+      "item": {
+        "id": "enderchests:ender_bag",
+        "count": 1,
+        "nbt": {
+          "code": "000",
+          "open": 0,
+          "owner": "all"
+        }
+      }
+    },
+    "43FE4B654819B6C4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "endertanks:ender_bucket",
+        "count": 1,
+        "nbt": {
+          "code": "000",
+          "owner": "all"
+        }
+      }
+    },
+    "28FA25B2F1E211A3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.ender",
+    "description": [
+      "<task task=\"4E5DB7E53717FD3C\" quest=\"3247179F0F0252A2\"/>",
+      "<task task=\"322CF20C9C5FB841\" quest=\"3247179F0F0252A2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.ender</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1C3AB68685A3FD62\" quest=\"3247179F0F0252A2\"/>",
+      "<reward reward=\"43FE4B654819B6C4\" quest=\"3247179F0F0252A2\"/>",
+      "<reward reward=\"28FA25B2F1E211A3\" quest=\"3247179F0F0252A2\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          80,
+          -48
+        ]
+      }
+    }
+  }
+}

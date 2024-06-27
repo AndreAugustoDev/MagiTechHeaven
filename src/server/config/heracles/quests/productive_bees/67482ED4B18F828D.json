@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "4471A530B55D4140": {
+      "title": "Osmium Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:osmium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "30C7803BBB6B7F56": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Osmium Bee",
+    "description": [
+      "<h2>Iron + Neon Cuckoo</h2>",
+      "<hr/>",
+      "<task task=\"4471A530B55D4140\" quest=\"67482ED4B18F828D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"30C7803BBB6B7F56\" quest=\"67482ED4B18F828D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:osmium_ingot"
+    },
+    "subtitle": {
+      "text": "Iron + Neon Cuckoo"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          96,
+          368
+        ]
+      }
+    }
+  }
+}

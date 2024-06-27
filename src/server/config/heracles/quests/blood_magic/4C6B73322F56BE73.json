@@ -1,0 +1,76 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C3CA7B9D1A7DC47"
+  ],
+  "tasks": {
+    "54A7E248C8A40239": {
+      "title": "Tier 2 Sigils",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "bloodmagic:growthsigil",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "bloodmagic:miningsigil",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "bloodmagic:seersigil"
+          },
+          {
+            "Count": 1,
+            "id": "bloodmagic:voidsigil"
+          },
+          {
+            "Count": 1,
+            "id": "bloodmagic:airsigil"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3D60528942A0F56B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Tier 2 Sigils",
+    "description": [
+      "<task task=\"54A7E248C8A40239\" quest=\"4C6B73322F56BE73\"/>",
+      "<hr/>",
+      "&&9Air Sigil&&r - Right Click to throw you in a direction you are facing for 50 LP.",
+      "<br/>",
+      "&&cVoid Sigil&&r - Right Click on any liquid to void it, costing 50 LP.",
+      "<br/>",
+      "&&6Seer's Sigil&&r - A better version of the Divination Sigil. Gives more info when looking at Altars.",
+      "<br/>",
+      "&&aMiner's Sigil&&r - Shift-Right Click to use 100LP per 5 seconds to give yourself a Haste buff.",
+      "<br/>",
+      "&&2Green Gove Sigil&&r - Right Clicking a crop that is growable will give it a bonemeal effect for 150LP. Shift-Right Clicking will consume 150LP per 5 seconds, increasing the growth rate of a 7x7x5 area. ",
+      "<hr/>",
+      "<reward reward=\"3D60528942A0F56B\" quest=\"4C6B73322F56BE73\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -704,
+          16
+        ]
+      }
+    }
+  }
+}

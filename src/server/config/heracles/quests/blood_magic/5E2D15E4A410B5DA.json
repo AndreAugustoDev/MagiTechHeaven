@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "50A28E1946047A6E"
+  ],
+  "tasks": {
+    "102AEEB23B1AA7EF": {
+      "type": "heracles:item",
+      "item": "bloodmagic:strong_tau"
+    }
+  },
+  "rewards": {
+    "5511EA668DC7B429": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:strong_tau",
+    "description": [
+      "<task task=\"102AEEB23B1AA7EF\" quest=\"5E2D15E4A410B5DA\"/>",
+      "<hr/>",
+      "Just like everything in this pack, &&cthe fruit thirsts for blood&&r. Plant the fruit and force a mob on top of it.",
+      "<br/>",
+      "It will drain the life force of the mob to become Saturated Tau.",
+      "<hr/>",
+      "<reward reward=\"5511EA668DC7B429\" quest=\"5E2D15E4A410B5DA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:strong_tau"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -448,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "3F1F4C069415D13A": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ring_of_lesser_discount"
+    },
+    "0A4973ED77865904": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ring_of_greater_discount"
+    }
+  },
+  "rewards": {
+    "17A1C1ED868C265F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"3F1F4C069415D13A\" quest=\"0A1ABE9CF7740AAA\"/>",
+      "<task task=\"0A4973ED77865904\" quest=\"0A1ABE9CF7740AAA\"/>",
+      "<hr/>",
+      "The Ring of Discount provides a small bonus to max mana and mana regen. It also reduces the total cost to cast a spell.",
+      "<hr/>",
+      "<reward reward=\"17A1C1ED868C265F\" quest=\"0A1ABE9CF7740AAA\"/>"
+    ],
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          304,
+          128
+        ]
+      }
+    }
+  }
+}

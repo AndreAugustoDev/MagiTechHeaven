@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C3CA7B9D1A7DC47"
+  ],
+  "tasks": {
+    "6C6CDA42FB379A80": {
+      "type": "heracles:item",
+      "item": "bloodmagic:sacrificerune"
+    }
+  },
+  "rewards": {
+    "23EBA079A86E799A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:sacrificerune",
+    "description": [
+      "<task task=\"6C6CDA42FB379A80\" quest=\"08F28A9E4DEA7CD0\"/>",
+      "<hr/>",
+      "This rune increases the amount of LP gained from taking blood away from non-player entities. Each one gives a bonus of 10% additively per rune.",
+      "<hr/>",
+      "<reward reward=\"23EBA079A86E799A\" quest=\"08F28A9E4DEA7CD0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:sacrificerune"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -720,
+          -64
+        ]
+      }
+    }
+  }
+}

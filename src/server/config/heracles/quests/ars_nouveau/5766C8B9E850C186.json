@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "33682F4B44950123"
+  ],
+  "tasks": {
+    "78B5B8F9CE9EC702": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:imbuement_chamber"
+    }
+  },
+  "rewards": {
+    "09511C532C90CDE3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "62B7E8C87CCD5E12": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:archwood_planks",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:imbuement_chamber",
+    "description": [
+      "<h2>Creating Source Gems</h2>",
+      "<hr/>",
+      "<task task=\"78B5B8F9CE9EC702\" quest=\"5766C8B9E850C186\"/>",
+      "<hr/>",
+      "To create one of the main crafting items in Ars, the &&9Source Gem&&r, we'll need to make an &&6Imbuement Chamber&&r.",
+      "<br/>",
+      "The Imbuement Chamber requires Source to imbue items. It produces a small amount of Source by itself, but can also use Source Jars as a power source.",
+      "<br/>",
+      "Several recipes also require Arcane Pedestals to be placed around it as well.",
+      "<br/>",
+      "<br/>",
+      "{image:atm:textures/questpics/ars/imbuement.png width:200 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"09511C532C90CDE3\" quest=\"5766C8B9E850C186\"/>",
+      "<reward reward=\"62B7E8C87CCD5E12\" quest=\"5766C8B9E850C186\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:imbuement_chamber"
+    },
+    "subtitle": {
+      "text": "Creating Source Gems"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          32,
+          0
+        ]
+      }
+    }
+  }
+}

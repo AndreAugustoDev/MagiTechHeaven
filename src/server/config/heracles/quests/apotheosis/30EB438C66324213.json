@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "211FBEB0E4FF1FD6": {
+      "type": "heracles:item",
+      "item": "minecraft:conduit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4961AE3E3A38253D": {
+      "item": {
+        "id": "minecraft:conduit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"211FBEB0E4FF1FD6\" quest=\"30EB438C66324213\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.conduit</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4961AE3E3A38253D\" quest=\"30EB438C66324213\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:conduit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.conduit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

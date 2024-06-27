@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "603877AB96321F1A"
+  ],
+  "tasks": {
+    "31D203EC92BEA66F": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_infuser"
+    }
+  },
+  "rewards": {
+    "576766449D68D6D4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:chemical_infuser",
+    "description": [
+      "<h2>The Chemical Combiner</h2>",
+      "<hr/>",
+      "<task task=\"31D203EC92BEA66F\" quest=\"04E2D539E33B7B0F\"/>",
+      "<hr/>",
+      "This machine combines two gases to create a new gas.",
+      "<br/>",
+      "You'll need this to combine Chlorine with Hydrogen to create Hyrdogen Chloride, which is then used in our Chemical Injection Chamber.",
+      "<hr/>",
+      "<reward reward=\"576766449D68D6D4\" quest=\"04E2D539E33B7B0F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_infuser"
+    },
+    "subtitle": {
+      "text": "The Chemical Combiner"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          208,
+          -112
+        ]
+      }
+    }
+  }
+}

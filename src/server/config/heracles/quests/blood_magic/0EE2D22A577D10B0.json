@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CA3AE708F46CEBF"
+  ],
+  "tasks": {
+    "7EB95246A2F0981D": {
+      "type": "heracles:item",
+      "item": "bloodmagic:accelerationrune"
+    }
+  },
+  "rewards": {
+    "0FDD0D502E4E581C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:accelerationrune",
+    "description": [
+      "<task task=\"7EB95246A2F0981D\" quest=\"0EE2D22A577D10B0\"/>",
+      "<hr/>",
+      "This rune accelerates the operations of other runes, like the Charging or Displacement Rune.",
+      "<br/>",
+      "It removes 1 tick of delay per rune, down to a minimum of 1 operation per tick.",
+      "<hr/>",
+      "<reward reward=\"0FDD0D502E4E581C\" quest=\"0EE2D22A577D10B0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:accelerationrune"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -432,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "2183800CED355EEB": {
+      "type": "heracles:item",
+      "item": "thermal:machine_centrifuge"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: thermal:machine_centrifuge",
+    "description": [
+      "<h2>Separates Items into their Crafting Components</h2>",
+      "<hr/>",
+      "<task task=\"2183800CED355EEB\" quest=\"3475E12711B6BB98\"/>",
+      "<hr/>",
+      "This machine is mostly for extracting dyes from flowers, or ore blends back into their components."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_centrifuge"
+    },
+    "subtitle": {
+      "text": "Separates Items into their Crafting Components"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0B68E3C046C82860"
+  ],
+  "tasks": {
+    "2DE570337D6E8368": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:slimec_pickaxe",
+      "nbt": {
+        "Enchantments": [
+          {
+            "id": "minecraft:silk_touch",
+            "lvl": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "75C6FCC257C6679D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:slimec_pickaxe",
+    "description": [
+      "<h2>A Silk-Touch Pickaxe</h2>",
+      "<hr/>",
+      "<task task=\"2DE570337D6E8368\" quest=\"2E114B4C441EF50D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"75C6FCC257C6679D\" quest=\"2E114B4C441EF50D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:slimec_pickaxe"
+    },
+    "subtitle": {
+      "text": "A Silk-Touch Pickaxe"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -48,
+          112
+        ]
+      }
+    }
+  }
+}

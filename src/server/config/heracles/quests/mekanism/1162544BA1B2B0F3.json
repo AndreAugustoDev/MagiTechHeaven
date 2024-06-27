@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41EB0C570FC54F43"
+  ],
+  "tasks": {
+    "78CFB8D559DA92AE": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_chemical_tank"
+    }
+  },
+  "rewards": {
+    "05ED665CB2C849D2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_chemical_tank",
+    "description": [
+      "<task task=\"78CFB8D559DA92AE\" quest=\"1162544BA1B2B0F3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"05ED665CB2C849D2\" quest=\"1162544BA1B2B0F3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_chemical_tank"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          64,
+          250
+        ]
+      }
+    }
+  }
+}

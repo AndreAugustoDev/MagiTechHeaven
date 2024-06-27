@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "7C2EB1E97E1F7C9D": {
+      "type": "heracles:item",
+      "item": "silentgear:bow_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4362F9342267B09D": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C2EB1E97E1F7C9D\" quest=\"6D9CDB4D81DC164D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4362F9342267B09D\" quest=\"6D9CDB4D81DC164D\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -112,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:bow_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.bow"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

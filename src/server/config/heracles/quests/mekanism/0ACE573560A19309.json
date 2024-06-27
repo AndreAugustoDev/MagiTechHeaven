@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "166971866A9234C7"
+  ],
+  "tasks": {
+    "1B5CF4B0B6D3F6F9": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_energy"
+    }
+  },
+  "rewards": {
+    "0B54660C3D8B7D52": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:upgrade_energy",
+    "description": [
+      "<task task=\"1B5CF4B0B6D3F6F9\" quest=\"0ACE573560A19309\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B54660C3D8B7D52\" quest=\"0ACE573560A19309\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_energy"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          320
+        ]
+      }
+    }
+  }
+}

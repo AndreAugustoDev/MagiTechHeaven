@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A103577EAE7B3F1"
+  ],
+  "tasks": {
+    "2B146AB565D648AF": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_watering_can",
+      "nbt": {
+        "Active": 0,
+        "Water": 0
+      }
+    }
+  },
+  "rewards": {
+    "7337814EDF6B0BD4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§cAwakened Watering§r",
+    "description": [
+      "<task task=\"2B146AB565D648AF\" quest=\"3A4B5A9B432576AD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7337814EDF6B0BD4\" quest=\"3A4B5A9B432576AD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_watering_can"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          64,
+          160
+        ]
+      }
+    }
+  }
+}

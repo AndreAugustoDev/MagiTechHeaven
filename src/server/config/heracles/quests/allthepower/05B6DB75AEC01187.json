@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "76EA017B12E8F01B"
+  ],
+  "tasks": {},
+  "rewards": {
+    "54A1A37A02201DB9": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.cells"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.cells</translate></h2>",
+      "<hr/>",
+      "<task task=\"7CA8741CA073C1DA\" quest=\"05B6DB75AEC01187\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.cells</translate></p>",
+      "<hr/>",
+      "<reward reward=\"54A1A37A02201DB9\" quest=\"05B6DB75AEC01187\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          128,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.cells"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

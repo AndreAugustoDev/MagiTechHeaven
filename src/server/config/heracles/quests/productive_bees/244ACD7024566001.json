@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "7CD2C8E1A5F4B3D2": {
+      "title": "Frosty Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:frosty"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "3AA4DE5C8F5D0955": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Frosty Bee",
+    "description": [
+      "<h2>Feed a Sweat Bee Ice!</h2>",
+      "<hr/>",
+      "<task task=\"7CD2C8E1A5F4B3D2\" quest=\"244ACD7024566001\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3AA4DE5C8F5D0955\" quest=\"244ACD7024566001\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ice"
+    },
+    "subtitle": {
+      "text": "Feed a Sweat Bee Ice!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          432
+        ]
+      }
+    }
+  }
+}

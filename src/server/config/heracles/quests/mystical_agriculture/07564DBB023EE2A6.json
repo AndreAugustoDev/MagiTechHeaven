@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "0932A42E423E21A3": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:experience_seeds"
+    },
+    "556BB8B22E877BC5": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:experience_capsule"
+    }
+  },
+  "rewards": {
+    "2F326318E6A9FF1B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"0932A42E423E21A3\" quest=\"07564DBB023EE2A6\"/>",
+      "<task task=\"556BB8B22E877BC5\" quest=\"07564DBB023EE2A6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2F326318E6A9FF1B\" quest=\"07564DBB023EE2A6\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -128,
+          48
+        ]
+      }
+    }
+  }
+}

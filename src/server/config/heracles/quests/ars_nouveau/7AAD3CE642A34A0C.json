@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "32C20AFC9A4A0E0E": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_blink"
+    }
+  },
+  "rewards": {
+    "74B74CC8FDF44689": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_blink",
+    "description": [
+      "<task task=\"32C20AFC9A4A0E0E\" quest=\"7AAD3CE642A34A0C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"74B74CC8FDF44689\" quest=\"7AAD3CE642A34A0C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_blink"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          -208
+        ]
+      }
+    }
+  }
+}

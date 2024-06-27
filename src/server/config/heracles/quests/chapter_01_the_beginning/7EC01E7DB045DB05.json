@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "2AEBE3F28996A6ED"
+  ],
+  "tasks": {},
+  "rewards": {
+    "535A39E4C6E7F4AD": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3BEA6C6A41D5ABEA\" quest=\"7EC01E7DB045DB05\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.furnace_upgrade</translate></p>",
+      "<hr/>",
+      "<reward reward=\"535A39E4C6E7F4AD\" quest=\"7EC01E7DB045DB05\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          176,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.furnace_upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "05867D444D20EABE": {
+      "type": "heracles:item",
+      "item": "thermal:machine_bottler"
+    }
+  },
+  "rewards": {
+    "05CAA4581B7D1435": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_bottler",
+    "description": [
+      "<task task=\"05867D444D20EABE\" quest=\"469663FE3DA932EF\"/>",
+      "<hr/>",
+      "Combines Liquids with Items",
+      "<hr/>",
+      "<reward reward=\"05CAA4581B7D1435\" quest=\"469663FE3DA932EF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_bottler"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -32,
+          -96
+        ]
+      }
+    }
+  }
+}

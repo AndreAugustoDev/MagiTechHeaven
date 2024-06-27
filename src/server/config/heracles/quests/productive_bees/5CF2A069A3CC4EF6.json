@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "5DE213018E8C64A7": {
+      "title": "Silky Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:silky"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "4AE2620E06B52BBA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Silky Bee",
+    "description": [
+      "<h2>Resin + Reed</h2>",
+      "<hr/>",
+      "<task task=\"5DE213018E8C64A7\" quest=\"5CF2A069A3CC4EF6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AE2620E06B52BBA\" quest=\"5CF2A069A3CC4EF6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:string"
+    },
+    "subtitle": {
+      "text": "Resin + Reed"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -32,
+          528
+        ]
+      }
+    }
+  }
+}

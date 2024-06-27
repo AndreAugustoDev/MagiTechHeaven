@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "375FF0D8ACD2E17F"
+  ],
+  "tasks": {
+    "7BB6F203FCA31A25": {
+      "type": "heracles:item",
+      "item": "bloodmagic:magicianbloodorb"
+    }
+  },
+  "rewards": {
+    "7848C02921758A7E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:magicianbloodorb",
+    "description": [
+      "<h2>Holds a max of 150k LP</h2>",
+      "<hr/>",
+      "<task task=\"7BB6F203FCA31A25\" quest=\"0E51D6BB2BC756B6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7848C02921758A7E\" quest=\"0E51D6BB2BC756B6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:magicianbloodorb"
+    },
+    "subtitle": {
+      "text": "Holds a max of 150k LP"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -576,
+          -80
+        ]
+      }
+    }
+  }
+}

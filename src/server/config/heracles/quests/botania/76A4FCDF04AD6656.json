@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "3B60A8D021393754": {
+      "type": "heracles:item",
+      "item": "botania:elementium_axe"
+    }
+  },
+  "rewards": {
+    "70AD0078EC883225": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:elementium_axe",
+    "description": [
+      "<task task=\"3B60A8D021393754\" quest=\"76A4FCDF04AD6656\"/>",
+      "<hr/>",
+      "Can drop skulls from certain mobs or players when dealing the finishing blow. Can also be enchanted with Looting.",
+      "<hr/>",
+      "<reward reward=\"70AD0078EC883225\" quest=\"76A4FCDF04AD6656\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:elementium_axe"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          656,
+          -48
+        ]
+      }
+    }
+  }
+}

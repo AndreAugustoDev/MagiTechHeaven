@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "094F0FCF9A64EE00": {
+      "title": "Warped Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:warped"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "1D2DDC683FE6A9C3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Warped Shroombee",
+    "description": [
+      "<h2>Feed a Shroombee Warped Fungus!</h2>",
+      "<hr/>",
+      "<task task=\"094F0FCF9A64EE00\" quest=\"2982D38BD5EE6349\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1D2DDC683FE6A9C3\" quest=\"2982D38BD5EE6349\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:warped_fungus"
+    },
+    "subtitle": {
+      "text": "Feed a Shroombee Warped Fungus!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          496
+        ]
+      }
+    }
+  }
+}

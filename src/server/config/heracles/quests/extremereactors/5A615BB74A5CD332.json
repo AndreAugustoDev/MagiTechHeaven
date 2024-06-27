@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "7E07C5A6FA6B6B1F"
+  ],
+  "tasks": {
+    "184BDD80596398A0": {
+      "type": "heracles:item",
+      "item": "bigreactors:ludicrite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "0C1C624F8D84DE63": {
+      "type": "heracles:item",
+      "item": "bigreactors:ridiculite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0694F5807F48509A": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"184BDD80596398A0\" quest=\"5A615BB74A5CD332\"/>",
+      "<task task=\"0C1C624F8D84DE63\" quest=\"5A615BB74A5CD332\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reprocessor_usage</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0694F5807F48509A\" quest=\"5A615BB74A5CD332\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          448
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

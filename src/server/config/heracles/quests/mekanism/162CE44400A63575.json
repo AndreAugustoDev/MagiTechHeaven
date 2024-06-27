@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0650996C7818ADB5"
+  ],
+  "tasks": {
+    "28277BA9F319240D": {
+      "type": "heracles:item",
+      "item": "mekanism:metallurgic_infuser"
+    }
+  },
+  "rewards": {
+    "52FEA6D9C1258DA8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 2
+      }
+    },
+    "52912755CBA30A4D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:metallurgic_infuser",
+    "description": [
+      "<h2>The Starting Machine</h2>",
+      "<hr/>",
+      "<task task=\"28277BA9F319240D\" quest=\"162CE44400A63575\"/>",
+      "<hr/>",
+      "The Metallurgic Infuser is used to craft core crafting components throughout Mekanism.",
+      "<br/>",
+      "The machine works by infusing a material (middle-left slot) with an \"infuser\" (far-left slot).",
+      "<br/>",
+      "This is also how you get Steel Ingots.",
+      "<hr/>",
+      "<reward reward=\"52FEA6D9C1258DA8\" quest=\"162CE44400A63575\"/>",
+      "<reward reward=\"52912755CBA30A4D\" quest=\"162CE44400A63575\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:metallurgic_infuser"
+    },
+    "subtitle": {
+      "text": "The Starting Machine"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -224,
+          -64
+        ]
+      }
+    }
+  }
+}

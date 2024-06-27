@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "11D37E7391B49A88"
+  ],
+  "tasks": {
+    "55AF014185F20835": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgemlesser"
+    }
+  },
+  "rewards": {
+    "6C398EB3B8CC167B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:soulgemlesser",
+    "description": [
+      "<task task=\"55AF014185F20835\" quest=\"487275B970530E3F\"/>",
+      "<hr/>",
+      "An upgrade to our Will storage. This will hold a max of 256 Will.",
+      "<hr/>",
+      "<reward reward=\"6C398EB3B8CC167B\" quest=\"487275B970530E3F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgemlesser"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -800,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "46E665F97A2BECB6": {
+      "title": "Flux Linkage Amplifier",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:machine_speed_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_speed_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_speed_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_speed_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_speed_augment_4"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "10EE19CDB35235F4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Flux Linkage Amplifier",
+    "description": [
+      "<h2>Increases Processing Speed, but Reduces Efficiency</h2>",
+      "<hr/>",
+      "<task task=\"46E665F97A2BECB6\" quest=\"74DD4F8A13EAD3ED\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"10EE19CDB35235F4\" quest=\"74DD4F8A13EAD3ED\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases Processing Speed, but Reduces Efficiency"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          16,
+          102
+        ]
+      }
+    }
+  }
+}

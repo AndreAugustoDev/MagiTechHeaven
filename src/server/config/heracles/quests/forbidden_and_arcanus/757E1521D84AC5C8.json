@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C6719D81DE5A614"
+  ],
+  "tasks": {
+    "0C10EC722BA7DEA1": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:test_tube"
+    }
+  },
+  "rewards": {
+    "7223A34DD27FE40E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§4Blood",
+    "description": [
+      "<task task=\"0C10EC722BA7DEA1\" quest=\"757E1521D84AC5C8\"/>",
+      "<hr/>",
+      "Blood is collected by crafting Test Tubes, then killing mobs with the Mystical Dagger.",
+      "<br/>",
+      "Note: The Test Tube must be in your inventory when killing mobs.",
+      "<hr/>",
+      "<reward reward=\"7223A34DD27FE40E\" quest=\"757E1521D84AC5C8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:test_tube"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          160,
+          80
+        ]
+      }
+    }
+  }
+}

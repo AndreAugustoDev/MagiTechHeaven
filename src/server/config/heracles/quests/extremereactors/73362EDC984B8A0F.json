@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "tasks": {},
+  "rewards": {
+    "56D7ED254FC3A540": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.bigreactors.subt.reactors_moderators"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.reactors_moderators</translate></h2>",
+      "<hr/>",
+      "<task task=\"0D4AE8FBAA953732\" quest=\"73362EDC984B8A0F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_moderators</translate></p>",
+      "<hr/>",
+      "<reward reward=\"56D7ED254FC3A540\" quest=\"73362EDC984B8A0F\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -224,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.reactor_moderators"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

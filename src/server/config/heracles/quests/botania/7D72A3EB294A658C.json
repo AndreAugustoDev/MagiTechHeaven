@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "5BC990D9FA30C81B": {
+      "type": "heracles:item",
+      "item": "botania:daffomill"
+    }
+  },
+  "rewards": {
+    "594188DD54DE3EE4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:daffomill",
+    "description": [
+      "<task task=\"5BC990D9FA30C81B\" quest=\"7D72A3EB294A658C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"594188DD54DE3EE4\" quest=\"7D72A3EB294A658C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:daffomill"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          16
+        ]
+      }
+    }
+  }
+}

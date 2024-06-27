@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "50A2D68A83A50F47"
+  ],
+  "tasks": {
+    "078E142753C8FA7B": {
+      "type": "heracles:item",
+      "item": "botania:odin_ring",
+      "nbt": {
+        "baubleUUID": [
+          -68256365,
+          -428781930,
+          -1518441386,
+          -645335533
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "2B5648DCC65FFD87": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:odin_ring",
+    "description": [
+      "<task task=\"078E142753C8FA7B\" quest=\"0C56CB7815A1355C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2B5648DCC65FFD87\" quest=\"0C56CB7815A1355C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:odin_ring"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          864,
+          144
+        ]
+      }
+    }
+  }
+}

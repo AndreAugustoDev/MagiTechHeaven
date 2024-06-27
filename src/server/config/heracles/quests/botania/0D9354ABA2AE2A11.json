@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "30F7B68093D76590"
+  ],
+  "tasks": {
+    "0B549F7000B06C0D": {
+      "type": "heracles:item",
+      "item": "botania:incense_stick"
+    }
+  },
+  "rewards": {
+    "401FF6D8EC4E3C9B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:incense_stick",
+    "description": [
+      "<task task=\"0B549F7000B06C0D\" quest=\"0D9354ABA2AE2A11\"/>",
+      "<hr/>",
+      "&&2Incense Sticks&&r can be infused with Brews in a Botanical Brewery. These can be lit using flint and steel on an &&9Incense Plate&&r to provide the brew effect for sixty times longer than its liquid counterpart, in a 30-block radius around the plate.",
+      "<hr/>",
+      "<reward reward=\"401FF6D8EC4E3C9B\" quest=\"0D9354ABA2AE2A11\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:incense_stick"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          208
+        ]
+      }
+    }
+  }
+}

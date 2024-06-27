@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "4A80AC1DE4002191": {
+      "type": "heracles:item",
+      "item": "create:linear_chassis"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:linear_chassis",
+    "description": [
+      "<task task=\"4A80AC1DE4002191\" quest=\"51EA6B1452883AB2\"/>",
+      "<hr/>",
+      "The &&n&&5Linear Chassis&&r can be used similar to the &&n&&5Super Glue&&r. It will connect blocks in a line without the need for glue."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:linear_chassis"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2EF4DD5CC254CC80"
+  ],
+  "tasks": {
+    "131392325AEB228E": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_mechanical_pipe"
+    }
+  },
+  "rewards": {
+    "43AF0D7C4057994C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_mechanical_pipe",
+    "description": [
+      "<task task=\"131392325AEB228E\" quest=\"1A72F7DA24E1BB09\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"43AF0D7C4057994C\" quest=\"1A72F7DA24E1BB09\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_mechanical_pipe"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -32,
+          160
+        ]
+      }
+    }
+  }
+}

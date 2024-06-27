@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "0C0D6A9D01FED776": {
+      "title": "Invar Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:invar"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "624B0D86B65B6DF9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Invar Bee",
+    "description": [
+      "<h2>Iron + Nickel</h2>",
+      "<hr/>",
+      "<task task=\"0C0D6A9D01FED776\" quest=\"734A72A4C898BDFB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"624B0D86B65B6DF9\" quest=\"734A72A4C898BDFB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:invar_ingot"
+    },
+    "subtitle": {
+      "text": "Iron + Nickel"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -32,
+          432
+        ]
+      }
+    }
+  }
+}

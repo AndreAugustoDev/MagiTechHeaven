@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C873491F6F0FFAF"
+  ],
+  "tasks": {
+    "3A9C5AE548810FA6": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "occultism:sacrificial_bowl"
+    },
+    "0446B7C6DBB5DDF9": {
+      "type": "heracles:item",
+      "item": "occultism:golden_sacrificial_bowl"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Preparing for a Ritual: §dCrystals§r",
+    "description": [
+      "<task task=\"3A9C5AE548810FA6\" quest=\"7F09F8F98C13F11B\"/>",
+      "<task task=\"0446B7C6DBB5DDF9\" quest=\"7F09F8F98C13F11B\"/>",
+      "<hr/>",
+      "What is a Demonic Ritual without a &&cSacrifice&&r! :D",
+      "<br/>",
+      "Most of the time, Demons just like items so don't be too afraid yet. However, if you have a favorite Cow, you might need to be worried. Sorry Betsy.",
+      "<br/>",
+      "&&aSacrifical Bowls&&r are used to place items needed for Rituals. These can be placed anywhere within the Ritual, as long as it isn't convering up any of the required Chalk.",
+      "<br/>",
+      "The &&6Golden Sacrificial Bowl&&r is used in the middle of the Ritual to activate it, and also usually needs a Book of Binding for the Ritual in it."
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          432,
+          32
+        ]
+      }
+    }
+  }
+}

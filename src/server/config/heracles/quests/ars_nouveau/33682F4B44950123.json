@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "64D0E66CB4FBEC82"
+  ],
+  "tasks": {
+    "163A6E303D6F419D": {
+      "title": "Archwood Logs",
+      "type": "heracles:item",
+      "item": "#forge:logs/archwood"
+    },
+    "7508E906C021AB6B": {
+      "title": "Archwood Planks",
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "#forge:planks/archwood"
+    }
+  },
+  "rewards": {
+    "33B8442826203713": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:blue_archwood_sapling"
+      }
+    },
+    "5C16757EA6C22406": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Archwood logs",
+    "description": [
+      "<task task=\"163A6E303D6F419D\" quest=\"33682F4B44950123\"/>",
+      "<task task=\"7508E906C021AB6B\" quest=\"33682F4B44950123\"/>",
+      "<hr/>",
+      "To gain further knowledge of spells, we'll need a specific type of magical wood!",
+      "<br/>",
+      "Archwood Trees can be found in the overworld.",
+      "<hr/>",
+      "<reward reward=\"33B8442826203713\" quest=\"33682F4B44950123\"/>",
+      "<reward reward=\"5C16757EA6C22406\" quest=\"33682F4B44950123\"/>"
+    ],
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          0
+        ]
+      }
+    }
+  }
+}

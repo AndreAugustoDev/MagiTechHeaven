@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0631F054A9B97A40"
+  ],
+  "tasks": {
+    "4E9712523E4B94E8": {
+      "type": "heracles:item",
+      "item": "botania:brewery"
+    }
+  },
+  "rewards": {
+    "1E29B9EBAF70CA6C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:brewery",
+    "description": [
+      "<task task=\"4E9712523E4B94E8\" quest=\"30F7B68093D76590\"/>",
+      "<hr/>",
+      "Using vials, Mana, and reagents in a &&aBotanical Brewery&&r, you can create &&9Brews&&r which are just like Potions.",
+      "<hr/>",
+      "<reward reward=\"1E29B9EBAF70CA6C\" quest=\"30F7B68093D76590\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:brewery"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          176
+        ]
+      }
+    }
+  }
+}

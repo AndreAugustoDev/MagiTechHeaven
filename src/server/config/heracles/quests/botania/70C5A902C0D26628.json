@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "7A359C1F5E041C4F",
+    "205BBDFBCA582E3B"
+  ],
+  "tasks": {
+    "43C86CA84DC14E8A": {
+      "title": "Mana-Infused Materials",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "botania:manasteel_ingot"
+          },
+          {
+            "Count": 1,
+            "id": "botania:mana_pearl"
+          },
+          {
+            "Count": 1,
+            "id": "botania:mana_diamond"
+          },
+          {
+            "Count": 1,
+            "id": "botania:mana_string"
+          },
+          {
+            "Count": 1,
+            "id": "botania:mana_powder"
+          },
+          {
+            "Count": 1,
+            "id": "botania:quartz_mana"
+          },
+          {
+            "Count": 1,
+            "id": "botania:manasteel_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:mana_glass"
+          },
+          {
+            "Count": 1,
+            "id": "botania:mana_diamond_block"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "1F416DEEB92E89D8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Creating Mana-Infused Resources",
+    "description": [
+      "<task task=\"43C86CA84DC14E8A\" quest=\"70C5A902C0D26628\"/>",
+      "<hr/>",
+      "By tossing in certain items into a &&bMana Pool&&r, you can infuse them with &&9Mana&&r.",
+      "<br/>",
+      "To see how much mana is needed for the item, make sure to check the recipe in JEI!",
+      "<br/>",
+      "Pro Tip: If you have enough mana, try creating Manasteel or Mana Diamond blocks to save time!",
+      "<hr/>",
+      "<reward reward=\"1F416DEEB92E89D8\" quest=\"70C5A902C0D26628\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          400,
+          80
+        ]
+      }
+    }
+  }
+}

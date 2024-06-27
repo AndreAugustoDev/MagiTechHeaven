@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "46B515C90C13A72F"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3F9B24F1C49F64F7\" quest=\"254DD23FB7AEB36B\"/>",
+      "<task task=\"4E4D168DD2B50586\" quest=\"254DD23FB7AEB36B\"/>",
+      "<task task=\"65334074F9662481\" quest=\"254DD23FB7AEB36B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.drills",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          64,
+          528
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.drills"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

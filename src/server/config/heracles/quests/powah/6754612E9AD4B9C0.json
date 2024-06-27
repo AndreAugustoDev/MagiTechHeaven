@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "05B0A7D0B991050F",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "6CA9B3DA3B774238": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "powah:reactor_blazing"
+    }
+  },
+  "rewards": {
+    "62477697CA962B0F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Reactor (Blazing)",
+    "description": [
+      "<task task=\"6CA9B3DA3B774238\" quest=\"6754612E9AD4B9C0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"62477697CA962B0F\" quest=\"6754612E9AD4B9C0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:reactor_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          208,
+          464
+        ]
+      }
+    }
+  }
+}

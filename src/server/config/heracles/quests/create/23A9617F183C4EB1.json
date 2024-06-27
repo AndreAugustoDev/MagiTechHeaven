@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "3E2A4428BDE92738": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "create:large_cogwheel"
+    }
+  },
+  "rewards": {
+    "01DCE2A5A57DAEC5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:large_cogwheel",
+    "description": [
+      "<task task=\"3E2A4428BDE92738\" quest=\"23A9617F183C4EB1\"/>",
+      "<hr/>",
+      "The &&n&&5Cogwheel&&r transfers rotational power but also doubles or halves speed.",
+      "<br/>",
+      "Doubling speed will also double the stress in the system.",
+      "<hr/>",
+      "<reward reward=\"01DCE2A5A57DAEC5\" quest=\"23A9617F183C4EB1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:large_cogwheel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          -192
+        ]
+      }
+    }
+  }
+}

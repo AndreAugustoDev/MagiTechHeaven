@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "376F8FB39341A76F": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:sewage_composter"
+    },
+    "3A617FF0FF39C742": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:spores_recreator"
+    }
+  },
+  "rewards": {
+    "5AABE475B6A7A7E1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Other Machines",
+    "description": [
+      "<task task=\"376F8FB39341A76F\" quest=\"3E6706BC4C318A40\"/>",
+      "<task task=\"3A617FF0FF39C742\" quest=\"3E6706BC4C318A40\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5AABE475B6A7A7E1\" quest=\"3E6706BC4C318A40\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          240,
+          -128
+        ]
+      }
+    }
+  }
+}

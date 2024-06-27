@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "6887F86C8673DAF6": {
+      "title": "Reed Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "447B59A2C9693336": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Reed Bee",
+    "description": [
+      "<h2>Spawns from a Reed Nest</h2>",
+      "<hr/>",
+      "<task task=\"6887F86C8673DAF6\" quest=\"097DE7038A746847\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"447B59A2C9693336\" quest=\"097DE7038A746847\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:sugar_cane_nest"
+    },
+    "subtitle": {
+      "text": "Spawns from a Reed Nest"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          496
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "3B2B3F7BC100A618": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:plant_gatherer"
+    },
+    "77DA9E89A314968B": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:plant_sower"
+    }
+  },
+  "rewards": {
+    "20588A723CB45234": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Plants",
+    "description": [
+      "<task task=\"3B2B3F7BC100A618\" quest=\"6C001E18093FC037\"/>",
+      "<task task=\"77DA9E89A314968B\" quest=\"6C001E18093FC037\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20588A723CB45234\" quest=\"6C001E18093FC037\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          208,
+          -112
+        ]
+      }
+    }
+  }
+}

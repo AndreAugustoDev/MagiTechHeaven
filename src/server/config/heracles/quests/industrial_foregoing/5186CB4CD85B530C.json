@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "1E468D6A624E64E2": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_potion"
+    }
+  },
+  "rewards": {
+    "5F1811CD65E2047F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_potion",
+    "description": [
+      "<task task=\"1E468D6A624E64E2\" quest=\"5186CB4CD85B530C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5F1811CD65E2047F\" quest=\"5186CB4CD85B530C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_potion"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          432,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "79757F66DF263FA0"
+  ],
+  "tasks": {
+    "1F82E1E037CBDC34": {
+      "type": "heracles:item",
+      "item": "mekanism:laser_amplifier"
+    },
+    "64C66199BBFDF908": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "mekanism:laser"
+    }
+  },
+  "rewards": {
+    "1D08E38CECF7C7E8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Jumpstarting Method: §dLaser Focus Array§r",
+    "description": [
+      "<task task=\"1F82E1E037CBDC34\" quest=\"320CC038A64A3195\"/>",
+      "<task task=\"64C66199BBFDF908\" quest=\"320CC038A64A3195\"/>",
+      "<hr/>",
+      "To see a visual, check out the Ponder by holding &&aW&&r while hovering over the Laser Focus Matrix.",
+      "<br/>",
+      "The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few.",
+      "<br/>",
+      "In the image below, you can see an example of how this is set up. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier.",
+      "<br/>",
+      "The Laser Amplifier has a red dot on one of the faces. This is what you want to point towards the Laser Focus Matrix.",
+      "<br/>",
+      "Make sure to turn the Laser Amplifier off (or activate Redstone control) and wait for it to store &&cat least 400MRF&&r, then it'll be ready.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1} ",
+      "<hr/>",
+      "<reward reward=\"1D08E38CECF7C7E8\" quest=\"320CC038A64A3195\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          464,
+          -192
+        ]
+      }
+    }
+  }
+}

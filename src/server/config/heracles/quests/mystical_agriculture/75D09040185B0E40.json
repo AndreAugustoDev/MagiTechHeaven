@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "4AC1F7DF47EB532C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:pig_seeds"
+    }
+  },
+  "rewards": {
+    "2B560CCBF77BFF7F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:pig_seeds",
+    "description": [
+      "<task task=\"4AC1F7DF47EB532C\" quest=\"75D09040185B0E40\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2B560CCBF77BFF7F\" quest=\"75D09040185B0E40\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:pig_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -480,
+          16
+        ]
+      }
+    }
+  }
+}

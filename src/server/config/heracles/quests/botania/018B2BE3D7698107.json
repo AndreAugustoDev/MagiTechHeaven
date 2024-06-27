@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "7EB485F46B1A3DAB": {
+      "type": "heracles:item",
+      "item": "botania:marimorphosis"
+    }
+  },
+  "rewards": {
+    "3E6FA02C12DB0E83": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:marimorphosis",
+    "description": [
+      "<task task=\"7EB485F46B1A3DAB\" quest=\"018B2BE3D7698107\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3E6FA02C12DB0E83\" quest=\"018B2BE3D7698107\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:marimorphosis"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -128,
+          80
+        ]
+      }
+    }
+  }
+}

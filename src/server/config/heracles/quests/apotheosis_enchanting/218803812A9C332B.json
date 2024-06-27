@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "1D06097B6206BA60"
+  ],
+  "tasks": {},
+  "rewards": {
+    "0161A1B6EDB7214F": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6AA52E3ABC6B3EE1\" quest=\"218803812A9C332B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.infused_hellshelf</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0161A1B6EDB7214F\" quest=\"218803812A9C332B\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          128,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.infused_hellshelf"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

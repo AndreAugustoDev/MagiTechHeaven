@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {},
+  "rewards": {
+    "57949E0DF2C7478A": {
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"189B87AF99321862\" quest=\"0060BCEDABC9BE2E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.exp</translate></p>",
+      "<hr/>",
+      "<reward reward=\"57949E0DF2C7478A\" quest=\"0060BCEDABC9BE2E\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          -32,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.exp"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

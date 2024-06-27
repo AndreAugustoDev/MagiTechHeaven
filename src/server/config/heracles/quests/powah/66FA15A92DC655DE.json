@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "78202A1CF5D86B94",
+    "7E92ED270C67FDE5",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "166247828A9C16E2": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_basic"
+    }
+  },
+  "rewards": {
+    "298D2BB87179CA21": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cell_basic",
+    "description": [
+      "<task task=\"166247828A9C16E2\" quest=\"66FA15A92DC655DE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"298D2BB87179CA21\" quest=\"66FA15A92DC655DE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          400
+        ]
+      }
+    }
+  }
+}

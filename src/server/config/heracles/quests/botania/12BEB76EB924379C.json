@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "55AD493BAD9D6E10": {
+      "type": "heracles:item",
+      "item": "botania:lens_fire"
+    }
+  },
+  "rewards": {
+    "21DDAB78B2C17D66": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_fire",
+    "description": [
+      "<task task=\"55AD493BAD9D6E10\" quest=\"12BEB76EB924379C\"/>",
+      "<hr/>",
+      "Allows the Mana Burst to catch blocks on fire. It will not work on living beings.",
+      "<hr/>",
+      "<reward reward=\"21DDAB78B2C17D66\" quest=\"12BEB76EB924379C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_fire"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          384,
+          400
+        ]
+      }
+    }
+  }
+}

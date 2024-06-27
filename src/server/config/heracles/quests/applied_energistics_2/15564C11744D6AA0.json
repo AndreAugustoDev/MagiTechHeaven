@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "51236544BFEF487B"
+  ],
+  "tasks": {
+    "41282D3DCFEB5136": {
+      "type": "heracles:item",
+      "item": "ae2:engineering_processor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2B6D34E0CD1999C9": {
+      "type": "heracles:item",
+      "item": "ae2:logic_processor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "54C120660252682A": {
+      "type": "heracles:item",
+      "item": "ae2:calculation_processor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6F428D141799FF83": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2B6D34E0CD1999C9\" quest=\"15564C11744D6AA0\"/>",
+      "<task task=\"54C120660252682A\" quest=\"15564C11744D6AA0\"/>",
+      "<task task=\"41282D3DCFEB5136\" quest=\"15564C11744D6AA0\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.processors</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6F428D141799FF83\" quest=\"15564C11744D6AA0\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          192,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.processors"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

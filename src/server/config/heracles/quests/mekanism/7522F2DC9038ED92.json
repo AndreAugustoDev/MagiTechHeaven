@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "531E3FF1F2865C67"
+  ],
+  "tasks": {
+    "7B1C318ACC88ED60": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_thermodynamic_conductor"
+    }
+  },
+  "rewards": {
+    "1DAAB1C491A45FA6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_thermodynamic_conductor",
+    "description": [
+      "<task task=\"7B1C318ACC88ED60\" quest=\"7522F2DC9038ED92\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1DAAB1C491A45FA6\" quest=\"7522F2DC9038ED92\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_thermodynamic_conductor"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          160,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "tasks": {
+    "4A123A454CDD7120": {
+      "type": "heracles:item",
+      "item": "bigreactors:fluidizercontroller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0A9859E493DA20A2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4A123A454CDD7120\" quest=\"25D4406CB86C8CBB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.fluidizer</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0A9859E493DA20A2\" quest=\"25D4406CB86C8CBB\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -128,
+          304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:fluidizercontroller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.fluidizer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

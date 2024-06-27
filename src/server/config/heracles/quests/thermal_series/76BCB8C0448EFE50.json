@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "034FC4BCCCD7D154"
+  ],
+  "tasks": {
+    "41B789CFB591439D": {
+      "type": "heracles:item",
+      "item": "thermal_extra:upgrade_augment"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: thermal_extra:upgrade_augment",
+    "description": [
+      "<h2>Tier 4 Base Upgrade</h2>",
+      "<hr/>",
+      "<task task=\"41B789CFB591439D\" quest=\"76BCB8C0448EFE50\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal_extra:upgrade_augment"
+    },
+    "subtitle": {
+      "text": "Tier 4 Base Upgrade"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          112,
+          64
+        ]
+      }
+    }
+  }
+}

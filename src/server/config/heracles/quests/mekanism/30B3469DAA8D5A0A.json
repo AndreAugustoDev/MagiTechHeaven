@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5B681BC43371CC5C"
+  ],
+  "tasks": {
+    "631FDADA57127F2E": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_logistical_transporter"
+    }
+  },
+  "rewards": {
+    "6BBCBD12ECF90A70": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_logistical_transporter",
+    "description": [
+      "<task task=\"631FDADA57127F2E\" quest=\"30B3469DAA8D5A0A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6BBCBD12ECF90A70\" quest=\"30B3469DAA8D5A0A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_logistical_transporter"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          96,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "4F48A4839B549C92"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"404D3420276BD963\" quest=\"6C9BC3A699E57162\"/>",
+      "<hr/>",
+      "<reward reward=\"06776533F6B5ABCA\" quest=\"6C9BC3A699E57162\"/>",
+      "<reward reward=\"3D8FB446CA3F27F4\" quest=\"6C9BC3A699E57162\"/>",
+      "<reward reward=\"5A1F2CBC8D91C5BE\" quest=\"6C9BC3A699E57162\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          192,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:blaze_rod",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.blaze.50"
+  },
+  "rewards": {
+    "06776533F6B5ABCA": {
+      "amount": 50,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "3D8FB446CA3F27F4": {
+      "item": {
+        "count": 20,
+        "id": "minecraft:blaze_rod"
+      },
+      "type": "heracles:item"
+    },
+    "5A1F2CBC8D91C5BE": {
+      "item": {
+        "count": 10,
+        "id": "minecraft:blaze_powder"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "404D3420276BD963": {
+      "amount": 50,
+      "entity": {
+        "type": "minecraft:blaze"
+      },
+      "icon": {
+        "item": "minecraft:blaze_rod",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.blaze.50",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

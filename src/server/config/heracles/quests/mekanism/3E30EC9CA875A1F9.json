@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "493FAE3A6088518E"
+  ],
+  "tasks": {
+    "3AA211725EA97D18": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_tier_installer"
+    }
+  },
+  "rewards": {
+    "34A7A08FE327ABAD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_tier_installer",
+    "description": [
+      "<task task=\"3AA211725EA97D18\" quest=\"3E30EC9CA875A1F9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"34A7A08FE327ABAD\" quest=\"3E30EC9CA875A1F9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_tier_installer"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -16,
+          264
+        ]
+      }
+    }
+  }
+}

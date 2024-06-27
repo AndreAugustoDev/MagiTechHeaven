@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "5E41363F9AE243F3"
+  ],
+  "tasks": {
+    "2ADE2B487637FA3F": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:gas_burning_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "742C6774E1F40C96": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "7B9C300DF6442A1D": {
+      "item": {
+        "id": "minecraft:melon_slice",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.gas"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.gas</translate></h2>",
+      "<hr/>",
+      "<task task=\"2ADE2B487637FA3F\" quest=\"0AEC181F5E21A299\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.gas</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7B9C300DF6442A1D\" quest=\"0AEC181F5E21A299\"/>",
+      "<reward reward=\"742C6774E1F40C96\" quest=\"0AEC181F5E21A299\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -64,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanismgenerators:gas_burning_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.gas"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "1D06097B6206BA60"
+  ],
+  "tasks": {},
+  "rewards": {
+    "0D2CF41C05F65061": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"533AE884035F8511\" quest=\"7234CB42AEF6C941\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.quanta</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0D2CF41C05F65061\" quest=\"7234CB42AEF6C941\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          64,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.quanta"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "01F3F0C25BA72BDA"
+  ],
+  "tasks": {
+    "4E0C5E3A98293C08": {
+      "type": "heracles:item",
+      "item": "ae2:spatial_pylon",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Spatial Cell Component"
+    }
+  },
+  "rewards": {
+    "60430373241A6839": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4E0C5E3A98293C08\" quest=\"18DFB25DC48D8BF7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.pylon</translate></p>",
+      "<hr/>",
+      "<reward reward=\"60430373241A6839\" quest=\"18DFB25DC48D8BF7\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          624,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:spatial_pylon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.pylon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

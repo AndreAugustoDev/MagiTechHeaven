@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "051E0C85E7B71CE0"
+  ],
+  "tasks": {
+    "1993EF1788F53759": {
+      "type": "heracles:item",
+      "item": "minecraft:brush",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "52FD7FF469E1E202": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1993EF1788F53759\" quest=\"3ADCAD65EA6900BA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.archeology</translate></p>",
+      "<hr/>",
+      "<reward reward=\"52FD7FF469E1E202\" quest=\"3ADCAD65EA6900BA\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          192,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:brush",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.archeology"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

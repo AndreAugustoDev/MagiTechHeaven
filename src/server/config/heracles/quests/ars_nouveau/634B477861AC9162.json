@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "7B9F88A9A5FAE5CB": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_binding"
+    }
+  },
+  "rewards": {
+    "7B45FBB75C0BCD6A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_binding",
+    "description": [
+      "<task task=\"7B9F88A9A5FAE5CB\" quest=\"634B477861AC9162\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7B45FBB75C0BCD6A\" quest=\"634B477861AC9162\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_binding"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          288,
+          176
+        ]
+      }
+    }
+  }
+}

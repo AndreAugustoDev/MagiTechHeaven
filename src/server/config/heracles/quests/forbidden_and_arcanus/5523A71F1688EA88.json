@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "tasks": {
+    "144F03F12E65C187": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:darkstone"
+    }
+  },
+  "rewards": {
+    "60B5D56638873C6E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Welcome to §5Forbidden & Arcanus!",
+    "description": [
+      "<task task=\"144F03F12E65C187\" quest=\"5523A71F1688EA88\"/>",
+      "<hr/>",
+      "Forbidden & Arcanus adds new ways to get better armor, enchants, and more!",
+      "<br/>",
+      "This magic-themed mod has amazing animations, as well as some overpowered items like the &&6Eternal Stella&&r. ",
+      "<hr/>",
+      "<reward reward=\"60B5D56638873C6E\" quest=\"5523A71F1688EA88\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -288,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "432B3806B0D8F356": {
+      "type": "heracles:item",
+      "item": "productivebees:soul_sand_nest"
+    }
+  },
+  "rewards": {
+    "1EC49763E8E46D47": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:soul_sand_nest",
+    "description": [
+      "<h2>Lures in Ghostly Bees when placed in the Nether and given Ghast Tears</h2>",
+      "<hr/>",
+      "<task task=\"432B3806B0D8F356\" quest=\"027FD9135DEC4949\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1EC49763E8E46D47\" quest=\"027FD9135DEC4949\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:soul_sand_nest"
+    },
+    "subtitle": {
+      "text": "Lures in Ghostly Bees when placed in the Nether and given Ghast Tears"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -256,
+          176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "6E5C2E9D729210C9": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_compression"
+    }
+  },
+  "rewards": {
+    "7B21F4A9F2C52F51": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:dynamo_compression",
+    "description": [
+      "<h2>Generates Power using Liquid Fuel!</h2>",
+      "<hr/>",
+      "<task task=\"6E5C2E9D729210C9\" quest=\"7FE2EED58AB791E8\"/>",
+      "<hr/>",
+      "Note: This accepts Tree Oil, Creosote Oil, and Refined Fuel.",
+      "<hr/>",
+      "<reward reward=\"7B21F4A9F2C52F51\" quest=\"7FE2EED58AB791E8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:dynamo_compression"
+    },
+    "subtitle": {
+      "text": "Generates Power using Liquid Fuel!"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  }
+}

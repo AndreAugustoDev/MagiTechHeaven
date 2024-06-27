@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "4FA6BEA4E646B742"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"76E0779D896F146B\" quest=\"4B9E9497E44D0096\"/>",
+      "<task task=\"4EA3FF4654F9D9FF\" quest=\"4B9E9497E44D0096\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.building_reactor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0303247B6A6C3F08\" quest=\"4B9E9497E44D0096\"/>",
+      "<reward reward=\"19C423870DAAA0DB\" quest=\"4B9E9497E44D0096\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -176,
+          128
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.reactor_building_components"
+  },
+  "rewards": {
+    "0303247B6A6C3F08": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "19C423870DAAA0DB": {
+      "item": {
+        "count": 4,
+        "id": "bigreactors:basic_reactorcasing"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "4EA3FF4654F9D9FF": {
+      "item": "bigreactors:basic_reactorglass",
+      "type": "heracles:item"
+    },
+    "76E0779D896F146B": {
+      "amount": 4,
+      "item": "bigreactors:basic_reactorcasing",
+      "type": "heracles:item"
+    }
+  }
+}

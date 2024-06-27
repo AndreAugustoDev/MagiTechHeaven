@@ -1,0 +1,83 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57282D7E31EE61EE"
+  ],
+  "tasks": {
+    "58CEC5830F3C7F46": {
+      "type": "heracles:item",
+      "item": "occultism:dimensional_mineshaft"
+    },
+    "51F776CF868BABEF": {
+      "title": "Mining Demons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "occultism:miner_foliot_unspecialized",
+            "tag": {
+              "Damage": 0,
+              "maxMiningTime": 400,
+              "rollsPerOperation": 1,
+              "spiritName": "Alddeller"
+            }
+          },
+          {
+            "Count": 1,
+            "id": "occultism:miner_djinni_ores",
+            "tag": {
+              "Damage": 0,
+              "maxMiningTime": 300,
+              "rollsPerOperation": 1,
+              "spiritName": "Raktimkyn"
+            }
+          },
+          {
+            "Count": 1,
+            "id": "occultism:miner_afrit_deeps",
+            "tag": {
+              "Damage": 0,
+              "maxMiningTime": 200,
+              "rollsPerOperation": 1,
+              "spiritName": "Zorkrinnkyn"
+            }
+          },
+          {
+            "Count": 1,
+            "id": "occultism:miner_marid_master",
+            "tag": {
+              "Damage": 0,
+              "maxMiningTime": 100,
+              "rollsPerOperation": 1,
+              "spiritName": "Eqis"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "§cDemon Mining§r",
+    "description": [
+      "<task task=\"58CEC5830F3C7F46\" quest=\"172D2A634E849562\"/>",
+      "<task task=\"51F776CF868BABEF\" quest=\"172D2A634E849562\"/>",
+      "<hr/>",
+      "With our ability to harvest &&cIesnium&&r, we can call upon the Demons to do our bidding in the mines... I mean.... help us gather ores. Definitely not exploiting Demons or anything.",
+      "<br/>",
+      "For this, we'll need to create a &&dDimensional Mineshaft&&r to access the Demon Mining World. You'll also need a Mining Demon confined to a lamp, which you'll place inside of the Mineshaft for it to work. While any tier will complete this quest, higher tiers work faster and have a higher chance at mining Iesnium for you.",
+      "<br/>",
+      "The Mineshafts do not auto-export on their own. You will need to extract the items out using either Hoppers, Transporting Demons, or some other method like Item Pipes. It will void any items over its storage limit."
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          400,
+          304
+        ]
+      }
+    }
+  }
+}

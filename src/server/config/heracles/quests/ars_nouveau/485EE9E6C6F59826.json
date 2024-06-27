@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "27987EFDAC19DE52": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_gravity"
+    }
+  },
+  "rewards": {
+    "62E2BDCDD8BD192C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_gravity",
+    "description": [
+      "<task task=\"27987EFDAC19DE52\" quest=\"485EE9E6C6F59826\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"62E2BDCDD8BD192C\" quest=\"485EE9E6C6F59826\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_gravity"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -240
+        ]
+      }
+    }
+  }
+}

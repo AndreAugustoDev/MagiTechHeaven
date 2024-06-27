@@ -1,0 +1,134 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1CC4F8570A7A99EB"
+  ],
+  "tasks": {
+    "174B6F296A7E3F2D": {
+      "title": "Inferium Tools and Weapons",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_sword",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_pickaxe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_shovel",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_axe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_hoe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_bow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_crossbow",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_shears",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_fishing_rod",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_sickle",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagriculture:inferium_scythe",
+            "tag": {
+              "Damage": 0
+            }
+          },
+          {
+            "Count": 1,
+            "id": "mysticalagradditions:inferium_paxel",
+            "tag": {
+              "Damage": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "65AC8A0E2919DC9B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§aEssence Tools and Weapons§r",
+    "description": [
+      "<task task=\"174B6F296A7E3F2D\" quest=\"4EF5DE3FBA2A7AE3\"/>",
+      "<hr/>",
+      "Starting with Inferium Essence, you can create ingots to make both Essence &&9Tools&&r and &&9Armor&&r.",
+      "<br/>",
+      "Essence tools can be upgraded to higher tiers, and just like the Armor, they can be &&5Augmented&&r in the &&3Tinkering Table&&r.",
+      "<hr/>",
+      "<reward reward=\"65AC8A0E2919DC9B\" quest=\"4EF5DE3FBA2A7AE3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -672,
+          -48
+        ]
+      }
+    }
+  }
+}

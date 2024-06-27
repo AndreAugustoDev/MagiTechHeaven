@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "tasks": {
+    "51EFBB115AE2746A": {
+      "title": "Any #botania:mystical_flowers",
+      "type": "heracles:item",
+      "item": "#botania:mystical_flowers"
+    }
+  },
+  "rewards": {
+    "79AC804008C918D8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "botania:lexicon"
+      }
+    },
+    "19ED2A28735EC524": {
+      "type": "heracles:item",
+      "item": {
+        "id": "botania:flower_bag"
+      }
+    }
+  },
+  "display": {
+    "title": "Welcome to §aBotania§r!",
+    "description": [
+      "<task task=\"51EFBB115AE2746A\" quest=\"13D401048A926A74\"/>",
+      "<hr/>",
+      "&&aBotania&&r is a tech mod disguised as a magic mod, but with TONS of cool trinkets and toys to play with!",
+      "<br/>",
+      "To start your journey in Botania, you'll need plenty of &&9Mystical Flowers&&r!",
+      "<br/>",
+      "For more information on the items in the mod, make sure to check out the &&aLexica Botania&&r. ",
+      "<hr/>",
+      "<reward reward=\"79AC804008C918D8\" quest=\"13D401048A926A74\"/>",
+      "<reward reward=\"19ED2A28735EC524\" quest=\"13D401048A926A74\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    }
+  }
+}

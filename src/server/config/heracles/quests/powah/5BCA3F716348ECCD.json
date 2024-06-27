@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "3C2CFE54F8372650": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_starter"
+    }
+  },
+  "rewards": {
+    "199E2B2A88D2387E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_hopper_starter",
+    "description": [
+      "<task task=\"3C2CFE54F8372650\" quest=\"5BCA3F716348ECCD\"/>",
+      "<hr/>",
+      "The &&9Energy Hopper&&r will charge any chargeable item inside of the inventory of the block it is pointed to, like a chest.",
+      "<hr/>",
+      "<reward reward=\"199E2B2A88D2387E\" quest=\"5BCA3F716348ECCD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          368
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "3751015CD5C84134",
+    "3F8EEE1AD4420702"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"099B55FD3A94FE91\" quest=\"7DD638E4111D66E7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.advanced_housing}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -48,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.advanced_housing"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

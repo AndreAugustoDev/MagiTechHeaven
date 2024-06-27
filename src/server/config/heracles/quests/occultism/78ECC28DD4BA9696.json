@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D41D0092D94636B"
+  ],
+  "tasks": {
+    "13EAA435B27EA29D": {
+      "type": "heracles:item",
+      "item": "occultism:divination_rod"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Hunting For §dOtherworld§r Materials",
+    "description": [
+      "<task task=\"13EAA435B27EA29D\" quest=\"78ECC28DD4BA9696\"/>",
+      "<hr/>",
+      "While you can get most of the &&dOtherworld&&r materials using Spiritfire, you can also use &&9Divination Rods&&r to locate these materials.",
+      "<br/>",
+      "First, you'll need to attune the Rod to the material you are looking for. For example, if you are on the hunt for &&8Otherstone&&r, you can use the Rod on &&aAndesite&&r to help locate the Otherstone in the world.",
+      "<br/>",
+      "Once attuned to a material, you can hold right click with the Rod in hand, and a particle will shoot off in the direction of the nearest material it is attuned to.",
+      "<br/>",
+      "You will still need to be under the effects of the &&3Third Eye&&r to be able to harvest the Otherworld block."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "occultism:divination_rod"
+    },
+    "groups": {
+      "Occultism": {
+        "position": [
+          192,
+          -48
+        ]
+      }
+    }
+  }
+}

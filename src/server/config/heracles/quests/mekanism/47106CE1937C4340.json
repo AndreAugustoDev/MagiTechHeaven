@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76A38CCA5816CDAD"
+  ],
+  "tasks": {
+    "6EE6F07986BAFC3B": {
+      "type": "heracles:item",
+      "item": "mekanism:hdpe_sheet"
+    }
+  },
+  "rewards": {
+    "78A06CC539C1B6AE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:hdpe_pellet",
+        "count": 3
+      }
+    },
+    "6222BDC7235A0FBC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:hdpe_sheet",
+    "description": [
+      "<task task=\"6EE6F07986BAFC3B\" quest=\"47106CE1937C4340\"/>",
+      "<hr/>",
+      "To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber.",
+      "<hr/>",
+      "<reward reward=\"78A06CC539C1B6AE\" quest=\"47106CE1937C4340\"/>",
+      "<reward reward=\"6222BDC7235A0FBC\" quest=\"47106CE1937C4340\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:hdpe_sheet"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          -192
+        ]
+      }
+    }
+  }
+}

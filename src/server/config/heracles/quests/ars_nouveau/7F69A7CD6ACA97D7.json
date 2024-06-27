@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "7DCF09E4EFEC5D64": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_firework"
+    }
+  },
+  "rewards": {
+    "584920D123AAE05F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_firework",
+    "description": [
+      "<task task=\"7DCF09E4EFEC5D64\" quest=\"7F69A7CD6ACA97D7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"584920D123AAE05F\" quest=\"7F69A7CD6ACA97D7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_firework"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -336
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "74FC0DDDB91DB172"
+  ],
+  "tasks": {
+    "6D6E070CB7998FA1": {
+      "type": "heracles:item",
+      "item": "ae2:export_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "311337C7850C46F1": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.export_bus"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.export_bus</translate></h2>",
+      "<hr/>",
+      "<task task=\"6D6E070CB7998FA1\" quest=\"083D458032F0325C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.export_bus</translate></p>",
+      "<hr/>",
+      "<reward reward=\"311337C7850C46F1\" quest=\"083D458032F0325C\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          800,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:export_bus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.export_bus"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

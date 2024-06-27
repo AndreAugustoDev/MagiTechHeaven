@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "6A60A533BDBCCAD9": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_slowfall"
+    }
+  },
+  "rewards": {
+    "6DE20BFC516C9D93": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_slowfall",
+    "description": [
+      "<task task=\"6A60A533BDBCCAD9\" quest=\"295703FC5B92D0E6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6DE20BFC516C9D93\" quest=\"295703FC5B92D0E6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_slowfall"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          0,
+          -304
+        ]
+      }
+    }
+  }
+}

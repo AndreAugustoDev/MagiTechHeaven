@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "3B188F7D7009093C": {
+      "type": "heracles:item",
+      "item": "thermal:machine_refinery"
+    }
+  },
+  "rewards": {
+    "7D725FF8CB44785C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_refinery",
+    "description": [
+      "<task task=\"3B188F7D7009093C\" quest=\"627D6FDC3D8C42F6\"/>",
+      "<hr/>",
+      "Can convert liquids into items or other useful liquids.",
+      "<hr/>",
+      "<reward reward=\"7D725FF8CB44785C\" quest=\"627D6FDC3D8C42F6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_refinery"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          0,
+          -96
+        ]
+      }
+    }
+  }
+}

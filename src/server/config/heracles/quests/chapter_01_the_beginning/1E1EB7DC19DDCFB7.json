@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "0F3D51FFD2FE8DCB"
+  ],
+  "tasks": {
+    "363806ECF99CBE88": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_upgrade_smithing_template",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "59B9C8F5AB1E300A": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"363806ECF99CBE88\" quest=\"1E1EB7DC19DDCFB7\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.netherite_template</translate></p>",
+      "<hr/>",
+      "<reward reward=\"59B9C8F5AB1E300A\" quest=\"1E1EB7DC19DDCFB7\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          384,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.netherite_template"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

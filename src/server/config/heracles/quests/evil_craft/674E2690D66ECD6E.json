@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2CB69634F6A6E53E"
+  ],
+  "tasks": {
+    "45941C8F87F92114": {
+      "type": "heracles:item",
+      "item": "evilcraft:weather_container",
+      "nbt": {
+        "weather": "LIGHTNING"
+      }
+    },
+    "2A0FF6158E8316FC": {
+      "type": "heracles:item",
+      "item": "evilcraft:lightning_grenade"
+    },
+    "00A16E31DAB13327": {
+      "type": "heracles:item",
+      "item": "evilcraft:lightning_bomb"
+    }
+  },
+  "rewards": {
+    "1E29E392E6983202": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§aYou've Been§r §9Thunderstruck§r",
+    "description": [
+      "<task task=\"45941C8F87F92114\" quest=\"674E2690D66ECD6E\"/>",
+      "<task task=\"2A0FF6158E8316FC\" quest=\"674E2690D66ECD6E\"/>",
+      "<task task=\"00A16E31DAB13327\" quest=\"674E2690D66ECD6E\"/>",
+      "<hr/>",
+      "When it's a thunderstorm, throwing in a &&aWeather Container&&r into the &&aEnvironmental Accumulator&&r will harness the power of the storm.",
+      "<br/>",
+      "Using this, we can create items that allow us to control Lightning at will.",
+      "<hr/>",
+      "<reward reward=\"1E29E392E6983202\" quest=\"674E2690D66ECD6E\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          -16,
+          -96
+        ]
+      }
+    }
+  }
+}

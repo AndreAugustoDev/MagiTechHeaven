@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "379EBE12E3F61679",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "25DA30BFB0E2C71B": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_nitro"
+    }
+  },
+  "rewards": {
+    "737998404DAF6FD5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cable_nitro",
+    "description": [
+      "<task task=\"25DA30BFB0E2C71B\" quest=\"3CD1F9E00E33C6C9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"737998404DAF6FD5\" quest=\"3CD1F9E00E33C6C9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          32,
+          560
+        ]
+      }
+    }
+  }
+}

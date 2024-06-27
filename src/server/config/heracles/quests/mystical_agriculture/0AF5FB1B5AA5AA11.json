@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BC4250E4C9F803C"
+  ],
+  "tasks": {
+    "737A74FAB46C9E54": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:gold_seeds"
+    }
+  },
+  "rewards": {
+    "4FDFC5E86E93CFA1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:gold_seeds",
+    "description": [
+      "<task task=\"737A74FAB46C9E54\" quest=\"0AF5FB1B5AA5AA11\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4FDFC5E86E93CFA1\" quest=\"0AF5FB1B5AA5AA11\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:gold_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -160,
+          -192
+        ]
+      }
+    }
+  }
+}

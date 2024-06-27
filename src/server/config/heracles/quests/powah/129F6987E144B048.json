@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5A7C92F05AF39FDB",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "4030018C42DCB948": {
+      "type": "heracles:item",
+      "item": "powah:furnator_nitro"
+    }
+  },
+  "rewards": {
+    "58FFEDCA3B80E811": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:furnator_nitro",
+    "description": [
+      "<task task=\"4030018C42DCB948\" quest=\"129F6987E144B048\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"58FFEDCA3B80E811\" quest=\"129F6987E144B048\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:furnator_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          144,
+          560
+        ]
+      }
+    }
+  }
+}

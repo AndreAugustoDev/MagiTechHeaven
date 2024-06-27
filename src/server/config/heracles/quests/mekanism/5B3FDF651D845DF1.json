@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A72F7DA24E1BB09"
+  ],
+  "tasks": {
+    "78C482BF65B20673": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_mechanical_pipe"
+    }
+  },
+  "rewards": {
+    "290BF7F4A217F813": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:elite_mechanical_pipe",
+    "description": [
+      "<task task=\"78C482BF65B20673\" quest=\"5B3FDF651D845DF1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"290BF7F4A217F813\" quest=\"5B3FDF651D845DF1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:elite_mechanical_pipe"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -48,
+          176
+        ]
+      }
+    }
+  }
+}

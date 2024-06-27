@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"52294DB4AE793F9C\" quest=\"3F9D553C9FA64F2A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.building_actively_cooled_reactor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2D71A6EF1CA59FA7\" quest=\"3F9D553C9FA64F2A\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -224,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": "bigreactors:basic_reactorcasing",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bigreactors.expanding_our_reactors"
+  },
+  "rewards": {
+    "2D71A6EF1CA59FA7": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "52294DB4AE793F9C": {
+      "amount": 16,
+      "item": "bigreactors:basic_reactorcasing",
+      "type": "heracles:item"
+    }
+  }
+}

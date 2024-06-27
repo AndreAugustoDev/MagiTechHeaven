@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "4C80AD2C05E0CE73": {
+      "type": "heracles:item",
+      "item": "botania:lens_messenger"
+    }
+  },
+  "rewards": {
+    "77A4DD94109B7676": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_messenger",
+    "description": [
+      "<task task=\"4C80AD2C05E0CE73\" quest=\"182EBB06B81BDF98\"/>",
+      "<hr/>",
+      "Greatly decreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and distance.",
+      "<hr/>",
+      "<reward reward=\"77A4DD94109B7676\" quest=\"182EBB06B81BDF98\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_messenger"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          448,
+          384
+        ]
+      }
+    }
+  }
+}

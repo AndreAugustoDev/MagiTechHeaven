@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E79F52147B606F9"
+  ],
+  "tasks": {
+    "743506EBB76A0B12": {
+      "type": "heracles:item",
+      "item": "evilcraft:spikey_claws"
+    }
+  },
+  "rewards": {
+    "066EF2005D17430C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:spikey_claws",
+    "description": [
+      "<task task=\"743506EBB76A0B12\" quest=\"0B9F2B443813F43C\"/>",
+      "<hr/>",
+      "Have you ever wanted to be able to attack things with a Shovel, and it hurt? I would ask why, but this is EvilCraft.",
+      "<br/>",
+      "Well look no further! This serves as both a weapon, and a tool for breaking soft things!",
+      "<hr/>",
+      "<reward reward=\"066EF2005D17430C\" quest=\"0B9F2B443813F43C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:spikey_claws"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          -64,
+          80
+        ]
+      }
+    }
+  }
+}

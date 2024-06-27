@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "3BA93EF95C2D2AC7": {
+      "type": "heracles:item",
+      "item": "silentgear:shovel_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2D85F22E09FDB6A2": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3BA93EF95C2D2AC7\" quest=\"52CDB46F6CBF007B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D85F22E09FDB6A2\" quest=\"52CDB46F6CBF007B\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -96,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:shovel_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.shovel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "03C99E0B3F3B2800": {
+      "type": "heracles:item",
+      "item": "botania:spectrolus"
+    }
+  },
+  "rewards": {
+    "36D02AAACC5C913A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:spectrolus",
+    "description": [
+      "<task task=\"03C99E0B3F3B2800\" quest=\"3E80563D8E4C5398\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"36D02AAACC5C913A\" quest=\"3E80563D8E4C5398\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:spectrolus"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -160,
+          16
+        ]
+      }
+    }
+  }
+}

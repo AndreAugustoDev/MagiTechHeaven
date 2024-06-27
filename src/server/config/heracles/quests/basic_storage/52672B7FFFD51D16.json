@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3BA31C5CD5C35ED5": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:stonecutter_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "641D01DBE66A27DF": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.stonecutting"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.stonecutting</translate></h2>",
+      "<hr/>",
+      "<task task=\"3BA31C5CD5C35ED5\" quest=\"52672B7FFFD51D16\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"641D01DBE66A27DF\" quest=\"52672B7FFFD51D16\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -192,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:stonecutter_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.stonecutting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

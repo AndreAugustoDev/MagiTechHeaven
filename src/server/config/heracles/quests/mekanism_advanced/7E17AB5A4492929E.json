@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B81800EE6E77EF2"
+  ],
+  "tasks": {
+    "5641530385DCA6A7": {
+      "type": "heracles:item",
+      "item": "alltheores:uranium_ingot"
+    },
+    "1C72C0C59D65B1D0": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "mekanism:yellow_cake_uranium"
+    }
+  },
+  "rewards": {
+    "48CC9D36035B2625": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aUranium",
+    "description": [
+      "<h2>Of Course It Uses Uranium</h2>",
+      "<hr/>",
+      "<task task=\"5641530385DCA6A7\" quest=\"7E17AB5A4492929E\"/>",
+      "<task task=\"1C72C0C59D65B1D0\" quest=\"7E17AB5A4492929E\"/>",
+      "<hr/>",
+      "Every Reactor uses Uranium somewhere for fuel, right?",
+      "<br/>",
+      "For starters, let's gather some &&aUranium Ingots&&r. We'll need to process these in an &&9Enrichment Chamber&&r to turn it into &&eYellow Cake Uranium&&r.",
+      "<hr/>",
+      "<reward reward=\"48CC9D36035B2625\" quest=\"7E17AB5A4492929E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:yellow_cake_uranium"
+    },
+    "subtitle": {
+      "text": "Of Course It Uses Uranium"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          176,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "72EC640A6F6C69C1": {
+      "type": "heracles:item",
+      "item": "thermal:machine_crafter"
+    }
+  },
+  "rewards": {
+    "4FE6677655F3B4DD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_crafter",
+    "description": [
+      "<h2>An Auto-Crafter!</h2>",
+      "<hr/>",
+      "<task task=\"72EC640A6F6C69C1\" quest=\"7AAEFA2A349D3F82\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4FE6677655F3B4DD\" quest=\"7AAEFA2A349D3F82\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_crafter"
+    },
+    "subtitle": {
+      "text": "An Auto-Crafter!"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          32,
+          -96
+        ]
+      }
+    }
+  }
+}

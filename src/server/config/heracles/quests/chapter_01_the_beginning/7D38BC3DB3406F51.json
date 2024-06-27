@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "7975C7145572C438"
+  ],
+  "tasks": {
+    "397B170E3C7FA203": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "10DFD79E9CE6DB61": {
+      "type": "heracles:item",
+      "item": "#forge:cobblestone",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "Any Cobblestone",
+      "icon": {
+        "item": {
+          "id": "minecraft:cobblestone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "36A9FD7873103E63": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"10DFD79E9CE6DB61\" quest=\"7D38BC3DB3406F51\"/>",
+      "<task task=\"397B170E3C7FA203\" quest=\"7D38BC3DB3406F51\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.stone",
+      "<br/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"36A9FD7873103E63\" quest=\"7D38BC3DB3406F51\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          96,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.stone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

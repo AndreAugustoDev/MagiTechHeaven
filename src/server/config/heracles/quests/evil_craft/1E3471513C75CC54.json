@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E79F52147B606F9"
+  ],
+  "tasks": {
+    "3EB33B838372C035": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "evilcraft:hardened_blood_shard"
+    }
+  },
+  "rewards": {
+    "0459B93C052F519B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Drying... §cBlood?§r",
+    "description": [
+      "<task task=\"3EB33B838372C035\" quest=\"1E3471513C75CC54\"/>",
+      "<hr/>",
+      "If you leave a bucket of blood on the ground long enough, it will dry into &&cHardened Blood&&r.",
+      "<br/>",
+      "Aside from being incredibly unsanitary, we need all kinds of blood for us to progress. Even dried blood.",
+      "<br/>",
+      "This will turn back into blood in the rain, or by breaking it with regular tools. If you break it with &&9Flint and Steel&&r, you'll get &&dBlood Shards&&r instead.",
+      "<hr/>",
+      "<reward reward=\"0459B93C052F519B\" quest=\"1E3471513C75CC54\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:hardened_blood_shard"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          48,
+          96
+        ]
+      }
+    }
+  }
+}

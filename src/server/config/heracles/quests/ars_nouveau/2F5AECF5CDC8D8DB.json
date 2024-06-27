@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "21C6D6FA46FCE9E9": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_sensitive"
+    }
+  },
+  "rewards": {
+    "6550E19AA8FD30EE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_sensitive",
+    "description": [
+      "<task task=\"21C6D6FA46FCE9E9\" quest=\"2F5AECF5CDC8D8DB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6550E19AA8FD30EE\" quest=\"2F5AECF5CDC8D8DB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_sensitive"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -400
+        ]
+      }
+    }
+  }
+}

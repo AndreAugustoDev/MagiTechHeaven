@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0B68E3C046C82860"
+  ],
+  "tasks": {
+    "3157685F32B838D5": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:golden_orchid_seeds"
+    }
+  },
+  "rewards": {
+    "5A94F2FC66A32C6F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:golden_orchid_seeds",
+    "description": [
+      "<h2>Growing Gold</h2>",
+      "<hr/>",
+      "<task task=\"3157685F32B838D5\" quest=\"5ED1896F1986BD2B\"/>",
+      "<hr/>",
+      "These can be planted to grow &&6Deorum Nuggets&&r.",
+      "<br/>",
+      "To create one, you'll need to find Yellow Orchids.",
+      "<hr/>",
+      "<reward reward=\"5A94F2FC66A32C6F\" quest=\"5ED1896F1986BD2B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:golden_orchid_seeds"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Growing Gold"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -32,
+          208
+        ]
+      }
+    }
+  }
+}

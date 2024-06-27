@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "tasks": {
+    "695A0E0BC4B78AEC": {
+      "title": "Create",
+      "icon": {
+        "type": "heracles:item",
+        "item": "create:wrench"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1E5B06A1884F3578": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:wrench"
+      }
+    }
+  },
+  "display": {
+    "title": "Create",
+    "description": [
+      "<task task=\"695A0E0BC4B78AEC\" quest=\"57A7A5C79389A96A\"/>",
+      "<hr/>",
+      "&&5&&lWelcome To Create!",
+      "<br/>",
+      "Create is an immersive tech mod, bringing realism into Minecraft on a whole new level!",
+      "<br/>",
+      "If you have doubts about any blocks or items, hold W to ponder and see an amazing 3D in-game wiki!",
+      "<hr/>",
+      "<reward reward=\"1E5B06A1884F3578\" quest=\"57A7A5C79389A96A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:wrench"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

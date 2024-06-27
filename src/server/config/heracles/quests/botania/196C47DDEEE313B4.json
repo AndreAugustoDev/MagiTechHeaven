@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "0A3D840D77B31838": {
+      "type": "heracles:item",
+      "item": "botania:purple_mystical_flower"
+    }
+  },
+  "rewards": {
+    "701E439C1816BC84": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:purple_mystical_flower",
+    "description": [
+      "<task task=\"0A3D840D77B31838\" quest=\"196C47DDEEE313B4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"701E439C1816BC84\" quest=\"196C47DDEEE313B4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:purple_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          112,
+          -96
+        ]
+      }
+    }
+  }
+}

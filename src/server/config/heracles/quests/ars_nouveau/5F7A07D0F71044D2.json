@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "353BF5D2B4D53BF5": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_duration_down"
+    }
+  },
+  "rewards": {
+    "7F198E2F1F196E71": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_duration_down",
+    "description": [
+      "<task task=\"353BF5D2B4D53BF5\" quest=\"5F7A07D0F71044D2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F198E2F1F196E71\" quest=\"5F7A07D0F71044D2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_duration_down"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -368
+        ]
+      }
+    }
+  }
+}

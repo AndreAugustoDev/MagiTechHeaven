@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "67E85827062B8B79": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:ghast_seeds"
+    }
+  },
+  "rewards": {
+    "7880F9AACD273A82": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:ghast_seeds",
+    "description": [
+      "<task task=\"67E85827062B8B79\" quest=\"4F0DD86CF6E5F1B5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7880F9AACD273A82\" quest=\"4F0DD86CF6E5F1B5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:ghast_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -128,
+          16
+        ]
+      }
+    }
+  }
+}

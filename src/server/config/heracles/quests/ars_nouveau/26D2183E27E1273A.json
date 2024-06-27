@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "0577B2F9A78434A0": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_scrying"
+    }
+  },
+  "rewards": {
+    "181E590F3901AA47": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_scrying",
+    "description": [
+      "<task task=\"0577B2F9A78434A0\" quest=\"26D2183E27E1273A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"181E590F3901AA47\" quest=\"26D2183E27E1273A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_scrying"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          192,
+          176
+        ]
+      }
+    }
+  }
+}

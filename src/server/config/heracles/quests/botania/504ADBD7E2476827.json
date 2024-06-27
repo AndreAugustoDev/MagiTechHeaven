@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "46729DA26469F064": {
+      "type": "heracles:item",
+      "item": "botania:lens_bounce"
+    }
+  },
+  "rewards": {
+    "477A3BF01D3F9CAF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_bounce",
+    "description": [
+      "<task task=\"46729DA26469F064\" quest=\"504ADBD7E2476827\"/>",
+      "<hr/>",
+      "Allows Mana Bursts to bounce off of walls.",
+      "<hr/>",
+      "<reward reward=\"477A3BF01D3F9CAF\" quest=\"504ADBD7E2476827\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_bounce"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          400,
+          320
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1CC4F8570A7A99EB"
+  ],
+  "tasks": {
+    "120DDD0418F82EC0": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_helmet"
+    },
+    "45249857D08CB7F7": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_chestplate"
+    },
+    "4DE8B3ADDD0DC539": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_leggings"
+    },
+    "4DD5F73A2CC0848C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_boots"
+    }
+  },
+  "rewards": {
+    "0416BE831999470A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§aEssence Gear§r",
+    "description": [
+      "<task task=\"120DDD0418F82EC0\" quest=\"2A7E3F2CD335EAD0\"/>",
+      "<task task=\"45249857D08CB7F7\" quest=\"2A7E3F2CD335EAD0\"/>",
+      "<task task=\"4DE8B3ADDD0DC539\" quest=\"2A7E3F2CD335EAD0\"/>",
+      "<task task=\"4DD5F73A2CC0848C\" quest=\"2A7E3F2CD335EAD0\"/>",
+      "<hr/>",
+      "To start your journey making &&aEssence Gear&&r, you'll need to make the Inferium Armor first.",
+      "<br/>",
+      "This gear can be upgraded to higher tiers, just like the Essences. You can also &&9Augment&&r them with the &&bTinkering Table&&r!",
+      "<hr/>",
+      "<reward reward=\"0416BE831999470A\" quest=\"2A7E3F2CD335EAD0\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -576,
+          -48
+        ]
+      }
+    }
+  }
+}

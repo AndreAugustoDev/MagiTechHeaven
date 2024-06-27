@@ -1,0 +1,60 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {
+    "54020DF00D36132E": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "lvl": 5,
+              "id": "minecraft:smite"
+            }
+          ]
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"324CAB864D37604A\" quest=\"314E41B84C8DD464\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.library</translate></p>",
+      "<hr/>",
+      "<reward reward=\"54020DF00D36132E\" quest=\"314E41B84C8DD464\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          0,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.library"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

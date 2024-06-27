@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0696B725E840B996",
+    "3F5010269469EBE0"
+  ],
+  "tasks": {},
+  "rewards": {
+    "08BFEE4DB82A488D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "The Fission Reactor Interface",
+    "description": [
+      "<h2>Those are definitely numbers</h2>",
+      "<hr/>",
+      "Once you've finished placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete.",
+      "<br/>",
+      "Right clicking anywhere on the Reactor will open up the &&aInterface&&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor.",
+      "<br/>",
+      "On the left, you have 2 tanks: One for &&bCoolant&&r and one for &&3Fissile Fuel&&r. On the right, you have one for &&8Nuclear Waste&&r, and one for &&bHeated Coolant&&r, which will most likely be &&bSteam&&r.",
+      "<br/>",
+      "The &&cTemperature&&r bar will show you how hot the Reactor is. After a certain temp, the Reactor will start taking &&4Damage&&r, which will eventually cause the Reactor to explode.",
+      "<br/>",
+      "To adjust the &&cBurn Rate&&r of the Fissile Fuel and see more statistics, click on the (I) tab on the left side. Here, you can adjust the Rate Limit, which controls how much fuel the Reactor burns per tick.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1",
+      "{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"08BFEE4DB82A488D\" quest=\"1DE8B0C9A7195720\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:geiger_counter"
+    },
+    "subtitle": {
+      "text": "Those are definitely numbers"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          96,
+          80
+        ]
+      }
+    }
+  }
+}

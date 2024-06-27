@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DA7D0BA045CE7AB"
+  ],
+  "tasks": {
+    "3D1BAA6CA8B979A9": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "bloodmagic:soulsnare"
+    },
+    "42D29681DC076E3C": {
+      "type": "heracles:item",
+      "item": "bloodmagic:basemonstersoul",
+      "nbt": {
+        "souls": 5
+      }
+    }
+  },
+  "rewards": {
+    "20442FD9EB780A4C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "bloodmagic:soulsnare",
+        "count": 3
+      }
+    },
+    "07EB91CE33392DD5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Collecting Demonic Will",
+    "description": [
+      "<task task=\"3D1BAA6CA8B979A9\" quest=\"506D48AD9FB2E89D\"/>",
+      "<task task=\"42D29681DC076E3C\" quest=\"506D48AD9FB2E89D\"/>",
+      "<hr/>",
+      "Before we can craft the &&cHellfire Forge&&r, we'll need a way to power it by acquiring &&bDemon Will&&r.",
+      "<br/>",
+      "To start collecting it, we'll need to create some &&dSoul Snares&&r that we can use on mobs.",
+      "<br/>",
+      "Once you use a few of these on a mob, white particles will appear around them. Slay them, and you'll acquire Demonic Will.",
+      "<hr/>",
+      "<reward reward=\"20442FD9EB780A4C\" quest=\"506D48AD9FB2E89D\"/>",
+      "<reward reward=\"07EB91CE33392DD5\" quest=\"506D48AD9FB2E89D\"/>"
+    ],
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -874,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7D52DD751DDADA1B",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "6FFB4F8A40315B4F": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_basic"
+    }
+  },
+  "rewards": {
+    "3F9F58064210F179": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cable_basic",
+    "description": [
+      "<task task=\"6FFB4F8A40315B4F\" quest=\"5A708BF4F5091959\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3F9F58064210F179\" quest=\"5A708BF4F5091959\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          32,
+          400
+        ]
+      }
+    }
+  }
+}

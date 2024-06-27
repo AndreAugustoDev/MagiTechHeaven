@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "563CFA1EF74E52E9"
+  ],
+  "tasks": {
+    "5241AA0EF3C2EA94": {
+      "type": "heracles:item",
+      "item": "sophisticatedstorage:chest",
+      "nbt": {
+        "woodType": "oak"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5926ED11CED5896C": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "2BD2C0D43AE4AB58": {
+      "item": {
+        "id": "sophisticatedstorage:basic_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "67C504323225DDD8": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.chest"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.chest</translate></h2>",
+      "<hr/>",
+      "<task task=\"5241AA0EF3C2EA94\" quest=\"5E4BC0F59C90433A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.chest</translate></p>",
+      "<hr/>",
+      "<reward reward=\"67C504323225DDD8\" quest=\"5E4BC0F59C90433A\"/>",
+      "<reward reward=\"5926ED11CED5896C\" quest=\"5E4BC0F59C90433A\"/>",
+      "<reward reward=\"2BD2C0D43AE4AB58\" quest=\"5E4BC0F59C90433A\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

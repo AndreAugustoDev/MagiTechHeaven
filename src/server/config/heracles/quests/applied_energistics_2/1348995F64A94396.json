@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "69B7DE2283B4EE6C"
+  ],
+  "tasks": {
+    "2D386EFC23C45581": {
+      "title": "Crafting Monitor",
+      "type": "heracles:item",
+      "item": "itemfilters:id_regex",
+      "nbt": {
+        "value": "(ae2|mega)(.*)crafting_monitor"
+      }
+    }
+  },
+  "rewards": {
+    "77A6ACEA6F5542AF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.crafting_monitor",
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.crafting_monitor</translate></h2>",
+      "<hr/>",
+      "<task task=\"2D386EFC23C45581\" quest=\"1348995F64A94396\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.crafting_monitor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"77A6ACEA6F5542AF\" quest=\"1348995F64A94396\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:id_regex"
+    },
+    "subtitle": {
+      "text": "i18n.quest.ae2.subt.crafting_monitor"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          576,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "55B5FAA746D6C829": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_ignite"
+    }
+  },
+  "rewards": {
+    "2CC33A87CF1F6EF1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_ignite",
+    "description": [
+      "<task task=\"55B5FAA746D6C829\" quest=\"58EBEC3DDE47DAC7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2CC33A87CF1F6EF1\" quest=\"58EBEC3DDE47DAC7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_ignite"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -400
+        ]
+      }
+    }
+  }
+}

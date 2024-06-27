@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "70E72633E49DFF88": {
+      "title": "Soulium Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:soulium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "7DA224232096A3B0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Soulium Bee",
+    "description": [
+      "<h2>Feed a Ghostly Bee a Soulium Dagger!</h2>",
+      "<hr/>",
+      "<task task=\"70E72633E49DFF88\" quest=\"1EBD5E4410A6DF34\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7DA224232096A3B0\" quest=\"1EBD5E4410A6DF34\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soulium_ingot"
+    },
+    "subtitle": {
+      "text": "Feed a Ghostly Bee a Soulium Dagger!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          528
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "381C116FAD6B2236": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:meat_feeder"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:meat_feeder",
+    "description": [
+      "<task task=\"381C116FAD6B2236\" quest=\"4C366515E3CCB0B2\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:meat_feeder"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          208,
+          32
+        ]
+      }
+    }
+  }
+}

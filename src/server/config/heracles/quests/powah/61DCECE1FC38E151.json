@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "341486C9F277FEB7",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "3EA18C3E289956AE": {
+      "type": "heracles:item",
+      "amount": 36,
+      "item": "powah:reactor_nitro"
+    }
+  },
+  "rewards": {
+    "68856C5C7FBB49D4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Reactor (Nitro)",
+    "description": [
+      "<task task=\"3EA18C3E289956AE\" quest=\"61DCECE1FC38E151\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"68856C5C7FBB49D4\" quest=\"61DCECE1FC38E151\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:reactor_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          208,
+          560
+        ]
+      }
+    }
+  }
+}

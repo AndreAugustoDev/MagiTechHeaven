@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "0DF4B01CC5B49E4E"
+  ],
+  "tasks": {
+    "27B86914A7EC8AFB": {
+      "type": "heracles:item",
+      "item": "silentgear:knife_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "480C996B6EF91910": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.knife"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.knife</translate></h2>",
+      "<hr/>",
+      "<task task=\"27B86914A7EC8AFB\" quest=\"0D26E5EF6CFCFDBF\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.knife</translate></p>",
+      "<hr/>",
+      "<reward reward=\"480C996B6EF91910\" quest=\"0D26E5EF6CFCFDBF\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          16,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:knife_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.knife"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

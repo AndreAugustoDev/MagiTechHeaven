@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "44D1B410550B6C28"
+  ],
+  "tasks": {
+    "5A01C349DB7F396C": {
+      "type": "heracles:item",
+      "item": "#curios:charm",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #curios:charm"
+    }
+  },
+  "rewards": {
+    "076A8F095CFA80BC": {
+      "item": {
+        "id": "minecraft:blaze_powder",
+        "count": 12
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5A01C349DB7F396C\" quest=\"12282CBB658F1132\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.charms</translate></p>",
+      "<hr/>",
+      "<reward reward=\"076A8F095CFA80BC\" quest=\"12282CBB658F1132\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          32,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.charms"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

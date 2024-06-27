@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D794DE95C9FF6C7",
+    "12F3A604329EC604"
+  ],
+  "tasks": {
+    "6F7CD7DB5A883579": {
+      "type": "heracles:item",
+      "item": "evilcraft:effortless_ring"
+    }
+  },
+  "rewards": {
+    "2DE3C44CE6807BA9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:effortless_ring",
+    "description": [
+      "<task task=\"6F7CD7DB5A883579\" quest=\"4D7B6842B9F53459\"/>",
+      "<hr/>",
+      "Gives you a speed boost + step height!",
+      "<hr/>",
+      "<reward reward=\"2DE3C44CE6807BA9\" quest=\"4D7B6842B9F53459\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:effortless_ring"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          192,
+          80
+        ]
+      }
+    }
+  }
+}

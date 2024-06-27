@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F436770D30D8520"
+  ],
+  "tasks": {
+    "1DA159AA61B37545": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_washer"
+    }
+  },
+  "rewards": {
+    "18B6402C4049FD4C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:chemical_washer",
+    "description": [
+      "<h2>Giving Ores a Bath</h2>",
+      "<hr/>",
+      "<task task=\"1DA159AA61B37545\" quest=\"4AFF81D3D0E78255\"/>",
+      "<hr/>",
+      "This machine needs water to operate, and uses the water to clean \"Ore Slurry\" into \"Clean Ore Slurry.\"",
+      "<br/>",
+      "It will be part 2 of your Tier 4 Ore Processing Factory.",
+      "<hr/>",
+      "<reward reward=\"18B6402C4049FD4C\" quest=\"4AFF81D3D0E78255\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_washer"
+    },
+    "subtitle": {
+      "text": "Giving Ores a Bath"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          272,
+          -16
+        ]
+      }
+    }
+  }
+}

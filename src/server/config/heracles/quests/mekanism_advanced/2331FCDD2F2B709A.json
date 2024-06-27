@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "068728DE3B9B13C3"
+  ],
+  "tasks": {
+    "48A70F1D73DE5E37": {
+      "type": "heracles:item",
+      "item": "mekanism:supercharged_coil"
+    }
+  },
+  "rewards": {
+    "7BC5630B6210C074": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:supercharged_coil"
+      }
+    },
+    "3C4D31DF8C934DC9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The Supercharged Coils",
+    "description": [
+      "<task task=\"48A70F1D73DE5E37\" quest=\"2331FCDD2F2B709A\"/>",
+      "<hr/>",
+      "The &&9Supercharged Coil&&r is placed on an SPS Port in the center of two faces, like the image below. When given power, these will supercharge Polonium into Antimatter. Only 1 is required, but you can use 2 if you want.",
+      "<br/>",
+      "To produce 1mb of Antimatter, you need 400MRF. If you haven't started making a &&cFusion Reactor&&r, now's a good time to make it!",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7BC5630B6210C074\" quest=\"2331FCDD2F2B709A\"/>",
+      "<reward reward=\"3C4D31DF8C934DC9\" quest=\"2331FCDD2F2B709A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:supercharged_coil"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          192,
+          -176
+        ]
+      }
+    }
+  }
+}

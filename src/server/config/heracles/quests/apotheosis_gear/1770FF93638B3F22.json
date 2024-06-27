@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "482190A9DBE834BE"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1CDEB24AB78F7763": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"528DE40DB533970E\" quest=\"1770FF93638B3F22\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.affixes.desc.superior_sigil</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1CDEB24AB78F7763\" quest=\"1770FF93638B3F22\"/>"
+    ],
+    "groups": {
+      "Apotheosis Gear": {
+        "position": [
+          64,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.affixes.superior_sigil"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

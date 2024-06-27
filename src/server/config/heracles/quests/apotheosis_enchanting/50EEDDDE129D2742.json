@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "7F042DED357DEF3C"
+  ],
+  "tasks": {},
+  "rewards": {
+    "6CBFD79D421FDEA7": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4511597A84EF2A40\" quest=\"50EEDDDE129D2742\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.hellshelf</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6CBFD79D421FDEA7\" quest=\"50EEDDDE129D2742\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          0,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.hellshelf"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

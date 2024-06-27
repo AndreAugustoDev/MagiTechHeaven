@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "3CDFAF37BFB1C89C": {
+      "title": "Yellow Carpenter Bees",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "42FD59C35B7B5AD1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Yellow Carpenter Bee",
+    "description": [
+      "<h2>Spawns from most Wood Nests</h2>",
+      "<hr/>",
+      "<task task=\"3CDFAF37BFB1C89C\" quest=\"2226555D9552236E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"42FD59C35B7B5AD1\" quest=\"2226555D9552236E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:yellow_dye"
+    },
+    "subtitle": {
+      "text": "Spawns from most Wood Nests"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -96,
+          464
+        ]
+      }
+    }
+  }
+}

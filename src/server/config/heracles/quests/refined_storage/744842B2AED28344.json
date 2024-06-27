@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "6B04FC81351CD1AB"
+  ],
+  "tasks": {
+    "5C72FB6EFDAF0813": {
+      "type": "heracles:item",
+      "item": "refinedstorageaddons:wireless_crafting_grid",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5C72FB6EFDAF0813\" quest=\"744842B2AED28344\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.WCG}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          144,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorageaddons:wireless_crafting_grid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.WCG"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

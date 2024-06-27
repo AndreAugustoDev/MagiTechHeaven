@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2D41B04C75FA02BC"
+  ],
+  "tasks": {
+    "1A9BC10CDDA9FCF2": {
+      "type": "heracles:item",
+      "item": "create:super_glue"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:super_glue",
+    "description": [
+      "<task task=\"1A9BC10CDDA9FCF2\" quest=\"1F58AA51814C7568\"/>",
+      "<hr/>",
+      "&&n&&5Super Glue&&r can be used to attach blocks to each other to move them with pistons or other means."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:super_glue"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          -48
+        ]
+      }
+    }
+  }
+}

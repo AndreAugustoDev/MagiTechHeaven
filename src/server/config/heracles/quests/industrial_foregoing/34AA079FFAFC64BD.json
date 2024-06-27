@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "363855E6A408A2E5": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_sieving_machine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:fluid_sieving_machine",
+    "description": [
+      "<task task=\"363855E6A408A2E5\" quest=\"34AA079FFAFC64BD\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_sieving_machine"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          592,
+          128
+        ]
+      }
+    }
+  }
+}

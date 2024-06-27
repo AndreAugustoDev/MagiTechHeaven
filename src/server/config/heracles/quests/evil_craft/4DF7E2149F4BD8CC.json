@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35FA55BE8DF49EE8"
+  ],
+  "tasks": {
+    "02AD6938B2B14996": {
+      "type": "heracles:item",
+      "item": "evilcraft:primed_pendant",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 5000,
+        "inventoryItem": []
+      }
+    }
+  },
+  "rewards": {
+    "64ACEFD0F2270714": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:primed_pendant",
+    "description": [
+      "<h2>Applies Potion Effects</h2>",
+      "<hr/>",
+      "<task task=\"02AD6938B2B14996\" quest=\"4DF7E2149F4BD8CC\"/>",
+      "<hr/>",
+      "To insert the desired potion, just right click with the &&2Primed Pendant&&r in hand to open its inventory.",
+      "<hr/>",
+      "<reward reward=\"64ACEFD0F2270714\" quest=\"4DF7E2149F4BD8CC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:primed_pendant"
+    },
+    "subtitle": {
+      "text": "Applies Potion Effects"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          400,
+          96
+        ]
+      }
+    }
+  }
+}

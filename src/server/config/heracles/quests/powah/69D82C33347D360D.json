@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5A708BF4F5091959",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "2519EA38B1E3AA6F": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_basic"
+    }
+  },
+  "rewards": {
+    "1F197E801453094D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_gate_basic",
+    "description": [
+      "<task task=\"2519EA38B1E3AA6F\" quest=\"69D82C33347D360D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1F197E801453094D\" quest=\"69D82C33347D360D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          64,
+          400
+        ]
+      }
+    }
+  }
+}

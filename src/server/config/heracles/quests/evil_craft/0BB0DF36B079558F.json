@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4EBED8ABC8C863A4"
+  ],
+  "tasks": {
+    "3C8168A55ACA86A3": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "evilcraft:entangled_chalice",
+      "nbt": {
+        "capacity": 4000,
+        "tankID": "creative"
+      }
+    }
+  },
+  "rewards": {
+    "4A3BF64ABA8BF90A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§dEntangled Chalice§r",
+    "description": [
+      "<task task=\"3C8168A55ACA86A3\" quest=\"0BB0DF36B079558F\"/>",
+      "<hr/>",
+      "The &&6Entangled Chalice&&r is just like an Ender Tank.",
+      "<br/>",
+      "When placed in the world, it can pump in Blood. When activated in your inventory, it will try to fill up your items that use &&cBlood&&r as a resource.",
+      "<br/>",
+      "If you want to make more Chalices using the same network, just use the crafting recipe that uses a Chalice instead of a gold ingot.",
+      "<hr/>",
+      "<reward reward=\"4A3BF64ABA8BF90A\" quest=\"0BB0DF36B079558F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:entangled_chalice"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          384,
+          48
+        ]
+      }
+    }
+  }
+}

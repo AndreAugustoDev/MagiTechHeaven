@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "45268A619787288F"
+  ],
+  "tasks": {
+    "62B16ED18AAB714F": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:netherite_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0E9C01BFE4BB86F2": {
+      "item": {
+        "id": "sophisticatedbackpacks:upgrade_base",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "7214DB9CCE3BF452": {
+      "item": {
+        "id": "minecraft:ancient_debris",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "06D60CD6970140F7": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"62B16ED18AAB714F\" quest=\"67704F7341EDCC49\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06D60CD6970140F7\" quest=\"67704F7341EDCC49\"/>",
+      "<reward reward=\"0E9C01BFE4BB86F2\" quest=\"67704F7341EDCC49\"/>",
+      "<reward reward=\"7214DB9CCE3BF452\" quest=\"67704F7341EDCC49\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -96,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:netherite_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.netheriteBP"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "5456E2D6253496B4": {
+      "type": "heracles:item",
+      "item": "silentgear:pickaxe_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "69E8C6F8D3BFA819": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5456E2D6253496B4\" quest=\"766C80E5D7B7A916\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"69E8C6F8D3BFA819\" quest=\"766C80E5D7B7A916\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -160,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:pickaxe_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.pick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

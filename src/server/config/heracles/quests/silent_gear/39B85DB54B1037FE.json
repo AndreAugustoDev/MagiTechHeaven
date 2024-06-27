@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "0DF4B01CC5B49E4E"
+  ],
+  "tasks": {
+    "5849539271864159": {
+      "type": "heracles:item",
+      "item": "silentgear:machete_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "736360B6DCAC64DA": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.machete"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.machete</translate></h2>",
+      "<hr/>",
+      "<task task=\"5849539271864159\" quest=\"39B85DB54B1037FE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.machete</translate></p>",
+      "<hr/>",
+      "<reward reward=\"736360B6DCAC64DA\" quest=\"39B85DB54B1037FE\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -32,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:machete_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.machete"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

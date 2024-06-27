@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DE8B0C9A7195720"
+  ],
+  "tasks": {
+    "382818E289EC83A6": {
+      "title": "&3Fissile Fuel Production&r",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "21A507B60A7721B0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "&3Fissile Fuel Production&r",
+    "description": [
+      "<task task=\"382818E289EC83A6\" quest=\"3B81800EE6E77EF2\"/>",
+      "<hr/>",
+      "The Fission Reactor needs &&3Fissile Fuel&&r to run. If you look up Fissile Fuel right now in JEI, I bet you'll get overwhelmed with everything you need to make it. It's okay, you've got this. Let's take it one step at a time.",
+      "<br/>",
+      "It all boils down to creating &&eUranium Hexafluoride&&r. To do this, let's focus on making these two gases: &&bHydrofluoric Acid&&r, and &&eUranium Oxide&&r.",
+      "<hr/>",
+      "<reward reward=\"21A507B60A7721B0\" quest=\"3B81800EE6E77EF2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:reprocessed_fissile_fragment"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          144,
+          80
+        ]
+      }
+    }
+  }
+}

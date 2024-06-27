@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "695A0DC585FB6E97"
+  ],
+  "tasks": {},
+  "rewards": {
+    "0C1FE4845CDCE417": {
+      "item": {
+        "id": "minecraft:trident",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 5,
+              "id": "sharpness"
+            },
+            {
+              "lvl": 3,
+              "id": "looting"
+            },
+            {
+              "lvl": 3,
+              "id": "sweeping"
+            }
+          ],
+          "display": {
+            "Name": "\"Master of...Patrick?\""
+          },
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "459D0B538C1F0199": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7BF613128A236696\" quest=\"6F598D9CFB915123\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0C1FE4845CDCE417\" quest=\"6F598D9CFB915123\"/>",
+      "<reward reward=\"459D0B538C1F0199\" quest=\"6F598D9CFB915123\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          0,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.patrick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

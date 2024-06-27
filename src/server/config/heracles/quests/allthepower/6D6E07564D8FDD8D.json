@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "5E41363F9AE243F3"
+  ],
+  "tasks": {
+    "70CC25EA15DBE615": {
+      "title": "Bigger Reactors",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1C7FBA6844D50ABA": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.reactors"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.reactors</translate></h2>",
+      "<hr/>",
+      "<task task=\"70CC25EA15DBE615\" quest=\"6D6E07564D8FDD8D\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.reactors</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1C7FBA6844D50ABA\" quest=\"6D6E07564D8FDD8D\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -16,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:basic_reactorchargingportfe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.reactors"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

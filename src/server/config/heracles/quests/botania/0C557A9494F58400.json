@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "229487A1B2657BF0": {
+      "type": "heracles:item",
+      "item": "botania:lens_light"
+    }
+  },
+  "rewards": {
+    "7BAE162D0F0DFF80": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_light",
+    "description": [
+      "<task task=\"229487A1B2657BF0\" quest=\"0C557A9494F58400\"/>",
+      "<hr/>",
+      "Causes the Mana Burst to create flame on the block it hits. This flame provides light and is purely decorative. It can be put out by using another Mana Burst on it.",
+      "<hr/>",
+      "<reward reward=\"7BAE162D0F0DFF80\" quest=\"0C557A9494F58400\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_light"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          320,
+          368
+        ]
+      }
+    }
+  }
+}

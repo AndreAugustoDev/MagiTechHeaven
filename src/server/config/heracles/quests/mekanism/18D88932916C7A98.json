@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "08DDE018A804BFE7"
+  ],
+  "tasks": {
+    "054CC6FB5173F8A3": {
+      "type": "heracles:item",
+      "item": "mekanism:electrolytic_separator"
+    }
+  },
+  "rewards": {
+    "58B361AC94AEB36D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:alloy_infused"
+      }
+    },
+    "0C296148AF479F71": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:electrolytic_separator",
+    "description": [
+      "<h2>Time to Break It Down</h2>",
+      "<hr/>",
+      "<task task=\"054CC6FB5173F8A3\" quest=\"18D88932916C7A98\"/>",
+      "<hr/>",
+      "The Electrolytic Separator (big fancy name) is used to separate chemicals from certain liquids and gases.",
+      "<br/>",
+      "You'll need a bunch of these if you plan on making an Ore Processing Factory.",
+      "<br/>",
+      "To start, make one of these and we'll break down the most basic fluid: Water.",
+      "<hr/>",
+      "<reward reward=\"58B361AC94AEB36D\" quest=\"18D88932916C7A98\"/>",
+      "<reward reward=\"0C296148AF479F71\" quest=\"18D88932916C7A98\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:electrolytic_separator"
+    },
+    "subtitle": {
+      "text": "Time to Break It Down"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -64,
+          -64
+        ]
+      }
+    }
+  }
+}

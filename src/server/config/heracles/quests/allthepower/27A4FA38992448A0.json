@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "36DEA17CBB696CC7"
+  ],
+  "tasks": {
+    "013BD44E5E82802A": {
+      "type": "heracles:item",
+      "item": "fluxnetworks:flux_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "37E08FCD1F0A3D26": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"013BD44E5E82802A\" quest=\"27A4FA38992448A0\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.controller",
+      "<br/>",
+      "{image:atm:textures/questpics/flux/wireless_ui.png width:125 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"37E08FCD1F0A3D26\" quest=\"27A4FA38992448A0\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -288,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fluxnetworks:flux_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

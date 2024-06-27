@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "4E9229FBA875C0BE"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1422464FC1F1F0DC": {
+      "item": {
+        "id": "waystones:waystone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "2E9E9049F5B2CACE": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7B33B2A7945A2C9D\" quest=\"79494986A7957292\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.teleporting</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1422464FC1F1F0DC\" quest=\"79494986A7957292\"/>",
+      "<reward reward=\"2E9E9049F5B2CACE\" quest=\"79494986A7957292\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          0,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "waystones:waystone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.teleporting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

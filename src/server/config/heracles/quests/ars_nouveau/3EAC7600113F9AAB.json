@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "3270B8D5C37F7F34": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_gust"
+    }
+  },
+  "rewards": {
+    "4E130026AC47622B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_gust",
+    "description": [
+      "<task task=\"3270B8D5C37F7F34\" quest=\"3EAC7600113F9AAB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4E130026AC47622B\" quest=\"3EAC7600113F9AAB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_gust"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -208
+        ]
+      }
+    }
+  }
+}

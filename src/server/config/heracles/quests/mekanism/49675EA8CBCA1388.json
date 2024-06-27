@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "79F38A9428A0A23D": {
+      "type": "heracles:item",
+      "item": "mekanism:atomic_disassembler"
+    }
+  },
+  "rewards": {
+    "76A57DE86B17E93A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:atomic_disassembler",
+    "description": [
+      "<h2>Mekanism's All In One Tool</h2>",
+      "<hr/>",
+      "<task task=\"79F38A9428A0A23D\" quest=\"49675EA8CBCA1388\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76A57DE86B17E93A\" quest=\"49675EA8CBCA1388\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:atomic_disassembler"
+    },
+    "subtitle": {
+      "text": "Mekanism's All In One Tool"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -208,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3121BA0C9976AFCD": {
+      "title": "Storing Power",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "477F18566EC6FB2A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3121BA0C9976AFCD\" quest=\"76EA017B12E8F01B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.storage</translate></p>",
+      "<hr/>",
+      "<reward reward=\"477F18566EC6FB2A\" quest=\"76EA017B12E8F01B\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          96,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:battery_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.storage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

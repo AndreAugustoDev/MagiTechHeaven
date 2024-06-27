@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "01B70A4F230ED036"
+  ],
+  "tasks": {
+    "572F01124B2232CD": {
+      "type": "heracles:item",
+      "item": "botanypots:terracotta_hopper_botany_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1AC7BCFCCC100F4C": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "3CE68937F914479A": {
+      "item": {
+        "id": "minecraft:hopper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"572F01124B2232CD\" quest=\"2715BECC5E6FFA64\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.botany</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3CE68937F914479A\" quest=\"2715BECC5E6FFA64\"/>",
+      "<reward reward=\"1AC7BCFCCC100F4C\" quest=\"2715BECC5E6FFA64\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          112,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botanypots:terracotta_hopper_botany_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.botany"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

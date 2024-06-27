@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "67DBE6C59C0D9D1B",
+    "33D23C65E7274A8F",
+    "1CF8263756EE8F2A"
+  ],
+  "tasks": {
+    "3DB6441F3AE36AAB": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_block"
+    }
+  },
+  "rewards": {
+    "75DBEA9D628C46DD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§cAwakened Supremium Essence",
+    "description": [
+      "<h2>&&bTier: Awakened</h2>",
+      "<hr/>",
+      "<task task=\"3DB6441F3AE36AAB\" quest=\"7A103577EAE7B3F1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"75DBEA9D628C46DD\" quest=\"7A103577EAE7B3F1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_essence"
+    },
+    "subtitle": {
+      "text": "§bTier: Awakened"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          16,
+          112
+        ]
+      }
+    }
+  }
+}

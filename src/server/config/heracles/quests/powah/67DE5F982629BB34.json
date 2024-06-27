@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D5F87F8E6B89C1B",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "2920C14299A40CD7": {
+      "type": "heracles:item",
+      "item": "powah:furnator_basic"
+    }
+  },
+  "rewards": {
+    "77DA676A51B424B1": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:furnator_basic",
+    "description": [
+      "<task task=\"2920C14299A40CD7\" quest=\"67DE5F982629BB34\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"77DA676A51B424B1\" quest=\"67DE5F982629BB34\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:furnator_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          144,
+          400
+        ]
+      }
+    }
+  }
+}

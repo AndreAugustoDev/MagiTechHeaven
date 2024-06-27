@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "6244032FE2E5F1E1"
+  ],
+  "tasks": {},
+  "rewards": {
+    "13E4A3BF1FB727B5": {
+      "xptype": "LEVEL",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"288C65CA52CA78B9\" quest=\"4C446F22771E2B53\"/>",
+      "<task task=\"1ED6ED03BCF4B5F5\" quest=\"4C446F22771E2B53\"/>",
+      "<task task=\"7DD85566E61EDA94\" quest=\"4C446F22771E2B53\"/>",
+      "<task task=\"2E6B0A322132B9FC\" quest=\"4C446F22771E2B53\"/>",
+      "<task task=\"78831B3CE3EE431C\" quest=\"4C446F22771E2B53\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.perfect</translate></p>",
+      "<hr/>",
+      "<reward reward=\"13E4A3BF1FB727B5\" quest=\"4C446F22771E2B53\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          320,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.perfect"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

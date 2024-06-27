@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5A708BF4F5091959",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "43621F44015EB06D": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_hardened"
+    }
+  },
+  "rewards": {
+    "33E7F0C466941D67": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cable_hardened",
+    "description": [
+      "<task task=\"43621F44015EB06D\" quest=\"029922AB09F8C76A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33E7F0C466941D67\" quest=\"029922AB09F8C76A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          32,
+          432
+        ]
+      }
+    }
+  }
+}

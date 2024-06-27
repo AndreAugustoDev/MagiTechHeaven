@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F1C04C0F6769825",
+    "04E2D539E33B7B0F"
+  ],
+  "tasks": {
+    "57F40CFA03BD36EF": {
+      "title": "The Hard Part",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0B129E30AA37E379": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "The Hard Part",
+    "description": [
+      "<h2>Tier 3 Ore Factory</h2>",
+      "<hr/>",
+      "<task task=\"57F40CFA03BD36EF\" quest=\"1112E4E2CCEB2467\"/>",
+      "<hr/>",
+      "So now, you should have 5 machines ready to go to process your ores. Are you ready to make it even more complicated?",
+      "<br/>",
+      "Your factory should be: Chemical Injection Chamber > Purifying Chamber > Crusher > Enrichment Chamber > Furnace/Smelter.",
+      "<br/>",
+      "Easy so far, right?",
+      "<br/>",
+      "Well buckle up. It's about to get wild.",
+      "<hr/>",
+      "<reward reward=\"0B129E30AA37E379\" quest=\"1112E4E2CCEB2467\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Tier 3 Ore Factory"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          208,
+          -64
+        ]
+      }
+    }
+  }
+}

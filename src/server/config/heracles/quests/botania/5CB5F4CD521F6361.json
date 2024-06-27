@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "28B797392467C851": {
+      "title": "Spark Augments",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "botania:spark_upgrade_dispersive"
+          },
+          {
+            "Count": 1,
+            "id": "botania:spark_upgrade_dominant"
+          },
+          {
+            "Count": 1,
+            "id": "botania:spark_upgrade_recessive"
+          },
+          {
+            "Count": 1,
+            "id": "botania:spark_upgrade_isolated"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "02D21C31266770EA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Spark Augments",
+    "description": [
+      "<task task=\"28B797392467C851\" quest=\"5CB5F4CD521F6361\"/>",
+      "<hr/>",
+      "With the new Elven materials, we're able to upgrade our sparks using &&dAugments&&r. With the Augment in hand, you can right click a spark with it to upgrade it. Using the wand, you can sneak-right click to remove it.",
+      "<br/>",
+      "Dispersive Augment: Allows a Spark to drain the Mana in its pool to charge nearby players' Mana-containing items.",
+      "<br/>",
+      "Dominant Augment: Makes a Spark pull Mana from nearby non-augmented Sparks' pools into its own.",
+      "<br/>",
+      "Recessive Augment: Makes a Spark distribute all of the Mana in its pool into nearby non-augmented or Dispersive Sparks' pools.",
+      "<br/>",
+      "Isolated Augment: Prevents a Spark from interacting with any Dominant or Recessive Sparks.",
+      "<hr/>",
+      "<reward reward=\"02D21C31266770EA\" quest=\"5CB5F4CD521F6361\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          688,
+          128
+        ]
+      }
+    }
+  }
+}

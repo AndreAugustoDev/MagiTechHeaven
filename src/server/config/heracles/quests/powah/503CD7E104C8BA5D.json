@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4449AD53BCE797E1",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "6B9FC8EDB5ED952E": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_nitro"
+    }
+  },
+  "rewards": {
+    "4AC330025BE2F012": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cell_nitro",
+    "description": [
+      "<task task=\"6B9FC8EDB5ED952E\" quest=\"503CD7E104C8BA5D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AC330025BE2F012\" quest=\"503CD7E104C8BA5D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          560
+        ]
+      }
+    }
+  }
+}

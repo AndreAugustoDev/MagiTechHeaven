@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "7F425E0F613F8B23": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:spell_bow"
+    }
+  },
+  "rewards": {
+    "685A6C60DD894FDE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:spell_bow",
+    "description": [
+      "<task task=\"7F425E0F613F8B23\" quest=\"51162B9185A45BB1\"/>",
+      "<hr/>",
+      "This bow can be inscribed with a spell using a Scribe's Table.",
+      "<br/>",
+      "At the cost of mana, arrows will become Spell Arrows and will apply the spell on their target.",
+      "<br/>",
+      "If you have no arrows, a spell arrow that deals 0 damage will be cast. If there is not enough mana, regular arrows will be fired instead.",
+      "<br/>",
+      "The &&9Enchanter's Bow&&r can also use special Augment Arrows that empower the inscribed spell.",
+      "<hr/>",
+      "<reward reward=\"685A6C60DD894FDE\" quest=\"51162B9185A45BB1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:spell_bow"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          320,
+          96
+        ]
+      }
+    }
+  }
+}

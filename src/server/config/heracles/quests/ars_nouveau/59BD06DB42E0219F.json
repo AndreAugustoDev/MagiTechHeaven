@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "5DA75E54FF1EFE89": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_evaporate"
+    }
+  },
+  "rewards": {
+    "302E439520101E75": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_evaporate",
+    "description": [
+      "<task task=\"5DA75E54FF1EFE89\" quest=\"59BD06DB42E0219F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"302E439520101E75\" quest=\"59BD06DB42E0219F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_evaporate"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -192,
+          -432
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "11D8B50355018821": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_challenge"
+    }
+  },
+  "rewards": {
+    "676B809A82AFD113": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_challenge",
+    "description": [
+      "<task task=\"11D8B50355018821\" quest=\"6D8C9D7D9DF9A6DD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"676B809A82AFD113\" quest=\"6D8C9D7D9DF9A6DD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_challenge"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          224,
+          208
+        ]
+      }
+    }
+  }
+}

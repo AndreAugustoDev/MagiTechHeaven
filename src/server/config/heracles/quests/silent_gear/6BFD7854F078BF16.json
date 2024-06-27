@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "657B3116A6419420"
+  ],
+  "tasks": {
+    "14B8204814A42B33": {
+      "type": "heracles:item",
+      "item": "silentgear:grip_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.grip"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.grip</translate></h2>",
+      "<hr/>",
+      "<task task=\"14B8204814A42B33\" quest=\"6BFD7854F078BF16\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          0,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:grip_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.grip"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

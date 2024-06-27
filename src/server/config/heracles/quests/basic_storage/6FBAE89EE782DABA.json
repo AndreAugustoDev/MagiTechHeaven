@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "072FBEB0F6F1BC48"
+  ],
+  "tasks": {
+    "1872E00684ADC839": {
+      "type": "heracles:item",
+      "item": "functionalstorage:storage_controller"
+    }
+  },
+  "rewards": {
+    "0817D478F3584AB6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "functionalstorage:copper_upgrade",
+        "count": 2
+      }
+    },
+    "577872850DA154AA": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.controller",
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.controller</translate></h2>",
+      "<hr/>",
+      "<task task=\"1872E00684ADC839\" quest=\"6FBAE89EE782DABA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.controller</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0817D478F3584AB6\" quest=\"6FBAE89EE782DABA\"/>",
+      "<reward reward=\"577872850DA154AA\" quest=\"6FBAE89EE782DABA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:storage_controller"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.controller"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -176,
+          -160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "3598B8EDD5834F92": {
+      "type": "heracles:item",
+      "item": "create:radial_chassis"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:radial_chassis",
+    "description": [
+      "<task task=\"3598B8EDD5834F92\" quest=\"459BA85E48B343AE\"/>",
+      "<hr/>",
+      "The &&n&&5Radial Chassis&&r can be used similar to the &&n&&5Super Glue&&r. It will connect blocks in a line, on the sides, without the need for glue."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:radial_chassis"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -32,
+          -48
+        ]
+      }
+    }
+  }
+}

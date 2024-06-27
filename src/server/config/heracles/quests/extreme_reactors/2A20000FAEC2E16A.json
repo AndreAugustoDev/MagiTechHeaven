@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "4B9E9497E44D0096"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"565CF24C6904CC2A\" quest=\"2A20000FAEC2E16A\"/>",
+      "<task task=\"0649EBB6E6516B4C\" quest=\"2A20000FAEC2E16A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_building_components</translate></p>",
+      "<hr/>",
+      "<reward reward=\"772EB41C198591C5\" quest=\"2A20000FAEC2E16A\"/>",
+      "<reward reward=\"1FA7A1D6E690613A\" quest=\"2A20000FAEC2E16A\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -160,
+          176
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.reactor_building_components"
+  },
+  "rewards": {
+    "1FA7A1D6E690613A": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "772EB41C198591C5": {
+      "item": {
+        "count": 2,
+        "id": "bigreactors:basic_reactorcasing"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "tasks": {
+    "0649EBB6E6516B4C": {
+      "item": "bigreactors:basic_reactorsolidaccessport",
+      "type": "heracles:item"
+    },
+    "565CF24C6904CC2A": {
+      "item": "bigreactors:basic_reactorpowertapfe_active",
+      "type": "heracles:item"
+    }
+  }
+}

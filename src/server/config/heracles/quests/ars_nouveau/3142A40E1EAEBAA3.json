@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "33682F4B44950123"
+  ],
+  "tasks": {
+    "07469C1ABB23F686": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:dowsing_rod"
+    }
+  },
+  "rewards": {
+    "792570A800671B52": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:dowsing_rod",
+    "description": [
+      "<h2>Magic Finder</h2>",
+      "<hr/>",
+      "<task task=\"07469C1ABB23F686\" quest=\"3142A40E1EAEBAA3\"/>",
+      "<hr/>",
+      "The &&6Dowsing Rod&&r gives you Magic Find and Scrying when used.",
+      "<br/>",
+      "This allows you to see nearby magic creatures as well as helping you find amethyst!",
+      "<hr/>",
+      "<reward reward=\"792570A800671B52\" quest=\"3142A40E1EAEBAA3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:dowsing_rod"
+    },
+    "subtitle": {
+      "text": "Magic Finder"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          48
+        ]
+      }
+    }
+  }
+}

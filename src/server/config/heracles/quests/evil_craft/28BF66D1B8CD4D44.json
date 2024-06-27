@@ -1,0 +1,114 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40888A2C17D8FFF6"
+  ],
+  "tasks": {
+    "73427CBDD811273E": {
+      "type": "heracles:item",
+      "item": "evilcraft:broom_part",
+      "nbt": {
+        "broom_parts_tag": [
+          "evilcraft:rod_bare"
+        ]
+      }
+    },
+    "499D24D1F87BF794": {
+      "type": "heracles:item",
+      "item": "evilcraft:broom_part",
+      "nbt": {
+        "broom_parts_tag": [
+          "evilcraft:brush_bare"
+        ]
+      }
+    },
+    "2148DCC201648C0A": {
+      "type": "heracles:item",
+      "item": "evilcraft:broom_part",
+      "nbt": {
+        "broom_parts_tag": [
+          "evilcraft:cap_bare"
+        ]
+      }
+    },
+    "1E0F142EBB4085FF": {
+      "type": "heracles:item",
+      "item": "evilcraft:broom",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "broom_modifiers_tag": [
+          {
+            "id": "evilcraft:acceleration",
+            "value": 0
+          },
+          {
+            "id": "evilcraft:modifier_count",
+            "value": 0
+          },
+          {
+            "id": "evilcraft:maneuverability",
+            "value": 0
+          },
+          {
+            "id": "evilcraft:speed",
+            "value": 0
+          },
+          {
+            "id": "evilcraft:levitation",
+            "value": 0
+          }
+        ],
+        "broom_parts_tag": [
+          "evilcraft:brush_bare",
+          "evilcraft:cap_bare",
+          "evilcraft:rod_bare"
+        ],
+        "capacity": 10000
+      }
+    }
+  },
+  "rewards": {
+    "7882A83FC533B42E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§cBlood§r §dBrooms§r",
+    "description": [
+      "<h2>Broom Broom</h2>",
+      "<hr/>",
+      "<task task=\"73427CBDD811273E\" quest=\"28BF66D1B8CD4D44\"/>",
+      "<task task=\"499D24D1F87BF794\" quest=\"28BF66D1B8CD4D44\"/>",
+      "<task task=\"2148DCC201648C0A\" quest=\"28BF66D1B8CD4D44\"/>",
+      "<task task=\"1E0F142EBB4085FF\" quest=\"28BF66D1B8CD4D44\"/>",
+      "<hr/>",
+      "&&dBrooms&&r can be made using Broom Parts. Every Broom is made up of 3 parts: a Rod, a Cap, and a Brush.",
+      "<br/>",
+      "Each part can be crafted by combing the bare part with certain items to give them specific modifiers. As there are too many modifiers to type out, make sure to check the guide book for more info!",
+      "<br/>",
+      "To craft your Broom, simply place each part into the crafting table. The Broom will require Blood to function properly. ",
+      "<hr/>",
+      "<reward reward=\"7882A83FC533B42E\" quest=\"28BF66D1B8CD4D44\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:broom"
+    },
+    "subtitle": {
+      "text": "Broom Broom"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          112,
+          336
+        ]
+      }
+    }
+  }
+}

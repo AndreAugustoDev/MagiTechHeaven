@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "52234A1EC13FC6A0": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_place_block"
+    }
+  },
+  "rewards": {
+    "71384940493358B4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_place_block",
+    "description": [
+      "<task task=\"52234A1EC13FC6A0\" quest=\"38E44223347DA798\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"71384940493358B4\" quest=\"38E44223347DA798\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_place_block"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -368
+        ]
+      }
+    }
+  }
+}

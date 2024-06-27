@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C3CA7B9D1A7DC47"
+  ],
+  "tasks": {
+    "46DC0EE4792CCA0D": {
+      "type": "heracles:item",
+      "item": "bloodmagic:apprenticebloodorb"
+    }
+  },
+  "rewards": {
+    "223ED7C4E7DAA411": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:apprenticebloodorb",
+    "description": [
+      "<h2>Holds a max of 25k LP</h2>",
+      "<hr/>",
+      "<task task=\"46DC0EE4792CCA0D\" quest=\"08143AD0D63FFD1F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"223ED7C4E7DAA411\" quest=\"08143AD0D63FFD1F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:apprenticebloodorb"
+    },
+    "subtitle": {
+      "text": "Holds a max of 25k LP"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -704,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6313B18820445882"
+  ],
+  "tasks": {
+    "4C0CC372A8597375": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:electromagnetic_coil"
+    }
+  },
+  "rewards": {
+    "18AE58687D78BB0F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanismgenerators:electromagnetic_coil",
+    "description": [
+      "<task task=\"4C0CC372A8597375\" quest=\"7C61906C6C87C97D\"/>",
+      "<hr/>",
+      "The &&9Electromagnetic Coil&&r is placed directly on top of the &&aRotational Complex&&r to convert the kinetic energy into power.",
+      "<br/>",
+      "You can use multiple, with 7 being the max with a Turbine using 28 blades. These must either touch another Coil, or the Rotational Complex.",
+      "<hr/>",
+      "<reward reward=\"18AE58687D78BB0F\" quest=\"7C61906C6C87C97D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:electromagnetic_coil"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          448,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "28EE8C172F9DF5C1"
+  ],
+  "tasks": {
+    "32F356FA79D13349": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_spirited"
+    }
+  },
+  "rewards": {
+    "7E79681CBAAC299B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:thermo_generator_spirited",
+    "description": [
+      "<task task=\"32F356FA79D13349\" quest=\"637A8E4BBF108417\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7E79681CBAAC299B\" quest=\"637A8E4BBF108417\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          176,
+          528
+        ]
+      }
+    }
+  }
+}

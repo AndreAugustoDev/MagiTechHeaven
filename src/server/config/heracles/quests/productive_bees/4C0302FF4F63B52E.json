@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "6754D9E162472CA1": {
+      "title": "Allthemodium Progression",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "22627B27D2839167": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Allthemodium Progression",
+    "description": [
+      "<task task=\"6754D9E162472CA1\" quest=\"4C0302FF4F63B52E\"/>",
+      "<hr/>",
+      "If you want the ATM bees, it takes a lot of capturing and breeding and feeding. ",
+      "<br/>",
+      "The following part of the questline outlines which bees you'll need to move forward.",
+      "<br/>",
+      "Make sure to check JEI and the &&9Big Book of Bees&&r for more info!",
+      "<hr/>",
+      "<reward reward=\"22627B27D2839167\" quest=\"4C0302FF4F63B52E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "allthemodium:allthemodium_ore"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          128,
+          144
+        ]
+      }
+    }
+  }
+}

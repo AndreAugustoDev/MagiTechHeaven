@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "3819DBE6E95E998E": {
+      "type": "heracles:item",
+      "item": "thermal:device_collector"
+    }
+  },
+  "rewards": {
+    "7F764F32D74976B4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:device_collector",
+    "description": [
+      "<h2>Vacuums up items</h2>",
+      "<hr/>",
+      "<task task=\"3819DBE6E95E998E\" quest=\"1B04B7EA5220D275\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F764F32D74976B4\" quest=\"1B04B7EA5220D275\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:device_collector"
+    },
+    "subtitle": {
+      "text": "Vacuums up items"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -128,
+          80
+        ]
+      }
+    }
+  }
+}

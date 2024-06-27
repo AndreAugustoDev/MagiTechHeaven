@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "681E89DB12A21A09"
+  ],
+  "tasks": {
+    "26A2FFCD2BC34175": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4C1E6FBDD27DF4EF": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"26A2FFCD2BC34175\" quest=\"427E7112ED0978FB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.MA</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4C1E6FBDD27DF4EF\" quest=\"427E7112ED0978FB\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -128,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:inferium_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.MA"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

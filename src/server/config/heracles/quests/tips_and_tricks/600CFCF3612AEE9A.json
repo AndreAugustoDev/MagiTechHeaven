@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {
+    "30F1C1BC1AD18EA5": {
+      "title": "Apotheosis",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "50C8D9EC8D53EB82": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.spawner"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.spawner</translate></h2>",
+      "<hr/>",
+      "<task task=\"30F1C1BC1AD18EA5\" quest=\"600CFCF3612AEE9A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.spawner</translate></p>",
+      "<hr/>",
+      "<reward reward=\"50C8D9EC8D53EB82\" quest=\"600CFCF3612AEE9A\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          176,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:spawner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.spawner"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

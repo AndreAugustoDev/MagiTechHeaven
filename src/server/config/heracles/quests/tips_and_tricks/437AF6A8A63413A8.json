@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "7658C1C663394E85",
+    "378C95C18798D413"
+  ],
+  "tasks": {
+    "2C621D97D1ED56DE": {
+      "title": "RF Generation",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4CDC7F753855B46A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.tips.subt.powah"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.tips.subt.powah</translate></h2>",
+      "<hr/>",
+      "<task task=\"2C621D97D1ED56DE\" quest=\"437AF6A8A63413A8\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.tips.desc.powah</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4CDC7F753855B46A\" quest=\"437AF6A8A63413A8\"/>"
+    ],
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          176,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanismgenerators:gas_burning_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.tips.powah"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

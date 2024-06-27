@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "56ACF4EA4F91E75C": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_rocket"
+    }
+  },
+  "rewards": {
+    "51DAF57217E578E2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_rocket",
+    "description": [
+      "<task task=\"56ACF4EA4F91E75C\" quest=\"014262BDF1BBA54D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"51DAF57217E578E2\" quest=\"014262BDF1BBA54D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_rocket"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          448,
+          96
+        ]
+      }
+    }
+  }
+}

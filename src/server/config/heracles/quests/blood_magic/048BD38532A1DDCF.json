@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CA3AE708F46CEBF"
+  ],
+  "tasks": {
+    "2F13F6D6E170BBEC": {
+      "type": "heracles:item",
+      "item": "bloodmagic:masterbloodorb"
+    }
+  },
+  "rewards": {
+    "08B35AB2E64B3B71": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:masterbloodorb",
+    "description": [
+      "<h2>Holds a max of 1M LP</h2>",
+      "<hr/>",
+      "<task task=\"2F13F6D6E170BBEC\" quest=\"048BD38532A1DDCF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08B35AB2E64B3B71\" quest=\"048BD38532A1DDCF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:masterbloodorb"
+    },
+    "subtitle": {
+      "text": "Holds a max of 1M LP"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -496,
+          -80
+        ]
+      }
+    }
+  }
+}

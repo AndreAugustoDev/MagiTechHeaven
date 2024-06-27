@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7940E814260C556F"
+  ],
+  "tasks": {
+    "0DD9B2119BB50C80": {
+      "type": "heracles:item",
+      "item": "mekanism:alloy_atomic"
+    }
+  },
+  "rewards": {
+    "6C480517028750E3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:dust_refined_obsidian"
+      }
+    },
+    "1E437DC12A456C83": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:alloy_atomic",
+    "description": [
+      "<task task=\"0DD9B2119BB50C80\" quest=\"019D5A05A2134C7E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6C480517028750E3\" quest=\"019D5A05A2134C7E\"/>",
+      "<reward reward=\"1E437DC12A456C83\" quest=\"019D5A05A2134C7E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:alloy_atomic"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -240,
+          -176
+        ]
+      }
+    }
+  }
+}

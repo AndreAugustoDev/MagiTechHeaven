@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "17D156865446035D": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_rune"
+    }
+  },
+  "rewards": {
+    "0579B03379C21F12": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_rune",
+    "description": [
+      "<task task=\"17D156865446035D\" quest=\"6C4E72C0BF98E8DD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0579B03379C21F12\" quest=\"6C4E72C0BF98E8DD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_rune"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -240
+        ]
+      }
+    }
+  }
+}

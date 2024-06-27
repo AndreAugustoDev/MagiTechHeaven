@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "55F718D796CEB1B1": {
+      "title": "Bronze Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:bronze"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "50DDB12B5BB338D2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Bronze Bees",
+    "description": [
+      "<h2>Copper + Tin</h2>",
+      "<hr/>",
+      "<task task=\"55F718D796CEB1B1\" quest=\"6E4C3B87FABE9EFA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"50DDB12B5BB338D2\" quest=\"6E4C3B87FABE9EFA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:bronze_ingot"
+    },
+    "subtitle": {
+      "text": "Copper + Tin"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          432
+        ]
+      }
+    }
+  }
+}

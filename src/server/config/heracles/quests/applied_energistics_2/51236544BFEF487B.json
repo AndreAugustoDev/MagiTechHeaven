@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "68B0B3DAF1145191"
+  ],
+  "tasks": {
+    "4D57E005D20BEDB9": {
+      "type": "heracles:item",
+      "item": "ae2:meteorite_compass",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "4D25BF3C4F05025D": {
+      "advancements": [
+        "ae2:main/presses"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "53D03CFF7586058B": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1745CCFAC5C46D28": {
+      "item": {
+        "id": "ae2:sky_stone_block",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.meteorite"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.meteorite</translate></h2>",
+      "<hr/>",
+      "<task task=\"4D57E005D20BEDB9\" quest=\"51236544BFEF487B\"/>",
+      "<task task=\"4D25BF3C4F05025D\" quest=\"51236544BFEF487B\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.meteorite</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1745CCFAC5C46D28\" quest=\"51236544BFEF487B\"/>",
+      "<reward reward=\"53D03CFF7586058B\" quest=\"51236544BFEF487B\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          128,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:calculation_processor_press",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.meteorite"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

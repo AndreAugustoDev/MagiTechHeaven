@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "375FF0D8ACD2E17F"
+  ],
+  "tasks": {
+    "6995C629EAA148F5": {
+      "type": "heracles:item",
+      "item": "bloodmagic:masterritualstone"
+    },
+    "32F2BC0D3AA69E25": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "bloodmagic:ritualstone"
+    }
+  },
+  "rewards": {
+    "706F037413BB3D25": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Tier I Rituals",
+    "description": [
+      "<task task=\"6995C629EAA148F5\" quest=\"4578C0EE82F66BD9\"/>",
+      "<task task=\"32F2BC0D3AA69E25\" quest=\"4578C0EE82F66BD9\"/>",
+      "<hr/>",
+      "With our Tier 3 Altar, we can start performing Rituals.",
+      "<br/>",
+      "Rituals require a Master Ritual Stone and enough regular Ritual Stones to create.",
+      "<br/>",
+      "Start by crafting a bunch of Ritual Stones as well as a Master Ritual Stone. These are the basic blocks we'll need to start doing rituals.",
+      "<hr/>",
+      "<reward reward=\"706F037413BB3D25\" quest=\"4578C0EE82F66BD9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:masterritualstone"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -576,
+          16
+        ]
+      }
+    }
+  }
+}

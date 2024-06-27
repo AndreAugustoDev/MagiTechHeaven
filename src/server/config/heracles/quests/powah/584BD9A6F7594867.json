@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "68B604EF40198B8D"
+  ],
+  "tasks": {
+    "6947E1FB9DF4719A": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_niotic"
+    }
+  },
+  "rewards": {
+    "782038EC955F66DE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_gate_niotic",
+    "description": [
+      "<task task=\"6947E1FB9DF4719A\" quest=\"584BD9A6F7594867\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"782038EC955F66DE\" quest=\"584BD9A6F7594867\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_niotic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          64,
+          496
+        ]
+      }
+    }
+  }
+}

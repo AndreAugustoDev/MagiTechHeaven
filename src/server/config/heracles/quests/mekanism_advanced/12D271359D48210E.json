@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0152C49AB74B9D32"
+  ],
+  "tasks": {
+    "2A6E713A062510B6": {
+      "title": "Fueling the Reactor",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "771198694F018CFC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Fueling the §dFusion Reactor§r",
+    "description": [
+      "<task task=\"2A6E713A062510B6\" quest=\"12D271359D48210E\"/>",
+      "<hr/>",
+      "Fusion Reactors require a very special fuel: &&dD-T Fuel&&r to be exact.",
+      "<br/>",
+      "There are two ways to fuel the Reactor: Either by pumping in D-T Fuel directly into the Reactor at 1,000mb/t, or by pumping each of the two fuels  in separately at controlled rates.",
+      "<br/>",
+      "For starters, let's pump them in separately. We probably need to know how to make them as well.",
+      "<hr/>",
+      "<reward reward=\"771198694F018CFC\" quest=\"12D271359D48210E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:fusion_fuel_bucket"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          336,
+          -256
+        ]
+      }
+    }
+  }
+}

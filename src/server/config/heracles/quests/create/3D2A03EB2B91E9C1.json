@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2D41B04C75FA02BC"
+  ],
+  "tasks": {
+    "105F8859D59964C4": {
+      "type": "heracles:item",
+      "item": "create:chute"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:chute",
+    "description": [
+      "<task task=\"105F8859D59964C4\" quest=\"3D2A03EB2B91E9C1\"/>",
+      "<hr/>",
+      "The &&n&&5Chute&&r is used to insert/extract from inventories, or to place/take items from a belt."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:chute"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          304,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "61A0FDFECECB6FFF": {
+      "advancements": [
+        "apotheosis:affix/gem"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"61A0FDFECECB6FFF\" quest=\"5A0305BB1F8EA932\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.affixes.desc.gems}"
+    ],
+    "groups": {
+      "Apotheosis Gear": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.affixes.gems"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

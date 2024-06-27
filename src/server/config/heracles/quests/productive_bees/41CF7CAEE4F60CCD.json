@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "09F5BBEBACBA280D": {
+      "type": "heracles:item",
+      "item": "productivebees:glowstone_nest"
+    }
+  },
+  "rewards": {
+    "310F333754B88B57": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:glowstone_nest",
+    "description": [
+      "<h2>Lures a Glowing Bee in the Nether</h2>",
+      "<hr/>",
+      "<task task=\"09F5BBEBACBA280D\" quest=\"41CF7CAEE4F60CCD\"/>",
+      "<hr/>",
+      "When placed in the Nether and given Glowstone, the Glowstone Nest will lure in a Glowing Bee.",
+      "<hr/>",
+      "<reward reward=\"310F333754B88B57\" quest=\"41CF7CAEE4F60CCD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:glowstone_nest"
+    },
+    "subtitle": {
+      "text": "Lures a Glowing Bee in the Nether"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -224,
+          176
+        ]
+      }
+    }
+  }
+}

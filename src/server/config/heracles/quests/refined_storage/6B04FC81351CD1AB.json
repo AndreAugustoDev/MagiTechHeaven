@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "43E8912CB307E421"
+  ],
+  "tasks": {
+    "48935A6041672A29": {
+      "type": "heracles:item",
+      "item": "refinedstorage:wireless_transmitter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.wireless"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.wireless</translate></h2>",
+      "<hr/>",
+      "<task task=\"48935A6041672A29\" quest=\"6B04FC81351CD1AB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.wireless}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          176,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:wireless_transmitter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.wireless"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

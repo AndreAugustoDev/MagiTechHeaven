@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "23A2865FBE7831AB"
+  ],
+  "tasks": {
+    "420577A05AAC9A18": {
+      "type": "heracles:item",
+      "item": "botania:alfheim_portal"
+    },
+    "184D19EC756FBCD8": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "botania:natura_pylon"
+    },
+    "763D84A4488A3008": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "botania:glimmering_livingwood_log"
+    },
+    "08AECABD8E75A495": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "botania:livingwood"
+    }
+  },
+  "rewards": {
+    "2082E1DD4BF81D00": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Opening the Portal",
+    "description": [
+      "<task task=\"420577A05AAC9A18\" quest=\"1EF7664F5D8C5FF1\"/>",
+      "<task task=\"184D19EC756FBCD8\" quest=\"1EF7664F5D8C5FF1\"/>",
+      "<task task=\"763D84A4488A3008\" quest=\"1EF7664F5D8C5FF1\"/>",
+      "<task task=\"08AECABD8E75A495\" quest=\"1EF7664F5D8C5FF1\"/>",
+      "<hr/>",
+      "To create a &&dPortal to Alfheim&&r, start with the frame. We'll need to use 8 Livingwood blocks, 3 Glimmering Livingwood blocks, and an &&9Elven Gateway Core&&r to create the frame.",
+      "<br/>",
+      "Once the frame is created, we'll need to open it by using at least &&d2 Mana Pools&&r, a huge amount of mana, and a &&aNatura Pylon&&r over the 2 pools. These mana pools can be within an 11x11x11 area around the core.",
+      "<br/>",
+      "With everything set up, right click the Elven Core with your wand to activate the portal.",
+      "<br/>",
+      "Note: Even though the Mana Pools need a large amount of Mana to activate the portal, activating the portal does not cost Mana itself. However, converting materials over will use a little each time. If there is not enough mana, the portal will close.",
+      "<br/>",
+      "You can also use the &&aLexica Botania&&r to help you build it.",
+      "<br/>",
+      "{image:atm:textures/questpics/botania/elven_portal.png width:200 height:175 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2082E1DD4BF81D00\" quest=\"1EF7664F5D8C5FF1\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          592,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "42D173B9FF8D16E4"
+  ],
+  "tasks": {
+    "44999798D86177A3": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:heat_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3E3F4483E3804F21": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.heat"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.heat</translate></h2>",
+      "<hr/>",
+      "<task task=\"44999798D86177A3\" quest=\"11D09E918015355C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.heat</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3E3F4483E3804F21\" quest=\"11D09E918015355C\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -208,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanismgenerators:heat_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.heat"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

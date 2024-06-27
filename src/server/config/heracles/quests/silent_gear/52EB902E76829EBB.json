@@ -1,0 +1,57 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2639F0B573ACEBB6": {
+      "title": "Silent Gear Weapons, Tools and Armor",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "383D184AE6F5236A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.SG"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.SG</translate></h2>",
+      "<hr/>",
+      "<task task=\"2639F0B573ACEBB6\" quest=\"52EB902E76829EBB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.SG</translate></p>",
+      "<hr/>",
+      "<reward reward=\"383D184AE6F5236A\" quest=\"52EB902E76829EBB\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -232,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:blueprint_package",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.SG"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

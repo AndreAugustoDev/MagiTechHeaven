@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "18DFB25DC48D8BF7"
+  ],
+  "tasks": {
+    "68A36AB341CC016D": {
+      "type": "heracles:item",
+      "item": "ae2:spatial_anchor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "29737736E2B314EA": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"68A36AB341CC016D\" quest=\"2897FA291E5A38D8\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.Sanchor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"29737736E2B314EA\" quest=\"2897FA291E5A38D8\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          656,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:spatial_anchor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.Sanchor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

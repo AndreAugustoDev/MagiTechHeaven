@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6E616DB197387C86"
+  ],
+  "tasks": {
+    "3DD12A969161A5B6": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:pitiful_generator"
+    }
+  },
+  "rewards": {
+    "3F63CCEB0E0789AF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:pitiful_generator",
+    "description": [
+      "<task task=\"3DD12A969161A5B6\" quest=\"33532408B21A5378\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3F63CCEB0E0789AF\" quest=\"33532408B21A5378\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:pitiful_generator"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          48,
+          -48
+        ]
+      }
+    }
+  }
+}

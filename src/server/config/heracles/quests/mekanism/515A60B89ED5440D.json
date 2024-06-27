@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "166971866A9234C7"
+  ],
+  "tasks": {
+    "0872B5A950703C8A": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_stone_generator"
+    }
+  },
+  "rewards": {
+    "4D2F9BA2D7981111": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:upgrade_stone_generator",
+    "description": [
+      "<task task=\"0872B5A950703C8A\" quest=\"515A60B89ED5440D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4D2F9BA2D7981111\" quest=\"515A60B89ED5440D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:upgrade_stone_generator"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          48,
+          304
+        ]
+      }
+    }
+  }
+}

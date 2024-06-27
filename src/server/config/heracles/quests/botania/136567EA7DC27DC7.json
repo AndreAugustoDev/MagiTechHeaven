@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "3AEB80A6F92651FF": {
+      "type": "heracles:item",
+      "item": "botania:bellethorn"
+    }
+  },
+  "rewards": {
+    "48443AF7C7600026": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:bellethorn",
+    "description": [
+      "<task task=\"3AEB80A6F92651FF\" quest=\"136567EA7DC27DC7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"48443AF7C7600026\" quest=\"136567EA7DC27DC7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:bellethorn"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -128,
+          -16
+        ]
+      }
+    }
+  }
+}

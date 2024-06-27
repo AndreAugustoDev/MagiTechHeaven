@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "347C16F0F7CFAACF",
+    "019D5A05A2134C7E"
+  ],
+  "tasks": {
+    "7E9FCA38BA758B41": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "rewards": {
+    "2EAE017B367B43AF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:alloy_atomic"
+      }
+    },
+    "3C70B4A824D438D9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_control_circuit",
+    "description": [
+      "<task task=\"7E9FCA38BA758B41\" quest=\"4AA150A009E904DA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2EAE017B367B43AF\" quest=\"4AA150A009E904DA\"/>",
+      "<reward reward=\"3C70B4A824D438D9\" quest=\"4AA150A009E904DA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -224,
+          -208
+        ]
+      }
+    }
+  }
+}

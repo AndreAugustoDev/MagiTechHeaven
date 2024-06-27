@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "12CE4920DABD0F98": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_freeze"
+    }
+  },
+  "rewards": {
+    "2134B56DB249DD4D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_freeze",
+    "description": [
+      "<task task=\"12CE4920DABD0F98\" quest=\"5BB155110168DF92\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2134B56DB249DD4D\" quest=\"5BB155110168DF92\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_freeze"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -160,
+          -208
+        ]
+      }
+    }
+  }
+}

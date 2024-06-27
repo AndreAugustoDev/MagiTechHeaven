@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "64EC182B81BD8B86",
+    "1E3471513C75CC54"
+  ],
+  "tasks": {
+    "734B129022B49A38": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_infusion_core"
+    }
+  },
+  "rewards": {
+    "7E28A39E1447CF3A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aInfusion Cores§r",
+    "description": [
+      "<task task=\"734B129022B49A38\" quest=\"68318811CCC28320\"/>",
+      "<hr/>",
+      "Combining &&aHardened Blood Shards&&r with &&9Dark Power Gems&&r will make Blood Infusion Cores.",
+      "<br/>",
+      "&&9Blood Infusion Cores&&r are the main crafting components of several machines in EvilCraft.",
+      "<hr/>",
+      "<reward reward=\"7E28A39E1447CF3A\" quest=\"68318811CCC28320\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:blood_infusion_core"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          64,
+          144
+        ]
+      }
+    }
+  }
+}

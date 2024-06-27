@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "202B1F54D3F06DAB"
+  ],
+  "tasks": {
+    "0458D76584A3A6DB": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:insanium_apple"
+    }
+  },
+  "rewards": {
+    "39D16F8A351DAC73": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagradditions:insanium_apple",
+    "description": [
+      "<task task=\"0458D76584A3A6DB\" quest=\"1F7591DB6D8EC1E7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"39D16F8A351DAC73\" quest=\"1F7591DB6D8EC1E7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagradditions:insanium_apple"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          160,
+          16
+        ]
+      }
+    }
+  }
+}

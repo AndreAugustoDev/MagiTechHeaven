@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "31CC6D6C9BD14E1E": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_collector"
+    },
+    "62B10DA5B0939647": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:fluid_placer"
+    }
+  },
+  "rewards": {
+    "2753E05691F3DCC7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Fluids",
+    "description": [
+      "<task task=\"31CC6D6C9BD14E1E\" quest=\"427C3AFC0FF131CD\"/>",
+      "<task task=\"62B10DA5B0939647\" quest=\"427C3AFC0FF131CD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2753E05691F3DCC7\" quest=\"427C3AFC0FF131CD\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          288,
+          -80
+        ]
+      }
+    }
+  }
+}

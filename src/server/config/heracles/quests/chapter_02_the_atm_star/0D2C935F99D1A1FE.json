@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "323F39FC300F7E30"
+  ],
+  "tasks": {
+    "596E49E5EE0F44F5": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:ingot_hop_graphite",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "26DE65A66FF69193": {
+      "title": "Squeezer",
+      "advancements": [
+        "immersiveengineering:multiblocks/mb_squeezer"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"26DE65A66FF69193\" quest=\"0D2C935F99D1A1FE\"/>",
+      "<task task=\"596E49E5EE0F44F5\" quest=\"0D2C935F99D1A1FE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.squeezer}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -320,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.squeezer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

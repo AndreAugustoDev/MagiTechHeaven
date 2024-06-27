@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "09CCC797BF15ADFC"
+  ],
+  "tasks": {
+    "66035A72EEEF2FA1": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "forbidden_arcanus:dragon_scale"
+    }
+  },
+  "rewards": {
+    "49C41CD91F6E1DB5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "forbidden_arcanus:dragon_scale"
+      }
+    },
+    "4CD12CEC53F48F4B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Dragon Scales",
+    "description": [
+      "<h2>Dragon Scales, Dragon Scales.....</h2>",
+      "<hr/>",
+      "<task task=\"66035A72EEEF2FA1\" quest=\"20B495B4B8B95636\"/>",
+      "<hr/>",
+      "Combining a Dragon Head with a Mystical Dagger will give you &&9Dragon Scales&&r.",
+      "<hr/>",
+      "<reward reward=\"49C41CD91F6E1DB5\" quest=\"20B495B4B8B95636\"/>",
+      "<reward reward=\"4CD12CEC53F48F4B\" quest=\"20B495B4B8B95636\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:dragon_scale"
+    },
+    "subtitle": {
+      "text": "Dragon Scales, Dragon Scales....."
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          80,
+          224
+        ]
+      }
+    }
+  }
+}

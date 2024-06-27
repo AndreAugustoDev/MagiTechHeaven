@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2746575C929B6C50"
+  ],
+  "tasks": {
+    "62C6F14FE6A82305": {
+      "type": "heracles:item",
+      "item": "functionalstorage:linking_tool",
+      "nbt": {
+        "Action": "ADD",
+        "Mode": "SINGLE"
+      }
+    }
+  },
+  "rewards": {
+    "7524181E415A05BB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "3625DED76F225AAE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "functionalstorage:oak_1"
+      }
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.link",
+    "description": [
+      "<task task=\"62C6F14FE6A82305\" quest=\"072FBEB0F6F1BC48\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.link</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7524181E415A05BB\" quest=\"072FBEB0F6F1BC48\"/>",
+      "<reward reward=\"3625DED76F225AAE\" quest=\"072FBEB0F6F1BC48\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "functionalstorage:linking_tool"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -240,
+          -160
+        ]
+      }
+    }
+  }
+}

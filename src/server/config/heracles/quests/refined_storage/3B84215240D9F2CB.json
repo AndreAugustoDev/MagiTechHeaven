@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "01F18150EC923482"
+  ],
+  "tasks": {
+    "20F3020C07C9D22B": {
+      "type": "heracles:item",
+      "item": "refinedstorage:security_manager",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "03E85C433BFA3B18": {
+      "item": {
+        "id": "refinedstorage:security_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.rs.subt.security"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.rs.subt.security</translate></h2>",
+      "<hr/>",
+      "<task task=\"20F3020C07C9D22B\" quest=\"3B84215240D9F2CB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.security</translate></p>",
+      "<hr/>",
+      "<reward reward=\"03E85C433BFA3B18\" quest=\"3B84215240D9F2CB\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -224,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:security_manager",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.security"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

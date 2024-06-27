@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "tasks": {
+    "27529E8EA019A89A": {
+      "title": "Blood Magic",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3D1B65B9B393B3F4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "5A846312CB17F978": {
+      "type": "heracles:item",
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "bloodmagic:guide"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Welcome to §cBlood Magic!",
+    "description": [
+      "<task task=\"27529E8EA019A89A\" quest=\"3A9B90A453C933C4\"/>",
+      "<hr/>",
+      "Welcome to &&cBlood Magic&&f!",
+      "<br/>",
+      "This mod is all about using the Blood of your enemies (or yourself) to create powerful items and networks!",
+      "<br/>",
+      "The guidebook contains all of the information about the mod if you ever need any help.",
+      "<hr/>",
+      "<reward reward=\"3D1B65B9B393B3F4\" quest=\"3A9B90A453C933C4\"/>",
+      "<reward reward=\"5A846312CB17F978\" quest=\"3A9B90A453C933C4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "patchouli:guide_book"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -976,
+          -32
+        ]
+      }
+    }
+  }
+}

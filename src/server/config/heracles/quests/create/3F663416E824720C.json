@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2D41B04C75FA02BC"
+  ],
+  "tasks": {
+    "7FE62F264B4FA5DE": {
+      "type": "heracles:item",
+      "item": "create:copper_casing"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:copper_casing",
+    "description": [
+      "<task task=\"7FE62F264B4FA5DE\" quest=\"3F663416E824720C\"/>",
+      "<hr/>",
+      "&&n&&5Casings&&r are used as a crafting ingredient for most blocks."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:copper_casing"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          352,
+          0
+        ]
+      }
+    }
+  }
+}

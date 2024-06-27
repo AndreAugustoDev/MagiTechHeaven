@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "0F45E8D41C62BE78": {
+      "title": "Hoarder Bee",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "438D89082142A748": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Hoarder Bee",
+    "description": [
+      "<h2>Feed a Collector Bee a Shulker Shell!</h2>",
+      "<hr/>",
+      "<task task=\"0F45E8D41C62BE78\" quest=\"309059DEDEE7AECD\"/>",
+      "<hr/>",
+      "Collects items on the ground and brings it back to its nest.",
+      "<hr/>",
+      "<reward reward=\"438D89082142A748\" quest=\"309059DEDEE7AECD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:shulker_box"
+    },
+    "subtitle": {
+      "text": "Feed a Collector Bee a Shulker Shell!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          528
+        ]
+      }
+    }
+  }
+}

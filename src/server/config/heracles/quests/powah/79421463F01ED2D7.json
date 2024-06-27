@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "604AB95A7600B150",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "022DA80D4ABA1C00": {
+      "type": "heracles:item",
+      "item": "powah:battery_blazing"
+    }
+  },
+  "rewards": {
+    "5D1E0C5F63B02C2C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:battery_blazing",
+    "description": [
+      "<task task=\"022DA80D4ABA1C00\" quest=\"79421463F01ED2D7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5D1E0C5F63B02C2C\" quest=\"79421463F01ED2D7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:battery_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -176,
+          464
+        ]
+      }
+    }
+  }
+}

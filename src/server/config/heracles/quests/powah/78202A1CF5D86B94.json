@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E92ED270C67FDE5",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "096413BFA9FB2C10": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_starter"
+    }
+  },
+  "rewards": {
+    "659E6EAE16475B52": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cell_starter",
+    "description": [
+      "<task task=\"096413BFA9FB2C10\" quest=\"78202A1CF5D86B94\"/>",
+      "<hr/>",
+      "The &&9Power Bank&&r of Powah.",
+      "<br/>",
+      "These can also be used to upgrade the total power storage capacity of your wireless &&7Ender Networks&&r.",
+      "<hr/>",
+      "<reward reward=\"659E6EAE16475B52\" quest=\"78202A1CF5D86B94\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          368
+        ]
+      }
+    }
+  }
+}

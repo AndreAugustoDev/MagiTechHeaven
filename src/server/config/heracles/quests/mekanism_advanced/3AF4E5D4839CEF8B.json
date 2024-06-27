@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E17AB5A4492929E"
+  ],
+  "tasks": {
+    "772EA844FE7C1B74": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_oxidizer"
+    }
+  },
+  "rewards": {
+    "147637FB74512198": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§eUranium Oxide",
+    "description": [
+      "<task task=\"772EA844FE7C1B74\" quest=\"3AF4E5D4839CEF8B\"/>",
+      "<hr/>",
+      "Once we have our hands on &&eYellow Cake Uranium&&r, we can send it through a &&aChemical Oxidizer&&r to create the gas, &&2Uranium Oxide&&r. ",
+      "<hr/>",
+      "<reward reward=\"147637FB74512198\" quest=\"3AF4E5D4839CEF8B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_oxidizer"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          224,
+          112
+        ]
+      }
+    }
+  }
+}

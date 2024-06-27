@@ -1,0 +1,10 @@
+{
+  "backupFilePrefix": "bkp_",
+  "backupFileSuffix": "",
+  "backupFolder": "./backups/config",
+  "compressionEnabled": true,
+  "includeGameConfigs": true,
+  "includeModConfigs": true,
+  "includeShaderPackConfigs": true,
+  "maxBackups": 10
+}

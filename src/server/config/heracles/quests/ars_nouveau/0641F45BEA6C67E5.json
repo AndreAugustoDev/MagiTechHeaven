@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "5C9BC3699A5762CA": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_conjure_water"
+    }
+  },
+  "rewards": {
+    "0FFF8CAFF06616E6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_conjure_water",
+    "description": [
+      "<task task=\"5C9BC3699A5762CA\" quest=\"0641F45BEA6C67E5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0FFF8CAFF06616E6\" quest=\"0641F45BEA6C67E5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_conjure_water"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -176
+        ]
+      }
+    }
+  }
+}

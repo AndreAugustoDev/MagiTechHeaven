@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "2D879A34A5788CCC"
+  ],
+  "tasks": {},
+  "rewards": {
+    "71D231672C274C17": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"47A1F59A538E3C4B\" quest=\"7A514E27E1A7FE32\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.building</translate></p>",
+      "<hr/>",
+      "<reward reward=\"71D231672C274C17\" quest=\"7A514E27E1A7FE32\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          512,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.building"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "2FDEF1E13E2AA8C8": {
+      "type": "heracles:item",
+      "item": "botania:tangleberrie"
+    }
+  },
+  "rewards": {
+    "52C80B5DA125A76A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:tangleberrie",
+    "description": [
+      "<task task=\"2FDEF1E13E2AA8C8\" quest=\"7A4335AEE81D23D8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52C80B5DA125A76A\" quest=\"7A4335AEE81D23D8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:tangleberrie"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -32,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "3ADCAD65EA6900BA"
+  ],
+  "tasks": {
+    "070A5475DB3F6E6C": {
+      "type": "heracles:item",
+      "item": "minecraft:sniffer_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2071EEC4C3305EC6": {
+      "xptype": "POINTS",
+      "amount": 250,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.chapter1.subt.sniffer"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.chapter1.subt.sniffer</translate></h2>",
+      "<hr/>",
+      "<task task=\"070A5475DB3F6E6C\" quest=\"72989212DD45DC10\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.sniffer</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2071EEC4C3305EC6\" quest=\"72989212DD45DC10\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          192,
+          384
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:sniffer_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.sniffer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0B68E3C046C82860"
+  ],
+  "tasks": {
+    "0031710AA90315AC": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "forbidden_arcanus:darkstone"
+    }
+  },
+  "rewards": {
+    "56404219A611CF0F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Prepping For the Forge",
+    "description": [
+      "<task task=\"0031710AA90315AC\" quest=\"5F5675E30ED046F7\"/>",
+      "<hr/>",
+      "You've probably already acquired some Darkstone, but we'll need it to craft the forge.",
+      "<hr/>",
+      "<reward reward=\"56404219A611CF0F\" quest=\"5F5675E30ED046F7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:darkstone"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          16,
+          128
+        ]
+      }
+    }
+  }
+}

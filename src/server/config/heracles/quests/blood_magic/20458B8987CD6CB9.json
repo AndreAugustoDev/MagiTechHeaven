@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "626C07DB8B8C5A04"
+  ],
+  "tasks": {
+    "25B30F1BCCEE920A": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgemgreater",
+      "nbt": {
+        "souls": 0
+      }
+    }
+  },
+  "rewards": {
+    "706507A5BDE8CAF5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:soulgemgreater",
+    "description": [
+      "<task task=\"25B30F1BCCEE920A\" quest=\"20458B8987CD6CB9\"/>",
+      "<hr/>",
+      "This is the maximum storage item for Demon Will, and will hold 4096 Will max.",
+      "<hr/>",
+      "<reward reward=\"706507A5BDE8CAF5\" quest=\"20458B8987CD6CB9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:soulgemgreater"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -864,
+          112
+        ]
+      }
+    }
+  }
+}

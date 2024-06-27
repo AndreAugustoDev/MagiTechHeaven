@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "643B2B1220202107": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:copper_seeds"
+    }
+  },
+  "rewards": {
+    "73420F3B7FD01279": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:copper_seeds",
+    "description": [
+      "<task task=\"643B2B1220202107\" quest=\"5A17C762CDB680B5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"73420F3B7FD01279\" quest=\"5A17C762CDB680B5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:copper_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -304,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "04C7B49076E48841"
+  ],
+  "tasks": {
+    "0DD59333451A797F": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:micromissiles",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0DD59333451A797F\" quest=\"5D0C944F84E341BE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.micromissiles}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          208,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "pneumaticcraft:micromissiles",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.micromissiles"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "120BDCB70AD352AC"
+  ],
+  "tasks": {
+    "4356F84A57C41F62": {
+      "type": "heracles:item",
+      "item": "productivebees:nether_quartz_nest"
+    }
+  },
+  "rewards": {
+    "5A21046DE47F6AD0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:nether_quartz_nest",
+    "description": [
+      "<h2>Lures in Crystalline Bees in the Nether</h2>",
+      "<hr/>",
+      "<task task=\"4356F84A57C41F62\" quest=\"6D484150536536B9\"/>",
+      "<hr/>",
+      "This nest attracts &&eCrystalline Bees&&r. You'll need Nether Quartz instead of using Honey Treats to attract the Bee.",
+      "<br/>",
+      "The easiest way to get a quartz block is by mining it with a Silk Touch pick.",
+      "<br/>",
+      "Tip: Brass has the Silk Touch trait when making a Silent Gear tool.",
+      "<hr/>",
+      "<reward reward=\"5A21046DE47F6AD0\" quest=\"6D484150536536B9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:nether_quartz_nest"
+    },
+    "subtitle": {
+      "text": "Lures in Crystalline Bees in the Nether"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -224,
+          112
+        ]
+      }
+    }
+  }
+}

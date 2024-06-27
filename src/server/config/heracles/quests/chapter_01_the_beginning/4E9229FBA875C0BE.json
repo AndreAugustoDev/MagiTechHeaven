@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "7975C7145572C438"
+  ],
+  "tasks": {
+    "03BCD8CA1FF84420": {
+      "title": "Time To Adventure!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7C5F26262FE9B032": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"03BCD8CA1FF84420\" quest=\"4E9229FBA875C0BE\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.explore</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7C5F26262FE9B032\" quest=\"4E9229FBA875C0BE\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          32,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.explore"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

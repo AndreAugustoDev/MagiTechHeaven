@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "11C0233861D3DD0C"
+  ],
+  "tasks": {
+    "49A0BE7FB49B80DC": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:blueprint",
+      "nbt": {
+        "blueprint": "molds"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3692C36BE9007C82": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:blueprint",
+      "nbt": {
+        "blueprint": "components"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5268158EF72A8DDF": {
+      "type": "heracles:item",
+      "item": "immersiveengineering:workbench",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5268158EF72A8DDF\" quest=\"33E3574096820D99\"/>",
+      "<task task=\"49A0BE7FB49B80DC\" quest=\"33E3574096820D99\"/>",
+      "<task task=\"3692C36BE9007C82\" quest=\"33E3574096820D99\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.workbench}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -416,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.workbench"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

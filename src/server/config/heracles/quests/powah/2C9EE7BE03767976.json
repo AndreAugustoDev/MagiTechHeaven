@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "69E572EA56B3B31D",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "4AC121B4951DE6E9": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_nitro"
+    }
+  },
+  "rewards": {
+    "084A23000B1F4C8A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energizing_rod_nitro",
+    "description": [
+      "<task task=\"4AC121B4951DE6E9\" quest=\"2C9EE7BE03767976\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"084A23000B1F4C8A\" quest=\"2C9EE7BE03767976\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -144,
+          560
+        ]
+      }
+    }
+  }
+}

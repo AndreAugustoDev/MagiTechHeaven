@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "1F81EA5E45424308"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1C5C0D374EC4391D": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "46E642A34AD07DB6": {
+      "item": {
+        "id": "mekanism:alloy_infused",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.cables"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.cables</translate></h2>",
+      "<hr/>",
+      "<task task=\"6C4B8A2662030CB0\" quest=\"5C47935A3B2877FF\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.cables</translate></p>",
+      "<hr/>",
+      "<reward reward=\"1C5C0D374EC4391D\" quest=\"5C47935A3B2877FF\"/>",
+      "<reward reward=\"46E642A34AD07DB6\" quest=\"5C47935A3B2877FF\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          -240,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.cables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

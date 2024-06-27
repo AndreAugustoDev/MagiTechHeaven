@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "04F5D3F7B29D441B": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_explosive"
+    }
+  },
+  "rewards": {
+    "00B92D4CB603062C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_explosive",
+    "description": [
+      "<task task=\"04F5D3F7B29D441B\" quest=\"38FF05B6A26DB2EC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"00B92D4CB603062C\" quest=\"38FF05B6A26DB2EC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_explosive"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          528,
+          64
+        ]
+      }
+    }
+  }
+}

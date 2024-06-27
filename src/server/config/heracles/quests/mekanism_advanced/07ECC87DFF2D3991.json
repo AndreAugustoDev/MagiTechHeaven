@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "673FCBF8685D0EEE",
+    "14D772808D1BEAE2"
+  ],
+  "tasks": {},
+  "rewards": {
+    "19F7348CFE7A14C9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "§aCompleting the§r §9Matrix§r",
+    "description": [
+      "Once you've finished building your first &&9Energized Induction Matrix&&r, you'll see red particles all around the structure to show that it is complete.",
+      "<br/>",
+      "Don't be afraid to upgrade with higher tier Cells and Providers! Need more space for them? The maximum size the Induction Matrix can be is 18x18x18. ",
+      "<hr/>",
+      "<reward reward=\"19F7348CFE7A14C9\" quest=\"07ECC87DFF2D3991\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_induction_cell"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          160,
+          -32
+        ]
+      }
+    }
+  }
+}

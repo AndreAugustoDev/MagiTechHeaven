@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "70EF981620DADB32": {
+      "type": "heracles:item",
+      "item": "thermal:machine_brewer"
+    }
+  },
+  "rewards": {
+    "46E350F851A4013C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_brewer",
+    "description": [
+      "<task task=\"70EF981620DADB32\" quest=\"1BCE8D02CDD13838\"/>",
+      "<hr/>",
+      "Can Create \"Liquid\" Potions that can be bottled into Potions.",
+      "<hr/>",
+      "<reward reward=\"46E350F851A4013C\" quest=\"1BCE8D02CDD13838\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_brewer"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -16,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "38EE8C011F7E3FEC": {
+      "type": "heracles:item",
+      "item": "thermal:flux_drill"
+    }
+  },
+  "rewards": {
+    "7029BD256EF4EEBD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:flux_drill",
+    "description": [
+      "<h2>An Early-Game Mining Gadget</h2>",
+      "<hr/>",
+      "<task task=\"38EE8C011F7E3FEC\" quest=\"5257468DC6C11851\"/>",
+      "<hr/>",
+      "It's more like a pickaxe that uses RF/FE.",
+      "<hr/>",
+      "<reward reward=\"7029BD256EF4EEBD\" quest=\"5257468DC6C11851\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:flux_drill"
+    },
+    "subtitle": {
+      "text": "An Early-Game Mining Gadget"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          112,
+          -80
+        ]
+      }
+    }
+  }
+}

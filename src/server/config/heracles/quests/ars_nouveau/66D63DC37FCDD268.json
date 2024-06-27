@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63DD7F5A4441ACE7"
+  ],
+  "tasks": {
+    "55DA99DF01D9C37C": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_fortune"
+    }
+  },
+  "rewards": {
+    "13807DD4DB0DF579": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_fortune",
+    "description": [
+      "<task task=\"55DA99DF01D9C37C\" quest=\"66D63DC37FCDD268\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"13807DD4DB0DF579\" quest=\"66D63DC37FCDD268\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_fortune"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -64,
+          -400
+        ]
+      }
+    }
+  }
+}

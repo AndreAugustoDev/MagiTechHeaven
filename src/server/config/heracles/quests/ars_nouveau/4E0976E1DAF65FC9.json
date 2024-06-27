@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "252DC59E9F363E10": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_burrowing"
+    }
+  },
+  "rewards": {
+    "5AD819DC4B46FA2A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_burrowing",
+    "description": [
+      "<task task=\"252DC59E9F363E10\" quest=\"4E0976E1DAF65FC9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5AD819DC4B46FA2A\" quest=\"4E0976E1DAF65FC9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_burrowing"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          240,
+          192
+        ]
+      }
+    }
+  }
+}

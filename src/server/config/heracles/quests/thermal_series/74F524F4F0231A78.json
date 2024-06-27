@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "5835951863555C2E": {
+      "type": "heracles:item",
+      "item": "thermal:tinker_bench"
+    }
+  },
+  "rewards": {
+    "4E1086FC2DA044FC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:tinker_bench",
+    "description": [
+      "<task task=\"5835951863555C2E\" quest=\"74F524F4F0231A78\"/>",
+      "<hr/>",
+      "Can be used to charge items, augment machines, or fill up items with liquid.",
+      "<hr/>",
+      "<reward reward=\"4E1086FC2DA044FC\" quest=\"74F524F4F0231A78\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:tinker_bench"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -144,
+          -64
+        ]
+      }
+    }
+  }
+}

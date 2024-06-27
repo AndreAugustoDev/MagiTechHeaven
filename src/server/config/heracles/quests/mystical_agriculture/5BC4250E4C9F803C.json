@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66C52B137A4FF869"
+  ],
+  "tasks": {
+    "19D0A5FD97D7E3E8": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_farmland"
+    }
+  },
+  "rewards": {
+    "78996299433F8E3A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:imperium_farmland",
+    "description": [
+      "<task task=\"19D0A5FD97D7E3E8\" quest=\"5BC4250E4C9F803C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"78996299433F8E3A\" quest=\"5BC4250E4C9F803C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_farmland"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -96
+        ]
+      }
+    }
+  }
+}

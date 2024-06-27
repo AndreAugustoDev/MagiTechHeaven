@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7AE502EDB73BD57A"
+  ],
+  "tasks": {
+    "05138E2E906020F3": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "mekanism:bio_fuel"
+    }
+  },
+  "rewards": {
+    "174A1D24134BB9DC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:bio_fuel"
+      }
+    },
+    "72D588EA49839008": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Bio Fuel",
+    "description": [
+      "<task task=\"05138E2E906020F3\" quest=\"3B43DB1A6B0A7B44\"/>",
+      "<hr/>",
+      "The Crusher can also break down natural substances into Bio Fuel!",
+      "<hr/>",
+      "<reward reward=\"174A1D24134BB9DC\" quest=\"3B43DB1A6B0A7B44\"/>",
+      "<reward reward=\"72D588EA49839008\" quest=\"3B43DB1A6B0A7B44\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:bio_fuel"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          32,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "4113D575E1B1E4D2": {
+      "type": "heracles:item",
+      "item": "bloodmagic:speedrune2",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5078761CFC27F622": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4113D575E1B1E4D2\" quest=\"69E96EE9A9A2F423\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.blood",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"004F28C5C85F467B\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"</translate></p>",
+      "<hr/>",
+      "<reward reward=\"5078761CFC27F622\" quest=\"69E96EE9A9A2F423\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          80,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bloodmagic:speedrune2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.blood"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

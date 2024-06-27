@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0152C49AB74B9D32"
+  ],
+  "tasks": {
+    "5799CEC4031D454E": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:laser_focus_matrix"
+    }
+  },
+  "rewards": {
+    "27476AD1A921D6BC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Frickin' Laser Beams",
+    "description": [
+      "<task task=\"5799CEC4031D454E\" quest=\"79757F66DF263FA0\"/>",
+      "<hr/>",
+      "To create a reaction for the Reactor to turn on, we're going to need to inject it with a ton of power. &&oAnd I mean a ton of power&&r.",
+      "<br/>",
+      "This requires you to set up several &&9Lasers&&r that all need to be powered, then shooting 400MFE directly into the Laser Focus Matrix.",
+      "<br/>",
+      "The Laser Focus Matrix is placed in the center of one face of the Fusion Reactor. We'll build the Lasers next.",
+      "<hr/>",
+      "<reward reward=\"27476AD1A921D6BC\" quest=\"79757F66DF263FA0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:laser"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          336,
+          -192
+        ]
+      }
+    }
+  }
+}

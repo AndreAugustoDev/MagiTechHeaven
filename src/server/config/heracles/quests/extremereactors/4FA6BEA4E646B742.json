@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "7C4E4793DA887DE4"
+  ],
+  "tasks": {
+    "4B83A0D1C2C3C226": {
+      "type": "heracles:item",
+      "item": "bigreactors:graphite_ingot",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "07500C1CA8341D60": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.bigreactors.subt.reactor_casings"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.reactor_casings</translate></h2>",
+      "<hr/>",
+      "<task task=\"4B83A0D1C2C3C226\" quest=\"4FA6BEA4E646B742\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_casings</translate></p>",
+      "<hr/>",
+      "<reward reward=\"07500C1CA8341D60\" quest=\"4FA6BEA4E646B742\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -240,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:graphite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.reactor_casings"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

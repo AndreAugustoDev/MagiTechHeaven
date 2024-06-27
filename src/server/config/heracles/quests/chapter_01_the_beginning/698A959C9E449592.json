@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "051E0C85E7B71CE0"
+  ],
+  "tasks": {
+    "03005DEF00AB48F3": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_pickaxe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "77D1205EEAD47367": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"03005DEF00AB48F3\" quest=\"698A959C9E449592\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.iron_pick</translate></p>",
+      "<hr/>",
+      "<reward reward=\"77D1205EEAD47367\" quest=\"698A959C9E449592\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          256,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.iron_pick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

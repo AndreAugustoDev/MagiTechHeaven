@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "74E4102326A71945": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_applicator"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:enchantment_applicator",
+    "description": [
+      "<task task=\"74E4102326A71945\" quest=\"3AFDE3396861A944\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_applicator"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          464,
+          128
+        ]
+      }
+    }
+  }
+}

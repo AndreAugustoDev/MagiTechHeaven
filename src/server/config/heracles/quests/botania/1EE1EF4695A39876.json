@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "50A2D68A83A50F47"
+  ],
+  "tasks": {
+    "46081AC3349324C9": {
+      "type": "heracles:item",
+      "item": "botania:loki_ring"
+    }
+  },
+  "rewards": {
+    "5CD71910DADB23AD": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:loki_ring",
+    "description": [
+      "<task task=\"46081AC3349324C9\" quest=\"1EE1EF4695A39876\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5CD71910DADB23AD\" quest=\"1EE1EF4695A39876\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:loki_ring"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          960,
+          112
+        ]
+      }
+    }
+  }
+}

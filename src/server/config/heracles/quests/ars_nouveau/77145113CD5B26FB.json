@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "227DBA8836021B0B"
+  ],
+  "tasks": {
+    "3F5621FA53258210": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:mycelial_sourcelink"
+    }
+  },
+  "rewards": {
+    "5A7B1F43A9CF4B29": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:mycelial_sourcelink",
+    "description": [
+      "<h2>Generates Source from Nearby Food</h2>",
+      "<hr/>",
+      "<task task=\"3F5621FA53258210\" quest=\"77145113CD5B26FB\"/>",
+      "<hr/>",
+      "Source Berries produce more Source than other sources.",
+      "<br/>",
+      "This will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty.",
+      "<hr/>",
+      "<reward reward=\"5A7B1F43A9CF4B29\" quest=\"77145113CD5B26FB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:mycelial_sourcelink"
+    },
+    "subtitle": {
+      "text": "Generates Source from Nearby Food"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          64,
+          112
+        ]
+      }
+    }
+  }
+}

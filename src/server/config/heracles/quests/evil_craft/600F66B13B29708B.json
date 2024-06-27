@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "026A71F98A52E3A5",
+    "753B3EF7CC94A6DD"
+  ],
+  "tasks": {
+    "5DA025E8807292CC": {
+      "type": "heracles:item",
+      "item": "evilcraft:flesh_rejuvenated",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 10000
+      }
+    }
+  },
+  "rewards": {
+    "1853D8E78E2A1682": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:flesh_rejuvenated",
+    "description": [
+      "<task task=\"5DA025E8807292CC\" quest=\"600F66B13B29708B\"/>",
+      "<hr/>",
+      "Either with the flesh of &&aPlayers&&r or &&dWerewolves&&r, you can create an &&aInfinite Food Source&&r using the power of Garmonbozia!",
+      "<hr/>",
+      "<reward reward=\"1853D8E78E2A1682\" quest=\"600F66B13B29708B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:flesh_rejuvenated"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          384,
+          288
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "7D38BC3DB3406F51"
+  ],
+  "tasks": {
+    "2E116AC5F25650BE": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "38BA6B3FF1EC9185": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3A97D5B2AE8AEF50": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"38BA6B3FF1EC9185\" quest=\"051E0C85E7B71CE0\"/>",
+      "<task task=\"2E116AC5F25650BE\" quest=\"051E0C85E7B71CE0\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.metal",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"3A97D5B2AE8AEF50\" quest=\"051E0C85E7B71CE0\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          176,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.metal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "65BBA5C0DAEEC31F"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"24BA89BD9898759B\" quest=\"76A29816F19E33A2\"/>",
+      "<hr/>",
+      "<reward reward=\"22546D5D3D7EB48C\" quest=\"76A29816F19E33A2\"/>",
+      "<reward reward=\"27F653E02AC93F25\" quest=\"76A29816F19E33A2\"/>",
+      "<reward reward=\"4A85485A2BF26504\" quest=\"76A29816F19E33A2\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          0,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:creeper_head",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.creeper.50"
+  },
+  "rewards": {
+    "22546D5D3D7EB48C": {
+      "amount": 50,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "27F653E02AC93F25": {
+      "item": {
+        "count": 20,
+        "id": "minecraft:gunpowder"
+      },
+      "type": "heracles:item"
+    },
+    "4A85485A2BF26504": {
+      "item": {
+        "count": 5,
+        "id": "supplementaries:bomb"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "24BA89BD9898759B": {
+      "amount": 50,
+      "entity": {
+        "type": "minecraft:creeper"
+      },
+      "icon": {
+        "item": "minecraft:creeper_head",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.creeper.50",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

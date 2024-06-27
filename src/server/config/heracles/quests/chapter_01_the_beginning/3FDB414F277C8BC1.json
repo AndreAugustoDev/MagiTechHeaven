@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "7B74D36B9C69B63E"
+  ],
+  "tasks": {
+    "3632A1D25278EEC4": {
+      "from": "minecraft:overworld",
+      "to": "allthemodium:mining",
+      "title": "&aVisit the&r &dMining&r &aDimension&r",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "08BF439E888E659B": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3632A1D25278EEC4\" quest=\"3FDB414F277C8BC1\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.mining</translate></p>",
+      "<hr/>",
+      "<reward reward=\"08BF439E888E659B\" quest=\"3FDB414F277C8BC1\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          464,
+          400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.mining"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

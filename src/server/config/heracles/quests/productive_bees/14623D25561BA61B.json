@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66324D7D0C51AEAC"
+  ],
+  "tasks": {
+    "6E8978E798AB54F7": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_range"
+    }
+  },
+  "rewards": {
+    "7047D156FCBF9AE4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "075F2B26AEEAD55B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_range",
+    "description": [
+      "<h2>Increases the Range of a Machine</h2>",
+      "<hr/>",
+      "<task task=\"6E8978E798AB54F7\" quest=\"14623D25561BA61B\"/>",
+      "<hr/>",
+      "Mostly for the Catcher.",
+      "<hr/>",
+      "<reward reward=\"7047D156FCBF9AE4\" quest=\"14623D25561BA61B\"/>",
+      "<reward reward=\"075F2B26AEEAD55B\" quest=\"14623D25561BA61B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_range"
+    },
+    "subtitle": {
+      "text": "Increases the Range of a Machine"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -80,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6E24BC7D56597911": {
+      "title": "Apotheosis",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6E24BC7D56597911\" quest=\"07D875C6BBFF3264\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.apotheosis</translate></p>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.apotheosis"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

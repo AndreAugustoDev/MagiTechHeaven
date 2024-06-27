@@ -1,0 +1,13 @@
+name = "Butchery"
+filename = "butcher-2.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6YfOmC9t/versions/hhUMt605/butcher-2.4.1.jar"
+hash-format = "sha1"
+hash = "0e448eef168e8e0a95aad70a949709814e62afd3"
+
+[update]
+[update.modrinth]
+mod-id = "6YfOmC9t"
+version = "hhUMt605"

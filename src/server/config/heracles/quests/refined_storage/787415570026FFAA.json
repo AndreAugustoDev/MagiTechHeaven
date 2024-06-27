@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "6092490EC9008A05"
+  ],
+  "tasks": {
+    "416E0011066156D2": {
+      "type": "heracles:item",
+      "item": "refinedstorage:silk_touch_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "086992D773D34C15": {
+      "type": "heracles:item",
+      "item": "refinedstorage:fortune_3_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"416E0011066156D2\" quest=\"787415570026FFAA\"/>",
+      "<task task=\"086992D773D34C15\" quest=\"787415570026FFAA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.destructor_upgrade}"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          -112,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.destructor_upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

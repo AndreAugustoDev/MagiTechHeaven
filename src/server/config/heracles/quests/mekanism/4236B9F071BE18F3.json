@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F436770D30D8520"
+  ],
+  "tasks": {
+    "50D9504BFFB97A27": {
+      "type": "heracles:item",
+      "item": "mekanism:rotary_condensentrator"
+    }
+  },
+  "rewards": {
+    "31A8BB8FAFD364E7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:rotary_condensentrator",
+    "description": [
+      "<task task=\"50D9504BFFB97A27\" quest=\"4236B9F071BE18F3\"/>",
+      "<hr/>",
+      "To make Sulfuric Acid, you'll need to create &&aWater Vapor&&r.",
+      "<br/>",
+      "Pump some water into this machine and it'll convert it into vapor. ",
+      "<hr/>",
+      "<reward reward=\"31A8BB8FAFD364E7\" quest=\"4236B9F071BE18F3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:rotary_condensentrator"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          272,
+          -112
+        ]
+      }
+    }
+  }
+}

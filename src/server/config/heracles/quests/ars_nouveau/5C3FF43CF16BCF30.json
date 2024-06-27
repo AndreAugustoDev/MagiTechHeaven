@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40BC67BDEE15D1DE"
+  ],
+  "tasks": {
+    "03EB390E79866058": {
+      "title": "Sourcestone",
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "ars_nouveau:sourcestone"
+    }
+  },
+  "rewards": {
+    "7F5D2F36132692EC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Sourcestones",
+    "description": [
+      "<h2>Formerly known as \"Arcane Stones\"</h2>",
+      "<hr/>",
+      "<task task=\"03EB390E79866058\" quest=\"5C3FF43CF16BCF30\"/>",
+      "<hr/>",
+      "With Source Gems, you can get started crafting the various machines by creating &&5Sourcestones&&r.",
+      "<hr/>",
+      "<reward reward=\"7F5D2F36132692EC\" quest=\"5C3FF43CF16BCF30\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:sourcestone"
+    },
+    "subtitle": {
+      "text": "Formerly known as \"Arcane Stones\""
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          166,
+          0
+        ]
+      }
+    }
+  }
+}

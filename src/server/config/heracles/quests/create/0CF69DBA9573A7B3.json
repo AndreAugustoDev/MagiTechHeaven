@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57A7A5C79389A96A"
+  ],
+  "tasks": {
+    "0FB1E9BD14FE8EF8": {
+      "type": "heracles:item",
+      "item": "create:schematic_table"
+    }
+  },
+  "rewards": {
+    "35DCC6CB7C472F17": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:schematic_and_quill"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:schematic_table",
+    "description": [
+      "<task task=\"0FB1E9BD14FE8EF8\" quest=\"0CF69DBA9573A7B3\"/>",
+      "<hr/>",
+      "The Schematic Table will read and write structures to/from your schematics.",
+      "<br/>",
+      "You can use it to copy buildings or to share them with others!",
+      "<hr/>",
+      "<reward reward=\"35DCC6CB7C472F17\" quest=\"0CF69DBA9573A7B3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:schematic_table"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -48,
+          48
+        ]
+      }
+    }
+  }
+}

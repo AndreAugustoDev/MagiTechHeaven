@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57534FA0E09C4975",
+    "4ABF0727AA569DD9"
+  ],
+  "tasks": {
+    "789B4C8031BCDBDA": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:hohlraum"
+    }
+  },
+  "rewards": {
+    "2FBAF9E2B19C1A6F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The Fuel Injector",
+    "description": [
+      "<task task=\"789B4C8031BCDBDA\" quest=\"3593D955361B0C6D\"/>",
+      "<hr/>",
+      "To kick start the Fusion Reactor, we'll need a quick shot of D-T fuel. This is made by combining &&cDeuterium&&r and &&eTritium&&r together in a Chemical Infuser.",
+      "<br/>",
+      "Start by making a &&4Hohlraum&&r and place it into the Infuser (where the plus symbol is) to fill it with D-T fuel. Now we're ready to jumpstart the Reactor!",
+      "<hr/>",
+      "<reward reward=\"2FBAF9E2B19C1A6F\" quest=\"3593D955361B0C6D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:hohlraum"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          464,
+          -256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "23A2865FBE7831AB"
+  ],
+  "tasks": {
+    "679F0AA9731DAF88": {
+      "type": "heracles:item",
+      "item": "botania:terra_sword"
+    }
+  },
+  "rewards": {
+    "570A696F06A33952": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:terra_sword",
+    "description": [
+      "<task task=\"679F0AA9731DAF88\" quest=\"24C0F267B330CD23\"/>",
+      "<hr/>",
+      "With the damage of a Diamond Sword, the &&2Terra Blade&&r will sometimes fire a beam that will deal as much as a melee hit would.",
+      "<hr/>",
+      "<reward reward=\"570A696F06A33952\" quest=\"24C0F267B330CD23\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terra_sword"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          496,
+          0
+        ]
+      }
+    }
+  }
+}

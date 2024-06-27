@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73350AD668200E99"
+  ],
+  "tasks": {
+    "0B7F79DE8130BAE9": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:fish_seeds"
+    }
+  },
+  "rewards": {
+    "5D15B62482133ADF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:fish_seeds",
+    "description": [
+      "<task task=\"0B7F79DE8130BAE9\" quest=\"29AE69722AB4C75C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5D15B62482133ADF\" quest=\"29AE69722AB4C75C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:fish_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -448,
+          80
+        ]
+      }
+    }
+  }
+}

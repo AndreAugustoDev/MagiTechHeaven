@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48BF71269DEA1AB1"
+  ],
+  "tasks": {
+    "69C9CEC467EB00C0": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:uraninite_seeds"
+    }
+  },
+  "rewards": {
+    "0EF0841B27309B26": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:uraninite_seeds",
+    "description": [
+      "<task task=\"69C9CEC467EB00C0\" quest=\"5B52389583A70E66\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0EF0841B27309B26\" quest=\"5B52389583A70E66\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:uraninite_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          16,
+          -144
+        ]
+      }
+    }
+  }
+}

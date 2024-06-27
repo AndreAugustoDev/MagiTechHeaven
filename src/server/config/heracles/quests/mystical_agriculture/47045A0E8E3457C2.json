@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "26E5425CC40CE5EE": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:certus_quartz_seeds"
+    }
+  },
+  "rewards": {
+    "39AA29FBEF0ABB0E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:certus_quartz_seeds",
+    "description": [
+      "<task task=\"26E5425CC40CE5EE\" quest=\"47045A0E8E3457C2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"39AA29FBEF0ABB0E\" quest=\"47045A0E8E3457C2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:certus_quartz_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -288,
+          -224
+        ]
+      }
+    }
+  }
+}

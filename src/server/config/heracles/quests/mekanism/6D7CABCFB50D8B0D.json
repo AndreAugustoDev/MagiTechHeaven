@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0498A578D0EC3254",
+    "166971866A9234C7"
+  ],
+  "tasks": {
+    "05F2EEE4DE21E2ED": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_control_circuit"
+    }
+  },
+  "rewards": {
+    "29E77041082DD2E9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:enriched_redstone"
+      }
+    },
+    "4C4A490E290BB38C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_control_circuit",
+    "description": [
+      "<task task=\"05F2EEE4DE21E2ED\" quest=\"6D7CABCFB50D8B0D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"29E77041082DD2E9\" quest=\"6D7CABCFB50D8B0D\"/>",
+      "<reward reward=\"4C4A490E290BB38C\" quest=\"6D7CABCFB50D8B0D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -208,
+          -144
+        ]
+      }
+    }
+  }
+}

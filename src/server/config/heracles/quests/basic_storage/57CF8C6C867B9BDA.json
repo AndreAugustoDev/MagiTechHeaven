@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "156FF8B7B724DC38"
+  ],
+  "tasks": {
+    "6530A152D9337A4C": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_filter_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3522A1F2B552FF21": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6530A152D9337A4C\" quest=\"57CF8C6C867B9BDA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3522A1F2B552FF21\" quest=\"57CF8C6C867B9BDA\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -192,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:advanced_filter_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Afilter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

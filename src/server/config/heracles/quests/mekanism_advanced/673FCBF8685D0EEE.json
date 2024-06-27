@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "0FF852DE33E41C90"
+  ],
+  "tasks": {
+    "6D0EB8C587E34699": {
+      "type": "heracles:item",
+      "amount": 44,
+      "item": "mekanism:induction_casing"
+    },
+    "6468D6A69F683E6D": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "mekanism:induction_port"
+    },
+    "5586FBB0561715AD": {
+      "type": "heracles:item",
+      "amount": 55,
+      "item": "mekanism:structural_glass"
+    }
+  },
+  "rewards": {
+    "47EF9E0FC6A57445": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Building the §9Induction Matrix§r",
+    "description": [
+      "<h2>The Energy Cube's Papa</h2>",
+      "<hr/>",
+      "<task task=\"6D0EB8C587E34699\" quest=\"673FCBF8685D0EEE\"/>",
+      "<task task=\"6468D6A69F683E6D\" quest=\"673FCBF8685D0EEE\"/>",
+      "<task task=\"5586FBB0561715AD\" quest=\"673FCBF8685D0EEE\"/>",
+      "<hr/>",
+      "Almost every Mekanism multiblock is built the same way.",
+      "<br/>",
+      "You'll need to make a rectangular prism structure. The edges must be made out of &&8Induction Casings&&r. The faces can be made of either Casings, &&aStructural Glass&&r, or &&cInduction Ports&&r. It's best to have 2 Ports: one for input, and one for output. These can be changed using the &&eConfigurator&&r.",
+      "<br/>",
+      "For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this. Need help? &&nCheck out the Ponder!&&r",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"47EF9E0FC6A57445\" quest=\"673FCBF8685D0EEE\"/>"
+    ],
+    "subtitle": {
+      "text": "The Energy Cube's Papa"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          128,
+          -48
+        ]
+      }
+    }
+  }
+}

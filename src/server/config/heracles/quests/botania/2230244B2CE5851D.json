@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "6348A2F342100CF9": {
+      "type": "heracles:item",
+      "item": "botania:elementium_pickaxe"
+    }
+  },
+  "rewards": {
+    "1C4EA5C60A107648": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:elementium_pickaxe",
+    "description": [
+      "<task task=\"6348A2F342100CF9\" quest=\"2230244B2CE5851D\"/>",
+      "<hr/>",
+      "Has an ability to clear away Cobblestone, Dirt, Netherrack, and other common materials, leaving behind only ores and fine resources.",
+      "<br/>",
+      "Can combine with the Terra Shatterer in a crafting grid, which will allow the latter to take on the former's power. This cannot be undone.",
+      "<hr/>",
+      "<reward reward=\"1C4EA5C60A107648\" quest=\"2230244B2CE5851D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:elementium_pickaxe"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          688,
+          -32
+        ]
+      }
+    }
+  }
+}

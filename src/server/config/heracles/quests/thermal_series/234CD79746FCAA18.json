@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "784D4494897AF202": {
+      "type": "heracles:item",
+      "item": "thermal:machine_null_augment"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: thermal:machine_null_augment",
+    "description": [
+      "<h2>Voids By-products</h2>",
+      "<hr/>",
+      "<task task=\"784D4494897AF202\" quest=\"234CD79746FCAA18\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_null_augment"
+    },
+    "subtitle": {
+      "text": "Voids By-products"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          80,
+          176
+        ]
+      }
+    }
+  }
+}

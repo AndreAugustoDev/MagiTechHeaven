@@ -1,0 +1,75 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7C169A4A39F37FAC"
+  ],
+  "tasks": {
+    "65D52E6A67DD11EB": {
+      "title": "Centrifuges",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "productivebees:centrifuge"
+          },
+          {
+            "Count": 1,
+            "id": "productivebees:powered_centrifuge"
+          },
+          {
+            "Count": 1,
+            "id": "productivebees:heated_centrifuge"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "498F2AE7D6D03C4B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    },
+    "412881B0F7ADFF14": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Centrifuges",
+    "description": [
+      "<h2>Processing Honeycombs</h2>",
+      "<hr/>",
+      "<task task=\"65D52E6A67DD11EB\" quest=\"33A0E06FE5CFD8F3\"/>",
+      "<hr/>",
+      "The &&9Centrifuge&&r is used to process Combs from Bees into useful items and honey! While you can definitely just use a regular &&9Centrifuge&&r in §aChapter 1§r: §bThe Beginning§r, getting a &&6Powered Centrifuge&&r soon after is a must. This is a faster Centrifuge that runs off of power!",
+      "<br/>",
+      "If you're looking for the best way to process your Combs, the &&cHeated Centrifuge&&r is even faster and can even process &&aComb Blocks&&r!",
+      "<br/>",
+      "These can all be made faster by using Speed Upgrades.",
+      "<hr/>",
+      "<reward reward=\"498F2AE7D6D03C4B\" quest=\"33A0E06FE5CFD8F3\"/>",
+      "<reward reward=\"412881B0F7ADFF14\" quest=\"33A0E06FE5CFD8F3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Processing Honeycombs"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          48
+        ]
+      }
+    }
+  }
+}

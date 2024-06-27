@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "1BD87FE9B7C97844": {
+      "type": "heracles:item",
+      "item": "silentgear:sickle_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2A72A2E5EBC9E64D": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.scythe"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.scythe</translate></h2>",
+      "<hr/>",
+      "<task task=\"1BD87FE9B7C97844\" quest=\"083ABBA1C45FF960\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2A72A2E5EBC9E64D\" quest=\"083ABBA1C45FF960\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -128,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:sickle_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.sickle"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

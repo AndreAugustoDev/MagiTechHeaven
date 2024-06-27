@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DA6B8B2DCC97809"
+  ],
+  "tasks": {
+    "1C5B4D14826937BB": {
+      "type": "heracles:item",
+      "item": "create:brass_funnel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:brass_funnel",
+    "description": [
+      "<task task=\"1C5B4D14826937BB\" quest=\"495B0CC178B4CFA9\"/>",
+      "<hr/>",
+      "The &&n&&5Funnel&&r can import or export items from connected inventories."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_funnel"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          288,
+          112
+        ]
+      }
+    }
+  }
+}

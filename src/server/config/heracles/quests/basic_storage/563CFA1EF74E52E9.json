@@ -1,0 +1,57 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "034F49638F207523": {
+      "title": "Iron Chests",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "58CC2C987D56D7F8": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.sophisticated"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.sophisticated</translate></h2>",
+      "<hr/>",
+      "<task task=\"034F49638F207523\" quest=\"563CFA1EF74E52E9\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.sophisticated</translate></p>",
+      "<hr/>",
+      "<reward reward=\"58CC2C987D56D7F8\" quest=\"563CFA1EF74E52E9\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -360,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedstorage:iron_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.sophisticated"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

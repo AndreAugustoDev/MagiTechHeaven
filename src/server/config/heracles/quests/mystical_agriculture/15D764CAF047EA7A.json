@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C9C9CB71941DC01"
+  ],
+  "tasks": {
+    "3D221E475DF6F3C3": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_helmet"
+    },
+    "3584BC6827EF817C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_chestplate"
+    },
+    "3BCDF4DA20F35C79": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_leggings"
+    },
+    "492A22DE74E59FBF": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_boots"
+    }
+  },
+  "rewards": {
+    "27FF161346C47352": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§cTertium Armor",
+    "description": [
+      "<task task=\"3D221E475DF6F3C3\" quest=\"15D764CAF047EA7A\"/>",
+      "<task task=\"3584BC6827EF817C\" quest=\"15D764CAF047EA7A\"/>",
+      "<task task=\"3BCDF4DA20F35C79\" quest=\"15D764CAF047EA7A\"/>",
+      "<task task=\"492A22DE74E59FBF\" quest=\"15D764CAF047EA7A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"27FF161346C47352\" quest=\"15D764CAF047EA7A\"/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -256,
+          -48
+        ]
+      }
+    }
+  }
+}

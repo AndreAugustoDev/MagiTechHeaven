@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "227DBA8836021B0B"
+  ],
+  "tasks": {
+    "7F3D9B9E5E4FD3B8": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:potion_jar"
+    }
+  },
+  "rewards": {
+    "57D993FC63FEFE77": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:potion_jar",
+    "description": [
+      "<h2>Storing Potions</h2>",
+      "<hr/>",
+      "<task task=\"7F3D9B9E5E4FD3B8\" quest=\"04D9F6587EF8D9B7\"/>",
+      "<hr/>",
+      "The &&9Potion Jar&&r stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar.",
+      "<br/>",
+      "Wixies will use these jars during Potion Autocrafting.",
+      "<hr/>",
+      "<reward reward=\"57D993FC63FEFE77\" quest=\"04D9F6587EF8D9B7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:potion_jar"
+    },
+    "subtitle": {
+      "text": "Storing Potions"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          112
+        ]
+      }
+    }
+  }
+}

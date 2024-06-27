@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "4E8A05C3BFA80540"
+  ],
+  "tasks": {
+    "23261340EF9D48AF": {
+      "type": "heracles:item",
+      "item": "ae2:io_port",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4531F48DEB750518": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.ae2.subt.MEIOPort"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.ae2.subt.MEIOPort</translate></h2>",
+      "<hr/>",
+      "<task task=\"23261340EF9D48AF\" quest=\"7B7D1F0CB326B28F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.MEIOPort</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4531F48DEB750518\" quest=\"7B7D1F0CB326B28F\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          384,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:io_port",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.MEIOPort"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "7658C1C663394E85"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"52BB142F044075B4\" quest=\"3708A4780ACEB34E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.welcome.desc.quests1</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.welcome.desc.quests2</translate></p>",
+      "<br/>",
+      "<p><translate>i18n.quest.welcome.desc.quests3</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4A56DF6E0204666C\" quest=\"3708A4780ACEB34E\"/>"
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          80,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "count": 1,
+        "id": "heracles:quest_book"
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": ""
+    },
+    "title": {
+      "translate": "i18n.quest.welcome.quests"
+    }
+  },
+  "rewards": {
+    "4A56DF6E0204666C": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "POINTS"
+    }
+  },
+  "settings": {
+    "autoClaimRewards": false,
+    "hidden": "LOCKED",
+    "individual_progress": false,
+    "repeatable": false,
+    "showDependencyArrow": true,
+    "unlockNotification": false
+  },
+  "tasks": {
+    "52BB142F044075B4": {
+      "title": "Quests",
+      "type": "heracles:check"
+    }
+  }
+}

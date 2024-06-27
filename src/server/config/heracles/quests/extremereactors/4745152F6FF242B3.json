@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "tasks": {
+    "77F79D09A76CFF15": {
+      "type": "heracles:item",
+      "item": "bigreactors:cyanite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3C59017024A58441": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.bigreactors.subt.waste_not_want_not"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.waste_not_want_not</translate></h2>",
+      "<hr/>",
+      "<task task=\"77F79D09A76CFF15\" quest=\"4745152F6FF242B3\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.fueling_our_passive_reactor</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3C59017024A58441\" quest=\"4745152F6FF242B3\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -96,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:cyanite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.dealing_with_waste"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

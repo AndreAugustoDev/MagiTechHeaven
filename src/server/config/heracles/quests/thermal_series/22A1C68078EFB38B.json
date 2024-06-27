@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66858700C3DDCB9E"
+  ],
+  "tasks": {
+    "08ED05EBDFF0B4D9": {
+      "type": "heracles:item",
+      "item": "thermal:potion_amplifier_augment"
+    }
+  },
+  "rewards": {
+    "16143BA782E3D869": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:potion_amplifier_augment",
+    "description": [
+      "<h2>Amplifies Potion Effect</h2>",
+      "<hr/>",
+      "<task task=\"08ED05EBDFF0B4D9\" quest=\"22A1C68078EFB38B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16143BA782E3D869\" quest=\"22A1C68078EFB38B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:potion_amplifier_augment"
+    },
+    "subtitle": {
+      "text": "Amplifies Potion Effect"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -160,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "20B495B4B8B95636"
+  ],
+  "tasks": {
+    "332B4C94EE4AAB00": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:golden_dragon_scale"
+    },
+    "05C28BF8C6930068": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:aquatic_dragon_scale"
+    }
+  },
+  "rewards": {
+    "234F00EF412D61B2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"332B4C94EE4AAB00\" quest=\"744A01000E086CC9\"/>",
+      "<task task=\"05C28BF8C6930068\" quest=\"744A01000E086CC9\"/>",
+      "<hr/>",
+      "The Dragon Scale can be made into a Golden and Aquatic Dragon Scales.",
+      "<br/>",
+      "These are mainly used to craft &&dTyr Armor&&r.",
+      "<hr/>",
+      "<reward reward=\"234F00EF412D61B2\" quest=\"744A01000E086CC9\"/>"
+    ],
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          144,
+          224
+        ]
+      }
+    }
+  }
+}

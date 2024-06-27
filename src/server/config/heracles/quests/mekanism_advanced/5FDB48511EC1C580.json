@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1482F2D45E8F761D"
+  ],
+  "tasks": {
+    "16B10EA105CCC1D3": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:fission_reactor_logic_adapter"
+    }
+  },
+  "rewards": {
+    "2E5FE4E46429A82D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Reactor Fail Safe",
+    "description": [
+      "<h2>Because We've All Blown Up A Reactor Before</h2>",
+      "<hr/>",
+      "<task task=\"16B10EA105CCC1D3\" quest=\"5FDB48511EC1C580\"/>",
+      "<hr/>",
+      "Afraid of blowing up your Fission Reactor and causing a massive Radiation leak? Don't worry, we all are. &&o*insert terrible flashback here*&&r",
+      "<br/>",
+      "So how can we prevent such a catastrophic disaster? By creating a redstone &&aCircuit Breaker&&r using &&dFission Reactor Logic Adapters&&r. Now these aren't 100% guaranteed to stop an explosion, but they are absolutely nice to have.",
+      "<br/>",
+      "Essentially, these Adapters allow us to control the Reactor using &&cRedstone&&r. With just one, you can use a lever to turn on and off the reactor. However, we're going to use them for damage control.",
+      "<br/>",
+      "You can also set these to give off a Redstone Signal based on a certain condition within the Reactor, like &&cDamage Critical&&r or &&8Insufficient Fuel&&r. This is useful for setting up a circuit breaker to shut off the Reactor if those ever happen.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2E5FE4E46429A82D\" quest=\"5FDB48511EC1C580\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:fission_reactor_logic_adapter"
+    },
+    "subtitle": {
+      "text": "Because We've All Blown Up A Reactor Before"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          48,
+          112
+        ]
+      }
+    }
+  }
+}

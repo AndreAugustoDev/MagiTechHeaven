@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "076DFB0B39A4259F"
+  ],
+  "tasks": {},
+  "rewards": {
+    "4D6EEDCD4A1B7BF3": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"524C49903A565930\" quest=\"751189465F91B353\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.crystalline</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4D6EEDCD4A1B7BF3\" quest=\"751189465F91B353\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          160,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.crystalline"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

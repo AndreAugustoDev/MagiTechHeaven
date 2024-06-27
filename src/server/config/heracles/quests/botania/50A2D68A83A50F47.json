@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "27CD17C4B3613171"
+  ],
+  "tasks": {
+    "5348CBD95103744A": {
+      "type": "heracles:item",
+      "item": "botania:dice"
+    }
+  },
+  "rewards": {
+    "73704F1B32D0A15F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 1000
+    }
+  },
+  "display": {
+    "title": "§6Dice of Fate§r",
+    "description": [
+      "<task task=\"5348CBD95103744A\" quest=\"50A2D68A83A50F47\"/>",
+      "<hr/>",
+      "Using Gaia Ingots to summon the harder version of the &&5Guardian of Gaia&&r will get you more &&6Gaia Spirits&&r, but the Guardian can also drop the &&6Dice of Fate&&r.",
+      "<hr/>",
+      "<reward reward=\"73704F1B32D0A15F\" quest=\"50A2D68A83A50F47\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:dice"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          896,
+          80
+        ]
+      }
+    }
+  }
+}

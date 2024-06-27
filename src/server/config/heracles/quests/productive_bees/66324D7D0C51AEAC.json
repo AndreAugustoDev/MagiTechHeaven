@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "52AA599123DF9D78": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_base"
+    }
+  },
+  "rewards": {
+    "279DEFA11701B0C6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    },
+    "190005A9561D76D2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:upgrade_base"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_base",
+    "description": [
+      "<task task=\"52AA599123DF9D78\" quest=\"66324D7D0C51AEAC\"/>",
+      "<hr/>",
+      "The Upgrade Base is used to craft the various Upgrades in Productive Bees.",
+      "<hr/>",
+      "<reward reward=\"279DEFA11701B0C6\" quest=\"66324D7D0C51AEAC\"/>",
+      "<reward reward=\"190005A9561D76D2\" quest=\"66324D7D0C51AEAC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_base"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -112,
+          16
+        ]
+      }
+    }
+  }
+}

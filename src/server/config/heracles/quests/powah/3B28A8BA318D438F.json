@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "4FBBE996E440514A": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_nitro"
+    }
+  },
+  "rewards": {
+    "47E25C76BF619695": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_cell_nitro",
+    "description": [
+      "<task task=\"4FBBE996E440514A\" quest=\"3B28A8BA318D438F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"47E25C76BF619695\" quest=\"3B28A8BA318D438F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          560
+        ]
+      }
+    }
+  }
+}

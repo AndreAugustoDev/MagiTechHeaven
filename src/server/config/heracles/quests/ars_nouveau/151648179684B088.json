@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0E2AD156E5EF263A"
+  ],
+  "tasks": {
+    "2E649D2172E6D537": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:runic_chalk"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: ars_nouveau:runic_chalk",
+    "description": [
+      "<h2>Placeable Spells</h2>",
+      "<hr/>",
+      "<task task=\"2E649D2172E6D537\" quest=\"151648179684B088\"/>",
+      "<hr/>",
+      "Runic Chalk is used to draw permanent Runes on that ground. These runes will cast spells on entities that walk over them.",
+      "<br/>",
+      "To attach a spell to a rune, inscribe a &&eSpell Parchment&&r using a Scribe's Table.",
+      "<br/>",
+      "Note: The Rune will need Source to operate."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:runic_chalk"
+    },
+    "subtitle": {
+      "text": "Placeable Spells"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          416,
+          64
+        ]
+      }
+    }
+  }
+}

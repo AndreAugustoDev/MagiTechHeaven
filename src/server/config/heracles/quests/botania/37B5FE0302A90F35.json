@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "0A4C0E499F9D2224": {
+      "type": "heracles:item",
+      "item": "botania:dreadthorn"
+    }
+  },
+  "rewards": {
+    "06C6C0B7808924D6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:dreadthorn",
+    "description": [
+      "<task task=\"0A4C0E499F9D2224\" quest=\"37B5FE0302A90F35\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06C6C0B7808924D6\" quest=\"37B5FE0302A90F35\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:dreadthorn"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -96,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "3CCC0EF8316FC97D": {
+      "type": "heracles:item",
+      "item": "botania:manastar"
+    }
+  },
+  "rewards": {
+    "1757180C5FC5A320": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:manastar",
+    "description": [
+      "<task task=\"3CCC0EF8316FC97D\" quest=\"0F9DABC15ED589CB\"/>",
+      "<hr/>",
+      "This is considered a miscellaneous flower that is used to measure if you are turning a profit or loss in your Mana Pools.",
+      "<br/>",
+      "To do this, place the &&dManastar&&r next to a pool, and watch for the color of the flower to change. If it shines red, the pool is operating at a loss. If it shines blue, there is a profit!",
+      "<hr/>",
+      "<reward reward=\"1757180C5FC5A320\" quest=\"0F9DABC15ED589CB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:manastar"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -32,
+          -48
+        ]
+      }
+    }
+  }
+}

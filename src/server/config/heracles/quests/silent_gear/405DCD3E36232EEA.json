@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "0DF4B01CC5B49E4E"
+  ],
+  "tasks": {
+    "233073F39E676B83": {
+      "type": "heracles:item",
+      "item": "silentgear:spear_blueprint",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "54C35AD7C673B8BD": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.spear"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.spear</translate></h2>",
+      "<hr/>",
+      "<task task=\"233073F39E676B83\" quest=\"405DCD3E36232EEA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.spear</translate></p>",
+      "<hr/>",
+      "<reward reward=\"54C35AD7C673B8BD\" quest=\"405DCD3E36232EEA\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          0,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:spear_blueprint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.spear"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

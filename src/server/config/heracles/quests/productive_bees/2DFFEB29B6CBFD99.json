@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "7830C98BD32DB5F2": {
+      "title": "Lead Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:lead"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "31ED03CD02AD0E62": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Lead Bees",
+    "description": [
+      "<h2>Iron + Blue Banded</h2>",
+      "<hr/>",
+      "<task task=\"7830C98BD32DB5F2\" quest=\"2DFFEB29B6CBFD99\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"31ED03CD02AD0E62\" quest=\"2DFFEB29B6CBFD99\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:lead_ingot"
+    },
+    "subtitle": {
+      "text": "Iron + Blue Banded"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          336
+        ]
+      }
+    }
+  }
+}

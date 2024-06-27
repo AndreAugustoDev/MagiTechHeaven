@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "4DA6445DB5F3B85E": {
+      "title": "Lumium Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:lumium"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "76A118868DEFF156": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Lumium Bee",
+    "description": [
+      "<h2>Silver + Tin</h2>",
+      "<hr/>",
+      "<task task=\"4DA6445DB5F3B85E\" quest=\"150FB369BEFFCBBF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76A118868DEFF156\" quest=\"150FB369BEFFCBBF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:lumium_ingot"
+    },
+    "subtitle": {
+      "text": "Silver + Tin"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          96,
+          400
+        ]
+      }
+    }
+  }
+}

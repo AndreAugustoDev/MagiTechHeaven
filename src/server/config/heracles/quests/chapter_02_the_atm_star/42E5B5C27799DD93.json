@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "4F2E454789548772": {
+      "type": "heracles:item",
+      "item": "powah:energizing_orb",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4F2E454789548772\" quest=\"42E5B5C27799DD93\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.powah",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"2A6EBEEBAB882679\"}, \"text\": \"Click here to check out the Powah questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -192,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energizing_orb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.powah"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

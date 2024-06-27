@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "0F3DB7859AC1FA8A": {
+      "type": "heracles:item",
+      "item": "botania:endoflame"
+    }
+  },
+  "rewards": {
+    "6B5C1767E42B69B9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal_block"
+      }
+    },
+    "3E0E8CD62EB71566": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "§cBurning Items§r to Create Mana",
+    "description": [
+      "<task task=\"0F3DB7859AC1FA8A\" quest=\"177658CA70DB0C89\"/>",
+      "<hr/>",
+      "The &&cEndoflame&&r will absorb any combustible items or blocks dropped nearby, one at a time. It will then burn them to generate &&bMana&&r.",
+      "<hr/>",
+      "<reward reward=\"6B5C1767E42B69B9\" quest=\"177658CA70DB0C89\"/>",
+      "<reward reward=\"3E0E8CD62EB71566\" quest=\"177658CA70DB0C89\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:endoflame"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          48,
+          128
+        ]
+      }
+    }
+  }
+}

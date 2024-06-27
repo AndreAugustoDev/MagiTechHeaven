@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1B6DDF50D00CBB31"
+  ],
+  "tasks": {
+    "56F8A49135418FD8": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_universal_cable"
+    }
+  },
+  "rewards": {
+    "33E6BC2DA88E92EE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_universal_cable",
+        "count": 4
+      }
+    },
+    "65D3C338D866F6C0": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_universal_cable",
+    "description": [
+      "<h2>For Transferring Power</h2>",
+      "<hr/>",
+      "<task task=\"56F8A49135418FD8\" quest=\"23F165DEAD225B10\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"33E6BC2DA88E92EE\" quest=\"23F165DEAD225B10\"/>",
+      "<reward reward=\"65D3C338D866F6C0\" quest=\"23F165DEAD225B10\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_universal_cable"
+    },
+    "subtitle": {
+      "text": "For Transferring Power"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -112,
+          128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7444B85503DE2C53",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "23562B6B16954B2E": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_blazing"
+    }
+  },
+  "rewards": {
+    "37434D0CC9A5B0E4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:player_transmitter_blazing",
+    "description": [
+      "<task task=\"23562B6B16954B2E\" quest=\"1D80E6C3327AB376\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"37434D0CC9A5B0E4\" quest=\"1D80E6C3327AB376\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -208,
+          464
+        ]
+      }
+    }
+  }
+}

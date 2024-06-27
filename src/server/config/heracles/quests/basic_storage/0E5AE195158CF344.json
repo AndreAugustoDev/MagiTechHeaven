@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "1B72E95569B07E18"
+  ],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.32</translate></h2>",
+      "<hr/>",
+      "<task task=\"1E992354ECC75B6D\" quest=\"0E5AE195158CF344\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"36853439572CA76B\" quest=\"0E5AE195158CF344\"/>",
+      "<reward reward=\"5FC4E884680BC919\" quest=\"0E5AE195158CF344\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -272,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": "functionalstorage:netherite_upgrade",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.32"
+    },
+    "title": "i18n.quest.storage.32"
+  },
+  "rewards": {
+    "36853439572CA76B": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    },
+    "5FC4E884680BC919": {
+      "item": {
+        "id": "minecraft:ancient_debris"
+      },
+      "type": "heracles:item"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "1E992354ECC75B6D": {
+      "item": "functionalstorage:netherite_upgrade",
+      "type": "heracles:item"
+    }
+  }
+}

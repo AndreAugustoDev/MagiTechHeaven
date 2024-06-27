@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "46C7D666D3A4A3D9": {
+      "title": "Sapphire Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:sapphire"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "6DBD9CDC28903F43": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Sapphire Bee",
+    "description": [
+      "<h2>Feed a Diamond Bee a Sapphire!</h2>",
+      "<hr/>",
+      "<task task=\"46C7D666D3A4A3D9\" quest=\"3AF30E1EC163E2E3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6DBD9CDC28903F43\" quest=\"3AF30E1EC163E2E3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "alltheores:sapphire"
+    },
+    "subtitle": {
+      "text": "Feed a Diamond Bee a Sapphire!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          160,
+          464
+        ]
+      }
+    }
+  }
+}

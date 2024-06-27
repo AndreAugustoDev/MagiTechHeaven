@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "775A7E11D20688CD": {
+      "title": "High-Flux RF Coil",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:rf_coil_xfer_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_xfer_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_xfer_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_xfer_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_xfer_augment_4"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_xfer_augment_5"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "591FD4F323E3FF7C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "High-Flux RF Coil",
+    "description": [
+      "<h2>Increases RF Transfer, and slightly increases the Capacity</h2>",
+      "<hr/>",
+      "<task task=\"775A7E11D20688CD\" quest=\"79366EC1EE27ED4B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"591FD4F323E3FF7C\" quest=\"79366EC1EE27ED4B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases RF Transfer, and slightly increases the Capacity"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          112,
+          102
+        ]
+      }
+    }
+  }
+}

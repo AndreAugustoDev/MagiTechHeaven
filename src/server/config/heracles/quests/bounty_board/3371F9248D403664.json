@@ -1,0 +1,64 @@
+{
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bounty.wither_skeleton.5</translate></h2>",
+      "<hr/>",
+      "<task task=\"1016033CBB003413\" quest=\"3371F9248D403664\"/>",
+      "<hr/>",
+      "<reward reward=\"7EC75E59C315BB3C\" quest=\"3371F9248D403664\"/>",
+      "<reward reward=\"3C294799544A5584\" quest=\"3371F9248D403664\"/>",
+      "<reward reward=\"7221550A96E0CD00\" quest=\"3371F9248D403664\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          256,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.bounty.wither_skeleton.5"
+    },
+    "title": "i18n.quest.bounty.wither_skeleton"
+  },
+  "rewards": {
+    "3C294799544A5584": {
+      "item": {
+        "count": 6,
+        "id": "minecraft:coal"
+      },
+      "type": "heracles:item"
+    },
+    "7221550A96E0CD00": {
+      "item": {
+        "id": "minecraft:wither_skeleton_skull"
+      },
+      "type": "heracles:item"
+    },
+    "7EC75E59C315BB3C": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "1016033CBB003413": {
+      "amount": 5,
+      "entity": {
+        "type": "minecraft:wither_skeleton"
+      },
+      "icon": {
+        "item": "minecraft:wither_skeleton_skull",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.wither_skeleton",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

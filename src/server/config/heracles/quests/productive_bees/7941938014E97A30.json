@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "4ADD8F6F75D38DE6": {
+      "type": "heracles:item",
+      "item": "productivebees:treat_on_a_stick"
+    },
+    "31D0730D68948E3B": {
+      "type": "heracles:item",
+      "item": "minecraft:saddle"
+    }
+  },
+  "rewards": {
+    "10E2A71BE96232EF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Bumble Bee",
+    "description": [
+      "<h2>Spawns in the Overworld from Bumble Bee Nests</h2>",
+      "<hr/>",
+      "<task task=\"4ADD8F6F75D38DE6\" quest=\"7941938014E97A30\"/>",
+      "<task task=\"31D0730D68948E3B\" quest=\"7941938014E97A30\"/>",
+      "<hr/>",
+      "Have you ever wanted to fly on a bee?",
+      "<br/>",
+      "Bumble Bees naturally spawn in the world, and they can be used as mounts!",
+      "<br/>",
+      "Make yourself a &&6Treat on a Stick&&r, slap a saddle on a Bumble Bee, and take to the skies!",
+      "<hr/>",
+      "<reward reward=\"10E2A71BE96232EF\" quest=\"7941938014E97A30\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:saddle"
+    },
+    "subtitle": {
+      "text": "Spawns in the Overworld from Bumble Bee Nests"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          464
+        ]
+      }
+    }
+  }
+}

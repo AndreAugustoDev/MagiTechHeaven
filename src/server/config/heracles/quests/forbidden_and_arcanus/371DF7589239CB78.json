@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "24C0F64218E7DD64": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:boom_arrow"
+    }
+  },
+  "rewards": {
+    "6EFE2F39B54EFABB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:boom_arrow",
+    "description": [
+      "<h2>Arrow Go Boom</h2>",
+      "<hr/>",
+      "<task task=\"24C0F64218E7DD64\" quest=\"371DF7589239CB78\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6EFE2F39B54EFABB\" quest=\"371DF7589239CB78\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:boom_arrow"
+    },
+    "subtitle": {
+      "text": "Arrow Go Boom"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -384,
+          144
+        ]
+      }
+    }
+  }
+}

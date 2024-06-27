@@ -1,0 +1,92 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5FDB48511EC1C580"
+  ],
+  "tasks": {
+    "25FB07BDEC8EE4EF": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "mekanismgenerators:fission_reactor_logic_adapter"
+    },
+    "6F57410F914C4D07": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone"
+    },
+    "5BC88AE46F95774D": {
+      "title": "Gravel or Sand",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "minecraft:gravel"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:sand"
+          }
+        ]
+      }
+    },
+    "584B8A392FBCD199": {
+      "type": "heracles:item",
+      "item": "minecraft:piston"
+    },
+    "139EDEDEA3DAD312": {
+      "type": "heracles:item",
+      "item": "minecraft:observer"
+    }
+  },
+  "rewards": {
+    "102A352650624E7C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Example Circuit Breaker",
+    "description": [
+      "<h2>Need a visual? Watch the Ponder!</h2>",
+      "<hr/>",
+      "<task task=\"25FB07BDEC8EE4EF\" quest=\"7B0764DDE94E73D0\"/>",
+      "<task task=\"6F57410F914C4D07\" quest=\"7B0764DDE94E73D0\"/>",
+      "<task task=\"5BC88AE46F95774D\" quest=\"7B0764DDE94E73D0\"/>",
+      "<task task=\"584B8A392FBCD199\" quest=\"7B0764DDE94E73D0\"/>",
+      "<task task=\"139EDEDEA3DAD312\" quest=\"7B0764DDE94E73D0\"/>",
+      "<hr/>",
+      "Using some vanilla mechanics and 2 &&aFission Reactor Logic Adapters&&r, we can create a simple circuit breaker to trip and turn off the reactor &&o&&ein case things get a little crazy&&r.",
+      "<br/>",
+      "To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer.",
+      "<br/>",
+      "On one of the faces, we'll want to put a Logic Adapter down, then skip a block above it and then place another Adapter. Set the top Adapter to &&9\"Activation\"&&r, and the bottom Adapter to &&c\"Damage Critical\"&&r.",
+      "<br/>",
+      "Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston.",
+      "<br/>",
+      "For the final part of our breaker, place the Observer with the face pointing &&boutwards towards the Piston setup&&r. &&9This is important&&r!",
+      "<br/>",
+      "Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"102A352650624E7C\" quest=\"7B0764DDE94E73D0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:observer"
+    },
+    "subtitle": {
+      "text": "Need a visual? Watch the Ponder!"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          48,
+          144
+        ]
+      }
+    }
+  }
+}

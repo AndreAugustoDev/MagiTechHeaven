@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7B4AF35313D7D779"
+  ],
+  "tasks": {
+    "42FC1011D077857F": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_netherstar"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:mycelial_netherstar",
+    "description": [
+      "<task task=\"42FC1011D077857F\" quest=\"60719C4317D39E5A\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:mycelial_netherstar"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          304,
+          336
+        ]
+      }
+    }
+  }
+}

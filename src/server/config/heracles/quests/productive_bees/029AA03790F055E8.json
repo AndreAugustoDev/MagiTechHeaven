@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "59665D8476656B9F": {
+      "title": "Gold Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:gold"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "1DC7AED40698F09D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Gold Bees",
+    "description": [
+      "<h2>Crystalline + Mason</h2>",
+      "<hr/>",
+      "<task task=\"59665D8476656B9F\" quest=\"029AA03790F055E8\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"1DC7AED40698F09D\" quest=\"029AA03790F055E8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:gold_ingot"
+    },
+    "subtitle": {
+      "text": "Crystalline + Mason"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          0,
+          320
+        ]
+      }
+    }
+  }
+}

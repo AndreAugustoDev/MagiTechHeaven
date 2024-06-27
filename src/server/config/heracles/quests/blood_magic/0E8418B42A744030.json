@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4578C0EE82F66BD9"
+  ],
+  "tasks": {
+    "6B1FDBAA650C202A": {
+      "type": "heracles:item",
+      "item": "bloodmagic:ritualdiviner"
+    },
+    "7D265539B810DCE3": {
+      "type": "heracles:item",
+      "item": "bloodmagic:activationcrystalweak"
+    }
+  },
+  "rewards": {
+    "76C8BCBEA45D07D2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"6B1FDBAA650C202A\" quest=\"0E8418B42A744030\"/>",
+      "<task task=\"7D265539B810DCE3\" quest=\"0E8418B42A744030\"/>",
+      "<hr/>",
+      "While not required, the Ritual Diviner is great to have as it shows exactly how the Ritual is built, and helps build it. (You should totally make one.)",
+      "<br/>",
+      "To build a ritual, shift-right click with the Ritual Diviner in the air until you find the ritual you want to create. You can shift-left click to go back as well.",
+      "<br/>",
+      "Start by doing the Edge of the Hidden Realm ritual, as we'll need a few items from the dimension to get started.",
+      "<br/>",
+      "Once selected with the Ritual Diviner, right click on a Master Ritual Stone until the structure is complete. You will need a bunch of Ritual Stones to perform these rituals. Once the structure is fully built, you can right click the Master Ritual Stone with a Weak Activation Crystal to activate it.",
+      "<hr/>",
+      "<reward reward=\"76C8BCBEA45D07D2\" quest=\"0E8418B42A744030\"/>"
+    ],
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -576,
+          64
+        ]
+      }
+    }
+  }
+}

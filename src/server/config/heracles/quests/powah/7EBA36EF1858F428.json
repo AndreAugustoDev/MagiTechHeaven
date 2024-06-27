@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63E57D2745D24761",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "053841A23C52379F": {
+      "type": "heracles:item",
+      "item": "powah:battery_nitro"
+    }
+  },
+  "rewards": {
+    "29DA52B9C2CC7AC6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:battery_nitro",
+    "description": [
+      "<task task=\"053841A23C52379F\" quest=\"7EBA36EF1858F428\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"29DA52B9C2CC7AC6\" quest=\"7EBA36EF1858F428\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:battery_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -176,
+          560
+        ]
+      }
+    }
+  }
+}

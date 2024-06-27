@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "310969B8FE0A94DE"
+  ],
+  "tasks": {
+    "4DA7AE7F61B1FC05": {
+      "type": "heracles:item",
+      "item": "minecraft:ghast_tear",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "125102EC635E5209": {
+      "item": {
+        "id": "minecraft:ghast_tear",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4DA7AE7F61B1FC05\" quest=\"4D07B0A4A2E77CDA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.spawner.desc.ghast</translate></p>",
+      "<hr/>",
+      "<reward reward=\"125102EC635E5209\" quest=\"4D07B0A4A2E77CDA\"/>"
+    ],
+    "groups": {
+      "Apotheosis": {
+        "position": [
+          80,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:ghast_tear",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.spawner.ghast"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

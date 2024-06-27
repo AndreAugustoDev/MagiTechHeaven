@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5CB4746CCB2E2363": {
+      "type": "heracles:item",
+      "item": "minecraft:fishing_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7BB398F5B3A25045": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.fish"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.fish</translate></h2>",
+      "<hr/>",
+      "<task task=\"5CB4746CCB2E2363\" quest=\"1DCAA0310AA55F1C\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.fish</translate></p>",
+      "<hr/>",
+      "<reward reward=\"7BB398F5B3A25045\" quest=\"1DCAA0310AA55F1C\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -50,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:fishing_rod",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.fish"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

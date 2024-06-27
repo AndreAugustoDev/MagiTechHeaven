@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "13D401048A926A74"
+  ],
+  "tasks": {
+    "0F7774409C025470": {
+      "type": "heracles:item",
+      "item": "botania:cyan_mystical_flower"
+    }
+  },
+  "rewards": {
+    "75BD2F537F37A95F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:cyan_mystical_flower",
+    "description": [
+      "<task task=\"0F7774409C025470\" quest=\"7BFCD0822FC37F50\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"75BD2F537F37A95F\" quest=\"7BFCD0822FC37F50\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:cyan_mystical_flower"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          240,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "76406EFFF8CBA6B4"
+  ],
+  "tasks": {},
+  "rewards": {
+    "22A34BE659C7BC6D": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3209E46C9B05C163\" quest=\"2EC9668ED4EA47CB\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.diamond_tools</translate></p>",
+      "<hr/>",
+      "<reward reward=\"22A34BE659C7BC6D\" quest=\"2EC9668ED4EA47CB\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          336,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.diamond_tools"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

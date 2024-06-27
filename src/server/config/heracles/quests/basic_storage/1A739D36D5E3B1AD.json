@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "5FA9BC0D8476D322"
+  ],
+  "tasks": {
+    "41C87FC409006F13": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:advanced_feeding_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0B71DCC81A95305B": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"41C87FC409006F13\" quest=\"1A739D36D5E3B1AD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B71DCC81A95305B\" quest=\"1A739D36D5E3B1AD\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -96,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:advanced_feeding_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Afeeding"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

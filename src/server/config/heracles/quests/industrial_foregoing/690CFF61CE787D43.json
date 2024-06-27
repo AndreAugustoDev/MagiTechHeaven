@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EA9E52B67B533DF"
+  ],
+  "tasks": {
+    "77579FFDFEA734EB": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:plastic"
+    }
+  },
+  "rewards": {
+    "41FDECEBC7DDB3F6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "industrialforegoing:plastic",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:plastic",
+    "description": [
+      "<task task=\"77579FFDFEA734EB\" quest=\"690CFF61CE787D43\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"41FDECEBC7DDB3F6\" quest=\"690CFF61CE787D43\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:plastic"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  }
+}

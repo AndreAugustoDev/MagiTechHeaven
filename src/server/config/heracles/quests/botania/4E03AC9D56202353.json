@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "0331107259F7B68C"
+  ],
+  "tasks": {
+    "2D5337F7895CC160": {
+      "type": "heracles:item",
+      "item": "botania:gaia_spreader"
+    }
+  },
+  "rewards": {
+    "635C477D56FB88B2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:gaia_spreader",
+    "description": [
+      "<task task=\"2D5337F7895CC160\" quest=\"4E03AC9D56202353\"/>",
+      "<hr/>",
+      "Combining an &&2Elven Mana Spreader&&r with the power of Dragonstones and a &&6Gaia Spirit&&r creates the best Mana Spreader you can get.",
+      "<hr/>",
+      "<reward reward=\"635C477D56FB88B2\" quest=\"4E03AC9D56202353\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:gaia_spreader"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          784,
+          128
+        ]
+      }
+    }
+  }
+}

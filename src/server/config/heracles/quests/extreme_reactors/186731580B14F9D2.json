@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"5E9CEEEE330B1DE0\" quest=\"186731580B14F9D2\"/>",
+      "<task task=\"18EB6570007F534A\" quest=\"186731580B14F9D2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.expanding_our_reactors</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6F76A59F202AD944\" quest=\"186731580B14F9D2\"/>",
+      "<reward reward=\"7BC028EFCCFAF39A\" quest=\"186731580B14F9D2\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -48,
+          96
+        ]
+      }
+    },
+    "title": "i18n.quest.bigreactors.turbine_ports"
+  },
+  "rewards": {
+    "6F76A59F202AD944": {
+      "item": {
+        "count": 4,
+        "id": "bigreactors:basic_turbinecasing"
+      },
+      "type": "heracles:item"
+    },
+    "7BC028EFCCFAF39A": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "18EB6570007F534A": {
+      "item": "bigreactors:basic_turbinepowertapfe_active",
+      "type": "heracles:item"
+    },
+    "5E9CEEEE330B1DE0": {
+      "amount": 2,
+      "item": "bigreactors:basic_turbinefluidport_forge_active",
+      "type": "heracles:item"
+    }
+  }
+}

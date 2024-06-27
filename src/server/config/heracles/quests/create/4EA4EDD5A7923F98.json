@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7F0D59EC1573FDC0"
+  ],
+  "tasks": {
+    "34313AA5D327317C": {
+      "type": "heracles:item",
+      "item": "create:weighted_ejector"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:weighted_ejector",
+    "description": [
+      "<task task=\"34313AA5D327317C\" quest=\"4EA4EDD5A7923F98\"/>",
+      "<hr/>",
+      "The &&n&&5Weighted Ejector&&r can launch items or entities to a selected location."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:weighted_ejector"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          176,
+          -64
+        ]
+      }
+    }
+  }
+}

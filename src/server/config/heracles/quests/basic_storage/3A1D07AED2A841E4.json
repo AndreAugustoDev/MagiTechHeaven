@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "668C313FF46B6005"
+  ],
+  "tasks": {
+    "4F90A434D3719DCB": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:auto_smelting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "278BE67D7B2DA41A": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.Asmelting"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.Asmelting</translate></h2>",
+      "<hr/>",
+      "<task task=\"4F90A434D3719DCB\" quest=\"3A1D07AED2A841E4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"278BE67D7B2DA41A\" quest=\"3A1D07AED2A841E4\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -192,
+          320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:auto_smelting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.Asmelting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

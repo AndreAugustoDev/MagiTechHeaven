@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3799ACDA92F96FD1"
+  ],
+  "tasks": {
+    "2A496D23BEBBA31A": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:sanity_meter"
+    }
+  },
+  "rewards": {
+    "31A2D2A4B3CB93AB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Sanity",
+    "description": [
+      "<h2>Am I going insane?</h2>",
+      "<hr/>",
+      "<task task=\"2A496D23BEBBA31A\" quest=\"25911D0B7C403A4F\"/>",
+      "<hr/>",
+      "Killing passive mobs will increase your corruption. Killing &&9Aureal Entities&&r has a higher chance to increase your corruption.",
+      "<br/>",
+      "Be careful! At higher levels of corruption, negative things will happen!",
+      "<br/>",
+      "Making a Sanity Meter will give your UI an upgrade to show your total corruption, for those who want to hit new high scores and such.",
+      "<hr/>",
+      "<reward reward=\"31A2D2A4B3CB93AB\" quest=\"25911D0B7C403A4F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:sanity_meter"
+    },
+    "subtitle": {
+      "text": "Am I going insane?"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -288,
+          48
+        ]
+      }
+    }
+  }
+}

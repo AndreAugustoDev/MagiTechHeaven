@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66FA15A92DC655DE",
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "672A18DBFAA84594": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_hardened"
+    }
+  },
+  "rewards": {
+    "1CB63C1741CAE50B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:energy_cell_hardened",
+    "description": [
+      "<task task=\"672A18DBFAA84594\" quest=\"7FEE780F37A1322E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1CB63C1741CAE50B\" quest=\"7FEE780F37A1322E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          432
+        ]
+      }
+    }
+  }
+}

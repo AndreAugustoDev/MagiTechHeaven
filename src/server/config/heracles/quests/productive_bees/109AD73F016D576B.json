@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "29EE878BC8D3A742"
+  ],
+  "tasks": {
+    "33E5A303B907306B": {
+      "type": "heracles:item",
+      "item": "minecraft:beehive"
+    }
+  },
+  "rewards": {
+    "398062170AD6E34C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:honeycomb",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Your First Beehive!",
+    "description": [
+      "<task task=\"33E5A303B907306B\" quest=\"109AD73F016D576B\"/>",
+      "<hr/>",
+      "Using the vanilla method, go ahead and make yourself a &&9Beehive&&r to have your own little setup!",
+      "<br/>",
+      "These can hold 3 Bees each, but we won't be using it for long....",
+      "<br/>",
+      "Bees will only create Honey and Honeycombs if they have the right flowers. Vanilla bees can use any flower, but most bees in the mod will require a specific block! Make sure to check JEI for more info.",
+      "<hr/>",
+      "<reward reward=\"398062170AD6E34C\" quest=\"109AD73F016D576B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:beehive"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          32,
+          -48
+        ]
+      }
+    }
+  }
+}

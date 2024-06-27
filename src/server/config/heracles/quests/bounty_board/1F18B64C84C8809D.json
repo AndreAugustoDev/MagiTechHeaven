@@ -1,0 +1,74 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "18644A08B73A4B12": {
+      "icon": {
+        "item": {
+          "id": "minecraft:spider_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "minecraft:spider"
+      },
+      "amount": 5,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "275D3078C224D84C": {
+      "item": {
+        "id": "minecraft:spider_eye",
+        "count": 5
+      },
+      "type": "heracles:item"
+    },
+    "18E8AA34DB10D4AF": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.bounty.subt.spider"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.bounty.subt.spider</translate></h2>",
+      "<hr/>",
+      "<task task=\"18644A08B73A4B12\" quest=\"1F18B64C84C8809D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"275D3078C224D84C\" quest=\"1F18B64C84C8809D\"/>",
+      "<reward reward=\"18E8AA34DB10D4AF\" quest=\"1F18B64C84C8809D\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          64,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:spider_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bounty.spider"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

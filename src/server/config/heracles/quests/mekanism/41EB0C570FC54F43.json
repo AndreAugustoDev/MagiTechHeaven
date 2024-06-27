@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "58B125BD4876054C"
+  ],
+  "tasks": {
+    "665B9818855C0028": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_chemical_tank"
+    }
+  },
+  "rewards": {
+    "6A2363D77EC727F8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_chemical_tank",
+    "description": [
+      "<h2>Storing All That Gas</h2>",
+      "<hr/>",
+      "<task task=\"665B9818855C0028\" quest=\"41EB0C570FC54F43\"/>",
+      "<hr/>",
+      "This block stores gases.",
+      "<hr/>",
+      "<reward reward=\"6A2363D77EC727F8\" quest=\"41EB0C570FC54F43\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "subtitle": {
+      "text": "Storing All That Gas"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          48,
+          224
+        ]
+      }
+    }
+  }
+}

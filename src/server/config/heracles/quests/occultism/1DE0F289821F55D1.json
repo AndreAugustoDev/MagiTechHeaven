@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7174A0CEC5CCC53B"
+  ],
+  "tasks": {
+    "41B3C10D0B8975EF": {
+      "type": "heracles:item",
+      "item": "occultism:chalk_gold_impure"
+    },
+    "7CF12BB07B603BDF": {
+      "type": "heracles:item",
+      "item": "occultism:chalk_purple_impure"
+    }
+  },
+  "rewards": {
+    "1B9CD287CB41E0E8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aChalking It Up§r",
+    "description": [
+      "<task task=\"41B3C10D0B8975EF\" quest=\"1DE0F289821F55D1\"/>",
+      "<task task=\"7CF12BB07B603BDF\" quest=\"1DE0F289821F55D1\"/>",
+      "<hr/>",
+      "Now that we have a Foliot Crusher, we can &&muse&&r politely ask it to crush down some &&eEnd Stone&&r and &&9Obsidian&&r for us. We'll use these to make some new Chalk!",
+      "<hr/>",
+      "<reward reward=\"1B9CD287CB41E0E8\" quest=\"1DE0F289821F55D1\"/>"
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          400,
+          208
+        ]
+      }
+    }
+  }
+}

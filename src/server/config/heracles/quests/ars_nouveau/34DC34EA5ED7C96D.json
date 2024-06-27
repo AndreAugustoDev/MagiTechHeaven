@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "3FCA99481934542B": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_moonfall"
+    }
+  },
+  "rewards": {
+    "436D64353438EF78": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_moonfall",
+    "description": [
+      "<task task=\"3FCA99481934542B\" quest=\"34DC34EA5ED7C96D\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"436D64353438EF78\" quest=\"34DC34EA5ED7C96D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_moonfall"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          224,
+          176
+        ]
+      }
+    }
+  }
+}

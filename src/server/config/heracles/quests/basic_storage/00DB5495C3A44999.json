@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "68CED4583435FE43": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:deposit_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "573C3AE6F966E820": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.deposit"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.deposit</translate></h2>",
+      "<hr/>",
+      "<task task=\"68CED4583435FE43\" quest=\"00DB5495C3A44999\"/>",
+      "<hr/>",
+      "Shift-Right Click an inventory to empty.",
+      "<hr/>",
+      "<reward reward=\"573C3AE6F966E820\" quest=\"00DB5495C3A44999\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -240,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:deposit_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.deposit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "4B9E9497E44D0096"
+  ],
+  "tasks": {
+    "0649EBB6E6516B4C": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorsolidaccessport",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "565CF24C6904CC2A": {
+      "type": "heracles:item",
+      "item": "bigreactors:basic_reactorpowertapfe_active",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "772EB41C198591C5": {
+      "item": {
+        "id": "bigreactors:basic_reactorcasing",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "1FA7A1D6E690613A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"565CF24C6904CC2A\" quest=\"2A20000FAEC2E16A\"/>",
+      "<task task=\"0649EBB6E6516B4C\" quest=\"2A20000FAEC2E16A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_building_components</translate></p>",
+      "<hr/>",
+      "<reward reward=\"772EB41C198591C5\" quest=\"2A20000FAEC2E16A\"/>",
+      "<reward reward=\"1FA7A1D6E690613A\" quest=\"2A20000FAEC2E16A\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -160,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.reactor_building_components"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

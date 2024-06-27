@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "464D0C17601E8A2B"
+  ],
+  "tasks": {
+    "0CF133CEADDC504C": {
+      "type": "heracles:item",
+      "item": "create:creative_motor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "72936F6095FF124A": {
+      "type": "heracles:item",
+      "item": "create:creative_blaze_cake",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0CF133CEADDC504C\" quest=\"2CF11A70229000AB\"/>",
+      "<task task=\"72936F6095FF124A\" quest=\"2CF11A70229000AB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1A639A768F7EF8FC\" quest=\"2CF11A70229000AB\"/>"
+    ],
+    "groups": {
+      "§aChapter 3§r: §dCreative": {
+        "position": [
+          64,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter3.create"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

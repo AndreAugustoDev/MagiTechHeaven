@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62CE0FFAF6352287"
+  ],
+  "tasks": {
+    "7E84245939CD98B9": {
+      "type": "heracles:item",
+      "item": "evilcraft:kineticator",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 1000
+      }
+    },
+    "7974BA01706F695D": {
+      "type": "heracles:item",
+      "item": "evilcraft:kineticator_repelling",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 1000
+      }
+    }
+  },
+  "rewards": {
+    "70FFB8883248C8E3": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>Magnets</h2>",
+      "<hr/>",
+      "<task task=\"7E84245939CD98B9\" quest=\"77B5B23A2C01ED7E\"/>",
+      "<task task=\"7974BA01706F695D\" quest=\"77B5B23A2C01ED7E\"/>",
+      "<hr/>",
+      "The &&9Kineticator&&r works like a magnet for items and experience.",
+      "<br/>",
+      "The &&eReverse Kineticator&&r will instead repel items and experience.",
+      "<hr/>",
+      "<reward reward=\"70FFB8883248C8E3\" quest=\"77B5B23A2C01ED7E\"/>"
+    ],
+    "subtitle": {
+      "text": "Magnets"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          384,
+          80
+        ]
+      }
+    }
+  }
+}

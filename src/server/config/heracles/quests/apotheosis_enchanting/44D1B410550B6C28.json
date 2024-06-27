@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "1D06097B6206BA60"
+  ],
+  "tasks": {
+    "53BCEFD384A7080C": {
+      "title": "Other Infusion items",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "0E193F344F6CFC60": {
+      "item": {
+        "id": "minecraft:lapis_lazuli",
+        "count": 9
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"53BCEFD384A7080C\" quest=\"44D1B410550B6C28\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.enchant.desc.other</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0E193F344F6CFC60\" quest=\"44D1B410550B6C28\"/>"
+    ],
+    "groups": {
+      "Apotheosis Enchanting": {
+        "position": [
+          64,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.enchant.other"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

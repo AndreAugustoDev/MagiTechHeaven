@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "1FD4C32B3937E1C7"
+  ],
+  "tasks": {},
+  "rewards": {
+    "4E0E7E5434500C8F": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"016C79FEE71EC9FE\" quest=\"7B74D36B9C69B63E\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.teleport</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4E0E7E5434500C8F\" quest=\"7B74D36B9C69B63E\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          432,
+          352
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.teleport"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

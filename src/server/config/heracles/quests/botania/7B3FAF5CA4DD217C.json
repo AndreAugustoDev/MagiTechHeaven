@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "hidden": false
+  },
+  "dependencies": [
+    "79BE48D56622542F"
+  ],
+  "tasks": {
+    "7F362CF1D18C7FB1": {
+      "title": "Functional Flora",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Functional And Generating Flora",
+    "description": [
+      "<task task=\"7F362CF1D18C7FB1\" quest=\"7B3FAF5CA4DD217C\"/>",
+      "<hr/>",
+      "Using the Petal Apothecary, we can create several different types of flowers that can help us on our journey, and these are broken down into two different categories: &&9Functional Flowers&&r and &&aGenerating Flowers&&r.",
+      "<br/>",
+      "&&9Functional Flowers&&r are flowers that help you with everyday tasks. For example, the &&7Hopperhock&&r will function like a hopper, and pick up items within a certain range around it. Some of the Functional Flowers will require &&dMana&&r to operate.",
+      "<br/>",
+      "&&aGenerating Flowers&&r are flowers that produce &&dMana&&r using different methods, depending on the flower. The most common flower used to generate mana is the &&cEndoflame&&r, which generates Mana by consuming nearby combustible like coal.",
+      "<br/>",
+      "In this questline, Flowers with the quest shape of a &&cSquare&&r are Generating Flowers, where as flowers with the shape of a &&9Circle&&r are Functional Flowers. You can also find out what each flower does by using the &&aLexica Botania&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          96,
+          80
+        ]
+      }
+    }
+  }
+}

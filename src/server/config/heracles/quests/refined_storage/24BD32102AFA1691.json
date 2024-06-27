@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "189018F641FBB44E"
+  ],
+  "tasks": {},
+  "rewards": {
+    "09E39857FC64780B": {
+      "item": {
+        "id": "refinedstorage:pattern",
+        "count": 5
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4FEB0889EEBC1BDA\" quest=\"24BD32102AFA1691\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.netherite</translate></p>",
+      "<hr/>",
+      "<reward reward=\"09E39857FC64780B\" quest=\"24BD32102AFA1691\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          80,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.netherite"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1B6DDF50D00CBB31"
+  ],
+  "tasks": {
+    "45B151086147D98D": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_mechanical_pipe"
+    }
+  },
+  "rewards": {
+    "011785CCEDC7688E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:basic_mechanical_pipe",
+        "count": 4
+      }
+    },
+    "6FA14D9A12111586": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_mechanical_pipe",
+    "description": [
+      "<h2>For Transferring Fluids</h2>",
+      "<hr/>",
+      "<task task=\"45B151086147D98D\" quest=\"2EF4DD5CC254CC80\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"011785CCEDC7688E\" quest=\"2EF4DD5CC254CC80\"/>",
+      "<reward reward=\"6FA14D9A12111586\" quest=\"2EF4DD5CC254CC80\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_mechanical_pipe"
+    },
+    "subtitle": {
+      "text": "For Transferring Fluids"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -48,
+          128
+        ]
+      }
+    }
+  }
+}

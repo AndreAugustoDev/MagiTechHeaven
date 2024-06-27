@@ -1,0 +1,89 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E79F52147B606F9"
+  ],
+  "tasks": {
+    "529AF6004FE7819C": {
+      "title": "Sanguinary Pedestal",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "ForgeCaps": {
+              "Parent": {
+                "Amount": 0,
+                "FluidName": "minecraft:empty",
+                "capacity": 10000
+              }
+            },
+            "id": "evilcraft:sanguinary_pedestal_0",
+            "tag": {
+              "Fluid": {
+                "Amount": 0,
+                "FluidName": "minecraft:empty"
+              },
+              "capacity": 10000
+            }
+          },
+          {
+            "Count": 1,
+            "ForgeCaps": {
+              "Parent": {
+                "Amount": 0,
+                "FluidName": "minecraft:empty",
+                "capacity": 10000
+              }
+            },
+            "id": "evilcraft:sanguinary_pedestal_1",
+            "tag": {
+              "Fluid": {
+                "Amount": 0,
+                "FluidName": "minecraft:empty"
+              },
+              "capacity": 10000
+            }
+          }
+        ]
+      }
+    },
+    "3FC22C6B8659C136": {
+      "type": "heracles:item",
+      "item": "evilcraft:spiked_plate"
+    }
+  },
+  "rewards": {
+    "288BC70DF47B76C4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aCollecting§r §cBlood Stains§r",
+    "description": [
+      "<task task=\"529AF6004FE7819C\" quest=\"525517F1625A9BCB\"/>",
+      "<task task=\"3FC22C6B8659C136\" quest=\"525517F1625A9BCB\"/>",
+      "<hr/>",
+      "Did a mob hit the floor too hard and get its &&cBlood&&r everywhere? Oh no!",
+      "<br/>",
+      "Anyway.",
+      "<br/>",
+      "You can use a &&cSanguinary Pedestal&&r to absorb that precious &&cBlood&&r for later use!",
+      "<br/>",
+      "Want to automate collecting blood? Place a &&9Spiked Plate&&r on top of the Pedestal, then have a mob stand on it.",
+      "<hr/>",
+      "<reward reward=\"288BC70DF47B76C4\" quest=\"525517F1625A9BCB\"/>"
+    ],
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          -48,
+          96
+        ]
+      }
+    }
+  }
+}

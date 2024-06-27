@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "1CC4F8570A7A99EB"
+  ],
+  "tasks": {
+    "047D297988E59B6B": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_growth_accelerator"
+    }
+  },
+  "rewards": {
+    "4B769BFE56697DDF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mysticalagriculture:inferium_essence"
+      }
+    },
+    "06F3530E011C3671": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Speeding Up Growth",
+    "description": [
+      "<task task=\"047D297988E59B6B\" quest=\"4821419D44F8083F\"/>",
+      "<hr/>",
+      "&&9Growth Accelerators&&r very slightly increase the growth speed of a seed when placed directly underneath the farmland. Each tier has a range of how many blocks \"up\" it can accelerate, with Inferium being the lowest at 12.",
+      "<br/>",
+      "Note: Growth Accelerators of all tiers provide the same rate of growth ticks. Higher tiers however have a larger range, so you can stack more of them below a single plant. It doesn't matter which tier you use as long as the Growth Accelerator is placed within its max range.",
+      "<hr/>",
+      "<reward reward=\"4B769BFE56697DDF\" quest=\"4821419D44F8083F\"/>",
+      "<reward reward=\"06F3530E011C3671\" quest=\"4821419D44F8083F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_growth_accelerator"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -656,
+          -16
+        ]
+      }
+    }
+  }
+}

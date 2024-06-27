@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6A56574BC562B227"
+  ],
+  "tasks": {
+    "34385B9406728C43": {
+      "type": "heracles:item",
+      "item": "botania:aura_ring_greater"
+    }
+  },
+  "rewards": {
+    "3D5C2F4B20A5829D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:aura_ring_greater",
+    "description": [
+      "<task task=\"34385B9406728C43\" quest=\"70C25BFA6FFA1799\"/>",
+      "<hr/>",
+      "By upgrading the Band of Aura with an ingot of Terrasteel, it increases the mana generation rate of the band significantly.",
+      "<hr/>",
+      "<reward reward=\"3D5C2F4B20A5829D\" quest=\"70C25BFA6FFA1799\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:aura_ring_greater"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          432,
+          208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F95F00ED78FBAB9"
+  ],
+  "tasks": {
+    "10CB6FCDDD3E38D4": {
+      "type": "heracles:item",
+      "item": "create:stressometer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:stressometer",
+    "description": [
+      "<task task=\"10CB6FCDDD3E38D4\" quest=\"48BE7DAC5082044D\"/>",
+      "<hr/>",
+      "The Stressometer will show you how stressed the system is when you connect it."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:stressometer"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          16,
+          112
+        ]
+      }
+    }
+  }
+}

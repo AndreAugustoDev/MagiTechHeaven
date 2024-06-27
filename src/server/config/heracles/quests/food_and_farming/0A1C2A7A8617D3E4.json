@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "72717D1135486D7F"
+  ],
+  "tasks": {
+    "6890EB2819D88073": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6EE0FD0DCE6CEEDE": {
+      "item": {
+        "id": "minecraft:bread",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "6DB38B87B2BB0B70": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.wheat"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.wheat</translate></h2>",
+      "<hr/>",
+      "<task task=\"6890EB2819D88073\" quest=\"0A1C2A7A8617D3E4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6EE0FD0DCE6CEEDE\" quest=\"0A1C2A7A8617D3E4\"/>",
+      "<reward reward=\"6DB38B87B2BB0B70\" quest=\"0A1C2A7A8617D3E4\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.wheat"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

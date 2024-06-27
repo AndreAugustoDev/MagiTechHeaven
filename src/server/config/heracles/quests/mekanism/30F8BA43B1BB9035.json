@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6DB1AAAD926486BC"
+  ],
+  "tasks": {
+    "5FFEF5D6055A67B1": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_fluid_tank"
+    }
+  },
+  "rewards": {
+    "4E84D5C93A175BAE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:advanced_fluid_tank",
+    "description": [
+      "<task task=\"5FFEF5D6055A67B1\" quest=\"30F8BA43B1BB9035\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4E84D5C93A175BAE\" quest=\"30F8BA43B1BB9035\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:advanced_fluid_tank"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          128,
+          250
+        ]
+      }
+    }
+  }
+}

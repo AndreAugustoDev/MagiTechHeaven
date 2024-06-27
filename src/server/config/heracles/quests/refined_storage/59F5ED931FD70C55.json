@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "43E8912CB307E421"
+  ],
+  "tasks": {
+    "45359CC3EC90B74B": {
+      "type": "heracles:item",
+      "item": "refinedstorage:pattern",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4348758E87B788AE": {
+      "item": {
+        "id": "refinedstorage:pattern",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"45359CC3EC90B74B\" quest=\"59F5ED931FD70C55\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.rs.desc.autocrafting</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4348758E87B788AE\" quest=\"59F5ED931FD70C55\"/>"
+    ],
+    "groups": {
+      "Refined Storage": {
+        "position": [
+          64,
+          -142
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "refinedstorage:pattern",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.rs.autocrafting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

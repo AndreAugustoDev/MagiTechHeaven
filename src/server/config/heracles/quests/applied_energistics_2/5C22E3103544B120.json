@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "4BF0BB763BFFACF0"
+  ],
+  "tasks": {
+    "40A7CC56DACC2623": {
+      "type": "heracles:item",
+      "item": "#ae2:glass_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Glass Cable"
+    },
+    "64EAD3DE84E94F02": {
+      "type": "heracles:item",
+      "item": "#ae2:covered_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Covered Cable"
+    },
+    "14DEFFB80CC96BC1": {
+      "type": "heracles:item",
+      "item": "#ae2:covered_dense_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Dense Covered Cable"
+    }
+  },
+  "rewards": {
+    "2D1445E4299E8619": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"40A7CC56DACC2623\" quest=\"5C22E3103544B120\"/>",
+      "<task task=\"64EAD3DE84E94F02\" quest=\"5C22E3103544B120\"/>",
+      "<task task=\"14DEFFB80CC96BC1\" quest=\"5C22E3103544B120\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.cables</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2D1445E4299E8619\" quest=\"5C22E3103544B120\"/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          160,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.ae2.cables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

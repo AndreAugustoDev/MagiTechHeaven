@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "3B35F86B42989063": {
+      "title": "Crimson Shroombee Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:crimson"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "138D9A13CD9CBC15": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Crimson Shroombee",
+    "description": [
+      "<h2>Feed a Shroombee a Crimson Fungus!</h2>",
+      "<hr/>",
+      "<task task=\"3B35F86B42989063\" quest=\"176ACC61DC206E55\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"138D9A13CD9CBC15\" quest=\"176ACC61DC206E55\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:crimson_fungus"
+    },
+    "subtitle": {
+      "text": "Feed a Shroombee a Crimson Fungus!"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          224,
+          400
+        ]
+      }
+    }
+  }
+}

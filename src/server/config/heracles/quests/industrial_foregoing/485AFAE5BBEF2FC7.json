@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690CFF61CE787D43"
+  ],
+  "tasks": {
+    "6C73F85B66281095": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:animal_feeder"
+    },
+    "30C6C62788FBA50C": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:animal_rancher"
+    },
+    "7C6B876555C4EA90": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:animal_baby_separator"
+    }
+  },
+  "rewards": {
+    "19210F4E78C3B032": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Animals",
+    "description": [
+      "<task task=\"6C73F85B66281095\" quest=\"485AFAE5BBEF2FC7\"/>",
+      "<task task=\"30C6C62788FBA50C\" quest=\"485AFAE5BBEF2FC7\"/>",
+      "<task task=\"7C6B876555C4EA90\" quest=\"485AFAE5BBEF2FC7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"19210F4E78C3B032\" quest=\"485AFAE5BBEF2FC7\"/>"
+    ],
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          192,
+          -80
+        ]
+      }
+    }
+  }
+}

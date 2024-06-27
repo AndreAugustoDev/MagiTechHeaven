@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "760F80E1C273C0AD",
+    "4F1FFC02F4EAA2E6"
+  ],
+  "tasks": {
+    "0E6B0D7B3BAC9760": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_nitro"
+    }
+  },
+  "rewards": {
+    "0D5273DE2F25A977": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:solar_panel_nitro",
+    "description": [
+      "<task task=\"0E6B0D7B3BAC9760\" quest=\"393050BEA59F1570\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0D5273DE2F25A977\" quest=\"393050BEA59F1570\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_nitro"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          240,
+          560
+        ]
+      }
+    }
+  }
+}

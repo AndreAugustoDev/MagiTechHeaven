@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6FBE0BF8A7ADBB26"
+  ],
+  "tasks": {
+    "0A25BA85F56FB561": {
+      "type": "heracles:item",
+      "item": "botania:lens_explosive"
+    }
+  },
+  "rewards": {
+    "186E7D9A67A97FAF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:lens_explosive",
+    "description": [
+      "<task task=\"0A25BA85F56FB561\" quest=\"7AD4D212633DAEC8\"/>",
+      "<hr/>",
+      "Imbues a Mana Burst with entropic forces, or in simple terms, turns it into a bomb when it hits something that can't receive Mana.",
+      "<hr/>",
+      "<reward reward=\"186E7D9A67A97FAF\" quest=\"7AD4D212633DAEC8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:lens_explosive"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          448,
+          352
+        ]
+      }
+    }
+  }
+}

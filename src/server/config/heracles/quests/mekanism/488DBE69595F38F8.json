@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "5A081977DB9407EA": {
+      "type": "heracles:item",
+      "item": "mekanism:energized_smelter"
+    }
+  },
+  "rewards": {
+    "43FE96E4A4A00D5C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:raw_iron",
+        "count": 2
+      }
+    },
+    "40AB668F74703AC6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:energized_smelter",
+    "description": [
+      "<h2>Mekanism's Powered Furnace</h2>",
+      "<hr/>",
+      "<task task=\"5A081977DB9407EA\" quest=\"488DBE69595F38F8\"/>",
+      "<hr/>",
+      "This machine smelts items.",
+      "<br/>",
+      "It can be upgraded into a Smelting Factory, increasing the total number of smelting slots up to a maximum of 9.",
+      "<hr/>",
+      "<reward reward=\"43FE96E4A4A00D5C\" quest=\"488DBE69595F38F8\"/>",
+      "<reward reward=\"40AB668F74703AC6\" quest=\"488DBE69595F38F8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:energized_smelter"
+    },
+    "subtitle": {
+      "text": "Mekanism's Powered Furnace"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -192,
+          -16
+        ]
+      }
+    }
+  }
+}

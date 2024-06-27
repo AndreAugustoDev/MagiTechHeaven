@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "tasks": {
+    "3E7F26D68D9A166B": {
+      "title": "Storage",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "570FFAC4E65BBF46": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.storage.basic",
+    "description": [
+      "<task task=\"3E7F26D68D9A166B\" quest=\"5A94A2664BFDD7B9\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.storage.desc.basic</translate></p>",
+      "<hr/>",
+      "<reward reward=\"570FFAC4E65BBF46\" quest=\"5A94A2664BFDD7B9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          144,
+          -48
+        ]
+      }
+    }
+  }
+}

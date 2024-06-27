@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "18EADBAFC932F864"
+  ],
+  "tasks": {
+    "7F08D4E77359BF4A": {
+      "type": "heracles:item",
+      "item": "#minecraft:wool",
+      "amount": 3,
+      "collection": "AUTOMATIC",
+      "title": "Any #minecraft:wool",
+      "icon": {
+        "item": {
+          "id": "minecraft:white_wool",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "59024F65DCEB9DAA": {
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "1609AC17930BA465": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.farm.subt.wool"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.farm.subt.wool</translate></h2>",
+      "<hr/>",
+      "<task task=\"7F08D4E77359BF4A\" quest=\"3EA883C0BB7BD38F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.wool</translate></p>",
+      "<hr/>",
+      "<reward reward=\"59024F65DCEB9DAA\" quest=\"3EA883C0BB7BD38F\"/>",
+      "<reward reward=\"1609AC17930BA465\" quest=\"3EA883C0BB7BD38F\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:white_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.wool"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

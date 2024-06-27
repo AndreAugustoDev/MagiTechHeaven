@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "457DE8C154641437"
+  ],
+  "tasks": {
+    "1FBAFEB74535EFAE": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_disintegration"
+    }
+  },
+  "rewards": {
+    "199A28C165BCF1A9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:ritual_disintegration",
+    "description": [
+      "<task task=\"1FBAFEB74535EFAE\" quest=\"40407D2CDC660866\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"199A28C165BCF1A9\" quest=\"40407D2CDC660866\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:ritual_disintegration"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          256,
+          144
+        ]
+      }
+    }
+  }
+}

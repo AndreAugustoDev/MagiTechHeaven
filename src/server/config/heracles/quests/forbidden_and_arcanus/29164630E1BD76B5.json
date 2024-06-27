@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5523A71F1688EA88"
+  ],
+  "tasks": {
+    "6B4884DE48C80B1C": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "forbidden_arcanus:arcane_crystal"
+    }
+  },
+  "rewards": {
+    "12BE86FC704EBBBF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Arcane Crystals",
+    "description": [
+      "<task task=\"6B4884DE48C80B1C\" quest=\"29164630E1BD76B5\"/>",
+      "<hr/>",
+      "This is the main resource in the mod. Go out and mine some!",
+      "<hr/>",
+      "<reward reward=\"12BE86FC704EBBBF\" quest=\"29164630E1BD76B5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -224,
+          144
+        ]
+      }
+    }
+  }
+}

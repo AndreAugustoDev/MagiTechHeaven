@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70C5A902C0D26628"
+  ],
+  "tasks": {
+    "3AD34C5C835969B6": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_hoe"
+    }
+  },
+  "rewards": {
+    "68E57DDA535C30D4": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:manasteel_hoe",
+    "description": [
+      "<task task=\"3AD34C5C835969B6\" quest=\"609284EA5EDD6A64\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"68E57DDA535C30D4\" quest=\"609284EA5EDD6A64\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_hoe"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          432,
+          0
+        ]
+      }
+    }
+  }
+}

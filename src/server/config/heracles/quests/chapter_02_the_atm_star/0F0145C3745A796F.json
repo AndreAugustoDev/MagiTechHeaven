@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "2C89CEC05741A438": {
+      "type": "heracles:item",
+      "item": "ae2:silicon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4B30031FFD9A209B": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2C89CEC05741A438\" quest=\"0F0145C3745A796F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.storage</translate></p>",
+      "<hr/>",
+      "<reward reward=\"4B30031FFD9A209B\" quest=\"0F0145C3745A796F\"/>"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -112,
+          416
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ars_nouveau:archwood_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.storage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

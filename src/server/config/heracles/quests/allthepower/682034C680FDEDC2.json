@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "477B411F84342EEA"
+  ],
+  "tasks": {
+    "4FC7F1A8F2BDEF93": {
+      "title": "Advanced Mekanism Chapter",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "4897BCA1A6B1D623": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4FC7F1A8F2BDEF93\" quest=\"682034C680FDEDC2\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.more</translate></p>",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:1}",
+      "<hr/>",
+      "<reward reward=\"4897BCA1A6B1D623\" quest=\"682034C680FDEDC2\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          96,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:green_wool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.more"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

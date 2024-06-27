@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {
+    "6621F880669CE61F": {
+      "type": "heracles:item",
+      "item": "occultism:datura_seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6621F880669CE61F\" quest=\"2435B6D970F48DF8\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.occultism",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C507C004144BFEE\"}, \"text\": \"Click here to check out the Occultism questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          -192,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "occultism:datura_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.occultism"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

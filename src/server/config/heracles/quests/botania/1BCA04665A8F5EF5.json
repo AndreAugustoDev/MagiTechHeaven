@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "64D7F9E3A9A910FC": {
+      "type": "heracles:item",
+      "item": "botania:elementium_hoe"
+    }
+  },
+  "rewards": {
+    "74433A30F54CDA76": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:elementium_hoe",
+    "description": [
+      "<task task=\"64D7F9E3A9A910FC\" quest=\"1BCA04665A8F5EF5\"/>",
+      "<hr/>",
+      "Instantly moisten farmland it creates. Do we know if there is a better word for that?",
+      "<hr/>",
+      "<reward reward=\"74433A30F54CDA76\" quest=\"1BCA04665A8F5EF5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:elementium_hoe"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          688,
+          0
+        ]
+      }
+    }
+  }
+}

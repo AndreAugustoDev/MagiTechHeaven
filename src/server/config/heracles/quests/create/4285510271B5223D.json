@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17885C2DE986F1BD"
+  ],
+  "tasks": {
+    "1840DB80F48921E2": {
+      "type": "heracles:item",
+      "item": "create:gearbox"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:gearbox",
+    "description": [
+      "<task task=\"1840DB80F48921E2\" quest=\"4285510271B5223D\"/>",
+      "<hr/>",
+      "The &&n&&5Gearbox&&r can rotate the direction of the rotation in any direction by 90 degrees."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:gearbox"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          208,
+          80
+        ]
+      }
+    }
+  }
+}

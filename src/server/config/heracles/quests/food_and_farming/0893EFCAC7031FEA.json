@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "1D48298525EEADC9",
+    "659A903F97F93BE2"
+  ],
+  "tasks": {
+    "1AA73DEFAA50FDF6": {
+      "type": "heracles:item",
+      "item": "minecraft:cake",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2C168199050CC470": {
+      "item": {
+        "id": "minecraft:cake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "7F528DE479E680AE": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1AA73DEFAA50FDF6\" quest=\"0893EFCAC7031FEA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.farm.desc.cake</translate></p>",
+      "<hr/>",
+      "<reward reward=\"2C168199050CC470\" quest=\"0893EFCAC7031FEA\"/>",
+      "<reward reward=\"7F528DE479E680AE\" quest=\"0893EFCAC7031FEA\"/>"
+    ],
+    "groups": {
+      "Food and Farming": {
+        "position": [
+          -264,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.farm.cake"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A20210242A1C865"
+  ],
+  "tasks": {
+    "258C1DEBF18D2EBA": {
+      "type": "heracles:item",
+      "item": "botania:conjuration_catalyst"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: botania:conjuration_catalyst",
+    "description": [
+      "<task task=\"258C1DEBF18D2EBA\" quest=\"1DCFC67A8E3DCA2C\"/>",
+      "<hr/>",
+      "Similar to the Alchemy Catalyst, when placed under a Mana Pool, the &&9Conjuration Catalyst&&r unlocks the abillity to use conjuration recipes. "
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:conjuration_catalyst"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          624,
+          128
+        ]
+      }
+    }
+  }
+}

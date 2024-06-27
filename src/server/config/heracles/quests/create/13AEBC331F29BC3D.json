@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F16498769DFB3B0"
+  ],
+  "tasks": {
+    "4D2A907287515990": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "create:belt_connector"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:belt_connector",
+    "description": [
+      "<task task=\"4D2A907287515990\" quest=\"13AEBC331F29BC3D\"/>",
+      "<hr/>",
+      "&&n&&5Belts&&r can be placed between two &&n&&5Shafts&&r to transfer mobs/items or to simply transfer rotational energy from one point to another.",
+      "<br/>",
+      "The &&n&&5Shafts&&r must be at either 45, 90 or 180 degrees from each other."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:belt_connector"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          -144
+        ]
+      }
+    }
+  }
+}

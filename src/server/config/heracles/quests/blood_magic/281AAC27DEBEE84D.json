@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1F3B9803AFAEED5F"
+  ],
+  "tasks": {
+    "19EF9DDE6B18A8B5": {
+      "type": "heracles:item",
+      "item": "bloodmagic:divinationsigil"
+    }
+  },
+  "rewards": {
+    "7F59BF8F2886B028": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: bloodmagic:divinationsigil",
+    "description": [
+      "<task task=\"19EF9DDE6B18A8B5\" quest=\"281AAC27DEBEE84D\"/>",
+      "<hr/>",
+      "The &&9Divination Sigil&&r is the first Sigil we'll be making.",
+      "<br/>",
+      "This Sigil has two primary uses:",
+      "<br/>",
+      "1) When you right-click with the Sigil in your hand, it will display the amount of LP you have in your Soul Network.",
+      "<br/>",
+      "2) If you right-click a Blood Altar with it, you'll see how much LP is stored, the max it can store, and what tier the altar is.",
+      "<hr/>",
+      "<reward reward=\"7F59BF8F2886B028\" quest=\"281AAC27DEBEE84D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bloodmagic:divinationsigil"
+    },
+    "groups": {
+      "Blood Magic": {
+        "position": [
+          -832,
+          -208
+        ]
+      }
+    }
+  }
+}

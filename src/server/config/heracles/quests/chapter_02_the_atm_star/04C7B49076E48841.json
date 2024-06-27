@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "71E08AA81089133B"
+  ],
+  "tasks": {
+    "444444887EC7E37A": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:pressure_chamber_wall",
+      "amount": 95,
+      "collection": "AUTOMATIC"
+    },
+    "372FC49D78C412AC": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:pressure_chamber_interface",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    },
+    "7ECD45FC2E6662E3": {
+      "type": "heracles:item",
+      "item": "pneumaticcraft:pressure_chamber_valve",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"444444887EC7E37A\" quest=\"04C7B49076E48841\"/>",
+      "<task task=\"7ECD45FC2E6662E3\" quest=\"04C7B49076E48841\"/>",
+      "<task task=\"372FC49D78C412AC\" quest=\"04C7B49076E48841\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.pressure}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          256,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.pressure"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

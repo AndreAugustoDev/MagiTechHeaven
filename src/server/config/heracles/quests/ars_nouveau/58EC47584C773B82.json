@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D862A3D3F83CA26"
+  ],
+  "tasks": {
+    "6CB12C3C6401287A": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "ars_nouveau:magebloom_crop"
+    }
+  },
+  "rewards": {
+    "3CA2DD868A5F9D2D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:magebloom_crop",
+        "count": 2
+      }
+    },
+    "26C30D4557C630DC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Magebloom Seed",
+    "description": [
+      "<h2>Growing Magic</h2>",
+      "<hr/>",
+      "<task task=\"6CB12C3C6401287A\" quest=\"58EC47584C773B82\"/>",
+      "<hr/>",
+      "Using our Enchanting Apparatus structure, we'll want to craft our first seed, the &&5Magebloom Seed&&r.",
+      "<br/>",
+      "This will be used to create us some magical clothing!",
+      "<hr/>",
+      "<reward reward=\"3CA2DD868A5F9D2D\" quest=\"58EC47584C773B82\"/>",
+      "<reward reward=\"26C30D4557C630DC\" quest=\"58EC47584C773B82\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:magebloom_crop"
+    },
+    "subtitle": {
+      "text": "Growing Magic"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          416,
+          0
+        ]
+      }
+    }
+  }
+}

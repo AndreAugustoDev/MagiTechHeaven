@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "681E89DB12A21A09"
+  ],
+  "tasks": {
+    "08D68241A798A476": {
+      "type": "heracles:item",
+      "item": "croptopia:toast",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6BC6FF38041DD59C": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"08D68241A798A476\" quest=\"2114BABF547A0E2A\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.toast</translate></p>",
+      "<hr/>",
+      "<reward reward=\"6BC6FF38041DD59C\" quest=\"2114BABF547A0E2A\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          -64,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:toast",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.toast"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

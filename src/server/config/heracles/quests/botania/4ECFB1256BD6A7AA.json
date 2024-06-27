@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "634E71DBAE81D197"
+  ],
+  "tasks": {
+    "27FBB10E434FBD29": {
+      "type": "heracles:item",
+      "item": "botania:corporea_funnel"
+    }
+  },
+  "rewards": {
+    "0924F6AEDAFE95F8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:corporea_funnel",
+    "description": [
+      "<task task=\"27FBB10E434FBD29\" quest=\"4ECFB1256BD6A7AA\"/>",
+      "<hr/>",
+      "The &&9Corporea Funnel&&r is a simple version of the Index, and can be used to request items from the Network by giving it a redstone signal.",
+      "<br/>",
+      "To tell the Funnel which item to request, place the item in an Item Frame on the block. If the Funnel has more than one item frame on it, the Funnel will pick one at random. Rotating the item in the frame will change the request quantity.",
+      "<br/>",
+      "For more information, make sure to check out the &&aLexica Botania&&r.",
+      "<hr/>",
+      "<reward reward=\"0924F6AEDAFE95F8\" quest=\"4ECFB1256BD6A7AA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:corporea_funnel"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          624,
+          208
+        ]
+      }
+    }
+  }
+}

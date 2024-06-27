@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "7B5C9FA866C0588A": {
+      "title": "Stabilized RF Coil",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:rf_coil_storage_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_storage_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_storage_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_storage_augment_3"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_storage_augment_4"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:rf_coil_storage_augment_5"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "204DB02FD7E9A4F6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Stabilized RF Coil",
+    "description": [
+      "<h2>Increases RF Capacity, and slightly increases the RF Transfer</h2>",
+      "<hr/>",
+      "<task task=\"7B5C9FA866C0588A\" quest=\"3320ADFD7DC4CA00\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"204DB02FD7E9A4F6\" quest=\"3320ADFD7DC4CA00\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases RF Capacity, and slightly increases the RF Transfer"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          80,
+          102
+        ]
+      }
+    }
+  }
+}

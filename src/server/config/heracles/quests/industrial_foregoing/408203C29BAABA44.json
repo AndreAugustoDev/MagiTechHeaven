@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0E8647B8EB4AAC41"
+  ],
+  "tasks": {
+    "2B1369FBDB43CED5": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:pink_slime_ingot"
+    }
+  },
+  "rewards": {
+    "2638272F9CC5DC85": {
+      "type": "heracles:item",
+      "item": {
+        "id": "industrialforegoing:pink_slime_ingot"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: industrialforegoing:pink_slime_ingot",
+    "description": [
+      "<task task=\"2B1369FBDB43CED5\" quest=\"408203C29BAABA44\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2638272F9CC5DC85\" quest=\"408203C29BAABA44\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          384,
+          0
+        ]
+      }
+    }
+  }
+}

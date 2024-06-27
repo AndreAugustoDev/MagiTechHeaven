@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "263220DCCDB90E29"
+  ],
+  "tasks": {
+    "443DCB7E2E45F3DD": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_injection_chamber"
+    }
+  },
+  "rewards": {
+    "241F3906AE9BC520": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:alloy_infused",
+        "count": 2
+      }
+    },
+    "2216852A9C647509": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:chemical_injection_chamber",
+    "description": [
+      "<h2>Turns 3 Raw Ore into 8 Ore Shards</h2>",
+      "<hr/>",
+      "<task task=\"443DCB7E2E45F3DD\" quest=\"4F1C04C0F6769825\"/>",
+      "<hr/>",
+      "This machine is the next step to your Ore Processing Factory. Add this to the left of your Purification Chamber to build on to your current ore factory!",
+      "<br/>",
+      "This machine requires &&aHydrogen Chloride&&r to operate. To find out how to create Hydrogen Chloride, follow the quest above!",
+      "<hr/>",
+      "<reward reward=\"241F3906AE9BC520\" quest=\"4F1C04C0F6769825\"/>",
+      "<reward reward=\"2216852A9C647509\" quest=\"4F1C04C0F6769825\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:chemical_injection_chamber"
+    },
+    "subtitle": {
+      "text": "Turns 3 Raw Ore into 8 Ore Shards"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          160,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DDF87A1E5F5D009"
+  ],
+  "tasks": {
+    "216E5B85948E6E87": {
+      "type": "heracles:item",
+      "item": "powah:crystal_spirited"
+    }
+  },
+  "rewards": {
+    "0012C27504547683": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Tier: §2Spirited§r",
+    "description": [
+      "<task task=\"216E5B85948E6E87\" quest=\"25EFC21A3C48E0B6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0012C27504547683\" quest=\"25EFC21A3C48E0B6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:crystal_spirited"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -16,
+          528
+        ]
+      }
+    }
+  }
+}

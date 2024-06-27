@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "131EC039435B8878"
+  ],
+  "tasks": {
+    "71E81E13769F2FF0": {
+      "title": "ZomBee Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:zombie"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "5AE0AE1E13A9AD43": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "ZomBee",
+    "description": [
+      "<h2>Spawns in empty Advanced Beehives in a dark place</h2>",
+      "<hr/>",
+      "<task task=\"71E81E13769F2FF0\" quest=\"371E09ED2A3F6BDC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5AE0AE1E13A9AD43\" quest=\"371E09ED2A3F6BDC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:zombie_head"
+    },
+    "subtitle": {
+      "text": "Spawns in empty Advanced Beehives in a dark place"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -96,
+          400
+        ]
+      }
+    }
+  }
+}

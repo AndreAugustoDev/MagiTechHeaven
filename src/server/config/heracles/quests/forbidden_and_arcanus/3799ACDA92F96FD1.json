@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "13E5783AD64E3BC2"
+  ],
+  "tasks": {
+    "4FF431D0496FC0E5": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:lens_of_veritatis"
+    }
+  },
+  "rewards": {
+    "361FF13D5A5429DB": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: forbidden_arcanus:lens_of_veritatis",
+    "description": [
+      "<task task=\"4FF431D0496FC0E5\" quest=\"3799ACDA92F96FD1\"/>",
+      "<hr/>",
+      "The &&9Lens of Veritatis&&r is used to see Aureal entities.",
+      "<br/>",
+      "These are entities that will grant Aureal when killed, but will also increase your corruption....",
+      "<hr/>",
+      "<reward reward=\"361FF13D5A5429DB\" quest=\"3799ACDA92F96FD1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:lens_of_veritatis"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          -272,
+          80
+        ]
+      }
+    }
+  }
+}

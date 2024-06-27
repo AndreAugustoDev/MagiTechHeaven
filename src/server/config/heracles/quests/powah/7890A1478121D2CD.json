@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7678B5DD1339833E",
+    "66ECC26BC81D0093"
+  ],
+  "tasks": {
+    "487DA52CCD1741A3": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_basic"
+    }
+  },
+  "rewards": {
+    "3A6C46220F774D35": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:solar_panel_basic",
+    "description": [
+      "<task task=\"487DA52CCD1741A3\" quest=\"7890A1478121D2CD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3A6C46220F774D35\" quest=\"7890A1478121D2CD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_basic"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          240,
+          400
+        ]
+      }
+    }
+  }
+}

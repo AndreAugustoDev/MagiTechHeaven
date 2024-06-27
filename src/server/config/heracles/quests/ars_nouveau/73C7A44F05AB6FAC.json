@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F3602F5600A6221"
+  ],
+  "tasks": {
+    "0DB8F107D55B420F": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_orbit"
+    }
+  },
+  "rewards": {
+    "5A905E4BD4F8092C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_orbit",
+    "description": [
+      "<task task=\"0DB8F107D55B420F\" quest=\"73C7A44F05AB6FAC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A905E4BD4F8092C\" quest=\"73C7A44F05AB6FAC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_orbit"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          -272
+        ]
+      }
+    }
+  }
+}

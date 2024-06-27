@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "17419401147B5C02"
+  ],
+  "tasks": {
+    "1E28BFC0AB5CF2FE": {
+      "title": "Experience Comb",
+      "icon": {
+        "type": "heracles:item",
+        "item": "productivebees:configurable_honeycomb"
+      },
+      "type": "heracles:item",
+      "item": "itemfilters:strong_nbt",
+      "nbt": {
+        "value": {
+          "EntityTag": {
+            "type": "productivebees:experience"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "5477AEFA094D2108": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Experience Bee",
+    "description": [
+      "<h2>Lapis + Emerald</h2>",
+      "<hr/>",
+      "<task task=\"1E28BFC0AB5CF2FE\" quest=\"0FB1FC640471363A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5477AEFA094D2108\" quest=\"0FB1FC640471363A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:experience_bottle"
+    },
+    "subtitle": {
+      "text": "Lapis + Emerald"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -32,
+          496
+        ]
+      }
+    }
+  }
+}

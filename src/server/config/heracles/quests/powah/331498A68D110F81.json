@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5E090C9BB4DAA5D4"
+  ],
+  "tasks": {
+    "5E8665A0E3D4A148": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_hardened"
+    }
+  },
+  "rewards": {
+    "368C8CAD13698AB8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_cell_hardened",
+    "description": [
+      "<task task=\"5E8665A0E3D4A148\" quest=\"331498A68D110F81\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"368C8CAD13698AB8\" quest=\"331498A68D110F81\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_hardened"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          432
+        ]
+      }
+    }
+  }
+}

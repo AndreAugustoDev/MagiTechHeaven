@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2FA6B8A1C8713DE0"
+  ],
+  "tasks": {
+    "2DB99A45CE808456": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:dragon_egg_seeds"
+    }
+  },
+  "rewards": {
+    "3B4FCF02557044C9": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:dragon_egg_seeds",
+    "description": [
+      "<task task=\"2DB99A45CE808456\" quest=\"6AB1C7B6251FE9F5\"/>",
+      "<hr/>",
+      "Requires a Crux (Next Quest)",
+      "<hr/>",
+      "<reward reward=\"3B4FCF02557044C9\" quest=\"6AB1C7B6251FE9F5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:dragon_egg_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          144,
+          -144
+        ]
+      }
+    }
+  }
+}

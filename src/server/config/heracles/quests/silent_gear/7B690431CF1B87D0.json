@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "52EB902E76829EBB"
+  ],
+  "tasks": {
+    "1ABEFFE6204BD2AD": {
+      "type": "heracles:item",
+      "item": "silentgear:template_board",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "3599BAFFC6D53F5E": {
+      "type": "heracles:item",
+      "item": "silentgear:pickaxe_template",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "46CF8A25D6B2713A": {
+      "type": "heracles:item",
+      "item": "silentgear:pickaxe_head",
+      "nbt": {
+        "Materials": [
+          {
+            "ID": "silentgear:example"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any Pickaxe Head Part"
+    }
+  },
+  "rewards": {
+    "70451634EBBAFA04": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "02F9EAB98F91686F": {
+      "item": {
+        "id": "silentgear:template_board",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1ABEFFE6204BD2AD\" quest=\"7B690431CF1B87D0\"/>",
+      "<task task=\"3599BAFFC6D53F5E\" quest=\"7B690431CF1B87D0\"/>",
+      "<task task=\"46CF8A25D6B2713A\" quest=\"7B690431CF1B87D0\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.SG.desc.template</translate></p>",
+      "<hr/>",
+      "<reward reward=\"02F9EAB98F91686F\" quest=\"7B690431CF1B87D0\"/>",
+      "<reward reward=\"70451634EBBAFA04\" quest=\"7B690431CF1B87D0\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          -160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:pickaxe_head",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.template"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

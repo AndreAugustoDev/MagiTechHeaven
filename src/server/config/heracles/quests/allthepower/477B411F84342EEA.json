@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "76EA017B12E8F01B"
+  ],
+  "tasks": {},
+  "rewards": {
+    "039E00B83AAA154A": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "7E2E1F9ED0EEB289": {
+      "item": {
+        "id": "mekanism:steel_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.power.subt.cube"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.power.subt.cube</translate></h2>",
+      "<hr/>",
+      "<task task=\"76378687551A79C3\" quest=\"477B411F84342EEA\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.power.desc.cube</translate></p>",
+      "<hr/>",
+      "<reward reward=\"039E00B83AAA154A\" quest=\"477B411F84342EEA\"/>",
+      "<reward reward=\"7E2E1F9ED0EEB289\" quest=\"477B411F84342EEA\"/>"
+    ],
+    "groups": {
+      "AllThePower": {
+        "position": [
+          96,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.power.cube"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

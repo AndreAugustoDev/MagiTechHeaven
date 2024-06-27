@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "20B495B4B8B95636"
+  ],
+  "tasks": {
+    "4F68A985DED494B6": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_helmet"
+    },
+    "51FBF0E6CAAF10EB": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_chestplate"
+    },
+    "2D69FAD94A981FCD": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_leggings"
+    },
+    "528B85B2554A3691": {
+      "type": "heracles:item",
+      "item": "forbidden_arcanus:draco_arcanus_boots"
+    }
+  },
+  "rewards": {
+    "42F0BCA9799206B2": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "display": {
+    "title": "§1Draco Arcanus Armor§r",
+    "description": [
+      "<h2>Better than Netherite</h2>",
+      "<hr/>",
+      "<task task=\"4F68A985DED494B6\" quest=\"4DA1C95BED78A662\"/>",
+      "<task task=\"51FBF0E6CAAF10EB\" quest=\"4DA1C95BED78A662\"/>",
+      "<task task=\"2D69FAD94A981FCD\" quest=\"4DA1C95BED78A662\"/>",
+      "<task task=\"528B85B2554A3691\" quest=\"4DA1C95BED78A662\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"42F0BCA9799206B2\" quest=\"4DA1C95BED78A662\"/>"
+    ],
+    "subtitle": {
+      "text": "Better than Netherite"
+    },
+    "groups": {
+      "Forbidden and Arcanus": {
+        "position": [
+          96,
+          272
+        ]
+      }
+    }
+  }
+}

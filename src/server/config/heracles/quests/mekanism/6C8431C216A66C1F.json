@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "46AB23E922C51517"
+  ],
+  "tasks": {
+    "62A00D9DD3A8CA8E": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_logistical_transporter"
+    }
+  },
+  "rewards": {
+    "32495EA2EB9D601C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_logistical_transporter",
+    "description": [
+      "<task task=\"62A00D9DD3A8CA8E\" quest=\"6C8431C216A66C1F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"32495EA2EB9D601C\" quest=\"6C8431C216A66C1F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_logistical_transporter"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          64,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Refined Crafter Proxy"
+filename = "refinedcrafterproxy-4.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7cxwj8pJ/versions/UPSlaxr4/refinedcrafterproxy-4.1.2.jar"
+hash-format = "sha1"
+hash = "8c544a62cae151fe9f23580c58cb7ef8a0a30655"
+
+[update]
+[update.modrinth]
+mod-id = "7cxwj8pJ"
+version = "UPSlaxr4"

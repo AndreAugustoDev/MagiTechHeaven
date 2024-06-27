@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C5936697C9B3716",
+    "562BD37539EE318E"
+  ],
+  "tasks": {
+    "1F8C7940E92E8229": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_blazing"
+    }
+  },
+  "rewards": {
+    "22B65065260F8A5F": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_gate_blazing",
+    "description": [
+      "<task task=\"1F8C7940E92E8229\" quest=\"1F55B2FA187F63DD\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"22B65065260F8A5F\" quest=\"1F55B2FA187F63DD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_gate_blazing"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          64,
+          464
+        ]
+      }
+    }
+  }
+}

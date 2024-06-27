@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54D8B9CB3F98040F"
+  ],
+  "tasks": {},
+  "rewards": {
+    "3D24F967DBB74D71": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mekanism:ultimate_induction_cell"
+      }
+    },
+    "5FAD66DBACDEA6ED": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 1000
+    }
+  },
+  "display": {
+    "title": "§dThe End Game Power Source§r",
+    "description": [
+      "The &&dFusion Reactor&&r can produce up to 200MRF/t on its own, but first we need to understand some mechanics.",
+      "<br/>",
+      "The easiest way to produce power is by pumping in Deuterium and Tritium separately, then controlling how much fuel is burned using the &&aInjection Rate&&r in the &&cFuel Tab&&r.",
+      "<br/>",
+      "This has to be an even number with a max of 98, as it combines the D-T fuel inside of the Reactor itself. The consumption of each fuel is equal to half of the Injection Rate per tick, meaning 49mb/t of each for the max.",
+      "<br/>",
+      "However, you can directly inject &&dD-T Fuel&&r, but will not be able to control the Injection Rate. This will create massive amounts of power per tick, but at a much higher fuel consumption rate of 500mb/t of each fuel.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/fusion_fuelui1.png width:175 height:150 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3D24F967DBB74D71\" quest=\"26D306418545A2D6\"/>",
+      "<reward reward=\"5FAD66DBACDEA6ED\" quest=\"26D306418545A2D6\"/>"
+    ],
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          640,
+          -224
+        ]
+      }
+    }
+  }
+}

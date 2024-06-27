@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D4D88B8BE881351"
+  ],
+  "tasks": {
+    "15C6E9C02D1FBEC0": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tier 2 Glyphs",
+    "description": [
+      "<task task=\"15C6E9C02D1FBEC0\" quest=\"63DD7F5A4441ACE7\"/>",
+      "<hr/>",
+      "Tier 2 Glyphs require 5 levels of experience to be made.",
+      "<br/>",
+      "They also require a &&9Mage's Spell Book&&r to create."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -32,
+          -128
+        ]
+      }
+    }
+  }
+}

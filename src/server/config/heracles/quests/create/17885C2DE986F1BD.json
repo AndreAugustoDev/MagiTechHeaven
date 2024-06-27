@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57A7A5C79389A96A"
+  ],
+  "tasks": {
+    "0341E5F9B7361D1F": {
+      "type": "heracles:item",
+      "item": "create:andesite_casing"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: create:andesite_casing",
+    "description": [
+      "<task task=\"0341E5F9B7361D1F\" quest=\"17885C2DE986F1BD\"/>",
+      "<hr/>",
+      "&&n&&5Casings&&r are used as a crafting ingredient for most blocks."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_casing"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          144,
+          0
+        ]
+      }
+    }
+  }
+}

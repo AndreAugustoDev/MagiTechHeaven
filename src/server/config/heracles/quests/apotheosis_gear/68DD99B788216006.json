@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "67422A235EBAD4CF"
+  ],
+  "tasks": {
+    "2FF1889B361964B9": {
+      "advancements": [
+        "apotheosis:affix/mythic"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "078C3AA7A00D3A57": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2FF1889B361964B9\" quest=\"68DD99B788216006\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.affixes.desc.mythic</translate></p>",
+      "<hr/>",
+      "<reward reward=\"078C3AA7A00D3A57\" quest=\"68DD99B788216006\"/>"
+    ],
+    "groups": {
+      "Apotheosis Gear": {
+        "position": [
+          -112,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.affixes.mythic"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

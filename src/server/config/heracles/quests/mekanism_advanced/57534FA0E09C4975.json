@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "12D271359D48210E"
+  ],
+  "tasks": {
+    "6C40D1088C211675": {
+      "type": "heracles:item",
+      "item": "mekanism:solar_neutron_activator"
+    }
+  },
+  "rewards": {
+    "464CDFABB1935067": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Fueling the Fusion Reactor: §eTritium§r",
+    "description": [
+      "<task task=\"6C40D1088C211675\" quest=\"57534FA0E09C4975\"/>",
+      "<hr/>",
+      "By now, you're already making &&aLithium&&r. Pump that into a Solar Neutron Activator to create &&eTritium&&r.",
+      "<hr/>",
+      "<reward reward=\"464CDFABB1935067\" quest=\"57534FA0E09C4975\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:solar_neutron_activator"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          400,
+          -240
+        ]
+      }
+    }
+  }
+}

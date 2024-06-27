@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "6A2B2C5E2ADCE366"
+  ],
+  "tasks": {
+    "256F1CCC79CEB2D5": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5AE4783A5679A0EC": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "228B88E9317CB137": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.ironBP"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.ironBP</translate></h2>",
+      "<hr/>",
+      "<task task=\"256F1CCC79CEB2D5\" quest=\"0E057B7F76401421\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5AE4783A5679A0EC\" quest=\"0E057B7F76401421\"/>",
+      "<reward reward=\"228B88E9317CB137\" quest=\"0E057B7F76401421\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          -288,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:iron_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.ironBP"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

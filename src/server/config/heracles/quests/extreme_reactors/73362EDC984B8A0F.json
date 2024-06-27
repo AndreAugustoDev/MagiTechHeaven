@@ -1,0 +1,155 @@
+{
+  "dependencies": [
+    "4AD8363D7359A072"
+  ],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.subt.reactors_moderators</translate></h2>",
+      "<hr/>",
+      "<task task=\"0D4AE8FBAA953732\" quest=\"73362EDC984B8A0F\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.reactor_moderators</translate></p>",
+      "<hr/>",
+      "<reward reward=\"56D7ED254FC3A540\" quest=\"73362EDC984B8A0F\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -224,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": "itemfilters:or",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.bigreactors.subt.reactors_moderators"
+    },
+    "title": "i18n.quest.bigreactors.reactor_moderators"
+  },
+  "rewards": {
+    "56D7ED254FC3A540": {
+      "amount": 50,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "0D4AE8FBAA953732": {
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "minecraft:iron_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:gold_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:emerald_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:diamond_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:copper_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:platinum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:osmium_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:nickel_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:lead_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:aluminum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:silver_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:tin_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:zinc_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:steel_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:invar_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:electrum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:bronze_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:enderium_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:lumium_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:signalum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:brass_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:manasteel_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:terrasteel_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:elementium_block"
+          },
+          {
+            "Count": 1,
+            "id": "bigreactors:graphite_block"
+          }
+        ]
+      },
+      "title": "Example Moderators",
+      "type": "heracles:item"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "162CE44400A63575"
+  ],
+  "tasks": {
+    "5E51F5B17F77573E": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "rewards": {
+    "44A42C932205CED3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone"
+      }
+    },
+    "36DA06D55E5BB49C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:basic_control_circuit",
+    "description": [
+      "<h2>The Basic Control Circuit</h2>",
+      "<hr/>",
+      "<task task=\"5E51F5B17F77573E\" quest=\"0498A578D0EC3254\"/>",
+      "<hr/>",
+      "Infusing Osmium with Redstone in a Metallurgic Infuser will create you one of these.",
+      "<hr/>",
+      "<reward reward=\"44A42C932205CED3\" quest=\"0498A578D0EC3254\"/>",
+      "<reward reward=\"36DA06D55E5BB49C\" quest=\"0498A578D0EC3254\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:basic_control_circuit"
+    },
+    "subtitle": {
+      "text": "The Basic Control Circuit"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -208,
+          -112
+        ]
+      }
+    }
+  }
+}

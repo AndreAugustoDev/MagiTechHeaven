@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "2AF31F1769085641"
+  ],
+  "tasks": {
+    "5DF9AA03A22C4F77": {
+      "type": "heracles:item",
+      "item": "bigreactors:reprocessorcasing",
+      "amount": 52,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5C7121F82848C273": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5DF9AA03A22C4F77\" quest=\"69642A3618E86DED\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.building_frame</translate></p>",
+      "{@pagebreak}",
+      "<p><translate>i18n.quest.bigreactors.desc.building_frame.reprocessor_multiblock</translate></p>",
+      "{image:atm:textures/questpics/extremereactors/reprocessorframe.png width:100 height:175 align:1}",
+      "<br/>",
+      "{@pagebreak}",
+      "<p><translate>i18n.quest.bigreactors.desc.building_frame.reprocessor_full</translate></p>",
+      "{image:atm:textures/questpics/extremereactors/reprocessorfull.png width:100 height:150 align:1}",
+      "<hr/>",
+      "<reward reward=\"5C7121F82848C273\" quest=\"69642A3618E86DED\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          -16,
+          352
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bigreactors:reprocessorcasing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.bigreactors.building_the_frame"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

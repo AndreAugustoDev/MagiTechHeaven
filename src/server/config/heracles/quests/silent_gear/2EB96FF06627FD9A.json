@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "64AB1E133E218173"
+  ],
+  "tasks": {
+    "0A289918540442AE": {
+      "type": "heracles:item",
+      "item": "silentgear:salvager",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1CB3949F1C926540": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "4A6DD2BFE7AB5AA1": {
+      "item": {
+        "id": "silentgear:crimson_iron_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.SG.subt.salvager"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.SG.subt.salvager</translate></h2>",
+      "<hr/>",
+      "<task task=\"0A289918540442AE\" quest=\"2EB96FF06627FD9A\"/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"4A6DD2BFE7AB5AA1\" quest=\"2EB96FF06627FD9A\"/>",
+      "<reward reward=\"1CB3949F1C926540\" quest=\"2EB96FF06627FD9A\"/>"
+    ],
+    "groups": {
+      "Silent Gear": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "silentgear:salvager",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.SG.salvager"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

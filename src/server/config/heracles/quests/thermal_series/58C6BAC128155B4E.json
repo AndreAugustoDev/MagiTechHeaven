@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2C50B0E024C3D92E"
+  ],
+  "tasks": {
+    "497485048E0AD20D": {
+      "title": "Auxiliary Process Sieve",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "thermal:machine_output_augment"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_output_augment_1"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_output_augment_2"
+          },
+          {
+            "Count": 1,
+            "id": "thermal_extra:machine_output_augment_3"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "1672462285E4696D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Auxiliary Process Sieve",
+    "description": [
+      "<h2>Increases Secondary Output</h2>",
+      "<hr/>",
+      "<task task=\"497485048E0AD20D\" quest=\"58C6BAC128155B4E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1672462285E4696D\" quest=\"58C6BAC128155B4E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Increases Secondary Output"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          64,
+          118
+        ]
+      }
+    }
+  }
+}

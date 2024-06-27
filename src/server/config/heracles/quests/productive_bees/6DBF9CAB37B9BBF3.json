@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "66324D7D0C51AEAC"
+  ],
+  "tasks": {
+    "23697EE31757EBEB": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_productivity"
+    }
+  },
+  "rewards": {
+    "532DF28E46411BAA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "productivebees:honey_treat"
+      }
+    },
+    "01C9C90A328265CE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: productivebees:upgrade_productivity",
+    "description": [
+      "<h2>Increases Bee Productivity by 120%</h2>",
+      "<hr/>",
+      "<task task=\"23697EE31757EBEB\" quest=\"6DBF9CAB37B9BBF3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"532DF28E46411BAA\" quest=\"6DBF9CAB37B9BBF3\"/>",
+      "<reward reward=\"01C9C90A328265CE\" quest=\"6DBF9CAB37B9BBF3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "productivebees:upgrade_productivity"
+    },
+    "subtitle": {
+      "text": "Increases Bee Productivity by 120%"
+    },
+    "groups": {
+      "Productive Bees": {
+        "position": [
+          -160,
+          16
+        ]
+      }
+    }
+  }
+}

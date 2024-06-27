@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7E79F52147B606F9"
+  ],
+  "tasks": {
+    "7FAA4F7F27A63395": {
+      "type": "heracles:item",
+      "item": "evilcraft:dark_tank",
+      "nbt": {
+        "Fluid": {
+          "Amount": 0,
+          "FluidName": "minecraft:empty"
+        },
+        "capacity": 16000
+      }
+    }
+  },
+  "rewards": {
+    "3D3EAE032673B96C": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "§aStoring§r §cFluids§r",
+    "description": [
+      "<task task=\"7FAA4F7F27A63395\" quest=\"75CF9EAB75C3907E\"/>",
+      "<hr/>",
+      "Using the power of &&9Dark Gems&&r, we can create &&aDark Tanks&&r.",
+      "<br/>",
+      "These can store 16 buckets of any liquid you want, but you'll probably need this for all of the &&cBlood&&r you'll be collecting.",
+      "<br/>",
+      "Need it to hold more? Just combine it in a crafting grid with another Dark Tank.",
+      "<hr/>",
+      "<reward reward=\"3D3EAE032673B96C\" quest=\"75CF9EAB75C3907E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:dark_tank"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          -48,
+          64
+        ]
+      }
+    }
+  }
+}

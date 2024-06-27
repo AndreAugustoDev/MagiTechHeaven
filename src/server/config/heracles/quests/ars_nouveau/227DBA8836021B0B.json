@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40BC67BDEE15D1DE"
+  ],
+  "tasks": {
+    "55AA5FAABC23709E": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:source_jar"
+    }
+  },
+  "rewards": {
+    "4C615BE675A9F93F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ars_nouveau:source_jar"
+      }
+    },
+    "58396A9107780E32": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:source_jar",
+    "description": [
+      "<h2>Storing Source</h2>",
+      "<hr/>",
+      "<task task=\"55AA5FAABC23709E\" quest=\"227DBA8836021B0B\"/>",
+      "<hr/>",
+      "In Ars Nouveau, the power system for machines is called &&9Source&&r.",
+      "<br/>",
+      "To start collecting some Source, we'll need a Source Jar.",
+      "<br/>",
+      "Source can also be moved with buckets, or by breaking and picking up Source Jars.",
+      "<hr/>",
+      "<reward reward=\"4C615BE675A9F93F\" quest=\"227DBA8836021B0B\"/>",
+      "<reward reward=\"58396A9107780E32\" quest=\"227DBA8836021B0B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:source_jar"
+    },
+    "subtitle": {
+      "text": "Storing Source"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          96,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "dependencies": [
+    "11B8C5F88DCB3BF5"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3C058B0D358129C8\" quest=\"1939BCB2920B6C34\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter2.desc.power",
+      "<br/>",
+      "{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5D045EF1AB73DF70\"}, \"text\": \"Click here to check out the AllThePower questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+    ],
+    "groups": {
+      "§aChapter 2§r: §6The ATM Star": {
+        "position": [
+          112,
+          416
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mekanism:creative_energy_cube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter2.power"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

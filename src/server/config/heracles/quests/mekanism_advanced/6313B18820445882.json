@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3FFF9018DA2A2763"
+  ],
+  "tasks": {
+    "0C8EF4390F02EBC4": {
+      "type": "heracles:item",
+      "amount": 52,
+      "item": "mekanismgenerators:turbine_casing"
+    },
+    "3CD4768A3FCA49FF": {
+      "type": "heracles:item",
+      "amount": 52,
+      "item": "mekanism:structural_glass"
+    }
+  },
+  "rewards": {
+    "0963F21E8369E149": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "The §9Industrial Turbine§r",
+    "description": [
+      "<h2>Building the Frame</h2>",
+      "<hr/>",
+      "<task task=\"0C8EF4390F02EBC4\" quest=\"6313B18820445882\"/>",
+      "<task task=\"3CD4768A3FCA49FF\" quest=\"6313B18820445882\"/>",
+      "<hr/>",
+      "The &&9Industrial Turbine&&r is a massive multiblock structure used to convert &&cHeated Coolant&&r into power. The minimum size is 5x5x5, with the maximum size being 17x17x18.",
+      "<br/>",
+      "To build the Turbine, we'll need several blocks so let's start with the basics.",
+      "<br/>",
+      "Just like most Mekanism multiblocks, the frame must be made out of &&eTurbine Casings&&r. However, instead of Reactor Glass, you can use &&bStructural Glass&&r or Casings for each face.",
+      "<br/>",
+      "We're going to build this Turbine, and the quest requires the exact materials needed.",
+      "<br/>",
+      "{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1</translate></p>",
+      "<hr/>",
+      "<reward reward=\"0963F21E8369E149\" quest=\"6313B18820445882\"/>"
+    ],
+    "subtitle": {
+      "text": "Building the Frame"
+    },
+    "groups": {
+      "Mekanism: Advanced": {
+        "position": [
+          400,
+          16
+        ]
+      }
+    }
+  }
+}

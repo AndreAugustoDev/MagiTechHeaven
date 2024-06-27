@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "603469596723B2A8": {
+      "type": "heracles:item",
+      "item": "botania:rannuncarpus"
+    }
+  },
+  "rewards": {
+    "722B7CC563487E91": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:rannuncarpus",
+    "description": [
+      "<task task=\"603469596723B2A8\" quest=\"0324A530DF0D9D11\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"722B7CC563487E91\" quest=\"0324A530DF0D9D11\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:rannuncarpus"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -128,
+          112
+        ]
+      }
+    }
+  }
+}

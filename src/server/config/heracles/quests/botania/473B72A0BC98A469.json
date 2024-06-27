@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "18EDE2C0E6133C84": {
+      "type": "heracles:item",
+      "item": "botania:solegnolia"
+    }
+  },
+  "rewards": {
+    "7F3497B3CCFBEBB6": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:solegnolia",
+    "description": [
+      "<task task=\"18EDE2C0E6133C84\" quest=\"473B72A0BC98A469\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F3497B3CCFBEBB6\" quest=\"473B72A0BC98A469\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:solegnolia"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -96,
+          112
+        ]
+      }
+    }
+  }
+}

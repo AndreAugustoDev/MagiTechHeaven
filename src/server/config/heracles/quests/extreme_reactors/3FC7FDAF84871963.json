@@ -1,0 +1,156 @@
+{
+  "dependencies": [
+    "4415C9F8DA2D7E68"
+  ],
+  "display": {
+    "description": [
+      "<h2><translate>i18n.quest.bigreactors.creating_turbine_shaft</translate></h2>",
+      "<hr/>",
+      "<task task=\"5D6A9AD111A612EE\" quest=\"3FC7FDAF84871963\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.bigreactors.desc.creating_turbine_shaft</translate></p>",
+      "<hr/>",
+      "<reward reward=\"54346236C9443772\" quest=\"3FC7FDAF84871963\"/>"
+    ],
+    "groups": {
+      "Extreme Reactors": {
+        "position": [
+          16,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": "itemfilters:or",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bigreactors.turbine_coils"
+  },
+  "rewards": {
+    "54346236C9443772": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "5D6A9AD111A612EE": {
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "minecraft:iron_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:gold_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:netherite_block"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:copper_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:platinum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:osmium_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:nickel_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:lead_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:aluminum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:silver_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:tin_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:zinc_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:steel_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:invar_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:electrum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:bronze_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:enderium_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:lumium_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:signalum_block"
+          },
+          {
+            "Count": 1,
+            "id": "alltheores:brass_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:manasteel_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:terrasteel_block"
+          },
+          {
+            "Count": 1,
+            "id": "botania:elementium_block"
+          },
+          {
+            "Count": 1,
+            "id": "bigreactors:ludicrite_block"
+          },
+          {
+            "Count": 1,
+            "id": "bigreactors:ridiculite_block"
+          },
+          {
+            "Count": 1,
+            "id": "bigreactors:inanite_block"
+          },
+          {
+            "Count": 1,
+            "id": "bigreactors:insanite_block"
+          }
+        ]
+      },
+      "title": "Turbine Coils",
+      "type": "heracles:item"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "18A5C86DE82D9671": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_sorter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:enchantment_sorter",
+    "description": [
+      "<task task=\"18A5C86DE82D9671\" quest=\"4A8C60412E59E971\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:enchantment_sorter"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          496,
+          128
+        ]
+      }
+    }
+  }
+}

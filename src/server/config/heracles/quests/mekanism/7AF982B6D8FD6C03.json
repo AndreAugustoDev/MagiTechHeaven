@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DA058C68CF437DC"
+  ],
+  "tasks": {
+    "50A250703B09FA5A": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_energy_cube"
+    }
+  },
+  "rewards": {
+    "375F0416298634FC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:ultimate_energy_cube",
+    "description": [
+      "<task task=\"50A250703B09FA5A\" quest=\"7AF982B6D8FD6C03\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"375F0416298634FC\" quest=\"7AF982B6D8FD6C03\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:ultimate_energy_cube"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -96,
+          250
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "444ACE285311ECB4"
+  ],
+  "display": {
+    "description": [
+      "<task task=\"51471254BFEBDAA7\" quest=\"146232B8504789C1\"/>",
+      "<hr/>",
+      "<reward reward=\"267B3DBA7DED8C3B\" quest=\"146232B8504789C1\"/>",
+      "<reward reward=\"0030F09FB9D2DE22\" quest=\"146232B8504789C1\"/>",
+      "<reward reward=\"03A2CFC2335A776A\" quest=\"146232B8504789C1\"/>"
+    ],
+    "groups": {
+      "Bounty Board": {
+        "position": [
+          -128,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:zombie_head",
+      "type": "heracles:item"
+    },
+    "title": "i18n.quest.bounty.zombie.50"
+  },
+  "rewards": {
+    "0030F09FB9D2DE22": {
+      "item": {
+        "count": 20,
+        "id": "minecraft:rotten_flesh"
+      },
+      "type": "heracles:item"
+    },
+    "03A2CFC2335A776A": {
+      "item": {
+        "count": 10,
+        "id": "minecraft:iron_ingot"
+      },
+      "type": "heracles:item"
+    },
+    "267B3DBA7DED8C3B": {
+      "amount": 50,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "51471254BFEBDAA7": {
+      "amount": 50,
+      "entity": {
+        "type": "minecraft:zombie"
+      },
+      "icon": {
+        "item": "minecraft:zombie_head",
+        "type": "heracles:item"
+      },
+      "title": "i18n.quest.bounty.zombie.50",
+      "type": "heracles:kill_entity"
+    }
+  }
+}

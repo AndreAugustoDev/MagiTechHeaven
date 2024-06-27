@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "4E178CCAC7F85F54"
+  ],
+  "tasks": {},
+  "rewards": {
+    "3DC03EDFFE7D7305": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"15A688893DFADCBC\" quest=\"4C2E9478545AAB38\"/>",
+      "<task task=\"534DF8CF9B8A0012\" quest=\"4C2E9478545AAB38\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.chapter1.desc.atm_upgrades</translate></p>",
+      "<hr/>",
+      "<reward reward=\"3DC03EDFFE7D7305\" quest=\"4C2E9478545AAB38\"/>"
+    ],
+    "groups": {
+      "§aChapter 1§r: §bThe Beginning§r": {
+        "position": [
+          368,
+          352
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.chapter1.atm_upgrades"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

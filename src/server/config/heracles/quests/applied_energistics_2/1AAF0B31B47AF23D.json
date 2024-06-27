@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3DDB0DDA7571B2C1"
+  ],
+  "tasks": {
+    "4D92DB15F45D3F10": {
+      "type": "heracles:item",
+      "item": "ae2:redstone_card"
+    },
+    "651CCE50554D6ABC": {
+      "type": "heracles:item",
+      "item": "ae2:toggle_bus"
+    }
+  },
+  "rewards": {
+    "11376476D428D86A": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "i18n.quest.ae2.redstoneME",
+    "description": [
+      "<task task=\"4D92DB15F45D3F10\" quest=\"1AAF0B31B47AF23D\"/>",
+      "<task task=\"651CCE50554D6ABC\" quest=\"1AAF0B31B47AF23D\"/>",
+      "<hr/>",
+      "<p><translate>i18n.quest.ae2.desc.redstoneME</translate></p>",
+      "<hr/>",
+      "<reward reward=\"11376476D428D86A\" quest=\"1AAF0B31B47AF23D\"/>"
+    ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          544,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "62CE0FFAF6352287"
+  ],
+  "tasks": {
+    "776844C7221C165C": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_speed_0"
+    }
+  },
+  "rewards": {
+    "3F5DB1C3D8F4468D": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: evilcraft:promise_speed_0",
+    "description": [
+      "<h2>Increase the Speed of EvilCraft Machines</h2>",
+      "<hr/>",
+      "<task task=\"776844C7221C165C\" quest=\"1D794DE95C9FF6C7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3F5DB1C3D8F4468D\" quest=\"1D794DE95C9FF6C7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "evilcraft:promise_speed_0"
+    },
+    "subtitle": {
+      "text": "Increase the Speed of EvilCraft Machines"
+    },
+    "groups": {
+      "EvilCraft": {
+        "position": [
+          160,
+          128
+        ]
+      }
+    }
+  }
+}

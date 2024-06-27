@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "31FE4492CDAB3619": {
+      "type": "heracles:item",
+      "item": "botania:jiyuulia"
+    }
+  },
+  "rewards": {
+    "5430B07D113C63BC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:jiyuulia",
+    "description": [
+      "<task task=\"31FE4492CDAB3619\" quest=\"7B6D9EDC4F06104C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5430B07D113C63BC\" quest=\"7B6D9EDC4F06104C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:jiyuulia"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          -64,
+          -16
+        ]
+      }
+    }
+  }
+}

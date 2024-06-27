@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C873491F6F0FFAF"
+  ],
+  "tasks": {
+    "0EE813C344409F59": {
+      "title": "Candles",
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "occultism:candle_white"
+          },
+          {
+            "Count": 1,
+            "id": "minecraft:candle"
+          }
+        ]
+      }
+    },
+    "769255502E2FEAB4": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "occultism:spirit_attuned_crystal"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Preparing for a Ritual: §aCandles§r",
+    "description": [
+      "<task task=\"0EE813C344409F59\" quest=\"6581D4AF1A6DE230\"/>",
+      "<task task=\"769255502E2FEAB4\" quest=\"6581D4AF1A6DE230\"/>",
+      "<hr/>",
+      "Demons like Candles. I think.",
+      "<br/>",
+      "For almost every Ritual to summon our friends, you'll need some Candles. You can create the &&aButcher Knife&&r and kill some pigs, cows, sheep, horses, or even the Trader Llamas to get some &&aTallow&&r to make them. Matter of fact, you should definitely find the Trader Llamas. I hear they make good candles. &&mI totally didn't just make that up&&r.",
+      "<br/>",
+      "Otherwise, Vanilla Candles can also work!",
+      "<br/>",
+      "&&9Spirit Attuned Crystals&&r are also used in several Rituals, so might as well make some now!"
+    ],
+    "groups": {
+      "Occultism": {
+        "position": [
+          432,
+          -32
+        ]
+      }
+    }
+  }
+}

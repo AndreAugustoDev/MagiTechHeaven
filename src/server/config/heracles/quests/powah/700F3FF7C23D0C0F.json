@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "78202A1CF5D86B94",
+    "61A8FAEC4FF18449",
+    "6D88C19F47D0D469"
+  ],
+  "tasks": {
+    "30E35BC580349772": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_starter"
+    }
+  },
+  "rewards": {
+    "6F3E93B1DB1203CC": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 10
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_cell_starter",
+    "description": [
+      "<task task=\"30E35BC580349772\" quest=\"700F3FF7C23D0C0F\"/>",
+      "<hr/>",
+      "The &&5Ender Cell&&r will store power for a channel in your &&7Ender Network&&r. To increase the power capacity of the network, right click on the Ender Cell to open up the interface, then add either a &&aBattery&&r or an &&9Energy Cell&&r to increase the overall capacity.",
+      "<hr/>",
+      "<reward reward=\"6F3E93B1DB1203CC\" quest=\"700F3FF7C23D0C0F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_starter"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          368
+        ]
+      }
+    }
+  }
+}

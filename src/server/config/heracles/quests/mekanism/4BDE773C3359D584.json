@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FC7E9DBF92BE6AA",
+    "4204702AA6FBF40B"
+  ],
+  "tasks": {
+    "171E6682D1578C63": {
+      "type": "heracles:item",
+      "item": "mekanism:robit"
+    }
+  },
+  "rewards": {
+    "733BA4015C409DBE": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: mekanism:robit",
+    "description": [
+      "<h2>A Mini-Robot To Accompany You On Your Travels</h2>",
+      "<hr/>",
+      "<task task=\"171E6682D1578C63\" quest=\"4BDE773C3359D584\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"733BA4015C409DBE\" quest=\"4BDE773C3359D584\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mekanism:robit"
+    },
+    "subtitle": {
+      "text": "A Mini-Robot To Accompany You On Your Travels"
+    },
+    "groups": {
+      "Mekanism": {
+        "position": [
+          -248,
+          80
+        ]
+      }
+    }
+  }
+}

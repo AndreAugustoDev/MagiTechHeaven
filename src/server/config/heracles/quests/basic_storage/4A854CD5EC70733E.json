@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "47BADC501A4E2AD7": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:crafting_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "76DEF2900448AD2B": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "i18n.quest.storage.subt.crafting"
+    },
+    "description": [
+      "<h2><translate>i18n.quest.storage.subt.crafting</translate></h2>",
+      "<hr/>",
+      "<task task=\"47BADC501A4E2AD7\" quest=\"4A854CD5EC70733E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76DEF2900448AD2B\" quest=\"4A854CD5EC70733E\"/>"
+    ],
+    "groups": {
+      "Basic Storage": {
+        "position": [
+          48,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:crafting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "i18n.quest.storage.crafting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

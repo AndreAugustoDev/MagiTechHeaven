@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5F385CBA98795C62"
+  ],
+  "tasks": {
+    "7A3BCB9C631D8FAD": {
+      "type": "heracles:item",
+      "item": "thermal:machine_sawmill"
+    }
+  },
+  "rewards": {
+    "374BE54F4405BC0B": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: thermal:machine_sawmill",
+    "description": [
+      "<task task=\"7A3BCB9C631D8FAD\" quest=\"66321E1F01C36567\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"374BE54F4405BC0B\" quest=\"66321E1F01C36567\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "thermal:machine_sawmill"
+    },
+    "groups": {
+      "Thermal Series": {
+        "position": [
+          -48,
+          -80
+        ]
+      }
+    }
+  }
+}

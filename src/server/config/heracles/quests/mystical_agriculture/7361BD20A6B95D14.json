@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76071C22A73A2026"
+  ],
+  "tasks": {
+    "688CF4D959B2C166": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:lead_seeds"
+    }
+  },
+  "rewards": {
+    "45629DA2AEAFF6C8": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 25
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:lead_seeds",
+    "description": [
+      "<task task=\"688CF4D959B2C166\" quest=\"7361BD20A6B95D14\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"45629DA2AEAFF6C8\" quest=\"7361BD20A6B95D14\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:lead_seeds"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -320,
+          -160
+        ]
+      }
+    }
+  }
+}

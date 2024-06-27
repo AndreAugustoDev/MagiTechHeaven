@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "441C0659ED28D935"
+  ],
+  "tasks": {
+    "75FB9F65DDF0403C": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_craft"
+    }
+  },
+  "rewards": {
+    "3009A2213F18A2FF": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Acquire: ars_nouveau:glyph_craft",
+    "description": [
+      "<task task=\"75FB9F65DDF0403C\" quest=\"07D6CC12D577643E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3009A2213F18A2FF\" quest=\"07D6CC12D577643E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ars_nouveau:glyph_craft"
+    },
+    "groups": {
+      "Ars Nouveau": {
+        "position": [
+          -128,
+          -336
+        ]
+      }
+    }
+  }
+}

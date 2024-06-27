@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "7B3FAF5CA4DD217C"
+  ],
+  "tasks": {
+    "349D8E7F10ADA938": {
+      "type": "heracles:item",
+      "item": "botania:tigerseye"
+    }
+  },
+  "rewards": {
+    "47513B880DB6A741": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:tigerseye",
+    "description": [
+      "<task task=\"349D8E7F10ADA938\" quest=\"5151959325E1F10B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"47513B880DB6A741\" quest=\"5151959325E1F10B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:tigerseye"
+    },
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          112
+        ]
+      }
+    }
+  }
+}

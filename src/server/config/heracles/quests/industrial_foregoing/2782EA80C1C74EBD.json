@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BCCDE24D378F260"
+  ],
+  "tasks": {
+    "3EFA144FCF33A935": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:potion_brewer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: industrialforegoing:potion_brewer",
+    "description": [
+      "<task task=\"3EFA144FCF33A935\" quest=\"2782EA80C1C74EBD\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "industrialforegoing:potion_brewer"
+    },
+    "groups": {
+      "Industrial Foregoing": {
+        "position": [
+          592,
+          64
+        ]
+      }
+    }
+  }
+}
