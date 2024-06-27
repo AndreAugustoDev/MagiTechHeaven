@@ -3,7 +3,7 @@
 
 [core.general]
 	#The ingredient network observation frequency slowdown rate in ticks.
-	ingredientNetworkObserverFrequencyDecreaseFactor = 10
+	ingredientNetworkObserverFrequencyDecreaseFactor = 5
 	#If network change events should be logged. Only enable this when debugging.
 	logChangeEvents = false
 	#When true, use the LONG number format style. Otherwise, use the SHORT style.
@@ -31,7 +31,7 @@
 	#The maximum number of fractional digits to include in the result of the compact operator
 	numberCompactMaximumFractionDigits = 2
 	#The slowest possible frequency in ticks at which ingredient network should be observed.
-	ingredientNetworkObserverFrequencyMax = 20
+	ingredientNetworkObserverFrequencyMax = 80
 	#If the ingredient network observer can work on separate thread.
 	ingredientNetworkObserverEnableMultithreading = true
 	#When enabled, networks will stop ticking and values will not be shown and evaluated again. This can be used to fix crashing networks by temporarily enabling this option.
