@@ -29,7 +29,7 @@
       "<hr/>",
       "<task task=\"4AC0DA5197DEBC7B\" quest=\"2B422B7E0CE3590D\"/>",
       "<hr/>",
-.*"<p><translate>i18n.quest.storage.desc.compacting</translate></p>",
+      "<p><translate>i18n.quest.storage.desc.compacting</translate></p>",
       "<hr/>",
       "<reward reward=\"20DD94A587AC244E\" quest=\"2B422B7E0CE3590D\"/>",
       "<reward reward=\"7438B1DD5423F325\" quest=\"2B422B7E0CE3590D\"/>"

@@ -1,45 +1,17 @@
 {
-  "settings": {},
   "dependencies": [
     "072FBEB0F6F1BC48"
   ],
-  "tasks": {
-    "38E95D826B04DC4F": {
-      "type": "heracles:item",
-      "item": "functionalstorage:ender_drawer"
-    }
-  },
-  "rewards": {
-    "0EEC38A1667399E0": {
-      "type": "heracles:item",
-      "item": {
-        "id": "functionalstorage:gold_upgrade"
-      }
-    },
-    "6F4D2071EA7C3055": {
-      "type": "heracles:xp",
-      "xptype": "points",
-      "amount": 10
-    }
-  },
   "display": {
-    "title": "i18n.quest.storage.enderdrawer",
     "description": [
       "<h2><translate>i18n.quest.storage.subt.enderdrawer</translate></h2>",
       "<hr/>",
       "<task task=\"38E95D826B04DC4F\" quest=\"1A4B1CA7EC15348E\"/>",
       "<hr/>",
-.*"\<translate>i18n.quest.storage.desc.ender<translate>",
+      "<p><translate>i18n.quest.storage.desc.ender</translate></p>",
       "<reward reward=\"0EEC38A1667399E0\" quest=\"1A4B1CA7EC15348E\"/>",
       "<reward reward=\"6F4D2071EA7C3055\" quest=\"1A4B1CA7EC15348E\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "functionalstorage:ender_drawer"
-    },
-    "subtitle": {
-      "text": "i18n.quest.storage.subt.enderdrawer"
-    },
     "groups": {
       "Basic Storage": {
         "position": [
@@ -47,6 +19,34 @@
           -176
         ]
       }
+    },
+    "icon": {
+      "item": "functionalstorage:ender_drawer",
+      "type": "heracles:item"
+    },
+    "subtitle": {
+      "text": "i18n.quest.storage.subt.enderdrawer"
+    },
+    "title": "i18n.quest.storage.enderdrawer"
+  },
+  "rewards": {
+    "0EEC38A1667399E0": {
+      "item": {
+        "id": "functionalstorage:gold_upgrade"
+      },
+      "type": "heracles:item"
+    },
+    "6F4D2071EA7C3055": {
+      "amount": 10,
+      "type": "heracles:xp",
+      "xptype": "points"
+    }
+  },
+  "settings": {},
+  "tasks": {
+    "38E95D826B04DC4F": {
+      "item": "functionalstorage:ender_drawer",
+      "type": "heracles:item"
     }
   }
 }

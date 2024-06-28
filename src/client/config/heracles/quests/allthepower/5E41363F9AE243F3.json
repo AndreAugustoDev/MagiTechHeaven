@@ -1,20 +1,10 @@
 {
   "dependencies": [],
-  "tasks": {
-    "5A8F474927CC1E80": {
-      "title": "i18n.quest.power.mid",
-      "type": "heracles:check"
-    }
-  },
-  "rewards": {},
   "display": {
-    "subtitle": {
-      "text": ""
-    },
     "description": [
       "<task task=\"5A8F474927CC1E80\" quest=\"5E41363F9AE243F3\"/>",
       "<hr/>",
-      "<p><translate>i18n.quest.power.desc.mid}"
+      "<p><translate>i18n.quest.power.desc.mid</translate></p>"
     ],
     "groups": {
       "AllThePower": {
@@ -26,8 +16,8 @@
     },
     "icon": {
       "item": {
-        "id": "powah:dielectric_casing",
-        "count": 1
+        "count": 1,
+        "id": "powah:dielectric_casing"
       },
       "type": "heracles:item"
     },
@@ -36,12 +26,19 @@
       "translate": "i18n.quest.power.mid"
     }
   },
+  "rewards": {},
   "settings": {
-    "showDependencyArrow": true,
-    "repeatable": false,
     "autoClaimRewards": false,
-    "individual_progress": false,
     "hidden": "LOCKED",
+    "individual_progress": false,
+    "repeatable": false,
+    "showDependencyArrow": true,
     "unlockNotification": false
+  },
+  "tasks": {
+    "5A8F474927CC1E80": {
+      "title": "i18n.quest.power.mid",
+      "type": "heracles:check"
+    }
   }
 }

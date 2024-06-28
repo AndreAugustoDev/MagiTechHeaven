@@ -122,7 +122,7 @@ hash = "7f721e6e6601fca458992c08e070d2826ff2362c849642db24904ac942c746e5"
 
 [[files]]
 file = "config/heracles/quests/allthepower/2EB7784D5296F410.json"
-hash = "9989c9a370554d9be4dd736014197cd070c832b6dc26112f8d942dc5e8254dab"
+hash = "2344618e2bc8a58ed97902cca985b0dd8f2943a90ed36420956d1bce822dfe4a"
 
 [[files]]
 file = "config/heracles/quests/allthepower/35ABB0DEE70DF7FD.json"
@@ -170,7 +170,7 @@ hash = "8ea23aadda5e6734a47ba8511e1808ccd9c137b7acbc89ade057536d692058d7"
 
 [[files]]
 file = "config/heracles/quests/allthepower/5E41363F9AE243F3.json"
-hash = "e711f738518f1c1e2a412ae9b2a9454aa7f2c7a548a6422d24a9c9cfebf446a3"
+hash = "1cc6f7752877eaf079dc02ce2ee527d9506094e301e6246e00d3c5cbcff6e4f8"
 
 [[files]]
 file = "config/heracles/quests/allthepower/5F078A574A783B02.json"
@@ -1346,7 +1346,7 @@ hash = "72d17a940cf28379c47616121e5bc70d5fd0903d67adfff64dd1165120806df3"
 
 [[files]]
 file = "config/heracles/quests/basic_storage/1A4B1CA7EC15348E.json"
-hash = "d1899478ebd4ac4b09b5d9f07647db815d1767a3d5458c5e56425438b1b49d5a"
+hash = "c67ae9802bdc69443890d09df35ad6fa396afd836b4928dc3484fe1d7837720f"
 
 [[files]]
 file = "config/heracles/quests/basic_storage/1A739D36D5E3B1AD.json"
@@ -1382,7 +1382,7 @@ hash = "0eb80382d0d2c925df84d82dedb4b5d04718baf06c8a4ade12d13137b4f69b77"
 
 [[files]]
 file = "config/heracles/quests/basic_storage/2B422B7E0CE3590D.json"
-hash = "e60339fbd76823ecc0513841744b53a7d89af7ff0e1b7a3fbaa3827280f0c9c0"
+hash = "53d7e4797c3f6a2b6fd5547c9a320a400f750233f4d3fa233b480cd58f1c1ab9"
 
 [[files]]
 file = "config/heracles/quests/basic_storage/2F9B0C642A6BE30C.json"
